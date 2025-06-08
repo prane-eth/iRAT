@@ -1,0 +1,23 @@
+beautifulsoup4
+datasets
+google-api-python-client>=2.100.0
+gradio
+html2text
+IPython
+jupyter
+langchain
+langchain_community
+loguru
+lxml
+# nest_asyncio
+numpy
+openai
+playwright
+pysafebrowsing
+pytest
+python-dotenv
+readability-lxml
+requests
+sentence-transformers
+simple_cache
+tiktoken
