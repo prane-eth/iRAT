@@ -1,6 +1,4 @@
-"""
-Wraps OpenAI/Transformers calls for “initial draft”
-"""
+# Wraps OpenAI/Transformers calls for “initial draft”
 from irat.stage_base import StageBase
 from irat.utils.common_functions import user_message
 from irat.utils.settings import env
@@ -23,14 +21,11 @@ def get_response(prompt: str, model: str = default_model) -> str:
 class LMAdapter(StageBase):
     STAGE = "lm_adapter"
 
-    def __init__(self, use_openai: bool = True, openai_model: str = default_model, open_source_model: str = None):
-        
+    def __init__(self):
         pass
 
     def generate_initial_draft(self, user_query: str) -> str:
-       
-        pass
+        return get_response(user_query)
 
     def generate_revision(self, prompt: str) -> str:
-        
         pass

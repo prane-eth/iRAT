@@ -1,11 +1,14 @@
 # uncertainty.py
-# by Zeeshan
+
+from irat.lm_adapter import LMAdapter
 from irat.stage_base import StageBase
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from datetime import datetime
-from ..main_pipeline import get_draft  # adjust if your get_draft is elsewhere
+
+get_draft = LMAdapter().generate_initial_draft
+
 
 class Uncertainty(StageBase):
     STAGE = "uncertainty"
@@ -38,13 +41,16 @@ class Uncertainty(StageBase):
         return uncertainty_score
 
     @staticmethod
-    def compute_uncertainty_for_question(question, num_samples=3):
+    def compute_uncertainty_for_question(question, num_samples=3, draft=None):
         """
         Computes uncertainty score for the given question using multiple drafts.
         Uses self-consistency (via cosine similarity) as the consistency score.
         """
         print(f"{datetime.now()} [INFO] Generating multiple drafts for uncertainty calculation...")
         responses = []
+        if draft:
+            responses.append(draft)
+            num_samples -= 1
         for _ in range(num_samples):
             draft = get_draft(question)  # reuse your existing function
             responses.append(draft)

@@ -1,6 +1,6 @@
 # reflection_replanning.py
 
-from .stage_base import StageBase
+from irat.stage_base import StageBase
 
 """
 Reflection & replanning logic

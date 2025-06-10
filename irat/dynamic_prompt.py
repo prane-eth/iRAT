@@ -1,6 +1,6 @@
 # dynamic_prompt.py
 
-from .stage_base import StageBase
+from irat.stage_base import StageBase
 
 """
 Dynamic‐prompt adaptation (fallback to RL later)

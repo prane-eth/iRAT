@@ -1,30 +1,29 @@
-# retrieval.py
+from irat.uncertainty import Uncertainty
+from irat.budget_control import BudgetControl
+from irat.stage_base import StageBase
 
-from .stage_base import StageBase
-
-"""
-Conditional retrieval decision & budget control
-"""
-
+# initial draft of function. more changes to be made
 class Retrieval(StageBase):
     STAGE = "retrieval"
 
-    def __init__(self, budget_controller, uncertainty_threshold: float = 0.3):
-        # … (existing init logic) …
-        pass
+    def __init__(self, budget: BudgetControl, uncertainty_threshold: float = 0.3):
+        self.budget               = budget
+        self.uncertainty_threshold = uncertainty_threshold
 
-    def should_retrieve(self, uncertainty_score: float) -> bool:
-        # … (existing code) …
-        pass
+    def should_retrieve(self, question: str, draft: str = None) -> bool:
+        # 1) Budget must allow
+        if not self.budget.can_retrieve():
+            return False
 
-    def form_search_query(self, user_query: str, draft: str) -> str:
-        # … (existing code) …
-        pass
+        # 2) Compute model uncertainty
+        score = Uncertainty.compute_uncertainty_for_question(question, num_samples=3, draft=draft)
+        # Retrieve only if uncertainty is above threshold
+        return score >= self.uncertainty_threshold
 
-    def call_search_api(self, query: str, top_k: int = 5) -> list[str]:
-        # … (existing code) …
-        pass
-
-    def retrieve(self, user_query: str, draft: str) -> list[str]:
-        # … (existing code) …
-        pass
+    def retrieve(self, question: str, draft: str) -> List[Snippet]:
+        if self.should_retrieve(question, draft):
+            self.budget.record_retrieval()
+            # form query from draft+question, call search, etc.
+            return self.call_search_api(question, draft)
+        else:
+            return []

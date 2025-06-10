@@ -21,7 +21,6 @@ def predict(passages: list[str], query: str) -> list[float]:
 	return scores
 
 top_n = 3
-min_score_threshold = 0.0
 score_threshold = 8.0
 
 
@@ -29,10 +28,9 @@ def classify(predictions: list[float]) -> list[bool]:
 	if not predictions:
 		raise ValueError('Model predictions list is empty')
 	scores_dict = { index: score for index, score in enumerate(predictions)
-					if score > min_score_threshold }
+					if score > score_threshold }
 	top_scores = sorted(scores_dict.items(), key=lambda x: x[1], reverse=True)[:top_n]
-	selected_indices = [index for index, score in top_scores
-						if score > score_threshold]
+	selected_indices = [index for index, score in top_scores]
 	# return True for selected indices, False for others
 	result = [index in selected_indices for index in range(len(predictions))]
 	if len(result) != len(predictions):

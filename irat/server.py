@@ -1,12 +1,17 @@
 # API similar to OpenAI API, to allow calls to iRAT and old RAT.
 
-from old_rat import LLM_model, rat as old_rat
+from old_rat import rat as old_rat
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
 
 from typing import List
+from dotenv import load_dotenv
+import os
+
+load_dotenv(override=True)
+LLM_model = os.getenv('LLM_NAME')
 
 
 class Message(BaseModel):
@@ -19,15 +24,14 @@ class ChatRequest(BaseModel):
 
 app = FastAPI()
 
-from irat.pipeline import Pipeline
-irat_pipeline = Pipeline()
+from irat.pipeline import run_pipeline
 
 @app.post('/iRAT/chat/completions')
 def irat_endpoint(request: ChatRequest):
 	try:
 		# Get the last user message (simplified for demo)
 		prompt = request.messages[-1].content
-		answer = irat_pipeline.run(prompt)
+		answer = run_pipeline(prompt)
 		return {
 			'id': '123',
 			'object': 'chat.completion',

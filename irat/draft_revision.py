@@ -1,7 +1,7 @@
 # draft_revision.py
 
-from .stage_base import StageBase
-from .lm_adapter import LMAdapter
+from irat.stage_base import StageBase
+from irat.lm_adapter import LMAdapter
 
 """
 Draft revision using retrieved text
