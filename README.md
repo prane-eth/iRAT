@@ -1,11 +1,10 @@
-<img src="assets/iRAT.jpg" alt="iRAT logo" width="270px" align="left"/>
+<img src="assets/iRAT_logo.jpg" alt="iRAT logo" width="270px" align="left"/>
 
 # iRAT: Improved Retrieval-Augmented Thinking for Context-Aware Reasoning
-**Team members of the new project:** \
+**Contributors:** \
 Praneeth Vadlapati ([@prane-eth](https://github.com/prane-eth)) \<praneeth.vad@gmail.com\> \
 Aryan Singh ([@ekk012](https://github.com/ekk012)) \
-Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k)) \
-Alvaro A. G. ([@LagrangianPoint](https://github.com/LagrangianPoint))
+Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k))
 
 
 ## Setup steps
@@ -18,7 +17,7 @@ git clone https://github.com/prane-eth/iRAT
 pip install -r requirements.txt
 ```
 3. Ensure the environment file (.env) is set up with correct values, based on ".env.example" file.
-4. To test whether the environment variables are working, run [./notebooks/Old-RAT.ipynb](./notebooks/Old-RAT.ipynb).
+4. To test, run [./notebooks/Old-RAT.ipynb](./notebooks/Old-RAT.ipynb).
 
 ## Proposed Folder structure:
 ```
@@ -73,6 +72,9 @@ To debug a specific test file and output any print statements use:
 pytest tests/test_settings.py -s
 ```
 
+
+## Sample:
+![](assets/Sample_page_screenshot.png)
 
 
 ---

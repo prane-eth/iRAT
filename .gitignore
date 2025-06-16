@@ -8,9 +8,15 @@ docs*
 TODO*
 test.ipynb
 *.drawio.bkp
+msmarco*
+rl_cross_encoder/
+trainer_output/
+wandb/
+*prompt.md
+checkpoints/
 
 # Environments
-# .env
+.env
 .venv
 env/
 venv/

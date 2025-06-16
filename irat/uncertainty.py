@@ -2,10 +2,11 @@
 
 from irat.lm_adapter import LMAdapter
 from irat.stage_base import StageBase
+from irat.utils.logger import log_debug, log_info
+
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from datetime import datetime
 
 get_draft = LMAdapter().generate_initial_draft
 
@@ -46,13 +47,13 @@ class Uncertainty(StageBase):
         Computes uncertainty score for the given question using multiple drafts.
         Uses self-consistency (via cosine similarity) as the consistency score.
         """
-        print(f"{datetime.now()} [INFO] Generating multiple drafts for uncertainty calculation...")
+        log_info(f"Generating multiple drafts for uncertainty calculation...")
         responses = []
-        if draft:
+        if draft:  # first sample is available
             responses.append(draft)
             num_samples -= 1
         for _ in range(num_samples):
-            draft = get_draft(question)  # reuse your existing function
+            draft = get_draft(question)
             responses.append(draft)
 
         # Compute pairwise cosine similarity
@@ -72,5 +73,5 @@ class Uncertainty(StageBase):
             consistency_scores=[avg_consistency]
         )
 
-        print(f"{datetime.now()} [INFO] Uncertainty Score: {uncertainty_score:.3f}")
+        log_debug(f"Uncertainty Score: {uncertainty_score:.3f}")
         return uncertainty_score

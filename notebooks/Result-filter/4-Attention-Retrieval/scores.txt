@@ -1,3 +1,0 @@
-MiniLM-L6-v2 - accuracy: 72.96%
-MiniLM-L12-v2 - accuracy: 72.22%
-mxbai-rerank-xsmall-v1 - accuracy: 71.85%

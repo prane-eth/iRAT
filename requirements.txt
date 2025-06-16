@@ -1,14 +1,15 @@
 beautifulsoup4
 datasets
 google-api-python-client>=2.100.0
-gradio
-html2text
+# gradio
+# html2text  # required for old RAT
+html5lib
 IPython
 jupyter
-langchain
+# langchain  # required for old RAT
 langchain_community
 loguru
-lxml
+# lxml  # required for old RAT
 # nest_asyncio
 numpy
 openai
@@ -20,4 +21,4 @@ readability-lxml
 requests
 sentence-transformers
 simple_cache
-tiktoken
+# tiktoken  # required for old RAT
