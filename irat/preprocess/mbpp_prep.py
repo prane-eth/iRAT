@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from datasets import load_dataset
 from irat.preprocess.text_normalize import normalize_text_pipeline
+from irat.utils.logger import log_debug
 
 def preprocess_mbpp():
     """
@@ -21,11 +22,11 @@ def preprocess_mbpp():
 
     # 1. Load MBPP train split
     ds = load_dataset("mbpp", split="train")
-    print(f"Loaded MBPP: {len(ds)} problems")
+    log_debug(f"Loaded MBPP: {len(ds)} problems")
 
     # 2. Inspect column names
     cols = list(ds.features.keys())
-    print("Available columns in MBPP:", cols)
+    log_debug("Available columns in MBPP:", cols)
 
     output_file = out_dir / "mbpp_proc.jsonl"
     processed = []
@@ -61,7 +62,7 @@ def preprocess_mbpp():
         }
         processed.append(rec)
 
-    print(f"Skipped {skipped} rows with no prompt/text.")
+    log_debug(f"Skipped {skipped} rows with no prompt/text.")
 
     # 6. Sanity: ensure no rec has an empty 'id'
     assert all(r["id"] != "mbpp_None" for r in processed)
@@ -71,7 +72,7 @@ def preprocess_mbpp():
         for rec in processed:
             f_out.write(json.dumps(rec) + "\n")
 
-    print(f"Saved {len(processed)} MBPP records to {output_file}")
+    log_debug(f"Saved {len(processed)} MBPP records to {output_file}")
 
 
 if __name__ == "__main__":

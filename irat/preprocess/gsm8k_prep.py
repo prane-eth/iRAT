@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from datasets import load_dataset
 from irat.preprocess.text_normalize import normalize_text_pipeline
+from irat.utils.logger import log_debug, log_info
 
 
 # data looks like this
@@ -28,7 +29,7 @@ def preprocess_gsm8k_train():
 
     # 1. Load GSM8K train split
     ds = load_dataset("gsm8k", "main", split="train")
-    print(f"Loaded GSM8K train: {len(ds)} examples")
+    log_info(f"Loaded GSM8K train: {len(ds)} examples")
 
     processed = []
     for idx, row in enumerate(ds):
@@ -55,7 +56,7 @@ def preprocess_gsm8k_train():
         for rec in processed:
             f_out.write(json.dumps(rec) + "\n")
 
-    print(f"Saved {len(processed)} records to {output_file}")
+    log_debug(f"Saved {len(processed)} records to {output_file}")
 
 
 if __name__ == "__main__":

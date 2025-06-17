@@ -2,23 +2,12 @@
 
 from irat.utils.attention_retrieval import select_paragraphs
 from irat.utils.domain_filter import filter_urls
-from irat.utils.logger import log_debug
+from irat.utils.lm_functions import chunk_texts
+from irat.utils.logger import log_debug, log_error
 from irat.utils.page_load_and_parse import get_page_contents
-# from irat.stage_base import StageBase
-
-# class ResultFilter(StageBase):
-# 	STAGE = 'result_filter'
-# 	def __init__(self):
-# 		pass
-# 	def score_snippet(self, question: str, snippet: str) -> float:
-# 		pass
-# 	def filter_results(self, question: str, raw_snippets: list[str],
-# 						threshold: float = 0.5, urls: list[str] = []) -> list[str]:
-# 		pass
 
 
-def fetch_and_filter_results(question: str, urls: list[str], top_k: int, 
-                             score_threshold: float) -> list[str]:
+def fetch_and_filter_results(question: str, urls: list[str]) -> list[str]:
 	if not urls:
 		raise ValueError('No URLs provided for filtering.')
 
@@ -32,9 +21,15 @@ def fetch_and_filter_results(question: str, urls: list[str], top_k: int,
 	if not contents:
 		raise ValueError('No valid page contents found for filtering.')
 
-	# apply attention-retrieval method
-	selected_paragraphs = select_paragraphs(question, contents, top_k, score_threshold)
+	# Divide each page into chunks
+	chunks = []
+	for page_content in contents:
+		chunks += chunk_texts(page_content, chunk_size=370)
 
+	# apply attention-retrieval method
+	selected_paragraphs = select_paragraphs(question, chunks, top_k=10, score_threshold=1.0)
+ 	# 	- top_k can be high because many paragraphs are in each page.
+	# 	- score_threshold is low because chunks are small and get lesser scores.
 	# log_debug('Selected Paragraphs:', selected_paragraphs)
 	if not selected_paragraphs:
 		raise ValueError('No paragraphs selected after filtering.')
@@ -48,6 +43,6 @@ if __name__ == '__main__':
 	urls = ['https://en.wikipedia.org/wiki/Paris', 'https://www.bbc.com/news/world-europe-17298730']
 	try:
 		results = fetch_and_filter_results(question, urls)
-		print('Filtered Results:', results)
+		log_debug('Filtered Results:', results)
 	except ValueError as e:
-		print('Error:', e)
+		log_error('Error:', e)

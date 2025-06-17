@@ -1,3 +1,4 @@
+from irat.utils.logger import log_debug, log_info
 from irat.utils.settings import env
 
 ### Pre-process the URLs
@@ -62,7 +63,7 @@ if not os.path.exists(dataset_filename):
 	url = 'https://www.kaggle.com/api/v1/datasets/download/sid321axn/malicious-urls-dataset'
 	zip_filename = url.split('/')[-1] + '.zip'
 	if not os.path.exists(zip_filename):
-		print(f'Downloading {zip_filename}...')
+		log_debug(f'Downloading {zip_filename}...')
 		response = requests.get(url, allow_redirects=True)
 		with open(zip_filename, 'wb') as file:
 			file.write(response.content)
@@ -71,7 +72,7 @@ if not os.path.exists(dataset_filename):
 	with zipfile.ZipFile(zip_filename) as zip_file:
 		zip_file.extractall('.')
 	os.remove(zip_filename)
-	print(f'Extracted {zip_filename} to current directory.')
+	log_debug(f'Extracted {zip_filename} to current directory.')
 
 import csv
 with open(dataset_filename) as csvfile:
@@ -119,5 +120,5 @@ def filter_urls(urls=[]):
 		if not safe_browsing_results[url] and not malicious_domain_results[url]]
 	# removed_urls = set(urls) - set(filtered_urls)
 	removed_count = len(urls) - len(filtered_urls)
-	print(f'Removed {removed_count}/{len(urls)} URLs that were either malicious/unsafe.')
+	log_info(f'Removed {removed_count}/{len(urls)} URLs that were either malicious/unsafe.')
 	return filtered_urls

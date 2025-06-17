@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from irat.preprocess.text_normalize import normalize_text_pipeline
+from irat.utils.logger import log_debug
 
 def preprocess_human_eval():
     """
@@ -75,7 +76,7 @@ def preprocess_human_eval():
         for rec in processed:
             f_out.write(json.dumps(rec) + "\n")
 
-    print(f"Saved {len(processed)} HumanEval records to {output_file}")
+    log_debug(f"Saved {len(processed)} HumanEval records to {output_file}")
 
 
 if __name__ == "__main__":

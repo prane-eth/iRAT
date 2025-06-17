@@ -6,6 +6,9 @@ Praneeth Vadlapati ([@prane-eth](https://github.com/prane-eth)) \<praneeth.vad@g
 Aryan Singh ([@ekk012](https://github.com/ekk012)) \
 Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k))
 
+## Demo
+Screenshots are available in the [Demo](Demo) folder.
+
 
 ## Setup steps
 1. Clone the repository
@@ -74,7 +77,7 @@ pytest tests/test_settings.py -s
 
 
 ## Sample:
-![](assets/Sample_page_screenshot.png)
+![](Demo/Sample_1.png)
 
 
 ---

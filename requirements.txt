@@ -1,7 +1,8 @@
 beautifulsoup4
+cohere  # to use the reranking model
 datasets
 google-api-python-client>=2.100.0
-# gradio
+gradio
 # html2text  # required for old RAT
 html5lib
 IPython
@@ -21,4 +22,5 @@ readability-lxml
 requests
 sentence-transformers
 simple_cache
-# tiktoken  # required for old RAT
+tiktoken
+vllm  # to host models and use through APIs

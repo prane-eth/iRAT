@@ -4,6 +4,8 @@ from readability import Document as ReadabilityDocument
 
 import asyncio
 
+from irat.utils.logger import log_error, log_info
+
 
 class ParagraphExtractor:
 	def __init__(self):
@@ -23,29 +25,31 @@ class ParagraphExtractor:
 			if not text:
 				continue
 
-			if part.name in self.heading_tags:
-				level = int(part.name[1])  # heading level like '1' from h1
-				text = f'{"#" * level} {text}'  # Markdown heading
-			elif part.name in self.list_tags:
-				if part.name == 'ol':
-					text = f'1. {text}'
-				else:
-					text = f'- {text}'
-			elif part.name == 'blockquote':
-				text = f'> {text}'
-			elif part.name == 'p':
-				# Process <p> tag to handle bold/italic formatting
-				text = ''
-				for child in part.descendants:
-					if child.name in ['b', 'strong']:  # bold text
-						text += f'**{child.get_text().strip()}**'
-					elif child.name in ['i', 'em']:  # italic text
-						text += f'_{child.get_text().strip()}_'
-					elif child.string:  # child element with text
-						text += child.string.strip()
-				text = text.strip()
-			elif part.name == 'code':
-				text = f'`{text}`'
+			# temporarily avoid special characters to save tokens
+			# if part.name in self.heading_tags:
+			# 	level = int(part.name[1])  # heading level like '1' from h1
+			# 	text = f'{"#" * level} {text}'  # Markdown heading
+			# elif part.name in self.list_tags:
+			# 	if part.name == 'ol':
+			# 		text = f'1. {text}'
+			# 	else:
+			# 		text = f'- {text}'
+			# elif part.name == 'blockquote':
+			# 	text = f'> {text}'
+			# elif part.name == 'p':
+			# 	# Process <p> tag to handle bold/italic formatting
+			# 	text = ''
+			# 	for child in part.descendants:
+			# 		child_text = child.get_text().strip()
+			# 		if child.name in ['b', 'strong']:  # bold text
+			# 			text += f'**{child_text}**'
+			# 		elif child.name in ['i', 'em']:  # italic text
+			# 			text += f'_{child_text}_'
+			# 		else:
+			# 			text += child_text
+			# 	text = text.strip()
+			# elif part.name == 'code':
+			# 	text = f'`{text}`'
 
 			if part.name in self.paragraph_tags:
 				paragraphs.append(text)
@@ -62,7 +66,7 @@ class ParagraphExtractor:
 				transformed_docs.append(transformed_doc)
 				page_paragraphs.extend(paragraphs)
 			except Exception as e:
-				print(f'Error processing document: {e}')
+				log_error(f'Error processing document: {e}')
 				continue
 		return transformed_docs, page_paragraphs
 
@@ -71,14 +75,14 @@ text_transformer = ParagraphExtractor()
 
 async def get_one_page_content_async(url: str, use_chromium: bool = False, only_html: bool = False):
 	if not url:
-		print('No URL provided')
+		log_error('No URL provided')
 		return None
 	if use_chromium:
-		print('Using Chromium loader for JavaScript rendering')
+		log_info('Using Chromium loader for JavaScript rendering')
 		try:
 			loader = AsyncChromiumLoader([url])  # handles JavaScript rendering
 		except Exception as e:
-			print(f'Error initializing AsyncChromiumLoader: {e}')
+			log_error(f'Error initializing AsyncChromiumLoader: {e}')
 			return None
 	else:
 		loader = AsyncHtmlLoader([url])
@@ -103,7 +107,7 @@ async def get_one_page_content_async(url: str, use_chromium: bool = False, only_
 		if not page_content:
 			return None
 	if 'Verifying you are human' in page_content:
-		print('Loading failed due to bot protection:', url)
+		log_error('Loading failed due to bot protection:', url)
 		return None
 
 	return page_content, page_paragraphs
@@ -111,7 +115,7 @@ async def get_one_page_content_async(url: str, use_chromium: bool = False, only_
 
 def get_page_contents(urls: list, use_chromium: bool = False, only_html: bool = False):
 	if not urls or not isinstance(urls, list):
-		print('Please provide a list of URLs.')
+		log_error('Please provide a list of URLs.')
 		return []
 
 	contents = []
@@ -121,12 +125,12 @@ def get_page_contents(urls: list, use_chromium: bool = False, only_html: bool = 
 		try:
 			content, page_paragraphs = asyncio.run(get_one_page_content_async(url, use_chromium, only_html))
 			if content is None:
-				print(f'Failed to load content from {url}')
+				log_error(f'Failed to load content from {url}')
 				continue
 			contents.append(content)
 			paragraphs_list.append(page_paragraphs)
 		except Exception as e:
-			print(f'Error processing URL {url}: {e}')
+			log_error(f'Error processing URL {url}: {e}')
 
 	return contents, paragraphs_list
 

@@ -1,6 +1,7 @@
 # API similar to OpenAI API, to allow calls to iRAT and old RAT.
 # And a web page to chat with the models using both iRAT and old RAT.
 
+from irat.utils.logger import log_debug
 from old_rat import rat as old_rat
 from irat.pipeline import run_pipeline
 
@@ -26,7 +27,7 @@ def get_old_rat_response(prompt):
 	if not answer:
 		answer = 'No answer found.'
 	answer = answer.strip()
-	return answer
+	return draft, answer
 
 def clear_port(port):
 	import socket
@@ -35,7 +36,7 @@ def clear_port(port):
 		s.bind((host, port))
 	except OSError as e:
 		if e.errno == 98:  # Address already in use
-			print(f'Port {port} is already in use. Clearing it...')
+			log_debug(f'Port {port} is already in use. Clearing it...')
 		else:
 			raise
 	finally:
@@ -102,15 +103,15 @@ def clear_port(port):
 
 # def start_api():
 # 	port = 8000
-# 	print('Starting API server...')
-# 	print(f'API URL: http://{host}:{port}/')
+# 	log_debug('Starting API server...')
+# 	log_debug(f'API URL: http://{host}:{port}/')
 # 	# clear the port if it is already in use
 # 	clear_port(port)
 # 	try:
 # 		# assuming this filename is server.py
 # 		uvicorn.run('server:app', host=host, port=port, log_level='info')
 # 	except KeyboardInterrupt:
-# 		print(f'API: KeyboardInterrupt')
+# 		log_debug(f'API: KeyboardInterrupt')
 
 # Usage:
 '''
@@ -122,7 +123,7 @@ response = openai.chat.completions.create(
 	messages=[{'role': 'user', 'content': 'Hi'}],
 	model='<any-model-name>',
 )
-print(response.choices[0].message.content)
+log_debug(response.choices[0].message.content)
 '''
 
 # ------------------------ Web page server ------------------------
@@ -159,17 +160,18 @@ with gr.Blocks(theme=LargeFontTheme()) as demo:
 	prompt = gr.Textbox(label='Enter your prompt')
 	gr.Markdown('---')  # separator
 	output = gr.Textbox(label='Get the model output')  # or gr.Markdown
+	last_draft = gr.Textbox(label='Last thoughts')
 	submit = gr.Button('Submit')
-	submit.click(get_response, inputs=[project, prompt], outputs=output)
+	submit.click(get_response, inputs=[project, prompt], outputs=[output, last_draft])
 
 def start_gradio():
 	port = 1776
 	clear_port(port)
-	print(f'Web page URL: http://{host}:{port}/?__theme=light')
+	log_debug(f'Web page URL: http://{host}:{port}/?__theme=light')
 	try:
 		demo.launch(server_name=host, server_port=port, show_api=False)  # prevent_thread_lock=True
 	except KeyboardInterrupt:
-		print('Web page: KeyboardInterrupt')
+		log_debug('Web page: KeyboardInterrupt')
 
 start_gradio()
 
@@ -187,4 +189,4 @@ start_gradio()
 # 	except KeyboardInterrupt:
 # 		fastapi_thread.join(timeout=-1)
 # 		gradio_thread.join(timeout=-1)
-# 		print('Server stopped by user.')
+# 		log_debug('Server stopped by user.')

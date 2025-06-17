@@ -2,6 +2,7 @@ from irat.utils.settings import Settings
 
 from googleapiclient.discovery import build
 
+
 class GoogleSearch(object):
 	def __init__(self, max_fetch_results = None):
 		api_key = Settings.get("GOOGLE_API_KEY")
