@@ -1,0 +1,15 @@
+learn_rate,batch_size,epochs,optimizer,loss_function,accuracy
+2e-05,32,5,AdamW,BCEWithLogitsLoss(),0.7774193548387097
+,,,,,
+2e-05,32,5,AdamP,None,0.7774193548387097
+2e-05,32,5,AdamP,BCEWithLogitsLoss(),0.7774193548387097
+,,,,,
+2e-05,32,5,AdamW,None,0.7677419354838709
+,,,,,
+2e-05,32,5,RAdam,BCEWithLogitsLoss(),0.7209677419354839
+2e-05,32,5,RAdam,None,0.7209677419354839
+,,,,,
+2e-05,32,5,Adam,None,0.7016129032258065
+2e-05,32,5,Adam,BCEWithLogitsLoss(),0.7016129032258065
+2e-05,32,5,Adam,BCEWithLogitsLoss(),0.7016129032258065
+2e-05,32,5,Adam,None,0.7016129032258065

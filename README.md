@@ -16,11 +16,11 @@ Screenshots are available in the [Demo](Demo) folder.
 ```bash
 git clone https://github.com/prane-eth/iRAT
 ```
-2. Install the required packages
+2. Open a terminal in the "iRAT" folder and install the required packages
 ```bash
 pip install -r requirements.txt
 ```
-3. Run 
+3. (Optional) Install Chromium browser for Playwright to load web data from more sites.
 ```bash
 playwright install chromium
 ```
@@ -31,11 +31,11 @@ python host_models.py
 ```
 6. To test the pipeline, run
 ```bash
-python irat/pipeline.py
+python pipeline.py
 ```
 7. To host the server, run
 ```bash
-python irat/server.py
+python server.py
 ```
 
 ## Proposed Folder structure:
