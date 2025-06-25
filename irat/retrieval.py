@@ -20,6 +20,10 @@ def record_retrieval():
 	if not is_retrieval_available():
 		raise RuntimeError("Retrieval budget exhausted.")
 	used_retrievals += 1
+# get the latest state of the used reterivals
+def get_used_retrievals() -> int:
+    """Return the current number of retrieval calls that have been spent."""
+    return used_retrievals
 
 def reset_budget():
 	global used_retrievals
