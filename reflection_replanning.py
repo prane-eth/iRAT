@@ -1,0 +1,175 @@
+# Reflection & replanning
+
+from irat.utils.common_functions import print_separator
+from irat.utils.lm_functions import get_response
+from irat.utils.logger import log_error, log_info, log_debug
+from irat.utils.settings import env
+import openai
+
+if not env('HF_TOKEN'):
+	raise ValueError('HF_TOKEN environment variable is not set.')
+if not env('EVALUATOR_API_URL'):
+	raise ValueError('EVALUATOR_API_URL environment variable is not set.')
+
+openai.base_url = env('EVALUATOR_API_URL')
+
+def evaluator_pipeline(prompt, **kwargs):
+	# rename 'max_new_tokens' to 'max_tokens' for compatibility with OpenAI API
+	if 'max_new_tokens' in kwargs:
+		kwargs['max_tokens'] = kwargs.pop('max_new_tokens')
+	unsupported_params = ('top_k', 'no_repeat_ngram_size', 'eos_token_id',
+						'clean_up_tokenization_spaces')
+	for param in unsupported_params:
+		if param in kwargs:
+			raise ValueError(f'{param} is not supported by OpenAI package. Set the value in the model server.')
+	if kwargs.get('do_sample'):
+		if 'temperature' not in kwargs and 'top_p' not in kwargs:
+			raise ValueError('do_sample requires values to be set.')
+		del kwargs['do_sample']  # OpenAI API does not support do_sample
+	log_info('Getting feedback...')
+	response = openai.completions.create(
+		model='Any',
+		prompt=prompt,
+		**kwargs
+	)
+	response_text = response.choices[0].text
+	return [{ 'generated_text': response_text }]
+
+try:
+	log_info('Testing the evaluator...')
+	evaluator_pipeline('hi')  # Test the model encoding function
+except Exception as e:
+	log_error(f'Error in model: {e}')
+	raise RuntimeError('Failed to initialize the evaluator model. Run the server.')
+	# run_vllm_command(embed_model_name, task='embed', port=8002)
+
+
+
+def get_evaluator_feedback(query, previous_thoughts: str, new_thoughts: str) -> str:
+	# Passes the reasoning chain and question to the model and returns concise feedback.
+	prompt = (
+		'You are a logic and facts expert. Consider various aspects to be factual and give the type of reasoning.\n'
+		f'Question: {query}\n-----\n'
+		f'Reasoning Chain: {new_thoughts}\n-----\n'
+		'Give very very concise Feedback with only one of the following options:\n'
+		'1. Correct chain\n'
+		'2. Simple error\n'
+		'3. Contradiction\n'
+		'4. Missing steps\n'
+		'5. Irrelevant information'
+	)
+	# Return raw feedback text from the evaluator model.
+	feedback = evaluator_pipeline(
+		prompt,
+		max_new_tokens=60,
+		# More parameters adjusted for concise feedback
+		do_sample=True,       # Enable sampling
+		top_p=0.9,            # Top-p nucleus sampling
+		temperature=0.1,
+		# top_k=5,              # Top-k sampling — limits to top 5 tokens
+		# no_repeat_ngram_size=2,
+		# eos_token_id=evaluator_pipeline.tokenizer.eos_token_id,
+		# clean_up_tokenization_spaces=True,
+	)[0]['generated_text']
+	# feedback = evaluate_chain(prompt)
+
+	# strip echoed prompt(s)
+	if feedback.startswith(prompt):
+		feedback = feedback[len(prompt):].lstrip()
+	return feedback.strip()
+
+
+# Approach 2: Deciding the sentiment of the feedback based on keywords.
+
+# contradiction_threshold: float = 0.50
+
+# positive_keywords = ('correct', 'sound', 'valid', 'consistent', 'accurate')
+# negative_keywords = set()
+# for positive_word in positive_keywords:
+# 	negative_keywords.add('not ' + positive_word) # 'not valid'
+# 	negative_keywords.add('no ' + positive_word)  # 'no valid answer'
+# 	negative_keywords.add('in' + positive_word)  # 'invalid'
+# 	negative_keywords.add('un' + positive_word)  # 'unsound'
+# 	negative_keywords.add('non-' + positive_word)  # 'non-valid'
+# for negative_word in ('incorrect', 'inconsistent', 'flaw', 'error', 'contradict', 
+# 	'unsound', 'invalid', 'needs to consider', 'need to consider', 'missing', 'inaccurate'):
+# 	negative_keywords.add(negative_word)
+# positive_keywords = set(positive_keywords)  # For a faster search
+
+
+# def needs_replan(query, previous_thoughts: str, new_thoughts: str) -> bool:
+# 	# Compare old vs new chain.  We simply feed the new_thoughts to the
+# 	# evaluator: if it flags > threshold negative keywords → re-plan.
+# 	feedback = get_evaluator_feedback(query, previous_thoughts, new_thoughts)
+# 	log_debug('Evaluator feedback:\n' + feedback)
+# 	print_separator()
+
+# 	feedback = feedback.lower().replace('n\'t ', ' in')  # 'isn't correct' -> 'is incorrect'
+# 	negatives = sum(kw in feedback for kw in negative_keywords)
+# 	positives = sum(kw in feedback for kw in positive_keywords)
+# 	log_debug('Positives:', positives)
+# 	log_debug('negatives:', negatives)
+# 	score = negatives / max(1, negatives + positives)
+
+# 	log_info(f'[Reflection] contradiction-score = {score:.2f}')
+# 	print_separator()
+# 	return score >= contradiction_threshold
+
+# def get_replanning_prompt(query, previous_draft: str, revised_draft: str) -> str:
+# 	# Return an augmented system prompt instructing the LM to rethink.
+# 	return (
+# 		'The previous reasoning appears inconsistent. '
+# 		'Analyse the following chain of thought, locate the errors, and '
+# 		'produce an improved chain that is logically sound.\n\n'
+# 		f'QUESTION:\n{query}\n\n'
+# 		f'Previous version:\n{previous_draft}\n-----\n'
+# 		f'Current version:\n{revised_draft}\n-----\n'
+# 		'Write the NEW CHAIN OF THOUGHT:'
+# 	)
+
+
+# ───────────────────────────── CLI test ────────────────────────────
+if __name__ == '__main__':
+	import sys
+	if 'google.colab' not in sys.modules:
+		import os
+		dir = 'MBPP-responses-v2'
+		if not os.path.exists(dir):
+			os.makedirs(dir)
+		os.chdir(dir)
+
+	import json
+	filename = 'test_1.json'
+	with open(filename) as file:
+		sample = json.load(file)
+
+	query = sample['query']
+	initial_draft = sample['initial_draft']
+	final_answer = sample['final_answer']
+
+	feedback = get_evaluator_feedback(query, initial_draft, final_answer)
+	# replan_required = needs_replan(query, initial_draft, final_answer)
+	# if replan_required:
+	# 	log_debug('Replanning...')
+	# 	feedback = get_replanning_prompt(query, initial_draft, final_answer)
+	# else:
+	# 	feedback = 'No replanning required.'
+
+	# Write the response to a file
+	output_file = filename.replace('.json', '_feedback.txt')
+	with open(output_file, 'w') as file:
+		file.write(feedback)
+
+	if feedback != 'No replanning required.':
+		new_prompt = feedback
+		print_separator()
+		new_response = get_response(
+			f'Query: {query}\n Reasoning: {final_answer}\n'
+   			f'Feedback: {feedback}\n'
+		)
+
+		revised_file = filename.replace('.json', '_revised_response.txt')
+		with open(revised_file, 'w') as file:
+			file.write(new_response)
+
+		log_debug('Revised response:\n', new_response)

@@ -6,25 +6,22 @@ from irat.utils.stage_base import StageBase
 from irat.utils.logger import log_debug, log_error, log_info
 
 import numpy as np
-# from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
-
-# # Load SentenceTransformer model once
-# model = SentenceTransformer('all-MiniLM-L6-v2')
-# vllm serve sentence-transformers/all-MiniLM-L6-v2 --task embed --host 0.0.0.0 --port 8002
-
 from openai import OpenAI
+from sklearn.metrics.pairwise import cosine_similarity
 
 client = OpenAI(base_url=env('EMBED_API_URL'))
 
 def model_encode(texts: list[str]) -> np.ndarray:
-	resp = client.embeddings.create(
-		input=texts,
-		model="sentence-transformers/all-MiniLM-L6-v2",
-	)
+	resp = client.embeddings.create(input=texts, model='Any')
 	embeddings = [item.embedding for item in resp.data]
 	return np.array(embeddings)
 
+try:
+    model_encode(['test'])  # Test the model encoding function
+except Exception as e:
+	log_error(f'Error in model encoding: {e}')
+	raise RuntimeError('Failed to initialize the embedding model. Run the server.')
+	# run_vllm_command(embed_model_name, task='embed', port=8002)
 
 
 class Uncertainty(StageBase):
