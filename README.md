@@ -1,10 +1,11 @@
 <img src="assets/iRAT_logo.jpg" alt="iRAT logo" width="270px" align="left"/>
 
 # iRAT: Improved Retrieval-Augmented Thinking for Context-Aware Reasoning
-**Contributors:** \
+**Team members:** \
 Praneeth Vadlapati ([@prane-eth](https://github.com/prane-eth)) \<praneeth.vad@gmail.com\> \
-Aryan Singh ([@ekk012](https://github.com/ekk012)) \
-Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k))
+Aryan Singh ([@ekk012](https://github.com/ekk012)) \<aryansingh729@gmail.com\> \
+Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k)) \
+Alvaro Arteaga ([@LagrangianPoint](https://github.com/LagrangianPoint))
 
 ## Demo
 Screenshots are available in the [Demo](Demo) folder.
@@ -19,8 +20,23 @@ git clone https://github.com/prane-eth/iRAT
 ```bash
 pip install -r requirements.txt
 ```
-3. Ensure the environment file (.env) is set up with correct values, based on ".env.example" file.
-4. To test, run [./notebooks/Old-RAT.ipynb](./notebooks/Old-RAT.ipynb).
+3. Run 
+```bash
+playwright install chromium
+```
+4. Ensure the environment file (.env) is set up with correct values, based on ".env.example" file.
+5. To host the models, run
+```bash
+python host_models.py
+```
+6. To test the pipeline, run
+```bash
+python irat/pipeline.py
+```
+7. To host the server, run
+```bash
+python irat/server.py
+```
 
 ## Proposed Folder structure:
 ```

@@ -1,17 +1,20 @@
 beautifulsoup4
-cohere  # to use the reranking model
+cohere
 datasets
+fastapi
 google-api-python-client>=2.100.0
 gradio
-# html2text  # required for old RAT
+html2text  # for old RAT
 html5lib
+human_eval
 IPython
 jupyter
-# langchain  # required for old RAT
+langchain  # for old RAT
 langchain_community
+last_layer # Prompt Cleanup and security
 loguru
-# lxml  # required for old RAT
-# nest_asyncio
+lxml  # for old RAT
+# nest_asyncio  # to enable async in Jupyter notebooks
 numpy
 openai
 playwright
@@ -23,4 +26,4 @@ requests
 sentence-transformers
 simple_cache
 tiktoken
-vllm  # to host models and use through APIs
+uvicorn

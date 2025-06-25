@@ -6,7 +6,6 @@ from irat.utils.lm_functions import chunk_texts
 from irat.utils.logger import log_debug, log_error
 from irat.utils.page_load_and_parse import get_page_contents
 
-
 def fetch_and_filter_results(question: str, urls: list[str]) -> list[str]:
 	if not urls:
 		raise ValueError('No URLs provided for filtering.')
@@ -16,7 +15,7 @@ def fetch_and_filter_results(question: str, urls: list[str]) -> list[str]:
 	if not filtered_urls:
 		raise ValueError('No valid URLs found after filtering.')
 
-	contents, paragraphs_list = get_page_contents(filtered_urls)  # get contents of the pages
+	contents = get_page_contents(filtered_urls)  # get contents of the pages
 	# log_debug('Page Contents:', contents)
 	if not contents:
 		raise ValueError('No valid page contents found for filtering.')
@@ -39,10 +38,14 @@ def fetch_and_filter_results(question: str, urls: list[str]) -> list[str]:
 
 if __name__ == '__main__':
 	# Example usage
-	question = 'What is the capital of France?'
-	urls = ['https://en.wikipedia.org/wiki/Paris', 'https://www.bbc.com/news/world-europe-17298730']
+	# question = 'What is the capital of France?'
+	# urls = ['https://en.wikipedia.org/wiki/Paris', 'https://www.bbc.com/news/world-europe-17298730']
+	question = 'What is the first repeated character in a given string?'
+	urls = ['https://stackoverflow.com/questions/50976511/code-to-output-the-first-repeated-character-in-given-string']
 	try:
 		results = fetch_and_filter_results(question, urls)
-		log_debug('Filtered Results:', results)
+		log_debug('Filtered Results:', len(results))
+		# for result in results[:1]:
+		# 	log_debug(result)
 	except ValueError as e:
 		log_error('Error:', e)

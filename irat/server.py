@@ -1,25 +1,13 @@
-# API similar to OpenAI API, to allow calls to iRAT and old RAT.
-# And a web page to chat with the models using both iRAT and old RAT.
+# Server to create web page to chat with the models using both iRAT and old RAT.
 
-from irat.utils.logger import log_debug
-from old_rat import rat as old_rat
+from irat.utils.logger import log_debug, log_info
+from irat.utils.settings import env
+from irat.old_rat import rat as old_rat
 from irat.pipeline import run_pipeline
+from irat.utils.common_functions import host, clear_port, print_separator
+import gradio as gr
+from gradio.themes.base import Base as BaseTheme
 
-
-# ------------------------ API server ------------------------
-
-# from fastapi import FastAPI, HTTPException
-# from pydantic import BaseModel
-import uvicorn
-
-# from typing import List
-from dotenv import load_dotenv
-import os
-
-load_dotenv(override=True)
-LLM_model = os.getenv('LLM_NAME')
-
-host = '0.0.0.0'
 
 def get_old_rat_response(prompt):
 	draft, answer = old_rat(prompt)
@@ -29,116 +17,22 @@ def get_old_rat_response(prompt):
 	answer = answer.strip()
 	return draft, answer
 
-def clear_port(port):
-	import socket
-	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	try:
-		s.bind((host, port))
-	except OSError as e:
-		if e.errno == 98:  # Address already in use
-			log_debug(f'Port {port} is already in use. Clearing it...')
-		else:
-			raise
-	finally:
-		s.close()
-
-
-# class Message(BaseModel):
-# 	role: str
-# 	content: str
-
-# class ChatRequest(BaseModel):
-# 	# model: str  # You can ignore this if not used
-# 	messages: List[Message]
-
-# app = FastAPI()
-
-# @app.post('/iRAT/chat/completions')
-# def irat_endpoint(request: ChatRequest):
-# 	try:
-# 		# Get the last user message (simplified for demo)
-# 		prompt = request.messages[-1].content
-# 		answer = run_pipeline(prompt)
-# 		return {
-# 			'id': '123',
-# 			'object': 'chat.completion',
-# 			'created': 0,
-# 			'model': LLM_model,
-# 			'choices': [
-# 				{
-# 					'index': 0,
-# 					'message': {'role': 'assistant', 'content': answer},
-# 					'finish_reason': 'stop'
-# 				}
-# 			]
-# 		}
-# 	except Exception as e:
-# 		raise HTTPException(status_code=500, detail=str(e))
-
-# @app.post('/old_rat/chat/completions')
-# def old_rat_endpoint(request: ChatRequest):
-# 	try:
-# 		# Get the last user message (simplified for demo)
-# 		prompt = request.messages[-1].content
-# 		answer = get_old_rat_response(prompt)
-# 		return {
-# 			'id': '123',
-# 			'object': 'chat.completion',
-# 			'created': 0,
-# 			'model': LLM_model,
-# 			'choices': [
-# 				{
-# 					'index': 0,
-# 					'message': {'role': 'assistant', 'content': answer},
-# 					'finish_reason': 'stop'
-# 				}
-# 			]
-# 		}
-# 	except Exception as e:
-# 		raise HTTPException(status_code=500, detail=str(e))
-
-# @app.get('/')
-# def root():
-# 	return 'Working.'
-
-# def start_api():
-# 	port = 8000
-# 	log_debug('Starting API server...')
-# 	log_debug(f'API URL: http://{host}:{port}/')
-# 	# clear the port if it is already in use
-# 	clear_port(port)
-# 	try:
-# 		# assuming this filename is server.py
-# 		uvicorn.run('server:app', host=host, port=port, log_level='info')
-# 	except KeyboardInterrupt:
-# 		log_debug(f'API: KeyboardInterrupt')
-
-# Usage:
-'''
-import openai
-# can be set in .env
-openai.base_url = 'http://localhost:8000/iRAT/'
-
-response = openai.chat.completions.create(
-	messages=[{'role': 'user', 'content': 'Hi'}],
-	model='<any-model-name>',
-)
-log_debug(response.choices[0].message.content)
-'''
-
-# ------------------------ Web page server ------------------------
-
-import gradio as gr
 
 def get_response(project, prompt):
 	if project == 'Old RAT':
-		return get_old_rat_response(prompt)
+		initial_draft, answer = get_old_rat_response(prompt)
+		return initial_draft, answer
 	elif project == 'iRAT':
-		return run_pipeline(prompt)
+		response_result = run_pipeline(prompt)
+		if response_result is None:
+			print_separator()
+			return 'Not available', 'Error: Query seems to be against our policies.'
+		draft_1, draft_2, all_revisions, evaluator_feedback, final_answer, \
+			all_retrievals, total_time = response_result
+		return evaluator_feedback, final_answer
 	else:
-		return 'Invalid project selection.'
+		return 'Invalid project selection.', 'Invalid project selection.'
 
-from gradio.themes.base import Base as BaseTheme
 
 # Create a custom theme with larger font sizes
 class LargeFontTheme(BaseTheme):
@@ -162,7 +56,7 @@ with gr.Blocks(theme=LargeFontTheme()) as demo:
 	output = gr.Textbox(label='Get the model output')  # or gr.Markdown
 	last_draft = gr.Textbox(label='Last thoughts')
 	submit = gr.Button('Submit')
-	submit.click(get_response, inputs=[project, prompt], outputs=[output, last_draft])
+	submit.click(get_response, inputs=[project, prompt], outputs=[last_draft, output])
 
 def start_gradio():
 	port = 1776

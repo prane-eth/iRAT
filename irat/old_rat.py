@@ -333,6 +333,8 @@ def rat(question):
 			print(f'{datetime.now()} [INFO] Answer updation completed: [{j}/{min(len(content),3)}]')
 		# print(f'[{i}/{len(draft_paragraphs)}] REVISED ANSWER:\n {answer.replace(newline_char, ' ')}')
 		# print()
+	# if draft == answer:
+	# 	draft = 'No revisions needed. Initial response is sufficient.'
 	return draft, answer
 
 # draft, answer = rat("Introduce Jin-Yong's Life.")

@@ -4,7 +4,9 @@ from irat.result_filter import fetch_and_filter_results
 from irat.retrieval import retrieve
 from irat.utils.common_functions import run_with_timeout
 from irat.utils.lm_functions import get_response, split_draft
-from irat.utils.logger import log_debug, log_info
+from irat.utils.logger import log_debug, log_error, log_info
+import sys
+
 
 draft_prompt = '''
 IMPORTANT:
@@ -18,7 +20,7 @@ def generate_initial_draft(user_query: str) -> str:
 	log_info('Fetched the Draft')
 	draft_paragraphs = split_draft(draft)
 	# log_info(f'The draft is divided into {len(draft_paragraphs)} parts')
-	return draft_paragraphs, draft
+	return draft_paragraphs, draft.strip()
 
 
 
@@ -41,15 +43,26 @@ def get_query_wrapper(q, question, answer):
 	result = get_query(question, answer)
 	q.put(result)  # Put the results into the queue
 
+result_limit = 4  # 3 is good, but some spam URLs get filtered.
+
 def get_content_wrapper(q, query):
 	try:
 		retrieved_URLs = retrieve(query, draft=None, force=True)
-		retrieved_URLs = retrieved_URLs[:5]  # use only top 5 URLs
 		log_info('Filtering retrieved results...')
-		result_paragraphs = fetch_and_filter_results(query, retrieved_URLs)
-		log_debug('Filtered:', result_paragraphs, '\n\n')
+		urls = retrieved_URLs[:result_limit]
+		log_debug('Using URLs:', urls)
+		result_paragraphs = fetch_and_filter_results(query, urls)
+		log_info('Filtered paragraphs:', len(result_paragraphs))
+		if not result_paragraphs:
+			urls = retrieved_URLs[result_limit:2*result_limit]
+			log_debug('Using more URLs:', urls)
+			result_paragraphs = fetch_and_filter_results(query, urls)
+			log_info('Filtered paragraphs:', len(result_paragraphs))
 	except Exception as e:
-		log_debug(f'Error in get_content: {e}')
+		log_error(f'Error in get_content: {e}')
+		if '429' in str(e) or 'Safe Browsing API has not been used' in str(e):
+			sys.exit(0)  # End the program.
+			# Google API's rate limit is reset every 24 hours, so we can exit the program.
 		result_paragraphs = None
 	q.put(result_paragraphs)
 
@@ -85,6 +98,8 @@ def revise_draft(draft: str, user_query: str) -> str:
 	draft_paragraphs = split_draft(draft)
 	log_info(f'The draft is divided into {len(draft_paragraphs)} parts')
 	answer = ''
+	all_revisions = []  # to return later
+
 	for i, p in enumerate(draft_paragraphs):
 		log_debug('-'*10 + f' - {i} - '*10 + '-'*10)
 		log_info(f'Modify {i+1}/{len(draft_paragraphs)} parts...')
@@ -93,7 +108,8 @@ def revise_draft(draft: str, user_query: str) -> str:
 
 		# query = get_query(question, answer)
 		log_info('Generating corresponding Query...')
-		res = run_with_timeout(get_query_wrapper, args=(user_query, answer), timeout=3)
+		res = run_with_timeout(get_query_wrapper, args=(user_query, answer), timeout=180)
+					# High timeout because LLMs get rate limit and need 60 seconds of wait time.
 
 		if not res:
 			log_info('No response. Skipping next steps...')
@@ -104,17 +120,19 @@ def revise_draft(draft: str, user_query: str) -> str:
 
 		log_info('Get web page content...')
 		# content = get_content(query)
-		search_result = run_with_timeout(get_content_wrapper, args=(query,), timeout=5)
+		search_result = run_with_timeout(get_content_wrapper, args=(query,), timeout=45)
 		if not search_result:
 			log_info('No response. Skipping next steps...')
 			continue
 
-		for c_index, cont in enumerate(search_result):
+		all_revisions.append(f'Query: {query}')
+		for c_index, cont in enumerate(search_result):  # use first 3 pages to edit the answer
 			if  c_index > 2:
 				break
-			log_info(f'Modifying the answer according to page...[{c_index}/{min(len(search_result),3)}]')
+			log_info(f'Modifying the answer according to page...[{c_index+1}/{min(len(search_result),3)}]')
 			# answer = get_revise_answer(question, answer, c)
-			res = run_with_timeout(get_revise_answer_wrapper, args=(user_query, answer, cont), timeout=10)
+			res = run_with_timeout(get_revise_answer_wrapper, args=(user_query, answer, cont), timeout=180)
+							# High timeout because LLMs get rate limit and need 60 seconds of wait time.
 
 			if not res:
 				log_info('No response. Skipping next steps...')
@@ -123,28 +141,27 @@ def revise_draft(draft: str, user_query: str) -> str:
 				# diff_html = generate_diff_html(answer, res) # display the differences
 				# display(HTML(diff_html))
 				answer = res
-			log_info(f'Answer updation completed: [{c_index}/{min(len(search_result),3)}]')
+			all_revisions.append(answer)
+			log_info(f'Answer updation completed: [{c_index + 1}/{min(len(search_result),3)}]')
 		# log_debug(f'[{i}/{len(draft_paragraphs)}] REVISED ANSWER:\n {answer.replace(newline_char, ' ')}')
 		# log_debug()
-	return draft, answer
+	return all_revisions, answer.strip()
 
 
-
-
-
-# def revise_draft(draft: str, retrieved_passages: list[str], user_query: str) -> str:
-# 	prompt = (
-# 		'\n'.join(retrieved_passages) + '\n\n'
-# 		' --- \n'
-# 		f'Draft: {draft} \n'
-# 		' --- \n'
-# 		'Revise the draft based on the additional information and user query: \n'
-# 		f'User Query: {user_query} \n'
-# 		' --- \n'
-# 		'Do not mention that I provided you with additional information. \n'
-# 	)
-# 	# log_debug('Draft Revision Prompt:', prompt, '\n\n')
-# 	return get_response(prompt)
+def revise_using_feedback(draft: str, user_query: str, feedback: str) -> str:
+	prompt = (
+		f'User Query: {user_query} \n'
+		f'Draft: {draft} \n'
+		' --- \n'
+		f'Feedback on your draft: {feedback} \n'
+		' --- \n'
+		'Revise the draft based on the feedback and user query: \n'
+		f'Reminding again about the user query: {user_query} \n'
+		' --- \n'
+		'Respond to the user directly. Don\'t mention that I provided additional information. \n'
+	)
+	# log_debug('Draft Revision Prompt:', prompt, '\n\n')
+	return get_response(prompt)
 
 
 if __name__ == '__main__':
