@@ -15,6 +15,7 @@ wandb/
 *prompt.md
 checkpoints/
 malicious_phish.csv
+coding_dataset/
 
 # Environments
 .env
