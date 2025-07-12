@@ -26,7 +26,6 @@ def evaluator_pipeline(prompt, **kwargs):
 		if 'temperature' not in kwargs and 'top_p' not in kwargs:
 			raise ValueError('do_sample requires values to be set.')
 		del kwargs['do_sample']  # OpenAI API does not support do_sample
-	log_info('Getting feedback...')
 	response = openai.completions.create(
 		model='Any',
 		prompt=prompt,

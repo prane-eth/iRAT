@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="1VGAQ-4fsUE0OBJrk3If">
+    <mxGraphModel dx="587" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-1" value="Paragraphs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="250" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-2" value="&lt;i&gt;Query&lt;/i&gt;:&lt;br&gt;Write a function to convert Celsius to Fahrenheit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-4" value="T(°F) = T(°C) × 9/5 + 32" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-5" value="Welcome to our website" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="440" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-7" value="Buy our smart thermometer to convert C to F automatically" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="370" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-8" value="Ranked results from the model&lt;div&gt;(&lt;b&gt;top_k=2&lt;/b&gt;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-9" value="Applied threshold&lt;br&gt;(&lt;b&gt;60%&lt;/b&gt;)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-10" value="80%" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-11" value="20%" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="362.5" width="75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-14" value="&lt;font style=&quot;color: rgb(103, 171, 159);&quot;&gt;Selected&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="495" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.pixabay.com/photo/2013/07/13/09/50/delete-156119_1280.png;" vertex="1" parent="1">
+          <mxGeometry x="350" y="445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OCW5tcDU1V6hKrIvA2wc-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.pixabay.com/photo/2013/07/13/09/50/delete-156119_1280.png;" vertex="1" parent="1">
+          <mxGeometry x="448" y="362" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

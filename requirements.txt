@@ -1,8 +1,8 @@
 beautifulsoup4
 cohere
 datasets
-fastapi
-google-api-python-client>=2.100.0
+fastapi  # To host models, not to run the project
+google-api-python-client
 gradio
 html2text  # for old RAT
 html5lib
@@ -15,15 +15,20 @@ last_layer # Prompt Cleanup and security
 loguru
 lxml  # for old RAT
 # nest_asyncio  # to enable async in Jupyter notebooks
+matplotlib
+ndg-httpsclient  # to avoid Google Search SSL errors
 numpy
 openai
-playwright
+playwright  # removed chromium usage, but let's keep it for now
+pyasn1
+pyopenssl
 pysafebrowsing
-pytest
+pytest  # not used for now.
 python-dotenv
+pytz
 readability-lxml
 requests
 sentence-transformers
 simple_cache
 tiktoken
-uvicorn
+uvicorn  # To host models, not to run the project

@@ -15,7 +15,18 @@ wandb/
 *prompt.md
 checkpoints/
 malicious_phish.csv
+ratelimit_wait_time.txt
+budget_used.txt
+unused_responses*
 coding_dataset/
+temp_*
+removed_keys.txt
+error.txt
+errors.txt
+stop.txt
+logs_1.txt
+
+
 
 # Environments
 .env

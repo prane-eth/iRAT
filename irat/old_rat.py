@@ -1,17 +1,31 @@
 # This file allows to call old RAT as a single function to pass the query and get the final response.
 
-# Credits: https://github.com/CraftJarvis/RAT
+# Credits: https://github.com/CraftJarvis/RAT/blob/main/creative.ipynb
 
-from openai import OpenAI
-from dotenv import load_dotenv
-import os
+from irat.retrieval import record_retrieval
+from irat.utils.settings import env
+from irat.utils.logger import log_debug
+print = log_debug
 
-load_dotenv(override=True)
+from langchain.tools import Tool
+from langchain_community.document_loaders import AsyncHtmlLoader
+from langchain_community.document_transformers import Html2TextTransformer
+from langchain_community.utilities import GoogleSearchAPIWrapper
+from openai import OpenAI, AzureOpenAI, BadRequestError
+from datetime import datetime
+import tiktoken
+from multiprocessing import Process, Queue
+import queue  # Needed to catch Empty exception
+from difflib import unified_diff
+from IPython.display import display, HTML
 
-openai = OpenAI()
+if env('AZURE_OPENAI_ENDPOINT'):
+	openai = AzureOpenAI()
+else:
+	openai = OpenAI()
 
-LLM_model = os.getenv('LLM_NAME')
-KNOWLEDGE_CUTOFF = os.getenv('KNOWLEDGE_CUTOFF')
+LLM_model = env('LLM_NAME')
+KNOWLEDGE_CUTOFF = env('KNOWLEDGE_CUTOFF')
 
 # Basic Tool Functions
 
@@ -24,28 +38,22 @@ def user_message(content, role='user'):
 def system_message(content):
 	return user_message(content, role='system')
 
-def assistant_message(content):
-	return user_message(content, role='assistant')
-
-from langchain.tools import Tool
-from langchain_community.utilities import GoogleSearchAPIWrapper
 def get_search(query:str='', k:int=1):  # get the top-k resources with google
-	search = GoogleSearchAPIWrapper(k=k)
-	def search_results(query):
-		return search.results(query, k)
-	tool = Tool(
-		name='Google Search Snippets',
-		description='Search Google for recent results.',
-		func=search_results,
-	)
-	ref_text = tool.run(query)
-	if 'Result' not in ref_text[0].keys():
-		return ref_text
-	else:
-		return None
+	try:
+		search = GoogleSearchAPIWrapper(k=k)
+		def search_results(query):
+			return search.results(query, k)
+		tool = Tool(
+			name='Google Search Snippets',
+			description='Search Google for recent results.',
+			func=search_results,
+		)
+		ref_text = tool.run(query)
+		if 'Result' not in ref_text[0].keys():
+			return ref_text
+	except Exception as e:
+		pass
 
-from langchain_community.document_transformers import Html2TextTransformer
-from langchain_community.document_loaders import AsyncHtmlLoader
 def get_page_content(link:str):
 	loader = AsyncHtmlLoader([link])
 	docs = loader.load()
@@ -56,7 +64,6 @@ def get_page_content(link:str):
 	else:
 		return None
 
-import tiktoken
 def count_tokens(string: str, encoding_name: str = 'cl100k_base') -> int:
 	'''Returns the number of tokens in a text string.'''
 	encoding = tiktoken.get_encoding(encoding_name)
@@ -118,7 +125,6 @@ def chunk_texts(text, chunk_size = 2048):
 
 # RAT Pipeline
 
-from datetime import datetime
 chatgpt_system_prompt = f'''
 You are  a large language model with knowledge cutoff: {KNOWLEDGE_CUTOFF}.
 Current date: {datetime.now().strftime('%Y-%m-%d')}
@@ -131,16 +137,19 @@ Use `\n\n` to split the answer into several paragraphs.
 Just respond to the instruction directly. DO NOT add additional explanations or introducement in the answer unless you are asked to.
 '''
 def get_draft(question):
-	# Getting the draft answer
-	draft = openai.chat.completions.create(
-		model=LLM_model,
-		messages=[
-			system_message(chatgpt_system_prompt),
-			user_message(f'{question}' + draft_prompt)
-		],
-		temperature = 1.0
-	).choices[0].message.content
-	return draft
+	try:
+		# Getting the draft answer
+		draft = openai.chat.completions.create(
+			model=LLM_model,
+			messages=[
+				system_message(chatgpt_system_prompt),
+				user_message(f'{question}' + draft_prompt)
+			],
+			temperature = 1.0
+		).choices[0].message.content
+		return draft
+	except BadRequestError:  # if query is against policies
+		return None
 
 def split_draft(draft, split_char = '\n\n'):
 	# Split the draft into multiple paragraphs
@@ -160,15 +169,18 @@ Try to make the query as relevant as possible to the last few sentences in the c
 Just output the query directly. DO NOT add additional explanations or introducement in the answer unless you are asked to.
 '''
 def get_query(question, answer):
-	query = openai.chat.completions.create(
-		model=LLM_model,
-		messages=[
-			system_message(chatgpt_system_prompt),
-			user_message(f'##Question: {question}\n\n##Content: {answer}\n\n##Instruction: {query_prompt}')
-		],
-		temperature = 1.0
-	).choices[0].message.content
-	return query
+	try:
+		query = openai.chat.completions.create(
+			model=LLM_model,
+			messages=[
+				system_message(chatgpt_system_prompt),
+				user_message(f'##Question: {question}\n\n##Content: {answer}\n\n##Instruction: {query_prompt}')
+			],
+			temperature = 1.0
+		).choices[0].message.content
+		return query
+	except BadRequestError:  # if query is against policies
+		return None
 
 def get_content(query):
 	res = get_search(query, 1)
@@ -198,16 +210,19 @@ Split the paragraphs with `\n\n` characters.
 Just output the revised answer directly. DO NOT add additional explanations or annoucement in the revised answer unless you are asked to.
 '''
 def get_revise_answer(question, answer, content):
-	revised_answer = openai.chat.completions.create(
-		model=LLM_model,
-		messages=[
-			system_message(chatgpt_system_prompt),
-			user_message(f'##Existing Text in Wiki Web: {content}\n\n##Question: {question}\n' \
-    						'\n##Answer: {answer}\n\n##Instruction: {revise_prompt}')
-		],
-		temperature = 1.0
-	).choices[0].message.content
-	return revised_answer
+	try:
+		revised_answer = openai.chat.completions.create(
+			model=LLM_model,
+			messages=[
+				system_message(chatgpt_system_prompt),
+				user_message(f'##Existing Text in Wiki Web: {content}\n\n##Question: {question}\n' \
+								'\n##Answer: {answer}\n\n##Instruction: {revise_prompt}')
+			],
+			temperature = 1.0
+		).choices[0].message.content
+		return revised_answer
+	except BadRequestError:  # if query is against policies
+		return None
 
 def get_query_wrapper(q, question, answer):
 	result = get_query(question, answer)
@@ -216,8 +231,12 @@ def get_query_wrapper(q, question, answer):
 def get_content_wrapper(q, query):
 	try:
 		result = get_content(query)
+		record_retrieval(avoid_error=True)
 	except Exception as e:
-		print(f'Error in get_content: {e}')
+		err = str(e)
+		if 'key=' in err:  # Get text before "key="
+			err = err.split('key=')[0]
+		print(f'Error in get_content: {err}')
 		result = None
 	q.put(result)
 
@@ -226,8 +245,6 @@ def get_revise_answer_wrapper(q, question, answer, content):
 	result = get_revise_answer(question, answer, content)
 	q.put(result)
 
-from multiprocessing import Process, Queue
-import queue  # Needed to catch Empty exception
 
 def run_with_timeout(func, args=(), timeout=30):
 	q = Queue()  # Create a Queue object for inter-process communication
@@ -253,8 +270,6 @@ def run_with_timeout(func, args=(), timeout=30):
 	p.join()
 	return result
 
-from difflib import unified_diff
-from IPython.display import display, HTML
 
 def generate_diff_html(text1, text2):
 	diff = unified_diff(text1.splitlines(keepends=True),
@@ -277,9 +292,10 @@ def generate_diff_html(text1, text2):
 # RAT Function
 newline_char = '\n'
 
-def rat(question):
+def rat(question, draft_1: str = None):
 	print(f'{datetime.now()} [INFO] Get Draft...')
-	draft = get_draft(question)
+	draft = draft_1 or get_draft(question)
+	total_revisions = 1
 	print(f'{datetime.now()} [INFO] Fetched the Draft')
 	print(f'##################### DRAFT #######################')
 	print(draft)
@@ -327,15 +343,14 @@ def rat(question):
 				print(f'{datetime.now()} [INFO] No response. Skipping next steps...')
 				continue
 			else:
-				diff_html = generate_diff_html(answer, res)
-				display(HTML(diff_html))
+				# diff_html = generate_diff_html(answer, res)
+				# display(HTML(diff_html))
 				answer = res
+				total_revisions += 1
 			print(f'{datetime.now()} [INFO] Answer updation completed: [{j}/{min(len(content),3)}]')
 		# print(f'[{i}/{len(draft_paragraphs)}] REVISED ANSWER:\n {answer.replace(newline_char, ' ')}')
 		# print()
-	# if draft == answer:
-	# 	draft = 'No revisions needed. Initial response is sufficient.'
-	return draft, answer
+	return draft, answer, total_revisions
 
 # draft, answer = rat("Introduce Jin-Yong's Life.")
 

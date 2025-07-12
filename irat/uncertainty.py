@@ -1,9 +1,9 @@
 # Uncertainty estimation module
 
-from irat.utils.lm_functions import get_response
+from irat.utils.logger import log_debug, log_error, log_info
 from irat.utils.settings import env
 from irat.utils.stage_base import StageBase
-from irat.utils.logger import log_debug, log_error, log_info
+from irat.initial_drafting import generate_initial_draft
 
 import numpy as np
 from openai import OpenAI
@@ -20,8 +20,7 @@ try:
     model_encode(['test'])  # Test the model encoding function
 except Exception as e:
 	log_error(f'Error in model encoding: {e}')
-	raise RuntimeError('Failed to initialize the embedding model. Run the server.')
-	# run_vllm_command(embed_model_name, task='embed', port=8002)
+	raise RuntimeError('Failed to initialize the embedding model. Please start the server.')
 
 
 class Uncertainty(StageBase):
@@ -64,7 +63,7 @@ class Uncertainty(StageBase):
 			responses.append(draft)
 			num_samples -= 1
 		for _ in range(num_samples):
-			draft = get_response(question)
+			draft = generate_initial_draft(question)
 			responses.append(draft)
 
 		# Compute pairwise cosine similarity

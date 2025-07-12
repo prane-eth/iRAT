@@ -1,4 +1,4 @@
-from irat.utils.logger import log_debug, log_info
+from irat.utils.logger import log_debug, log_error, log_info
 from irat.utils.settings import env
 
 ### Pre-process the URLs
@@ -34,22 +34,63 @@ def preprocess_urls(urls=[]):
 
 from pysafebrowsing import SafeBrowsing
 
-GOOGLE_API_KEY = env('GOOGLE_API_KEY')
-safebrowsing = SafeBrowsing(GOOGLE_API_KEY)
+__api_keys = env('GOOGLE_SAFEBROWSING_API_KEYS')
+__api_keys = [key.strip() for key in __api_keys.split(",") if key.strip() and '#' not in key]
+if not __api_keys:
+	raise ValueError('Google API key is not set in the settings.')
+__key_index = 0
+safebrowsing = SafeBrowsing(__api_keys[__key_index])
+
+def change_api_key(error=True):
+	global __api_keys
+	global __key_index
+	log_info('Google Safe Browsing: Switching to the next API key.')
+	if error:
+		log_info(f'Rate limit exceeded. Removing key: ....{__api_keys[__key_index][-3:]}')
+		# Remove the current API key from the list
+		__api_keys.pop(__key_index)
+		if not __api_keys:
+			log_error("Domain filter: No more API keys available. Exiting.")
+			with open('error.txt', 'w') as file:
+				file.write('Domain filter: No more API keys available. Exiting.')
+			raise Exception('Domain filter: No more API keys available. Exiting.')
+	else:
+		__key_index += 1
+	if __key_index >= len(__api_keys):
+		__key_index = 0
+
+	global safebrowsing
+	safebrowsing = SafeBrowsing(__api_keys[__key_index])
+
 
 def check_google_safe_browsing(urls=[]):
-	# Check Google Safe Browsing for malicious URLs
-	# Returns True if malicious, False otherwise.
-	if not urls:
-		raise ValueError('No URLs provided for checking.')
-	response = safebrowsing.lookup_urls(urls)
-	malicious_count = 0
-	result = {}
-	for url, info in response.items():
-		result[url] = True if info['malicious'] else False
-		if info['malicious']:
-			malicious_count += 1
-	return result, malicious_count
+	try:
+		# Check Google Safe Browsing for malicious URLs
+		# Returns True if malicious, False otherwise.
+		if not urls:
+			raise ValueError('No URLs provided for checking.')
+		response = safebrowsing.lookup_urls(urls)
+		malicious_count = 0
+		result = {}
+		for url, info in response.items():
+			result[url] = True if info['malicious'] else False
+			if info['malicious']:
+				malicious_count += 1
+		return result, malicious_count
+	except Exception as e:
+		if '429' in str(e):
+			change_api_key()
+			return check_google_safe_browsing(urls)
+		else:
+			log_error(f'Google Safe Browsing Error: {e}')
+			raise e
+
+# test the function
+try:
+	check_google_safe_browsing(['https://www.google.com', 'https://www.example.com'])
+except Exception as e:
+	log_error(f'Error checking Google Safe Browsing: {e}')
+	raise e
 
 
 ### Use Kaggle dataset
@@ -120,5 +161,15 @@ def filter_urls(urls=[]):
 		if not safe_browsing_results[url] and not malicious_domain_results[url]]
 	# removed_urls = set(urls) - set(filtered_urls)
 	removed_count = len(urls) - len(filtered_urls)
-	log_info(f'Removed {removed_count}/{len(urls)} URLs that were either malicious/unsafe.')
+	log_info(f'Removed {removed_count}/{len(urls)} URLs that were either spam or unsafe.')
 	return filtered_urls
+
+
+if __name__ == '__main__':
+	# Example usage
+	test_urls = [
+		'https://www.google.com',
+		'https://www.example.com',
+	]
+	filtered_urls = filter_urls(test_urls)
+	log_debug(f'Filtered URLs: {filtered_urls}')

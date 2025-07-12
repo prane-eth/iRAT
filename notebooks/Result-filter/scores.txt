@@ -1,5 +1,4 @@
 MiniLM-L4-v2 - accuracy: 76.45%
 MiniLM-L4-v2-fine-tuned - accuracy: 78.39%
-
 MiniLM-L6-v2 - accuracy: 78.71%
 MiniLM-L6-v2-fine-tuned - accuracy: 78.87%

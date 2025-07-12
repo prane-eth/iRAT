@@ -1,0 +1,26 @@
+-- threshold 80%: -- 
+k:
+MiniLM-L6-v2 - accuracy: 71.61%
+MiniLM-L12-v2 - accuracy: 70.97%
+mxbai-rerank-xsmall-v1 - accuracy: 70.81%
+MiniLM-L4-v2 - accuracy: 68.87%
+k+1:
+MiniLM-L6-v2 - accuracy: 76.77%
+MiniLM-L12-v2 - accuracy: 76.94%
+mxbai-rerank-xsmall-v1 - accuracy: 70.81%
+MiniLM-L4-v2 - accuracy: 72.26%
+
+
+-- threshold 60%: -- 
+k:
+MiniLM-L6-v2 - accuracy: 75.81%
+MiniLM-L12-v2 - accuracy: 75.81%
+mxbai-rerank-xsmall-v1 - accuracy: 72.74%
+MiniLM-L4-v2 - accuracy: 74.03%
+k+1:
+MiniLM-L6-v2 - accuracy: 83.55%
+MiniLM-L12-v2 - accuracy: 84.35%
+mxbai-rerank-xsmall-v1 - accuracy: 72.74%
+MiniLM-L4-v2 - accuracy: 82.26%
+
+

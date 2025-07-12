@@ -1,4 +1,8 @@
+import os
 from typing import Generator
+
+# Change to the directory of this script
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 from datasets import load_from_disk
 dataset = load_from_disk('coding_dataset')
@@ -30,7 +34,7 @@ def evaluate_model(model, model_name_short):
 	results.clear()  # Reset results for each evaluation
 	for query_index, row in enumerate(dataset[subset]):
 		correct_indices = [index for index, x in enumerate(row['passages']['is_selected']) if x > 0]
-		if not correct_indices:
+		if not correct_indices:  # If R=0, we can't divide by R.
 			# No correct indices. We need not select anything.
 			mark_as_correct(query_index)
 			continue
@@ -65,7 +69,7 @@ def evaluate_model_2(model, model_name_short, add_r=1, threshold=6.0): # add_r t
 	results.clear()  # Reset results for each evaluation
 	for query_index, row in enumerate(dataset[subset]):
 		correct_indices = [index for index, x in enumerate(row['passages']['is_selected']) if x > 0]
-		if not correct_indices:
+		if not correct_indices:  # If R=0, we can't divide by R.
 			# No correct indices mentioned. We need not select anything.
 			mark_as_correct(query_index)
 			continue
@@ -95,3 +99,13 @@ def evaluate_model_2(model, model_name_short, add_r=1, threshold=6.0): # add_r t
 			f.write(f'{model_name_short} - accuracy: {accuracy:.2%}\n')
 
 	return accuracy
+
+
+if __name__ == '__main__':
+	# Example usage
+	from sentence_transformers import CrossEncoder
+	model_name = 'cross-encoder/ms-marco-MiniLM-L6-v2'
+	# model_name = 'cross-encoder/ms-marco-MiniLM-L4-v2'
+	# model_name = 'mixedbread-ai/mxbai-rerank-xsmall-v1'
+	model = CrossEncoder(model_name)
+	evaluate_model(model, model_name_short=None)

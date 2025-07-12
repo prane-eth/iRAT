@@ -20,11 +20,12 @@ def select_paragraphs(query: str, paragraphs: list[str], top_k: int, score_thres
 try:
 	select_paragraphs('Test query', ['Test paragraph 1', 'Test paragraph 2'], top_k=1, score_threshold=0.5)
 except Exception as e:
-	raise RuntimeError(f'Failed to initialize the ranking model. Run the server.')
+	raise RuntimeError(f'Failed to initialize the ranking model. Please start the server.')
 
 
 
 if __name__ == '__main__':
+	# Example usage
 	test_query = 'What is the capital of France?'
 	test_paragraphs = ['Capital and largest city of France',
 		'By the end of the 12th century, Paris had become the political, economic, religious, and cultural capital of France.',
