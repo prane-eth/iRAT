@@ -1,0 +1,13 @@
+{
+	"task_id": 60,
+	"prompt": "A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of fruit in clusters: 20 fruit/cluster * 6 clusters = <<20*6=120>>120 fruit\nThen add the number of individual fruit to find the total number of fruit: 120 fruit + 67 fruit = <<120+67=187>>187 fruit\n#### 187",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of raspberries, we first need to calculate the number of raspberries in the clusters. The bush has 6 clusters with 20 fruit each. \n\nSo, the total number of raspberries in the clusters is 6 * 20 = 120.\n\nIn addition to the raspberries in the clusters, there are 67 individual fruit scattered across the bush. \n\nTo find the total number of raspberries, we need to add the number of raspberries in the clusters to the number of individual raspberries. total_raspberries = 120 + 67 = 187.\n\n#### 187",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of raspberries on the bush, we first need to calculate the number of raspberries in the clusters. The bush has 6 clusters with 20 fruit each. So, the total number of raspberries in the clusters is 6 * 20 = 120.\n\nNext, we add the individual raspberries to the total. In addition to the raspberries in the clusters, there are 67 individual fruit scattered across the bush. To find the total number of raspberries, we need to add these individual raspberries to the total number of raspberries in the clusters. total_raspberries = 120 + 67 = 187.\n\nThe calculation seems correct as we have considered all the raspberries in the clusters and the individual ones. There are no other sources of raspberries mentioned.\n\n#### 187",
+			"retrievals": 2
+		}
+	]
+}

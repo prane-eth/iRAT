@@ -1,0 +1,13 @@
+{
+	"task_id": 905,
+	"prompt": "There are 9 Fast and the Furious movies, Deepa has seen each one in the theatre three times. She has spent $216 seeing these movies. What is the average price she paid per ticket?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has seen 27 movies because 9 x 3 = <<9*3=27>>27\nThey cost $8 each because 216 / 27 = <<216/27=8>>8\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average price Deepa paid per ticket, we first need to determine the total number of tickets she bought. Since there are 9 Fast and the Furious movies and she saw each one in the theatre three times, the total number of tickets can be calculated by multiplying the number of movies by the number of times she saw each movie.\n\nThe total number of tickets = 9 movies * 3 viewings per movie = 27 tickets.\n\nNext, we need to find the average price per ticket. We know that Deepa spent a total of $216 seeing these movies. The average price per ticket can be found by dividing the total amount spent by the total number of tickets.\n\nAverage price per ticket = Total amount spent / Total number of tickets = $216 / 27 tickets.\n\nNow, we calculate the average price per ticket by performing the division: $216 / 27 = $8.\n\n#### $8",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the average price Deepa paid per ticket, we first need to determine the total number of tickets she bought. Since there are 9 Fast and the Furious movies and she saw each one in the theatre three times, the total number of tickets can be calculated by multiplying the number of movies by the number of times she saw each movie.\n\nThe total number of tickets = 9 movies * 3 viewings per movie = 27 tickets. This calculation gives us the total number of times Deepa went to see the movies, which directly translates to the number of tickets she purchased.\n\nGiven that Deepa spent $216 seeing these movies, we can find the average price per ticket by dividing the total amount spent by the total number of tickets. The formula for the average price per ticket is: Average Price = Total Amount Spent / Total Number of Tickets.\n\nSubstituting the given values into the formula: Average Price = $216 / 27 tickets. Performing the division gives us the average price per ticket.\n\nThe average price per ticket = $216 / 27 = $8. Therefore, Deepa paid an average of $8 per ticket to see the Fast and the Furious movies.\n\n#### $8",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 792,
+	"prompt": "A train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "At the first stop 172 people - 47 people = <<172-47=125>>125 people are on the train.\nThen 13 more people get on increasing it to 125 people + 13 people = <<13+125=138>>138 people.\nAt the next stop 138 people - 38 people = <<138-38=100>>100 people remain on the train.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many people are on the train after the stops, we need",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the number of people remaining on the train after the",
+			"retrievals": 2
+		}
+	]
+}

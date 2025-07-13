@@ -1,0 +1,13 @@
+{
+	"task_id": 496,
+	"prompt": "Charisma works for 8 hours every day.  She has a timer to remind her to get up and walk for 5 minutes every hour she\u2019s at work.  After 5 days at the office, how many minutes has she walked?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She works 8 hours every day and she sets a timer to walk 5 minutes every hour for a total of 8*5 = <<8*5=40>>40 minutes of walking\nIf she walks 40 minutes a day while at the office then over 5 days she walks 40*5 = <<40*5=200>>200 minutes\n#### 200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total minutes Charisma has walked, we first need to determine how many hours she works in a day and how many days she has worked. \nCharisma works for 8 hours every day and she has worked for 5 days.\n\nSince she works 8 hours a day, and she gets up to walk every hour, she walks 8 times a day. \nThe duration of each walk is 5 minutes.\n\nSo, the total minutes she walks in a day is 8 * 5 = 40 minutes.\n\nNow, we need to calculate the total minutes she has walked in 5 days. \nTotal minutes walked = minutes walked per day * number of days = 40 * 5 = 200 minutes.\n\n#### 200",
+			"old_rat_retrievals": 5,
+			"final_answer": "Charisma works for 8 hours every day and walks for 5 minutes every hour. To find out how many minutes she has walked after 5 days at the office, we first need to calculate how many minutes she walks per day. Since she works for 8 hours and walks for 5 minutes every hour, we multiply the number of hours she works by the number of minutes she walks per hour. So, minutes walked per day = 8 hours * 5 minutes/hour = 40 minutes.\n\nNow, we need to calculate the total minutes she has walked in 5 days. Total minutes walked = minutes walked per day * number of days = 40 * 5 = 200 minutes.\n\n#### 200",
+			"retrievals": 2
+		}
+	]
+}

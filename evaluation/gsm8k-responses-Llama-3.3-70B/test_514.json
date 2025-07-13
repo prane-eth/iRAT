@@ -1,0 +1,13 @@
+{
+	"task_id": 514,
+	"prompt": "Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Julie spend $500 * 0.2 = $<<500*0.2=100>>100 for clothes.\nJulie then had $500 - $100 = $<<500-100=400>>400 left.\nShe spend $400 * 0.25 = $<<400*0.25=100>>100 on CDs.\nJulie had $400 - $100 = $<<400-100=300>>300 left.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Julie had left, we first need to calculate the",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money Julie has left, let's break down her expenses step by step.\n\nFirst, Julie spent 20% of her $500 on clothes. This amount is calculated as 0.20 * $500 = $100.\n\nAfter spending $100 on clothes, Julie is left with $500 - $100 = $400.\n\nNext, Julie spent 25% of the remaining $400 on CDs. This amount is 0.25 * $400 = $100.\n\nFinally, after spending $100 on CDs, we subtract this from the $400 remaining after the clothing purchase. So, $400 - $100 = $300.\n\n#### $300",
+			"retrievals": 1
+		}
+	]
+}

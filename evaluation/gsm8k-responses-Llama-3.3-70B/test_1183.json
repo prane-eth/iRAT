@@ -1,0 +1,13 @@
+{
+	"task_id": 1183,
+	"prompt": "Bob spends $27000 distributed between 3 schools to buy books.  He can buy 100 books for $500.  How many books can he buy per school?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spends 27000/3=$<<27000/3=9000>>9000\nEach book cost 500/100=$<<500/100=5>>5\nSo he can buy 9000/5=<<9000/5=1800>>1800 books per school\n#### 1800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many books Bob can buy per school, we first need to determine the total number of books he can buy with $27000. \n\nWe know that 100 books cost $500. So, the cost per book is $500 / 100 = $5. \n\nNow, we can calculate the total number of books Bob can buy with $27000 by dividing the total amount by the cost per book: $27000 / $5 = 5400 books.\n\nSince Bob is distributing the books between 3 schools, we need to divide the total number of books by 3 to find out how many books each school will get: 5400 / 3 = 1800 books per school.\n\n#### 1800",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many books Bob can buy per school, we first need to determine the total number of books he can buy with $27000. We know that 100 books cost $500. So, the cost per book is $500 / 100 = $5. Now, we can calculate the total number of books Bob can buy with $27000 by dividing the total amount by the cost per book: $27000 / $5 = 5400 books.\n\nSince Bob is distributing the books between 3 schools, we need to divide the total number of books by 3 to find out how many books each school will get: 5400 / 3 = 1800 books per school.\n\n#### 1800",
+			"retrievals": 1
+		}
+	]
+}

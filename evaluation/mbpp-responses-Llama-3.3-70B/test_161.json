@@ -1,0 +1,19 @@
+{
+	"task_id": 171,
+	"prompt": "Write a function to check if the given expression is balanced or not.?assert check_expression(\"{()}[{}]\") == True",
+	"test_imports": [],
+	"test_list": [
+		"assert check_expression(\"{()}[{}]\") == True",
+		"assert check_expression(\"{()}[{]\") == False",
+		"assert check_expression(\"{()}[{}][]({})\") == True"
+	],
+	"mbpp_code": "from collections import deque\r\ndef check_expression(exp):\r\n    if len(exp) & 1:\r\n        return False\r\n    stack = deque()\r\n    for ch in exp:\r\n        if ch == '(' or ch == '{' or ch == '[':\r\n            stack.append(ch)\r\n        if ch == ')' or ch == '}' or ch == ']':\r\n            if not stack:\r\n                return False\r\n            top = stack.pop()\r\n            if (top == '(' and ch != ')') or (top == '{' and ch != '}' or (top == '[' and ch != ']')):\r\n                return False\r\n    return not stack",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine if a given expression is balanced, we need to consider the opening and closing brackets. The expression is balanced if every opening bracket has a corresponding closing bracket of the same type, and the pairs of brackets are properly nested.\n\nThe approach to solve this problem involves using a stack data structure. We will iterate over the characters in the expression. When we encounter an opening bracket, we push it onto the stack. When we encounter a closing bracket, we check if the stack is empty or if the top of the stack does not match the closing bracket. If either condition is true, we return False, indicating that the expression is not balanced.\n\nWe will use a dictionary to map closing brackets to their corresponding opening brackets. This allows us to easily check if a closing bracket matches the opening bracket at the top of the stack. The function will return True if we iterate over the entire expression without returning False, indicating that the expression is balanced.\n\n```python\ndef check_expression(expression):\n    stack = []\n    bracket_map = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n    for char in expression:\n        if char in bracket_map.values():\n            stack.append(char)\n        elif char in bracket_map.keys():\n            if not stack or stack.pop() != bracket_map[char]:\n                return False\n    return not stack\n```",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine if a given expression is balanced, we can use a stack data structure. The idea is to push opening brackets onto the stack and pop them off when we encounter a matching closing bracket. \n\nHere's a Python function that implements this approach:\n\n```python\ndef check_expression(expression):\n    stack = []\n    bracket_map = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n    for char in expression:\n        if char in bracket_map.values():\n            stack.append(char)\n        elif char in bracket_map.keys():\n            if not stack or stack.pop() != bracket_map[char]:\n                return False\n    return not stack\n```\n\nThis function works by iterating over each character in the expression. If it encounters an opening bracket, it pushes it onto the stack. If it encounters a closing bracket, it checks if the stack is empty or if the top of the stack does not match the closing bracket. If either condition is true, it returns False, indicating that the expression is not balanced. If it iterates over the entire expression without returning False, it returns True if the stack is empty (i.e., all brackets were properly matched) and False otherwise.\n\nFor example, `check_expression(\"{()}[{}]\")` returns True because the expression is balanced, while `check_expression(\"{()}[\")` returns False because the expression is not balanced.",
+			"retrievals": 4
+		}
+	]
+}

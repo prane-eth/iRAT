@@ -1,0 +1,13 @@
+{
+	"task_id": 554,
+	"prompt": "Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Bill has 2 cases of 24 bottles each, so he has 24 * 2 = <<2*24=48>>48 bottles of water\nBill needs enough water for 70 guests to have 2 bottles each, so he needs 70+70 = <<70+70=140>>140 bottles of water.\nBill needs 140 bottles of water and has 48, so he needs to buy 140- 48 = <<140-48=92>>92 bottles of water.\n#### 92",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many additional bottles of water Bill needs to buy, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of water bottles Bill already has.\nBill started out with 2 cases of water, and each case has 24 bottles. To find out the total number of bottles he already has, we multiply the number of cases by the number of bottles in each case: 2 cases * 24 bottles/case = 48 bottles.\n\n## Step 2: Determine the total number of water bottles Bill needs for his party.\nBill has 70 guests arriving, and he wants to have 2 bottles of water for each guest. To find out the total number of bottles he needs, we multiply the number of guests by the number of bottles per guest: 70 guests * 2 bottles/guest = 140 bottles.\n\n## Step 3: Calculate the additional number of water bottles Bill needs to buy.\nTo find out how many more bottles Bill needs to buy, we subtract the number of bottles he already has from the total number of bottles he needs: 140 bottles (needed) - 48 bottles (already has) = 92 bottles.\n\n#### 92",
+			"retrievals": 1
+		}
+	]
+}

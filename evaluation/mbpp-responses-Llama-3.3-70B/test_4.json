@@ -1,0 +1,19 @@
+{
+	"task_id": 14,
+	"prompt": "Write a function to find the cumulative sum of all the values that are present in the given tuple list.?assert cummulative_sum([(1, 3), (5, 6, 7), (2, 6)]) == 30",
+	"test_imports": [],
+	"test_list": [
+		"assert cummulative_sum([(1, 3), (5, 6, 7), (2, 6)]) == 30",
+		"assert cummulative_sum([(2, 4), (6, 7, 8), (3, 7)]) == 37",
+		"assert cummulative_sum([(3, 5), (7, 8, 9), (4, 8)]) == 44"
+	],
+	"mbpp_code": "def cummulative_sum(test_list):\r\n  res = sum(map(sum, test_list))\r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the problem\nThe problem asks us to write a function that calculates the cumulative sum of all values present in a given tuple list.\n\n## Step 2: Identify the input and output\nThe input is a list of tuples, where each tuple can contain any number of integers. The output should be the cumulative sum of all integers in the tuple list.\n\n## Step 3: Write the function\nTo solve this problem, we can use a simple function that iterates over each tuple in the list, and then over each value in the tuple, adding it to a running total.\n\n## Step 4: Implement the function\n```python\ndef cummulative_sum(tuple_list):\n    total = 0\n    for tup in tuple_list:\n        for val in tup:\n            total += val\n    return total\n```\n\n## Step 5: Test the function\nWe can test the function using the provided unit test:\n```python\nassert cummulative_sum([(1, 3), (5, 6, 7), (2, 6)]) == 30\n```\n\nThe final answer is: $\\boxed{30}$",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the Problem\nThe problem asks us to write a function to find the cumulative sum of all the values that are present in the given tuple list. This means we need to sum up all the numbers in the tuples.\n\n## Step 2: Solution Approach\nOne approach to solve this problem is to use a list comprehension to flatten the list of tuples into a single list of numbers, and then use the built-in `sum` function to calculate the cumulative sum.\n\n## Step 3: Implement the Solution\nHere is a possible implementation of the solution:\n```python\ndef cummulative_sum(tuples):\n    # Flatten the list of tuples into a single list of numbers\n    numbers = [num for tuple in tuples for num in tuple]\n    \n    # Calculate the cumulative sum\n    cumulative_sum = sum(numbers)\n    \n    return cumulative_sum\n```\n## Step 4: Test the Solution\nWe can test the solution using the provided unit test:\n```python\nassert cummulative_sum([(1, 3), (5, 6, 7), (2, 6)]) == 30\n```\nThis should pass if our solution is correct.\n\nThe final answer is: $\\boxed{30}$",
+			"retrievals": 1
+		}
+	]
+}

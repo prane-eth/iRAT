@@ -1,0 +1,13 @@
+{
+	"task_id": 1054,
+	"prompt": "Alison qualified for a spot on the running team, so she went shopping for some athletic gear. She bought a tank top for $10, a pair of running shorts for $5 more than the top cost, and a pair of tennis shoes that were originally $48 but were on sale for half price. She had a coupon for $2 off the package of $8 athletic socks that she also bought. How much did she spend on athletic gear?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The shorts were $5 more than the tank top, so they cost $5 + $10 = $<<5+10=15>>15.\nHer tennis shoes were half the original $68 price, so they cost $48 / 2 = $24.\nWith her coupon, the socks were $8 - $2 = $<<8-2=6>>6.\nThe shirt, shorts, shoes, and socks together cost $10 + $15 + $24 + $6 = $<<10+15+24+6=55>>55.\n#### 55",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount Alison spent on athletic gear, we first need to determine the cost of each item. \nThe tank top cost $10. \nThe pair of running shorts cost $5 more than the tank top, so the shorts cost $10 + $5 = $15. \nThe tennis shoes were originally $48 but were on sale for half price, so the shoes cost $48 / 2 = $24.\n\nThe athletic socks originally cost $8, but Alison had a coupon for $2 off, so the socks cost $8 - $2 = $6. \nNow, we need to add up the costs of all the items to find the total amount spent. \nThe total cost is $10 (tank top) + $15 (running shorts) + $24 (tennis shoes) + $6 (athletic socks).\n\n#### $10 + $15 + $24 + $6 = $55",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the cost of the tank top\nThe tank top cost $10.\n\n## Step 2: Calculate the cost of the running shorts\nThe pair of running shorts cost $5 more than the tank top, so the shorts cost $10 + $5 = $15.\n\n## Step 3: Calculate the cost of the tennis shoes\nThe tennis shoes were originally $48 but were on sale for half price, so the shoes cost $48 / 2 = $24.\n\n## Step 4: Calculate the cost of the athletic socks\nThe athletic socks originally cost $8, but Alison had a coupon for $2 off, so the socks cost $8 - $2 = $6.\n\n## Step 5: Calculate the total amount spent on athletic gear\nNow, we need to add up the costs of all the items to find the total amount spent. \nThe total cost is $10 (tank top) + $15 (running shorts) + $24 (tennis shoes) + $6 (athletic socks) = $10 + $15 + $24 + $6 = $55.\n\n#### $55",
+			"retrievals": 2
+		}
+	]
+}

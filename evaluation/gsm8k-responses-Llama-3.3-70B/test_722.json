@@ -1,0 +1,13 @@
+{
+	"task_id": 722,
+	"prompt": "Helga was the fastest clog dancer in all of Slovenia. With both hands at her sides, she could tap her right foot at a rate of 300 taps per minute, while simultaneously tapping her left foot at a rate of 250 taps per minute.  When she raised her arms, her tap rate slowed down to 200 taps per minute with each foot.  If she dances a total of 5 minutes, with her arms raised during only 2 of those minutes, what would be the combined total number of times that she taps both of her feet?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "During the 5 minutes of dancing, 2 minutes were performed with hands raised and 5-2=3 minutes were performed without hands raised.\nWith hands not raised, her right foot tapped 3*300=<<3*300=900>>900 times.\nWith hands not raised, her left foot tapped 3*250=<<3*250=750>>750 times.\nWith hands raised, her right foot tapped 2*200=<<2*200=400>>400 times.\nWith hands raised, her left foot tapped 2*200=<<2*200=400>>400 times.\nThus, in total, she tapped 900+750+400+400=<<900+750+400+400=2450>>2450 times\n#### 2450",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the combined total number of times that Helga taps both of her feet",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the combined total number of times that Helga taps both of her feet",
+			"retrievals": 1
+		}
+	]
+}

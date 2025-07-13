@@ -1,0 +1,13 @@
+{
+	"task_id": 1268,
+	"prompt": "A farm has 10 2-legged animals and 15 4-legged animals. If all animals are healthy, how many pairs of animal legs in total are on the farm?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "2-legged animals have 2 legs. Therefore 10 2-legged animals will have 10*2=<<10*2=20>>20 legs\n4-legged animals have 4 legs. Therefore 15 4-legged animals will have 15*4=<<15*4=60>>60 legs\nIn total there are 20+60= <<20+60=80>>80 legs\nA pair of legs equals 2 legs. If there are 80 legs on the farm, there will be 80/2= <<80/2=40>>40 pairs of legs\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of pairs of animal legs on the farm, we first need to calculate the total number of legs from the 2-legged animals and the 4-legged animals separately.\n\nThe farm has 10 2-legged animals. Since each of these animals has 2 legs, the total number of legs from these animals is 10 * 2 = 20 legs.\n\nThe farm also has 15 4-legged animals. Since each of these animals has 4 legs, the total number of legs from these animals is 15 * 4 = 60 legs.\n\nNow, we add the total number of legs from the 2-legged and 4-legged animals to find the overall total. So, 20 legs (from 2-legged animals) + 60 legs (from 4-legged animals) = 80 legs in total.\n\nSince the question asks for the number of pairs of legs and each pair consists of 2 legs, we divide the total number of legs by 2 to find the total number of pairs. Therefore, 80 legs / 2 = 40 pairs of legs.\n\n#### 40",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the total number of pairs of animal legs on the farm, we first need to calculate the total number of legs from both the 2-legged and 4-legged animals. The farm has 10 animals with 2 legs each, giving us 10 * 2 = 20 legs from these animals. Additionally, there are 15 animals with 4 legs each, resulting in 15 * 4 = 60 legs from these animals. \n\nThe total number of legs from both types of animals is 20 (from 2-legged animals) + 60 (from 4-legged animals) = 80 legs. Since each pair of legs consists of 2 legs, we divide the total number of legs by 2 to find the total number of pairs. Therefore, the total number of pairs of legs is 80 / 2 = 40 pairs.\n\n#### 40",
+			"retrievals": 1
+		}
+	]
+}

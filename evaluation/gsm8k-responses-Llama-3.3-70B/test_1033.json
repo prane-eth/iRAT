@@ -1,0 +1,13 @@
+{
+	"task_id": 1033,
+	"prompt": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans.  It takes 75 large jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans.  And eating 3 small beans is the same as eating 1 medium-sized bean.  How many small beans can Grandpa eat?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Grandpa can eat twice as many medium beans as large beans, then eating 75 large beans is the same as eating 75*2=<<75*2=150>>150 medium-sized jelly beans.\nIf 1 medium-sized bean is the same as 3 small beans, then 150 medium-sized beans are equal to 150*3=<<150*3=450>>450 small jelly beans.\n#### 450",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many small jelly beans Grandpa can eat, we first need to establish the relationship between the sizes of the jelly beans and how many of each size Grandpa can eat. We know that it takes 75 large jelly beans to fill Grandpa up.\n\nGrandpa can eat twice as many medium-sized beans as large beans. Since it takes 75 large beans to fill him up, he can eat 2 * 75 = 150 medium-sized beans.\n\nNow, we are told that eating 3 small beans is the same as eating 1 medium-sized bean. This means that for every medium-sized bean, Grandpa can eat 3 small beans instead. Since Grandpa can eat 150 medium-sized beans, he can eat 3 * 150 small beans.\n\nTo find out how many small beans Grandpa can eat, we calculate 3 * 150 = 450 small beans.\n\n#### 450",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many small jelly beans Grandpa can eat, we first need to establish the relationship between the sizes of the jelly beans and how many of each size Grandpa can eat. We know that it takes 75 large jelly beans to fill Grandpa up. Grandpa can eat twice as many medium-sized beans as large beans. Since it takes 75 large beans to fill him up, he can eat 2 * 75 = 150 medium-sized beans.\n\nNow, we are told that eating 3 small beans is the same as eating 1 medium-sized bean. This means that for every medium-sized bean, Grandpa can eat 3 small beans instead. Since Grandpa can eat 150 medium-sized beans, he can eat 3 * 150 small beans. To find out how many small beans Grandpa can eat, we calculate 3 * 150 = 450 small beans.\n\n#### 450",
+			"retrievals": 0
+		}
+	]
+}

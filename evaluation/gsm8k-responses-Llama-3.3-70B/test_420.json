@@ -1,0 +1,13 @@
+{
+	"task_id": 420,
+	"prompt": "Stanley was standing on the side of the mountain, at an elevation of 10,000 feet, when a gust air blew the comb out of his pocket, causing the comb to fall 4,000 feet to a ledge below.  Stanley's brother, Oliver, was also on the mountain, but he was at an elevation of 3,000 feet.  Stanley called Oliver on his cellphone and asked Oliver to find Stanley's comb.  How many feet must Oliver climb to reach the elevation of Stanley's comb?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The elevation of Stanley's comb was 10,000 - 4,000 = <<10000-4000=6000>>6,000 feet.\nThus Oliver, who was at an elevation of 3,000 feet, must climb 6,000 - 3,000 = <<6000-3000=3000>>3,000 feet to reach the elevation of Stanley's comb.\n#### 3000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many feet Oliver must climb to reach the elevation of Stanley's comb, we first need to determine the elevation at which the comb is located. Stanley was standing at an elevation of 10,000 feet when the comb fell 4,000 feet. \n\nSo, the elevation of the comb can be calculated by subtracting the distance it fell from Stanley's initial elevation: 10,000 feet - 4,000 feet = 6,000 feet. This means the comb is now at an elevation of 6,000 feet.\n\nNow, we need to calculate how many feet Oliver must climb to reach this elevation. Oliver is currently at an elevation of 3,000 feet. To find out how much he needs to climb, we subtract his current elevation from the elevation of the comb: 6,000 feet - 3,000 feet = 3,000 feet.\n\n#### 3000",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many feet Oliver must climb to reach the elevation of Stanley's comb, we first need to determine the elevation at which the comb landed. Stanley was at 10,000 feet when the comb fell 4,000 feet. So, the comb landed at an elevation of 10,000 - 4,000 = 6,000 feet.\n\nOliver is currently at an elevation of 3,000 feet. To reach the comb, which is at 6,000 feet, Oliver needs to climb 6,000 - 3,000 = 3,000 feet.\n\n#### 3,000 feet",
+			"retrievals": 2
+		}
+	]
+}

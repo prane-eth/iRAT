@@ -1,0 +1,13 @@
+{
+	"task_id": 647,
+	"prompt": "Alisa biked 12 miles per hour for 4.5 hours. Stanley biked at 10 miles per hour for 2.5 hours. How many miles did Alisa and Stanley bike in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Alisa = 12 * 4.5 = <<12*4.5=54>>54 miles\nStanley = 10 * 2.5 = <<10*2.5=25>>25 miles\n54 + 25 = <<54+25=79>>79 miles\nTogether, Alisa and Stanley biked for 79 miles.\n#### 79",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total miles biked by Alisa and Stanley, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total miles biked by Alisa and Stanley, we first need to calculate the distance each of them covered. The formula to calculate distance is speed multiplied by time. \n\nFor Alisa, who biked at 12 miles per hour for 4.5 hours, the distance covered would be 12 * 4.5 = 54 miles.\n\nFor Stanley, who biked at 10 miles per hour for 2.5 hours, the distance covered would be 10 * 2.5 = 25 miles.\n\nNow, to find the total miles biked by both Alisa and Stanley, we add the distances they each covered: 54 miles (Alisa) + 25 miles (Stanley) = 79 miles.\n\n#### 79",
+			"retrievals": 1
+		}
+	]
+}

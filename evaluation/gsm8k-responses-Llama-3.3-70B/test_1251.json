@@ -1,0 +1,13 @@
+{
+	"task_id": 1251,
+	"prompt": "Mitchell is making nachos for his family. He buys two bags of chips with 55 chips each. If his family has five members, how many chips does each person get if they all get the same number?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 110 chips because 2 x 55 = <<2*55=110>>110\nThey each get 22 chips because 110 / 5 = <<110/5=22>>22\n#### 22",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of chips each person gets, we first need to calculate the total number of chips Mitchell bought. He bought two bags of chips with 55 chips each. \n\nSo, the total number of chips = 2 bags * 55 chips/bag = 110 chips.\n\nNow, we need to divide the total number of chips by the number of family members to find out how many chips each person gets. There are five members in Mitchell's family.\n\nThe number of chips per person = total number of chips / number of family members = 110 chips / 5 members = 22 chips per member.\n\n#### 22",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the number of chips each person gets, we first need to calculate the total number of chips Mitchell bought. He bought two bags of chips with 55 chips each. So, the total number of chips = 2 bags * 55 chips/bag = 110 chips. Now, we need to divide the total number of chips by the number of family members to find out how many chips each person gets. There are five members in Mitchell's family. The number of chips per person = total number of chips / number of family members = 110 chips / 5 members = 22 chips per member. #### 22",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 777,
+	"prompt": "The price of a laptop is $1000. If you get a 20% discount, how much do you have to pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "You will get a discount of 20/100 x $1000 = $<<20/100*1000=200>>200.\nTherefore, you will have to pay $1000 - $200 = $<<1000-200=800>>800.\n#### 800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the price after the discount, first, we need to calculate the amount",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the price after the discount, calculate 20% of $1000, which is 0.20 * $1000 = $200. Then subtract this amount from the original price: $1000 - $200 = $800.\n\n#### $800",
+			"retrievals": 1
+		}
+	]
+}

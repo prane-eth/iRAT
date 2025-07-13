@@ -1,0 +1,13 @@
+{
+	"task_id": 477,
+	"prompt": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since she spent $300 on the books and each book's cost was $15, she bought $300/$15= <<300/15=20>>20 books.\nIf Sarah gave an equal number of books to each of her children, each kid received 20/4 = <<20/4=5>>5 books.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many books each child got, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of books purchased\nTo find out how many books Sarah bought, we need to divide the total amount she spent by the cost of each book. Total spent = $300, cost per book = $15. Total books = Total spent / cost per book = $300 / $15 = 20.\n\n## Step 2: Determine the number of books each child received\nSince Sarah gave an equal number of books to her 4 kids, we divide the total number of books by the number of kids. Books per child = Total books / number of kids = 20 / 4 = 5.\n\n#### 5",
+			"retrievals": 1
+		}
+	]
+}

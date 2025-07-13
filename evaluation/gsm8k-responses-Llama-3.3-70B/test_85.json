@@ -1,0 +1,13 @@
+{
+	"task_id": 85,
+	"prompt": "A football team played 22 games. They won 8 more than they lost. How many did they win?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let L be the number of losses.\nThe number of wins is L + <<+8=8>>8.\nThe team played (L+8) + L = 2L + 8 = 22 games.\nSo, 2L = 22 - 8 = 14\nSo L = 14/2 = <<14/2=7>>7 losses.\nTherefore, the team won 22 \u2013 7 = <<22-7=15>>15 games.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "Let's denote the number of games the team won as W and the number of",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many games the football team won, we need to understand the relationship between the games they won and lost. The team played a total of 22 games and won 8 more games than they lost.\n\nLet's denote the number of games won as W and the number of games lost as L. We know two key things: \n1. The team won 8 more games than they lost, which can be written as W = L + 8.\n2. The total number of games played is 22, meaning W + L = 22.\n\nWe can substitute the expression for W from the first equation into the second equation. So, substituting W = L + 8 into W + L = 22 gives us (L + 8) + L = 22. Simplifying, we get 2L + 8 = 22.\n\nTo solve for L, we subtract 8 from both sides, which gives 2L = 14. Dividing both sides by 2 gives us L = 7.\n\nNow that we know the team lost 7 games, we can find the number of games they won using the equation W = L + 8. Substituting L = 7 into this equation gives us W = 7 + 8 = 15.\n\nTherefore, the football team won 15 games.\n\n#### 15",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 24,
+	"prompt": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many centimeters shorter the candle will be, we first need to calculate the total number of hours it burns. The candle burns from 1:00 PM to 5:00 PM.\n\nThis time frame is 4 hours long, since 5:00 PM - 1:00 PM = 4 hours. \n\nGiven that the candle melts by 2 centimeters every hour, we multiply the number of hours it burns by the rate of melting. So, 4 hours * 2 centimeters/hour = 8 centimeters.\n\n#### 8 centimeters",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many centimeters shorter the candle will be, we first need to calculate the total number of hours it burns. The candle burns from 1:00 PM to 5:00 PM. This time frame is 4 hours long, since 5:00 PM - 1:00 PM = 4 hours. Given that the candle melts by 2 centimeters every hour, we multiply the number of hours it burns by the rate of melting. So, 4 hours * 2 centimeters/hour = 8 centimeters. \n\n#### 8 centimeters",
+			"retrievals": 1
+		}
+	]
+}

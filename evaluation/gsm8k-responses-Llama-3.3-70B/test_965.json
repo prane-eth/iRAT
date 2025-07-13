@@ -1,0 +1,13 @@
+{
+	"task_id": 965,
+	"prompt": "John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.\nSince each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.\n#### 200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many minutes John will spend watching the show, we first need to determine the total number of episodes in the show. We are given that each episode is 20 minutes long and that there are half as many episodes in total as there are minutes per episode.\n\nThe number of episodes can be calculated by dividing the number of minutes per episode by 2, since there are half as many episodes as minutes per episode. So, the number of episodes = 20 minutes per episode / 2 = 10 episodes.\n\nNow that we know there are 10 episodes, each being 20 minutes long, we can calculate the total time John will spend watching the show by multiplying the number of episodes by the length of each episode. Total time = number of episodes * length of each episode = 10 episodes * 20 minutes per episode = 200 minutes.\n\n#### 200",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many minutes John will spend watching the show, we first need to determine the total number of episodes in the show. We are given that each episode is 20 minutes long and that there are half as many episodes in total as there are minutes per episode. The number of episodes can be calculated by dividing the number of minutes per episode by 2, since there are half as many episodes as minutes per episode. So, the number of episodes = 20 minutes per episode / 2 = 10 episodes.\n\nNow that we know there are 10 episodes, each being 20 minutes long, we can calculate the total time John will spend watching the show by multiplying the number of episodes by the length of each episode. Total time = number of episodes * length of each episode = 10 episodes * 20 minutes per episode = 200 minutes.\n\n#### 200",
+			"retrievals": 1
+		}
+	]
+}

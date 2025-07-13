@@ -1,0 +1,13 @@
+{
+	"task_id": 1237,
+	"prompt": "Madeline ate 6 grapes. Her brother wanted to make grape juice and used up 5 times as many grapes then Madeline to make a full glass. Their mother then used the remaining grapes to make 4 pies. How many grapes were there at the beginning if the pie recipe calls for 12 grapes per pie?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Madeline's brother used 6 x 5 = <<6*5=30>>30 grapes\nTheir mother used 12 x 4 = <<12*4=48>>48 grapes\nThere were 30 + 48 + 6 = <<30+48+6=84>>84 grapes at the beginning\n#### 84",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine how many grapes Madeline's brother used to make grape juice. Since he used 5 times as many grapes as Madeline, and Madeline ate 6 grapes, we can calculate the number of grapes he used as 5 * 6 = 30 grapes.\n\n \nNext, we need to find out how many grapes were used in total by Madeline and her brother. Madeline ate 6 grapes, and her brother used 30 grapes, so together they used 6 + 30 = 36 grapes.\n\n \nTheir mother then used the remaining grapes to make 4 pies, with each pie requiring 12 grapes. Therefore, the total number of grapes used for the pies is 4 * 12 = 48 grapes.\n\n \nTo find the initial number of grapes, we need to add the grapes used by Madeline and her brother to the grapes used for the pies. So, the total initial number of grapes is 36 (used by Madeline and her brother) + 48 (used for the pies) = 84 grapes.\n\n#### 84",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of grapes at the beginning, let's break down the information provided. Madeline ate 6 grapes. Her brother used 5 times as many grapes as Madeline, which means he used 5 * 6 = 30 grapes. So, together, Madeline and her brother used 6 + 30 = 36 grapes.\n\nTheir mother then used the remaining grapes to make 4 pies, with each pie requiring 12 grapes. This means she used 4 * 12 = 48 grapes for the pies.\n\nTo find the total number of grapes at the beginning, we add the grapes used by Madeline and her brother to the grapes used by their mother. This gives us 36 (used by Madeline and her brother) + 48 (used by their mother) = 84 grapes.\n\n#### 84",
+			"retrievals": 2
+		}
+	]
+}

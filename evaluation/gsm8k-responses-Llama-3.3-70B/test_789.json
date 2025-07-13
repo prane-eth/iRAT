@@ -1,0 +1,13 @@
+{
+	"task_id": 789,
+	"prompt": "John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.\nIn total John has covered 150 + 50 = $<<150+50=200>>200 for his trip\nTherefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money John is missing, we first need to determine the total cost of the trip and how much the school is covering. The trip costs $300, and the school has decided to cover half of this cost.\n\nThe school's contribution would be half of $300, which is $300 / 2 = $150. This means John needs to cover the remaining half, which is also $150.\n\nJohn currently has $50. To find out how much money he is missing, we subtract the amount he has from the amount he needs to cover his half of the trip cost. So, $150 (his half of the trip cost) - $50 (the amount he has) = $100.\n\n#### $100",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much money John is missing, we first need to determine the total cost of the trip and how much the school is covering. The trip costs $300, and the school has decided to cover half of this cost. The school's contribution would be half of $300, which is $300 / 2 = $150. This means John needs to cover the remaining half, which is also $150.\n\nJohn currently has $50. To find out how much money he is missing, we subtract the amount he has from the amount he needs to cover his half of the trip cost. So, $150 (his half of the trip cost) - $50 (the amount he has) = $100.\n\n#### $100",
+			"retrievals": 1
+		}
+	]
+}

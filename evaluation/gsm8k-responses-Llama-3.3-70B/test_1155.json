@@ -1,0 +1,13 @@
+{
+	"task_id": 1155,
+	"prompt": "Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He would eat 4 x 5 =<<4*5=20>>20 on weekdays.\nHe would eat 5 x 2= <<5*2=10>>10 over weekends.\nSo he would eat\t 20 + 10\t= <<20+10=30>>30 a week\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many carrots Mason eats in a week, we first need to calculate the number of carrots he eats on weekdays and weekends separately. \n\nThere are 5 weekdays in a week. Since Mason eats 4 carrots each day on weekdays, the total number of carrots he eats on weekdays is 5 * 4 = 20 carrots.\n\nOn weekends, which include Saturday and Sunday, Mason eats 5 carrots each day. So, the total number of carrots he eats on weekends is 2 * 5 = 10 carrots.\n\nNow, we add the number of carrots he eats on weekdays to the number he eats on weekends to get the total number of carrots he eats in a week. So, 20 carrots (weekdays) + 10 carrots (weekends) = 30 carrots.\n\n#### 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of carrots Mason eats on weekdays\nMason eats 4 carrots each day on weekdays. Since there are 5 weekdays in a week, the total number of carrots he eats on weekdays is 5 * 4 = 20 carrots.\n\n## Step 2: Calculate the number of carrots Mason eats on weekends\nOn weekends, which include Saturday and Sunday, Mason eats 5 carrots each day. So, the total number of carrots he eats on weekends is 2 * 5 = 10 carrots.\n\n## Step 3: Calculate the total number of carrots Mason eats in a week\nTo find the total number of carrots Mason eats in a week, we need to add the number of carrots he eats on weekdays and weekends. Total carrots = 20 (weekdays) + 10 (weekends) = 30 carrots.\n\n#### 30",
+			"retrievals": 2
+		}
+	]
+}

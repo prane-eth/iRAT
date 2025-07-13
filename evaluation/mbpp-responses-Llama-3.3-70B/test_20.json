@@ -1,0 +1,19 @@
+{
+	"task_id": 30,
+	"prompt": "Write a function to extract all the adjacent coordinates of the given coordinate tuple.?assert get_coordinates((3, 4)) == [[2, 3], [2, 4], [2, 5], [3, 3], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5]]",
+	"test_imports": [],
+	"test_list": [
+		"assert get_coordinates((3, 4)) == [[2, 3], [2, 4], [2, 5], [3, 3], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5]]",
+		"assert get_coordinates((4, 5)) ==[[3, 4], [3, 5], [3, 6], [4, 4], [4, 5], [4, 6], [5, 4], [5, 5], [5, 6]]",
+		"assert get_coordinates((5, 6)) == [[4, 5], [4, 6], [4, 7], [5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7]]"
+	],
+	"mbpp_code": "def adjac(ele, sub = []): \r\n  if not ele: \r\n     yield sub \r\n  else: \r\n     yield from [idx for j in range(ele[0] - 1, ele[0] + 2) \r\n                for idx in adjac(ele[1:], sub + [j])] \r\ndef get_coordinates(test_tup):\r\n  res = list(adjac(test_tup))\r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo extract all the adjacent coordinates of a given coordinate tuple, we need to consider",
+			"old_rat_retrievals": 1,
+			"final_answer": "To extract all the adjacent coordinates of a given coordinate tuple, we need to consider the surrounding points in a grid. The given coordinate tuple has a certain x and y value. The adjacent coordinates will be the points that are directly above, below, to the left, and to the right of the given point, as well as the points diagonally adjacent to it.\n\nHere's a step-by-step breakdown of how to derive the adjacent coordinates:\n\n1. **Identify the given coordinate**: Let's say the given coordinate tuple is (x, y) = (3, 4).\n2. **Calculate the adjacent coordinates**:\n   - The points directly above and below the given point will have the same x-coordinate but different y-coordinates. So, the points above and below (3, 4) are (3, 3) and (3, 5).\n   - The points to the left and right of the given point will have the same y-coordinate but different x-coordinates. So, the points to the left and right of (3, 4) are (2, 4) and (4, 4).\n   - The points diagonally adjacent to the given point will have different x and y coordinates. So, the points diagonally adjacent to (3, 4) are (2, 3), (2, 5), (4, 3), and (4, 5).\n3. **Combine all the adjacent coordinates**: Putting all these points together, we get the list of adjacent coordinates as [[2, 3], [2, 4], [2, 5], [3, 3], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5]].\n\nHere's a Python function that implements this:\n\n```python\ndef get_coordinates(coord):\n    x, y = coord\n    adjacent_coords = []\n    for i in range(-1, 2):\n        for j in range(-1, 2):\n            if i == 0 and j == 0:\n                continue\n            adjacent_coords.append([x + i, y + j])\n    return adjacent_coords\n\n# Example usage:\nprint(get_coordinates((3, 4)))\n```\n\nWhen you run this function with the input (3, 4), it will return the list of adjacent coordinates as [[2, 3], [2, 4], [2, 5], [3, 3], [3, 5], [4, 3], [4, 4], [4, 5]]. Note that the point (3, 4) itself is not included in the list of adjacent coordinates. The function works by iterating over the possible changes in x and y coordinates (i.e., -1, 0, and 1), and appending the resulting coordinates to the list. If the change in both x and y is 0, it skips that iteration to avoid including the original point.",
+			"retrievals": 1
+		}
+	]
+}

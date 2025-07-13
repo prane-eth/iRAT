@@ -1,0 +1,13 @@
+{
+	"task_id": 1046,
+	"prompt": "Three people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let X be the amount of what the first took.\nThe second took X+<<+80=80>>80.\nThe third took (X+80)*2.\nThe total amount X + (X+80) + (X+80)*2 = 1920.\nX + X + 80 + 2*X + 80*2 = 1920\nX*4 + 240 = 1920.\nX*4 = 1680.\nX = <<420=420>>420.\n#### 420",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the share of the first person as x. The second person took $80 more than the first, so their share is x + 80. The third person took twice what the second took, so their share is 2 * (x + 80).\n\nThe total amount divided among them is $1920, so we can write the equation: x + (x + 80) + 2 * (x + 80) = 1920.\n\nSimplifying the equation, we get: x + x + 80 + 2x + 160 = 1920. Combining like terms gives us 4x + 240 = 1920.\n\nSubtracting 240 from both sides of the equation gives us 4x = 1680.\n\nDividing both sides by 4 gives us x = 420.\n\n#### 420",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the share of the first person, let's denote their share as x. The second person took $80 more than the first, so their share is x + 80. The third person took twice what the second took, which means their share is 2 * (x + 80).\n\nThe total amount divided among them is $1920, so we can write the equation: x + (x + 80) + 2 * (x + 80) = 1920. Simplifying this, we get: x + x + 80 + 2x + 160 = 1920. Combining like terms gives us 4x + 240 = 1920.\n\nSubtracting 240 from both sides of the equation gives us 4x = 1680. Dividing both sides by 4 gives us x = 420.\n\n#### 420",
+			"retrievals": 0
+		}
+	]
+}

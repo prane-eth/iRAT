@@ -1,0 +1,13 @@
+{
+	"task_id": 534,
+	"prompt": "Errol bought a computer, 2 monitors, and a printer for $2,400. He paid $400 less for the printer than the computer. If the computer cost $1,100, how much did one monitor cost, in dollars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He paid 1100-400=<<1100-400=700>>700 for the printer.\nHe paid 2400-1100-700=<<2400-1100-700=600>>600 dollars for the monitors.\nEach monitor costs 600/2=<<600/2=300>>300 dollars.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of one monitor, we first need to determine the cost of the printer since we already know the cost of the computer. We are given that Errol paid $400 less for the printer than the computer. The computer cost $1,100. \n\nSo, the cost of the printer can be calculated by subtracting $400 from the cost of the computer: $1,100 - $400 = $700. This means the printer cost $700.\n\nThe total cost of all items (computer, 2 monitors, and a printer) is $2,400. We now know the costs of the computer and the printer, which together are $1,100 + $700 = $1,800. \n\nTo find the cost of the 2 monitors, we subtract the combined cost of the computer and the printer from the total cost: $2,400 - $1,800 = $600. Since this $600 is for 2 monitors, to find the cost of one monitor, we divide $600 by 2.\n\n$600 / 2 = $300. \n\n#### $300",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Determine the cost of the printer\nErrol paid $400 less for the printer than the computer. The computer costs $1,100. So, the cost of the printer is $1,100 - $400 = $700.\n\n## Step 2: Calculate the total cost of the computer and printer\nThe total cost of the computer and printer is $1,100 (computer) + $700 (printer) = $1,800.\n\n## Step 3: Calculate the remaining cost for the monitors\nThe total cost for all items (computer, monitors, and printer) is $2,400. The cost of the computer and printer together is $1,800. So, the remaining cost for the monitors is $2,400 - $1,800 = $600.\n\n## Step 4: Determine the cost of one monitor\nSince Errol bought 2 monitors, to find the cost of one monitor, we divide the total cost of the monitors by the number of monitors. Therefore, the cost of one monitor is $600 / 2 = $300.\n\n#### $300",
+			"retrievals": 2
+		}
+	]
+}

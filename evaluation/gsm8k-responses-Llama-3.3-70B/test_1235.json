@@ -1,0 +1,13 @@
+{
+	"task_id": 1235,
+	"prompt": "Regina wrote 9 novels last year. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Number of novels she wrote last year = (3/4)*number of novels she wrote this year\n9 = (3/4)*number of novels she wrote this year\nMultiplying both sides by 4/3 gives the number of novels she has written this year = (4/3)*9 = <<4/3*9=12>>12 novels\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many novels Regina has written this year, we need to understand that the 9 novels she wrote last year represent 3 quarters of the number of novels she has written this year. \n\nLet's denote the total number of novels she has written this year as X. Since 9 novels represent 3 quarters of X, we can set up the following equation:\n\n9 = (3/4) * X\n\nTo solve for X, we multiply both sides of the equation by 4/3:\n\nX = 9 * (4/3)\n\nX = 12\n\nTherefore, Regina has written 12 novels this year.\n\n#### 12",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understand the given information\nRegina wrote 9 novels last year, and this is 3 quarters of the number of novels she has written this year.\n\n## Step 2: Set up the equation based on the given information\nLet x be the total number of novels Regina wrote this year. The equation representing the situation is (3/4)x = 9, because 9 novels last year is 3 quarters of the novels written this year.\n\n## Step 3: Solve the equation for x\nTo solve for x, we multiply both sides of the equation by the reciprocal of (3/4), which is (4/3). Therefore, x = 9 * (4/3).\n\n## Step 4: Calculate the value of x\nPerforming the multiplication, x = 9 * (4/3) = 12.\n\nThe final answer is: #### 12",
+			"retrievals": 3
+		}
+	]
+}

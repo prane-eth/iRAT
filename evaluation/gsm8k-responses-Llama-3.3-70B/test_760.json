@@ -1,0 +1,13 @@
+{
+	"task_id": 760,
+	"prompt": "The number of songs in a playlist is 300. If John has 20 such playlists, and each song is 10 hours long, how many hours will the 20 playlists last in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since each playlist has 300 songs, the total number of songs in the 20 playlists is 20*300= <<20*300=6000>>6000.\nIf each song is 10 hours long, the 6000 songs in the 20 playlists last a total of 6000*10 = <<6000*10=60000>>60000 hours\n#### 60000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of hours the 20 playlists will last, we first need to calculate the total number of songs in all the playlists. Since each playlist has 300 songs and John has 20 such playlists, the total number of songs is 300 * 20.\n\nThis calculation yields the total number of songs across all playlists. Next, we need to find out how many hours of music these songs represent in total. Given that each song is 10 hours long, we multiply the total number of songs by the duration of each song.\n\nThe total number of songs is 300 * 20 = 6000 songs. Since each song is 10 hours long, the total hours of music are 6000 * 10.\n\nTherefore, the total hours of music from the 20 playlists are 6000 * 10 = 60,000 hours.\n\n#### 60,000",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of hours that the 20 playlists will last, we first calculate the total number of songs across all playlists. Since each playlist contains 300 songs and John has 20 such playlists, the total number of songs is 300 * 20 = 6000 songs.\n\nGiven that each song is 10 hours long, we then multiply the total number of songs by the duration of each song to find the total hours of music. Therefore, the total hours of music from the 20 playlists are 6000 * 10 = 60,000 hours.\n\n#### 60,000",
+			"retrievals": 1
+		}
+	]
+}

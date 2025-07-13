@@ -1,0 +1,13 @@
+{
+	"task_id": 364,
+	"prompt": "John drives to his friend's house 200 miles away.  He drives at a speed of 70 mph.  He had to take a detour that added 10 miles to his trip.  After he gets there he takes a route home that is 240 miles but he goes 80 mph.  How long did the trip take?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first leg was 200+10=<<200+10=210>>210 miles\nSo he drove 210/70=<<210/70=3>>3 hours\nThe second route took 240/80=<<240/80=3>>3 hours\nSo in total he drove 3+3=<<3+3=6>>6 hours\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total time of the trip, we need to calculate the time taken for each part of the trip and add them together. First, let's calculate the time taken to drive to his friend's house. The distance to his friend's house is 200 miles, but he had to take a detour that added 10 miles to his trip, making the total distance 200 + 10 = 210 miles. He drives at a speed of 70 mph.\n\nThe time taken to drive to his friend's house can be calculated using the formula time = distance / speed. So, time = 210 miles / 70 mph = 3 hours.\n\nNext, let's calculate the time taken to drive back home. The distance is 240 miles, and he drives at a speed of 80 mph. Using the same formula, time = distance / speed, we get time = 240 miles / 80 mph = 3 hours.\n\nNow, we add the time taken for each part of the trip to get the total time. Total time = time taken to drive to his friend's house + time taken to drive back home = 3 hours + 3 hours = 6 hours.\n\n#### 6 hours",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total time of the trip, we need to calculate the time taken for each part of the trip and add them together. First, let's calculate the time taken to drive to his friend's house. The distance to his friend's house is 200 miles, but he had to take a detour that added 10 miles to his trip, making the total distance 200 + 10 = 210 miles. He drives at a speed of 70 mph.\n\nThe time taken to drive to his friend's house can be calculated using the formula: time = distance / speed. So, time = 210 miles / 70 mph = 3 hours.\n\nAfter he gets to his friend's house, he takes a route home that is 240 miles, and he drives at a speed of 80 mph. Using the same formula, the time taken for the second part of the trip is: time = 240 miles / 80 mph = 3 hours.\n\nTo find the total time of the trip, we add the time taken for the first part of the trip to the time taken for the second part of the trip. Total time = 3 hours + 3 hours = 6 hours.\n\n#### 6 hours",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 442,
+	"prompt": "Two sisters, Elizabeth and Margareth, bought beads. Elizabeth bought 1 pack of red and 2 packs of clear beads, while Margareth bought 3 packs of blue and 4 packs of red beads. How many more beads do one sister have than the other, if each pack of beads contains 20 pieces of beads?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Elizabeth bought 1 + 2 = <<1+2=3>>3 packs.\nSo Elizabeth bought 3 x 20 = <<3*20=60>>60 pieces of beads.\nMargareth bought 3 + 4 = <<3+4=7>>7 packs.\nSo Margareth bought 7 x 20 = <<7*20=140>>140 pieces of beads.\nTherefore, Margareth bought 140 - 60 = <<140-60=80>>80 more beads than Elizabeth.\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more beads one sister has than the other, we first need to calculate the total number of beads each sister bought. Elizabeth bought 1 pack of red and 2 packs of clear beads. Since each pack contains 20 beads, Elizabeth has 1*20 + 2*20 = 20 + 40 = 60 beads.\n\nMargareth bought 3 packs of blue and 4 packs of red beads. Using the same calculation, Margareth has 3*20 + 4*20 = 60 + 80 = 140 beads.\n\nNow, we compare the total number of beads each sister has to find out how many more beads one sister has than the other. The difference in the number of beads between Margareth and Elizabeth is 140 - 60 = 80 beads.\n\n#### 80",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of beads Elizabeth bought\nElizabeth bought 1 pack of red and 2 packs of clear beads. Since each pack contains 20 beads, Elizabeth has 1*20 + 2*20 = 20 + 40 = 60 beads.\n\n## Step 2: Calculate the total number of beads Margareth bought\nMargareth bought 3 packs of blue and 4 packs of red beads. Using the same calculation, Margareth has 3*20 + 4*20 = 60 + 80 = 140 beads.\n\n## Step 3: Compare the total number of beads each sister has\nNow, we compare the total number of beads each sister has to find out how many more beads one sister has than the other. The difference in the number of beads between Margareth and Elizabeth is 140 - 60 = 80 beads.\n\n## Step 4: Determine the final answer\nThe question asks for the difference in the number of beads between the two sisters. Based on the calculations, Margareth has 80 more beads than Elizabeth.\n\n#### 80",
+			"retrievals": 2
+		}
+	]
+}

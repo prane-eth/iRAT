@@ -1,0 +1,13 @@
+{
+	"task_id": 1102,
+	"prompt": "Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Amber ran <<8=8>>8 miles.\nMicah ran 3.5 * 8 miles = <<3.5*8=28>>28 miles\nAhito ran the rest = 52 - 8 - 28 = <<52-8-28=16>>16 miles\nAhito ran <<16=16>>16 miles.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many miles Ahito ran, we first need to calculate the total miles run by Amber and Micah. We know Amber ran 8 miles.\n\nMicah ran 3.5 times what Amber ran. So, Micah's miles can be calculated as 3.5 * 8 = 28 miles.\n\nNow, we add the miles run by Amber and Micah to get their total. Amber's miles + Micah's miles = 8 + 28 = 36 miles.\n\nThe total miles run by all three is given as 52 miles. To find out how many miles Ahito ran, we subtract the total miles run by Amber and Micah from the total miles. So, Ahito's miles = Total miles - (Amber's miles + Micah's miles) = 52 - 36 = 16 miles.\n\n#### 16",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many miles Ahito ran, we first need to calculate the total miles run by Amber and Micah. We know Amber ran 8 miles. Micah ran 3.5 times what Amber ran. So, Micah's miles can be calculated as 3.5 * 8 = 28 miles. Now, we add the miles run by Amber and Micah to get their total. Amber's miles + Micah's miles = 8 + 28 = 36 miles.\n\nThe total miles run by all three is given as 52 miles. To find out how many miles Ahito ran, we subtract the total miles run by Amber and Micah from the total miles. So, Ahito's miles = Total miles - (Amber's miles + Micah's miles) = 52 - 36 = 16 miles. \n\n#### 16",
+			"retrievals": 0
+		}
+	]
+}

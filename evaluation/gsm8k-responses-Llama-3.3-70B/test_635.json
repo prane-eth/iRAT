@@ -1,0 +1,13 @@
+{
+	"task_id": 635,
+	"prompt": "Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Darren caught 17 - 6 = <<17-6=11>>11 fish\nTommy caught 11 + 3 = <<11+3=14>>14 fish\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many fish Tommy caught, we first need to establish the number",
+			"old_rat_retrievals": 1,
+			"final_answer": "To solve this problem, we need to understand the relationships between the number of fish caught by each person. Let's denote the number of fish caught by Naomi as N, the number of fish caught by Darren as D, and the number of fish caught by Tommy as T. We know that N = 17, D = N - 6, and T = D + 3.\n\nUsing the information given, we can calculate the number of fish caught by Darren. Since D = N - 6 and N = 17, we can substitute N into the equation to get D = 17 - 6 = 11.\n\nNow that we know Darren caught 11 fish, we can calculate the number of fish caught by Tommy. Since T = D + 3 and D = 11, we can substitute D into the equation to get T = 11 + 3 = 14.\n\nBased on the given information and the relationships between the number of fish caught by each person, we can conclude that Tommy caught 14 fish.\n\n#### 14",
+			"retrievals": 1
+		}
+	]
+}

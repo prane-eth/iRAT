@@ -1,0 +1,13 @@
+{
+	"task_id": 61,
+	"prompt": "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "20% of 25 oranges is (20/100)*25 = <<(20/100)*25=5>>5 oranges\nThe total number of bad, unripe and sour oranges is therefore 1+5+2 = <<1+5+2=8>>8 oranges\nThe rest which is 25-8 = <<25-8=17>>17 oranges are good\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "To find the number of good oranges, we first need to calculate the total number of oranges that are not good, which includes the bad, unripe, and sour oranges.\n\n1. **Bad Oranges:** 1 orange is bad.\n2. **Unripe Oranges:** 20% of 25 oranges are unripe. To find 20% of 25, we multiply 25 by 0.20.\n   - 25 * 0.20 = 5 oranges are unripe.\n3. **Sour Oranges:** 2 oranges are sour.\n\nNow, we add these together to find the total number of oranges that are not good:\n- 1 (bad) + 5 (unripe) + 2 (sour) = 8 oranges are not good.\n\nSince there are 25 oranges in total, we subtract the number of oranges that are not good from the total to find the number of good oranges:\n- 25 (total oranges) - 8 (oranges that are not good) = 17 oranges.\n\nTherefore, there are 17 good oranges in the basket.\n\n#### 17",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem presents a scenario where we have a basket containing 25 oranges, with specific numbers being bad, unripe, sour, and the rest being good. We need to determine the number of good oranges.\n\n## Step 2: Identifying Given Information\nFrom the problem, we know that 1 orange is bad, 20% of the oranges are unripe, and 2 oranges are sour. The total number of oranges is 25.\n\n## Step 3: Calculating Unripe Oranges\nFirst, calculate the number of unripe oranges. 20% of 25 oranges are unripe, which is 0.20 * 25 = 5 oranges.\n\n## Step 4: Calculating Total Non-Good Oranges\nNext, sum up the oranges that are not good: 1 bad + 2 sour + 5 unripe = 8 oranges that are not good.\n\n## Step 5: Calculating Good Oranges\nFinally, subtract the total number of non-good oranges from the total number of oranges to find the number of good oranges: 25 total oranges - 8 non-good oranges = 17 good oranges.\n\nThe final answer is: #### 17",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 874,
+	"prompt": "David has $12.48 and wants to buy 16 bolts from a bin at the hardware store. Each bolt costs $0.03. How much money does David have left after paying for the bolts?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "David paid 16 * 0.03 = $<<16*0.03=0.48>>0.48 for the bolts.\nDavid has $12.48 - $0.48 = $12 left.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money David has left after buying the bolts, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money David has left after buying the bolts, we need to calculate the total cost of the bolts and subtract it from the amount of money David has. \n\nFirst, we calculate the total cost of the bolts by multiplying the number of bolts by the cost per bolt: 16 bolts * $0.03/bolt = $0.48.\n\nThen, we subtract the total cost of the bolts from the amount of money David has: $12.48 - $0.48 = $12.00.\n\n#### $12.00",
+			"retrievals": 0
+		}
+	]
+}

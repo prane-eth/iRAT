@@ -1,0 +1,13 @@
+{
+	"task_id": 1230,
+	"prompt": "In November, a toy was $40. In December, the price increased by 80%. In January, the price decreased by 50%. What was the price of the toy after it was discounted in January?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In November, the toy's price was $<<40=40>>40.\nThe 80% increment represents 40*0.8=$32\nIn December, the toy's price was 40 + 32 = $<<40+32=72>>72.\nThe 50% increment from January represents 72*0.5=<<72*0.5=36>>36\nIn January, the toy's price is 72 - 36 = $<<72-36=36>>36.\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the final price of the toy after the discount in January, we first need to calculate the price increase in December. The toy was initially $40, and the price increased by 80% in December.\n\nThe price increase can be calculated as 80% of $40, which is 0.8 * $40 = $32. So, the new price in December is $40 (initial price) + $32 (increase) = $72.\n\nIn January, the price decreased by 50%. To find the price after the decrease, we calculate 50% of $72, which is 0.5 * $72 = $36. Then, we subtract this amount from the December price: $72 - $36 = $36.\n\n#### $36",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the price increase in December\nFirst, we need to calculate the price of the toy after the 80% increase in December. The original price in November was $40. To find the increased price, we calculate 80% of $40, which is 0.8 * $40 = $32. Then, we add this amount to the original price: $40 + $32 = $72.\n\n## Step 2: Calculate the price decrease in January\nIn January, the price decreased by 50%. To find the price after the decrease, we calculate 50% of $72, which is 0.5 * $72 = $36. Then, we subtract this amount from the December price: $72 - $36 = $36.\n\nThe final answer is: #### $36",
+			"retrievals": 1
+		}
+	]
+}

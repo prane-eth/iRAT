@@ -1,0 +1,13 @@
+{
+	"task_id": 131,
+	"prompt": "Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First, divide the starting number of elves by 3 to find out how many quit after being vomited on, which is 60 elves / 3 = <<60/3=20>>20 elves.\nThen subtract that number from the starting number of elves to find out how many are left: 60 elves - 20 elves = <<60-20=40>>40 elves.\nThen subtract the number of elves who quit after being kicked to find the total number who left: 40 elves - 10 elves = <<40-10=30>>30 elves.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many elves are left, we first need to determine how many elves quit after the initial incident and then subtract the additional elves that quit later.\n\n1. Nissa starts with 60 seasonal workers.\n2. A third of the elves quit after children vomit on them. So, we calculate a third of 60:\n   - 60 / 3 = 20 elves quit.\n3. This leaves 60 - 20 = 40 elves.\n4. Then, 10 of the remaining elves quit after kids kick their shins.\n5. So, we subtract these 10 from the 40 remaining elves:\n   - 40 - 10 = 30 elves left.\n\n#### 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of elves that quit after children vomit on them\nA third of the 60 elves quit, which means 1/3 * 60 = 20 elves quit.\n\n## Step 2: Calculate the number of remaining elves after the first quit\n60 - 20 = 40 elves remain after the first group quits.\n\n## Step 3: Calculate the number of elves that quit after kids kick their shins\n10 of the remaining elves quit.\n\n## Step 4: Calculate the final number of elves left\n40 - 10 = 30 elves are left.\n\n#### 30",
+			"retrievals": 1
+		}
+	]
+}

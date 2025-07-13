@@ -1,0 +1,13 @@
+{
+	"task_id": 513,
+	"prompt": "Hannah needs to drink 60 ml of water for each kilometer she runs. If her gym teacher tells her to run 8 laps and each lap is 0.25 km, how many milliliters of water will Hannah need to drink?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of kilometers Hannah runs: 8 laps * .25 km/lap = <<8*.25=2>>2 km\nThen multiply the number of kilometers she runs by the amount of water she needs per kilometer to find the total amount of water she needs: 60 ml/km * 2 km = <<60*2=120>>120 ml\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many milliliters of water Hannah needs to drink, we first need to calculate the total distance she will run. Her gym teacher tells her to run 8 laps, and each lap is 0.25 km.\n\nThe total distance Hannah will run can be calculated by multiplying the number of laps by the distance of each lap. So, the total distance is 8 laps * 0.25 km/lap = 2 km.\n\nSince Hannah needs to drink 60 ml of water for each kilometer she runs, and she will run a total of 2 km, we can find the total amount of water she needs by multiplying the distance by the amount of water needed per kilometer. Therefore, the total amount of water needed is 2 km * 60 ml/km = 120 ml.\n\n#### 120",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many milliliters of water Hannah will need to drink, we first need to calculate the total distance she will run. Her gym teacher instructs her to run 8 laps, with each lap being 0.25 km. \n\nThe total distance Hannah will run can be found by multiplying the number of laps by the distance of each lap. So, the total distance is 8 laps * 0.25 km/lap = 2 km.\n\nGiven that Hannah needs to drink 60 ml of water for each kilometer she runs, we can calculate the total amount of water she needs to drink by multiplying the total distance by the amount of water she needs per kilometer. Thus, the total amount of water is 2 km * 60 ml/km = 120 ml.\n\n#### 120",
+			"retrievals": 2
+		}
+	]
+}

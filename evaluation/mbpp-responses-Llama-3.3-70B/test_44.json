@@ -1,0 +1,19 @@
+{
+	"task_id": 54,
+	"prompt": "Write a function to find the perimeter of a rectangle.?assert rectangle_perimeter(10,20)==60",
+	"test_imports": [],
+	"test_list": [
+		"assert rectangle_perimeter(10,20)==60",
+		"assert rectangle_perimeter(10,5)==30",
+		"assert rectangle_perimeter(4,2)==12"
+	],
+	"mbpp_code": "def rectangle_perimeter(l,b):\r\n  perimeter=2*(l+b)\r\n  return perimeter",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the perimeter of a rectangle, we need to understand the formula for calculating it. The perimeter of a rectangle is given by the formula P = 2(length + width), where P is the perimeter, length is the length of the rectangle, and width is the width of the rectangle.\n\n \nWe can now create a function that takes the length and width as input parameters and returns the calculated perimeter. The function will be named `rectangle_perimeter` and will take two parameters, `length` and `width`. \n\n \nHere is a simple implementation of the function in Python:\n```python\ndef rectangle_perimeter(length, width):\n    return 2 * (length + width)\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the perimeter of a rectangle, we need to understand the formula for calculating it. The perimeter of a rectangle is given by the formula P = 2(length + width), where P is the perimeter, length is the length of the rectangle, and width is the width of the rectangle. We can now create a function that takes the length and width as input parameters and returns the calculated perimeter. The function will be named `rectangle_perimeter` and will take two parameters, `length` and `width`.\n\nHere is a simple implementation of the function in Python:\n```python\ndef rectangle_perimeter(length, width):\n    return 2 * (length + width)\n```\nThis function works by directly applying the formula for the perimeter of a rectangle. For example, if you call `rectangle_perimeter(10, 20)`, it will return `60`, which is the correct perimeter for a rectangle with a length of 10 units and a width of 20 units.",
+			"retrievals": 2
+		}
+	]
+}

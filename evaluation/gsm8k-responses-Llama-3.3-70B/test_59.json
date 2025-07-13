@@ -1,0 +1,13 @@
+{
+	"task_id": 59,
+	"prompt": "Stephen placed an online order for groceries.  His final bill came to $40.00.  Because this was through a delivery vendor, they tacked on a 25% fee to his final total and charged him $3.00 in delivery fees.  Stephen also added a $4.00 tip.  After the extra fees, what was the final price of Stephen's groceries?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spent $40.00 on groceries but they charged him a 25% fee so that's 40*.25 = $10.00\nThere is also a $3.00 delivery fee and a $4.00 tip for an extra $3 + $4 = $<<3+4=7.00>>7.00 in fees\nHis groceries were $40.00, there's a $10.00 fee plus another $7.00 in delivery/tip fees for a final total of $40 + $10 + $7 = $<<40+10+7=57.00>>57.00\n#### 57",
+	"responses": [
+		{
+			"old_rat_answer": "To find the final price of Stephen's groceries, we first need to calculate the total cost before any additional fees. The initial cost of the groceries was $40.00. \n\n1. **Calculate the 25% fee**: 25% of $40.00 is $10.00. This is added to the initial cost.\n2. **Add the 25% fee to the initial cost**: $40.00 + $10.00 = $50.00.\n3. **Add the delivery fee**: $50.00 + $3.00 = $53.00.\n4. **Add the tip**: $53.00 + $4.00 = $57.00.\n\nTherefore, after all the extra fees, the final price of Stephen's groceries is $57.00.\n\n#### $57.00",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the final price of Stephen's groceries, we need to calculate the total cost after adding the extra fees and the tip. \n\nFirst, we calculate the 25% fee on the final bill. The final bill is $40.00, and the 25% fee can be calculated as 0.25 * $40.00 = $10.00.\n\nNext, we add the 25% fee and the $3.00 delivery fee to the final bill. The total extra fees are $10.00 (25% fee) + $3.00 (delivery fee) = $13.00. Adding this to the final bill: $40.00 + $13.00 = $53.00.\n\nFinally, we add the $4.00 tip to the total: $53.00 + $4.00 = $57.00.\n\nThe final price of Stephen's groceries, including all extra fees and the tip, is $57.00.\n\n#### $57.00",
+			"retrievals": 1
+		}
+	]
+}

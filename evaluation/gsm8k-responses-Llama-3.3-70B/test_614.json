@@ -1,0 +1,13 @@
+{
+	"task_id": 614,
+	"prompt": "A Reddit group has 1000 members. If each member posts an average of 3 posts per day, what's the total number of posts that the group will have in March?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of posts from all members in a day is 1000 members * 3 posts/member = <<1000*3=3000>>3000 posts.\nMarch has 31 days, so the total number of posts will be 31 days * 3000 posts/day = <<31*3000=93000>>93000 posts\n#### 93000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of posts in March, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the Number of Days in March\nMarch has 31 days.\n\n## Step 2: Calculate the Total Number of Posts per Day\nEach member posts an average of 3 posts per day, and there are 1000 members. So, the total number of posts per day is 3 * 1000 = 3000 posts.\n\n## Step 3: Calculate the Total Number of Posts in March\nTo find the total number of posts in March, we multiply the total number of posts per day by the number of days in March. So, the total number of posts in March is 3000 * 31 = 93000 posts.\n\n#### 93000",
+			"retrievals": 1
+		}
+	]
+}

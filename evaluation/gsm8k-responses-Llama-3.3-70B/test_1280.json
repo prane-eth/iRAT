@@ -1,0 +1,13 @@
+{
+	"task_id": 1280,
+	"prompt": "Avery needs to buy a 3 piece place setting (dinner & salad plate and a bowl) for her holiday dinner.  She\u2019s having 12 people over for dinner.  If the dinner plates cost $6.00 each and bowls each cost $5.00 and the salad plates cost $4.00, how much will she spend on place settings?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each place setting will need a dinner plate that\u2019s $6.00, a bowl for $5.00 and a salad plate that\u2019s $4.00 so each place setting will cost 6+5+4 = $<<6+5+4=15.00>>15.00\nShe needs 12 place settings for her guests and they're $15.00 each so she will spend 12*15 = $<<12*15=180.00>>180.00 on the place settings.\n#### 180",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the place settings, we first need to determine the cost of one 3-piece place setting. \nThe dinner plate costs $6.00, the bowl costs $5.00, and the salad plate costs $4.00. \nSo, the total cost for one 3-piece place setting is $6.00 + $5.00 + $4.00 = $15.00.\n\n \nSince Avery is having 12 people over for dinner, she will need 12 of these 3-piece place settings. \nTo find the total cost, we multiply the cost of one place setting by the number of people: $15.00 * 12 = $180.00.\n\n#### $180.00",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total amount Avery will spend on place settings for her holiday dinner, we need to follow these steps:\n\n## Step 1: Calculate the cost of one 3-piece place setting\nThe dinner plate costs $6.00, the bowl costs $5.00, and the salad plate costs $4.00. So, the total cost for one 3-piece place setting is $6.00 + $5.00 + $4.00 = $15.00.\n\n## Step 2: Determine the total number of place settings needed\nAvery is having 12 people over for dinner, so she will need 12 of these 3-piece place settings.\n\n## Step 3: Calculate the total cost of the place settings\nTo find the total cost, we multiply the cost of one place setting by the number of people: $15.00 * 12 = $180.00.\n\n#### $180.00",
+			"retrievals": 2
+		}
+	]
+}

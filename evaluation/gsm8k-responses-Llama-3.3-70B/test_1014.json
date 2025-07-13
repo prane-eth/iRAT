@@ -1,0 +1,13 @@
+{
+	"task_id": 1014,
+	"prompt": "Janet gets a job as a waitress.  She makes $10 an hour from wages and another $15 an hour from tips.  She wants to save up 20% of the cost of a $10000 car for a downpayment.  If she works 40 hours a week how many weeks will she need to work to save the down payment?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She makes 10+15=$<<10+15=25>>25 an hour from working\nThat means each week she makes 25*40=$<<25*40=1000>>1000\nShe wants to make 10000*.2=$<<10000*.2=2000>>2000\nSo she needs to work 2000/1000=<<2000/1000=2>>2 weeks\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many weeks Janet needs to work to save the down payment, we first need to calculate the total amount she wants to save for the down payment. The car costs $10,000, and she wants to save 20% of this cost. \n\n20% of $10,000 is calculated as 0.20 * $10,000 = $2,000. So, Janet needs to save $2,000 for the down payment.\n\nNext, we need to calculate how much Janet makes in a week. She makes $10 an hour from wages and $15 an hour from tips, which means she makes $10 + $15 = $25 an hour in total. \n\nSince she works 40 hours a week, her weekly earnings are 40 hours * $25/hour = $1,000.\n\nNow, we need to find out how many weeks it will take her to save $2,000. To do this, we divide the amount she needs to save ($2,000) by her weekly earnings ($1,000).\n\n$2,000 / $1,000 = 2 weeks.\n\n#### 2",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total amount Janet needs to save for the down payment.\nTo find the total amount Janet needs to save, we calculate 20% of the $10,000 car cost. This is done by multiplying $10,000 by 0.20, which equals $2,000.\n\n## Step 2: Calculate Janet's total hourly earnings.\nJanet makes $10 an hour from wages and an additional $15 an hour from tips. So, her total hourly earnings are $10 + $15 = $25 per hour.\n\n## Step 3: Calculate Janet's weekly earnings.\nSince Janet works 40 hours a week and earns $25 per hour, her weekly earnings are 40 hours * $25/hour = $1,000 per week.\n\n## Step 4: Determine the number of weeks Janet needs to work to save the down payment.\nTo find out how many weeks Janet needs to work to save $2,000, we divide the amount she needs to save ($2,000) by her weekly earnings ($1,000). So, $2,000 / $1,000 per week = 2 weeks.\n\n#### 2",
+			"retrievals": 2
+		}
+	]
+}

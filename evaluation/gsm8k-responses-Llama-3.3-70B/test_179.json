@@ -1,0 +1,13 @@
+{
+	"task_id": 179,
+	"prompt": "Rani has ten more crabs than Monic, who has 4 fewer crabs than Bo. If Bo has 40 crabs, calculate the total number of crabs the three have together.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.\nBo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.\nSince Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.\nTogether, the three have 76+46 = <<76+46=122>>122 crabs.\n#### 122",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of crabs the three have together, we first need to determine how many crabs each one has.\n\n1. Bo has 40 crabs.\n2. Monic has 4 fewer crabs than Bo, so Monic has 40 - 4 = 36 crabs.\n3. Rani has ten more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n\nNow, we add up the number of crabs each one has to find the total:\n40 (Bo's crabs) + 36 (Monic's crabs) + 46 (Rani's crabs) = 122 crabs.\n\n#### 122",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the number of crabs Bo has.\nBo has 40 crabs.\n\n## Step 2: Calculate the number of crabs Monic has.\nMonic has 4 fewer crabs than Bo, so Monic has 40 - 4 = 36 crabs.\n\n## Step 3: Calculate the number of crabs Rani has.\nRani has ten more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n\n## Step 4: Calculate the total number of crabs the three have together.\nThe total number of crabs is the sum of the crabs each one has: 40 (Bo) + 36 (Monic) + 46 (Rani) = 122 crabs.\n\n#### 122",
+			"retrievals": 2
+		}
+	]
+}

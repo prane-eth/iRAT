@@ -1,0 +1,13 @@
+{
+	"task_id": 982,
+	"prompt": "On Thursday, Joe caught 3 pounds of crawfish.  He caught 4 times that amount on Friday and half the amount of his Friday's catch on Saturday.  If 1 serving of crawfish is 3 pounds, how many servings does he have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He caught 3 pounds on Thursday and caught 4 times the amount on Friday for a total of 3*4 = <<3*4=12>>12 pounds\nOn Saturday, he caught half the amount of the 12 pounds he caught on Friday so he caught 12/2 = <<12/2=6>>6 pounds\nIn three days he has caught 3+12+6 = <<3+12+6=21>>21 pounds of crawfish\n3 pounds is a serving and he caught 21 pounds so he has 21/3 = <<21/3=7>>7 servings of crawfish\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total number of servings of crawfish Joe has, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "Joe caught 3 pounds of crawfish on Thursday. On Friday, he caught 4 times that amount, which is 4 * 3 = 12 pounds. On Saturday, he caught half the amount of his Friday's catch, which is 12 / 2 = 6 pounds. The total amount of crawfish Joe caught is 3 + 12 + 6 = 21 pounds. Since 1 serving of crawfish is 3 pounds, the total number of servings Joe has is 21 / 3 = 7. \n\n#### 7",
+			"retrievals": 2
+		}
+	]
+}

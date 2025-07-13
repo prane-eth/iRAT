@@ -1,0 +1,13 @@
+{
+	"task_id": 209,
+	"prompt": "Rose went to the store on Monday and bought 4 cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought 5 times the number of cakes she did on Tuesday. How many cakes did she buy after all three days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Monday she bought 4 cakes\nOn Tuesday she bought 4*3=<<4*3=12>>12 cakes\nOn Wednesday she bought 12*5=<<12*5=60>>60 cakes\nRose bought a total of 4+12+60= <<4+12+60=76>>76 cakes during the three days\n#### 76",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of cakes Rose bought, we need to calculate the number of cakes she bought each day and then add them together.\n\nOn Monday, she bought 4 cakes.\n\nOn Tuesday, she bought three times the number of cakes she bought on Monday, which is 3 * 4 = 12 cakes.\n\nOn Wednesday, she bought 5 times the number of cakes she bought on Tuesday, which is 5 * 12 = 60 cakes.\n\nNow, let's add the number of cakes she bought each day to find the total:\n\n4 (Monday) + 12 (Tuesday) + 60 (Wednesday) = 76 cakes.\n\n#### 76\n\n#### 76",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of cakes Rose bought, we first need to determine how many cakes she bought each day. On Monday, she bought 4 cakes. On Tuesday, she bought three times the number of cakes she bought on Monday. So, the number of cakes she bought on Tuesday is 3 * 4 = 12 cakes. On Wednesday, she bought 5 times the number of cakes she bought on Tuesday. Since she bought 12 cakes on Tuesday, the number of cakes she bought on Wednesday is 5 * 12 = 60 cakes.\n\nTo find the total number of cakes she bought after all three days, we add the number of cakes bought on Monday, Tuesday, and Wednesday: 4 + 12 + 60 = 76 cakes. \n#### 76",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 473,
+	"prompt": "Matt wants cookies for a snack, but his dad wants him to eat healthily. He tells Matt he can have half as many cookies as the number of carrot sticks he eats, plus two extra for cleaning his room. If Matt wants to eat five cookies in total, how many carrot sticks does he have to eat?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First subtract the two cookies Matt gets for cleaning his room from the total number he wants to eat: 5 - 2 = <<5-2=3>>3\nThen double the number of cookies to find how many carrots sticks he has to eat: 3 * 2 = <<3*2=6>>6.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to set up an equation based on the given conditions. Let's denote the number of carrot sticks Matt eats as \"x\" and the number of cookies he wants to eat as \"5\".\n\n`\nWe know that Matt can have half as many cookies as the number of carrot sticks he eats, plus two extra for cleaning his room. This can be represented as (x / 2) + 2.\n\n`\nSince Matt wants to eat five cookies in total, we can set up the equation: (x / 2) + 2 = 5. Now, we need to solve this equation for \"x\" to find out how many carrot sticks Matt has to eat.\n\n`\nFirst, we subtract 2 from both sides of the equation: (x / 2) = 5 - 2, which simplifies to (x / 2) = 3. Then, we multiply both sides by 2 to solve for \"x\": x = 3 * 2, which simplifies to x = 6.\n\n#### 6",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Define the relationship between cookies and carrot sticks\nMatt can have half as many cookies as the number of carrot sticks he eats, plus two extra for cleaning his room. This means if he eats C carrot sticks, he can have (C/2) + 2 cookies.\n\n## Step 2: Set up the equation based on the given condition\nMatt wants to eat 5 cookies in total. So, we set up the equation (C/2) + 2 = 5, where C is the number of carrot sticks.\n\n## Step 3: Solve the equation for C\nFirst, subtract 2 from both sides of the equation: (C/2) = 5 - 2, which simplifies to (C/2) = 3.\n\n## Step 4: Find the value of C\nMultiply both sides of the equation by 2 to solve for C: C = 3 * 2, which simplifies to C = 6.\n\nThe final answer is: #### 6",
+			"retrievals": 2
+		}
+	]
+}

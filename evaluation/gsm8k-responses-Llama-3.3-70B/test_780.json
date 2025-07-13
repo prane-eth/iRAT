@@ -1,0 +1,13 @@
+{
+	"task_id": 780,
+	"prompt": "The Llesis family drove and hiked 6 hours to their vacation spot. They drove an average of 50 miles per hour and hiked an average of 5 miles per hour less than half their speed when they drive. If it took them 1.5 hours to hike, how far was their vacation spot?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half the average speed of Llesis family driving is 50/2 = <<50/2=25>>25 miles per hour.\nHence, their average speed hiking was 25 - 5 = <<25-5=20>>20 miles per hour.\nSo, they hiked 20 x 1.5 = <<20*1.5=30>>30 miles.\nIt took them a total of 6 - 1.5 = <<6-1.5=4.5>>4.5 hours driving.\nSo, they drove 50 x 4.5 = <<50*4.5=225>>225 miles.\nTherefore, their vacation spot was 30 + 225 = <<30+225=255>>255 miles far.\n#### 255",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total distance to the vacation spot, we need to calculate the distance\n\nGiven that they hiked for 1.5 hours at a speed of 20 miles per hour, the distance covered while hiking is 20 miles/hour * 1.5 hours = 30 miles.\n\nTo find the total distance to the vacation spot, we add the distance covered while driving to the distance covered while hiking: 225 miles + 30 miles = 255 miles.\n\n#### 255 miles",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total distance to the vacation spot, we first need to calculate the time spent driving and the time spent hiking. The total time taken is 6 hours, and it's given that they hiked for 1.5 hours. So, the time spent driving can be calculated by subtracting the hiking time from the total time: 6 hours - 1.5 hours = 4.5 hours.\n\nGiven that they drove at an average speed of 50 miles per hour, the distance covered while driving is 50 miles/hour * 4.5 hours = 225 miles.\n\nThe hiking speed is 5 miles per hour less than half of their driving speed. Half of their driving speed is 50 miles/hour / 2 = 25 miles/hour. Therefore, their hiking speed is 25 miles/hour - 5 miles/hour = 20 miles/hour.\n\nGiven that they hiked for 1.5 hours at a speed of 20 miles per hour, the distance covered while hiking is 20 miles/hour * 1.5 hours = 30 miles.\n\nTo find the total distance to the vacation spot, we add the distance covered while driving to the distance covered while hiking: 225 miles + 30 miles = 255 miles.\n\n#### 255 miles",
+			"retrievals": 1
+		}
+	]
+}

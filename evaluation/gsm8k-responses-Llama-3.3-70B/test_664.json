@@ -1,0 +1,13 @@
+{
+	"task_id": 664,
+	"prompt": "James delivers 600 newspapers in a day. He delivers 198 newspapers to District A, some to District B and 209 newspapers to District C. How many newspapers does he deliver to District B?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He delivers to District A and C a total of 198+209 = <<198+209=407>>407 newspapers\nHe delivers 600 in total so District B will get the remainder which is 600-407 = <<600-407=193>>193 newspapers\n#### 193",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many newspapers James delivers to District B, we need to subtract the number of newspapers he delivers to District A and District C from the total number of newspapers he delivers.\n\nJames delivers a total of 600 newspapers.\nHe delivers 198 newspapers to District A.\nHe delivers 209 newspapers to District C.\n\nFirst, add the newspapers delivered to District A and District C: 198 + 209 = 407 newspapers.\n\nNow, subtract this total from the overall number of newspapers delivered: 600 - 407 = 193 newspapers.\n\nTherefore, James delivers 193 newspapers to District B.\n\n#### 193",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many newspapers James delivers to District B, we need to know the total number of newspapers delivered and the number delivered to the other districts. James delivers a total of 600 newspapers in a day. He delivers 198 newspapers to District A and 209 newspapers to District C. \n\nFirst, we add the number of newspapers delivered to District A and District C: 198 + 209 = 407 newspapers. \n\nThen, we subtract this total from the overall number of newspapers delivered to find out how many are delivered to District B: 600 - 407 = 193 newspapers.\n\nSo, James delivers 193 newspapers to District B.\n\n#### 193",
+			"retrievals": 1
+		}
+	]
+}

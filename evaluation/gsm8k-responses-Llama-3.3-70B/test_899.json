@@ -1,0 +1,13 @@
+{
+	"task_id": 899,
+	"prompt": "Dijana and Anis live near a lake, and every weekend they go out rowing into the lake. On a Sunday morning, both went out rowing, and Dijana rowed for 50 miles the whole day. Anis rowed 1/5 times more miles than Dijana. Calculate the total distance the two of them rowed on that day.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Anis rowed for 1/5 * 50 = <<1/5*50=10>>10 more miles than Dijana.\nThe total distance Anis covered is 50 + 10 = <<50+10=60>>60 miles.\nThe two of them rowed for 60 + 50 = <<60+50=110>>110 miles on that day.\n#### 110",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total distance rowed by Dijana and Anis, we first need to find out how far each of them rowed. Dijana rowed for 50 miles.\n\nAnis rowed 1/5 times more miles than Dijana. This means Anis rowed 50 miles + (1/5 * 50 miles). To find 1/5 of 50, we multiply 50 by 1/5, which is 50 * 1/5 = 10 miles. So, Anis rowed 50 + 10 = 60 miles.\n\nNow, we add the distances rowed by Dijana and Anis to find the total distance. Dijana rowed 50 miles, and Anis rowed 60 miles. The total distance is 50 + 60 = 110 miles.\n\n#### 110",
+			"old_rat_retrievals": 2,
+			"final_answer": "To calculate the total distance rowed by Dijana and Anis, we",
+			"retrievals": 0
+		}
+	]
+}

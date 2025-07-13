@@ -1,0 +1,13 @@
+{
+	"task_id": 944,
+	"prompt": "James gets 10 new CDs.  Each CD cost $15.  He gets them for 40% off.  He decides he doesn't like 5 of them and sells them for 40. How much money was he out?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He got a 15*.4=$<<15*.4=6>>6 discount on each CD\nThat means each CD cost 15-6=$<<15-6=9>>9\nSo he paid 10*9=$<<10*9=90>>90\nThat means he was out 90-40=$<<90-40=50>>50\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money James was out, we first need to calculate the cost",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how much money James was out, we first need to calculate the cost of the 10 CDs after the 40% discount. The original price of each CD is $15, so the total cost without discount is 10 * $15 = $150. With a 40% discount, the amount deducted is 40% of $150, which is 0.4 * $150 = $60. Therefore, the total cost after the discount is $150 - $60 = $90.\n\nJames decides he doesn't like 5 of the CDs and sells them. The total amount he receives from selling these 5 CDs is $40.\n\nTo find out how much money James was out, we subtract the amount he received from selling the CDs from the total cost after the discount. So, $90 - $40 = $50.\n\n#### $50",
+			"retrievals": 0
+		}
+	]
+}

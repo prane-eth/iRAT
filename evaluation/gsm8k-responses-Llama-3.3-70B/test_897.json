@@ -1,0 +1,13 @@
+{
+	"task_id": 897,
+	"prompt": "John rents his car out 10 times a month for 3 hours each time.  He gets paid $25 an hour.  If his car payment is $500, how much profit does he make on his car?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He rents his car 10*3=<<10*3=30>>30 hour a month\nSo he makes 25*30=$<<25*30=750>>750 a month\nThat means he has a profit of 750-500=$<<750-500=250>>250 a month\n#### 250",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the profit John makes on his car, we first need to determine how much he earns from renting it out. John rents his car out 10 times a month, and each rental lasts for 3 hours. Therefore, the total number of hours his car is rented out in a month is 10 * 3 = 30 hours.\n\nGiven that John gets paid $25 an hour, we can calculate his total monthly earnings from renting the car by multiplying the total hours rented by the hourly rate: 30 hours * $25/hour = $750.\n\nNext, we need to subtract his car payment from his total earnings to find out his profit. John's car payment is $500. So, his monthly profit from renting the car is $750 - $500 = $250.\n\n#### $250",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the profit John makes on his car, we first need to calculate how much he earns from renting it out. He rents his car 10 times a month, each time for 3 hours, at a rate of $25 per hour. \n\nFirst, calculate the total hours his car is rented out in a month: 10 times * 3 hours = 30 hours.\nThen, calculate his total earnings from renting the car: 30 hours * $25/hour = $750.\nNext, subtract his car payment from his earnings to find the profit: $750 - $500 = $250.\n\n#### $250",
+			"retrievals": 1
+		}
+	]
+}

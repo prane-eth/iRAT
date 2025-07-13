@@ -1,0 +1,13 @@
+{
+	"task_id": 970,
+	"prompt": "John decides to buy new phones for him, his 2 kids, and his wife.  Each phone after the first 2 is half price.  If the phone price is $600 how much did he pay for them all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 1+2+1=<<1+2+1=4>>4 phones\n2 of the phones cost 600 so their cost is 2*600=$<<2*600=1200>>1200\nThe other two phones cost 600/2=$<<600/2=300>>300\nSo they cost 300*2=$<<300*2=600>>600\nSo the total cost is 1200+600=$<<1200+600=1800>>1800\n#### 1800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the phones, we first need to determine how many",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total cost of the phones, we first need to determine how many phones John bought. He bought phones for himself, his 2 kids, and his wife, which makes a total of 4 phones.\n\nThe price of the first phone is $600, and the price of the second phone is also $600. For the phones after the first 2, the price is half of the original price, which is $600 / 2 = $300.\n\nSo, the cost of the first two phones is $600 + $600 = $1200. The cost of the remaining 2 phones (for the 2 kids) is $300 + $300 = $600.\n\nTo find the total cost, we add the cost of the first two phones and the cost of the remaining phones: $1200 + $600 = $1800.\n\n#### $1800",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1070,
+	"prompt": "Mr Hezekiah had 20 trucks from his store supplying fertiliser to different farmers in his hometown dispatched for delivery on a particular day. Each truck was carrying 20 tons of fertiliser packed in bags. Two hours after the trucks had departed for delivery, Mr Hezekiah got the news that a quarter of the number of lorries dispatched for delivery had mechanical failures on the road and could not deliver the fertilisers to the farmers. Calculate the total number of tons of fertiliser that reached the farmers that day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If there were 20 trucks dispatched for delivery, and 1/4 of the total number had mechanical failures, there were 1/4*20 = <<20*1/4=5>>5 failed deliveries.\nOut of the 20 trucks dispatched to deliver fertiliser, 20-5 = <<20-5=15>>15 trucks delivered to the farmers.\nSince each truck carried 20 tons of fertiliser, the total amount of tons of fertiliser delivered that day was 15*20 = <<15*20=300>>300 tons.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of tons of fertiliser that reached the farmers, we first need to find out how many trucks were able to deliver their cargo. Mr Hezekiah started with 20 trucks. A quarter of these trucks experienced mechanical failures. \n\nA quarter of 20 trucks is (1/4) * 20 = 5 trucks. This means 5 trucks could not deliver the fertiliser, leaving 20 - 5 = 15 trucks that were able to deliver their cargo.\n\nEach truck was carrying 20 tons of fertiliser. Since 15 trucks were able to deliver their cargo, the total amount of fertiliser delivered is 15 * 20 = 300 tons.\n\n#### 300",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total number of tons of fertiliser that reached the farmers, we first need to find out how many trucks were able to deliver their cargo. Mr Hezekiah started with 20 trucks. A quarter of these trucks experienced mechanical failures. A quarter of 20 trucks is (1/4) * 20 = 5 trucks. This means 5 trucks could not deliver the fertiliser, leaving 20 - 5 = 15 trucks that were able to deliver their cargo.\n\nSince each truck was carrying 20 tons of fertiliser, and 15 trucks were able to deliver, we can calculate the total amount of fertiliser delivered by multiplying the number of trucks that delivered by the amount each truck was carrying: 15 * 20 = 300 tons.\n\n#### 300",
+			"retrievals": 0
+		}
+	]
+}

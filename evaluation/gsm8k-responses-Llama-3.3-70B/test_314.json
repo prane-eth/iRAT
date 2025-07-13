@@ -1,0 +1,13 @@
+{
+	"task_id": 314,
+	"prompt": "Six years ago, when Noah was half as old as Cera, the population of Chile was half what it is now. Currently, Cera is 46 years old. If the population of Chile six years ago was 3000 times the age of Noah, calculate the population of Chile now.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Cera is 46 years old now, she was 46-6 = <<46-6=40>>40 years old six years ago.\nSix years ago, Noah was half as old as Cera, meaning Noah was 1/2*40 = 20 years.\nIf the population of Chile six years ago was 3000 times the age of Noah, there were 3000*20 = <<3000*20=60000>>60000 people living in chile.\nSince the population of Chile was half what it was now six years ago, currently Chile has 60000*2 = <<60000*2=120000>>120000 people\n#### 120000",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Determine Cera's age six years ago\nCera is currently 46 years old. Six years ago, she would have been 46 - 6 = 40 years old.\n\n## Step 2: Calculate Noah's age six years ago\nSix years ago, Noah was half as old as Cera. Since Cera was 40 years old six years ago, Noah would have been 40 / 2 = 20 years old.\n\n## Step 3: Calculate Noah's current age\nNoah was 20 years old six years ago. Currently, he would be 20 + 6 = 26 years old.\n\n## Step 4: Determine the population of Chile six years ago\nThe population of Chile six years ago was 3000 times the age of Noah at that time. Since Noah was 20 years old six years ago, the population of Chile six years ago would have been 3000 * 20 = 60,000.\n\n## Step 5: Calculate the current population of Chile\nIt is given that the population of Chile six years ago was half what it is now. So, the current population of Chile would be 2 * 60,000 = 120,000.\n\nThe final answer is: #### 120000",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate Cera's age six years ago\nCera is currently 46 years old. To find her age six years ago, we subtract 6 from her current age: 46 - 6 = 40 years old.\n\n## Step 2: Calculate Noah's age six years ago\nSince Noah was half as old as Cera six years ago, we divide Cera's age at that time by 2: 40 / 2 = 20 years old.\n\n## Step 3: Calculate the population of Chile six years ago\nThe population of Chile six years ago was 3000 times the age of Noah at that time. So, we multiply 3000 by Noah's age six years ago: 3000 * 20 = 60,000.\n\n## Step 4: Calculate the current population of Chile\nGiven that the population of Chile six years ago was half what it is now, we multiply the population six years ago by 2 to find the current population: 60,000 * 2 = 120,000.\n\nThe final answer is: #### 120,000",
+			"retrievals": 2
+		}
+	]
+}

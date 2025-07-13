@@ -1,0 +1,13 @@
+{
+	"task_id": 794,
+	"prompt": "Jamie earns $20 per hour for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her regular hourly rate. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first 8 hours pay 20*8=<<20*8=160>>160.\nThe overtime hourly rate is 1.50*20=$<<1.50*20=30>>30/hr.\nShe worked 11-8=<<11-8=3>>3 overtime hours\nThen the additional 3 hours pay 3*30=<<3*30=90>>90.\nShe was paid 160+90=<<160+90=250>>250.\n#### 250",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Jamie was paid for her work last Tuesday, we first need",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how much Jamie was paid for her work last Tuesday, we first need to calculate her earnings for the regular 8 hours of work. Since she earns $20 per hour, her regular pay is $20 * 8 = $160.\n\nFor the additional hours worked, we need to calculate her special hourly rate, which is 150% of her regular hourly rate. This means her special rate is $20 * 1.5 = $30 per hour.\n\nLast Tuesday, Jamie worked 11 hours, which means she worked 3 hours beyond her regular 8 hours. Her earnings for these additional hours would be $30 * 3 = $90.\n\nTo find her total pay for the day, we add her regular pay to her pay for the additional hours: $160 + $90 = $250.\n\n#### $250",
+			"retrievals": 0
+		}
+	]
+}

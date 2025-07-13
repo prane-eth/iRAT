@@ -1,0 +1,13 @@
+{
+	"task_id": 319,
+	"prompt": "If a classroom has 3 times as many girls as they do boys, and 1/10 as many nongendered children as they do boys, and the classroom has 30 boys.  How many total children does it have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The classroom has 3 * 30 boys = <<3*30=90>>90 girls.\nThe classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.\nIn total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.\n#### 123",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of children in the classroom, we first need to calculate\n\n`\nNow, to find the total number of children in the classroom, we add the number of boys, girls, and nongendered children together. Total children = 30 boys + 90 girls + 3 nongendered children = 123 children.\n\n#### 123",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of girls in the classroom\nThe problem states that the classroom has 3 times as many girls as boys, and it has 30 boys. So, the number of girls is 3 * 30 = 90.\n\n## Step 2: Calculate the number of nongendered children in the classroom\nThe classroom has 1/10 as many nongendered children as boys. Since there are 30 boys, the number of nongendered children is 30 * 1/10 = 3.\n\n## Step 3: Calculate the total number of children in the classroom\nTo find the total number of children, we need to add the number of boys, girls, and nongendered children together. Total children = 30 (boys) + 90 (girls) + 3 (nongendered) = 123.\n\n## Step 4: Verify the calculation\nWe have calculated the total number of children in the classroom based on the given ratios and the number of boys. The calculation seems correct, and we have considered all the components of the population (boys, girls, and nongendered children).\n\nThe final answer is: #### 123",
+			"retrievals": 2
+		}
+	]
+}

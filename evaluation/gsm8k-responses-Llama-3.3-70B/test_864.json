@@ -1,0 +1,13 @@
+{
+	"task_id": 864,
+	"prompt": "Gretchen has some coins. There are 30 more gold coins than silver coins. If she had 70 gold coins, how many coins did Gretchen have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Gretchen has 70-30=<<70-30=40>>40 silver coins.\nShe has 70+40=<<70+40=110>>110 coins.\n#### 110",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of coins Gretchen has, we first need to determine",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total number of coins Gretchen has, we first need to determine the number of silver coins. We know that there are 30 more gold coins than silver coins. If she had 70 gold coins, then we can find the number of silver coins by subtracting 30 from the number of gold coins. \n\nSo, the number of silver coins = number of gold coins - 30\n= 70 - 30\n= 40\n\nNow that we know Gretchen has 70 gold coins and 40 silver coins, we can find the total number of coins by adding the number of gold coins and the number of silver coins.\n\nTotal number of coins = number of gold coins + number of silver coins\n= 70 + 40\n= 110\n\n#### 110",
+			"retrievals": 0
+		}
+	]
+}

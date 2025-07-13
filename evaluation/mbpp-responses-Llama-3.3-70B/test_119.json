@@ -1,0 +1,19 @@
+{
+	"task_id": 129,
+	"prompt": "Write a function to add two lists using map and lambda function.?assert add_list([1, 2, 3],[4,5,6])==[5, 7, 9]",
+	"test_imports": [],
+	"test_list": [
+		"assert add_list([1, 2, 3],[4,5,6])==[5, 7, 9]",
+		"assert add_list([1,2],[3,4])==[4,6]",
+		"assert add_list([10,20],[50,70])==[60,90]"
+	],
+	"mbpp_code": "def add_list(nums1,nums2):\r\n  result = map(lambda x, y: x + y, nums1, nums2)\r\n  return list(result)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to create a function that takes two lists as input and returns a new list where each element is the sum of the corresponding elements in the input lists. We will use the `map` function in combination with a `lambda` function to achieve this.\n\nThe `map` function applies a given function to each item of an iterable (such as a list) and returns a list of the results. A `lambda` function is a small anonymous function that can take any number of arguments, but can only have one expression. In this case, our `lambda` function will take two arguments (one from each list) and return their sum.\n\n```python\ndef add_list(list1, list2):\n    return list(map(lambda x, y: x + y, list1, list2))\n```\n\nThis function works by applying the `lambda` function to each pair of elements from `list1` and `list2`. The `map` function then collects these results into a new iterable, which we convert to a list before returning it. \n\nFor example, if we call `add_list([1, 2, 3], [4, 5, 6])`, the `lambda` function will be applied to the pairs `(1, 4)`, `(2, 5)`, and `(3, 6)`, resulting in the list `[5, 7, 9]`. \n\nIt's also worth noting that this function assumes that the input lists are of the same length. If they are not, the function will stop once the end of the shorter list is reached, ignoring any remaining elements in the longer list.",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we need to create a function that takes two lists as input and returns a new list where each element is the sum of the corresponding elements in the input lists. We will use the `map` function in combination with a `lambda` function to achieve this.\n\nThe `map` function applies a given function to each item of an iterable (such as a list) and returns a list of the results. A `lambda` function is a small anonymous function that can take any number of arguments, but can only have one expression. In this case, our `lambda` function will take two arguments (one from each list) and return their sum.\n\nHere's how you can implement this function:\n\n```python\ndef add_list(list1, list2):\n    return list(map(lambda x, y: x + y, list1, list2))\n```\n\nThis function works by applying the `lambda` function to each pair of elements from `list1` and `list2`. The `map` function then collects these results into a new iterable, which we convert to a list before returning it. For example, if we call `add_list([1, 2, 3], [4, 5, 6])`, the `lambda` function will be applied to the pairs `(1, 4)`, `(2, 5)`, and `(3, 6)`, resulting in the list `[5, 7, 9]`.\n\nIt's also worth noting that this function assumes that the input lists are of the same length. If they are not, the function will stop once the end of the shorter list is reached, ignoring any remaining elements in the longer list.\n\nYou can test this function with the provided assertion:\n\n```python\nassert add_list([1, 2, 3], [4, 5, 6]) == [5, 7, 9]\n```",
+			"retrievals": 4
+		}
+	]
+}

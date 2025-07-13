@@ -1,0 +1,13 @@
+{
+	"task_id": 576,
+	"prompt": "At the end of the school year, Kate asked her teacher if she could have the 3 boxes of 64 crayons since they were all worn down to small pieces.  The teacher agreed.  Kate took the crayons home and decided to make crayon muffins by melting 8 small pieces of crayons together in a muffin tin that she placed in an oven for a few minutes. If she can sell her muffin crayons for $1.50 each, how much money can Kate make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She was able to get 3 boxes of 64 crayons so she has 3*64 = <<3*64=192>>192 crayons\nEach crayon muffin needs 8 crayons and she has 192 crayons so she can make 192/8 = <<192/8=24>>24 crayon muffins\nIf she makes 24 crayon muffins and sells them for $1.50 apiece, she can make 24*1.5 = $<<24*1.5=36.00>>36.00\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Kate can make, we first need to determine the total number of crayons she has. Since she has 3 boxes of 64 crayons, we multiply the number of boxes by the number of crayons per box. So, 3 boxes * 64 crayons per box = 192 crayons.\n\n \nNext, we need to figure out how many muffin crayons Kate can make with the 192 crayons. Since each muffin crayon requires 8 small pieces of crayons, we divide the total number of crayons by 8. So, 192 crayons / 8 crayons per muffin = 24 muffin crayons.\n\n \nNow that we know Kate can make 24 muffin crayons and she can sell each one for $1.50, we multiply the number of muffin crayons by the price per muffin crayon to find out how much money she can make. So, 24 muffin crayons * $1.50 per muffin crayon = $36.\n\n#### $36",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of crayons\nFirst, we need to determine the total number of crayons Kate has. She has 3 boxes of 64 crayons each. So, the total number of crayons is 3 * 64 = 192 crayons.\n\n## Step 2: Determine the number of crayon muffins Kate can make\nSince Kate melts 8 small pieces of crayons together to make one muffin crayon, we need to divide the total number of crayons by 8 to find out how many muffin crayons she can make. Assuming each crayon can be divided into one small piece, the number of muffin crayons is 192 / 8 = 24.\n\n## Step 3: Calculate the total amount of money Kate can make\nNow, we know Kate can make 24 muffin crayons and she can sell each one for $1.50. To find out the total amount of money she can make, we multiply the number of muffin crayons by the price of each: 24 * $1.50 = $36.\n\n#### $36",
+			"retrievals": 3
+		}
+	]
+}

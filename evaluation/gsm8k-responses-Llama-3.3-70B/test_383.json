@@ -1,0 +1,13 @@
+{
+	"task_id": 383,
+	"prompt": "Axel has 50 silver pesos and 80 gold pesos. He visits her friend Anna who has twice as many silver pesos as he has and 40 more gold pesos. What's the total number of pesos they have together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Axel has 50 + 80 = <<50+80=130>>130 pesos.\nHis friend Anna has 2 * 50 = <<2*50=100>>100 silver pesos.\nAnna also has 80 + 40 =<<80+40=120>>120 gold pesos.\nThe total number of pesos that Anna has is 120+100 = <<120+100=220>>220.\nThe combined total for the two friends is 130 + 220 = <<130+220=350>>350 pesos.\n#### 350",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of pesos Axel and Anna have together, we first need to calculate how many silver and gold pesos each of them has. Axel has 50 silver pesos and 80 gold pesos.\n\nAnna has twice as many silver pesos as Axel, so she has 2 * 50 = 100 silver pesos. She also has 40 more gold pesos than Axel, which means she has 80 + 40 = 120 gold pesos.\n\nNow, we need to add up all the silver and gold pesos that Axel and Anna have. For silver pesos, Axel has 50 and Anna has 100, so together they have 50 + 100 = 150 silver pesos. For gold pesos, Axel has 80 and Anna has 120, so together they have 80 + 120 = 200 gold pesos.\n\nTo find the total number of pesos they have together, we add the total number of silver pesos and the total number of gold pesos: 150 (silver) + 200 (gold) = 350 pesos.\n\n#### 350",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate Axel's Total Pesos\nAxel has 50 silver pesos and 80 gold pesos, so his total is 50 + 80 = 130 pesos.\n\n## Step 2: Determine Anna's Pesos\nAnna has twice as many silver pesos as Axel, which means she has 2 * 50 = 100 silver pesos. She also has 40 more gold pesos than Axel, so she has 80 + 40 = 120 gold pesos.\n\n## Step 3: Calculate Anna's Total Pesos\nAnna's total pesos are the sum of her silver and gold pesos: 100 + 120 = 220 pesos.\n\n## Step 4: Calculate Combined Total of Pesos for Axel and Anna\nTo find the total number of pesos they have together, we add Axel's total and Anna's total: 130 (Axel's total) + 220 (Anna's total) = 350 pesos.\n\n## Step 5: Conclusion\nBy adding the total number of pesos Axel and Anna have, we find the combined total.\n\n#### 350",
+			"retrievals": 2
+		}
+	]
+}

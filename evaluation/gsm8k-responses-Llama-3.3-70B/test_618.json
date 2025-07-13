@@ -1,0 +1,13 @@
+{
+	"task_id": 618,
+	"prompt": "Prince is a butcher. He sells 15kg of meat every hour he works, and he works 10 hours a day. His friend Bill gives him a bull that weighs 750kg. How many days will it take Prince to sell the meat from Bill's bull?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In a day Bill sells 15 * 10 = <<15*10=150>>150kg of meat.\nIt will take Bill 750 / 150 = <<750/150=5>>5 days to sell all the meat from the bull.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many days it will take Prince to sell the meat from Bill's bull, we first need to calculate the total amount of meat Prince sells in a day. Prince sells 15kg of meat every hour and works for 10 hours a day. \n\nSo, the total amount of meat Prince sells in a day is 15kg/hour * 10 hours = 150kg/day.\n\nThe bull that Bill gives to Prince weighs 750kg. To find out how many days it will take Prince to sell this amount of meat, we need to divide the total weight of the bull by the amount of meat Prince sells in a day.\n\nTherefore, the number of days it will take Prince to sell the meat from Bill's bull is 750kg / 150kg/day.\n\n#### 5",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many days it will take Prince to sell the meat from Bill's bull, we first need to calculate how much meat Prince sells in a day. Prince sells 15kg of meat every hour and works 10 hours a day. So, his daily meat sales can be calculated by multiplying the hourly sales by the number of hours he works: 15kg/hour * 10 hours = 150kg/day.\n\nNext, we need to consider the total amount of meat that Prince needs to sell, which is the weight of the bull, given as 750kg. This is the total inventory of meat that Prince has to manage and sell.\n\nTo find out how many days it will take Prince to sell the meat from the bull, we divide the total weight of the meat by the daily sales amount: 750kg / 150kg/day = 5 days. This calculation provides a straightforward answer to the question, assuming that Prince sells the meat at a constant rate without any interruptions or changes in demand.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

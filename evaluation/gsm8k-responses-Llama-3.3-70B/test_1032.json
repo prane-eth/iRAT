@@ -1,0 +1,13 @@
+{
+	"task_id": 1032,
+	"prompt": "Apple High School is holding graduation in their Fine Arts Center this year which has space for 6000 people.  After accounting for 950 seats for graduates and 300 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Add graduate and faculty seats together. 950 + 300 = <<950+300=1250>>1250 seats for faculty and graduates\nMinus seats for faculty and graduates from total seats allowed. 6000 - 1250 = <<6000-1250=4750>>4750 remaining seats.\nDivide amount of graduates by remaining seats. 4750/950 = <<4750/950=5>>5 tickets\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many tickets each graduate would receive, we first need to determine the total number of seats available for friends and family. The Fine Arts Center has space for 6000 people. \n\nAfter accounting for 950 seats for graduates and 300 seats for faculty attending, we subtract these from the total capacity to find the number of seats available for friends and family. So, 6000 - 950 - 300 = 4750 seats are available for friends and family.\n\nNow, we need to split these 4750 seats equally among the graduates. Since there are 950 graduates, we divide the total number of seats available for friends and family by the number of graduates. So, 4750 / 950 = 5.\n\n#### 5",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine the number of tickets each graduate would receive for their friends and family, we first need to calculate the total number of seats available for this purpose. The Fine Arts Center at Apple High School has a capacity of 6000 people. From this total, we need to subtract the seats allocated for graduates and faculty members. There are 950 seats reserved for graduates and 300 seats for faculty, which totals 950 + 300 = 1250 seats.\n\nSubtracting these from the total capacity gives us the number of seats available for friends and family: 6000 - 1250 = 4750 seats.\n\nNow, to find out how many tickets each graduate would receive, we divide the total number of seats available for friends and family by the number of graduates. There are 950 graduates, so we calculate 4750 / 950.\n\nThis calculation yields 5 tickets per graduate. Therefore, each graduate would receive 5 tickets to give to their friends and family.\n\n#### 5",
+			"retrievals": 1
+		}
+	]
+}

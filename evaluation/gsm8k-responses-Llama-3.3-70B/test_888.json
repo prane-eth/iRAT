@@ -1,0 +1,13 @@
+{
+	"task_id": 888,
+	"prompt": "Jerry counts six birds nesting in the bushes, 2/3rd of that number of birds flying overhead, and 3 groups of eight birds each feeding. How many birds does he count in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find how many birds are flying overhead: 6 birds * 2/3 = <<6*2/3=4>>4 birds\nThen find how many birds are feeding: 3 groups * 8 birds/group = <<3*8=24>>24 birds\nThen add the number of nesting birds and flying birds to find the total number of birds: 4 birds + 24 birds + 6 birds = <<4+24+6=34>>34 birds\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of birds Jerry counts, we need to calculate the number",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of birds Jerry counts, we need to calculate the number of birds in each category and then sum them up. \n\nFirst, Jerry counts six birds nesting in the bushes. \n\nNext, he sees 2/3rd of that number of birds flying overhead. Since 2/3rd of 6 is (2/3) * 6 = 4, there are 4 birds flying overhead.\n\nLastly, Jerry observes 3 groups of eight birds each feeding. So, the total number of birds feeding is 3 * 8 = 24.\n\nNow, to find the total number of birds Jerry counts, we add the birds nesting in the bushes, the birds flying overhead, and the birds feeding: 6 (nesting) + 4 (flying) + 24 (feeding) = 34.\n\n#### 34",
+			"retrievals": 0
+		}
+	]
+}

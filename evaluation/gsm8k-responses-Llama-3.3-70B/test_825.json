@@ -1,0 +1,13 @@
+{
+	"task_id": 825,
+	"prompt": "Kimberly bought 8 packages of cat food and 6 packages of dog food. Each package of cat food contained 11 tins, and each package of dog food contained 6 tins. How many more tins of cat food than dog food did Kimberly buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of cat food tins that Kimberley has bought is 8 \u00d7 11 = <<8*11=88>>88.\nWhilst the number of dog food tins she has bought is 6 \u00d7 6 = <<6*6=36>>36.\nThere are 88 - 36 = <<88-36=52>>52 more tins of cat food than dog food.\n#### 52",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more tins of cat food than dog food Kimberly bought, we first need to calculate the total number of tins of cat food and the total number of tins of dog food she purchased.\n\nKimberly bought 8 packages of cat food, and each package contains 11 tins. So, the total number of tins of cat food is 8 * 11 = 88 tins. Similarly, she bought 6 packages of dog food, with each package containing 6 tins. Thus, the total number of tins of dog food is 6 * 6 = 36 tins.\n\nNow, to find out how many more tins of cat food than dog food Kimberly bought, we subtract the total number of tins of dog food from the total number of tins of cat food: 88 - 36 = 52.\n\n#### 52",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how many more tins of cat food than dog food Kimberly bought, we need to calculate the total number of tins of cat food and the total number of tins of dog food she purchased. \n\nFirst, let's calculate the total number of tins of cat food. Since Kimberly bought 8 packages of cat food and each package contains 11 tins, the total number of tins of cat food is 8 * 11 = 88 tins.\n\nNext, we calculate the total number of tins of dog food. Kimberly bought 6 packages of dog food, with each package containing 6 tins. Thus, the total number of tins of dog food is 6 * 6 = 36 tins.\n\nNow, to find out how many more tins of cat food than dog food Kimberly bought, we subtract the total number of tins of dog food from the total number of tins of cat food: 88 - 36 = 52.\n\n#### 52",
+			"retrievals": 1
+		}
+	]
+}

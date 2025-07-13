@@ -1,0 +1,13 @@
+{
+	"task_id": 75,
+	"prompt": "Artie has a flower stand at the Farmers Market. He sells three kinds of flowers: marigolds, petunias and begonias. He usually sells marigolds for $2.74 per pot, petunias for $1.87 per pot and begonias for $2.12 per pot. Artie has no change today, so he has decided to round all his prices to the nearest dollar. If Artie sells 12 pots of marigolds, 9 pots of petunias and 17 pots of begonias, how much will he make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Artie will round his marigolds up from $2.74 to $3, since the number following the 2 is 5 or higher.\nArtie will round his petunias up from $1.87 to $2, since the number following the 1 is 5 or higher.\nArtie will round his begonias down from $2.12 to $2, since the number following the 2 is less than 5.\nArtie sells 12 marigolds x $3 = $<<12*3=36>>36\nArtie sells 9 petunias x $2 = $<<9*2=18>>18\nArtie sells 17 begonias x $2 = $<<17*2=34>>34\nAltogether, Artie will make $36 + $18 + $34 = $<<36+18+34=88>>88\n#### 88",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how much Artie will make, we first need to round each type of flower's price to the nearest dollar.\n\n- Marigolds are $2.74 per pot, which rounds to $3 per pot.\n- Petunias are $1.87 per pot, which rounds to $2 per pot.\n- Begonias are $2.12 per pot, which rounds to $2 per pot.\n\nNow, let's calculate the total amount Artie will make from selling each type of flower:\n\n- 12 pots of marigolds at $3 per pot = 12 * $3 = $36\n- 9 pots of petunias at $2 per pot = 9 * $2 = $18\n- 17 pots of begonias at $2 per pot = 17 * $2 = $34\n\nAdding these amounts together gives us the total amount Artie will make:\n$36 + $18 + $34 = $88\n\n#### $88",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate how much Artie will make, we first need to round the prices of the flowers to the nearest dollar. The original prices are: marigolds for $2.74 per pot, petunias for $1.87 per pot, and begonias for $2.12 per pot. Rounding these prices to the nearest dollar gives us: marigolds for $3 per pot, petunias for $2 per pot, and begonias for $2 per pot.\n\nNow, let's calculate the total sales for each type of flower. Artie sells 12 pots of marigolds at $3 each, which equals 12 * $3 = $36. He sells 9 pots of petunias at $2 each, totaling 9 * $2 = $18. Lastly, he sells 17 pots of begonias at $2 each, which amounts to 17 * $2 = $34.\n\nTo find the total amount Artie will make, we need to add the sales from all three types of flowers together. So, $36 (marigolds) + $18 (petunias) + $34 (begonias) = $88.\n\n#### $88",
+			"retrievals": 2
+		}
+	]
+}

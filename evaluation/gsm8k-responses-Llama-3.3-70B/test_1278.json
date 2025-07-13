@@ -1,0 +1,13 @@
+{
+	"task_id": 1278,
+	"prompt": "Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Mia is 40 years old, Emma is 40+16 = <<40+16=56>>56 years old.\nThe sum of their ages is 56+40 = <<56+40=96>>96 years\nThe average age of the two is 96/2 = <<96/2=48>>48 years\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "To find the average of Mia and Emma's ages, first, we need to\n\nThis means Emma is 16 years older than Mia. So, to find Emma's age, we add 16 to Mia's age: 40 (Mia's age) + 16 = 56. Therefore, Emma is 56 years old.\n\nNow that we have both of their ages, we can calculate the average. The average is found by adding the two ages together and then dividing by 2. So, we add Mia's age (40) to Emma's age (56), which gives us 40 + 56 = 96.\n\nThen, we divide the sum of their ages by 2 to find the average: 96 / 2 = 48.\n\n#### 48",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate Emma's Age\nTo find Emma's age, we know that Mia and Emma are 16 years apart in age, and Mia is 40 years old. Since Mia is younger than Emma, we add 16 to Mia's age to find Emma's age. So, Emma's age is 40 + 16 = 56.\n\n## Step 2: Calculate the Average of Their Ages\nNow that we have both of their ages, we can calculate the average. The average is found by adding the two ages together and then dividing by 2. So, we add Mia's age (40) to Emma's age (56), which gives us 40 + 56 = 96. Then, we divide the sum of their ages by 2 to find the average: 96 / 2 = 48.\n\n#### 48",
+			"retrievals": 2
+		}
+	]
+}

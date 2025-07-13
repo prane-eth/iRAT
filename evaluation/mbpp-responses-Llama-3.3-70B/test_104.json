@@ -1,0 +1,19 @@
+{
+	"task_id": 114,
+	"prompt": "Write a python function to count the number of distinct power of prime factor of given number.?assert count_Fac(24) == 3",
+	"test_imports": [],
+	"test_list": [
+		"assert count_Fac(24) == 3",
+		"assert count_Fac(12) == 2",
+		"assert count_Fac(4) == 1"
+	],
+	"mbpp_code": "def count_Fac(n):  \r\n    m = n \r\n    count = 0\r\n    i = 2\r\n    while((i * i) <= m): \r\n        total = 0\r\n        while (n % i == 0): \r\n            n /= i \r\n            total += 1 \r\n        temp = 0\r\n        j = 1\r\n        while((temp + j) <= total): \r\n            temp += j \r\n            count += 1\r\n            j += 1 \r\n        i += 1\r\n    if (n != 1): \r\n        count += 1 \r\n    return count",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to find the prime factors of the given",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Define the Function\nTo count the number of distinct powers of prime factors of a given number, we first need to define a function that takes an integer as input and returns the count of distinct powers of its prime factors.\n\n## Step 2: Find Prime Factors\nNext, we need to find all the prime factors of the given number. This involves checking each number up to the square root of the given number to see if it is a factor, and if so, checking if it is prime.\n\n## Step 3: Count Distinct Powers of Prime Factors\nAfter finding the prime factors, we need to count the distinct powers of these prime factors. This means we need to keep track of how many times each prime factor appears in the factorization of the number.\n\n## Step 4: Implement the Solution in Python\nHere's how we can implement this in Python:\n```python\ndef count_Fac(n):\n    def prime_factors(n):\n        i = 2\n        factors = []\n        while i * i <= n:\n            if n % i:\n                i += 1\n            else:\n                n //= i\n                factors.append(i)\n        if n > 1:\n            factors.append(n)\n        return factors\n\n    factors = prime_factors(n)\n    distinct_powers = set()\n    for factor in set(factors):\n        power = 1\n        while n % (factor ** power) == 0:\n            distinct_powers.add(factor ** power)\n            power += 1\n    return len(distinct_powers)\n\nassert count_Fac(24) == 3\n```\n## Step 5: Explanation of the Code\nThe `count_Fac` function first defines a helper function `prime_factors` to find all prime factors of a number `n`. It then uses these prime factors to count the distinct powers of each prime factor by continuously dividing `n` by the prime factor until it is no longer divisible, keeping track of each distinct power found. Finally, it returns the count of distinct powers.\n\nThe final answer is: $\\boxed{3}$",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/128",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n    if not arr:\n        return None\n    \n    sign_product = 1\n    magnitude_sum = 0\n    \n    for num in arr:\n        if num > 0:\n            sign_product *= 1\n        elif num < 0:\n            sign_product *= -1\n        else:\n            sign_product *= 0\n        \n        magnitude_sum += abs(num)\n    \n    return sign_product * magnitude_sum\n```",
+			"old_rat_retrievals": 10,
+			"final_answer": "def prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n    if not arr:\n        return None\n    sum_of_magnitudes = 0\n    product_of_signs = 1\n    for num in arr:\n        sum_of_magnitudes += abs(num)\n        if num == 0:\n            product_of_signs = 0\n        elif num < 0:\n            product_of_signs *= -1\n    return sum_of_magnitudes * product_of_signs\n\nprint(prod_signs([1, 2, 2, -4]))  # Output: -9\nprint(prod_signs([0, 1]))  # Output: 0\nprint(prod_signs([]))  # Output: None",
+			"retrievals": 6
+		}
+	]
+}

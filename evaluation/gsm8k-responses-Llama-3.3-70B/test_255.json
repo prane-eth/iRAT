@@ -1,0 +1,13 @@
+{
+	"task_id": 255,
+	"prompt": "Shelly's 3 kids spent all day at the water park.  Mitchel went down the water slide 30 times.  Anne went down the slide 30% less than Mitchel and Robert went down 4 times as much as Anne.  How many times did Robert go down the water slide?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Anne went down the slide 30% less than Mitchel who went down 30 times so that's .30*30 = <<30*.01*30=9>>9 times less\nMitchel went down 30 times and Anne went down 9 times less than him for a total of 30-9 = <<30-9=21>>21 times\nRobert went down the slide 4 times as much as Anne, who went down 21 times so Robert went down the slide 4*21 = <<4*21=84>>84 times\n#### 84",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many times Robert went down the water slide, we need to follow the information given step by step.\n\n1. Mitchel went down the water slide 30 times.\n2. Anne went down the slide 30% less than Mitchel. To find out how many times Anne went down, we calculate 30% of 30 and subtract it from 30.\n   - 30% of 30 = 0.30 * 30 = 9\n   - So, Anne went down 30 - 9 = 21 times.\n3. Robert went down 4 times as much as Anne. Since Anne went down 21 times, we multiply this by 4 to find out how many times Robert went down.\n   - 4 * 21 = 84\n\nTherefore, Robert went down the water slide 84 times.\n\n#### 84",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many times Robert went down the water slide, we need to follow the information given about the activities of Shelly's kids at the water park. \n\nFirst, we calculate the number of times Anne went down the water slide. Since Anne went down the slide 30% less than Mitchel, and Mitchel went down 30 times, we find 30% of 30. This is calculated as 0.3 * 30 = 9. So, Anne went down the slide 30 - 9 = 21 times.\n\nNext, we calculate the number of times Robert went down the water slide. Robert went down the slide 4 times as much as Anne. Therefore, we multiply the number of times Anne went down by 4. Robert = 4 * Anne = 4 * 21 = 84 times.\n\nThus, based on the given information and calculations, we can determine the number of times Robert went down the water slide.\n\n#### 84",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1170,
+	"prompt": "Ronnie was given $5 while Rissa was given thrice as much. After each of them had given an equal amount of money to their little sister, Rissa is left with 4/5 of her money. How much is left in Ronnie's money?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Rissa was given $5 x 3 = $<<5*3=15>>15.\nAfter Rissa had given an amount to her sister, she has $15 x 4/5 = $<<15*4/5=12>>12 left.\nThis means she has given $15 - $12 = $<<15-12=3>>3.\nSince Ronnie had given the same amount as Rissa, then Ronnie is left with $5 - $3 = $<<5-3=2>>2.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money is left in Ronnie's money, we first need to determine how much money Rissa and Ronnie initially had. Ronnie was given $5, and Rissa was given thrice as much as Ronnie. So, Rissa was given 3 * $5 = $15.\n\n \nWe are told that after each of them had given an equal amount of money to their little sister, Rissa is left with 4/5 of her money. This means that Rissa gave away 1/5 of her money. Since Rissa had $15 and gave away 1/5 of it, the amount she gave away is 1/5 * $15 = $3.\n\n \nSince both Ronnie and Rissa gave an equal amount of money to their little sister, Ronnie also gave away $3. Initially, Ronnie had $5, so after giving away $3, he is left with $5 - $3 = $2.\n\n#### $2",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much money is left in Ronnie's possession, let's analyze the information given step by step.\n\nFirst, we know that Ronnie was given $5, and Rissa was given thrice as much as Ronnie. So, Rissa received $5 * 3 = $15.\n\nNext, we're told that after each of them gave an equal amount of money to their little sister, Rissa is left with 4/5 of her money. This means Rissa gave away 1/5 of her money. To find out how much Rissa gave away, we calculate $15 * (1/5) = $3.\n\nSince both Ronnie and Rissa gave an equal amount of money to their sister, and we've determined that Rissa gave away $3, this also means Ronnie gave away $3. However, we need to consider the initial amount Ronnie had, which was $5, and subtract the amount given away to find out how much Ronnie has left.\n\nBut let's reassess the situation with the correct understanding of the fractions and the distribution of money. If Rissa gave away $3 and was left with 4/5 of her money, this confirms our calculation that $3 is 1/5 of $15. For Ronnie, giving away an equal amount of $3 from his initial $5 would leave him with $5 - $3 = $2.\n\nThe final answer is: #### $2",
+			"retrievals": 2
+		}
+	]
+}

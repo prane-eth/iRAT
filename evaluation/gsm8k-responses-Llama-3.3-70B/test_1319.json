@@ -1,0 +1,13 @@
+{
+	"task_id": 1319,
+	"prompt": "Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 7*8=<<7*8=56>>56 slices in total.\nThere are 1+3=<<1+3=4>>4 people in total.\nThey can each have 56/4=<<56/4=14>>14 slices.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many slices each of Henry and his friends can have, we first need to calculate the total number of slices available. Since there are 7 pizzas and each pizza is cut into 8 slices, we multiply the number of pizzas by the number of slices per pizza to find the total number of slices.\n\nThe calculation for the total number of slices is: 7 pizzas * 8 slices/pizza = 56 slices.\n\nNow that we know there are 56 slices in total, we need to divide this number by the total number of people who are sharing the pizzas. Henry and his 3 friends make a total of 4 people.\n\nThe calculation to find out how many slices each person can have is: 56 slices / 4 people = 14 slices per person.\n\n#### 14",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how many slices each of Henry and his friends can have, we first need to calculate the total number of slices available. Since there are 7 pizzas and each pizza is cut into 8 slices, we multiply the number of pizzas by the number of slices per pizza to find the total number of slices. The calculation for the total number of slices is: 7 pizzas * 8 slices/pizza = 56 slices.\n\nNow that we know there are 56 slices in total, we need to divide this number by the total number of people who are sharing the pizzas. Henry and his 3 friends make a total of 4 people. The calculation to find out how many slices each person can have is: 56 slices / 4 people = 14 slices per person.\n\n#### 14",
+			"retrievals": 1
+		}
+	]
+}

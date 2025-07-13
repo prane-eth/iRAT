@@ -1,0 +1,19 @@
+{
+	"task_id": 153,
+	"prompt": "Write a function to find minimum k records from tuple list.?assert min_k([('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)], 2) == [('Akash', 2), ('Akshat', 4)]",
+	"test_imports": [],
+	"test_list": [
+		"assert min_k([('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)], 2) == [('Akash', 2), ('Akshat', 4)]",
+		"assert min_k([('Sanjeev', 11), ('Angat', 5), ('Akash', 3), ('Nepin', 9)], 3) == [('Akash', 3), ('Angat', 5), ('Nepin', 9)]",
+		"assert min_k([('tanmay', 14), ('Amer', 11), ('Ayesha', 9), ('SKD', 16)], 1) == [('Ayesha', 9)]"
+	],
+	"mbpp_code": "def min_k(test_list, K):\r\n  res = sorted(test_list, key = lambda x: x[1])[:K]\r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "### Minimum K Records Function\n\nTo find the minimum k records from a tuple list\n\nThis function will work correctly for any tuple list and any value of k. It will return the k tuples with the smallest second elements. If k is greater than or equal to the length of the tuple list, it will return the entire list, sorted by the second elements of the tuples.",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the minimum k records from a tuple list, we can follow a simple approach. The goal is to identify the k smallest records based on the numerical value in each tuple. This can be achieved through sorting and slicing the list.\n\nHere's a step-by-step solution:\n\n1. Check if k is greater than the length of the tuple list. If it is, we should return the entire list sorted by the numerical value in ascending order.\n2. Sort the tuple list based on the second element of each tuple (the number) in ascending order.\n3. Return the first k elements of the sorted list, which represent the minimum k records.\n\nHere's how it can be done in Python:\n\n```python\ndef min_k(records, k):\n    if k >= len(records):\n        return sorted(records, key=lambda x: x[1])\n    else:\n        return sorted(records, key=lambda x: x[1])[:k]\n```\n\nThis function takes a list of tuples `records` and an integer `k` as input, and returns the minimum k records based on the numerical value in each tuple.\n\nFor example, given the tuple list `[('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)]` and `k = 2`, the function will return `[('Akash', 2), ('Akshat', 4)]`, which are the minimum 2 records based on the numerical value in each tuple.\n\nAlternatively, you can use the `heapq.nsmallest` function, which returns the n smallest elements from the iterable specified by the key function. Here's how it can be done:\n\n```python\nimport heapq\n\ndef min_k(records, k):\n    return heapq.nsmallest(k, records, key=lambda x: x[1])\n```\n\nBoth of these solutions will produce the desired output:\n\n```python\nprint(min_k([('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)], 2))  # Output: [('Akash', 2), ('Akshat', 4)]\n```",
+			"retrievals": 3
+		}
+	]
+}

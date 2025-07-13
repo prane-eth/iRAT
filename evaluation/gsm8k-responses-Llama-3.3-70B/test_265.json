@@ -1,0 +1,13 @@
+{
+	"task_id": 265,
+	"prompt": "Carmen has $100, Samantha has $25 more than Carmen, and Daisy has $50 more than Samantha. How much do all three girls have combined?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Samantha has $100+$25 = $<<100+25=125>>125.\nDaisy has $125+$50 = $<<125+50=175>>175.\nThe total amount of money that the three girls have is $175+$125+$100 = $<<175+125+100=400>>400.\n#### 400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of money the three girls have combined, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate how much money Samantha has.\nSamantha has $25 more than Carmen, and since Carmen has $100, Samantha has $100 + $25 = $125.\n\n## Step 2: Calculate how much money Daisy has.\nDaisy has $50 more than Samantha, and since Samantha has $125, Daisy has $125 + $50 = $175.\n\n## Step 3: Calculate the total amount of money all three girls have combined.\nTo find the total amount of money all three girls have, we need to add the amounts of money Carmen, Samantha, and Daisy have. So, $100 (Carmen) + $125 (Samantha) + $175 (Daisy) = $400.\n\n#### $400",
+			"retrievals": 2
+		}
+	]
+}

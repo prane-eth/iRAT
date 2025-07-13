@@ -1,0 +1,13 @@
+{
+	"task_id": 1256,
+	"prompt": "Crista's plants need to be watered every day. She has 20 plants. 4 of her plants need half of a cup of water. 8 plants need 1 cup of water. The rest need a quarter of a cup of water. How many cups of water does Crista need every day for her plants?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She will need 2 cups for the plants that need half of a cup of water because .5*4 = 2 cups\nShe will need 8 cups for the plants that need a cup of water because 1*8= <<1*8=8>>8 cups.\nSince she has 20 plants, 20-4-8=<<20-4-8=8>>8 plants that need a quarter of a cup of water.\nSince 8 plants need a quarter of a cup of water, she will need 2 cups of water for these plants because .25*8=<<.25*8=2>>2 cups.\nIn total, she will need 2+8+2=<<2+8+2=12>>12 cups of water per day.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cups of water Crista needs every day for her plants, we first need to calculate the water requirements for each group of plants. \n4 of her plants need half of a cup of water, so the total water needed for these plants is 4 * 0.5 = 2 cups.\n\n8 plants need 1 cup of water, so the total water needed for these plants is 8 * 1 = 8 cups.\n\nThe rest of the plants, which is 20 - (4 + 8) = 8 plants, need a quarter of a cup of water. \nSo, the total water needed for these plants is 8 * 0.25 = 2 cups.\n\nNow, we need to add up the total water needed for all the plants: 2 cups + 8 cups + 2 cups = 12 cups.\n\n#### 12",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many cups of water Crista needs every day for her plants, we first need to calculate the water requirements for each group of plants. \n4 of her plants need half of a cup of water, so the total water needed for these plants is 4 * 0.5 = 2 cups. 8 plants need 1 cup of water, so the total water needed for these plants is 8 * 1 = 8 cups.\n\nThe rest of the plants, which is 20 - (4 + 8) = 8 plants, need a quarter of a cup of water. \nSo, the total water needed for these plants is 8 * 0.25 = 2 cups. Now, we need to add up the total water needed for all the plants: 2 cups + 8 cups + 2 cups = 12 cups. #### 12",
+			"retrievals": 1
+		}
+	]
+}

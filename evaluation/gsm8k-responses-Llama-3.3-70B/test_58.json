@@ -1,0 +1,13 @@
+{
+	"task_id": 58,
+	"prompt": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with identical boxes, each weighing 15 pounds, will pass over the bridge. The combined weight of the driver and the empty truck is 3755 pounds. What is the maximum number of boxes which can be loaded onto the truck while not exceeding the bridge's weight limit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The boxes can weigh up to 5000 pounds - 3755 pounds = <<5000-3755=1245>>1245 pounds in total.\nThere can be 1245 / 15 = <<1245/15=83>>83 boxes loaded onto the truck without exceeding the bridge's weight limit.\n#### 83",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the maximum number of boxes that can be loaded onto the truck without exceeding the bridge's weight limit, we first need to calculate the total weight available for the boxes. The bridge can carry a maximum of 5000 pounds. The combined weight of the driver and the empty truck is 3755 pounds.\n\nThis means the weight available for the boxes is 5000 - 3755 = 1245 pounds. Since each box weighs 15 pounds, we can calculate the maximum number of boxes by dividing the available weight by the weight of each box.\n\nThe maximum number of boxes = 1245 / 15 = 83.\n\n#### 83",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the maximum number of boxes that can be loaded onto the truck without exceeding the bridge's weight limit, we first need to calculate the total weight available for the boxes. The bridge can carry a maximum of 5000 pounds. The combined weight of the driver and the empty truck is 3755 pounds.\n\nThis means the weight available for the boxes is 5000 - 3755 = 1245 pounds. Since each box weighs 15 pounds, we can calculate the maximum number of boxes by dividing the available weight by the weight of each box. \n\nThe maximum number of boxes = 1245 / 15 = 83. \n\nHowever, since the question asks for the maximum number of whole boxes (as you cannot have a fraction of a box), and given that 83 * 15 = 1245, which fits exactly within the limit, we should consider if adding one more box would exceed the limit. \n\n1245 pounds is the maximum weight available for boxes, and 83 boxes exactly use this amount. Adding one more box would increase the total weight to 1245 + 15 = 1260 pounds, which exceeds the available weight limit for boxes. \n\nThus, the calculation of 83 boxes is indeed the maximum, as adding any more would surpass the weight limit. \n\n#### 83",
+			"retrievals": 4
+		}
+	]
+}

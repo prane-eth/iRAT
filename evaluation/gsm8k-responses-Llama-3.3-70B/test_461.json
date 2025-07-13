@@ -1,0 +1,13 @@
+{
+	"task_id": 461,
+	"prompt": "Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.\nShe earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.\nThus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.\nIn a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.\n#### 84",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cents Grayson earns from recycling in a four-week month, we first need to calculate the amount she earns per week. \n\nShe drinks three aluminum cans of soda a week, and each can is worth two cents. So, the amount earned from aluminum cans per week is 3 * 2 = 6 cents. \n\nShe also drinks five plastic bottles of water a week, and each bottle is worth three cents. So, the amount earned from plastic bottles per week is 5 * 3 = 15 cents.\n\nThe total amount earned per week from both aluminum cans and plastic bottles is 6 + 15 = 21 cents.\n\nSince we are looking for the total amount earned in a four-week month, we multiply the weekly earnings by 4. \n\nSo, the total earnings in a four-week month are 21 * 4 = 84 cents.\n\n#### 84",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how many cents Grayson earns from recycling in a four-week month, we need to calculate the total amount she earns from both aluminum cans and plastic bottles. The given information states that an aluminum can is worth two cents and a plastic bottle is worth three cents. Additionally, Grayson drinks three aluminum cans of soda and five plastic bottles of water a week.\n\nFirst, we calculate Grayson's weekly earnings from recycling. For aluminum cans, she earns 3 cans * 2 cents = 6 cents per week. For plastic bottles, she earns 5 bottles * 3 cents = 15 cents per week. Therefore, her total weekly earnings from recycling are 6 cents + 15 cents = 21 cents.\n\nSince we are asked to find out how many cents Grayson earns in a four-week month, we need to multiply her weekly earnings by 4. So, her total monthly earnings from recycling are 21 cents/week * 4 weeks = 84 cents.\n\nBased on the given information and calculations, Grayson earns a total of 84 cents from recycling in a four-week month.\n\n#### 84",
+			"retrievals": 2
+		}
+	]
+}

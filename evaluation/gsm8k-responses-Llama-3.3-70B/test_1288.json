@@ -1,0 +1,13 @@
+{
+	"task_id": 1288,
+	"prompt": "In a family, there are 2 brothers and 3 sisters. All sisters are the same age, which is 16. One of the brothers is 12 years old, which is half the age of the older brother. What is the total age of all these siblings?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three sisters are in total 3 * 16 = <<3*16=48>>48 years old.\nThe younger brother is only half the age of the older one, which leads us to the older brother being 12 * 2 = <<12*2=24>>24 years old.\nSo all family members in total are 48 + 12 + 24 = <<48+12+24=84>>84 years old.\n#### 84",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total age of all the siblings, we first need to determine the age of the older brother. We know that one of the brothers is 12 years old and that this is half the age of the older brother. \n\nLet's denote the age of the older brother as x. According to the information given, 12 is half the age of the older brother. Therefore, we can write the equation as 12 = x/2. To find x, we multiply both sides of the equation by 2, resulting in x = 12 * 2 = 24.\n\nNow that we know the ages of both brothers (12 and 24 years old) and that all sisters are 16 years old, we can calculate the total age of all the siblings. The total age of the sisters is 3 * 16 = 48. The total age of the brothers is 12 + 24 = 36.\n\nTo find the total age of all the siblings, we add the total age of the sisters to the total age of the brothers: 48 + 36 = 84.\n\n#### 84",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total age of all the siblings, we first need to determine the age of the older brother. We know that one of the brothers is 12 years old and that this is half the age of the older brother. Let's denote the age of the older brother as x. According to the information given, 12 is half the age of the older brother. Therefore, we can write the equation as 12 = x/2. To find x, we multiply both sides of the equation by 2, resulting in x = 12 * 2 = 24.\n\nNow that we know the ages of both brothers (12 and 24 years old) and that all sisters are 16 years old, we can calculate the total age of all the siblings. The total age of the sisters is 3 * 16 = 48. The total age of the brothers is 12 + 24 = 36. To find the total age of all the siblings, we add the total age of the sisters to the total age of the brothers: 48 + 36 = 84. #### 84",
+			"retrievals": 2
+		}
+	]
+}

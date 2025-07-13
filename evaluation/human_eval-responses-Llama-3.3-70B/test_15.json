@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/14",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\nfrom typing import List\n\n\ndef all_prefixes(string: str) -> List[str]:\n    \"\"\" Return list of all prefixes from shortest to longest of the input string\n    >>> all_prefixes('abc')\n    ['a', 'ab', 'abc']\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "from typing import List\n\ndef all_prefixes(string: str) -> List[str]:\n    \"\"\" Return list of all prefixes from shortest to longest of the input string\n    >>> all_prefixes('abc')\n    ['a', 'ab', 'abc']\n    \"\"\"\n    return [string[:i+1] for i in range(len(string))]\n\n# Test the function\nprint(all_prefixes('abc'))  # Outputs: ['a', 'ab', 'abc']\n\n\n```python\n# Example usage:\nprint(all_prefixes('abc'))  # Output: ['a', 'ab', 'abc']\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "from typing import List\n\ndef all_prefixes(string: str) -> List[str]:\n    \"\"\" Return list of all prefixes from shortest to longest of the input string\n    >>> all_prefixes('abc')\n    ['a', 'ab', 'abc']\n    \"\"\"\n    prefixes = []\n    prefix = \"\"\n    for char in string:\n        prefix += char\n        prefixes.append(prefix)\n    return prefixes\n\n# Example usage:\nprint(all_prefixes('abc'))  # Output: ['a', 'ab', 'abc']",
+			"retrievals": 1
+		}
+	]
+}

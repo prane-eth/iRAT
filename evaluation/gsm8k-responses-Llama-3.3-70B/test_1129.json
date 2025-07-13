@@ -1,0 +1,13 @@
+{
+	"task_id": 1129,
+	"prompt": "Liam is 16 years old now. Two years ago, Liam\u2019s age was twice the age of Vince. How old is Vince now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Liam's age two years ago was 16 - 2 = <<16-2=14>>14 years old.\nVince's age two years ago was 14/2 = <<14/2=7>>7 years old because Liam's age is twice his.\nSo Vince age now is 7 + 2 = <<7+2=9>>9 years old.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Vince's current age, we first need to establish Liam's age two years ago and then determine Vince's age at that time. \nLiam is currently 16 years old. Two years ago, Liam would have been 16 - 2 = 14 years old.\n\nAt that time, Liam's age was twice the age of Vince. This means Vince's age two years ago can be found by dividing Liam's age at that time by 2. So, Vince's age two years ago was 14 / 2 = 7 years old.\n\nTo find Vince's current age, we add the 2 years that have passed since then to his age at that time. Therefore, Vince's current age is 7 + 2 = 9 years old.\n\n#### 9",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find Vince's current age, we start with Liam's current age, which is 16 years old. Two years ago, Liam was 16 - 2 = 14 years old. According to the problem, at that time, Liam's age was twice the age of Vince. This means Vince's age two years ago was 14 / 2 = 7 years old. To find Vince's current age, we add the 2 years that have passed since then to his age at that time. Therefore, Vince's current age is 7 + 2 = 9 years old.\n\n#### 9",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 5,
+	"prompt": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If each chicken eats 3 cups of feed per day, then for 20 chickens they would need 3*20=<<3*20=60>>60 cups of feed per day.\nIf she feeds the flock 15 cups of feed in the morning, and 25 cups in the afternoon, then the final meal would require 60-15-25=<<60-15-25=20>>20 cups of chicken feed.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many cups of feed Wendi needs to give her chickens in the final meal of the day, we first need to determine the total amount of feed her chickens require daily. Since each chicken gets 3 cups of feed per day and there are 20 chickens, the total daily feed requirement is 3 cups/chicken * 20 chickens = 60 cups.\n\nWe know that in the morning, Wendi gives her chickens 15 cups of feed, and in the afternoon, she gives them another 25 cups of feed. So, the total amount of feed given in the first two meals is 15 cups + 25 cups = 40 cups.\n\nTo find out how much feed is needed for the final meal, we subtract the total feed already given (40 cups) from the total daily requirement (60 cups). Therefore, the amount of feed needed for the final meal is 60 cups - 40 cups = 20 cups.\n\n#### 20",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how many cups of feed Wendi needs to give her chickens in the final meal of the day, we first need to calculate the total daily feed requirements for her flock. Since Wendi has 20 chickens and each chicken requires 3 cups of feed per day, the total amount of feed needed per day is 20 chickens * 3 cups/chicken = 60 cups of feed.\n\nNext, we calculate the total amount of feed Wendi has already given to her chickens. In the morning, she gave 15 cups of feed, and in the afternoon, she gave another 25 cups of feed. So, the total feed given in the first two meals is 15 cups + 25 cups = 40 cups.\n\nTo find out how many cups of feed Wendi needs to give her chickens in the final meal, we subtract the total feed already given from the total daily feed requirements. Therefore, 60 cups (total daily requirement) - 40 cups (already given) = 20 cups.\n\n#### 20",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 952,
+	"prompt": "The book is printed on paper that, when stacked, is 100 pages to the inch. Each paper is printed on both sides, with one page of the book printed on each side. How many pages are in the book, if it is 1.5 inches thick?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 1.5*100=<<1.5*100=150>>150 pieces of paper.\nThen there are 150*2=<<150*2=300>>300 pages.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of pages in the book, we first need to calculate",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine the number of pages in the book, we first calculate how many pages are in one inch of the book's thickness, which is given as 100 pages per inch. Since each paper is printed on both sides, this means that 100 pages per inch is equivalent to 50 sheets of paper per inch because each sheet has two pages (one on each side).\n\nGiven the book is 1.5 inches thick, we multiply the number of pages per inch by the thickness of the book to find the total number of pages. Therefore, 100 pages per inch * 1.5 inches = 150 pages.\n\n#### 150",
+			"retrievals": 1
+		}
+	]
+}

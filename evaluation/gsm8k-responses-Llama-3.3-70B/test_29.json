@@ -1,0 +1,13 @@
+{
+	"task_id": 29,
+	"prompt": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He traveled 20 miles + 15 miles = <<20+15=35>>35 miles not counting the distance between stops.\nHenry traveled 60 miles - 35 miles = <<60-35=25>>25 miles between his first and second stop.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many miles Henry traveled between his first and second stops, we need to understand the layout of his trip. \nHe started with a 60-mile bike trip and made two stops. The first stop was after 20 miles, and the second stop was 15 miles before the end of the trip.\n\nWe can calculate the distance between the first and second stops by first determining the total distance traveled up to the second stop and then subtracting the distance traveled up to the first stop. \nSince the second stop was 15 miles before the end of the 60-mile trip, the distance traveled up to the second stop is 60 - 15 = 45 miles.\n\nNow, to find the distance between the first and second stops, we subtract the distance traveled up to the first stop (20 miles) from the distance traveled up to the second stop (45 miles). \nSo, the distance = 45 - 20 = 25 miles.\n\n#### 25",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the total distance traveled up to the second stop\nThe second stop was 15 miles before the end of the 60-mile trip. To find the distance traveled up to the second stop, we subtract 15 miles from the total trip distance: 60 - 15 = 45 miles.\n\n## Step 2: Calculate the distance between the first and second stops\nNow, we need to find the distance between the first stop (20 miles) and the second stop (45 miles). We do this by subtracting the distance of the first stop from the distance of the second stop: 45 - 20 = 25 miles.\n\n## Step 3: Conclusion\nTherefore, Henry traveled 25 miles between his first and second stops.\n\n#### 25",
+			"retrievals": 5
+		}
+	]
+}

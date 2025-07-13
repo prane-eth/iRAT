@@ -1,0 +1,13 @@
+{
+	"task_id": 365,
+	"prompt": "There are 96 fourth-graders at Small Tree  School. 43 of them are girls. On Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. How many fourth grade boys were at Small Tree  School on Friday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Of the 96 fourth graders, 43 are girls, so 96 students - 43 girls = <<96-43=53>>53 boys.\nOn Friday there were 53 boys - 4 absent = <<53-4=49>>49 boys.\n#### 49",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of fourth-grade boys at Small Tree School on Friday, we first need to determine the total number of boys in the fourth grade. We know there are 96 fourth-graders in total and 43 of them are girls. \n\nThe total number of boys can be found by subtracting the number of girls from the total number of fourth-graders: 96 - 43 = 53. So, there are 53 fourth-grade boys in total.\n\nOn Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. Since we are interested in the number of boys present, we only need to consider the number of absent boys. \n\nThe number of fourth-grade boys present on Friday can be calculated by subtracting the number of absent boys from the total number of boys: 53 - 4 = 49.\n\n#### 49",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total number of fourth-grade boys\nFirst, we need to find out how many fourth-grade boys there are in total. We know that there are 96 fourth-graders and 43 of them are girls. So, the number of fourth-grade boys can be calculated by subtracting the number of girls from the total number of fourth-graders. total_fourth_graders = 96, fourth_grade_girls = 43. fourth_grade_boys = total_fourth_graders - fourth_grade_girls = 96 - 43 = 53.\n\n## Step 2: Determine the number of fourth-grade boys absent on Friday\nWe are told that 4 fourth-grade boys were absent on Friday. This information will be used to calculate the number of fourth-grade boys present on Friday.\n\n## Step 3: Calculate the number of fourth-grade boys present on Friday\nTo find out how many fourth-grade boys were at Small Tree School on Friday, we subtract the number of absent fourth-grade boys from the total number of fourth-grade boys. fourth_grade_boys_present = fourth_grade_boys - absent_fourth_grade_boys = 53 - 4 = 49.\n\n#### 49",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 220,
+	"prompt": "Four students scored a total of 251 points in a board game. Naomi scored 68 of the points. Yuri scored 10 more than half as many points as Naomi and Brianna scored 17 points more than Naomi. How many points did Jojo score?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Naomi scored 68 points.\nYuri scored 1/2 (68) + 10 = 44 points\nBrianna scored 68 + 17 = <<68+17=85>>85 points\nNaomi, Yuri + Brianna scored = 68 + 44 + 85 = <<68+44+85=197>>197 points\nJojo scored the rest 251 - 197 = <<251-197=54>>54 points\nJojo scored 54 points.\n#### 54",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many points Jojo scored, we first need to calculate the points scored by each of the other students. Naomi scored 68 points.\n\nYuri scored 10 more than half as many points as Naomi. Half of Naomi's points is 68 / 2 = 34. So, Yuri scored 34 + 10 = 44 points.\n\nBrianna scored 17 points more than Naomi. Therefore, Brianna scored 68 + 17 = 85 points.\n\nNow, we add up the points scored by Naomi, Yuri, and Brianna: 68 (Naomi) + 44 (Yuri) + 85 (Brianna) = 197 points.\n\nThe total points scored by all four students is 251. To find out how many points Jojo scored, we subtract the total points scored by the other three students from the total points.\n\nSo, Jojo scored 251 - 197 = 54 points.\n\n#### 54",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many points Jojo scored, we first need to calculate the scores of Naomi, Yuri, and Brianna. Naomi scored 68 points. Yuri scored 10 more than half as many points as Naomi. Half of Naomi's points is 68 / 2 = 34. Adding 10 to this result gives Yuri's score: 34 + 10 = 44 points. Brianna scored 17 points more than Naomi, so Brianna's score is 68 + 17 = 85 points.\n\nNow, we add up the points scored by Naomi, Yuri, and Brianna: 68 (Naomi) + 44 (Yuri) + 85 (Brianna) = 197 points. The total points scored by all four students is 251. To find out how many points Jojo scored, we subtract the total points scored by the other three students from the total points: 251 - 197 = 54 points.\n\nTherefore, Jojo scored 54 points in the board game. This calculation is based on the given information about the relative scores of the students and the total score achieved by all four students.\n\n#### 54",
+			"retrievals": 2
+		}
+	]
+}

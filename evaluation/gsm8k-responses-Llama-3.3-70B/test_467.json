@@ -1,0 +1,13 @@
+{
+	"task_id": 467,
+	"prompt": "Becky bought 20 apples for 45 cents each and received a $1 discount. Kelly bought 20 apples for 50 cents each and received a 10 percent discount. How much more did Kelly pay than Becky?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Before the discount, Becky would have paid 20 apples x $0.45/apple = $<<20*0.45=9>>9\nWith the discount, Becky paid $9 - $1 = $<<9-1=8>>8.\nBefore the discount Kelly would have paid 20 apples x $0.50/apple = $<<20*0.5=10>>10\nWith a 10 percent discount Kelly paid ($10 x 10)/100 = $<<(10*10)/100=1>>1 less\nIn total Kelly paid $10 - $1 = $<<10-1=9>>9.\nKelly paid $9 - $8 = $<<9-8=1>>1 more than Becky.\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much more Kelly paid than Becky, we first need to calculate the total amount each of them paid for the apples. \n\nBecky bought 20 apples for 45 cents each. So, the total cost of the apples before the discount is 20 * 45 cents = 900 cents. Since $1 is equal to 100 cents, 900 cents is equal to $9. Becky received a $1 discount, so she paid $9 - $1 = $8.\n\nKelly bought 20 apples for 50 cents each. So, the total cost of the apples before the discount is 20 * 50 cents = 1000 cents, which is equal to $10. Kelly received a 10 percent discount. 10 percent of $10 is 0.1 * $10 = $1. So, Kelly paid $10 - $1 = $9.\n\nNow, we need to find out how much more Kelly paid than Becky. Kelly paid $9 and Becky paid $8. \n\nThe difference in the amount they paid is $9 - $8 = $1.\n\n#### $1",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how much more Kelly paid than Becky, we first need to calculate the total amount each of them paid for the apples.\n\nBecky bought 20 apples for 45 cents each. So, the total cost before the discount is 20 * 45 cents = 900 cents, or $9. After receiving a $1 discount, she paid $9 - $1 = $8.\n\nKelly bought 20 apples for 50 cents each. So, the total cost before the discount is 20 * 50 cents = 1000 cents, or $10. With a 10 percent discount, she received a discount of 10% of $10, which is $1. Therefore, Kelly paid $10 - $1 = $9.\n\nTo find out how much more Kelly paid than Becky, we subtract the amount Becky paid from the amount Kelly paid. Kelly paid $9, and Becky paid $8. Therefore, Kelly paid $9 - $8 = $1 more than Becky.\n\n#### $1",
+			"retrievals": 2
+		}
+	]
+}

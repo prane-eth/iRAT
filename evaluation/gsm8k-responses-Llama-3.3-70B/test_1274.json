@@ -1,0 +1,13 @@
+{
+	"task_id": 1274,
+	"prompt": "Mazie has 52 marbles and gives them to twins, Dallas and Darla.  If Dallas has a total of 21 marbles after dropping 4 of them in the playground, how many did Mazie give to Darla?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mazie gave Dallas 21 + 4 = <<21+4=25>>25 marbles.\nDarla has 52 - 25 = <<52-25=27>>27 marbles.\n#### 27",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Mazie gave to Darla, we first need to determine the total number of marbles Dallas received. We know that after dropping 4 marbles, Dallas had 21 marbles. \n\nSo, to find the original number of marbles Dallas had, we need to add the 4 marbles that were dropped to the 21 marbles Dallas had after the incident. This calculation is 21 (remaining marbles) + 4 (dropped marbles) = 25 marbles.\n\nSince Mazie had 52 marbles in total and gave some to Dallas and some to Darla, we can find out how many marbles Darla received by subtracting the number of marbles Dallas received from the total number of marbles Mazie had. \n\nThe calculation to find out how many marbles Darla received is 52 (total marbles) - 25 (marbles Dallas received) = 27 marbles.\n\n#### 27",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many marbles Mazie gave to Darla, we first need to determine how many marbles Dallas originally received. Since Dallas has 21 marbles after dropping 4 of them, we can calculate that he originally had 21 + 4 = 25 marbles before dropping any.\n\nGiven that Mazie has a total of 52 marbles and Dallas received 25 marbles, we can find the number of marbles given to Darla by subtracting the number of marbles Dallas received from the total number of marbles Mazie had. So, the number of marbles given to Darla is 52 - 25 = 27.\n\n#### 27",
+			"retrievals": 1
+		}
+	]
+}

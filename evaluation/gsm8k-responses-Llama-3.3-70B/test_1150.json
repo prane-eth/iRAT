@@ -1,0 +1,13 @@
+{
+	"task_id": 1150,
+	"prompt": "Jen got 3 fish.  They each need $1 worth of food a day.  How much does she spend on food in the month of May?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spends 3*1=$<<3*1=3>>3 on food a day\nSo he spends 3*31=$<<3*31=93>>93 a month\n#### 93",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Jen spends on food for her fish in the month of May, we first need to establish the number of days in May. May has 31 days.\n\nSince Jen has 3 fish and each fish needs $1 worth of food a day, the daily cost for all 3 fish is 3 * $1 = $3.\n\nTo find the total cost for the month of May, we multiply the daily cost by the number of days in May: $3 * 31 = $93.\n\n#### $93",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how much Jen spends on food for her fish in the month of May, we first establish that May has 31 days. Since Jen has 3 fish, and each fish requires $1 worth of food daily, the total daily cost is calculated as 3 fish * $1/fish = $3. Then, to find the total cost for May, we multiply this daily cost by the number of days in May: $3 * 31 = $93. This calculation directly reflects the total expenditure on food for the fish in May. #### $93",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 880,
+	"prompt": "At a spa, Iris spent $400 to do her hair, 1/4 as much to do a manicure, and 3/4 as much money as a manicure to do a pedicure. How much money did she spend at the spa?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total amount of money that Iris used to do a manicure is 1/4*$400 = $<<1/4*400=100>>100\nTogether, she used $400+$100 = $<<400+100=500>>500 to do her hair and manicure,\nIf Iris also spent 3/4 as much money as a manicure to do a pedicure, she used 3/4*$100 = $<<3/4*100=75>>75 to do a pedicure.\nAt the spa, Iris spent a total of $500+$75 = $<<500+75=575>>575\n#### 575",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Iris spent at the spa, we first need to calculate the cost of each service she had. \nShe spent $400 on her hair. \n\nThe cost of the manicure is 1/4 of the cost of doing her hair. So, the manicure cost is $400 * 1/4 = $100.\n\nThe cost of the pedicure is 3/4 of the cost of the manicure. Since the manicure cost $100, the pedicure cost is $100 * 3/4 = $75.\n\nNow, we add up the costs of all the services: hair ($400) + manicure ($100) + pedicure ($75) = $575.\n\n#### $575",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much money Iris spent at the spa, we first need to calculate the cost of each service she had. She spent $400 on her hair. The cost of the manicure is 1/4 of the cost of doing her hair. So, the manicure cost is $400 * 1/4 = $100. The cost of the pedicure is 3/4 of the cost of the manicure. Since the manicure cost $100, the pedicure cost is $100 * 3/4 = $75. Now, we add up the costs of all the services: hair ($400) + manicure ($100) + pedicure ($75) = $575. #### $575",
+			"retrievals": 0
+		}
+	]
+}

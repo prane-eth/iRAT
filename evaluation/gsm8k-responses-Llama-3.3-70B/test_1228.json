@@ -1,0 +1,13 @@
+{
+	"task_id": 1228,
+	"prompt": "Susan orders 3 magazines that send 12 issues a year.  She has 1 magazine that sends 6 issues a year.  Her last magazine sends her 4 times the amount of the 6 issue magazine.  How many magazines does she get every year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has 3 magazines that send 12 issues so that\u2019s 3*12 = <<3*12=36>>36 issues\nHer last magazine sends her 4 times the amount of the 6 issue magazine so that\u2019s 4*6 = <<4*6=24>>24 issues\nAll total she receives 36+24+6 = <<36+24+6=66>>66 magazine issues a year\n#### 66",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of magazines Susan gets every year, we first need to determine the number of issues each magazine sends. She orders 3 magazines that send 12 issues a year. So, the total number of issues from these magazines is 3 * 12 = 36 issues per year.\n\nShe also has 1 magazine that sends 6 issues a year. This adds 6 issues to her total count. \n\nHer last magazine sends her 4 times the amount of the 6 issue magazine. Since the 6 issue magazine sends 6 issues, the last magazine sends 4 * 6 = 24 issues per year.\n\nNow, we add up all the issues: 36 issues from the first set of magazines, 6 issues from the second magazine, and 24 issues from the last magazine. So, 36 + 6 + 24 = 66 issues per year.\n\n#### 66",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine the total number of magazines Susan gets every year, let's break down the information provided. Susan orders 3 magazines that send 12 issues a year, which means she gets 3 * 12 = 36 issues from these magazines annually. Additionally, she has 1 magazine that sends 6 issues a year, adding 6 issues to her total count.\n\nHer last magazine sends her 4 times the amount of the 6-issue magazine. Since the 6-issue magazine sends 6 issues per year, the last magazine sends 4 * 6 = 24 issues per year. \n\nNow, let's add up all the issues: 36 issues from the first set of magazines, 6 issues from the second magazine, and 24 issues from the last magazine. So, 36 + 6 + 24 = 66 issues per year.\n\n#### 66",
+			"retrievals": 0
+		}
+	]
+}

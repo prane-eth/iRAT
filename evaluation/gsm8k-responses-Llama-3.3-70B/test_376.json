@@ -1,0 +1,13 @@
+{
+	"task_id": 376,
+	"prompt": "Mrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After feeding her children, Mrs. Sherman was left with 12 - 6 = <<12-6=6>>6 rolls\nShe fed 6 x 8 = <<6*8=48>>48 pieces of rolls to the chickens.\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pieces of rolls Mrs. Sherman fed to the chickens, we first need to determine how many rolls were left after she fed her children. She started with a dozen bread rolls, which is 12 rolls. \n\nAfter feeding her 6 children with one roll each, she had 12 - 6 = 6 rolls left. \n\nThese remaining 6 rolls were then broken into 8 pieces each to feed the chickens. So, to find the total number of pieces, we multiply the number of remaining rolls by the number of pieces each roll was broken into: 6 rolls * 8 pieces/roll = 48 pieces.\n\n#### 48",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many pieces of rolls Mrs. Sherman fed to the chickens, we first need to determine how many rolls were left after she fed her children. She started with a dozen bread rolls, which is 12 rolls. After feeding her 6 children with one roll each, she had 12 - 6 = 6 rolls left.\n\nThese remaining 6 rolls were then broken into 8 pieces each to feed the chickens. So, to find the total number of pieces, we multiply the number of remaining rolls by the number of pieces each roll was broken into: 6 rolls * 8 pieces/roll = 48 pieces.\n\n#### 48",
+			"retrievals": 2
+		}
+	]
+}

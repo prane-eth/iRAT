@@ -1,0 +1,13 @@
+{
+	"task_id": 1296,
+	"prompt": "Ryan\u2019s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.\nHe bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.\nThe ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.\nRyan has $18 - $5 = $<<18-5=13>>13 left.\nWith the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many movie tickets Ryan can buy, we first need to calculate how much money he has after buying the ice cream cones.\n\nRyan's weekly allowance is $6, and he worked for 3 weeks, so he earned:\n$6/week * 3 weeks = $18\n\nThen, he bought ice cream cones for himself and 3 friends, which is a total of 4 cones at $1.25 each:\n4 cones * $1.25/cone = $5\n\nSo, after buying the ice cream cones, Ryan has:\n$18 - $5 = $13\n\nNow, they want to go to the movies, and tickets cost $6.50 each. To find out how many tickets Ryan can buy, we divide the money he has by the ticket price:\n$13 / $6.50 = 2\n\nSince we can't buy a fraction of a ticket, Ryan can buy 2 movie tickets.\n\n#### 2\n\n#### 2",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how many movie tickets Ryan can buy, we first need to calculate how much money he has. Ryan's allowance is $6 each week, and he completed his chores for 3 weeks. So, his total earnings are $6 * 3 = $18. He then bought ice cream cones for himself and 3 friends at $1.25 each. Since there are 4 of them in total (Ryan and 3 friends), the total cost of the ice cream cones is $1.25 * 4 = $5. After buying the ice cream cones, Ryan is left with $18 - $5 = $13.\n\nNow, they all want to go to the movies, and tickets cost $6.50 each. To find out how many movie tickets Ryan can buy, we need to divide the amount of money he has left by the cost of a movie ticket. So, $13 / $6.50 = 2. \n\n#### 2",
+			"retrievals": 0
+		}
+	]
+}

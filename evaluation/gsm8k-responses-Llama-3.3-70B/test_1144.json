@@ -1,0 +1,13 @@
+{
+	"task_id": 1144,
+	"prompt": "Tim grows 5 trees.  Each year he collects 6 lemons from each tree.  How many lemons does he get in a decade?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He gets 5*6=<<5*6=30>>30 lemons per year\nSo he gets 30*10=<<30*10=300>>300 lemons in a decade\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of lemons Tim gets in a decade, we first need to calculate the number of lemons he collects from all the trees in one year. Since Tim grows 5 trees and each tree gives him 6 lemons per year, the total number of lemons he collects in a year is 5 trees * 6 lemons/tree = 30 lemons.\n\n \nNext, we need to calculate the total number of lemons he collects over a decade. A decade consists of 10 years. So, if he collects 30 lemons in one year, over 10 years he would collect 30 lemons/year * 10 years = 300 lemons.\n\n#### 300",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of lemons Tim gets in a decade, we first need to calculate the number of lemons he collects from all the trees in one year. Since Tim grows 5 trees and each tree gives him 6 lemons per year, the total number of lemons he collects in a year is 5 trees * 6 lemons/tree = 30 lemons.\n\nNext, we need to calculate the total number of lemons he collects over a decade. A decade consists of 10 years. So, if he collects 30 lemons in one year, over 10 years he would collect 30 lemons/year * 10 years = 300 lemons.\n\n#### 300",
+			"retrievals": 1
+		}
+	]
+}

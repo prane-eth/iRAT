@@ -1,0 +1,13 @@
+{
+	"task_id": 620,
+	"prompt": "Each pole on a road intersection has 4 street lights. If the number of poles at each intersection is 6, and the road has 4 intersections, calculate the total number of functioning street lights if 20 streetlights from the total number are not working.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the number of poles at each intersection is 6, and the road has 4 intersections, the total number of poles having street lights is 6*4=<<6*4=24>>24\nSince each pole on a road intersection has 4 street lights, the total number of streetlights in all the poles is 24*4=<<24*4=96>>96\nIf 20 streetlights from the total number are not working, the number of functioning street lights is 96-20=<<96-20=76>>76\n#### 76",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of functioning street lights, we first need to find the total number of street lights on the road. Given that each pole has 4 street lights and there are 6 poles at each intersection, we start by calculating the number of street lights per intersection. \n\nThe number of street lights per intersection = number of poles per intersection * number of street lights per pole = 6 * 4 = 24.\n\n```\n\nSince there are 4 intersections on the road, we then calculate the total number of street lights on the road by multiplying the number of street lights per intersection by the number of intersections. \n\nTotal number of street lights = number of street lights per intersection * number of intersections = 24 * 4 = 96.\n\n```\n\nNow, we are told that 20 streetlights from the total number are not working. To find the total number of functioning street lights, we subtract the number of non-working street lights from the total number of street lights. \n\nTotal number of functioning street lights = total number of street lights - number of non-working street lights = 96 - 20 = 76.\n\n#### 76",
+			"old_rat_retrievals": 9,
+			"final_answer": "To calculate the total number of functioning street lights, we first find the total number of street lights on the road. Each pole has 4 street lights and there are 6 poles at each intersection, so the number of street lights per intersection is 6 * 4 = 24. Since there are 4 intersections on the road, the total number of street lights is 24 * 4 = 96. Given that 20 streetlights are not working, the total number of functioning street lights is 96 - 20 = 76. #### 76",
+			"retrievals": 3
+		}
+	]
+}

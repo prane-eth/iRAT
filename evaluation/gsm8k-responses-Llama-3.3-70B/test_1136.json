@@ -1,0 +1,13 @@
+{
+	"task_id": 1136,
+	"prompt": "3 trees each had 7 blue birds in them. 2 different trees each had 4 blue birds. 1 final tree had 3 blue birds. How many blue birds were in the trees in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first 3 trees had 7*3=<<7*3=21>>21 blue birds.\nThe second 2 trees had 4*2=<<4*2=8>>8 blue birds.\nThere were 21+8+3=<<21+8+3=32>>32 blue birds in total.\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of blue birds in the trees, we first need to calculate the number of blue birds in the initial 3 trees. Each of these trees had 7 blue birds. So, the total number of blue birds in these 3 trees is 3 * 7 = 21.\n\n \nNext, we consider the 2 different trees, each of which had 4 blue birds. The total number of blue birds in these 2 trees is 2 * 4 = 8.\n\n \nThen, we look at the final tree, which had 3 blue birds. This tree's contribution to the total is simply 3.\n\n \nTo find the total number of blue birds in all the trees, we add the blue birds from the initial 3 trees, the 2 different trees, and the final tree: 21 + 8 + 3 = 32.\n\n#### 32",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of blue birds in the trees, we first need to calculate the number of blue birds in the initial 3 trees. Each of these trees had 7 blue birds. So, the total number of blue birds in these 3 trees is 3 * 7 = 21. \n\nNext, we consider the 2 different trees, each of which had 4 blue birds. The total number of blue birds in these 2 trees is 2 * 4 = 8. \n\nThen, we look at the final tree, which had 3 blue birds. This tree's contribution to the total is simply 3.\n\nTo find the total number of blue birds in all the trees, we add the blue birds from the initial 3 trees, the 2 different trees, and the final tree: 21 + 8 + 3 = 32.\n\n#### 32",
+			"retrievals": 2
+		}
+	]
+}

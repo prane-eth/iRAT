@@ -1,0 +1,13 @@
+{
+	"task_id": 742,
+	"prompt": "Jeremy saw 12 birds in their backyard and threw a stone at them, scaring away 1/3 of that number. A few minutes later, 20 more birds joined the fearless birds. How many birds are now in the backyard?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of birds scared away after he threw the stone at them is 1/3 * 12 = <<1/3*12=4>>4 birds.\nThe total number of birds remaining is 12 - 4 = <<12-4=8>>8 birds.\nIf 20 more birds joined, the total number of birds in the backyard will become 8 + 20 = <<8+20=28>>28 birds.\n#### 28",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of birds that remained after Jeremy scared some away, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the number of birds that remained after Jeremy scared some away, we first need to calculate 1/3 of the initial number of birds. Since Jeremy saw 12 birds and scared away 1/3 of them, we calculate 1/3 of 12 as follows: 12 * 1/3 = 12 / 3 = 4 birds scared away. \n\nThis means that 12 - 4 = 8 birds remained in the backyard after Jeremy threw the stone. \n\nA few minutes later, 20 more birds joined these fearless birds. To find the total number of birds now in the backyard, we add the birds that stayed to the new birds that joined: 8 (birds that stayed) + 20 (new birds) = 28 birds.\n\n#### 28",
+			"retrievals": 0
+		}
+	]
+}

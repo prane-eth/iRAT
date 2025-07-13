@@ -1,0 +1,13 @@
+{
+	"task_id": 1293,
+	"prompt": "Jackie grew 3\" over the summer.  She is now 2\" shorter than Anne, who is twice the size of Albert.  If Albert is 36\" tall, how tall was Jackie before summer?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Anne is twice the size of Albert, who is 36\", so Anne is 2*36 = <<72=72>>72\" tall\nAnne is 72\" tall and Jackie is 2\" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70\" tall\nJackie is currently 70\" tall and grew 3\" over summer, so before summer she was 70-3= <<70-3=67>>67\" tall\n#### 67",
+	"responses": [
+		{
+			"old_rat_answer": "First, we need to find Anne's height since we know Albert's height and that Anne is twice the size of Albert. \n\nAlbert's height = 36 inches\nAnne's height = 2 * Albert's height = 2 * 36 = 72 inches\n\nSince Jackie is now 2 inches shorter than Anne, we can find Jackie's current height.\n\nJackie's current height = Anne's height - 2 inches = 72 - 2 = 70 inches\n\nGiven that Jackie grew 3 inches over the summer, we can find her height before the summer.\n\nJackie's height before summer = Jackie's current height - 3 inches = 70 - 3 = 67 inches\n\n#### 67\n\nSo, Anne's height = 2 * Albert's height = 2 * 36\" = 72\". Since Jackie is 2\" shorter than Anne, Jackie's current height = Anne's height - 2\" = 72\" - 2\" = 70\".\n\nJackie grew 3\" over the summer. To find her height before summer, we subtract the growth from her current height. Therefore, Jackie's height before summer = Jackie's current height - 3\" = 70\" - 3\" = 67\".\n\n#### 67",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate Albert's height\nAlbert's height is given as 36\".\n\n## Step 2: Calculate Anne's height\nSince Anne is twice the size of Albert, we can calculate Anne's height by multiplying Albert's height by 2. Anne's height = 2 * Albert's height = 2 * 36\" = 72\".\n\n## Step 3: Calculate Jackie's current height\nGiven that Jackie is 2\" shorter than Anne, we can calculate Jackie's current height as follows: Jackie's current height = Anne's height - 2\" = 72\" - 2\" = 70\".\n\n## Step 4: Calculate Jackie's height before summer\nSince Jackie grew 3\" over the summer, to find her height before the summer, we subtract the growth from her current height: Jackie's height before summer = Jackie's current height - 3\" = 70\" - 3\" = 67\".\n\n#### 67",
+			"retrievals": 2
+		}
+	]
+}

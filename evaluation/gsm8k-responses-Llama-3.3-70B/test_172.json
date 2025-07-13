@@ -1,0 +1,13 @@
+{
+	"task_id": 172,
+	"prompt": "Jake is walking through the Museum of Entomology. He sees 80 spiders with 8 legs each, 90 insects with 6 legs each, and 3 rare mutant invertebrates with 10 legs each. How many legs does Jake see total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of spider legs: 80 spiders * 8 legs/spider = <<80*8=640>>640 legs\nThen find the total number of insect legs: 90 spiders * 6 legs/spider = <<90*6=540>>540 legs\nThen find the total number of mutant invertebrate legs: 3 mutants * 10 legs/mutant = <<3*10=30>>30 legs\nThen add the number of each kind of leg to find the total he saw: 640 legs + 540 legs + 30 legs = <<640+540+30=1210>>1210 legs\n#### 1210",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of legs Jake sees, we first need to calculate the number of legs for each type of creature separately. \n\nFor the spiders, there are 80 spiders with 8 legs each. So, the total number of legs for the spiders is 80 * 8 = 640.\n\nFor the insects, there are 90 insects with 6 legs each. So, the total number of legs for the insects is 90 * 6 = 540.\n\nFor the rare mutant invertebrates, there are 3 invertebrates with 10 legs each. So, the total number of legs for these invertebrates is 3 * 10 = 30.\n\nNow, we need to add up the total number of legs for all creatures to find the overall total. \n\nThe total number of legs is 640 (spiders) + 540 (insects) + 30 (invertebrates) = 1210.\n\n#### 1210",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total number of legs for spiders\nTo find the total number of legs for the spiders, multiply the number of spiders by the number of legs each spider has: 80 spiders * 8 legs/spider = 640 legs.\n\n## Step 2: Calculate the total number of legs for insects\nFor the insects, multiply the number of insects by the number of legs each insect has: 90 insects * 6 legs/insect = 540 legs.\n\n## Step 3: Calculate the total number of legs for rare mutant invertebrates\nFor the rare mutant invertebrates, multiply the number of mutants by the number of legs each mutant has: 3 mutants * 10 legs/mutant = 30 legs.\n\n## Step 4: Add up the total number of legs\nTo find the total number of legs Jake sees, add the total legs from spiders, insects, and the rare mutant invertebrates: 640 legs + 540 legs + 30 legs = 1210 legs.\n\n#### 1210",
+			"retrievals": 1
+		}
+	]
+}

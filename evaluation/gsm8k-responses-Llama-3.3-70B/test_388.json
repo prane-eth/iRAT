@@ -1,0 +1,13 @@
+{
+	"task_id": 388,
+	"prompt": "An eraser costs $2 and a pencil costs $3. How much do 6 erasers and 8 pencils cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Six erasers cost $2/eraser x 6 erasers = $<<2*6=12>>12.\nEight pencils cost $3/pencil x 8 pencils = $<<3*8=24>>24.\nSo, 6 erasers and 8 pencils cost $12 + $24 = $36.\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of 6 erasers and 8 pencils, we first need to calculate the cost of the erasers and the cost of the pencils separately. \n\nThe cost of one eraser is $2, so the cost of 6 erasers is 6 * $2 = $12.\n\nThe cost of one pencil is $3, so the cost of 8 pencils is 8 * $3 = $24.\n\nNow, we add the cost of the erasers and the cost of the pencils to find the total cost. \n\nThe total cost is $12 (erasers) + $24 (pencils) = $36.\n\n#### $36",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the cost of 6 erasers\nTo find the cost of 6 erasers, we multiply the cost of one eraser by 6. So, the cost of 6 erasers is 6 * $2 = $12.\n\n## Step 2: Calculate the cost of 8 pencils\nTo find the cost of 8 pencils, we multiply the cost of one pencil by 8. So, the cost of 8 pencils is 8 * $3 = $24.\n\n## Step 3: Calculate the total cost\nNow, we add the cost of the erasers and the cost of the pencils to find the total cost. The total cost is $12 (erasers) + $24 (pencils) = $36.\n\nThe final answer is: #### $36",
+			"retrievals": 2
+		}
+	]
+}

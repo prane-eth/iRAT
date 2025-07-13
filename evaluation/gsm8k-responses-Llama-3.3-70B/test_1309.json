@@ -1,0 +1,13 @@
+{
+	"task_id": 1309,
+	"prompt": "If there are 10 eggs in a basket, and there are twice as many eggs in a second basket, how many eggs are in both baskets put together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If there are twice as many eggs in the second basket as the 10 in the first basket, this means we multiply 10*2=<<10*2=20>>20 eggs in the second basket\nTo find the total between the two baskets, simply add 10+20=<<10+20=30>>30 eggs between the two baskets.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of eggs in both baskets, we first need to determine the number of eggs in each basket. We are given that there are 10 eggs in the first basket.\n\nThe second basket has twice as many eggs as the first basket. So, to find the number of eggs in the second basket, we multiply the number of eggs in the first basket by 2. This gives us 10 * 2 = 20 eggs in the second basket.\n\nNow that we know the number of eggs in each basket, we can find the total number of eggs by adding the number of eggs in the first basket to the number of eggs in the second basket. So, 10 (from the first basket) + 20 (from the second basket) = 30 eggs in total.\n\n#### 30",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of eggs in both baskets, we first need to determine the number of eggs in the second basket. Since there are twice as many eggs in the second basket as in the first, and the first basket contains 10 eggs, the second basket contains 2 * 10 = 20 eggs. Now, to find the total number of eggs in both baskets, we add the number of eggs in the first basket to the number of eggs in the second basket: 10 + 20 = 30. \n\n#### 30",
+			"retrievals": 2
+		}
+	]
+}

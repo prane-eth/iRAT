@@ -1,0 +1,13 @@
+{
+	"task_id": 940,
+	"prompt": "Craig and his brother take turns spelling out the longest letter words they know and counting the number of the letters in those words. After ten rounds, Craig has spelled out 20 words with 15 letters each. If Craig's brother has spelled words with a total count of letters 50 more than Craig, calculate the total number of letters in the words they've spelled after the ten rounds.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After ten rounds, Craig has spelled out 20*15 = <<20*15=300>>300 letters from the longest letter words he knows.\nSince Craig's brother spelled out words with a total count of 50 more letters than Craig's words, he got 300+50 = 350 letters.\nThe brothers spelled out words with a total count of 350+300 = <<350+300=650>>650 letters.\n#### 650",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of letters in the words they've spelled after the ten rounds, we first need to determine the total number of letters Craig has spelled. Craig has spelled out 20 words with 15 letters each. \n\nThe total number of letters Craig has spelled is 20 * 15 = 300.\n\nSince Craig's brother has spelled words with a total count of letters 50 more than Craig, the total number of letters Craig's brother has spelled is 300 + 50 = 350.\n\nTo find the total number of letters in the words they've spelled after the ten rounds, we add the total number of letters Craig has spelled to the total number of letters his brother has spelled. \n\nThe total number of letters is 300 + 350 = 650.\n\n#### 650",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the total number of letters in the words they've spelled after the ten rounds, we first need to determine the total number of letters Craig has spelled. Craig has spelled out 20 words with 15 letters each. The total number of letters Craig has spelled is 20 * 15 = 300. Since Craig's brother has spelled words with a total count of letters 50 more than Craig, the total number of letters Craig's brother has spelled is 300 + 50 = 350.\n\nTo find the total number of letters in the words they've spelled after the ten rounds, we add the total number of letters Craig has spelled to the total number of letters his brother has spelled. The total number of letters is 300 + 350 = 650.\n\n#### 650",
+			"retrievals": 1
+		}
+	]
+}

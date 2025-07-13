@@ -84,26 +84,17 @@ def get_content_wrapper(q, query):
 		result_paragraphs = fetch_and_filter_results(query, urls, limit=URLS_AFTER_FILTERING)
 		log_info('Filtered paragraphs:', len(result_paragraphs))
 
-		# if not result_paragraphs:  # We handle these steps in the same function.
-		# 	log_info('No paragraphs found after filtering. Trying with more URLs...')
-		# 	urls = retrieved_URLs[URL_RESULT_LIMIT:2*URL_RESULT_LIMIT]
-		# 	log_debug('Using more URLs:', urls)
-		# 	result_paragraphs = fetch_and_filter_results(query, urls, limit=URLS_AFTER_FILTERING)
-		# 	log_info('Filtered paragraphs:', len(result_paragraphs))
-
 	except Exception as e:
 		if '429' in str(e):
 			log_error('Google API rate limit exceeded.')
-			# Google API's rate limit is reset every 24 hours, so we can exit the program.
 			raise e
 		elif 'Safe Browsing API has not been used' in str(e):
 			log_error('Safe Browsing API has not been used')
 			raise e
 		else:
-			log_error(f'Error in get_content: {e}')
+			log_error(f'Error in get_content:', str(e).split('key=')[0])
 		result_paragraphs = None
 	q.put(result_paragraphs)
-
 
 
 def get_revise_answer(question: str, answer: str, paragraph: str) -> str:
@@ -128,12 +119,9 @@ def revise_draft(draft: str, user_query: str) -> str:
 		log_debug('-'*10)
 		log_info(f'Modify {i+1}/{len(draft_paragraphs)} parts...')
 		answer = answer + '\n\n' + p
-		# log_debug(f'[{i}/{len(draft_paragraphs)}] Original Answer:\n{answer.replace('\n', ' ')}')
 
-		# query = get_query(question, answer)
 		log_info('Generating corresponding Query...')
 		res = run_with_timeout(get_query_wrapper, args=(user_query, answer), timeout=30)
-					# High timeout because LLMs get rate limit and need 60 seconds of wait time.
 
 		if not res:
 			log_info('No response. Skipping next steps...')
@@ -143,7 +131,6 @@ def revise_draft(draft: str, user_query: str) -> str:
 		log_debug(f'>>> {i}/{len(draft_paragraphs)} Query:', query.replace('\n', ' '))
 
 		log_info('Get web page content...')
-		# content = get_content(query)
 		search_res_paragraphs = run_with_timeout(get_content_wrapper, args=(query, ), timeout=45)
 		if not search_res_paragraphs:
 			log_info('No response. Skipping next steps...')
@@ -154,26 +141,16 @@ def revise_draft(draft: str, user_query: str) -> str:
 		for c_index, content in enumerate(search_res_paragraphs):  # use each result to edit the answer
 			if len(used_contents) >= 2:
 				break
-			# if len(content) > 10_000:  # Skip too long content
-			# 	log_info(f'Skipping too long content: {len(content)} characters')
-			# 	continue
 			log_info(f'Modifying the answer according to page...[{c_index+1}/{min(len(search_res_paragraphs),3)}]')
-			# answer = get_revise_answer(question, answer, c)
 			res = run_with_timeout(get_revise_answer_wrapper, args=(user_query, answer, content), timeout=30)
-							# High timeout because LLMs get rate limit and need 60 seconds of wait time.
 
 			if not res:
 				log_info('No response. Skipping next steps...')
 				continue
 			else:
-				# diff_html = generate_diff_html(answer, res) # display the differences
-				# display(HTML(diff_html))
 				answer = res
 				used_contents.append(c_index)
 			all_revisions.append(answer)
-			# log_info(f'Answer updation completed: [{c_index + 1}/{min(len(search_res_paragraphs),3)}]')
-		# log_debug(f'[{i}/{len(draft_paragraphs)}] REVISED ANSWER:\n {answer.replace('\n', ' ')}')
-		# log_debug()
 	return all_revisions, answer.strip()
 
 
@@ -189,8 +166,10 @@ def revise_using_feedback(draft: str, user_query: str, feedback: str) -> str:
 		' --- \n'
 		'Respond to the user directly. Don\'t mention that I provided additional information. \n'
 	)
-	# log_debug('Draft Revision Prompt:', prompt, '\n\n')
 	return get_response(prompt)
+
+
+# Reference: https://github.com/CraftJarvis/RAT/blob/main/creative.ipynb
 
 
 if __name__ == '__main__':

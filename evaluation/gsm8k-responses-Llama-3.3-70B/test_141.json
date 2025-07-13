@@ -1,0 +1,13 @@
+{
+	"task_id": 141,
+	"prompt": "Of the 20 available cars for rent, 12 are automatic cars, 4 are manual cars, and the rest are semi-automatic. What percentage of the cars are semi-automatic?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "12 + 4 = <<12+4=16>>16 cars are either automatic or manual.\nSo, 20 - 16 = <<20-16=4>>4 cars are semi-automatic.\nTherefore, the percentage of semi-automatic cars is 4/20 x 100% = 20%.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To find the percentage of semi-automatic cars, first, we need to determine how many semi-automatic cars are available. We know that out of 20 cars, 12 are automatic and 4 are manual. \n\nThe total number of automatic and manual cars is 12 + 4 = 16 cars. \n\nSince there are 20 cars in total, the number of semi-automatic cars can be found by subtracting the total number of automatic and manual cars from the total number of cars: 20 - 16 = 4.\n\nSo, there are 4 semi-automatic cars. \n\nTo find the percentage of semi-automatic cars, we divide the number of semi-automatic cars by the total number of cars and then multiply by 100: (4 / 20) * 100 = 20%.\n\nTherefore, the percentage of cars that are semi-automatic is 20%.\n\n#### 20%",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the percentage of semi-automatic cars out of the total number of cars available for rent, we first need to determine the number of semi-automatic cars. We are given that there are 20 cars in total, with 12 being automatic and 4 being manual. \n\nThe number of semi-automatic cars can be found by subtracting the number of automatic and manual cars from the total number of cars: 20 (total cars) - 12 (automatic cars) - 4 (manual cars) = 4 semi-automatic cars.\n\nNow that we know there are 4 semi-automatic cars out of a total of 20, we can calculate the percentage of semi-automatic cars. The percentage is calculated by dividing the number of semi-automatic cars by the total number of cars and then multiplying by 100. So, the percentage of semi-automatic cars is (4 / 20) * 100 = 20%.\n\nTherefore, the percentage of semi-automatic cars out of the total is 20%.\n\n#### 20%",
+			"retrievals": 2
+		}
+	]
+}

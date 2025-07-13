@@ -1,0 +1,13 @@
+{
+	"task_id": 704,
+	"prompt": "Larry cooked dumplings for a group of friends.  There are 8 males, including Larry, and 6 females among them. Each male ate 1 more dumpling than each female. How many dumplings did Larry cook if each female ate 3 dumplings and there were no leftovers?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "So each male ate 3 + 1 = <<3+1=4>>4 dumplings.\nHence, the 8 males ate a total of 8 x 4 = <<8*4=32>>32 dumplings.\nThe 6 females ate a total of 6 x 3 = <<6*3=18>>18 dumplings.\nSo, the total number of dumplings Larry cooked is 18 + 32 = <<18+32=50>>50.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dumplings Larry cooked, we first need to determine the total number of dumplings eaten by the females and the males. We know there are 6 females and each female ate 3 dumplings.\n\nSo, the total number of dumplings eaten by the females is 6 females * 3 dumplings/female = 18 dumplings.\n\n`\n \nSince each male ate 1 more dumpling than each female, and each female ate 3 dumplings, each male ate 3 + 1 = 4 dumplings. There are 8 males, including Larry.\n\n`\n \nThe total number of dumplings eaten by the males is 8 males * 4 dumplings/male = 32 dumplings.\n\n`\n \nTo find the total number of dumplings Larry cooked, we add the total number of dumplings eaten by the females and the males. total_dumplings = dumplings eaten by females + dumplings eaten by males = 18 + 32 = 50 dumplings.\n\n#### 50",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many dumplings Larry cooked, we first need to determine the total number of dumplings eaten by the females and the males. We know there are 6 females and each female ate 3 dumplings. So, the total number of dumplings eaten by the females is 6 females * 3 dumplings/female = 18 dumplings.\n\nSince each male ate 1 more dumpling than each female, and each female ate 3 dumplings, each male ate 3 + 1 = 4 dumplings. There are 8 males, including Larry.\n\nThe total number of dumplings eaten by the males is 8 males * 4 dumplings/male = 32 dumplings.\n\nTo find the total number of dumplings Larry cooked, we add the total number of dumplings eaten by the females and the males. total_dumplings = dumplings eaten by females + dumplings eaten by males = 18 + 32 = 50 dumplings.\n\n#### 50",
+			"retrievals": 2
+		}
+	]
+}

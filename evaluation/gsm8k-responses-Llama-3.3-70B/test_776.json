@@ -1,0 +1,13 @@
+{
+	"task_id": 776,
+	"prompt": "Henry needs to assemble some toys, specifically 57 cars and 73 motorcycles. Henry knows that to assemble all the toys he will need 4 wheels for each car and 2 wheels for each motorcycle. How many wheels will be left if he has a box with 650 wheels in it?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of wheels needed for all the cars is 57 cars x 4 wheels/car = <<57*4=228>>228 wheels\nThe total number of wheels needed for all the motorcycles is 73 motorcycles x 2 wheels/motorcycle = <<73*2=146>>146 wheels\nCombining the number of wheels needed for the cars and motorcycles gives a total of 228 wheels + 146 wheels = <<228+146=374>>374 wheels\nThe number of wheels left in the bag will be 650 wheels \u2013 374 wheels = <<650-374=276>>276 wheels\n#### 276",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of wheels needed for the cars, we first calculate the total",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many wheels will be left, we first need to calculate the total number of wheels required for the cars and motorcycles. \n\nFor the cars, since each car needs 4 wheels and there are 57 cars, the total number of wheels required for the cars is 57 * 4 = 228 wheels.\n\nFor the motorcycles, since each motorcycle needs 2 wheels and there are 73 motorcycles, the total number of wheels required for the motorcycles is 73 * 2 = 146 wheels.\n\nNow, we add the wheels required for the cars and motorcycles to find the total number of wheels needed: 228 + 146 = 374 wheels.\n\nHenry has a box with 650 wheels. To find out how many wheels will be left after assembling all the toys, we subtract the total number of wheels needed from the total number of wheels available: 650 - 374 = 276 wheels.\n\nSo, after assembling all the toys, Henry will have 276 wheels left.\n\n#### 276",
+			"retrievals": 1
+		}
+	]
+}

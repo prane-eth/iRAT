@@ -1,0 +1,13 @@
+{
+	"task_id": 1101,
+	"prompt": "Bobby takes a 30 min lunch and 2 15 minutes break per day at the office.  After 5 days, how many hours do his lunches and breaks add up to?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has 2 15 minutes breaks per day so together they add up to 2*15 = <<2*15=30>>30 minutes\nHe also has a 30-minute lunch every day so together with his 30-minute break he has a 30+30 = 60-minute break each day\nEvery day his breaks total 60 minutes and he takes these breaks 5 days per week so he takes 60*5 = <<60*5=300>>300 minutes of break time\n60 minutes is in an hour so 300/60 = <<300/60=5>>5 hours of break time\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total time spent on lunches and breaks, we need to first determine the daily time spent on these activities. \nBobby takes a 30-minute lunch and 2 15-minute breaks per day. \nThe total time spent on breaks per day is 2 * 15 = 30 minutes. \nAdding the lunch time, the total daily time spent on lunches and breaks is 30 + 30 = 60 minutes.\n\nSince there are 60 minutes in an hour, the daily time spent on lunches and breaks is 60 / 60 = 1 hour. \nNow, we need to calculate the total time spent over 5 days. \nThe total time spent on lunches and breaks over 5 days is 1 * 5 = 5 hours.\n\n#### 5",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many hours Bobby's lunches and breaks add up to after 5 days, we need to calculate the total time spent on these activities per day and then multiply by the number of days.\n\nFirst, let's calculate the total time spent on lunches per day. Bobby takes a 30-minute lunch per day. Since there are 60 minutes in an hour, the lunch break is 30 / 60 = 0.5 hours per day.\n\nNext, we calculate the total time spent on breaks per day. Bobby takes 2 breaks of 15 minutes each per day. The total break time per day is 2 * 15 minutes = 30 minutes, which is equivalent to 30 / 60 = 0.5 hours per day.\n\nThe total time spent on lunches and breaks per day is the sum of the lunch time and break time, which is 0.5 hours + 0.5 hours = 1 hour per day.\n\nTo find the total time spent on lunches and breaks after 5 days, we multiply the daily total by 5. So, 1 hour per day * 5 days = 5 hours.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

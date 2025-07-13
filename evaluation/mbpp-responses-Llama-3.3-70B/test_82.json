@@ -1,0 +1,19 @@
+{
+	"task_id": 92,
+	"prompt": "Write a python function to find the last two digits in factorial of a given number.?assert last_Two_Digits(7) == 40",
+	"test_imports": [],
+	"test_list": [
+		"assert last_Two_Digits(7) == 40",
+		"assert last_Two_Digits(5) == 20",
+		"assert last_Two_Digits(2) == 2"
+	],
+	"mbpp_code": "def last_Two_Digits(N): \r\n    if (N >= 10): \r\n        return\r\n    fac = 1\r\n    for i in range(1,N + 1): \r\n        fac = (fac * i) % 100\r\n    return (fac)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the last two digits in the factorial of a given number, we need to calculate the factorial and then extract the last two digits. \nWe can calculate the factorial using a loop, and to extract the last two digits, we can use the modulus operator with 100.\n\n```python\ndef last_Two_Digits(n):\n    result = 1\n    for i in range(1, n + 1):\n        result = (result * i) % 100\n    return result\n```\n\nThis function works by initializing a variable `result` to 1, then iterating over the range from 1 to `n` (inclusive). \nIn each iteration, it multiplies `result` by the current number `i` and takes the modulus of the product with 100 to keep only the last two digits.\n\nThe unit test `assert last_Two_Digits(7) == 40` ensures that the function works correctly by comparing its output for the input 7 with the expected result 40. \n\nThis approach avoids potential overflow issues that could occur when calculating large factorials, as it only keeps track of the last two digits at each step.",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Introduction to the Problem\nThe problem requires finding the last two digits of a factorial of a given number. This can be achieved by using the properties of factorials and modular arithmetic.\n\n## Understanding Factorials and Modular Arithmetic\nTo find the last two digits of a factorial, we can utilize modular arithmetic to reduce the calculation. The property of modular arithmetic that states (a * b) % n = ((a % n) * (b % n)) % n can be utilized. This means we can calculate the factorial modulo 100 to find the last two digits.\n\n## Implementing the Solution in Python\nHere is a Python function that calculates the last two digits of a factorial using modular arithmetic:\n```python\ndef last_Two_Digits(n):\n    result = 1\n    for i in range(1, n + 1):\n        result = (result * i) % 100\n    return result\n```\nThis function works by initializing a variable `result` to 1, then iterating over the range from 1 to `n` (inclusive). In each iteration, it multiplies `result` by the current number `i` and takes the modulus of the product with 100 to keep only the last two digits.\n\n## Example Usage and Verification\nFor example, to find the last two digits of 7!, we can call the function with the argument 7:\n```python\nprint(last_Two_Digits(7))  # Output: 40\n```\nThe unit test `assert last_Two_Digits(7) == 40` ensures that the function works correctly by comparing its output for the input 7 with the expected result 40.\n\n## Conclusion\nThe provided Python function correctly calculates the last two digits of a factorial using modular arithmetic. You can use this function to find the last two digits of any factorial by passing the number as an argument to the function.",
+			"retrievals": 3
+		}
+	]
+}

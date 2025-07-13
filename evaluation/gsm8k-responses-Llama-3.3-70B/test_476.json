@@ -1,0 +1,13 @@
+{
+	"task_id": 476,
+	"prompt": "It takes 240 minutes of walking to break in a new pair of shoes. Jason wants to try out for the track team in three weeks. If he can walk 4 days a week to break in the new shoes, how long does he have to spend walking each day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find how many days Jason has to prepare for the tryouts: 3 weeks * 4 days/week = <<3*4=12>>12 days\nThen divide the time it takes to break the shoes in by the time Jason can spend each day to find how long he needs to walk each day: 240 minutes / 12 days = <<240/12=20>>20 minutes/day\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to determine how many minutes Jason has to walk",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of minutes Jason needs to walk\nTo break in the new pair of shoes, Jason needs to walk for 240 minutes. This is a given requirement to ensure the shoes are properly broken in for the track team tryouts.\n\n## Step 2: Determine the number of days Jason has to walk in three weeks\nSince Jason can walk 4 days a week and he has three weeks to break in the shoes, we need to calculate the total number of days he has to walk.\n3 weeks * 4 days/week = 12 days. This gives us the total number of walking days available to Jason before the tryouts.\n\n## Step 3: Calculate the number of minutes Jason needs to walk each day\nTo find out how many minutes Jason needs to walk each day, we divide the total number of minutes by the total number of days.\n240 minutes / 12 days = 20 minutes/day. This means Jason has to walk for 20 minutes every day he walks to meet the break-in requirement within the given timeframe.\n\nThe final answer is: #### 20",
+			"retrievals": 1
+		}
+	]
+}

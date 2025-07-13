@@ -1,0 +1,13 @@
+{
+	"task_id": 739,
+	"prompt": "Alice has 6 more books than Steven. Clara has two times as many books as Steven. If Clara has 20 books, how many more books does Clara have than Alice?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Steven has 20/2 = <<20/2=10>>10 books\nAlice has 10+6 = <<10+6=16>>16 books\nClara has 20-16 = <<20-16=4>>4 more books than Alice\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more books Clara has than Alice, we first need to determine the number of books each of them has. We know that Clara has 20 books.\n\nClara has two times as many books as Steven. Since Clara has 20 books, we can set up the equation 2 * Steven's books = 20 to find out how many books Steven has. Solving for Steven's books, we get Steven's books = 20 / 2 = 10.\n\nAlice has 6 more books than Steven. Since Steven has 10 books, Alice must have 10 + 6 = 16 books.\n\nNow that we know Clara has 20 books and Alice has 16 books, we can find out how many more books Clara has than Alice by subtracting the number of books Alice has from the number of books Clara has: 20 - 16 = 4.\n\n#### 4",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of books Steven has\nWe know that Clara has 20 books and she has two times as many books as Steven. To find out how many books Steven has, we can set up the equation 2 * Steven's books = 20. Solving for Steven's books, we get Steven's books = 20 / 2 = 10.\n\n## Step 2: Determine the number of books Alice has\nAlice has 6 more books than Steven. Since Steven has 10 books, Alice must have 10 + 6 = 16 books.\n\n## Step 3: Calculate the difference in the number of books between Clara and Alice\nNow that we know Clara has 20 books and Alice has 16 books, we can find out how many more books Clara has than Alice by subtracting the number of books Alice has from the number of books Clara has: 20 - 16 = 4.\n\n## Step 4: Verify the answer\nBased on the calculations, Clara indeed has 4 more books than Alice.\n\nThe final answer is: #### 4",
+			"retrievals": 1
+		}
+	]
+}

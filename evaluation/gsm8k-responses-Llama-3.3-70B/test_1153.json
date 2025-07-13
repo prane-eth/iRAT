@@ -1,0 +1,13 @@
+{
+	"task_id": 1153,
+	"prompt": "Mark buys one lottery ticket with a 20% chance of winning and a second lottery ticket that's three times more likely to win. What is the probability, expressed as a percentage, that both tickets are winners?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First triple 20% to find the second ticket's chance of winning: .2 * 3 = <<.2*3=.6>>.6\nThen multiply both tickets' chances of winning to find the probability they both win, and multiply that by 100 to convert it to a percentage: .6 * .2 * 100% = 12%\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the probability that both tickets are winners, we first need to determine the probability of each ticket winning separately. The first ticket has a 20% chance of winning. \n\nThe second ticket is three times more likely to win than the first ticket. This means its probability of winning is 3 * 20% = 60%.\n\nTo find the probability that both tickets win, we multiply the probabilities of each ticket winning. So, we calculate 20% * 60%.\n\n20% can be expressed as 0.20 in decimal form, and 60% can be expressed as 0.60 in decimal form. Multiplying these decimals gives us 0.20 * 0.60 = 0.12.\n\nTo express this probability as a percentage, we convert 0.12 to a percentage by multiplying by 100: 0.12 * 100 = 12%.\n\n#### 12%",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the probability that both of Mark's lottery tickets are winners, we first need to determine the probability of each ticket winning. The first ticket has a 20% chance of winning. The second ticket is three times more likely to win than the first ticket, so its probability of winning is 3 * 20% = 60%.\n\nThe probability of the first ticket winning is 20%, or 0.20 in decimal form, and the probability of the second ticket winning is 60%, or 0.60 in decimal form. To find the probability that both tickets win, we multiply these probabilities together: 0.20 * 0.60 = 0.12.\n\nTo express this probability as a percentage, we multiply by 100: 0.12 * 100 = 12%. Therefore, the probability that both tickets are winners is 12%.\n\n#### 12%",
+			"retrievals": 2
+		}
+	]
+}

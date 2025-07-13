@@ -1,0 +1,13 @@
+{
+	"task_id": 720,
+	"prompt": "Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there are 25 kilograms of rice per sack, how many kilograms does she gave to her cousin and brother?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Goldy gave a total of 4 + 3 = <<4+3=7>>7 sacks of rice to his brother and cousin.\nTherefore she gave 25 x 7= <<25*7=175>>175 kilograms of rice.\n#### 175",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many kilograms of rice Goldy gave to her cousin and brother, we first need to calculate the total number of sacks she gave away. She gave 3 sacks to her cousin and 4 sacks to her brother.\n\nThe total number of sacks given away is 3 + 4 = 7 sacks. Since each sack contains 25 kilograms of rice, we need to multiply the total number of sacks given away by the weight of rice per sack to find the total weight of rice given away.\n\nThe total weight of rice given away is 7 sacks * 25 kilograms/sack = 175 kilograms.\n\n#### 175",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many kilograms of rice Goldy gave to her cousin and brother",
+			"retrievals": 1
+		}
+	]
+}

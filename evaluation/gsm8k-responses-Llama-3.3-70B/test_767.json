@@ -1,0 +1,13 @@
+{
+	"task_id": 767,
+	"prompt": "Marissa bought a ball at the store for $20. If she had $80 on her and used the rest of the money to buy her brother Jimmy, candy bars sold at $5 each, how many candy bars did Marissa buy for Jimmy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Marissa had $80 on her and used $20 to buy a ball, she remained with $80-$20=$<<80-20=60>>60\nIf she used the rest of the money to buy candy bars for her brother sold ad $5 each, she bought $60/$5=<<60/5=12>>12 candy bars.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many candy bars Marissa bought for Jimmy, we first need to determine how much money she spent on the candy bars. Marissa started with $80 and spent $20 on a ball. \n\nThe amount of money she had left after buying the ball is $80 - $20 = $60. This $60 is what she used to buy candy bars for Jimmy.\n\nSince each candy bar costs $5, we can find out how many candy bars she bought by dividing the total amount of money she spent on candy bars by the cost of each candy bar.\n\nThe calculation to find the number of candy bars is $60 / $5 = 12.\n\n#### 12",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many candy bars Marissa bought for Jimmy, we first need to determine how much money she spent on the candy bars. Marissa started with $80 and spent $20 on a ball. The amount of money she had left after buying the ball is $80 - $20 = $60. This $60 is what she used to buy candy bars for Jimmy. Since each candy bar costs $5, we can find out how many candy bars she bought by dividing the total amount of money she spent on candy bars by the cost of each candy bar.\n\nThe calculation to find the number of candy bars is $60 / $5 = 12. \n#### 12",
+			"retrievals": 0
+		}
+	]
+}

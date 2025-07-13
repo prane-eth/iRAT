@@ -1,0 +1,13 @@
+{
+	"task_id": 520,
+	"prompt": "Royce takes 40 minutes more than double Rob to shingle a house. If Rob takes 2 hours, how many minutes does Royce take?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Convert 2 hours to min: 2(60)=120 minutes\nRoyce takes 40+2(120)=280 minutes\n#### 280",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nFirst, we need to find out how long it takes Rob to shingle a",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many minutes Royce takes to shingle a house, we first need to determine how long it takes Rob and then use that information to calculate Royce's time. \n\nGiven that Rob takes 2 hours, we convert this to minutes since the question asks for Royce's time in minutes. There are 60 minutes in an hour, so Rob takes 2 * 60 = 120 minutes.\n\nThe problem states that Royce takes 40 minutes more than double the time it takes Rob. So, we first calculate double the time it takes Rob, which is 2 * 120 = 240 minutes. Then, we add the additional 40 minutes to find Royce's total time: 240 + 40 = 280 minutes.\n\n#### 280",
+			"retrievals": 1
+		}
+	]
+}

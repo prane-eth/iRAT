@@ -1,0 +1,13 @@
+{
+	"task_id": 214,
+	"prompt": "While at the dollar store, Sloane counts 100 customers entering the store. The next day, she counts 50 more customers than the first day. If the total number of customers by the third day was 500, how many customers did she count on the third day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On the second day, she counted 100+50 = <<100+50=150>>150 customers.\nThe total for the first two days is 150+100 = <<150+100=250>>250 customers.\nIf the total count for three days was 500, she counted 500-250 = <<500-250=250>>250 customers on the third day.\n#### 250",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Calculate the number of customers on the first day\nS\n\nSo, the number of customers counted on the third day is 500 - 250 = 250.\n\n#### 250",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the number of customers on the first day.\nSloane counts 100 customers entering the store on the first day.\n\n## Step 2: Calculate the number of customers on the second day.\nThe next day, she counts 50 more customers than the first day, so the number of customers on the second day is 100 + 50 = 150.\n\n## Step 3: Calculate the total number of customers on the first two days.\nThe total number of customers on the first two days is 100 + 150 = 250.\n\n## Step 4: Calculate the number of customers on the third day.\nIf the total number of customers by the third day was 500, then the number of customers on the third day is 500 - 250 = 250.\n\nThe final answer is: #### 250",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 174,
+	"prompt": "Jessica is trying to figure out how much to pay on all her debts each month. Her student loans have a minimum payment of $300/month, her credit card's minimum is $200/month, and her mortgage's minimum is $500/month. If Jessica wants to pay 50% more than the minimum, how much does she pay in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total minimum payment each month: $300/month + $200/month + $500/month = $<<300+200+500=1000>>1000/month\nThen multiply that number by 50% to find how much extra Jessica pays each month: $1000/month * .5 = $<<1000*.5=500>>500/month\nAdd that number to the total minimum payment to find how much Jessica pays per month: $1000/month + $500/month = $<<1000+500=1500>>1500/month\nNow multiply that number by the number of months in a year to find Jessica's annual payment: $1500/month * 12 months/year = $<<1500*12=18000>>18,000/year\n#### 18000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Jessica pays in a year, first, we need to calculate the total minimum payment for all her debts. Her student loans have a minimum payment of $300/month, her credit card's minimum is $200/month, and her mortgage's minimum is $500/month. \n\nSo, the total minimum payment per month is $300 + $200 + $500 = $1000.\n\nNext, we need to calculate 50% more than the minimum payment. 50% of $1000 is $500. Therefore, 50% more than the minimum payment is $1000 + $500 = $1500 per month.\n\nTo find out how much Jessica pays in a year, we multiply the monthly payment by 12. $1500 * 12 = $18000.\n\n#### $18000",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how much Jessica pays in a year, we first need to calculate the total minimum payment for all her debts. The minimum payments are $300/month for her student loans, $200/month for her credit card, and $500/month for her mortgage. \n\nAdding these minimum payments together gives us $300 + $200 + $500 = $1000/month. Since Jessica wants to pay 50% more than the minimum, we calculate this increased amount by taking 50% of $1000 and adding it to $1000. \n\n50% of $1000 is $500, so paying 50% more than the minimum would be $1000 + $500 = $1500/month. \n\nTo find out how much Jessica pays in a year, we multiply the monthly payment by 12. $1500 * 12 = $18000. \n\n#### $18000",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 189,
+	"prompt": "A trader buys some bags of wheat from a farmer at a rate of $20 per bag. If it costs $2 to transport each bag from the farm to the warehouse, and the trader made a total profit of $400 after selling all the bags at a rate of $30 each, how many bags did he sell?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each bag of wheat cost the trader $20+$2=$<<20+2=22>>22 (taking transportation costs into account)\nEach bag of wheat was sold for $30 each giving a profit of $30-$22=$<<30-22=8>>8 on each bag\nSince a total of $400 profit was made, the total number of bags sold is $400/$8=<<400/8=50>>50 bags\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many bags the trader sold, we first need to understand the components of the trader's cost and revenue. The cost for the trader includes the purchase price of the wheat bags and the transportation cost. The revenue is the selling price of the wheat bags.\n\nThe purchase price per bag is $20, and the transportation cost per bag is $2, making the total cost per bag $20 + $2 = $22. The selling price per bag is $30. Therefore, the profit per bag is $30 - $22 = $8.\n\nGiven that the trader made a total profit of $400, we can calculate the number of bags sold by dividing the total profit by the profit per bag. So, the number of bags sold = total profit / profit per bag = $400 / $8.\n\nThe number of bags sold = $400 / $8 = 50.\n\n#### 50",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we first need to calculate the profit made per bag. The trader buys each bag at $20 and incurs an additional $2 for transportation, making the total cost per bag $22. The selling price per bag is $30. Therefore, the profit per bag is $30 - $22 = $8.\n\nGiven that the trader made a total profit of $400, we can find the number of bags sold by dividing the total profit by the profit per bag. So, the number of bags sold = total profit / profit per bag = $400 / $8 = 50.\n\nThis calculation directly leads us to the conclusion that the trader sold 50 bags of wheat to make a total profit of $400.\n\n#### 50",
+			"retrievals": 1
+		}
+	]
+}

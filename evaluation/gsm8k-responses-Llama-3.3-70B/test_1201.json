@@ -1,0 +1,13 @@
+{
+	"task_id": 1201,
+	"prompt": "Eight more than four times the number of coffee mugs in the teacher\u2019s lounge is 40. How many coffee mugs are in the teacher\u2019s lounge?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let m be the number of mugs\n8+4*m=40\n4*m=40-8=32\n4m=<<32=32>>32\nm=<<8=8>>8\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, let's denote the number of coffee mugs in the teacher's lounge as \"x\". We are given the information that eight more than four times the number of coffee mugs is 40. This can be translated into a mathematical equation: 4x + 8 = 40.\n\nWe need to solve this equation for \"x\" to find the number of coffee mugs. The first step is to subtract 8 from both sides of the equation to isolate the term involving \"x\". This gives us 4x = 40 - 8, which simplifies to 4x = 32.\n\nNext, we divide both sides of the equation by 4 to solve for \"x\". This gives us x = 32 / 4, which simplifies to x = 8.\n\nTherefore, the number of coffee mugs in the teacher's lounge is 8.\n\n#### 8",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, let's break it down step by step. We are given that eight more than four times the number of coffee mugs in the teacher's lounge is 40. Let's denote the number of coffee mugs as \"x\". This information can be translated into a mathematical equation: 4x + 8 = 40. \n\nThe equation 4x + 8 = 40 represents the relationship between the number of coffee mugs and the given condition. To find the value of \"x\", which represents the number of coffee mugs, we need to isolate \"x\" on one side of the equation.\n\nFirst, we subtract 8 from both sides of the equation to get rid of the \"+8\" on the left side. This gives us 4x = 40 - 8. Simplifying the right side, we get 4x = 32. This step is crucial because it helps us to isolate the term involving \"x\".\n\nNext, to solve for \"x\", we divide both sides of the equation by 4. This operation cancels out the \"4\" that is multiplied by \"x\", giving us x = 32 / 4. Simplifying the right side, we find x = 8.\n\nTherefore, the number of coffee mugs in the teacher's lounge is 8. This solution is found by following the mathematical steps that directly address the given condition, ensuring that our calculation accurately reflects the relationship described in the problem.\n\n#### 8",
+			"retrievals": 2
+		}
+	]
+}

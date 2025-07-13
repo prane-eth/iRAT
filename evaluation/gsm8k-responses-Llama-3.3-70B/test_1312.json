@@ -1,0 +1,13 @@
+{
+	"task_id": 1312,
+	"prompt": "The caretaker of the docks needs to buy some new line. He wants 3 feet of line for every foot of dock. Right now, there is 200 feet of dock, and he has 6 feet of new line. How many feet of line does he need to buy in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "200*3 = <<200*3=600>>600 feet of line.\nThe caretaker needs to buy 600-6 = <<600-6=594>>594 feet of line.\n#### 594",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many feet of line the caretaker needs to buy in total, we first need to calculate the total amount of line required for the docks. Since he wants 3 feet of line for every foot of dock and there are 200 feet of dock, we multiply the length of the dock by 3.\n\nThe calculation for the total line needed is 200 feet of dock * 3 feet of line/foot of dock = 600 feet of line.\n\n`\nNow that we know the caretaker needs 600 feet of line in total, we subtract the amount of new line he already has from this total to find out how much more line he needs to buy. He currently has 6 feet of new line.\n\n`\nThe calculation to find out how much line he needs to buy is 600 feet (total needed) - 6 feet (already has) = 594 feet.\n\n#### 594",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many feet of line the caretaker needs to buy in total, we first need to calculate the total amount of line required for the docks. Since he wants 3 feet of line for every foot of dock and there are 200 feet of dock, we multiply the length of the dock by 3. The calculation for the total line needed is 200 feet of dock * 3 feet of line/foot of dock = 600 feet of line.\n\nNow that we know the caretaker needs 600 feet of line in total, we subtract the amount of new line he already has from this total to find out how much more line he needs to buy. He currently has 6 feet of new line. The calculation to find out how much line he needs to buy is 600 feet (total needed) - 6 feet (already has) = 594 feet. \n\n#### 594",
+			"retrievals": 2
+		}
+	]
+}

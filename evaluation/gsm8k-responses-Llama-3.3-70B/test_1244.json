@@ -1,0 +1,13 @@
+{
+	"task_id": 1244,
+	"prompt": "Archie buys beef jerky that comes 30 sticks to a bag and costs $18.00 per bag.  If Archie buys 1 bag while they're $3.00 off a bag, how much will each stick of jerky cost in cents?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The bags are $18.00 with a $3.00 coupon so each bag is 18-3 = $<<18-3=15.00>>15.00\nThe bag has 30 sticks of jerky and costs $15.00 so each stick will cost 15/30 = $0.50\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of each stick of jerky, we first need to calculate the total cost of the bag after the discount. The original price of the bag is $18.00, and there is a $3.00 discount. \n\nSo, the discounted price of the bag will be $18.00 - $3.00 = $15.00.\n\nSince we are asked to find the cost in cents, we need to convert the discounted price from dollars to cents. There are 100 cents in a dollar, so $15.00 is equal to 15 * 100 = 1500 cents.\n\nNext, we need to find the cost of each stick of jerky. There are 30 sticks in a bag, and the total cost of the bag is 1500 cents. \n\nTo find the cost per stick, we divide the total cost by the number of sticks: 1500 cents / 30 sticks = 50 cents per stick.\n\n#### 50 cents",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the discounted price of the bag\nTo find the discounted price of the bag, we need to subtract the discount amount from the original price. The original price of the bag is $18.00, and the discount amount is $3.00. So, the discounted price is $18.00 - $3.00 = $15.00.\n\n## Step 2: Calculate the cost per stick of jerky\nNow that we have the discounted price of the bag, we can calculate the cost per stick of jerky. There are 30 sticks of jerky in a bag, and the discounted price of the bag is $15.00. To find the cost per stick, we need to divide the discounted price by the number of sticks. So, the cost per stick is $15.00 / 30 = $0.50.\n\n## Step 3: Convert the cost per stick to cents\nSince we are asked to find the cost per stick in cents, we need to convert the cost per stick from dollars to cents. There are 100 cents in a dollar, so we can convert $0.50 to cents by multiplying it by 100. Therefore, the cost per stick in cents is $0.50 * 100 = 50 cents.\n\n#### 50",
+			"retrievals": 2
+		}
+	]
+}

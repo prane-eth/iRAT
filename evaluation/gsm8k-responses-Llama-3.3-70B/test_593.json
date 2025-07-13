@@ -1,0 +1,13 @@
+{
+	"task_id": 593,
+	"prompt": "Marilyn wants to buy a pair of boots online. On Amazon.com, the boots cost $16 and shipping costs $4. On eBay, those same pair of shoes are only $13, but shipping costs twice as much as it does on Amazon. How much more expensive do the boots work out to be on eBay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total cost on Amazon.com is $16 + $4 = $<<16+4=20>>20\nShipping on eBay costs $4 x 2 = $<<4*2=8>>8\nThe total cost on eBay is $13 + $8 = $<<13+8=21>>21\nThe boots cost $21 - $20 = $<<21-20=1>>1 more on eBay\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much more expensive the boots are on eBay, we first need to calculate the total cost of the boots on both Amazon and eBay. \nOn Amazon, the boots cost $16 and shipping costs $4. \n\nThe total cost on Amazon is $16 (boots) + $4 (shipping) = $20.\n\nOn eBay, the boots cost $13, but the shipping costs twice as much as it does on Amazon, which is $4 * 2 = $8.\n\nThe total cost on eBay is $13 (boots) + $8 (shipping) = $21.\n\nTo find out how much more expensive the boots are on eBay compared to Amazon, we subtract the total cost on Amazon from the total cost on eBay: $21 (eBay) - $20 (Amazon) = $1.\n\n#### $1",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how much more expensive the boots are on eBay compared to Amazon, we need to calculate the total cost on both platforms. On Amazon, the boots cost $16 and shipping costs $4, so the total cost is $16 + $4 = $20. On eBay, the boots cost $13, but the shipping cost is twice as much as Amazon's, which is $4 * 2 = $8. So, the total cost on eBay is $13 + $8 = $21.\n\nNow, we compare the total costs: the total cost on eBay is $21, and the total cost on Amazon is $20. To find the difference, we subtract the total cost on Amazon from the total cost on eBay: $21 - $20 = $1.\n\nThis means the boots are $1 more expensive on eBay than on Amazon.\n\n#### $1",
+			"retrievals": 2
+		}
+	]
+}

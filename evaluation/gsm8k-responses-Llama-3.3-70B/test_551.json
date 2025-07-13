@@ -1,0 +1,13 @@
+{
+	"task_id": 551,
+	"prompt": "A shop sells school supplies. One notebook is sold at $1.50 each, a pen at $0.25 each, a calculator at $12 each, and a geometry set at $10. Daniel is an engineering student, and he wants to buy five notebooks, two pens, one calculator, and one geometry set. The shop gives a 10% discount on all the purchased items. How much does Daniel have to spend on all the items he wants to buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Five notebooks cost $5 x 1.50 = $<<5*1.50=7.50>>7.50\nTwo pens cost 2 x $0.25 = $<<2*0.25=0.50>>0.50.\nThe total cost is $7.50 + $0.50 + $12 + $10 =$<<7.5+0.5+12+10=30>>30.\nThus, total discount is 10/100 x $30 = $<<10/100*30=3>>3.\nTherefore, Daniel has to spend $30 - $3 = $<<30-3=27>>27 on all the items he wants to buy.\n#### 27",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the items Daniel wants to buy, we first need to find the cost of each type of item and then sum them up. The cost of five notebooks at $1.50 each is 5 * $1.50 = $7.50. The cost of two pens at $0.25 each is 2 * $0.25 = $0.50. The cost of one calculator at $12 is $12, and the cost of one geometry set at $10 is $10.\n\nThe total cost of all the items before the discount is $7.50 (notebooks) + $0.50 (pens) + $12 (calculator) + $10 (geometry set) = $7.50 + $0.50 + $12 + $10 = $30. \n\nThe shop gives a 10% discount on all the purchased items. To find the discount amount, we calculate 10% of the total cost, which is 0.10 * $30 = $3. \n\nThe final cost after applying the discount is the total cost minus the discount amount, which is $30 - $3 = $27.\n\n#### $27",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the cost of each item\nTo find the total cost of the items Daniel wants to buy, we first calculate the cost of each type of item. The cost of five notebooks at $1.50 each is 5 * $1.50 = $7.50. The cost of two pens at $0.25 each is 2 * $0.25 = $0.50. The cost of one calculator at $12 is $12, and the cost of one geometry set at $10 is $10.\n\n## Step 2: Calculate the total cost before the discount\nThe total cost of all the items before the discount is $7.50 (notebooks) + $0.50 (pens) + $12 (calculator) + $10 (geometry set) = $7.50 + $0.50 + $12 + $10 = $30.\n\n## Step 3: Apply the discount\nThe shop gives a 10% discount on all the purchased items. To find the discount amount, we calculate 10% of the total cost, which is 0.10 * $30 = $3. The final cost after applying the discount is the total cost minus the discount amount, which is $30 - $3 = $27.\n\n#### $27",
+			"retrievals": 2
+		}
+	]
+}

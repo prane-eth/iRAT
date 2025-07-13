@@ -1,0 +1,13 @@
+{
+	"task_id": 992,
+	"prompt": "Comet Halley orbits the sun every 75 years. Bill's dad saw the Comet when he was 30 years old. Bill saw the comet a second time when he was three times the age his father was when he saw the Comet. How old was Bill when he saw the Comet for the first time?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Bill saw the Comet for the second time when he was 30 years * 3= <<30*3=90>>90 years old.\nComet Halley can be seen every 75 years, so Bill saw the comet for the first time when he was 90 years - 75 years = <<90-75=15>>15 years old.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to first determine the age of Bill when he",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Understand the problem context\nThe problem mentions Comet Halley orbiting the sun every 75 years and provides information about Bill's dad and Bill's ages in relation to seeing the comet.\n\n## Step 2: Identify the relevant information\nBill's dad saw the Comet when he was 30 years old. Bill saw the comet a second time when he was three times the age his father was when he saw the Comet.\n\n## Step 3: Calculate Bill's age when he saw the comet a second time\nSince Bill was three times the age his father was when he saw the Comet, and his father was 30 years old, Bill was 3 * 30 = 90 years old when he saw the comet a second time.\n\n## Step 4: Calculate Bill's age when he saw the comet for the first time\nGiven that Comet Halley orbits the sun every 75 years, to find Bill's age when he saw the comet for the first time, we subtract 75 from his age when he saw it the second time: 90 - 75 = 15 years old.\n\n## Step 5: Verify the calculation\nThe calculation is based on the problem statement provided, and it logically follows that if Bill saw the comet a second time at 90 years old, and the comet orbits every 75 years, he would have seen it for the first time 75 years prior.\n\nThe final answer is: #### 15",
+			"retrievals": 1
+		}
+	]
+}

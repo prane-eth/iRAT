@@ -1,0 +1,13 @@
+{
+	"task_id": 787,
+	"prompt": "Ricardo grows tomatoes and eggplants in his garden. Each tomato plant yields 22 tomatoes while each plant of eggplant yields 4 eggplants. He planted 5 tomato plants and 8 plants of eggplant. How many fruits can Ricardo get from his plants?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ricardo can get 22 x 5 = <<22*5=110>>110 tomatoes.\nHe can get 4 x 8 = <<4*8=32>>32 eggplants.\nTherefore, Ricardo can get a total of 110 +32 = <<110+32=142>>142 fruits from his plants.\n#### 142",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of fruits Ricardo can get from his plants, we first need to calculate the yield from the tomato plants and the eggplant plants separately. \n\nThe yield from the tomato plants can be calculated by multiplying the number of tomato plants by the number of tomatoes each plant yields. Since each tomato plant yields 22 tomatoes and Ricardo planted 5 tomato plants, the total number of tomatoes is 5 * 22 = 110 tomatoes.\n\nSimilarly, for the eggplant plants, each plant yields 4 eggplants, and Ricardo planted 8 eggplant plants. Therefore, the total number of eggplants is 8 * 4 = 32 eggplants.\n\nNow, to find the total number of fruits Ricardo can get, we add the total number of tomatoes to the total number of eggplants. So, the total number of fruits = 110 tomatoes + 32 eggplants = 142 fruits.\n\n#### 142",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total number of fruits Ricardo can get from his plants, we first need to calculate the yield from the tomato plants and the eggplant plants separately. The yield from the tomato plants can be calculated by multiplying the number of tomato plants by the number of tomatoes each plant yields. Since each tomato plant yields 22 tomatoes and Ricardo planted 5 tomato plants, the total number of tomatoes is 5 * 22 = 110 tomatoes.\n\nSimilarly, for the eggplant plants, each plant yields 4 eggplants, and Ricardo planted 8 eggplant plants. Therefore, the total number of eggplants is 8 * 4 = 32 eggplants. Now, to find the total number of fruits Ricardo can get, we add the total number of tomatoes to the total number of eggplants. So, the total number of fruits = 110 tomatoes + 32 eggplants = 142 fruits.\n\n#### 142",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1034,
+	"prompt": "Melissa is summoned to jury duty. She spends 6 hours a day for 3 days listening to a court case. If Melissa is paid $15 per day but also has to pay $3 for parking each day, how much jury pay does she make per hour after expenses?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find Melissa's net daily pay by subtracting the parking expense from her $15 gross pay: $15/day - $3/day = $<<15-3=12>>12/day\nThen divide this number by the number of hours Melissa spends in court each day to find her hourly pay: $12/day / 6 hours/day = $<<12/6=2>>2/hour\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Melissa makes per hour after expenses, we first need to calculate her total earnings and total expenses for the 3 days.\n\nHer daily earnings are $15, and she works for 3 days, so her total earnings are $15 * 3 = $45. For expenses, she pays $3 per day for parking, so for 3 days, her total expenses are $3 * 3 = $9.\n\nNext, we need to find out her total earnings after expenses. This is calculated by subtracting her total expenses from her total earnings: $45 - $9 = $36.\n\nNow, we know she spends 6 hours a day for 3 days listening to the court case. So, the total hours she works is 6 hours * 3 days = 18 hours.\n\nTo find out how much she makes per hour after expenses, we divide her total earnings after expenses by the total number of hours she worked: $36 / 18 hours = $2 per hour.\n\n#### $2",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate Total Hours Worked\nFirst, we need to calculate the total number of hours Melissa worked on jury duty. She spends 6 hours a day for 3 days, so the total hours worked is 6 * 3 = 18 hours.\n\n## Step 2: Calculate Total Jury Pay\nNext, we calculate the total jury pay Melissa receives for her 3 days of service. She is paid $15 per day. So, her total pay is $15 * 3 = $45.\n\n## Step 3: Calculate Total Expenses\nThen, we calculate Melissa's total expenses for parking, which is $3 per day. For 3 days, her total expenses would be $3 * 3 = $9.\n\n## Step 4: Calculate Net Pay\nTo find out how much Melissa makes after expenses, we subtract her total expenses from her total jury pay. So, her net pay is $45 - $9 = $36.\n\n## Step 5: Calculate Hourly Pay After Expenses\nFinally, to find out her hourly pay after expenses, we divide her net pay by the total number of hours she worked. Therefore, her hourly pay after expenses is $36 / 18 = $2.\n\nThe final answer is: #### $2",
+			"retrievals": 1
+		}
+	]
+}

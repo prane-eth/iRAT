@@ -1,0 +1,21 @@
+{
+	"task_id": 159,
+	"prompt": "Write a function to check a decimal with a precision of 2.?import re\n\nassert is_decimal('123.11')==True",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert is_decimal('123.11')==True",
+		"assert is_decimal('e666.86')==False",
+		"assert is_decimal('3.124587')==False"
+	],
+	"mbpp_code": "def is_decimal(num):\r\n    import re\r\n    dnumre = re.compile(r\"\"\"^[0-9]+(\\.[0-9]{1,2})?$\"\"\")\r\n    result = dnumre.search(num)\r\n    return bool(result)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo check a decimal with a precision of 2, we need to define the pattern that matches this condition. The pattern should include an optional sign, followed by one or more digits, a decimal point, and exactly 2 digits after the decimal point.\n\n```python\nimport re\ndef is_decimal(s):\n    pattern = re.compile(r'^-?\\d+\\.\\d{2}$')\n    return bool(pattern.match(s))\n```\n\nThe `^-?\\d+\\.\\d{2}$` pattern can be broken down as follows: `^` asserts the start of the line, `-?` matches an optional minus sign, `\\d+` matches one or more digits, `\\.` matches a decimal point, `\\d{2}` matches exactly 2 digits, and `$` asserts the end of the line.\n\nWe will use the `re.compile()` function to compile the pattern into a regular expression object, and then use the `match()` method to check if the input string matches the pattern. If a match is found, the function returns `True`; otherwise, it returns `False`. \n\nThis approach ensures that the function correctly checks if a given string represents a decimal number with a precision of 2.",
+			"old_rat_retrievals": 4,
+			"final_answer": "To check a decimal with a precision of 2, we can utilize regular expressions in Python. The goal is to create a function that returns `True` if the input string matches the pattern of a decimal number with up to 2 digits after the decimal point and `False` otherwise.\n\nThe pattern for a decimal with a precision of 2 can be represented as `^\\d*\\.?\\d{0,2}$`. This pattern breaks down into several parts:\n- `^` asserts the start of the line.\n- `\\d*` matches zero or more digits (to accommodate the whole part of the number).\n- `\\.?` optionally matches a decimal point.\n- `\\d{0,2}` matches up to 2 digits (to accommodate the fractional part).\n- `$` asserts the end of the line, ensuring that the entire string must match this pattern.\n\nHere's how we can implement this pattern in a Python function:\n\n```python\nimport re\n\ndef is_decimal(s):\n    pattern = r\"^\\d*\\.?\\d{0,2}$\"\n    if re.match(pattern, s):\n        return True\n    else:\n        return False\n\n# Testing the function\nassert is_decimal('123.11') == True\n```\n\nThis function will correctly identify decimal numbers with a precision of up to 2 digits after the decimal point. It also handles edge cases such as an empty string, a string with just a decimal point, or a string with more than 2 digits after the decimal point. \n\nAlternatively, you can also use a simpler version of the function:\n\n```python\nimport re\n\ndef is_decimal(s):\n    pattern = r\"^\\d*\\.?\\d{0,2}$\"\n    return bool(re.match(pattern, s))\n\n# Testing the function\nassert is_decimal('123.11') == True\n```",
+			"retrievals": 3
+		}
+	]
+}

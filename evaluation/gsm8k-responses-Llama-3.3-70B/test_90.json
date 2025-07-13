@@ -1,0 +1,13 @@
+{
+	"task_id": 90,
+	"prompt": "Christina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of attendees don't show up. She invited 16 friends. Gift bags are $2 each. How much will she spend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She needs 12 gift bags because 16 x .75 = <<16*.75=12>>12\nShe will spend $24 because 12 x 2 = <<12*2=24>>24\n#### 24",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total amount Christina will spend on gift bags, we first need to determine how many gift bags she needs to buy, considering that 1/4 of the attendees don't show up.\n\n1. Calculate the number of attendees who don't show up: 1/4 * 16 = 4 friends.\n2. Calculate the number of attendees who will show up: 16 - 4 = 12 friends.\n3. Calculate the number of gift bags needed: 12 * 0.75 = 9 gift bags.\n4. Calculate the total cost of the gift bags: 9 * $2 = $18.\n\n#### $18\n\n#### $24",
+			"old_rat_retrievals": 7,
+			"final_answer": "To determine how much Christina will spend on gift bags, we first need to calculate the total number of gift bags required. Since she needs 0.75 gift bags per invited guest and she invited 16 friends, we multiply the number of invited guests by the rate of gift bags per guest. \n\nSo, the calculation for the number of gift bags needed is 16 * 0.75 = 12.\n\nThe cost of the gift bags can be found by multiplying the number of gift bags needed by the cost per gift bag. Since each gift bag costs $2, the total cost will be 12 * $2 = $24.\n\n#### $24",
+			"retrievals": 3
+		}
+	]
+}

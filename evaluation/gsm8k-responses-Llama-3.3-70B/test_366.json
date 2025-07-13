@@ -1,0 +1,13 @@
+{
+	"task_id": 366,
+	"prompt": "There are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 6 girls x 2 boys/girl = <<6*2=12>>12 boys in the park.\nIn total there are 6 girls + 12 boys = <<6+12=18>>18 kids in the park\n#### 18",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of kids in the park, we first need to determine the number of boys and girls separately. We are given that there are 6 girls in the park.\n\nThe problem states that there are twice the number of boys as there are girls. Since there are 6 girls, we can calculate the number of boys by multiplying the number of girls by 2. So, the number of boys = 2 * number of girls = 2 * 6 = 12.\n\nNow, to find the total number of kids in the park, we add the number of boys and girls together. Total number of kids = number of boys + number of girls = 12 + 6 = 18.\n\n#### 18",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of kids in the park, we first need to determine the number of boys and girls separately. We are given that there are 6 girls in the park. The problem states that there are twice the number of boys as there are girls. Since there are 6 girls, we can calculate the number of boys by multiplying the number of girls by 2. So, the number of boys = 2 * number of girls = 2 * 6 = 12.\n\nNow, to find the total number of kids in the park, we add the number of boys and girls together. Total number of kids = number of boys + number of girls = 12 + 6 = 18.\n\n#### 18",
+			"retrievals": 2
+		}
+	]
+}

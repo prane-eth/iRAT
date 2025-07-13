@@ -1,0 +1,13 @@
+{
+	"task_id": 1238,
+	"prompt": "Last Friday, 13 of the 82 teachers at Rydell Elementary School were sick. There were 9 substitute teachers called in to help. How many teachers were at school that day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 82 \u2013 13 = <<82-13=69>>69 regular teachers at school.\nIf we add the substitute teachers, we find there were 69 + 9 = <<69+9=78>>78 teachers at school that day.\n#### 78",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of teachers at school that day, we first need to determine the number of regular teachers who were present. There were originally 82 teachers, but 13 were sick. \n\nSo, the number of regular teachers present is 82 - 13 = 69.\n\nIn addition to the regular teachers, there were 9 substitute teachers called in to help. To find the total number of teachers at school that day, we need to add the number of regular teachers present to the number of substitute teachers.\n\nThe total number of teachers is 69 (regular teachers) + 9 (substitute teachers) = 78.\n\n#### 78",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of regular teachers present\nTo find the number of teachers at school that day, we first need to calculate the number of regular teachers who were present. Since 13 out of 82 teachers were sick, the number of regular teachers present is 82 - 13 = 69.\n\n## Step 2: Add the number of substitute teachers\nWe are told that 9 substitute teachers were called in to help. Therefore, the total number of teachers at school that day is the sum of the regular teachers present and the substitute teachers.\n\n## Step 3: Calculate the total number of teachers\nThe total number of teachers is 69 (regular teachers) + 9 (substitute teachers) = 78.\n\n#### 78",
+			"retrievals": 2
+		}
+	]
+}

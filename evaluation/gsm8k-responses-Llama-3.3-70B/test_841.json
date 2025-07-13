@@ -1,0 +1,13 @@
+{
+	"task_id": 841,
+	"prompt": "Patrick has three glue sticks that are partially used. One has 1/6 left, the second has 2/3 left and the third one has 1/2 left. If a glue stick is 12 millimeters long originally, what is the total length of the glue sticks that are not used?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first glue stick has 12 x 1/6 = <<12*1/6=2>>2 millimeters left.\nThe second glue stick has 12 x 2/3 = <<12*2/3=8>>8 millimeters left.\nThe third glue stick has 12 x 1/2 = <<12*1/2=6>>6 millimeters left.\nThere are a total of 2 + 8 + 6 = <<2+8+6=16>>16 millimeters of glue sticks that are not used.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total length of the glue sticks that are not used, we first",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total length of the glue sticks that are not used, we first need to calculate the length of each glue stick that is used. \n\nOriginally, each glue stick is 12 millimeters long. \n\nFor the first glue stick, 1/6 is left, which means 5/6 of it has been used. So, the length of the first glue stick that is used is 12 * (5/6) = 10 millimeters.\n\nFor the second glue stick, 2/3 is left, which means 1/3 of it has been used. So, the length of the second glue stick that is used is 12 * (1/3) = 4 millimeters.\n\nFor the third glue stick, 1/2 is left, which means 1/2 of it has been used. So, the length of the third glue stick that is used is 12 * (1/2) = 6 millimeters.\n\nNow, we add up the lengths of the glue sticks that are used: 10 + 4 + 6 = 20 millimeters.\n\nSince the total original length of the three glue sticks is 3 * 12 = 36 millimeters, the total length of the glue sticks that are not used is 36 - 20 = 16 millimeters.\n\n#### 16",
+			"retrievals": 0
+		}
+	]
+}

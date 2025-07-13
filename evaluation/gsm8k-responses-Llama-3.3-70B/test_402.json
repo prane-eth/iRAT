@@ -1,0 +1,13 @@
+{
+	"task_id": 402,
+	"prompt": "A builder works for 4 weeks every month and for 6 days every week. If he gets paid $50 every day, how much does he earn if he works for a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The builder works for 6 days every week and works for 4 weeks every month so he works for 6 days/week * 4 weeks/month = <<6*4=24>>24 days/month\nIf he earns $50 every day he then earns $50/day * 24 days/month = $<<50*24=1200>>1200/month\nA year is equal to 12 months so every year he earns $1200/month * 12 months/year = $<<1200*12=14400>>14400\n#### 14400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the builder's earnings for a year, we first need to determine how many days he works in a month. Since he works 6 days every week and there are 4 weeks in a month, we multiply the number of days he works in a week by the number of weeks he works in a month: 6 days/week * 4 weeks/month = 24 days/month.\n\n \nNext, we calculate his monthly earnings by multiplying the number of days he works in a month by his daily wage: 24 days/month * $50/day = $1200/month.\n\n \nThen, to find out his yearly earnings, we multiply his monthly earnings by the number of months in a year: $1200/month * 12 months/year = $14400/year.\n\n#### $14400",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of days the builder works in a month\nThe builder works for 4 weeks every month and for 6 days every week. So, the total number of days he works in a month is 4 weeks * 6 days/week = 24 days.\n\n## Step 2: Calculate the monthly earnings of the builder\nGiven that the builder gets paid $50 every day, his monthly earnings can be calculated by multiplying the number of days he works in a month by his daily pay. So, his monthly earnings are 24 days * $50/day = $1200.\n\n## Step 3: Calculate the yearly earnings of the builder\nSince there are 12 months in a year, we can calculate the builder's yearly earnings by multiplying his monthly earnings by 12. Therefore, his yearly earnings are $1200 * 12 = $14400.\n\nThe final answer is: #### $14400",
+			"retrievals": 2
+		}
+	]
+}

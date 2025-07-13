@@ -1,0 +1,13 @@
+{
+	"task_id": 31,
+	"prompt": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total ratio representing their ages is 7+11= <<7+11=18>>18\nSince the fraction of the ratio that represents Allen's age is 11/18, Allen's current age is 11/18*162 = <<11/18*162=99>>99\nIf Allen is currently 99 years old, in 10 years he will be 99+10 = <<99+10=109>>109 years old\n#### 109",
+	"responses": [
+		{
+			"old_rat_answer": "Let's start by using the information that Darrell and Allen's ages are in the ratio of 7:11. We can represent their ages as 7x and 11x, where x is a constant.\n\nWe are also given that their total age now is 162. We can write an equation based on this:\n\n7x + 11x = 162\n\nCombine like terms:\n\n18x = 162\n\nDivide both sides by 18:\n\nx = 9\n\nNow that we know x, we can find Darrell and Allen's current ages:\n\nDarrell's age = 7x = 7(9) = 63\nAllen's age = 11x = 11(9) = 99\n\nThe question asks for Allen's age 10 years from now. To find this, we add 10 to Allen's current age:\n\nAllen's age 10 years from now = 99 + 10 = 109\n\n#### 109\n\nTo calculate Allen's age 10 years from now, we simply add 10 to his current age: 99 + 10 = 109.\n\n#### 109",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, let's first express Darrell and Allen's ages using the given ratio of 7:11. We can represent their ages as 7x and 11x, respectively, where x is a common multiplier.\n\nGiven that their total age now is 162, we can set up the equation 7x + 11x = 162 to find the value of x.\n\nCombining like terms, we get 18x = 162. Dividing both sides by 18, we find x = 9.\n\nNow that we have the value of x, we can find Allen's current age by substituting x back into the expression for Allen's age: 11x = 11 * 9 = 99.\n\nTo calculate Allen's age 10 years from now, we simply add 10 to his current age: 99 + 10 = 109.\n\n#### 109",
+			"retrievals": 2
+		}
+	]
+}

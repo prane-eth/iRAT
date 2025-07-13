@@ -1,0 +1,13 @@
+{
+	"task_id": 809,
+	"prompt": "There are 10 quarts of tea left from the party. Four students each drank 1.5 quarts of tea and 16 students each drank 2 quarts of tea. How many gallons of tea were at the beginning of the party?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "4 students drank 1.5 quarts = 4 * 1.5 = <<4*1.5=6>>6 quarts\n16 students drank 2 quarts = 16 * 2 = <<16*2=32>>32 quarts\nStudents drank 6 + 32 quarts = <<6+32=38>>38 quarts\nStudents + tea left = 38 + 10 quarts = <<38+10=48>>48 quarts\n48 quarts = 12 gallons\nThe party started with 12 gallons of tea.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of tea at the beginning of the party, we first need to calculate the total amount of tea consumed by the students. Four students each drank 1.5 quarts of tea, so the total amount of tea they drank is 4 * 1.5 = 6 quarts.\n\n16 students each drank 2 quarts of tea, so the total amount of tea they drank is 16 * 2 = 32 quarts. Now, we add the amount of tea consumed by both groups of students to find the total amount of tea consumed: 6 quarts + 32 quarts = 38 quarts.\n\nThere are 10 quarts of tea left from the party, so to find the total amount of tea at the beginning of the party, we need to add the remaining tea to the total amount of tea consumed: 38 quarts + 10 quarts = 48 quarts.\n\nSince there are 4 quarts in a gallon, we need to convert the total amount of tea from quarts to gallons. To do this, we divide the total amount of tea in quarts by 4: 48 quarts / 4 = 12 gallons.\n\n#### 12 gallons",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total amount of tea at the beginning of the party, we first",
+			"retrievals": 0
+		}
+	]
+}

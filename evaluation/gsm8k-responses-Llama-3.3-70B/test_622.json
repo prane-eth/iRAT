@@ -1,0 +1,13 @@
+{
+	"task_id": 622,
+	"prompt": "John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each week he did 2*2=<<2*2=4>>4 hours of physical therapy\nSo it cost 4*125=$<<4*125=500>>500 per week\nThis means he spent 500*6=$<<500*6=3000>>3000\n#### 3000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the physical therapy, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the total cost of John's physical therapy, we need to calculate the total number of hours he spent in therapy and then multiply that by the cost per hour.\n\nFirst, we calculate the total number of sessions John had. He went to physical therapy for 6 weeks, and each week he went twice. So, the total number of sessions is 6 weeks * 2 sessions/week = 12 sessions.\n\nNext, we calculate the total number of hours John spent in therapy. Each session lasted for 2 hours, so the total number of hours is 12 sessions * 2 hours/session = 24 hours.\n\nNow, we can calculate the total cost of the physical therapy. The cost per hour is $125, so the total cost is 24 hours * $125/hour = $3000.\n\n#### $3000",
+			"retrievals": 1
+		}
+	]
+}

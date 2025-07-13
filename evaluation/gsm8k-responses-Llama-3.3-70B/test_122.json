@@ -1,0 +1,13 @@
+{
+	"task_id": 122,
+	"prompt": "Morisette and Kael were asked to bring fruits. Morisette brought 5 apples and 8 oranges, while Kael brought twice the amount of apples and half the number of oranges than Morisette. How many fruits do they have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Kael brought 5 x 2 = <<5*2=10>>10 apples.\nAnd he also brought 8 / 2 = <<8/2=4>>4 oranges.\nTherefore, Kael and Morisette brought 5 + 10 + 8 + 4 = <<5+10+8+4=27>>27 fruits in total.\n#### 27",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to calculate the total number of fruits Morisette and Kael brought.\n\nFirst, let's calculate the number of fruits Morisette brought:\n- Morisette brought 5 apples.\n- Morisette brought 8 oranges.\n- Total fruits Morisette brought = 5 apples + 8 oranges = 13 fruits.\n\nNext, let's calculate the number of fruits Kael brought:\n- Kael brought twice the amount of apples than Morisette, so Kael brought 2 * 5 = 10 apples.\n- Kael brought half the number of oranges than Morisette, so Kael brought 8 / 2 = 4 oranges.\n- Total fruits Kael brought = 10 apples + 4 oranges = 14 fruits.\n\nNow, let's add the total number of fruits Morisette and Kael brought:\n- Total fruits = Total fruits Morisette brought + Total fruits Kael brought = 13 + 14 = 27 fruits.\n\n#### 27",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of fruits Morisette brought\nMorisette brought 5 apples and 8 oranges, so the total number of fruits Morisette brought is 5 + 8 = 13.\n\n## Step 2: Calculate the number of fruits Kael brought\nKael brought twice the amount of apples than Morisette, which means Kael brought 2 * 5 = 10 apples. Kael also brought half the number of oranges than Morisette, so Kael brought 8 / 2 = 4 oranges. The total number of fruits Kael brought is 10 + 4 = 14.\n\n## Step 3: Calculate the total number of fruits they have together\nTo find the total number of fruits they have together, we add the total number of fruits Morisette and Kael each have. So, 13 (Morisette's fruits) + 14 (Kael's fruits) = 27 fruits.\n\nThe final answer is: #### 27",
+			"retrievals": 2
+		}
+	]
+}

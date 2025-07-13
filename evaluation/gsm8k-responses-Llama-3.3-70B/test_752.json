@@ -1,0 +1,13 @@
+{
+	"task_id": 752,
+	"prompt": "Gunther, the gorilla, had 48 bananas hidden under a fern branch.  When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile.  The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas.  On the third day, Gunther added another 6 bananas to his pile and began counting bananas.  How many bananas did Gunther find were in the pile?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of 48 bananas is 48/2=<<48/2=24>>24 bananas.\nArnold's first act of thievery removes 24 bananas, leaving 48-24=24 bananas.\nStarting with the remaining 24 bananas, adding 25 bananas to the pile brings the total to 24+25=<<24+25=49>>49 bananas.\nArnold's second act of thievery resulted in 49-12=<<49-12=37>>37 bananas remaining.\nGunther adds another 6 bananas, resulting in the final number of 37+6=<<37+6=43>>43 bananas.\n#### 43",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of bananas Gunther had at the end, we first start with the initial number of bananas he had, which was 48. \n\nArnold stole half of these bananas, so we calculate half of 48, which is 48 / 2 = 24 bananas stolen. This leaves Gunther with 48 - 24 = 24 bananas.\n\nThe next day, Gunther added 25 more bananas to his pile, bringing the total to 24 + 25 = 49 bananas. However, Arnold stole another 12 bananas that evening, leaving Gunther with 49 - 12 = 37 bananas.\n\nOn the third day, Gunther added another 6 bananas to his pile, so we add 6 to the 37 bananas he had, resulting in 37 + 6 = 43 bananas.\n\n#### 43",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many bananas Gunther had at the end, let's follow the events step by step.\n\nInitially, Gunther had 48 bananas. When Arnold stole half of them, Gunther was left with 48 / 2 = 24 bananas.\n\nThe next day, Gunther added 25 more bananas to his pile, bringing the total to 24 + 25 = 49 bananas. However, Arnold stole 12 bananas that evening, leaving Gunther with 49 - 12 = 37 bananas.\n\nOn the third day, Gunther added 6 more bananas to his pile. So, he had 37 + 6 = 43 bananas.\n\nTherefore, when Gunther began counting his bananas, he found that he had 43 bananas in the pile.\n\n#### 43",
+			"retrievals": 2
+		}
+	]
+}

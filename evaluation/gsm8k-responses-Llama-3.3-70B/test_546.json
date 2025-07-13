@@ -1,0 +1,13 @@
+{
+	"task_id": 546,
+	"prompt": "Jeff\u2019s work is 3 miles away.  He walks there and back each day he works.  How many miles does he walk if he has to work 5 times a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has to walk 3*2=<<3*2=6>>6 miles per workday\nThat means he walks 6*5=<<6*5=30>>30 miles a week\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total miles Jeff walks, we first need to calculate the distance he walks each day. Since his work is 3 miles away, he walks 3 miles to get there and 3 miles to get back home. \n\nThis means he walks a total of 3 + 3 = 6 miles each day he works. \n\nSince Jeff has to work 5 times a week, we multiply the daily distance by the number of days he works: 6 miles/day * 5 days/week = 30 miles/week.\n\n#### 30",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Introduction to the Problem\nThe problem states that Jeff's work is 3 miles away, and he walks there and back each day he works. We are asked to find out how many miles he walks if he has to work 5 times a week. This is a straightforward distance calculation problem that requires us to determine the daily distance Jeff walks and then multiply it by the number of days he works in a week.\n\n## Calculating Daily Distance\nTo determine the total miles Jeff walks, we first need to calculate the distance he walks each day. Since his work is 3 miles away, he walks 3 miles to get there and 3 miles to get back home. This means he walks a total of 3 + 3 = 6 miles each day he works.\n\n## Calculating Weekly Distance\nSince Jeff has to work 5 times a week, we multiply the daily distance by the number of days he works: 6 miles/day * 5 days/week = 30 miles/week.\n\n## Conclusion\nBased on the given information and calculations, Jeff walks a total of 30 miles per week.\n\n#### 30",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 671,
+	"prompt": "Robert had 3 pounds of candy, Cindy had 5 pounds of candy, and Aaron had 4 pounds of candy after Halloween. If they decide to pool and share their candy equally with each other, how much candy would each of them have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Robert had 3 pounds of candy, Cindy had 5 pounds of candy, and Aaron had 4 pounds of candy which equals 3 + 5 + 4 = <<3+5+4=12>>12 pounds of candy\nSince there are three of them (Robert, Cindy, and Aaron), they divide the candy into 3 equal portions. 12/3 = <<12/3=4>>4 pounds of candy\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much candy each of them would have if they share their candy equally, we first need to calculate the total amount of candy they have together. Robert had 3 pounds, Cindy had 5 pounds, and Aaron had 4 pounds.\n\nThe total amount of candy is the sum of what each of them had: 3 pounds (Robert) + 5 pounds (Cindy) + 4 pounds (Aaron) = 12 pounds.\n\nSince they want to share the candy equally among themselves, we need to divide the total amount of candy by the number of people, which is 3. So, each person would get 12 pounds / 3 = 4 pounds of candy.\n\n#### 4 pounds",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine the amount of candy each person would have if they share their candy equally",
+			"retrievals": 1
+		}
+	]
+}

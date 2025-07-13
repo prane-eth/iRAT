@@ -1,0 +1,13 @@
+{
+	"task_id": 698,
+	"prompt": "Great Grandma Jones has three children.  And each of her children has three children of their own, who are Great Grandma Jones' grandchildren.  And each of these grandchildren has three babies of their own, who are Great Grandma Jones' great grand-babies.  If all of the family show up at the family reunion, how many great grand-babies will be there for Great Grandma Jones to kiss?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three children each have three children, for a total of 3*3=<<3*3=9>>9 grandchildren.\n9 grandchildren each have 3 babies, for a total of 9*3=<<9*3=27>>27 great grand-babies\n#### 27",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of great grand-babies that Great Grandma Jones will have to kiss, we first start by determining the number of her children. Great Grandma Jones has three children.\n\nEach of these children has three children of their own, making them Great Grandma Jones' grandchildren. So, the total number of grandchildren is 3 children * 3 grandchildren per child = 9 grandchildren.\n\nNow, each of these 9 grandchildren has three babies of their own, who are Great Grandma Jones' great grand-babies. Therefore, the total number of great grand-babies is 9 grandchildren * 3 great grand-babies per grandchild = 27 great grand-babies.\n\n#### 27",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of great grand-babies that Great Grandma Jones will have to kiss, we first start by determining the number of her children. Great Grandma Jones has three children. Each of these children has three children of their own, making them Great Grandma Jones' grandchildren. So, the total number of grandchildren is 3 children * 3 grandchildren per child = 9 grandchildren.\n\nNow, each of these 9 grandchildren has three babies of their own, who are Great Grandma Jones' great grand-babies. Therefore, the total number of great grand-babies is 9 grandchildren * 3 great grand-babies per grandchild = 27 great grand-babies.\n\nIt's also important to consider that the question asks for the number of great grand-babies at the family reunion, which implies that we are only counting the great grand-babies and not the other family members. The presence of Great Grandma Jones' children and grandchildren at the reunion does not affect the count of great grand-babies.\n\n#### 27",
+			"retrievals": 0
+		}
+	]
+}

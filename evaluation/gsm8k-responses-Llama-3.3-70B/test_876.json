@@ -1,0 +1,13 @@
+{
+	"task_id": 876,
+	"prompt": "Paul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Paul has a total of 52 + 28 = <<52+28=80>>80 marbles.\nHe lost 1/4 x 80 = <<80/4=20>>20 marbles.\nTherefore, he has 80 - 20 = <<80-20=60>>60 marbles left.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Paul has left, we first need to calculate the total number of marbles he had after receiving 28 marbles from his friend. Paul initially had 52 marbles. His friend gave him 28 marbles, so we add these to his initial amount: 52 + 28 = 80 marbles.\n\nThen, Paul lost 1/4 of his marbles. To find out how many marbles he lost, we calculate 1/4 of 80, which is (1/4) * 80 = 20 marbles.\n\nNow, we subtract the marbles he lost from his total after receiving the gift: 80 - 20 = 60 marbles.\n\n#### 60",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many marbles Paul has left, first, we need to calculate the total number of marbles he had after his friend gave him 28 marbles. Paul started with 52 marbles and received 28 more, so he had 52 + 28 = 80 marbles.\n\nThen, Paul lost 1/4 of his marbles. To find out how many marbles he lost, we calculate 1/4 of 80, which is 80 * 1/4 = 20 marbles.\n\nAfter losing 20 marbles, Paul is left with 80 - 20 = 60 marbles.\n\n#### 60",
+			"retrievals": 1
+		}
+	]
+}

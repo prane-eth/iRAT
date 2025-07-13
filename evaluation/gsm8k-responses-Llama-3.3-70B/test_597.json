@@ -1,0 +1,13 @@
+{
+	"task_id": 597,
+	"prompt": "George needs to pay for dental work. He needs 2 implants. Each implant has a base price of $2000. For one of the implants, he wants a crown made of porcelain. That feature costs an extra $500. He\u2019s already put down a deposit of $600. He makes $15 per hour at work. How many hours does he need to work before he has enough to pay for the dental work?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total base cost of the implants is 2 * $2000 = $<<2*2000=4000>>4000.\nAdding the porcelain crown increases the total to $4000 + $500 = $<<4000+500=4500>>4500.\nSubtracting the deposit, George needs to pay a total of $4500 - $600 = $<<4500-600=3900>>3900.\nThis means George would need to work a total of $3900 / $15 per hour = <<3900/15=260>>260 hours.\n#### 260",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the dental work, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many hours George needs to work, we first calculate the total cost of the dental work. The base price for 2 implants is $2000 * 2 = $4000. Adding the extra $500 for the porcelain crown, the total cost is $4000 + $500 = $4500. Since George has already paid $600, he still needs $4500 - $600 = $3900. To find out how many hours he needs to work to earn this amount at $15 per hour, we divide the amount he needs by his hourly wage: $3900 / $15 = 260 hours.\n\n#### 260",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1246,
+	"prompt": "Mary is making ice cubes with fruit frozen in them for a cocktail party. She makes some strawberry cubes, and a number of blueberry cubes equal to 5 times the number of strawberry cubes minus 4. If she makes 116 ice cubes total, how many blueberry cubes does she make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let s be the number of strawberry cubes and b be the number of blueberry cubes. We know that b = 5s - 4 and s + b = 116.\nSubstituting the first equation into the second, we get s + 5s - 4 = 116.\nCombining like terms, we get 6s - 4 = 116\nAdding 4 to both sides, we get 6s = 120\nDividing both sides by 6, we get s = 20\nSubstituting this value back into the equation b = 5s - 4, we get b = 96\n#### 96",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of strawberry cubes as S and the number of blueberry cubes as B. We are given that B = 5S - 4. We also know that the total number of ice cubes is 116, so S + B = 116.\n\nWe can substitute the expression for B into the equation S + B = 116 to get S + (5S - 4) = 116. This simplifies to 6S - 4 = 116.\n\nAdding 4 to both sides of the equation gives 6S = 120.\n\nDividing both sides of the equation by 6 gives S = 20.\n\nNow that we know S, we can find B by substituting S into the equation B = 5S - 4. So, B = 5(20) - 4 = 100 - 4 = 96.\n\n#### 96",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Define the variables and the given information\nLet's denote the number of strawberry cubes as `S` and the number of blueberry cubes as `B`. We are given that the total number of ice cubes is 116, and the number of blueberry cubes is equal to 5 times the number of strawberry cubes minus 4. This can be represented as `B = 5S - 4`. We also know that the total number of ice cubes is the sum of strawberry and blueberry cubes, so `S + B = 116`.\n\n## Step 2: Substitute the expression for B into the total equation\nSubstituting `B = 5S - 4` into the equation `S + B = 116`, we get `S + (5S - 4) = 116`. Simplifying this equation will allow us to solve for `S`, the number of strawberry cubes.\n\n## Step 3: Solve for S\nCombining like terms, the equation becomes `6S - 4 = 116`. Adding 4 to both sides gives `6S = 120`. Dividing both sides by 6 yields `S = 20`. This means Mary makes 20 strawberry cubes.\n\n## Step 4: Calculate the number of blueberry cubes\nNow that we know `S = 20`, we can find `B` by substituting `S` into the equation `B = 5S - 4`. So, `B = 5(20) - 4 = 100 - 4 = 96`. Therefore, Mary makes 96 blueberry cubes.\n\n#### 96",
+			"retrievals": 1
+		}
+	]
+}

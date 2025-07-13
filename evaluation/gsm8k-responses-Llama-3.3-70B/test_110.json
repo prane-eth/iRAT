@@ -1,0 +1,13 @@
+{
+	"task_id": 110,
+	"prompt": "A local gas station is selling gas for $3.00 a gallon.  An app company is offering $.20 cashback per gallon if you fill up at this station.  If someone buys 10 gallons of gas, how much with their gas be, after the cashback rewards?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Gas is $3.00 a gallon and they buy 10 gallons of gas so that's 3*10 = $<<3*10=30.00>>30.00\nThe app is offering $0.20 cashback per gallon and they buy 10 gallons so that's .20*10 = $<<0.20*10=2.00>>2.00\nThey spent $30.00 on gas and their app is offering them $2.00 cashback so they spent 30-2 = $<<30-2=28.00>>28.00 per gallon\n#### 28",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total cost of the gas after the cashback rewards, we first need to determine the original cost of the gas and then subtract the cashback amount.\n\n1. The gas station sells gas for $3.00 a gallon.\n2. The person buys 10 gallons of gas.\n3. The original cost of the gas is $3.00 * 10 = $30.00.\n4. The app company offers $0.20 cashback per gallon.\n5. For 10 gallons, the cashback would be $0.20 * 10 = $2.00.\n6. Subtracting the cashback from the original cost: $30.00 - $2.00 = $28.00.\n\nTherefore, after the cashback rewards, the total cost of the gas would be $28.00.\n\n#### $28.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total cost of the gas after the cashback rewards, we first need to calculate the total cost of the gas before any rewards. The gas station is selling gas for $3.00 a gallon, and the person is buying 10 gallons of gas. The total cost of the gas can be calculated by multiplying the cost per gallon by the number of gallons purchased: $3.00 * 10 = $30.00.\n\nNext, we need to calculate the cashback reward. The app company is offering $0.20 cashback per gallon. Since the person is buying 10 gallons of gas, the total cashback reward can be calculated by multiplying the cashback per gallon by the number of gallons purchased: $0.20 * 10 = $2.00.\n\nNow, we subtract the cashback reward from the total cost of the gas to find the final cost after the reward: $30.00 - $2.00 = $28.00.\n\n#### $28.00",
+			"retrievals": 2
+		}
+	]
+}

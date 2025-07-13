@@ -1,0 +1,13 @@
+{
+	"task_id": 716,
+	"prompt": "A company wanted to buy 500 computers and had $700 for each computer. However, when they went to order, they realized the price of each computer was 10% higher than they had planned for. Calculate the total amount of money they paid to buy the computers at the new prices.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "When they went to order, the company realized the prices of each computer had increased by 10/100*700 = $<<10/100*700=70>>70\nThe total buying price at the new prize is $700+$70 = $<<700+70=770>>770\nSince they wanted to buy 500 computers, they paid a total of $770*500 = $<<770*500=385000>>385000\n#### 385000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money the company paid for the computers at the new prices, we first need to determine the new price of each computer. The company had initially planned for $700 per computer, but the price was 10% higher than planned.\n\nThe increase in price is 10% of $700. To find 10% of $700, we multiply $700 by 0.10. So, the increase is $700 * 0.10 = $70. \n\nThe new price per computer is the initial planned price plus the increase, which is $700 + $70 = $770.\n\nNow, to find the total amount paid for 500 computers at the new price, we multiply the number of computers by the new price per computer. So, the total amount paid is 500 * $770.\n\nPerforming the multiplication gives us 500 * $770 = $385,000.\n\n#### $385,000",
+			"old_rat_retrievals": 6,
+			"final_answer": "To calculate the total amount of money the company paid for the computers at the new prices, we first need to determine the new price of each computer. The company had initially planned for $700 per computer, but the price was 10% higher than planned. The increase in price is 10% of $700. To find 10% of $700, we multiply $700 by 0.10. So, the increase is $700 * 0.10 = $70. The new price per computer is the initial planned price plus the increase, which is $700 + $70 = $770.\n\nNow, to find the total amount paid for 500 computers at the new price, we multiply the number of computers by the new price per computer. So, the total amount paid is 500 * $770. Performing the multiplication gives us 500 * $770 = $385,000. \n\n#### $385,000",
+			"retrievals": 0
+		}
+	]
+}

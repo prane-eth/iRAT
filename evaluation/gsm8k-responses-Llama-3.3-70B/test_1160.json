@@ -1,0 +1,13 @@
+{
+	"task_id": 1160,
+	"prompt": "Carla just gave birth to identical octuplets. She dresses 3/4 of them in purple and 1/4 in blue. If all the blue-wearers and 1/3 of the purple wearers also wear bows, what is the percentage chance a baby wearing a bow is wearing purple?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of babies wearing purple: 3/4 * 8 babies = <<3/4*8=6>>6 babies\nThen multiply that number by 1/3 to find the number of babies wearing purple and bows: 6 babies * 1/3 = <<6*1/3=2>>2 babies\nThen subtract the number of purple-wearing babies from the total number of babies to find the number of blue-wearing babies: 8 babies - 6 babies = <<8-6=2>>2 babies\nNow divide the number of purple bow babies by the total number of bow babies to find the percentage chance a bow baby wears purple: 2 babies / (2 babies + 2 babies) = 2 babies / 4 babies = .5 * 100% = 50%\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percentage chance a baby wearing a bow is wearing purple, we first need to determine the total number of babies and how many are dressed in purple and blue. Carla has 8 babies (octuplets). She dresses 3/4 of them in purple and 1/4 in blue.\n\n3/4 of 8 is (3/4) * 8 = 6 babies dressed in purple, and 1/4 of 8 is (1/4) * 8 = 2 babies dressed in blue. Now, we know that all the blue-wearers (2 babies) and 1/3 of the purple wearers also wear bows. 1/3 of the 6 purple-wearers is (1/3) * 6 = 2 babies. So, in total, 2 (blue) + 2 (purple) = 4 babies wear bows.\n\nOut of the 4 babies wearing bows, 2 of them are wearing purple. To find the percentage chance that a baby wearing a bow is wearing purple, we calculate (2/4) * 100 = 50%.\n\n#### 50%",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of babies dressed in purple and blue.\nCarla has 8 babies. She dresses 3/4 of them in purple, which is (3/4) * 8 = 6 babies in purple. She dresses 1/4 of them in blue, which is (1/4) * 8 = 2 babies in blue.\n\n## Step 2: Determine the number of babies wearing bows.\nAll the blue-wearers (2 babies) wear bows. Additionally, 1/3 of the purple wearers also wear bows, which is (1/3) * 6 = 2 babies. So, in total, 2 (blue) + 2 (purple) = 4 babies wear bows.\n\n## Step 3: Calculate the percentage chance a baby wearing a bow is wearing purple.\nOut of the 4 babies wearing bows, 2 of them are wearing purple. To find the percentage chance that a baby wearing a bow is wearing purple, we calculate (2/4) * 100 = 50%.\n\n#### 50%",
+			"retrievals": 2
+		}
+	]
+}

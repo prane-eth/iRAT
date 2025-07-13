@@ -1,0 +1,19 @@
+{
+	"task_id": 42,
+	"prompt": "Write a function to remove similar rows from the given tuple matrix.?assert remove_similar_row([[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]] ) == {((2, 2), (4, 6)), ((3, 2), (4, 5))}",
+	"test_imports": [],
+	"test_list": [
+		"assert remove_similar_row([[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]] ) == {((2, 2), (4, 6)), ((3, 2), (4, 5))}",
+		"assert remove_similar_row([[(5, 6), (4, 3)], [(3, 3), (5, 7)], [(4, 3), (5, 6)]] ) == {((4, 3), (5, 6)), ((3, 3), (5, 7))}",
+		"assert remove_similar_row([[(6, 7), (5, 4)], [(4, 4), (6, 8)], [(5, 4), (6, 7)]] ) =={((4, 4), (6, 8)), ((5, 4), (6, 7))}"
+	],
+	"mbpp_code": "def remove_similar_row(test_list):\r\n  res = set(sorted([tuple(sorted(set(sub))) for sub in test_list]))\r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to remove similar rows from the given tuple\n\n \nThe unit test `assert remove_similar_row([[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]) == {((2, 2), (4, 6)), ((3, 2), (4, 5))}` will pass with this implementation, because the function correctly removes the duplicate row and returns a set of unique rows.",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we need to create a function that removes similar rows from a given tuple matrix. The function should take a 3D list (or a list of 2D lists) as input, where each inner list represents a row in the matrix, and each element in the inner list is a tuple.\n\nHere is the Python function that implements the above logic:\n```python\ndef remove_similar_row(matrix):\n    unique_rows = set()\n    for row in matrix:\n        sorted_row = tuple(sorted(row))\n        unique_rows.add(sorted_row)\n    return unique_rows\n```\nThis function works by iterating over each row in the input matrix, sorting the tuples in the row, and adding the sorted row to the set of unique rows. Since sets automatically remove duplicates, this function will return a set of unique rows from the input matrix.\n\nFor example, the unit test `assert remove_similar_row([[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]) == {((2, 2), (4, 6)), ((3, 2), (4, 5))}` will pass with this implementation, because the function correctly removes the duplicate row and returns a set of unique rows.",
+			"retrievals": 4
+		}
+	]
+}

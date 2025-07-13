@@ -1,0 +1,13 @@
+{
+	"task_id": 498,
+	"prompt": "Paul is driving a car twice a day: in the morning, and in the afternoon. He did that for 14 days. Each morning ride cost him about $6, and each afternoon ride, about $2. How much money did he spend on driving his car during these two weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Paul's morning rides cost him 14 * 6 = $<<14*6=84>>84.\nDriving in the afternoon, on the other hand, was a cost of 14 * 2 = $<<14*2=28>>28.\nSo in total Paul spend on driving 84 + 28 = $<<84+28=112>>112.\n#### 112",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total amount of money Paul spent on driving his car during the two",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how much money Paul spent on driving his car during these two weeks, we need to calculate the total cost of his morning and afternoon rides over 14 days.\n\nEach day, Paul spends $6 in the morning and $2 in the afternoon, making his daily expenditure $6 + $2 = $8.\n\nSince he did this for 14 days, the total cost is $8 * 14 = $112.\n\n#### $112",
+			"retrievals": 1
+		}
+	]
+}

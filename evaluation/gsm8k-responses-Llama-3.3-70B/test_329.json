@@ -1,0 +1,13 @@
+{
+	"task_id": 329,
+	"prompt": "The cell-phone recharges at the rate of 1 percentage-point of charge per 3 minutes. Now, the phone is at 60% charged. How long will it take to fully charge, in hours?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "100-60=<<100-60=40>>40 percentage points.\nThen 40*3=<<40*3=120>>120 minutes to fully charge.\nAnd 120/60=<<120/60=2>>2 hours.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how long it will take to fully charge the phone from 60% charged, we first need to determine how many percentage points are needed to reach 100% charge. Since the phone is at 60%, it needs 40% more to be fully charged (100% - 60% = 40%).\n\nGiven that the phone recharges at a rate of 1 percentage-point of charge per 3 minutes, we can calculate the time it takes to charge 40% as follows:\n\n- Time to charge 1% = 3 minutes\n- Time to charge 40% = 40 * 3 minutes = 120 minutes\n\nTo convert 120 minutes into hours, we divide by 60 (since there are 60 minutes in an hour):\n\n120 minutes / 60 = 2 hours\n\nTherefore, it will take 2 hours to fully charge the phone from 60% charged.\n\n#### 2 hours",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the amount of charge needed to fully charge the phone.\nThe phone is currently at 60% charge and needs to reach 100%. Therefore, it needs 100% - 60% = 40% more charge.\n\n## Step 2: Calculate the time required to recharge 40% of the phone's battery.\nThe phone recharges at a rate of 1 percentage-point of charge per 3 minutes. To find out how long it takes to recharge 40%, we multiply the percentage points needed by the minutes per percentage point: 40 * 3 = 120 minutes.\n\n## Step 3: Convert the total minutes into hours.\nTo convert minutes into hours, we divide the total minutes by 60 since there are 60 minutes in an hour. Thus, 120 minutes / 60 = 2 hours.\n\nThe final answer is: #### 2",
+			"retrievals": 2
+		}
+	]
+}

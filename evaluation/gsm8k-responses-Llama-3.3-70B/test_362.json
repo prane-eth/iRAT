@@ -1,0 +1,13 @@
+{
+	"task_id": 362,
+	"prompt": "A train travels between 3 different cities.  It goes 75 miles from the first city to the second city, 100 miles from the second city to the third city, and 50 miles less than that combined distance to go from the third city to the first city.  It does this trip 3 times a day.  The train needs service every 18,000 miles so how many days does it go between services?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "It takes 100+75=<<100+75=175>>175 miles for the first two legs of the trip\nThe third leg is 175-50=<<175-50=125>>125 miles\nSo the total trip is 175+125=<<175+125=300>>300 miles\nSo it goes 3*300=<<3*300=900>>900 miles per day\nSo it can go 18000/900=<<18000/900=20>>20 days between services.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many days the train goes between services, we first need to calculate the total distance it travels in one trip. The train travels 75 miles from the first city to the second city and 100 miles from the second city to the third city. \n\nThe distance from the third city to the first city is 50 miles less than the combined distance of the first two legs. The combined distance of the first two legs is 75 + 100 = 175 miles. So, the distance from the third city to the first city is 175 - 50 = 125 miles.\n\n`\nNow, we calculate the total distance traveled in one trip: 75 + 100 + 125 = 300 miles.\n\n`\nThe train does this trip 3 times a day, so the total distance it travels in a day is 300 * 3 = 900 miles.\n\n`\nTo find out how many days it goes between services, we divide the total miles it can travel before needing service (18,000 miles) by the miles it travels in one day (900 miles). 18,000 / 900 = 20.\n\n#### 20",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many days the train goes between services, we first need to calculate the total distance it travels in one trip. The train goes 75 miles from the first city to the second city and 100 miles from the second city to the third city. The combined distance of these two legs is 75 + 100 = 175 miles. It then travels 50 miles less than this combined distance to go from the third city to the first city, which is 175 - 50 = 125 miles.\n\nThe total distance traveled in one trip is 75 + 100 + 125 = 300 miles. Since the train does this trip 3 times a day, the daily distance traveled is 300 * 3 = 900 miles.\n\nThe train needs service every 18,000 miles. To find out how many days it goes between services, we divide the service interval by the daily distance traveled: 18,000 / 900 = 20 days.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 341,
+	"prompt": "Josh decides to take up juggling to perform at the school talent show a month in the future.  He starts off practicing juggling 3 balls, and slowly gets better adding 1 ball to his juggling act each week.  After the end of the fourth week the talent show begins, but when Josh walks on stage he slips and drops three of his balls.  2 of them are caught by people in the crowd as they roll off the stage, but one gets lost completely since the auditorium is dark.  With a sigh, Josh starts to juggle on stage with how many balls?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Josh starts with 3 balls and adds 1 ball each week for 4 weeks for a total of 3+4=<<3+4=7>>7\nJosh drops 3 balls when he trips on stage leaving him with 7-3= <<7-3=4>>4 balls\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of balls Josh starts to juggle on stage, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the initial number of balls Josh starts with\nJosh starts off practicing juggling 3 balls.\n\n## Step 2: Calculate the number of balls Josh adds each week\nHe slowly gets better adding 1 ball to his juggling act each week.\n\n## Step 3: Determine the total number of weeks Josh practices\nAfter the end of the fourth week the talent show begins, so Josh practices for 4 weeks.\n\n## Step 4: Calculate the total number of balls Josh is juggling after 4 weeks\nSince Josh starts with 3 balls and adds 1 ball each week, after 4 weeks he will be juggling 3 + 4 = 7 balls.\n\n## Step 5: Determine the number of balls Josh drops\nWhen Josh walks on stage he slips and drops three of his balls.\n\n## Step 6: Calculate the number of balls recovered by the crowd\n2 of the dropped balls are caught by people in the crowd as they roll off the stage.\n\n## Step 7: Calculate the number of balls Josh has left to juggle\nAfter dropping 3 balls, Josh has 7 - 3 = 4 balls left. Then, 2 of the dropped balls are recovered by the crowd, so Josh now has 4 + 2 = 6 balls to juggle.\n\n#### 6",
+			"retrievals": 1
+		}
+	]
+}

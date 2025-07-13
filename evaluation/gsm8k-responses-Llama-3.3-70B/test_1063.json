@@ -1,0 +1,13 @@
+{
+	"task_id": 1063,
+	"prompt": "Hannah slips on a banana peel and breaks her arm. The doctor charges her $200 for the cast, $300/hour for a 30-minute visit, $4/pill for 30 painkillers, and $6/hour for a mandatory minimum of 2 hours of parking. How much does the doctor's visit cost total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the length of the visit in hours: 30 minutes / 60 minutes/hour = <<30/60=.5>>.5 hours\nThen find the total cost of the visit: $300/hour * .5 hours = $<<300*.5=150>>150\nThen find the total cost of the painkillers: $4/pill * 30 pills = $<<4*30=120>>120\nThen find the cost of the parking: $6/hour * 2 hours = $<<6*2=12>>12\nThen add all the different costs to find the total cost: $12 + $120 + $150 + $200 = $<<12+120+150+200=482>>482\n#### 482",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the doctor's visit, we first need to break down each component of the cost and calculate it individually. \n\nThe cost of the cast is $200. The doctor charges $300/hour for a 30-minute visit. Since there are 60 minutes in an hour, a 30-minute visit is half an hour. So, the cost for the visit is $300 * 0.5 = $150.\n\nThe cost of 30 painkillers at $4/pill is 30 * $4 = $120. \n\nFor the parking, the charge is $6/hour for a minimum of 2 hours. So, the cost for parking is $6 * 2 = $12.\n\nNow, we need to add up all these costs to find the total cost of the doctor's visit.\n\nThe total cost is $200 (cast) + $150 (visit) + $120 (painkillers) + $12 (parking) = $482.\n\n#### $482",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find the total cost of Hannah's doctor's visit, we need to calculate the cost of each component and then add them together. \n\nFirst, the cast costs $200. \nThen, the doctor's visit is $300/hour, but since the visit is only 30 minutes, we need to calculate the cost for half an hour, which is $300 * 0.5 = $150.\nNext, the cost of 30 painkillers at $4/pill is 30 * $4 = $120.\nLastly, the mandatory minimum of 2 hours of parking at $6/hour costs $6 * 2 = $12.\n\nNow, we add up all these costs: $200 (cast) + $150 (visit) + $120 (painkillers) + $12 (parking) = $482.\n\n#### $482",
+			"retrievals": 4
+		}
+	]
+}

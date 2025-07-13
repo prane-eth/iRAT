@@ -1,0 +1,13 @@
+{
+	"task_id": 202,
+	"prompt": "John wins an award at work.  The award has a 1 time monetary reward of $5000 and a 5% raise in salary.  If he makes 2000 a week, every week of the year and he got the award on the first day of the year how much money did he make that year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He makes 2000*52=$<<2000*52=104000>>104,000 a year\nSo the raise is worth .05*104,000=$<<.05*104000=5200>>5200\nSo he makes 104,000+5200=$<<104000+5200=109200>>109,200 from his salary\nSo in total he made 109,200+5,000=$<<109200+5000=114200>>114,200\n#### 114,200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money John made that year, we first need to determine his salary before and after the raise. John makes $2000 a week. Since there are 52 weeks in a year, his initial annual salary is $2000 * 52 = $104,000.\n\n \nGiven that John received a 5% raise, we calculate the raise amount as 5% of his weekly salary: $2000 * 0.05 = $100. Therefore, his new weekly salary after the raise is $2000 + $100 = $2100. The new annual salary after the raise is $2100 * 52 = $109,200.\n\n \nHowever, since John received the award on the first day of the year, he only received his raised salary for the entire year, but we must also account for the one-time monetary reward of $5000. Thus, his total earnings for the year would be his new annual salary plus the award: $109,200 + $5000 = $114,200.\n\n#### $114,200",
+			"old_rat_retrievals": 0,
+			"final_answer": "To calculate the total amount of money John made that year, we first need to calculate his earnings before and after the raise. John makes $2000 a week. Since there are 52 weeks in a year, his total earnings before the raise would be $2000 * 52 = $104,000.\n\nHowever, since John got a 5% raise on the first day of the year, we need to calculate his new weekly salary. A 5% raise on $2000 would be $2000 * 0.05 = $100. So, his new weekly salary is $2000 + $100 = $2100.\n\nGiven that he got the raise on the first day of the year, his earnings for the year would be his new weekly salary multiplied by the number of weeks in a year, which is $2100 * 52 = $109,200.\n\nAdditionally, John received a one-time monetary reward of $5000. So, to find his total earnings for the year, we add the reward to his total salary: $109,200 + $5000 = $114,200.\n\n#### $114,200",
+			"retrievals": 2
+		}
+	]
+}

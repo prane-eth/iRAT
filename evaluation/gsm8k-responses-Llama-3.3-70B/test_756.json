@@ -1,0 +1,13 @@
+{
+	"task_id": 756,
+	"prompt": "Joey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Saturday, Joey played 2 * 2 = <<2*2=4>>4 matches.\nFor the whole week, Joey played 2 + 1 + 4 = <<2+1+4=7>>7 matches in total.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many matches Joey played in one week, we need to calculate",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many matches Joey played in one week, we need to calculate the total number of matches he played on each day and then add them together. Joey played 2 matches on Monday and 1 match on Friday. On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday. Now, let's add up all the matches: 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches. \n\n#### 7",
+			"retrievals": 1
+		}
+	]
+}

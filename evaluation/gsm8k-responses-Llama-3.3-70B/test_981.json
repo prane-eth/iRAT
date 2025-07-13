@@ -1,0 +1,13 @@
+{
+	"task_id": 981,
+	"prompt": "Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother, and her friend gave her twice as many as her mother gave.  How many beads did Adrianne have altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Adrianne received 20 +10 = <<20+10=30>>30 beads from her sister.\nAnd, she received 2 x 20 = <<2*20=40>>40 beads from her friend.\nTherefore, Adrianne had 20 + 30 + 40 = <<20+30+40=90>>90 beads altogether.\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many beads Adrianne has altogether, we first need to determine the number of beads each person gave her. Her mother gave her 20 metallic beads.\n\nHer sister gave her ten more beads than her mother. Since her mother gave her 20 beads, her sister gave her 20 + 10 = 30 beads. \n\nHer friend gave her twice as many beads as her mother gave. Since her mother gave her 20 beads, her friend gave her 2 * 20 = 40 beads.\n\nNow, we need to add up all the beads Adrianne received: 20 (from her mother) + 30 (from her sister) + 40 (from her friend) = 90 beads.\n\n#### 90",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many beads Adrianne has altogether, we first need to determine the number of beads each person gave her. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother. Since her mother gave her 20 beads, her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many beads as her mother gave. Since her mother gave her 20 beads, her friend gave her 2 * 20 = 40 beads.\n\nNow, we need to add up all the beads Adrianne received: 20 (from her mother) + 30 (from her sister) + 40 (from her friend) = 90 beads. \n#### 90",
+			"retrievals": 0
+		}
+	]
+}

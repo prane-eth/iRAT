@@ -1,0 +1,13 @@
+{
+	"task_id": 700,
+	"prompt": "There is space for 20 pencils in the box. If there are 4 pencils missing from the box, how many pairs of pencils are in the box?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the box there are 20 pencils - 4 pencils = <<20-4=16>>16 pencils.\nDividing into pairs we have 16 pencils / 2 pencils/pair = 8 pairs of pencils\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of pairs of pencils in the box, we first need to determine how many pencils are actually in the box. The box has space for 20 pencils, but there are 4 pencils missing. \n\nSo, the total number of pencils in the box can be calculated by subtracting the number of missing pencils from the total capacity of the box. total_pencils = 20 - 4 = 16.\n\nNow that we know there are 16 pencils in the box, we can calculate the number of pairs. Since a pair consists of 2 pencils, we divide the total number of pencils by 2 to find the number of pairs. pairs_of_pencils = total_pencils / 2 = 16 / 2 = 8.\n\n#### 8",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of pairs of pencils in the box, we first need to determine the total number of pencils currently in the box. The box has space for 20 pencils, but there are 4 pencils missing. So, the total number of pencils in the box is 20 - 4 = 16.\n\nNow that we know there are 16 pencils in the box, we can calculate the number of pairs. Since a pair consists of 2 pencils, we divide the total number of pencils by 2 to find the number of pairs. pairs_of_pencils = total_pencils / 2 = 16 / 2 = 8.\n\n#### 8",
+			"retrievals": 2
+		}
+	]
+}

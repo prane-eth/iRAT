@@ -1,0 +1,13 @@
+{
+	"task_id": 181,
+	"prompt": "Two candidates are running for class representative at Sarai's school. If the winner got 3/4 of the votes and the total number of students who voted in the class was 80, calculate the number of votes the loser got.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The winner got 3/4*80 = <<3/4*80=60>>60 votes.\nThe loser got 80-60 = <<80-60=20>>20 votes.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To find the number of votes the loser got, we first need to calculate the\n\nThe loser's votes = Total votes - Winner's votes = 80 - 60 = 20 votes.\n\n#### 20",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find the number of votes the loser got, we first need to calculate the number of votes the winner received. Since the winner got 3/4 of the votes, we can calculate this by multiplying the total number of votes by 3/4. The total number of votes is given as 80. So, the winner's votes would be 80 * (3/4) = 60.\n\nThe total number of votes is 80, and the winner received 60 votes. To find the number of votes the loser received, we subtract the winner's votes from the total number of votes. Therefore, the loser's votes would be 80 - 60 = 20.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

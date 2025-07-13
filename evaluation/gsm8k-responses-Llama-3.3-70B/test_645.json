@@ -1,0 +1,13 @@
+{
+	"task_id": 645,
+	"prompt": "Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Steve's wife is 60+4=<<60+4=64>>64 years old.\nSteve's son is 64/2=<<64/2=32>>32 years old.\nHis wife is 32-3=<<32-3=29>>29 years old.\n#### 29",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the age of Steve's son's wife, we first need to calculate the ages of the other family members based on the information given. Steve is 60 years old, and his wife is 4 years older than him.\n\nThis means Steve's wife is 60 + 4 = 64 years old. Their son is half as old as his mom, so the son's age is 64 / 2 = 32 years old.\n\nThe son's wife is 3 years younger than her husband, who is 32 years old. Therefore, the son's wife's age is 32 - 3 = 29 years old.\n\n#### 29",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the age of Steve's son's wife, we first need to calculate the ages of other family members. Steve is 60 years old, and his wife is 4 years older than him, so his wife is 60 + 4 = 64 years old. Their son is half as old as his mom, which means he is 64 / 2 = 32 years old. Since the son's wife is 3 years younger than her husband, she is 32 - 3 = 29 years old.\n\n#### 29",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 556,
+	"prompt": "John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He gets paid 2*5=$<<2*5=10>>10 a day.\nSo he gets paid 10*4=$<<10*4=40>>40 a week.\nThat means it would take 80/40=<<80/40=2>>2 weeks to save up the money.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many weeks it will take John to save $80, we first need to calculate how much he earns per week. John gets paid $2 per hour and works 5 hours a day. \n\nSo, his daily earnings are $2 * 5 = $10 per day. Since he works 4 days a week, his weekly earnings are $10 * 4 = $40 per week.\n\nNow, we need to find out how many weeks it will take him to save $80. To do this, we divide the amount he wants to save ($80) by his weekly earnings ($40).\n\nThe calculation is $80 / $40 = 2 weeks.\n\n#### 2",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate Daily Earnings\nTo determine how many weeks it",
+			"retrievals": 1
+		}
+	]
+}

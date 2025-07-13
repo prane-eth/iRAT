@@ -1,0 +1,19 @@
+{
+	"task_id": 36,
+	"prompt": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not.?assert Check_Solution(2,0,2) == \"Yes\"",
+	"test_imports": [],
+	"test_list": [
+		"assert Check_Solution(2,0,2) == \"Yes\"",
+		"assert Check_Solution(2,-5,2) == \"Yes\"",
+		"assert Check_Solution(1,2,3) == \"No\""
+	],
+	"mbpp_code": "def Check_Solution(a,b,c): \r\n    if (a == c): \r\n        return (\"Yes\"); \r\n    else: \r\n        return (\"No\");",
+	"responses": [
+		{
+			"old_rat_answer": "Of course! I'll help you create a Python function to determine if the roots of a quadratic equation are reciprocals of each other. This solution will provide a clear and concise way to check for reciprocal roots. Here is the implementation:\n\n```python\nimport math\n\ndef Check_Solution(a, b, c):\n    determinant = b**2 - 4*a*c\n    if determinant < 0:\n        return \"No\"\n    root1 = (-b + math.sqrt(determinant)) / (2*a)\n    root2 = (-b - math.sqrt(determinant)) / (2*a)\n    if root1 * root2 == 1:\n        return \"Yes\"\n    else:\n        return \"No\"\n```\n\n### Explanation\n\n* The function `Check_Solution` takes the coefficients `a`, `b`, and `c` of the quadratic equation as input and calculates the determinant `b**2 - 4*a*c` to check if the roots are real or complex.\n* It then calculates the two roots `root1` and `root2` using the quadratic formula and checks if their product is equal to 1, indicating that they are reciprocals of each other.\n* If the product of the roots is 1, the function returns 'Yes', otherwise it returns 'No'.\n* Note that this function assumes that the input coefficients `a`, `b`, and `c` are valid and that the quadratic equation has real or complex roots.\n\nThis solution is straightforward and efficient, as it directly uses the properties of quadratic equations and Vieta's formulas to check the condition.",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Checking if Roots of a Quadratic Equation are Reciprocal\n\nTo determine if the roots of a quadratic equation are reciprocal of each other, we can use Vieta's formulas. A quadratic equation is of the form \\(ax^2 + bx + c = 0\\), and Vieta's formulas tell us that for roots \\(r_1\\) and \\(r_2\\), the product of the roots \\(r_1 \\cdot r_2 = \\frac{c}{a}\\).\n\n### Python Function to Check for Reciprocal Roots\n\nWe can write a Python function that takes the coefficients \\(a\\), \\(b\\), and \\(c\\) of the quadratic equation as input and returns \"Yes\" if the roots are reciprocal of each other and \"No\" otherwise.\n\n```python\ndef Check_Solution(a, b, c):\n    # Calculate the product of the roots using Vieta's formulas\n    product_of_roots = c / a\n    \n    # Check if the product of the roots is 1 (indicating reciprocal roots)\n    if product_of_roots == 1:\n        return \"Yes\"\n    else:\n        return \"No\"\n\n# Example usage\nprint(Check_Solution(2, 0, 2))  # Expected output: \"Yes\"\n```\n\nThis function works by first calculating the product of the roots using the formula \\(\\frac{c}{a}\\). If this product equals 1, it means that the roots are reciprocal of each other, so the function returns \"Yes\". Otherwise, it returns \"No\". The example usage demonstrates how to use this function with a specific quadratic equation.",
+			"retrievals": 4
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 916,
+	"prompt": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Wednesday, Bruce works for 2 * 5 = <<2*5=10>>10 hours.\nOn Thursday, Bruce works for 10 \u2013 2 = <<10-2=8>>8 hours.\nOn these three days, Bruce works for 5 + 10 + 8 = <<5+10+8=23>>23 hours.\n#### 23",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total hours Bruce works in the three days, we need to calculate the hours worked each day and then sum them up. \nFirst, let's calculate the hours worked on Tuesday, which is given as 5 hours.\n\nOn Wednesday, Bruce works twice the time he works on Tuesday. So, the hours worked on Wednesday = 2 * hours worked on Tuesday = 2 * 5 = 10 hours.\n\nNext, we calculate the hours worked on Thursday, which is 2 hours less than the time worked on Wednesday. So, the hours worked on Thursday = hours worked on Wednesday - 2 = 10 - 2 = 8 hours.\n\nNow, we add up the hours worked on each day to find the total hours worked in the three days: Total hours = hours worked on Tuesday + hours worked on Wednesday + hours worked on Thursday = 5 + 10 + 8 = 23 hours.\n\n#### 23",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the hours worked on Tuesday\nBruce works for 5 hours on Tuesday.\n\n## Step 2: Calculate the hours worked on Wednesday\nOn Wednesday, he works twice the time he works on Tuesday, which is 2 * 5 = 10 hours.\n\n## Step 3: Calculate the hours worked on Thursday\nOn Thursday, he works 2 hours less than the time he works on Wednesday, which is 10 - 2 = 8 hours.\n\n## Step 4: Calculate the total hours worked in all three days\nTo find the total hours worked, we add the hours worked on Tuesday, Wednesday, and Thursday: 5 + 10 + 8 = 23 hours.\n\n#### 23",
+			"retrievals": 1
+		}
+	]
+}

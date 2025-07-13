@@ -1,0 +1,13 @@
+{
+	"task_id": 524,
+	"prompt": "The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The Bakery sold 93 + 39 = <<93+39=132>>132 loaves.\nThe Bakery made 200 loaves and sold 132, leaving 200 - 132 = <<200-132=68>>68 loaves remaining.\nThe grocery store returned 6 loaves, so there were 6 + 68 = <<6+68=74>>74 loaves left.\n#### 74",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many loaves of bread the Beverly Hills Bakery had left, we first need to calculate the total number of loaves sold. \nThe bakers sold 93 loaves in the morning and 39 loaves in the afternoon, so the total number of loaves sold is 93 + 39 = 132 loaves.\n\n`\nNext, we subtract the total number of loaves sold from the total number of loaves baked to find out how many loaves were left before any returns. \n200 loaves were baked, and 132 loaves were sold, so 200 - 132 = 68 loaves were left before any returns.\n\n`\nThen, we need to account for the returned loaves. \nA grocery store returned 6 unsold loaves, which means these loaves are added back to the bakery's stock. \nSo, we add the returned loaves to the loaves left before returns: 68 + 6 = 74 loaves.\n\n#### 74",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of loaves sold\nThe bakers sold 93 loaves in the morning and 39 loaves in the afternoon. To find the total number of loaves sold, we add these two numbers together: 93 + 39 = 132.\n\n## Step 2: Calculate the total number of loaves after sales and returns\nThe bakery started with 200 loaves. After selling 132 loaves, they had 200 - 132 = 68 loaves left. Then, a grocery store returned 6 unsold loaves, so we add these back to the total: 68 + 6 = 74.\n\n## Step 3: Determine the final number of loaves left\nConsidering the sales and the return, the bakery had 74 loaves of bread left.\n\nThe final answer is: #### 74",
+			"retrievals": 3
+		}
+	]
+}

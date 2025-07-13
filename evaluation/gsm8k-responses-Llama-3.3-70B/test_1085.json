@@ -1,0 +1,13 @@
+{
+	"task_id": 1085,
+	"prompt": "If Sam and Harry have 100 feet of fence between them, and they agree to split it with Harry getting 60 feet more than Sam, how much is left over for Sam?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x be the amount of fence Sam gets and y be the amount Harry gets. We know that y = x + 60, and y + x = 100.\nSubstituting the first equation into the second equation, we get 2x+60=100\nSubtracting the 60 from both sides, we get 2x=40\nWe divide each side by two, leaving x=20. This means Sam has 20 feet of fence left over.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much fence is left over for Sam, we first need to set up an equation based on the information given. Let's denote the amount of fence Sam gets as `S` and the amount Harry gets as `H`. We know that the total amount of fence is 100 feet, so `S + H = 100`. We are also told that Harry gets 60 feet more than Sam, which we can write as `H = S + 60`.\n\n \nWe can substitute the second equation into the first one to solve for `S`. So, substituting `H = S + 60` into `S + H = 100`, we get `S + (S + 60) = 100`. Simplifying this, we get `2S + 60 = 100`.\n\n \nTo solve for `S`, we subtract 60 from both sides of the equation `2S + 60 = 100`, which gives us `2S = 40`. Then, we divide both sides by 2 to find `S = 20`. This means Sam gets 20 feet of the fence.\n\n#### 20",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how much fence is left over for Sam, we need to understand the distribution based on the agreement. Let's denote the amount of fence Sam gets as `S` and the amount Harry gets as `H`. The total length of the fence is 100 feet, so we have `S + H = 100`. We also know that Harry gets 60 feet more than Sam, which can be expressed as `H = S + 60`.\n\nSubstituting `H = S + 60` into the equation `S + H = 100`, we get `S + (S + 60) = 100`. Simplifying this equation, we get `2S + 60 = 100`. To solve for `S`, we subtract 60 from both sides, resulting in `2S = 40`. Dividing both sides by 2 gives us `S = 20`. Therefore, Sam gets 20 feet of the fence.\n\nThe question asks how much is left over for Sam, implying the amount Sam receives after the split. Since we found that Sam gets 20 feet, this directly answers the question about the amount left over for Sam after the agreement with Harry.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

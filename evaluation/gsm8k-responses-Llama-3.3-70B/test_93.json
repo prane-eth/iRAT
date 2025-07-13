@@ -1,0 +1,13 @@
+{
+	"task_id": 93,
+	"prompt": "Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "James is 10 and 1 year younger than Corey, so Corey is 10 + 1 = <<10+1=11>>11 years old\nAmy is 2 years younger than Corey so is 11 - 2 = 9 years old\nAmy is also 5 years older than Jackson, so Jackson is 9 - 5 = <<9-5=4>>4 years old\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "Let's break down the information given in the problem:\n\n1. Amy is 5 years older than Jackson.\n2. Amy is 2 years younger than Corey.\n3. James is 10 years old and is 1 year younger than Corey.\n\nFrom point 3, we know that Corey is 1 year older than James, so Corey is 10 + 1 = 11 years old.\n\nFrom point 2, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nFrom point 1, we know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\n#### 4\n\n#### 4",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine Corey's Age\nFirst, we need to find Corey's age. Since James is 10 years old and is 1 year younger than Corey, Corey must be 10 + 1 = 11 years old.\n\n## Step 2: Determine Amy's Age\nGiven that Amy is 2 years younger than Corey, and Corey is 11 years old, we can calculate Amy's age as 11 - 2 = 9 years old.\n\n## Step 3: Determine Jackson's Age\nWe know that Amy is 5 years older than Jackson. Since Amy is 9 years old, we can calculate Jackson's age by subtracting 5 from Amy's age: 9 - 5 = 4 years old.\n\n## Step 4: Conclusion\nBased on the given information and the calculated ages, we can determine Jackson's age.\n\n#### 4",
+			"retrievals": 1
+		}
+	]
+}

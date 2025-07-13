@@ -1,0 +1,13 @@
+{
+	"task_id": 1223,
+	"prompt": "Luke is buying fabric for new curtains. There are five windows. Each window is 35 inches wide and Luke needs to buy fabric equal to 2 times the total width of the windows. How much fabric should he buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total width of the five windows is 35 x 5 = <<35*5=175>>175 inches.\nLuke needs to buy 175 x 2 = <<175*2=350>>350 inches of fabric.\n#### 350",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much fabric Luke should buy, we first need to calculate the total width of all the windows. Since there are five windows and each window is 35 inches wide, we multiply the number of windows by the width of each window.\n\nThe total width of the windows is calculated as 5 windows * 35 inches/window = 175 inches.\n\nSince Luke needs to buy fabric equal to 2 times the total width of the windows, we then multiply the total width by 2.\n\nThe total amount of fabric needed is 2 * 175 inches = 350 inches.\n\n#### 350 inches",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine the amount of fabric Luke should buy for his curtains, we first need to calculate the total width of all the windows. Since there are five windows, each 35 inches wide, we multiply the number of windows by the width of each window: 5 windows * 35 inches/window = 175 inches.\n\nGiven that Luke needs to buy fabric equal to 2 times the total width of the windows, we multiply the total width of the windows by 2: 2 * 175 inches = 350 inches. This calculation directly addresses Luke's requirement, providing the total amount of fabric needed in inches.\n\n#### 350 inches",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1214,
+	"prompt": "Stephen borrowed $300 from his sister and promised to return it with an additional 2% of the money he owed. For 11 months Stephen will give his sister $25 per month and the remaining amount, including the interest, will be paid on the twelfth month. How much will Stephen pay in the twelfth month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Stephen will pay an additional $300 x 2/100 = $<<300*2/100=6>>6.\nHe should return a total of $300 + $6 = $<<300+6=306>>306.\nFor eleven months Stephen will pay a total of $25 x 11 = $<<25*11=275>>275.\nTherefore, Stephen will pay 306 - 275 = $<<306-275=31>>31 on the twelfth month.\n#### 31",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Stephen will pay in the twelfth month, we first need to calculate the total amount he owes, including the interest. Stephen borrowed $300 and promised to return it with an additional 2% of the money he owed. \n\nThe interest on the $300 can be calculated as 2% of $300, which is $300 * 0.02 = $6. So, the total amount Stephen owes is $300 (the initial borrow) + $6 (the interest) = $306.\n\nNext, we need to calculate how much Stephen will pay in the first 11 months. He will give his sister $25 per month for 11 months. The total amount he pays in the first 11 months is $25 * 11 = $275.\n\nNow, to find out how much Stephen will pay in the twelfth month, we subtract the amount he paid in the first 11 months from the total amount he owes. So, $306 (total owed) - $275 (paid in the first 11 months) = $31.\n\n#### $31",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total amount Stephen needs to pay back including the interest.\nStephen borrowed $300 and promised to return it with an additional 2% of the money he owed. The interest on the loan is 2% of $300, which is calculated as $300 * 0.02 = $6.\n\n## Step 2: Calculate the total amount Stephen needs to pay back.\nThe total amount Stephen needs to pay back is the original loan plus the interest, which is $300 + $6 = $306.\n\n## Step 3: Calculate the amount Stephen will pay in the first 11 months.\nFor 11 months, Stephen will give his sister $25 per month. So, the total amount he will pay in the first 11 months is $25 * 11 = $275.\n\n## Step 4: Calculate the amount Stephen will pay in the twelfth month.\nThe amount Stephen will pay in the twelfth month is the total amount he needs to pay back minus the amount he paid in the first 11 months, which is $306 - $275 = $31.\n\n#### $31",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 693,
+	"prompt": "A certain company is in the business of selling fresh fruit. One crate of such fruit consists of 5 bananas, 12 apples, and 7 oranges. The price for such a crate depends on the price of its individual fruits. One apple costs $0.5 and one banana costs twice as much. Oranges are the most expensive and cost three times as much as a banana per piece. What would be the price for such a crate of fruit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The price for apples in the crate would be 12 * 0.5 = $<<12*0.5=6>>6.\nCost of banana is 0.5 * 2 = $<<0.5*2=1>>1.\nSo the bananas in this crate cost 5 * 1 = $<<5*1=5>>5.\nOne orange is three times more expensive than a banana, so it costs 1 * 3 = $<<1*3=3>>3.\nSo for the oranges in the crate, one needs to pay 7 * 3 = $<<7*3=21>>21.\nSo the whole crate costs 6 + 5 + 21 = $<<6+5+21=32>>32.\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the price of the crate, we first need to determine the cost of each type of fruit. We know that one apple costs $0.5. \n\nSince one banana costs twice as much as an apple, the cost of a banana is $0.5 * 2 = $1.\n\nGiven that oranges cost three times as much as a banana per piece, the cost of an orange is $1 * 3 = $3.\n\nNow, we calculate the total cost of each type of fruit in the crate: \n- The cost of 5 bananas is 5 * $1 = $5.\n- The cost of 12 apples is 12 * $0.5 = $6.\n- The cost of 7 oranges is 7 * $3 = $21.\n\nTo find the total price of the crate, we add the costs of all the fruits together: $5 (bananas) + $6 (apples) + $21 (oranges) = $32.\n\n#### $32",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Determine the cost of each fruit\nFirst, we establish the cost of each type of fruit based on the given information. We know that one apple costs $0.5. Since a banana costs twice as much as an apple, the cost of a banana is $0.5 * 2 = $1. Oranges are three times as expensive as bananas, so the cost of an orange is $1 * 3 = $3.\n\n## Step 2: Calculate the total cost of each type of fruit in the crate\nNext, we calculate the total cost of each type of fruit in the crate. The crate contains 5 bananas, 12 apples, and 7 oranges. So, the total cost for bananas is 5 * $1 = $5, for apples is 12 * $0.5 = $6, and for oranges is 7 * $3 = $21.\n\n## Step 3: Add the costs of all fruits to find the total price of the crate\nTo find the total price of the crate, we add the costs of all the fruits together: $5 (bananas) + $6 (apples) + $21 (oranges) = $32.\n\nThe final answer is: #### $32",
+			"retrievals": 1
+		}
+	]
+}

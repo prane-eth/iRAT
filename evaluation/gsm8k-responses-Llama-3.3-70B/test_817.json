@@ -1,0 +1,13 @@
+{
+	"task_id": 817,
+	"prompt": "John goes to the market and buys 3 goats for $500 each and 2 cows for $1500 each.  How much money did he spend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The goats cost 3*500=$<<3*500=1500>>1500\nThe cows cost 2*1500=$<<2*1500=3000>>3000\nSo in total he spends 1500+3000=$<<1500+3000=4500>>4500\n#### 4500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money John spent, we need to first find the total cost of the goats and the total cost of the cows. \nThe cost of 3 goats at $500 each is 3 * $500 = $1500.\nThe cost of 2 cows at $1500 each is 2 * $1500 = $3000.\n\n \nThe total amount of money John spent is the sum of the cost of the goats and the cost of the cows. \nSo, the total cost is $1500 + $3000 = $4500.\n\n#### $4500",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total cost of the goats\nThe cost of",
+			"retrievals": 1
+		}
+	]
+}

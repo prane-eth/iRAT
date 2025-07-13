@@ -1,0 +1,13 @@
+{
+	"task_id": 73,
+	"prompt": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a slice. If Tommy sells 43 brownies and 23 slices of cheesecake, how much money does Tommy raise?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tommy raised 43 brownies x $3/brownie = $<<43*3=129>>129 by selling brownies.\nTommy raised 23 slices x $4 = $<<23*4=92>>92 by selling cheesecakes.\nIn total Tommy has raised $129 + $92 = $<<129+92=221>>221\n#### 221",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money Tommy raises, we first need to find out how much money he raises from selling brownies and how much from selling cheesecakes. \n\nThe price of one slice of brownie is $3, and Tommy sells 43 brownies. So, the total amount of money raised from selling brownies is 43 * $3.\n\nThe price of one slice of cheesecake is $4, and Tommy sells 23 slices of cheesecake. So, the total amount of money raised from selling cheesecakes is 23 * $4.\n\nNow, let's calculate these amounts: \n- Money from brownies = 43 * $3 = $129\n- Money from cheesecakes = 23 * $4 = $92\n\nTo find the total amount of money Tommy raises, we need to add the money raised from selling brownies and cheesecakes.\n\nTotal money raised = Money from brownies + Money from cheesecakes = $129 + $92 = $221\n\n#### $221",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how much money Tommy raises, we need to calculate the total amount of money he gets from selling brownies and cheesecakes. Tommy sells brownies for $3 a slice and cheesecakes for $4 a slice. He sells 43 brownies and 23 slices of cheesecake.\n\nFirst, let's calculate the money from brownies: 43 brownies * $3 = $129. Then, let's calculate the money from cheesecakes: 23 cheesecakes * $4 = $92. \n\nTo find the total amount of money Tommy raises, we add the money from brownies and cheesecakes: $129 + $92 = $221.\n\nSo, Tommy raises a total of $221 from selling 43 brownies and 23 slices of cheesecake.\n\n#### $221",
+			"retrievals": 2
+		}
+	]
+}

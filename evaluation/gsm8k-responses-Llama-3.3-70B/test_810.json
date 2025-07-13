@@ -1,0 +1,13 @@
+{
+	"task_id": 810,
+	"prompt": "Dale is selling butterscotch candies to raise money for his club at school. He doesn't have the candies yet and is instead just taking orders. He started off with 100 total that he ordered and wanted to sell, but he ended up selling 150 butterscotch candies. Then he ordered 100 more. How many does Dale still need to sell to sell all of his candy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Dale starts off selling 100 butterscotch candies that he ordered, but ends up selling 150, 100 - 150 = <<100-150=-50>>-50 candies.\nSo Dale orders 100 more candies to make up for the deficit and to sell even more, -50 candies + 100 candies = <<100-50=50>>50 candies Dale has left and still needs to sell.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many butterscotch candies Dale still needs to sell, we first need to calculate the total number of candies he has ordered. Initially, Dale ordered 100 candies. After selling 150, which exceeds his initial order, he then ordered 100 more.\n\nSince Dale sold 150 candies but only had 100, he must have sold 50 more than he initially had. After ordering 100 more, the total number of candies he has is 100 (initial) + 100 (additional) = 200 candies.\n\nGiven that Dale has already sold 150 candies, we subtract this from the total number of candies he has to find out how many he still needs to sell: 200 (total candies) - 150 (candies sold) = 50.\n\n#### 50",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how many butterscotch candies Dale still needs to sell, we need to calculate the total number of candies he has ordered. Initially, Dale ordered 100 candies. After selling 150, which exceeds his initial order, he then ordered 100 more. Since Dale sold 150 candies but only had 100, he must have sold 50 more than he initially had. This means he actually needed 150 candies to fulfill the orders, and since he only had 100 at first, the additional order of 100 brought his total to 200 candies.\n\nGiven that Dale has already sold 150 candies, we subtract this from the total number of candies he has to find out how many he still needs to sell: 200 (total candies) - 150 (candies sold) = 50. \n\n#### 50",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 799,
+	"prompt": "When Billy was first hired, he was paid at a rate of $10 per hour.  After 2 months, he was given a raise of $0.50 per hour.  On his first anniversary at work, he was given a raise of $1.00 per hour.  Sally just started working at a different business, and her starting salary is $0.50 more per hour than Billy's starting salary was.  If both Billy and Sally work 20 hours, how much more money will Billy earn than Sally, in dollars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Billy has a salary of $10+0.50+$1.00=$<<10+0.5+1=11.50>>11.50 per hour.\nSally is paid $0.50 more per hour than Billy's initial salary, for a total of $10+$0.50=$<<10+0.5=10.50>>10.50 per hour.\nIf Billy works 20 hours, he will be paid 20*$11.50=$<<20*11.5=230>>230\nIf Sally works 20 hours, she will be paid 20*$10.50=$<<20*10.50=210>>210.\nThus, if both work 20 hours, Billy will be paid $230-$210=$20 more.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to calculate the hourly wage of both Billy and\n\n#### $20",
+			"old_rat_retrievals": 1,
+			"final_answer": "To solve this problem, we need to calculate the current hourly rate of Billy and the starting hourly rate of Sally, then find their total earnings for 20 hours of work, and finally compare their earnings.\n\nBilly started at $10 per hour. After 2 months, he received a $0.50 per hour raise, making his hourly rate $10 + $0.50 = $10.50. On his first anniversary, he received another raise of $1.00 per hour, which brings his current hourly rate to $10.50 + $1.00 = $11.50.\n\nSally's starting salary is $0.50 more per hour than Billy's starting salary. Since Billy started at $10 per hour, Sally starts at $10 + $0.50 = $10.50 per hour.\n\nNow, let's calculate their earnings for 20 hours of work. Billy earns $11.50 per hour, so for 20 hours, he earns $11.50 * 20 = $230. Sally earns $10.50 per hour, so for 20 hours, she earns $10.50 * 20 = $210.\n\nThe difference in their earnings is $230 - $210 = $20.\n\n#### $20",
+			"retrievals": 1
+		}
+	]
+}

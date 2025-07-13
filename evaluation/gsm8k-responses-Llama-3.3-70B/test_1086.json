@@ -1,0 +1,13 @@
+{
+	"task_id": 1086,
+	"prompt": "A crocodile grows 8 inches long in 4 years. At this rate, how many inches will it grow in 13 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Crocodile grows 8/4 = <<8/4=2>>2 inches a year.\nCrocodile grows 13*2 = <<13*2=26>>26 inches in 13 years.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many inches the crocodile will grow in 13 years, we first need to determine its growth rate per year. The crocodile grows 8 inches in 4 years.\n\nWe calculate the annual growth rate by dividing the total growth in inches by the number of years it took to achieve that growth. So, the annual growth rate is 8 inches / 4 years = 2 inches per year.\n\nNow that we know the crocodile grows 2 inches per year, we can find out how much it will grow in 13 years by multiplying the annual growth rate by the number of years. Therefore, the growth in 13 years will be 2 inches/year * 13 years = 26 inches.\n\n#### 26",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many inches the crocodile will grow in 13 years, we first need to determine its growth rate per year. The crocodile grows 8 inches in 4 years. \n\nWe calculate the annual growth rate by dividing the total growth (8 inches) by the number of years (4 years). So, the annual growth rate is 8 inches / 4 years = 2 inches per year.\n\nNow that we know the crocodile grows 2 inches per year, we can find out how much it will grow in 13 years by multiplying the annual growth rate by the number of years. So, the growth in 13 years is 2 inches/year * 13 years = 26 inches.\n\n#### 26",
+			"retrievals": 4
+		}
+	]
+}

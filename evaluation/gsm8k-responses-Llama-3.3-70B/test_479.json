@@ -1,0 +1,13 @@
+{
+	"task_id": 479,
+	"prompt": "A company decided to take its employees on a tour to explore an ancient site. The employees were divided into 3 groups of 200 employees. Each group was assigned 7 tour guides. How many is the total number of people going on this tour?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of employees is 3 groups * 200 employees/group = <<3*200=600>>600 employees.\nThe number of tour guides is 3 groups * 7 guides/group = <<3*7=21>>21 guides.\nThe total number of people going on this tour is 600 employees + 21 guides = <<600+21=621>>621 people.\n#### 621",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of people going on this tour, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of employees\nThe employees were divided into 3 groups of 200 employees. So, the total number of employees is 3 * 200 = 600.\n\n## Step 2: Calculate the total number of tour guides\nEach group was assigned 7 tour guides. Since there are 3 groups, the total number of tour guides is 3 * 7 = 21.\n\n## Step 3: Calculate the total number of people going on the tour\nThe total number of people going on the tour is the sum of the total number of employees and the total number of tour guides. total_people = total_employees + total_tour_guides = 600 + 21 = 621.\n\n#### 621",
+			"retrievals": 1
+		}
+	]
+}

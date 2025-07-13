@@ -1,0 +1,13 @@
+{
+	"task_id": 737,
+	"prompt": "Boris has 100 apples. Beck has 23 fewer apples than Boris. If Boris gives Beck 10 apples, how many fewer apples does Beck have than Boris now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Boris has 100 apples, but gives 10 away, so now he has 100 apples - 10 apples = <<100-10=90>>90 apples.\nBeck has 23 fewer than Boris at the start, so he started with 100 - 23 = <<100-23=77>>77 apples.\nHowever, since he gets 10 from Boris, he now has 77 apples + 10 apples = <<77+10=87>>87 apples.\nThus Beck has 90 - 87 = <<90-87=3>>3 apples fewer than Boris.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many fewer apples Beck has than Boris, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the initial number of apples Beck has\nBeck has 23 fewer apples than Boris, and since Boris has 100 apples, Beck has 100 - 23 = 77 apples.\n\n## Step 2: Determine the number of apples Boris and Beck have after the transfer\nBoris gives Beck 10 apples. So, Boris will have 100 - 10 = 90 apples, and Beck will have 77 + 10 = 87 apples.\n\n## Step 3: Calculate how many fewer apples Beck has than Boris now\nTo find out how many fewer apples Beck has than Boris, we subtract the number of apples Beck has from the number of apples Boris has: 90 - 87 = 3.\n\nThe final answer is: #### 3",
+			"retrievals": 1
+		}
+	]
+}

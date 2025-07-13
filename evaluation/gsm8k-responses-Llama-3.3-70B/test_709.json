@@ -1,0 +1,13 @@
+{
+	"task_id": 709,
+	"prompt": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days\nIf Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168\n#### 168",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Alex charges for 2 weeks of tutoring, first,",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much Alex charges for 2 weeks of tutoring, first, calculate the total number of days in 2 weeks. Since there are 7 days in a week, 2 weeks will have 7 * 2 = 14 days. Then, multiply the total number of days by the daily charge. So, 14 days * $12 per day = $168. \n\n#### $168",
+			"retrievals": 0
+		}
+	]
+}

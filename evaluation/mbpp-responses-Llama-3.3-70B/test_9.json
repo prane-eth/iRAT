@@ -1,0 +1,19 @@
+{
+	"task_id": 19,
+	"prompt": "Write a function to move all the numbers in it to the given string.?assert move_num('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'",
+	"test_imports": [],
+	"test_list": [
+		"assert move_num('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'",
+		"assert move_num('Avengers124Assemble') == 'AvengersAssemble124'",
+		"assert move_num('Its11our12path13to14see15things16do17things') == 'Itsourpathtoseethingsdothings11121314151617'"
+	],
+	"mbpp_code": "def move_num(test_str):\r\n  res = ''\r\n  dig = ''\r\n  for ele in test_str:\r\n    if ele.isdigit():\r\n      dig += ele\r\n    else:\r\n      res += ele\r\n  res += dig\r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "### Move Numbers to End of String Function\n#### Problem Description\nGiven a string\n\n \nHere is the Python code to accomplish this:\n```python\ndef move_num(s):\n    non_num = ''\n    num = ''\n    for char in s:\n        if char.isdigit():\n            num += char\n        else:\n            non_num += char\n    return non_num + num\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Analyze the Problem\nThe problem requires us to write a function that takes a string as input and returns a new string where all numbers are moved to the end. The original order of non-numeric characters should be preserved.\n\n## Step 2: Outline the Solution Strategy\nTo solve this problem, we'll use two lists to separate numeric and non-numeric characters. Then, we'll concatenate these lists to form the final string.\n\n## Step 3: Initialize Variables and Iterate Over the String\nWe initialize two empty lists: `non_numeric` for non-numeric characters and `numeric` for numeric characters. Then, we iterate over each character in the input string, checking if it's a digit using the `isdigit()` method.\n\n## Step 4: Separate Numeric and Non-Numeric Characters\nIf a character is a digit, we append it to the `numeric` list. Otherwise, we append it to the `non_numeric` list.\n\n## Step 5: Concatenate Lists to Form Final String\nAfter iterating over the entire string, we concatenate the `non_numeric` and `numeric` lists using the `join()` method to form the final string.\n\n## Step 6: Implement Solution in Code\nHere's the Python code for the solution:\n```python\ndef move_num(s):\n    non_numeric = []\n    numeric = []\n    for char in s:\n        if char.isdigit():\n            numeric.append(char)\n        else:\n            non_numeric.append(char)\n    return ''.join(non_numeric + numeric)\n\n# Test the function\nprint(move_num('I1love143you55three3000thousand'))\n```\nThis code defines a function `move_num` that takes a string `s` as input, separates numeric and non-numeric characters into two lists, and returns a new string with non-numeric characters followed by numeric characters.\n\n## Step 7: Verify the Solution\nRunning the test case `move_num('I1love143you55three3000thousand')` should output `'Iloveyouthreethousand1143553000'`, which matches the expected result.\n\nThe final answer is: $\\boxed{Iloveyouthreethousand1143553000}$",
+			"retrievals": 2
+		}
+	]
+}

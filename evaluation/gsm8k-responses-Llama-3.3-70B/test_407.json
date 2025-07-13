@@ -1,0 +1,13 @@
+{
+	"task_id": 407,
+	"prompt": "At Allan's house, there is twice as much corn as cannolis. He has a total of 40 cannolis in his house. Allan bought 60 more cannolis at the store and 40 fewer corns than the number of cannolis. Find the combined total of the number of corns and cannolis Allan has in the house?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Before buying any corn and cannoli, Allan had twice as much corn as cannoli, which is 40 cannoli * 2 corn/cannoli = <<40*2=80>>80 corns\nThe total number of corns and cannolis that Allan had before is 80 corn + 40 corn = <<80+40=120>>120 corn\nWhen he bought 40 fewer corns than cannolis, he bought 60 corn - 40 corn = <<60-40=20>>20 corns\nIn total, he bought 20 corns + 60 cannolis = <<20+60=80>>80 items\nAfter the purchases, Allan has 120 items + 80 items = <<120+80=200>>200 total corns and cannolis combined.\n#### 200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the combined total of corns and cannolis, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the initial amount of corn and cannolis\nAt Allan's house, there is twice as much corn as cannolis. Given that he has a total of 40 cannolis, we can calculate the amount of corn. Since the amount of corn is twice the amount of cannolis, the initial amount of corn is 2 * 40 = 80.\n\n## Step 2: Calculate the total initial amount of corn and cannolis\nThe total initial amount is the sum of the corn and cannolis, which is 80 (corn) + 40 (cannolis) = 120.\n\n## Step 3: Determine the amount of cannolis after purchasing more\nAllan bought 60 more cannolis at the store. So, the new total of cannolis is 40 (initial) + 60 (bought) = 100 cannolis.\n\n## Step 4: Calculate the new amount of corn\nAllan bought 40 fewer corns than the number of cannolis he bought. Since he bought 60 cannolis, he bought 60 - 40 = 20 corns.\n\n## Step 5: Determine the new total amount of corn\nInitially, Allan had 80 corns. After buying 20 more corns, he now has 80 + 20 = 100 corns.\n\n## Step 6: Calculate the combined total of corn and cannolis\nThe combined total is the sum of the new amounts of corn and cannolis, which is 100 (corn) + 100 (cannolis) = 200.\n\n#### 200",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 840,
+	"prompt": "A farmer extracts 5 liters of milk a day from a cow. Since he has 3 cows, how many more cows does he need to have to produce 25 liters of milk a day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He extracts 5*3=<<5*3=15>>15 liters of milk in a day.\nHe should extract 25-15=<<25-15=10>>10 liters more in a day.\nFor that, he needs 10/5=<<10/5=2>>2 more cows.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more cows the farmer needs, we first need to calculate the total amount of milk he currently produces with 3 cows. Since each cow produces 5 liters of milk a day, the total production from 3 cows is 3 * 5 = 15 liters a day.\n\nThe farmer's goal is to produce 25 liters of milk a day. To find out how much more milk he needs to produce, we subtract the current production from the goal: 25 - 15 = 10 liters. This means he needs an additional 10 liters of milk per day.\n\nSince each cow produces 5 liters of milk a day, to produce an additional 10 liters, the farmer would need 10 / 5 = 2 more cows.\n\n#### 2",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how many more cows the farmer needs, we first need to calculate the total amount of milk he currently produces with 3 cows. Since each cow produces 5 liters of milk a day, the total production from 3 cows is 3 * 5 = 15 liters a day. The farmer's goal is to produce 25 liters of milk a day. To find out how much more milk he needs to produce, we subtract the current production from the goal: 25 - 15 = 10 liters. This means he needs an additional 10 liters of milk per day.\n\nSince each cow produces 5 liters of milk a day, to produce an additional 10 liters, the farmer would need 10 / 5 = 2 more cows. #### 2",
+			"retrievals": 0
+		}
+	]
+}

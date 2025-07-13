@@ -1,0 +1,13 @@
+{
+	"task_id": 345,
+	"prompt": "At a restaurant, Juice Box A is 4 dollars. Juice Box B is 5 dollars more than Juice Box A. Juice Box C is 7 dollars more than Juice Box A. How much more is Juice box C than Juice Box B?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Juice Box B is 4+5 = <<4+5=9>>9 dollars.\nJuice box C is 4+7 = <<4+7=11>>11 dollars.\nJuice box C is 11-9 = <<11-9=2>>2 dollars more than Juice box B.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more Juice Box C is than Juice Box B, we first need to determine the prices of Juice Box B and Juice Box C, since we already know the price of Juice Box A.\n\nThe price of Juice Box A is given as $4. Juice Box B is $5 more than Juice Box A, so the price of Juice Box B is $4 + $5 = $9. Juice Box C is $7 more than Juice Box A, which means the price of Juice Box C is $4 + $7 = $11.\n\nNow that we have the prices of both Juice Box B ($9) and Juice Box C ($11), we can calculate the difference in price between them to find out how much more Juice Box C is than Juice Box B.\n\nThe difference in price between Juice Box C and Juice Box B is $11 - $9 = $2.\n\n#### $2",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the price of Juice Box A\nThe price of Juice Box A is given as 4 dollars.\n\n## Step 2: Calculate the price of Juice Box B\nJuice Box B is 5 dollars more than Juice Box A. So, the price of Juice Box B is 4 + 5 = 9 dollars.\n\n## Step 3: Calculate the price of Juice Box C\nJuice Box C is 7 dollars more than Juice Box A. So, the price of Juice Box C is 4 + 7 = 11 dollars.\n\n## Step 4: Find the difference in price between Juice Box C and Juice Box B\nTo find how much more Juice Box C is than Juice Box B, we subtract the price of Juice Box B from the price of Juice Box C. Therefore, 11 - 9 = 2 dollars.\n\n#### 2",
+			"retrievals": 1
+		}
+	]
+}

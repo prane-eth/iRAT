@@ -1,0 +1,13 @@
+{
+	"task_id": 569,
+	"prompt": "Three teenagers are playing soccer on the weekend. Richie, the first teenager, scored 20 more goals than Mark and scored 45 more goals than Anna. If Richie scored 80 goals, how many goals did all three teenagers score?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Richie scored 80 goals, which is 20 more goals than Mark, Mark scored 80-20 = <<80-20=60>>60 goals.\nThe combined number of goals scored by Richie and Mark is 60+80 = <<60+80=140>>140\nRichie also scored 45 more goals than Anna, which means Anna scored 80-45 = <<80-45=35>>35 goals.\nAll three teenagers scored 140+35 = <<140+35=175>>175 goals.\n#### 175",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of goals scored by all three teenagers, we first need to determine the number of goals scored by each of them. We know that Richie scored 80 goals.\n\nRichie scored 20 more goals than Mark and 45 more goals than Anna. Let's use this information to calculate the number of goals scored by Mark and Anna. If Richie scored 20 more goals than Mark, then Mark scored 80 - 20 = 60 goals. Similarly, if Richie scored 45 more goals than Anna, then Anna scored 80 - 45 = 35 goals.\n\nNow that we have the number of goals scored by each teenager, we can find the total number of goals scored by adding their individual scores. Total goals = Richie's goals + Mark's goals + Anna's goals = 80 + 60 + 35 = 175.\n\n#### 175",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of goals scored by all three teenagers, we first need to determine the number of goals scored by each of them. We know that Richie scored 80 goals. Richie scored 20 more goals than Mark and 45 more goals than Anna. Let's use this information to calculate the number of goals scored by Mark and Anna. If Richie scored 20 more goals than Mark, then Mark scored 80 - 20 = 60 goals. Similarly, if Richie scored 45 more goals than Anna, then Anna scored 80 - 45 = 35 goals.\n\nNow that we have the number of goals scored by each teenager, we can find the total number of goals scored by adding their individual scores. Total goals = Richie's goals + Mark's goals + Anna's goals = 80 + 60 + 35 = 175. \n\n#### 175",
+			"retrievals": 2
+		}
+	]
+}

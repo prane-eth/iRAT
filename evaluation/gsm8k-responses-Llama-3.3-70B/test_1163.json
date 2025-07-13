@@ -1,0 +1,13 @@
+{
+	"task_id": 1163,
+	"prompt": "Geb is 10 less than half the age of Haley. If Haley is 26 years old, how old is Geb?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of Haley's age is 26/2 = <<26/2=13>>13.\nSo Geb is 13 - 10 = <<13-10=3>>3 years old.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Geb's age, we first need to determine half of Haley's age since Geb is 10 less than that. Haley is 26 years old.\n\nFirst, calculate half of Haley's age: 26 / 2 = 13. This means half of Haley's age is 13 years.\n\nNow, since Geb is 10 years less than half of Haley's age, we subtract 10 from 13 to find Geb's age: 13 - 10 = 3.\n\n#### 3",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Geb's age, we first need to calculate half of Haley's age. Since Haley is 26 years old, half of her age is 26 / 2 = 13. Given that Geb is 10 years less than half of Haley's age, we subtract 10 from the half of Haley's age to find Geb's age. Therefore, Geb's age is 13 - 10 = 3.\n\n#### 3",
+			"retrievals": 1
+		}
+	]
+}

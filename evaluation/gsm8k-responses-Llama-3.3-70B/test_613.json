@@ -1,0 +1,13 @@
+{
+	"task_id": 613,
+	"prompt": "The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.\nThus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total ounces of meat consumed by the team, we first need to calculate the amount of meat each player ate. The first player ate a 6-ounce steak. \n\nThe second player ate beef tips, with 8 beef tips, each an ounce in size. So, the second player ate 8 * 1 = 8 ounces of meat.\n\nThe third player ate a one-pound steak. Since 1 pound equals 16 ounces, the third player ate 16 ounces of meat.\n\nThe fourth and fifth players ordered vegetarian meals, meaning they did not consume any meat.\n\nNow, let's add up the total ounces of meat consumed by the players who ate meat: 6 ounces (first player) + 8 ounces (second player) + 16 ounces (third player) = 30 ounces.\n\n#### 30",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total ounces of meat consumed by the team, we need to calculate the amount of meat each player ate and then add those amounts together. \n\nThe first player ate a 6-ounce steak. \nThe second player ate beef tips, containing 8 beef tips, each an ounce in size, so that's 8 ounces of meat.\nThe third player ate a one-pound steak. Since one pound is equal to 16 ounces, the third player ate 16 ounces of meat.\nThe fourth and fifth players ordered vegetarian meals, so they didn't eat any meat.\n\nNow, let's add up the total ounces of meat consumed by the players who ate meat: 6 ounces (first player) + 8 ounces (second player) + 16 ounces (third player) = 30 ounces.\n\n#### 30",
+			"retrievals": 2
+		}
+	]
+}

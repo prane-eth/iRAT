@@ -1,0 +1,13 @@
+{
+	"task_id": 487,
+	"prompt": "James runs 12 miles a day for 5 days a week.  If he runs 10 miles an hour how many hours does he run a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He runs 5*12=<<5*12=60>>60 miles a week\nThat means he runs 60/10=<<60/10=6>>6 hours a week\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many hours James runs a week, we first need to determine the total miles he runs in a week. James runs 12 miles a day for 5 days a week. \n\nSo, the total miles he runs in a week is 12 miles/day * 5 days/week = 60 miles/week.\n\nNow, we know James runs 10 miles an hour. To find out how many hours he runs a week, we need to divide the total miles he runs in a week by his speed.\n\nThe total hours he runs a week is 60 miles/week / 10 miles/hour = 6 hours/week.\n\n#### 6 hours",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total miles James runs in a week\nJames runs 12 miles a day for 5 days a week. To find the total miles he runs in a week, we need to multiply the miles he runs per day by the number of days he runs per week. total_miles_per_week = 12 miles/day * 5 days/week = 60 miles/week.\n\n## Step 2: Calculate the total hours James runs in a week\nWe know James runs 10 miles an hour. To find out how many hours he runs in a week, we need to divide the total miles he runs in a week by his speed in miles per hour. hours_per_week = total_miles_per_week / 10 miles/hour = 60 miles/week / 10 miles/hour = 6 hours/week.\n\n#### 6",
+			"retrievals": 1
+		}
+	]
+}

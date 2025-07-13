@@ -1,0 +1,13 @@
+{
+	"task_id": 721,
+	"prompt": "Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Castle has 5 + 3 = <<5+3=8>>8 boxes of cereals this week.\nTherefore, Castle bought 8 - 4 = <<8-4=4>>4 more boxes of cereals this week than last week.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more boxes of cereal Castle bought this week than last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops.\n\nThe total number of boxes bought this week can be calculated by adding the boxes of Coco Crunch and Fruit Loops: 3 (Coco Crunch) + 5 (Fruit Loops) = 8 boxes.\n\nLast week, Castle bought 4 boxes of cereal. To find out how many more boxes she bought this week than last week, we subtract the number of boxes bought last week from the number bought this week: 8 (this week) - 4 (last week) = 4.\n\n#### 4",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many more boxes of cereal Castle bought this week than last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops, which gives us a total of 3 + 5 = 8 boxes. Last week, she bought 4 boxes of cereal. The difference in the number of boxes bought this week and last week is 8 - 4 = 4.\n\n#### 4",
+			"retrievals": 1
+		}
+	]
+}

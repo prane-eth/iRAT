@@ -1,0 +1,13 @@
+{
+	"task_id": 435,
+	"prompt": "The vending machines sell chips for 40 cents and candy bars for 75 cents. George spent $5 and got 3 bags of chips and had 1% of his money left. How many candy bars did he buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "George got $.05 in change because 5 x .01 = <<5*.01=.05>>.05\nGeorge spent $4.95 because 5 - .05 = <<5-.05=4.95>>4.95\nGeorge spent $1.2 on chips because 3 x .4 = <<3*.4=1.2>>1.2\nGeorge spent 3.75 on candy bars because 4.95 - 1.2 = <<4.95-1.2=3.75>>3.75\nGeorge bought 5 candy bars because 3.75 / .75 = <<5=5>>5\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to first determine how much money George spent in",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the problem and identify what is given\nGeorge spent $5 and got 3 bags of chips, with 1% of his money left. The cost of chips and candy bars from the vending machines is 40 cents and 75 cents, respectively.\n\n## Step 2: Calculate the total amount spent on chips\nSince George bought 3 bags of chips at 40 cents each, the total amount spent on chips is 3 * $0.40 = $1.20.\n\n## Step 3: Determine the amount of money left after buying chips\nGeorge spent $5, so after buying the chips, he had $5 - $1.20 = $3.80 left for other purchases or remaining balance.\n\n## Step 4: Account for the 1% of money left\n1% of $5 is $0.05, which means after all his purchases, George had $0.05 left. This implies that before having this 1% left, he had spent $5 - $0.05 = $4.95 in total on chips and candy bars.\n\n## Step 5: Calculate the amount spent on candy bars\nSince George spent a total of $4.95 and $1.20 was spent on chips, the amount spent on candy bars is $4.95 - $1.20 = $3.75.\n\n## Step 6: Determine the number of candy bars bought\nEach candy bar costs 75 cents. To find out how many candy bars George bought, divide the total amount spent on candy bars by the cost of one candy bar: $3.75 / $0.75 = 5.\n\nThe final answer is: #### 5",
+			"retrievals": 1
+		}
+	]
+}

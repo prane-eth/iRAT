@@ -1,0 +1,13 @@
+{
+	"task_id": 910,
+	"prompt": "Duncan's age eight years ago was two times Adam's age four years ago. If Duncan's age is 60 now, how old will Adam be in 8 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Eight years ago, Duncan was 60-8 = 52 years old, the same as Adam's age four years ago.\nTherefore, four years ago, Adam's age was 52/2 =<<52/2=26>>26 years.\nCurrently, Adam is 26+4 = <<26+4=30>>30 years old.\nIn 8 years from now, Adam will be 30+8 = <<30+8=38>>38 years old.\n#### 38",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to establish the current ages of Duncan and Adam and then use the given information to find Adam's age in 8 years. Let's denote Duncan's current age as D and Adam's current age as A.\n\nDuncan's age eight years ago was D - 8, and Adam's age four years ago was A - 4. According to the problem, Duncan's age eight years ago was two times Adam's age four years ago. This gives us the equation: D - 8 = 2 * (A - 4).\n\nWe are told that Duncan's age is 60 now, so D = 60. We can substitute this into our equation: 60 - 8 = 2 * (A - 4), which simplifies to 52 = 2 * (A - 4).\n\nNow, we solve for A. First, divide both sides by 2: 52 / 2 = A - 4, which gives us 26 = A - 4. Then, add 4 to both sides to find A: 26 + 4 = A, so A = 30.\n\nThis means Adam is currently 30 years old. To find out how old Adam will be in 8 years, we add 8 to his current age: 30 + 8 = 38.\n\n#### 38",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we first need to establish the current ages of Duncan and Adam and then use the given information to find Adam's age in 8 years. Let's denote Duncan's current age as D and Adam's current age as A. Duncan's age eight years ago was D - 8, and Adam's age four years ago was A - 4. According to the problem, Duncan's age eight years ago was two times Adam's age four years ago. This gives us the equation: D - 8 = 2 * (A - 4).\n\nWe are told that Duncan's age is 60 now, so D = 60. We can substitute this into our equation: 60 - 8 = 2 * (A - 4), which simplifies to 52 = 2 * (A - 4). Now, we solve for A. First, divide both sides by 2: 52 / 2 = A - 4, which gives us 26 = A - 4. Then, add 4 to both sides to find A: 26 + 4 = A, so A = 30. Therefore, Adam is currently 30 years old.\n\nTo find out how old Adam will be in 8 years, we add 8 to his current age: 30 + 8 = 38.\n\n#### 38",
+			"retrievals": 0
+		}
+	]
+}

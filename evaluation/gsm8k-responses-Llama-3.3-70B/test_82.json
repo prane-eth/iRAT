@@ -1,0 +1,13 @@
+{
+	"task_id": 82,
+	"prompt": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of stickers is 10 + 21 + 23 = <<10+21+23=54>>54.\nThe number of stickers given away and used on the greeting card is 9 + 28 = <<9+28=37>>37.\nCharlie has 54 \u2212 37 = 17 stickers left.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many stickers Charlie has left, we need to follow the sequence of events that involved adding or subtracting stickers from his collection.\n\n1. Charlie started with 10 stickers.\n2. He bought 21 stickers, so we add those to his initial amount: 10 + 21 = 31 stickers.\n3. He got 23 stickers for his birthday, so we add those as well: 31 + 23 = 54 stickers.\n4. Then, Charlie gave 9 stickers to his sister, so we subtract those: 54 - 9 = 45 stickers.\n5. Finally, he used 28 stickers to decorate a greeting card, so we subtract those: 45 - 28 = 17 stickers.\n\nTherefore, Charlie has 17 stickers left.\n\n#### 17",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the initial number of stickers Charlie had\nCharlie initially had 10 stickers.\n\n## Step 2: Calculate the total number of stickers Charlie received\nHe bought 21 stickers from a store and got 23 stickers for his birthday. So, the total number of stickers he received is 21 + 23 = 44.\n\n## Step 3: Calculate the total number of stickers Charlie had before giving any away\nAdding the initial stickers to the ones he received, Charlie had 10 + 44 = 54 stickers.\n\n## Step 4: Calculate the total number of stickers Charlie gave away or used\nHe gave 9 stickers to his sister and used 28 to decorate a greeting card. So, the total number of stickers he gave away or used is 9 + 28 = 37.\n\n## Step 5: Calculate the total number of stickers Charlie has left\nSubtracting the stickers he gave away or used from the total he had, Charlie has 54 - 37 = 17 stickers left.\n\n#### 17",
+			"retrievals": 1
+		}
+	]
+}

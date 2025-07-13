@@ -1,0 +1,13 @@
+{
+	"task_id": 1301,
+	"prompt": "Josh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He runs 7-2=<<7-2=5>>5 days a week\nThat means he serves 5*3=<<5*3=15>>15 cars a week\nSo he makes 15*4=$<<15*4=60>>60 a week\nSo he makes 60*2=$<<60*2=120>>120 in 2 weeks\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much Josh makes in 2 weeks, we first need to determine how many days he is open per week. Josh is open every day of the week except Sunday and Wednesday, which means he is open 5 days a week (Monday, Tuesday, Thursday, Friday, and Saturday).\n\nSince Josh services 3 cars a day and he is open 5 days a week, the total number of cars he services per week is 3 cars/day * 5 days/week = 15 cars/week. \n\nTo find out how much he makes per week, we multiply the number of cars he services per week by the amount he gets paid per car, which is $4. So, his weekly earnings are 15 cars/week * $4/car = $60/week.\n\nNow, to calculate his earnings over 2 weeks, we multiply his weekly earnings by 2. Thus, his earnings over 2 weeks are $60/week * 2 weeks = $120.\n\n#### $120",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how much Josh makes in 2 weeks, we first need to calculate how many days he is open per week. Since he is closed on Sundays and Wednesdays, he operates 5 days a week (Monday, Tuesday, Thursday, Friday, and Saturday). Given that Josh services 3 cars a day, the total number of cars he services per week is 3 cars/day * 5 days/week = 15 cars/week. To find out his weekly earnings, we multiply the number of cars he services per week by his pay per car, which is $4. Therefore, his weekly earnings are 15 cars/week * $4/car = $60/week.\n\nTo calculate Josh's earnings over a 2-week period, we simply multiply his weekly earnings by 2. Thus, his earnings over 2 weeks are $60/week * 2 weeks = $120. \n\n#### $120",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 962,
+	"prompt": "Amora, Lainey, and Collins wanted to share corn chips equally but then realized only two people would get an equal amount of corn chips, while the other person would receive 15 more corn chips than the number the others got. If Amora and Lainey got 70 corn chips each, how many corn chips were there altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Amora and Lainey got 70 corn chips each, they received a total of 70*2 = <<70*2=140>>140 corn chips.\nCollins received 70+15 = <<70+15=85>>85 corn chips.\nAltogether, there were 85+140 = <<85+140=225>>225 corn chips.\n#### 225",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of corn chips, we first need to determine how many corn chips each person received. We know that Amora and Lainey got 70 corn chips each.\n\nSince Collins received 15 more corn chips than the others, we can calculate Collins' share by adding 15 to the amount Amora and Lainey received. Collins' share = 70 + 15 = 85 corn chips.\n\nNow, we add up the corn chips received by each person to find the total number of corn chips. Total corn chips = Amora's share + Lainey's share + Collins' share = 70 + 70 + 85.\n\nPerforming the addition gives us the total number of corn chips. Total corn chips = 70 + 70 + 85 = 225.\n\n#### 225",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of corn chips, we first need to determine how many corn chips each person received. We know that Amora and Lainey got 70 corn chips each. Since Collins received 15 more corn chips than the others, we can calculate Collins' share by adding 15 to the amount Amora and Lainey received. Collins' share = 70 + 15 = 85 corn chips.\n\nNow, we add up the corn chips received by each person to find the total number of corn chips. Total corn chips = Amora's share + Lainey's share + Collins' share = 70 + 70 + 85. Performing the addition gives us the total number of corn chips. Total corn chips = 70 + 70 + 85 = 225.\n\n#### 225",
+			"retrievals": 1
+		}
+	]
+}

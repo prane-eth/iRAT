@@ -1,0 +1,13 @@
+{
+	"task_id": 330,
+	"prompt": "Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Erin has 7 + 10 = <<7+10=17>>17 lollipops\nAfter she gives 3 lollipops to Ella she has 17 - 3 = <<17-3=14>>14 lollipops.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to follow the sequence of events.\n\n1. Erin starts with 7 lollipops.\n2. Her mother gives her another 10 lollipops. So, Erin now has 7 + 10 = 17 lollipops.\n3. Erin gives 3 of her lollipops to Ella. So, Erin now has 17 - 3 = 14 lollipops.\n\nTherefore, Erin has 14 lollipops left.\n\n#### 14",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many lollipops Erin has left, let's break down the problem step by step. \n\nFirst, Erin starts with 7 lollipops. Her mother then gives her 10 more lollipops. So, the total number of lollipops Erin has after receiving the additional lollipops from her mother is 7 + 10 = 17.\n\nNext, Erin gives 3 of her lollipops to Ella. To find out how many lollipops Erin has left after giving some away, we subtract the number of lollipops given away from the total number she had. So, 17 - 3 = 14.\n\nTherefore, after receiving the lollipops from her mother and giving some to Ella, Erin has 14 lollipops left.\n\n#### 14",
+			"retrievals": 2
+		}
+	]
+}

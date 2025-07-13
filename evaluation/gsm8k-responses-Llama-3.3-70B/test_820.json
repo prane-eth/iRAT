@@ -1,0 +1,13 @@
+{
+	"task_id": 820,
+	"prompt": "Twenty students are working together to raise money for a charity. Each earns the same amount. The charity raises a total of $175,000. $50,000 comes from organizations and the rest from the students. How much did each student raise?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Amount raised by all students was 175,000-50,000 = <<175000-50000=125000>>125,000 dollars.\nAmount raised by each student was 125,000/20 = <<125000/20=6250>>6,250 dollars.\n#### 6,250",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much each student raised, we first need to calculate the total amount raised by the students. The charity raises a total of $175,000, with $50,000 coming from organizations. \n\nThe amount raised by the students can be found by subtracting the amount coming from organizations from the total amount raised. So, the amount raised by the students = total amount raised - amount from organizations = $175,000 - $50,000 = $125,000.\n\nNow that we know the students collectively raised $125,000, we can find out how much each student raised by dividing this total by the number of students. There are 20 students in total.\n\nThe amount each student raised = total amount raised by students / number of students = $125,000 / 20 = $6,250.\n\n#### $6,250",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total amount raised by the students\nThe total amount raised by the charity is $175,000, out of which $50,000 comes from organizations. To find the amount raised by the students, we subtract the amount from organizations from the total amount raised. So, the amount raised by the students is $175,000 - $50,000 = $125,000.\n\n## Step 2: Calculate the amount raised by each student\nSince there are twenty students and each earns the same amount, we divide the total amount raised by the students by the number of students to find out how much each student raised. Therefore, the amount raised by each student is $125,000 / 20 = $6,250.\n\n#### $6,250",
+			"retrievals": 2
+		}
+	]
+}

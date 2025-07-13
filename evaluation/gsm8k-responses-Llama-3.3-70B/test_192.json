@@ -1,0 +1,13 @@
+{
+	"task_id": 192,
+	"prompt": "Ducks need to eat 3.5 pounds of insects each week to survive. If there is a flock of ten ducks, how many pounds of insects do they need per day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The flock needs 35 pounds per week because 10 x 3.5 = <<10*3.5=35>>35\nThey need 5 pounds per day because 35 / 7 = <<35/7=5>>5\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pounds of insects the ducks need per day, we first need to calculate the total amount of insects the flock needs per week. Since each duck needs 3.5 pounds of insects per week, and there are ten ducks, we multiply the amount of insects one duck needs by the number of ducks.\n\nThe calculation for the total amount of insects needed per week for the flock is: 3.5 pounds/duck * 10 ducks = 35 pounds. This means the flock of ten ducks needs 35 pounds of insects per week.\n\nTo find out how many pounds of insects the flock needs per day, we divide the total weekly amount by the number of days in a week. There are 7 days in a week, so we divide 35 pounds by 7 days.\n\nThe calculation for the daily amount is: 35 pounds / 7 days = 5 pounds per day.\n\n#### 5",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many pounds of insects a flock of ten ducks needs per day, we first calculate their total weekly insect consumption. Since each duck requires 3.5 pounds of insects per week, a flock of ten ducks would need 3.5 pounds/duck * 10 ducks = 35 pounds of insects per week.\n\nNext, to find the daily insect consumption, we divide the total weekly amount by the number of days in a week, which is 7. So, the daily amount is 35 pounds / 7 days = 5 pounds per day.\n\nTherefore, the flock of ten ducks needs 5 pounds of insects per day to survive.\n\n#### 5",
+			"retrievals": 4
+		}
+	]
+}

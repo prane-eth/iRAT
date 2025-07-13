@@ -1,0 +1,19 @@
+{
+	"task_id": 162,
+	"prompt": "Write a function to check whether the given month number contains 30 days or not.?assert check_monthnumber_number(6)==True",
+	"test_imports": [],
+	"test_list": [
+		"assert check_monthnumber_number(6)==True",
+		"assert check_monthnumber_number(2)==False",
+		"assert check_monthnumber_number(12)==False"
+	],
+	"mbpp_code": "def check_monthnumber_number(monthnum3):\r\n  if(monthnum3==4 or monthnum3==6 or monthnum3==9 or monthnum3==11):\r\n    return True\r\n  else:\r\n    return False",
+	"responses": [
+		{
+			"old_rat_answer": "### Function to Check if a Month Has 30 Days\n#### Description\nThis function checks whether a given month number contains 30 days or not.\nIt returns `True` if the month has 30 days, and `False` otherwise.\n\n#### Code\n```python\ndef check_month_number(month_number):\n    \"\"\"\n    Checks if a month has 30 days.\n    \n    Args:\n        month_number (int): The month number to check (1-12).\n    \n    Returns:\n        bool: True if the month has 30 days, False otherwise.\n    \"\"\"\n    # Months with 30 days are April (4), June (6), September (9), and November (11)\n    months_with_30_days = [4, 6, 9, 11]\n    \n    # Check if the given month number is in the list of months with 30 days\n    return month_number in months_with_30_days\n\n# Example usage\nassert check_month_number(6) == True\nassert check_month_number(12) == False\n```\n\n#### Explanation\nThe `check_month_number` function takes a month number as input and checks if it is one of the months with 30 days. The function uses a list `months_with_30_days` to store the month numbers of the months with 30 days. It then checks if the input month number is in this list using the `in` operator. If the month number is in the list, the function returns `True`; otherwise, it returns `False`.",
+			"old_rat_retrievals": 1,
+			"final_answer": "To check whether a given month number contains 30 days or not, you can use the following function:\n\n```python\ndef check_monthnumber_number(month):\n    if month in [4, 6, 9, 11]:\n        return True\n    else:\n        return False\n```\n\nThis function checks if the given month number is in the list of months with 30 days (April, June, September, and November). If it is, the function returns True; otherwise, it returns False.\n\nFor example, if we call the function with the month number 6 (June), it will return True because June has 30 days. Similarly, if we call the function with the month number 7 (July), it will return False because July has 31 days.\n\nYou can use this function like this:\n```python\nprint(check_monthnumber_number(6))  # Output: True\nprint(check_monthnumber_number(7))  # Output: False\n```\n\nThis function provides a simple and efficient way to determine whether a given month number contains 30 days or not.",
+			"retrievals": 1
+		}
+	]
+}

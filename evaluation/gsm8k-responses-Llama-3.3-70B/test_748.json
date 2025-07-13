@@ -1,0 +1,13 @@
+{
+	"task_id": 748,
+	"prompt": "A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He buys 500*7=<<500*7=3500>>3500\nHe used to pay 3500*.5=$<<3500*.5=1750>>1750\nHe now pays 3500*.4=$<<3500*.4=1400>>1400\nSo he saves 1750-1400=$<<1750-1400=350>>350\n#### 350",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount of money the tomato vendor saves in a week, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the daily savings\nThe tomato vendor sells 500 tomatoes a day. He used to buy them for $.5 each, but now he buys them for $.4 each. The daily savings can be calculated by finding the difference in cost per tomato and multiplying it by the number of tomatoes sold. Daily savings = ($.5 - $.4) * 500 = $.1 * 500 = $50.\n\n## Step 2: Calculate the weekly savings\nTo find the weekly savings, we need to multiply the daily savings by 7, since there are 7 days in a week. Weekly savings = $50 * 7 = $350.\n\n#### $350",
+			"retrievals": 1
+		}
+	]
+}

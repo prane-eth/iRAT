@@ -1,0 +1,13 @@
+{
+	"task_id": 372,
+	"prompt": "A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Saturday 14*2=<<14*2=28>>28 shoes were sold\nOn Sunday 28/2=<<28/2=14>>14 shoes were sold\nBefore the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold\nAfter the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of tennis shoes sold by the end of the sale, we first need to calculate the number of shoes sold each day. On Friday, the store sold 14 pairs of tennis shoes.\n\nOn the next day, Saturday, they sold double the number of shoes they sold on Friday. So, the number of shoes sold on Saturday is 14 * 2 = 28 pairs.\n\nOn the last day of the sale, Sunday, they sold one-half the amount that they did the day before. Therefore, the number of shoes sold on Sunday is 28 / 2 = 14 pairs.\n\nHowever, six people returned their pairs because they didn't fit. So, we need to subtract these returns from the total number of shoes sold. The total number of shoes sold before returns is 14 (Friday) + 28 (Saturday) + 14 (Sunday) = 56 pairs.\n\nAfter the returns, the total number of shoes sold is 56 - 6 = 50 pairs.\n\n#### 50",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the total number of tennis shoes sold by the end of the sale, we first need to calculate the number of shoes sold each day. On Friday, the store sold 14 pairs of tennis shoes. On the next day, Saturday, they sold double the number of shoes they sold on Friday. So, the number of shoes sold on Saturday is 14 * 2 = 28 pairs. On the last day of the sale, Sunday, they sold one-half the amount that they did the day before. Therefore, the number of shoes sold on Sunday is 28 / 2 = 14 pairs.\n\nHowever, six people returned their pairs because they didn't fit. So, we need to subtract these returns from the total number of shoes sold. The total number of shoes sold before returns is 14 (Friday) + 28 (Saturday) + 14 (Sunday) = 56 pairs. After the returns, the total number of shoes sold is 56 - 6 = 50 pairs.\n\n#### 50",
+			"retrievals": 2
+		}
+	]
+}

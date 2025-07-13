@@ -1,0 +1,13 @@
+{
+	"task_id": 1117,
+	"prompt": "Last year there were 50 students enrolled in a calligraphy class. This year, there was a 20% increase in enrollment. How many students are enrolled this year in the calligraphy class?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There was an increase of 50 x 20/100 = <<50*20/100=10>>10 students in enrollment.\nSo, there is a total of 50 + 10 = <<50+10=60>>60 students who were enrolled this year.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of students enrolled this year in the calligraphy class, we first need to calculate the increase in enrollment from last year to this year. \n\nThe increase is given as 20% of the number of students enrolled last year. Last year, there were 50 students. So, the increase is 20% of 50.\n\nTo calculate 20% of 50, we multiply 50 by 0.20 (since 20% is the same as 20/100 or 0.20). So, 50 * 0.20 = 10. This means there was an increase of 10 students.\n\nNow, to find the total number of students enrolled this year, we add the increase (10 students) to the number of students enrolled last year (50 students). \n\nSo, the total number of students enrolled this year is 50 + 10 = 60.\n\n#### 60",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the number of students enrolled last year\nLast year, there were 50 students enrolled in the calligraphy class.\n\n## Step 2: Calculate the increase in enrollment\nTo find the increase in enrollment, we need to calculate 20% of the number of students enrolled last year. This is done by multiplying 50 by 0.20 (which represents 20%). The calculation is as follows: 20% of 50 = (20/100) * 50 = 0.20 * 50 = 10.\n\n## Step 3: Calculate the total number of students enrolled this year\nWe add the increase in enrollment (10 students) to the number of students enrolled last year (50 students) to find the total number of students enrolled this year. Therefore, the total number of students enrolled this year = 50 + 10 = 60.\n\n## Step 4: Verify the calculation\nTo ensure the calculation is correct, we can verify that the increase is indeed 20% of the original number and that adding this increase to the original number gives us the new total. Since 10 is 20% of 50, and 50 + 10 = 60, our calculation is correct.\n\nThe final answer is: #### 60",
+			"retrievals": 1
+		}
+	]
+}

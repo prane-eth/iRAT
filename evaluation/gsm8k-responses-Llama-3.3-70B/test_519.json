@@ -1,0 +1,13 @@
+{
+	"task_id": 519,
+	"prompt": "Ali has four $10 bills and six $20 bills that he saved after working for Mr. James on his farm. Ali gives her sister half of the total money he has and uses 3/5 of the remaining amount of money to buy dinner. Calculate the amount of money he has after buying the dinner.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Four $10 bills have a value of 4*$10 =$<<4*10=40>>40\nThe six $20 bills also are worth 6*$20 = $<<6*20=120>>120\nAli has $40+$120 = $<<40+120=160>>160\nWhen he gives his sister half of the money, he remains with the other half, which totals 1/2*$160 = $<<1/2*160=80>>80\nHe then spends 3/5*$80 = $<<3/5*80=48>>48 on dinner.\nThe total amount of money that Ali has now is $80-$48 = $<<80-48=32>>32\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Ali has after buying dinner, we first need to calculate the total amount of money he initially has. Ali has four $10 bills and six $20 bills. The total amount from the $10 bills is 4 * $10 = $40. The total amount from the $20 bills is 6 * $20 = $120.\n\n \nThe total amount of money Ali has is $40 + $120 = $160. He gives his sister half of this total, which is 1/2 * $160 = $80. After giving his sister $80, Ali is left with $160 - $80 = $80.\n\n \nAli then uses 3/5 of the remaining $80 to buy dinner. 3/5 of $80 is (3/5) * $80 = $48. So, he spends $48 on dinner. To find out how much money he has left after buying dinner, we subtract the cost of dinner from the remaining amount: $80 - $48 = $32.\n\n#### $32",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total amount of money Ali initially has\nAli has four $10 bills and six $20 bills. The total amount from the $10 bills is 4 * $10 = $40. The total amount from the $20 bills is 6 * $20 = $120. The total amount of money Ali has is $40 + $120 = $160.\n\n## Step 2: Determine the amount given to his sister\nHe gives his sister half of this total, which is 1/2 * $160 = $80. After giving his sister $80, Ali is left with $160 - $80 = $80.\n\n## Step 3: Calculate the amount used to buy dinner\nAli uses 3/5 of the remaining amount of money to buy dinner. The remaining amount after giving his sister $80 is $80. So, 3/5 of $80 is (3/5) * $80 = $48. This is the amount Ali uses to buy dinner.\n\n## Step 4: Calculate the final amount of money Ali has after buying dinner\nAfter buying dinner, Ali is left with the amount he had after giving his sister $80, minus the amount he spent on dinner. So, $80 - $48 = $32.\n\n#### $32",
+			"retrievals": 2
+		}
+	]
+}

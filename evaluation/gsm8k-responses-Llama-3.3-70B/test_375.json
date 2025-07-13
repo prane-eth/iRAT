@@ -1,0 +1,13 @@
+{
+	"task_id": 375,
+	"prompt": "Mary has 30 sheep. She gets 1 kg of milk from half of them and 2 kg of milk from the other half every day. How much milk does she collect every day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of the sheep is 30 / 2 = <<30/2=15>>15.\nMary gets (15 * 1) + (15 * 2) = <<15*1+15*2=45>>45 kg of milk every day.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much milk Mary collects every day, we first need to determine the number of sheep that produce 1 kg of milk and the number that produce 2 kg of milk. Since she gets milk from half of her 30 sheep at 1 kg and the other half at 2 kg, we divide the total number of sheep by 2.\n\nThis means 30 sheep / 2 = 15 sheep produce 1 kg of milk, and the other 15 sheep produce 2 kg of milk.\n\nNext, we calculate the total amount of milk collected from each group. For the 15 sheep producing 1 kg of milk, the total is 15 sheep * 1 kg/sheep = 15 kg of milk. For the 15 sheep producing 2 kg of milk, the total is 15 sheep * 2 kg/sheep = 30 kg of milk.\n\nFinally, we add these two amounts together to find the total amount of milk Mary collects every day: 15 kg + 30 kg = 45 kg.\n\n#### 45 kg",
+			"old_rat_retrievals": 5,
+			"final_answer": "Mary has 30 sheep. Half of them give 1 kg of milk and the other half give 2 kg of milk every day. Since half of 30 is 15, she gets 1 kg from 15 sheep and 2 kg from the other 15. The total milk from the 15 sheep giving 1 kg each is 15 * 1 = 15 kg. The total milk from the 15 sheep giving 2 kg each is 15 * 2 = 30 kg. So, the total milk collected every day is 15 + 30 = 45 kg.\n\n#### 45 kg",
+			"retrievals": 1
+		}
+	]
+}

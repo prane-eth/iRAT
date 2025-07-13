@@ -1,0 +1,13 @@
+{
+	"task_id": 18,
+	"prompt": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500",
+	"responses": [
+		{
+			"old_rat_answer": "To find Jill's annual salary, we first need to calculate her weekly salary and then multiply it by the number of weeks she works in a year.\n\n1. Calculate weekly salary as a teacher: 35 hours/week * $20/hour = $700/week\n2. Calculate weekly salary as a coach: 15 hours/week * $30/hour = $450/week\n3. Total weekly salary = $700/week + $450/week = $1150/week\n4. Annual salary = Total weekly salary * Number of weeks worked in a year = $1150/week * 50 weeks/year = $57,500/year\n\n#### $57,500",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate Weekly Salary as a Teacher\nJill gets paid $20 per hour to teach and works 35 hours a week as a teacher. To calculate her weekly salary as a teacher, we multiply the hourly wage by the number of hours worked: $20 * 35 = $700 per week.\n\n## Step 2: Calculate Weekly Salary as a Coach\nJill also gets paid $30 per hour to be a cheerleading coach and works 15 hours a week as a coach. To calculate her weekly salary as a coach, we multiply the hourly wage by the number of hours worked: $30 * 15 = $450 per week.\n\n## Step 3: Calculate Total Weekly Salary\nTo find Jill's total weekly salary, we add her salary as a teacher and her salary as a coach: $700 + $450 = $1150 per week.\n\n## Step 4: Calculate Annual Salary\nSince Jill works 50 weeks a year, we multiply her total weekly salary by the number of weeks worked to find her annual salary: $1150 * 50 = $57,500 per year.\n\n#### $57,500",
+			"retrievals": 4
+		}
+	]
+}

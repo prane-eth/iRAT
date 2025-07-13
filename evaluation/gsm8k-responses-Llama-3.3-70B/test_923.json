@@ -1,0 +1,13 @@
+{
+	"task_id": 923,
+	"prompt": "Martha has been collecting shells since she turned 5 years old, every month she collects one shell. By her 10th birthday, how many shells will Martha have collected?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In 12 months of the year, Martha collects 12 * 1 = <<12*1=12>>12 shells.\nFrom her 5th to her 10th birthday, 10 - 5 = <<10-5=5>>5 years have passed.\nDuring the 5 years that have passed, Martha has collected 12 * 5 = <<12*5=60>>60 shells.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many shells Martha will have collected by her 10th birthday, we first need to determine how many months she has been collecting shells. Since Martha started collecting shells at the age of 5 and will turn 10, the total number of years she has been collecting shells is 10 - 5 = 5 years.\n\n \nEach year has 12 months, so the total number of months in 5 years is 5 * 12 = 60 months. Since Martha collects one shell every month, the total number of shells she will have collected by her 10th birthday is equal to the total number of months she has been collecting shells.\n\n \nTherefore, by her 10th birthday, Martha will have collected 60 shells.\n\n#### 60",
+			"old_rat_retrievals": 3,
+			"final_answer": "Martha has been collecting shells since she turned 5 years old and she collects one shell every month. To find out how many shells she will have collected by her 10th birthday, we need to calculate the total number of months she has been collecting shells. Since she started collecting at 5 years old and will be 10 years old, she has been collecting for 10 - 5 = 5 years. Each year has 12 months, so the total number of months in 5 years is 5 * 12 = 60 months. Since Martha collects one shell every month, the total number of shells she will have collected by her 10th birthday is equal to the total number of months she has been collecting shells. Therefore, by her 10th birthday, Martha will have collected 60 shells.\n#### 60",
+			"retrievals": 1
+		}
+	]
+}

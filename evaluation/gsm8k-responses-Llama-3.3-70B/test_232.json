@@ -1,0 +1,13 @@
+{
+	"task_id": 232,
+	"prompt": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Monday, Kylie collects 20 + 5 = <<20+5=25>>25 shells\nOn Tuesday, Kylie collects 25 * 2 = <<25*2=50>>50 shells\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this, we need to follow the information step by step:\n\n1. On Monday, Robert collects 20 shells. Kylie collects 5 more shells than Robert, so Kylie collects 20 + 5 = 25 shells on Monday.\n\n2. On Tuesday, Kylie collects 2 times more shells than she did on Monday. Since she collected 25 shells on Monday, on Tuesday she collects 2 * 25 = 50 shells.\n\nTherefore, Kylie collects 50 shells on Tuesday.\n\n#### 50",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of shells Kylie collected on Monday\nKylie collects 5 more shells than Robert, who collects 20 shells. So, the number of shells Kylie collected on Monday is 20 + 5 = 25.\n\n## Step 2: Calculate the number of shells Kylie collected on Tuesday\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. This means she collects 2 * 25 = 50 shells on Tuesday.\n\n## Step 3: Confirm the calculation\nThe calculation is straightforward and based on the information given in the problem. There are no other factors to consider, so we can confidently determine the number of shells Kylie collected on Tuesday.\n\nThe final answer is: #### 50",
+			"retrievals": 2
+		}
+	]
+}

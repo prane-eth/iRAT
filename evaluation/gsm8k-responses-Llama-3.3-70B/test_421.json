@@ -1,0 +1,13 @@
+{
+	"task_id": 421,
+	"prompt": "To fund his store, Mr. Josue solicited money from two banks. The first bank gave him $4000, and the second company gave him twice as much. If he initially had $5000 in capital, how much capital does he have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the second bank gave him twice as much money as the first bank, he received 2*$4000 = $<<2*4000=8000>>8000 from the second bank.\nThe total amount of money Mr. Josue got from the two banks is $8000+$4000 = $<<8000+4000=12000>>12000\nIf he initially had capital of $5000, his capital now is $12000+$5000= $17000\n#### 17000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of capital Mr. Josue has now, we first need to determine how much money he received from the two banks. The first bank gave him $4000. \n\nThe second bank gave him twice as much as the first bank, which means he received 2 * $4000 = $8000 from the second bank.\n\nNow, we add the amounts received from both banks: $4000 + $8000 = $12000.\n\nMr. Josue initially had $5000 in capital. To find out how much capital he has now, we need to add the initial capital to the total amount received from the banks: $5000 + $12000 = $17000.\n\n#### $17000",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total amount of capital Mr. Josue has now, we first need to determine how much money he received from the two banks. The first bank gave him $4000. The second bank gave him twice as much as the first bank, which means he received 2 * $4000 = $8000 from the second bank. Now, we add the amounts received from both banks: $4000 + $8000 = $12000.\n\nMr. Josue initially had $5000 in capital. To find out how much capital he has now, we need to add the initial capital to the total amount received from the banks: $5000 + $12000 = $17000. \n\n#### $17000",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 919,
+	"prompt": "There are 6 students playing tennis and twice that number playing volleyball. There are 16 boys and 22 girls playing soccer. If each student only participates in one group, how many students are there in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 6 x 2 = <<6*2=12>>12 students playing volleyball.\nThere are 16 + 22 = <<16+22=38>>38 students playing soccer.\nIn total there are 6 + 12 + 38 = <<6+12+38=56>>56 students.\n#### 56",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of students, we first need to determine the number of students playing tennis, volleyball, and soccer. \n\nWe know that there are 6 students playing tennis. Since twice that number are playing volleyball, the number of students playing volleyball is 6 * 2 = 12.\n\nNext, we consider the students playing soccer. There are 16 boys and 22 girls, so the total number of students playing soccer is 16 + 22 = 38.\n\nNow, we add up the number of students playing each sport to find the total number of students. This includes 6 students playing tennis, 12 students playing volleyball, and 38 students playing soccer.\n\nThe total number of students is 6 + 12 + 38 = 56.\n\n#### 56",
+			"old_rat_retrievals": 3,
+			"final_answer": "There are 6 students playing tennis. Twice that number playing volleyball means 6 * 2 = 12 students are playing volleyball. For soccer, there are 16 boys and 22 girls participating, resulting in a total of 16 + 22 = 38 students playing soccer. To find the total number of students, we add the number of students participating in each sport: 6 (tennis) + 12 (volleyball) + 38 (soccer) = 56 students in total.\n\n#### 56",
+			"retrievals": 1
+		}
+	]
+}

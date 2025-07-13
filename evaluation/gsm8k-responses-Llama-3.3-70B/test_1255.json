@@ -1,0 +1,13 @@
+{
+	"task_id": 1255,
+	"prompt": "Louise is an artist and needs to apply a coat of varnish to her latest paintings. Usually it takes 7 minutes for the coat of varnish to dry on one painting. However, today she is using a new varnish and it takes 12 minutes for the coat to dry. How much longer will it take for the coat of varnish on 6 paintings with the new varnish to dry as it would with the old varnish?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Usually, the varnish on all 6 paintings would be dry in 7*6=<<7*6=42>>42 minutes\nWith the new varnish, all 6 paintings would be dry in 12*6=<<6*12=72>>72 minutes\nWith the new varnish, it will take 72-42=<<72-42=30>>30 more minutes\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much longer it will take for the coat of varnish on 6 paintings with the new varnish to dry compared to the old varnish, we first need to calculate the total drying time for each type of varnish for 6 paintings.\n\nThe old varnish takes 7 minutes to dry per painting. Therefore, for 6 paintings, it would take 7 * 6 = 42 minutes.\n\nThe new varnish takes 12 minutes to dry per painting. Therefore, for 6 paintings, it would take 12 * 6 = 72 minutes.\n\nThe difference in drying time between the new varnish and the old varnish for 6 paintings is 72 - 42 = 30 minutes.\n\n#### 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much longer it will take for the coat of varnish on 6 paintings with the new varnish to dry compared to the old varnish, we need to calculate the drying time for both varnishes and then find the difference.\n\nFirst, we calculate the total time for the old varnish to dry on 6 paintings. Since it takes 7 minutes for the old varnish to dry on one painting, it will take 7 * 6 = 42 minutes for 6 paintings.\n\nNext, we calculate the total time for the new varnish to dry on 6 paintings. The new varnish takes 12 minutes to dry on one painting, so for 6 paintings, it will take 12 * 6 = 72 minutes.\n\nNow, to find out how much longer it will take with the new varnish, we subtract the time for the old varnish from the time for the new varnish: 72 - 42 = 30 minutes.\n\n#### 30",
+			"retrievals": 2
+		}
+	]
+}

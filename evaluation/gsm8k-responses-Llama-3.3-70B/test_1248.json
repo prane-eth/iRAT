@@ -1,0 +1,13 @@
+{
+	"task_id": 1248,
+	"prompt": "Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carrying it and dropped half of them. He scrambled to search for them but only came up with 3. When he went back home, he inspected the marbles further. One of them he picked up wasn't a marble, but actually a bead so he got rid of it. How many marbles did Brendan end up with?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Brendan dropped his marbles and was left with 10/2=<<10/2=5>>5 marbles.\nHe searched and found some of his lost marbles, getting him back to 5+3=<<5+3=8>>8 marbles.\nHe went home and removed a bead, leaving him with 8-1=<<8-1=7>>7 marbles.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nBrendan initially had 10 marbles in his bag. He dropped half of them, which means he dropped 10 / 2 = 5 marbles. So, he was left with 10 - 5 = 5 marbles.\n\nAfter dropping the marbles, Brendan managed to find 3 of them. Therefore, the total number of marbles he had after finding the 3 was 5 (the ones he didn't drop) + 3 (the ones he found) = 8 marbles.\n\nHowever, upon further inspection, Brendan discovered that one of the marbles he picked up was actually a bead, not a marble. So, he got rid of it. This means he had 8 - 1 = 7 marbles left.\n\n#### 7",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of marbles Brendan dropped.\nBrendan initially had 10 marbles and dropped half of them. Half of 10 is 10 / 2 = 5 marbles.\n\n## Step 2: Determine the number of marbles Brendan had after dropping some and picking up a few.\nAfter dropping 5 marbles, Brendan had 10 - 5 = 5 marbles left in his bag. He then picked up 3 marbles from the ones he dropped, bringing his total to 5 (from his bag) + 3 (picked up) = 8 marbles.\n\n## Step 3: Adjust the count for the bead that was mistaken for a marble.\nBrendan later discovered that one of the marbles he picked up was actually a bead. So, he got rid of the bead. This means he had 8 - 1 = 7 marbles after removing the bead.\n\nThe final answer is: #### 7",
+			"retrievals": 4
+		}
+	]
+}

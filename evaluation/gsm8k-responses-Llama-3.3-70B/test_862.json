@@ -1,0 +1,13 @@
+{
+	"task_id": 862,
+	"prompt": "Claire earns 1 girl scout badge every month.  It takes Amber twice as long to earn a badge than Claire.  Wendy earns three times the amount of badges as Claire in the same time frame.  How many more badges does Wendy earn compared to Amber in a 1 year time frame?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Claire earns 1 badge every month so over 12 months she earns 1*12 = <<1*12=12>>12 badges\nIt takes Amber twice as long as Claire to earn a badge so over 1 year she earns 12/2 = <<12/2=6>>6 badges\nWendy earns 3 times the amount of badges compared to Claire who earns 12 badges so over 1 year Wendy earns 3*12 = <<3*12=36>>36 badges\nWendy earns 36 badges while Amber earns 6 so Wendy has earned 36-6 = <<36-6=30>>30 more badges\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more badges Wendy earns compared to Amber in a 1-year",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how many more badges Wendy earns compared to Amber in a 1-year time frame, let's first calculate the number of badges each earns in a year.\n\nClaire earns 1 badge per month, so in 12 months, she earns 12 badges.\n\nSince it takes Amber twice as long to earn a badge as Claire, Amber earns 1 badge every 2 months. Therefore, in 12 months, Amber earns 12 / 2 = 6 badges.\n\nWendy earns three times the amount of badges as Claire in the same time frame. So, in 12 months, Wendy earns 3 * 12 = 36 badges.\n\nNow, comparing the number of badges Wendy and Amber earn in a year, we find that Wendy earns 36 badges and Amber earns 6 badges. The difference is 36 - 6 = 30.\n\n#### 30",
+			"retrievals": 0
+		}
+	]
+}

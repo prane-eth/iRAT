@@ -1,0 +1,19 @@
+{
+	"task_id": 37,
+	"prompt": "Write a function to check whether the given amount has no profit and no loss?assert noprofit_noloss(1500,1200)==False",
+	"test_imports": [],
+	"test_list": [
+		"assert noprofit_noloss(1500,1200)==False",
+		"assert noprofit_noloss(100,100)==True",
+		"assert noprofit_noloss(2000,5000)==False"
+	],
+	"mbpp_code": "def noprofit_noloss(actual_cost,sale_amount): \r\n  if(sale_amount == actual_cost):\r\n    return True\r\n  else:\r\n    return False",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine whether a given amount has no profit and no loss, we need to compare it with the cost price. If the given amount is equal to the cost price, then there is no profit and no loss.\n\nThe function `noprofit_noloss` will take two parameters: the selling price and the cost price. We will compare these two prices to determine if there is no profit and no loss.\n\n```python\ndef noprofit_noloss(selling_price, cost_price):\n    if selling_price == cost_price:\n        return True\n    else:\n        return False\n```\n\nThis function will return `True` if the selling price is equal to the cost price, indicating no profit and no loss. Otherwise, it will return `False`. \n\nFor example, `noprofit_noloss(1500, 1200)` will return `False` because the selling price (1500) is not equal to the cost price (1200), indicating a profit.",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine whether a given amount has no profit and no loss, we need to compare the selling price with the cost price. If the given amount is equal to the cost price, then there is no profit and no loss. \n\nThe function `noprofit_noloss` will take two parameters: the selling price and the cost price. We will compare these two prices to determine if there is no profit and no loss.\n\nHere is a simple and straightforward function in Python that achieves this:\n\n```python\ndef noprofit_noloss(selling_price, cost_price):\n    \"\"\"\n    Checks whether the given amount has no profit and no loss.\n\n    Args:\n        selling_price (float): The price at which the item is sold.\n        cost_price (float): The price at which the item is bought.\n\n    Returns:\n        bool: True if there is no profit and no loss, False otherwise.\n    \"\"\"\n    return selling_price == cost_price\n```\n\nThis function will return `True` if the selling price is equal to the cost price, indicating no profit and no loss. Otherwise, it will return `False`. For example, `noprofit_noloss(1500, 1200)` will return `False` because the selling price (1500) is not equal to the cost price (1200), indicating a profit.\n\nYou can use this function like this:\n\n```python\nprint(noprofit_noloss(1500, 1200))  # Output: False\nprint(noprofit_noloss(1000, 1000))  # Output: True\n```",
+			"retrievals": 2
+		}
+	]
+}

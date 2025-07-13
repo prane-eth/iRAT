@@ -1,0 +1,13 @@
+{
+	"task_id": 977,
+	"prompt": "Sunny is selling gingerbread and apple pie for a fundraiser. On Saturday, he sold 10 boxes of gingerbread and 4 fewer boxes of apple pie, than on Sunday. On Sunday, he sold 5 more boxes of gingerbread than on Saturday and 15 boxes of apple pie. If the gingerbread cost $6 and the apple pie cost $15, how much did Sunny earn for two days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He sold 10 + 5 = <<10+5=15>>15 boxes of gingerbread on Sunday.\nThe total number of boxes of gingerbread that Sunny sold is 10 + 15 = <<10+15=25>>25.\nSunny earned 25 x $6 = $<<25*6=150>>150 for selling gingerbread.\nHe sold 15 - 4 = <<15-4=11>>11 boxes of apple pie on Saturday.\nThe total number of boxes of apple pie that Sunny sold is 15 + 11 = <<15+11=26>>26.\nHe earned 26 x $15 = $<<26*15=390>>390 for selling apple pie.\nSo, Sunny earned $150 + $390 = $<<150+390=540>>540 for two days.\n#### 540",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Sunny earned for two days, we first need to calculate",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the number of boxes of gingerbread and apple pie sold on Saturday\nOn Saturday, Sunny sold 10 boxes of gingerbread. He sold 4 fewer boxes of apple pie than on Sunday. Since he sold 15 boxes of apple pie on Sunday, he sold 15 - 4 = 11 boxes of apple pie on Saturday.\n\n## Step 2: Calculate the number of boxes of gingerbread and apple pie sold on Sunday\nOn Sunday, Sunny sold 5 more boxes of gingerbread than on Saturday, which means he sold 10 + 5 = 15 boxes of gingerbread. He sold 15 boxes of apple pie on Sunday.\n\n## Step 3: Calculate the total earnings from gingerbread and apple pie on both days\nThe total earnings from gingerbread on Saturday is 10 * $6 = $60. The total earnings from apple pie on Saturday is 11 * $15 = $165. The total earnings from gingerbread on Sunday is 15 * $6 = $90. The total earnings from apple pie on Sunday is 15 * $15 = $225.\n\n## Step 4: Calculate the total earnings for two days\nThe total earnings for two days is the sum of the earnings from gingerbread and apple pie on both days. Total earnings = ($60 + $165) + ($90 + $225) = $225 + $315 = $540.\n\n#### $540",
+			"retrievals": 1
+		}
+	]
+}

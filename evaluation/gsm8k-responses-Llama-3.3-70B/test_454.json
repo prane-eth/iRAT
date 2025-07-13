@@ -1,0 +1,13 @@
+{
+	"task_id": 454,
+	"prompt": "Jenna starts out with 8 sapphires. She trades 3 sapphires for two rubies. If sapphires are worth $800 and rubies are worth $1200, how much money are all her jewels worth?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of sapphires Jenna still has: 8 sapphires - 3 sapphires = <<8-3=5>>5 sapphires\nThen multiply this number by the cost per sapphire to find the total cost of the sapphires: 5 sapphires * $800/sapphire = $<<5*800=4000>>4000\nThen find the total value of the rubies: 2 rubies * $1200/ruby = $<<2*1200=2400>>2400\nThen amount this to the cost of the sapphires to find the total value of her jewelry: $2400 + $4000 = $<<2400+4000=6400>>6400\n#### 6400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total worth of Jenna's jewels, we first need to calculate the number of sapphires and rubies she has after the trade. Initially, Jenna has 8 sapphires. She trades 3 sapphires for 2 rubies. \n\nThis means she will be left with 8 - 3 = 5 sapphires and will have 2 rubies.\n\nThe worth of her sapphires can be calculated by multiplying the number of sapphires she has by the value of one sapphire. Since each sapphire is worth $800, the total value of her sapphires is 5 * $800 = $4000.\n\nThe worth of her rubies can be calculated by multiplying the number of rubies she has by the value of one ruby. Since each ruby is worth $1200, the total value of her rubies is 2 * $1200 = $2400.\n\nTo find the total worth of all her jewels, we add the value of her sapphires and rubies together: $4000 + $2400 = $6400.\n\n#### $6400",
+			"old_rat_retrievals": 6,
+			"final_answer": "Jenna starts out with 8 sapphires and trades 3 of",
+			"retrievals": 2
+		}
+	]
+}

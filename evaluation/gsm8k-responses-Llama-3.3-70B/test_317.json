@@ -1,0 +1,13 @@
+{
+	"task_id": 317,
+	"prompt": "Solomon bought 20 marbles from his friend Johanna and added them to a store that had 50. If his father also gave him 2/5 times as many marbles as he bought from Johanna, and each marble weighs 2kgs, calculate the total weight of marbles Solomon has in the store.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After buying twenty marbles from his friend Johanna, Solomon had 20+50 = <<20+50=70>>70 marbles.\nSolomon's father gave him 2/5*20 = <<2/5*20=8>>8 more marbles.\nAdding Johanna's and Solomon's marbles, he has a total of 8+70 = <<8+70=78>>78 marbles.\nIf each marble weigh 2 kgs, the total weight of marbles Solomon has in store is 78 * 2 kgs = <<78*2=156>>156 kgs\n#### 156",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total weight of marbles Solomon has in the store, we first need to calculate the total number of marbles he has.\n\nInitially, Solomon had 50 marbles in the store. Then, he bought 20 marbles from Johanna and added them to the store. So, now he has 50 + 20 = 70 marbles.\n\nHis father gave him 2/5 times as many marbles as he bought from Johanna. Since he bought 20 marbles from Johanna, his father gave him (2/5) * 20 = 8 marbles.\n\nNow, the total number of marbles Solomon has is 70 + 8 = 78 marbles.\n\nEach marble weighs 2kgs. So, the total weight of marbles Solomon has in the store is 78 * 2 = 156kgs.\n\n#### 156",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Introduction to the Problem\nThe problem states that Solomon bought 20 marbles from his friend Johanna and added them to a store that had 50 marbles. We need to calculate the total weight of marbles Solomon has in the store, given that each marble weighs 2kgs.\n\n## Breaking Down the Problem\nFirst, let's calculate the total number of marbles Solomon has. Initially, he had 50 marbles in the store. Then, he bought 20 marbles from Johanna, adding them to the store. So, the total number of marbles from these two sources is 50 + 20 = 70 marbles.\n\n## Considering the Father's Contribution\nThe problem also states that Solomon's father gave him 2/5 times as many marbles as he bought from Johanna. Since Solomon bought 20 marbles from Johanna, his father gave him (2/5) * 20 = 8 marbles. Therefore, the total number of marbles Solomon now has is 70 (from the store and Johanna) + 8 (from his father) = 78 marbles.\n\n## Calculating the Total Weight\nGiven that each marble weighs 2kgs, we can calculate the total weight of the marbles by multiplying the total number of marbles by the weight of each marble. So, the total weight is 78 marbles * 2kgs/marble = 156kgs.\n\n#### 156",
+			"retrievals": 6
+		}
+	]
+}

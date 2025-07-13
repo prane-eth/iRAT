@@ -1,0 +1,13 @@
+{
+	"task_id": 887,
+	"prompt": "A singer has 50 microphones that he wants to arrange in pairs on a stage. While making the arrangement, he realizes that 20% of the microphones won't find any space to fit in after arranging the rest in pairs. How many pairs of microphones was he able to arrange on the stage?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of microphones that were not able to find space on the stage is 20/100*50 = <<20/100*50=10>>10\nThis means the singer could set 50-10 = <<50-10=40>>40 microphones into pairs on the stage.\nSince a pair has 2 microphones, the singer set up 40/2 = <<40/2=20>>20 pairs of microphones on the stage.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of pairs of microphones the singer was able to arrange,",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the number of pairs of microphones the singer was able to arrange, we first need to determine how many microphones were left out after arranging the rest in pairs. Since 20% of the microphones couldn't find space, we calculate this as 20% of 50 microphones.\n\n20% of 50 microphones = 0.20 * 50 = 10 microphones.\n\nThis means that 10 microphones were left out, and the rest were arranged in pairs. So, the number of microphones arranged in pairs is 50 - 10 = 40 microphones.\n\nSince each pair consists of 2 microphones, we divide the total number of microphones arranged in pairs by 2 to find the number of pairs.\n\nNumber of pairs = 40 / 2 = 20 pairs.\n\nTherefore, the singer was able to arrange 20 pairs of microphones on the stage.\n\n#### 20",
+			"retrievals": 0
+		}
+	]
+}

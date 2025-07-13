@@ -1,0 +1,13 @@
+{
+	"task_id": 1168,
+	"prompt": "Jack had $100. Sophia gave him 1/5 of her $100. How many dollars does Jack have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Sophia gave 100 * 1/5 =<<100*1/5=20>>20 $ to Jack.\nJack now has 100 + 20 = <<100+20=120>>120$\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dollars Jack has now, we first need to calculate the amount of money Sophia gave him. Sophia has $100 and she gave Jack 1/5 of her money.\n\nThe amount of money Sophia gave Jack is 1/5 * $100 = $20.\n\nJack initially had $100, and after receiving $20 from Sophia, we need to add this amount to his initial amount to find the total.\n\nThe total amount of money Jack has now is $100 + $20 = $120.\n\n#### $120",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many dollars Jack has now, we first need to determine how much money Sophia gave him. Since Sophia gave Jack 1/5 of her $100, we calculate this amount as $100 * (1/5) = $20.\n\nNow, we add the $20 that Sophia gave to Jack's initial $100. So, Jack's new total is $100 + $20 = $120.\n\nTherefore, after receiving 1/5 of Sophia's $100, Jack now has a total of $120.\n\n#### $120",
+			"retrievals": 1
+		}
+	]
+}

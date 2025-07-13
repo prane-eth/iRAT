@@ -1,0 +1,13 @@
+{
+	"task_id": 124,
+	"prompt": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "For the first 3 hours, Rosie runs 10 miles per hour, so she runs 10*3=<<10*3=30>>30 miles.\nHowever, she still has 7-3=<<7-3=4>>4 hours left to room.\nFor the next 4 hours, she runs 5 miles per hour, so she runs 5*4=<<5*4=20>>20 miles.\nIn total she runs 30+20=<<30+20=50>>50 miles.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "To determine the total miles Rosie can run in 7 hours, we need to break down her running into two parts based on her speed.\n\n1. For the first 3 hours, Rosie runs at 10 miles per hour. So, in 3 hours, she covers:\n   - Distance = Speed \u00d7 Time = 10 miles/hour \u00d7 3 hours = 30 miles\n\n2. After the first 3 hours, Rosie has 7 - 3 = 4 hours left. During this time, she runs at 5 miles per hour. So, in 4 hours, she covers:\n   - Distance = Speed \u00d7 Time = 5 miles/hour \u00d7 4 hours = 20 miles\n\nTo find the total distance Rosie can run in 7 hours, we add the distances covered in the two parts:\n- Total Distance = 30 miles + 20 miles = 50 miles\n\n#### 50",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we first need to understand Rosie's running speeds and durations. She runs at two different speeds: 10 miles per hour for the first 3 hours and then 5 miles per hour for the remaining time.\n\nFor the first 3 hours, Rosie runs at 10 miles per hour. The distance covered in this time can be calculated by multiplying the speed by the time: 10 miles/hour * 3 hours = 30 miles.\n\nAfter the first 3 hours, Rosie has 7 - 3 = 4 hours left. During this time, she runs at 5 miles per hour. The distance covered in this time can be calculated by multiplying the speed by the time: 5 miles/hour * 4 hours = 20 miles.\n\nTo find the total distance Rosie can run in 7 hours, we need to add the distances covered in the two parts: 30 miles (from the first part) + 20 miles (from the second part) = 50 miles.\n\n#### 50",
+			"retrievals": 2
+		}
+	]
+}

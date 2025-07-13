@@ -1,0 +1,13 @@
+{
+	"task_id": 86,
+	"prompt": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Gene has been on 34 - 23 = <<34-23=11>>11 years of vacations, so he has 11 rows of blocks.\nHe goes on 4 vacations a year, so he has been on 4 * 11 = <<4*11=44>>44 vacations.\nGene has 1 shirt from each vacation, so he has 44 * 1 = <<44*1=44>>44 quilt blocks in all.\n#### 44",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of quilt blocks Gene has, we need to calculate the total number of vacations he has been on and thus the total number of shirts he has.\n\n1. Gene has been vacationing since he was 23 years old.\n2. He is now 34 years old.\n3. So, he has been vacationing for 34 - 23 = 11 years.\n4. He goes on 4 vacations each year.\n5. The total number of vacations (and thus shirts) he has is 11 years * 4 vacations/year = 44 vacations.\n\nSince every shirt is its own quilt block, the total number of quilt blocks he has is equal to the total number of vacations.\n\n#### 44",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of quilt blocks, we first need to calculate the number of years Gene has been going on vacations. Gene has been going on vacations since he was 23 years old and is now 34. To find the number of years, subtract his age when he started vacationing from his current age: 34 - 23 = 11 years.\n\nSince Gene goes on four vacations a year and has been doing so for 11 years, multiply the number of vacations per year by the number of years: 4 vacations/year * 11 years = 44 vacations.\n\nEach vacation corresponds to one quilt block. Therefore, the total number of quilt blocks is equal to the total number of vacations, which is 44.\n\n#### 44",
+			"retrievals": 2
+		}
+	]
+}

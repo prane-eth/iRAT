@@ -1,0 +1,13 @@
+{
+	"task_id": 886,
+	"prompt": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "125*2 = <<125*2=250>>250 chimichangas are made on Friday.\nIn those three days 125+125+250 = <<125+125+250=500>>500 chimichangas are made.\n#### 500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of chimichangas made on Tuesdays, Wednesdays, and Fridays, we first need to calculate the number made on each day. \nThe shop makes 125 chimichangas on Tuesdays and 125 chimichangas on Wednesdays.\n\nOn Fridays, they make twice as many chimichangas as they do on Tuesdays or Wednesdays. Since they make 125 chimichangas on those days, on Fridays they make 2 * 125 = 250 chimichangas.\n\nNow, we add the number of chimichangas made on each of the three days to find the total: 125 (Tuesdays) + 125 (Wednesdays) + 250 (Fridays) = 500.\n\n#### 500",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of chimichangas made on Tuesdays, Wednesdays, and Fridays, we first need to calculate the number made on each day. The shop makes 125 chimichangas on Tuesdays and 125 chimichangas on Wednesdays. On Fridays, they make twice as many chimichangas as they do on Tuesdays or Wednesdays. Since they make 125 chimichangas on those days, on Fridays they make 2 * 125 = 250 chimichangas.\n\nNow, we add the number of chimichangas made on each of the three days to find the total: 125 (Tuesdays) + 125 (Wednesdays) + 250 (Fridays) = 500.\n\n#### 500",
+			"retrievals": 1
+		}
+	]
+}

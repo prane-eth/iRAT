@@ -1,0 +1,13 @@
+{
+	"task_id": 475,
+	"prompt": "At a certain grade level, three-fourths of students have a desktop computer at home. If 20 students do not have desktop computers, how many students are there at that grade level?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Twenty students represent 1 - 3/4 = 1/4 of the students at that level.\nSo, there are 4 x 20 students = <<4*20=80>>80 students at that level.\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of students at that grade level, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of students, we can use the information that three-fourths of the students have a desktop computer. This means one-fourth of the students do not have a desktop computer. Given that 20 students do not have desktop computers, we can set up the equation: 1/4 * total_students = 20. Solving for total_students gives us total_students = 20 * 4 = 80.\n\n#### 80",
+			"retrievals": 1
+		}
+	]
+}

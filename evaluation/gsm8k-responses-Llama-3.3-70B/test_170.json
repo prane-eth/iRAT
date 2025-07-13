@@ -1,0 +1,13 @@
+{
+	"task_id": 170,
+	"prompt": "Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He walks 100 miles during the weekdays because 5 x 20 = <<5*20=100>>100\nHe walks 20 miles on the weekend because 2 x 10 = <<2*10=20>>20\nHe walks 120 miles total because 100 + 20 = <<100+20=120>>120\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total miles Pancho walks in a week, we need to consider the miles he walks on weekdays and weekends separately. \nThere are 5 weekdays in a week, from Monday to Friday. Pancho walks 20 miles a day on these days.\n\n`\nSo, the total miles walked on weekdays = 20 miles/day * 5 days = 100 miles.\n\n`\nOn weekends, which include Saturday and Sunday, Pancho walks 10 miles a day. \nThere are 2 days in a weekend.\n\n`\nThe total miles walked on weekends = 10 miles/day * 2 days = 20 miles.\n\n`\nNow, we add the miles walked on weekdays and weekends to get the total miles walked in a week. \nTotal miles = miles walked on weekdays + miles walked on weekends = 100 miles + 20 miles = 120 miles.\n\n#### 120 miles",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many miles Pancho walks in a week, we first need to understand his walking pattern. Pancho walks 20 miles a day on weekdays (Monday to Friday) and 10 miles a day on weekends (Saturday and Sunday).\n\nPancho walks 20 miles a day for 5 days (from Monday to Friday). So, the total miles he walks on weekdays is 20 miles/day * 5 days = 100 miles.\n\nOn weekends, Pancho walks 10 miles a day for 2 days (Saturday and Sunday). So, the total miles he walks on weekends is 10 miles/day * 2 days = 20 miles.\n\nTo find the total miles Pancho walks in a week, we add the miles he walks on weekdays to the miles he walks on weekends. Total miles = 100 miles (weekdays) + 20 miles (weekends) = 120 miles.\n\n#### 120",
+			"retrievals": 1
+		}
+	]
+}

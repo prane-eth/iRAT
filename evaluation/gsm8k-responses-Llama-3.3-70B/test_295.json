@@ -1,0 +1,13 @@
+{
+	"task_id": 295,
+	"prompt": "Will buys 15 oranges. When he gets home, he asks his 2 sons to wash as many oranges as they are years old. The oldest son is 8 years old, the youngest is half as old as the oldest. How many oranges are left unwashed?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The older son washes 8 oranges, so the younger son washes 8 / 2 = <<8/2=4>>4 oranges.\nTogether they wash 8 oranges + 4 oranges =<<8+4=12>>12 oranges\nThere are 15 oranges - 12 oranges = <<15-12=3>>3 oranges left unwashed.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many oranges are left unwashed, we first need to determine the age of the youngest son and then calculate how many oranges each son washes based on their age.\n\nThe oldest son is 8 years old. Since the youngest son is half as old as the oldest, we calculate the youngest son's age as 8 / 2 = 4 years old.\n\nNow, we know that the oldest son washes 8 oranges and the youngest son washes 4 oranges. So, in total, they wash 8 + 4 = 12 oranges.\n\nWill bought 15 oranges initially. After his sons washed 12 oranges, the number of oranges left unwashed can be found by subtracting the number of washed oranges from the total number of oranges: 15 - 12 = 3.\n\n#### 3",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we need to determine the age of each son and then calculate how many oranges they wash based on their age. The oldest son is 8 years old, and the youngest son is half as old as the oldest, which makes the youngest son 8 / 2 = 4 years old. \n\nBased on their ages, the oldest son washes 8 oranges, and the youngest son washes 4 oranges. Therefore, in total, they wash 8 + 4 = 12 oranges.\n\nGiven that Will initially bought 15 oranges and his sons washed 12 of them, we can find the number of oranges left unwashed by subtracting the number of washed oranges from the total. So, 15 - 12 = 3 oranges are left unwashed.\n\n#### 3",
+			"retrievals": 2
+		}
+	]
+}

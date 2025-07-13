@@ -1,0 +1,13 @@
+{
+	"task_id": 401,
+	"prompt": "A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He drank 8*2=<<8*2=16>>16 ounces of milk\nSo he drank 16*3=<<16*3=48>>48 calories of milk\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many calories John consumed, we first need to determine the total amount of milk he drank in ounces. Since a glass of milk is 8 ounces and John drank 2 glasses, we multiply the number of glasses by the ounces per glass.\n\nThe calculation for the total ounces of milk John drank is: 2 glasses * 8 ounces/glass = 16 ounces.\n\nNext, we need to calculate the total calories John consumed from the milk. We know that milk has 3 calories per ounce. \n\nThe calculation for the total calories is: 16 ounces * 3 calories/ounce = 48 calories.\n\n#### 48",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total calories John consumed, we first calculate the total ounces of milk he drank. Since a glass of milk is 8 ounces and John drank 2 glasses, we multiply the number of glasses by the ounces per glass: 2 glasses * 8 ounces/glass = 16 ounces.\n\nNext, we calculate the total calories by multiplying the total ounces of milk by the calories per ounce: 16 ounces * 3 calories/ounce = 48 calories.\n\n#### 48",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 299,
+	"prompt": "Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.\nCarmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.\nSo in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.\nThe desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.\n#### 500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the desk costs Carmen, we first need to understand the pattern of bidding. The opening bid is $200, and each subsequent bid increases by $50.\n\nThe bidding starts at $200, and since 3 other people each bid once and Carmen bids after each of them, the sequence of bids will be as follows: \n- The first person bids $200 (the opening bid).\n- The second bid (by one of the other people) will be $200 + $50 = $250.\n- Carmen then bids $250 + $50 = $300.\n- The third bid (by another of the other people) will be $300 + $50 = $350.\n- Carmen then bids $350 + $50 = $400.\n- The fourth bid (by the last of the other people) will be $400 + $50 = $450.\n- Finally, Carmen bids $450 + $50 = $500 to win the auction.\n\nSo, the cost of the desk to Carmen, after all the bids, is $500.\n\n#### $500",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much the desk costs Carmen, we first need to understand the pattern of bidding. The opening bid is $200, and each subsequent bid increases by $50.\n\nThe bidding starts at $200, and since 3 other people each bid once and Carmen bids after each of them, the sequence of bids will be as follows: \n- The first person bids $200 (the opening bid).\n- The second bid (by one of the other people) will be $200 + $50 = $250.\n- Carmen then bids $250 + $50 = $300.\n- The third bid (by another of the other people) will be $300 + $50 = $350.\n- Carmen then bids $350 + $50 = $400.\n- The fourth bid (by the last of the other people) will be $400 + $50 = $450.\n- Finally, Carmen bids $450 + $50 = $500 to win the auction.\n\nSo, the cost of the desk to Carmen, after all the bids, is $500. #### $500",
+			"retrievals": 3
+		}
+	]
+}

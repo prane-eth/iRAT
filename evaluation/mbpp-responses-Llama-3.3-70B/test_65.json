@@ -1,0 +1,19 @@
+{
+	"task_id": 75,
+	"prompt": "Write a function to add two integers. however, if the sum is between the given range it will return 20.?assert sum_nums(2,10,11,20)==20",
+	"test_imports": [],
+	"test_list": [
+		"assert sum_nums(2,10,11,20)==20",
+		"assert sum_nums(15,17,1,10)==32",
+		"assert sum_nums(10,15,5,30)==20"
+	],
+	"mbpp_code": "def sum_nums(x, y,m,n):\r\n    sum_nums= x + y\r\n    if sum_nums in range(m, n):\r\n        return 20\r\n    else:\r\n        return sum_nums",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo create a function that adds two integers and returns a specific value if the sum falls within a given range, we need to follow these steps:\n1. Define the function with parameters for the two integers and the range.\n2. Calculate the sum of the two integers.\n3. Check if the sum falls within the given range.\n4. If the sum is within the range, return the specified value; otherwise, return the sum.\n\n`\nThe function definition should look like this: `def sum_nums(a, b, lower, upper):`\n\n`\nWe calculate the sum of `a` and `b` and store it in a variable, e.g., `total = a + b`. Then we check if `total` is within the range defined by `lower` and `upper`. \n\n`\nThe conditional statement to check if `total` is within the range and return the specified value (20 in this case) or the sum itself would be: \n```python\nif lower <= total <= upper:\n    return 20\nelse:\n    return total\n```\n\n`\nHere's the complete function:\n```python\ndef sum_nums(a, b, lower, upper):\n    total = a + b\n    if lower <= total <= upper:\n        return 20\n    else:\n        return total\n```",
+			"old_rat_retrievals": 5,
+			"final_answer": "To create a function that adds two integers and returns a specific value if the sum falls within a given range, we can follow these steps:\n\n## Step 1: Define the Function\nWe'll start by defining a function named `sum_nums` that takes four parameters: two integers `a` and `b` to be added, and two integers `lower` and `upper` that define the range.\n\n## Step 2: Calculate the Sum\nInside the function, we calculate the sum of `a` and `b` and store it in the variable `total`.\n\n## Step 3: Check if the Sum Falls Within the Given Range\nWe then check if `total` is between `lower` and `upper` (inclusive). If it is, the function returns 20.\n\n## Step 4: Return the Sum if Not Within the Range\nIf `total` is not between `lower` and `upper`, the function simply returns `total`.\n\nHere's how you can implement this in Python:\n\n```python\ndef sum_nums(a, b, lower, upper):\n    total = a + b\n    if lower <= total <= upper:\n        return 20\n    else:\n        return total\n```\n\nThis function meets the requirement demonstrated by the assertion `assert sum_nums(2, 10, 11, 20) == 20`, where the sum of 2 and 10 is 12, which falls between 11 and 20, so the function returns 20.",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 489,
+	"prompt": "Jana has 27 puppies. Two thirds of Jana's puppies are Pomeranians. One third of the Pomeranians are girls. How many girl Pomeranians does Jana have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jana has 27/3*2=<<27/3*2=18>>18 Pomeranians.\nJana has 18/3=<<18/3=6>>6 girl Pomeranians.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many girl Pomeranians Jana has, we first need to determine the total number of Pomeranians she has. Since two thirds of Jana's puppies are Pomeranians, we can calculate this by multiplying the total number of puppies by two thirds.\n\nJana has 27 puppies, and two thirds of them are Pomeranians. So, the number of Pomeranians is 27 * (2/3) = 18.\n\nNext, we need to find out how many of these Pomeranians are girls. We are told that one third of the Pomeranians are girls. To find the number of girl Pomeranians, we multiply the total number of Pomeranians by one third.\n\nThe number of girl Pomeranians is 18 * (1/3) = 6.\n\n#### 6",
+			"old_rat_retrievals": 4,
+			"final_answer": "Jana has 27 puppies, and two thirds of them are Pomeranians. To find out how many Pomeranians she has, we calculate two thirds of 27, which is (2/3) * 27 = 18. So, Jana has 18 Pomeranians. \n\nOne third of these Pomeranians are girls. To find out how many girl Pomeranians Jana has, we calculate one third of 18, which is (1/3) * 18 = 6.\n\n#### 6",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 573,
+	"prompt": "Ford owns a garden and he grows 40 roses every week. He supplies Roses to the local flower shops. The first flower shop orders 20 roses, the second flower shop orders 15 roses, and the third flower shop orders 30 roses per week. How many roses does Ford lack to supply all the flower shops every month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first flower shop needs 20 x 4 = <<20*4=80>>80 roses every month.\nThe second flower shop needs 15 x 4= <<15*4=60>>60 roses every month.\nThe third flower shop needs 30 x 4 = <<30*4=120>>120 roses every month.\nSo the total number of roses that all the flower shop needs every month is 120 + 80 + 60 = <<120+80+60=260>>260.\nThe total roses Ford grows every month is 40 x 4 = <<40*4=160>>160\nTherefore, the total number of roses he lacks is 260 - 160 = <<260-160=100>>100 to supply all the flower shops every month.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many roses Ford lacks to supply all the flower shops every month",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many roses Ford lacks to supply all the flower shops every month, we first need to calculate the total number of roses he grows in a month and the total number of roses ordered by the flower shops in a month.\n\nFord grows 40 roses every week. Since there are approximately 4 weeks in a month, he grows a total of 40 * 4 = 160 roses per month.\n\nThe first flower shop orders 20 roses per week, the second orders 15 roses per week, and the third orders 30 roses per week. So, the total number of roses ordered per week is 20 + 15 + 30 = 65 roses. In a month, this amounts to 65 * 4 = 260 roses.\n\nTo determine how many roses Ford lacks to supply all the flower shops, we subtract the total number of roses he grows in a month from the total number of roses ordered in a month: 260 - 160 = 100.\n\n#### 100",
+			"retrievals": 1
+		}
+	]
+}

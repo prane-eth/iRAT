@@ -1,0 +1,13 @@
+{
+	"task_id": 774,
+	"prompt": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Brandon received 50 x 1/2 = <<50*1/2=25>>25 pencils\nSo, there were 50 -25 = <<50-25=25>>25 pencils left.\nCharlie got 25 x 3/5 = <<25*3/5=15>>15 pencils.\nThus, Anthony gave away 25 + 15 = <<25+15=40>>40 pencils.\nTherefore, Anthony kept 50 - 40 = <<50-40=10>>10 pencils.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pencils Anthony kept, we first need to calculate how many pencils he gave to Brandon. Anthony started with 50 pencils and gave 1/2 of them to Brandon. So, the number of pencils given to Brandon is 50 * 1/2 = 25 pencils.\n\n \nAnthony was left with 50 - 25 = 25 pencils after giving some to Brandon. Then, he gave 3/5 of the remaining pencils to Charlie. The number of pencils given to Charlie is 25 * 3/5 = 15 pencils.\n\n \nNow, to find out how many pencils Anthony kept, we subtract the number of pencils he gave to Charlie from the remaining pencils he had after giving some to Brandon. So, Anthony kept 25 - 15 = 10 pencils.\n\n#### 10",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many pencils Anthony kept, we first need to calculate how many pencils he gave to Brandon. Anthony started with 50 pencils and gave 1/2 of them to Brandon. So, the number of pencils given to Brandon is 50 * 1/2 = 25 pencils. Anthony was left with 50 - 25 = 25 pencils after giving some to Brandon. Then, he gave 3/5 of the remaining pencils to Charlie. The number of pencils given to Charlie is 25 * 3/5 = 15 pencils.\n\nNow, to find out how many pencils Anthony kept, we subtract the number of pencils he gave to Charlie from the remaining pencils he had after giving some to Brandon. So, Anthony kept 25 - 15 = 10 pencils.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

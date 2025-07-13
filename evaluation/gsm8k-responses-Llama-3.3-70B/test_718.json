@@ -1,0 +1,13 @@
+{
+	"task_id": 718,
+	"prompt": "A pencil cost $0.50, and an eraser cost $0.25. If you bought 6 pencils and 8 erasers and paid $10, how much change would you get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "6 pencils cost 6 x $0.50 = $<<6*0.5=3>>3.\n8 erasers cost 8 x $0.25 = $<<8*0.25=2>>2.\nThus, you spent $3 + $2 = $<<3+2=5>>5.\nTherefore, you would get $10 - $5 = $<<10-5=5>>5 change.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the pencils and erasers, we first need to calculate the cost of each item separately. \nThe cost of 6 pencils is 6 * $0.50 = $3.00.\nThe cost of 8 erasers is 8 * $0.25 = $2.00.\n\nThe total cost of the items is the sum of the cost of the pencils and the erasers.\nTotal cost = $3.00 + $2.00 = $5.00.\nSince the total cost of the items is $5.00 and you paid $10, \n\nto find the change, we subtract the total cost from the amount paid.\nChange = $10 - $5.00 = $5.00.\n\n#### $5.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much change you would get, we first need to calculate the total cost of the items you bought. \n\nThe cost of 6 pencils at $0.50 each is 6 * $0.50 = $3.00.\nThe cost of 8 erasers at $0.25 each is 8 * $0.25 = $2.00.\nSo, the total cost of the items is $3.00 + $2.00 = $5.00.\n\nYou paid $10 for these items. To find out how much change you would get, we subtract the total cost from the amount you paid: $10 - $5.00 = $5.00.\n\nTherefore, the change you would get is $5.00.\n\n#### $5.00",
+			"retrievals": 1
+		}
+	]
+}

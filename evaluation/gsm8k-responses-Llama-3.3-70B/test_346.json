@@ -1,0 +1,13 @@
+{
+	"task_id": 346,
+	"prompt": "A restaurant has 40 tables with 4 legs and 50 tables with 3 legs. Calculate the total number of legs the restaurant's tables have.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of legs which the tables with four legs have is 40*4 = <<40*4=160>>160 legs\nThe three-legged tables have a total of 50*3 = <<50*3=150>>150 legs.\nThe total number of legs that the restaurant's table have is 150+160 = <<150+160=310>>310\n#### 310",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of legs of the restaurant's tables, we first need to calculate the number of legs of the tables with 4 legs and the tables with 3 legs separately. \n\nThe restaurant has 40 tables with 4 legs. So, the total number of legs from these tables is 40 * 4 = 160.\n\nThe restaurant also has 50 tables with 3 legs. So, the total number of legs from these tables is 50 * 3 = 150.\n\nTo find the total number of legs of all the tables, we need to add the number of legs from the tables with 4 legs and the tables with 3 legs. So, the total number of legs is 160 + 150 = 310.\n\n#### 310",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total number of legs of the restaurant's tables, we first need to find the total number of legs for each type of table and then add them together. The restaurant has 40 tables with 4 legs and 50 tables with 3 legs.\n\nFor the 40 tables with 4 legs, the total number of legs is 40 * 4 = 160. For the 50 tables with 3 legs, the total number of legs is 50 * 3 = 150.\n\nNow, we add the total number of legs from both types of tables: 160 + 150 = 310.\n\n#### 310",
+			"retrievals": 2
+		}
+	]
+}

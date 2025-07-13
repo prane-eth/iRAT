@@ -1,0 +1,13 @@
+{
+	"task_id": 908,
+	"prompt": "Sarah has 9 books and Joseph had twice the number of Sarah\u2019s books, but he lost 2 of them. How many books does Joseph currently have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Joseph used to have 9 books * 2 = <<9*2=18>>18 books.\nAfter he lost 2 books he remained with 18 books \u2013 2 books = <<18-2=16>>16 books.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many books Joseph currently has, we first need to determine the total number of books he had before losing any. \n\nSince Sarah has 9 books and Joseph had twice the number of Sarah's books, we calculate Joseph's initial number of books by multiplying Sarah's total by 2. So, Joseph initially had 9 * 2 = 18 books.\n\nJoseph then lost 2 of his books. To find out how many books he has left, we subtract the number of books he lost from his initial total. Therefore, Joseph currently has 18 - 2 = 16 books.\n\n#### 16",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many books Joseph currently has, we first need to determine how many books he had before losing any. Since Joseph had twice the number of Sarah's books and Sarah has 9 books, we calculate Joseph's initial number of books as 2 * 9 = 18 books.\n\nThen, considering that Joseph lost 2 of his books, we subtract the number of books lost from the total he originally had: 18 - 2 = 16 books.\n\nTherefore, Joseph currently has 16 books.\n\n#### 16",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 191,
+	"prompt": "John collects peaches for 3 hours.  He can collect 2 peaches a minute.  How many peaches does he collect?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He is collecting peaches for 3*60=<<3*60=180>>180 minutes\nSo he can collect 180 * 2 = <<180*2=360>>360 peaches\n#### 360",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many peaches John collects, we first need to determine how many minutes he collects peaches. Since John collects peaches for 3 hours, and there are 60 minutes in an hour, we can calculate the total minutes he spends collecting peaches.\n\nWe calculate the total minutes by multiplying the number of hours by the number of minutes in an hour: 3 hours * 60 minutes/hour = 180 minutes.\n\nSince John can collect 2 peaches a minute, we then multiply the total minutes he spends collecting peaches by the number of peaches he can collect per minute to find the total number of peaches collected.\n\nThe total number of peaches collected is 180 minutes * 2 peaches/minute = 360 peaches.\n\n#### 360",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Convert Hours to Minutes\nFirst, we need to convert the time John spends collecting peaches from hours to minutes because his collection rate is given in peaches per minute. There are 60 minutes in an hour.\n\n## Step 2: Calculate Total Minutes\nTo find the total minutes, we multiply the number of hours John collects peaches by the number of minutes in an hour: 3 hours * 60 minutes/hour = 180 minutes.\n\n## Step 3: Calculate Total Peaches Collected\nGiven that John can collect 2 peaches a minute, we can find the total number of peaches collected by multiplying the total minutes by the number of peaches collected per minute: 180 minutes * 2 peaches/minute = 360 peaches.\n\n## Step 4: Conclusion\nBased on the calculation, John collects a total of 360 peaches in 3 hours, assuming he maintains a constant collection rate of 2 peaches per minute.\n\n#### 360",
+			"retrievals": 2
+		}
+	]
+}

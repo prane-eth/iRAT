@@ -1,0 +1,19 @@
+{
+	"task_id": 77,
+	"prompt": "Write a function to check if the triangle is valid or not.?assert validity_triangle(60,50,90)==False",
+	"test_imports": [],
+	"test_list": [
+		"assert validity_triangle(60,50,90)==False",
+		"assert validity_triangle(45,75,60)==True",
+		"assert validity_triangle(30,50,100)==True"
+	],
+	"mbpp_code": "def validity_triangle(a,b,c):\r\n total = a + b + c\r\n if total == 180:\r\n    return True\r\n else:\r\n    return False",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine if a triangle is valid or not based on its angles, we need to consider the basic property that the sum of the interior angles of a triangle is always 180 degrees. \n\n \nWe will create a function named `validity_triangle` that takes three parameters, each representing an angle of the triangle. The function will check if the sum of these angles equals 180 degrees, which is the condition for a triangle to be valid.\n\n \nHere is the Python function that implements this logic:\n```python\ndef validity_triangle(angle1, angle2, angle3):\n    if angle1 + angle2 + angle3 == 180:\n        return True\n    else:\n        return False\n```\n \nThis function can be used to check the validity of a triangle based on its angles, as shown in the provided unit test `assert validity_triangle(60,50,90)==False`. The test will pass because the sum of the angles 60, 50, and 90 is 200, which does not equal 180, indicating that a triangle with these angles would not be valid.",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine if a triangle is valid or not based on its angles, we need to consider two basic properties: \n1. The sum of the interior angles of a triangle is always 180 degrees.\n2. Each angle must be greater than 0 degrees and less than 180 degrees.\n\nWe will create a function named `validity_triangle` that takes three parameters, each representing an angle of the triangle. The function will check if the sum of these angles equals 180 degrees and if each angle is within the valid range.\n\nHere is the Python function that implements this logic:\n```python\ndef validity_triangle(angle1, angle2, angle3):\n    if 0 < angle1 < 180 and 0 < angle2 < 180 and 0 < angle3 < 180:\n        if angle1 + angle2 + angle3 == 180:\n            return True\n    return False\n```\nThis function can be used to check the validity of a triangle based on its angles, as shown in the provided unit test `assert validity_triangle(60,50,90)==False`. The test will pass because the sum of the angles 60, 50, and 90 is 200, which does not equal 180, indicating that a triangle with these angles would not be valid.\n\nAlternatively, we can also simplify the function as follows:\n```python\ndef validity_triangle(angle1, angle2, angle3):\n    return 0 < angle1 < 180 and 0 < angle2 < 180 and 0 < angle3 < 180 and angle1 + angle2 + angle3 == 180\n```\nThis version achieves the same result but in a more concise manner.",
+			"retrievals": 2
+		}
+	]
+}

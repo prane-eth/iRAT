@@ -1,0 +1,13 @@
+{
+	"task_id": 30,
+	"prompt": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of the boots, we first need to determine the total cost of the two pairs of high heels. We know that one pair costs $33 and the other costs twice as much. \n\nSo, the cost of the second pair of heels is 2 * $33 = $66. \n\nThe total cost of the two pairs of heels is $33 + $66 = $99.\n\n#### 99 + 5 = 104",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the cost of the boots, we first need to determine the total cost of the two pairs of high heels. We know that one pair costs $33 and the other costs twice as much. So, the cost of the second pair of heels is 2 * $33 = $66. The total cost of the two pairs of heels is $33 + $66 = $99. Since the two pairs of heels together cost five dollars less than the boots, we can set up an equation where the cost of the boots equals the total cost of the heels plus $5. Therefore, the cost of the boots is $99 + $5 = $104.\n\n#### 104",
+			"retrievals": 1
+		}
+	]
+}

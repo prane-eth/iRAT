@@ -1,0 +1,13 @@
+{
+	"task_id": 80,
+	"prompt": "John adopts a dog.  He takes the dog to the groomer, which costs $100.  The groomer offers him a 30% discount for being a new customer.  How much does the grooming cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The groomer gave a 100*.3=$<<100*.3=30>>30 discount\nSo the grooming cost 100-30=$<<100-30=70>>70\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the cost of the grooming after the discount, we need to follow these steps:\n\n1. Take the original price of the grooming, which is $100.\n2. Calculate the discount amount by dividing the original price by 100 and multiplying it by 30 (since the discount is 30%). \n   So, the discount amount is $100 / 100 * 30 = $30.\n3. Subtract the discount amount from the original price to get the discounted price.\n   So, the discounted price is $100 - $30 = $70.\n\nTherefore, the grooming costs $70 after the discount.\n\n#### $70\n\n#### $70",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the discount amount\nTo find the discount amount, we need to calculate 30% of the original cost, which is $100. The formula to calculate the discount amount is: discount = original cost * (discount percentage / 100). Applying this formula, we get discount = $100 * (30 / 100) = $100 * 0.3 = $30.\n\n## Step 2: Calculate the final cost after discount\nThe final cost after the discount can be calculated by subtracting the discount amount from the original cost. So, the final cost = original cost - discount amount = $100 - $30 = $70.\n\n#### $70",
+			"retrievals": 2
+		}
+	]
+}

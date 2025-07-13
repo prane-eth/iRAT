@@ -1,0 +1,13 @@
+{
+	"task_id": 398,
+	"prompt": "Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mike has $50 in his bank account, so the amount he needs to save to reach the bike goal is $300 - $50 = $250\nHe earns $10 per day, so $250 / $10/day = <<250/10=25>>25 days\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many days Mark has to save his money to buy the bike, we first need to calculate the total amount of money he needs to save. The bike costs $300, and Mark already has $50 in his bank account.\n\nSo, the amount of money Mark needs to save is $300 (bike cost) - $50 (initial savings) = $250. Since Mark earns $10 per day at his work, we can calculate the number of days he needs to save by dividing the amount he needs to save ($250) by his daily earnings ($10).\n\nThe calculation is as follows: $250 (amount needed) \u00f7 $10 (daily earnings) = 25 days.\n\n#### 25",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many days Mark has to save his money to buy the bike, let's break down the problem into steps.\n\n## Step 1: Calculate Mark's Initial Savings\nMark starts with $50 in his bank account. He wants to buy a bike that costs $300. To find out how much more he needs, we subtract his initial savings from the cost of the bike: $300 - $50 = $250.\n\n## Step 2: Determine Daily Savings Needed\nMark earns $10 per day. To calculate how many days it will take him to save enough money to buy the bike, we need to divide the amount he still needs ($250) by his daily earnings ($10).\n\n## Step 3: Calculate Number of Days to Save\nThe calculation is $250 / $10 = 25 days. This means Mark needs to work for 25 days to earn enough money to buy the bike, considering he already has $50 and will continue to earn $10 per day. Since Mark cannot work a fraction of a day, the 25 days are calculated as whole days, providing a straightforward answer to how long it will take him to save for the bike.\n\n#### 25",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 217,
+	"prompt": "Janeth borrowed $2000 and promised to return it with an additional 10% of the amount. If she is going to pay $165 a month for 12 months, how much will be Janeth's remaining balance by then?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Janeth will pay an additional $2000x 10/100 =$<<2000*10/100=200>>200.\nSo she is going to pay off a total of $2000 + $200 = $<<2000+200=2200>>2200.\nJaneth will be able to pay off $165 x 12 = $<<165*12=1980>>1980 in 12 months.\nHence, her remaining balance by then will be $2200 - $1980 = $<<2200-1980=220>>220.\n#### 220",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Janeth's remaining balance after 12 months, we first need to calculate the total amount she owes, including the additional 10% of the borrowed amount. The borrowed amount is $2000, and 10% of $2000 is $200. So, the total amount Janeth owes is $2000 + $200 = $2200.\n\nThe total amount Janeth will pay over 12 months is $165 * 12 = $1980. This is the total amount she will have paid by the end of the 12 months.\n\nTo find the remaining balance, we subtract the total amount paid from the total amount owed. So, the remaining balance will be $2200 - $1980 = $220.\n\n#### $220",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Janeth's remaining balance after 12 months, we first need to calculate the total amount she owes. Janeth borrowed $2000 and promised to return it with an additional 10% of the amount. The additional 10% is calculated by multiplying $2000 by 0.10, which equals $200. So, the total amount she needs to pay back is $2000 + $200 = $2200.\n\nNext, we calculate the total amount Janeth will have paid by the end of 12 months. She is going to pay $165 a month for 12 months. To find the total paid, we multiply the monthly payment by the number of months: $165 * 12 = $1980.\n\nFinally, to determine Janeth's remaining balance after 12 months, we subtract the total amount she will have paid ($1980) from the total amount she owes ($2200). So, the remaining balance = $2200 - $1980 = $220.\n\n#### $220",
+			"retrievals": 2
+		}
+	]
+}

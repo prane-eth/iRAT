@@ -1,0 +1,13 @@
+{
+	"task_id": 667,
+	"prompt": "Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90\nThe total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210\nRayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150\nThe three of them together has $210+$150 = $<<210+150=360>>360\nIf they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money each person will have if they decide to add together",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money each person will have if they decide to add together their money and share equally among them, we first need to determine how much money each person currently has. \n\nAurelia has $120. Kassidy has 3/4 times as much money as Aurelia, which is (3/4) * $120 = $90. Rayna has 60 more dollars than Kassidy, so Rayna has $90 + $60 = $150.\n\nAdding their money together, we get $120 + $90 + $150 = $360. If they share this equally among themselves, each person will get $360 / 3 = $120.\n\n#### $120",
+			"retrievals": 0
+		}
+	]
+}

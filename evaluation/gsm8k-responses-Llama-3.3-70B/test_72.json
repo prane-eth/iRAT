@@ -1,0 +1,13 @@
+{
+	"task_id": 72,
+	"prompt": "Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The second recipe has 2 * 20 instructions = <<2*20=40>>40 instructions.\nThe total for the two dishes is 40 instructions + 20 instructions = <<40+20=60>>60 instructions.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of instructions Kelian has to read, we first need to determine the number of instructions in each recipe. The first recipe has 20 instructions.\n\nThe second recipe has twice as many instructions as the first one. So, we need to calculate twice the number of instructions in the first recipe, which is 20 * 2 = 40 instructions.\n\nNow, we add the number of instructions in the first recipe to the number of instructions in the second recipe to find the total number of instructions. total_instructions = 20 + 40 = 60.\n\n#### 60",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine the total number of instructions Kelian has to read to prepare the two dishes, we first need to calculate the number of instructions in the second recipe. Since the second recipe has twice as many instructions as the first one, and the first recipe has 20 instructions, the second recipe has 2 * 20 = 40 instructions.\n\nNow, to find the total number of instructions for both recipes, we add the instructions from the first recipe to the instructions from the second recipe: 20 (from the first recipe) + 40 (from the second recipe) = 60 instructions.\n\nTherefore, Kelian has to read 60 instructions to prepare the two dishes.\n\n#### 60",
+			"retrievals": 2
+		}
+	]
+}

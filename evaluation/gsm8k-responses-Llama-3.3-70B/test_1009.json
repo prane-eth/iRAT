@@ -1,0 +1,13 @@
+{
+	"task_id": 1009,
+	"prompt": "Matteo traveled at 55 miles per hour for 4 hours. Shandy traveled at 45 miles per hour for 10 hours. How many miles farther did Shandy drive than Matteo?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Matteo = 55 * 4 = <<55*4=220>>220 miles\nShandy = 45 * 10 = <<45*10=450>>450 miles\n450 - 220 = <<450-220=230>>230 miles\nShandy drove 230 miles farther than Matteo.\n#### 230",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many miles farther Shandy drove than Matteo, we first need to calculate the distance each of them traveled. The formula to calculate distance is speed multiplied by time. \n\nFor Matteo, the speed is 55 miles per hour and the time is 4 hours. So, the distance Matteo traveled is 55 * 4 = 220 miles.\n\nFor Shandy, the speed is 45 miles per hour and the time is 10 hours. So, the distance Shandy traveled is 45 * 10 = 450 miles.\n\nNow that we have the distances traveled by both Matteo and Shandy, we can find out how many miles farther Shandy drove than Matteo by subtracting the distance Matteo traveled from the distance Shandy traveled. \n\nThe difference in distance is 450 - 220 = 230 miles.\n\n#### 230",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many miles farther Shandy drove than Matteo, we need to calculate the distance each of them traveled. The formula for distance is d = s * t, where d is distance, s is speed, and t is time. \n\nFor Matteo, who traveled at 55 miles per hour for 4 hours, the distance is 55 * 4 = 220 miles. \nFor Shandy, who traveled at 45 miles per hour for 10 hours, the distance is 45 * 10 = 450 miles.\n\nTo find the difference in distance, we subtract the distance Matteo traveled from the distance Shandy traveled: 450 - 220 = 230 miles.\n\n#### 230",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1064,
+	"prompt": "James gets 80 emails a day.  20% of those emails don't require any response.  He responds to the rest of them.  How many emails does he respond to in a 5 day work week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He gets 80*.2=<<80*.2=16>>16 emails he doesn't need to respond to\nSo he responds to 80-16=<<80-16=64>>64 emails\nSo he responds to 64*5=<<64*5=320>>320 emails a week\n#### 320",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nFirst, we need to calculate the number of emails James doesn't respond to in a day. Since 20% of the emails don't require any response, we can calculate this by multiplying the total number of emails by 0.2. So, 80 * 0.2 = 16 emails don't require any response.\n\nNext, we need to find out how many emails James responds to in a day. This can be calculated by subtracting the number of emails that don't require any response from the total number of emails. So, 80 - 16 = 64 emails require a response.\n\nNow, we need to calculate the total number of emails James responds to in a 5-day work week. We can do this by multiplying the number of emails he responds to in a day by 5. So, 64 * 5 = 320 emails.\n\n#### 320",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of emails James receives in a day\nJames gets 80 emails a day, according to the given information.\n\n## Step 2: Calculate the number of emails James doesn't respond to in a day\n20% of those emails don't require any response, so the number of emails James doesn't respond to is 80 * 0.2 = 16 emails.\n\n## Step 3: Calculate the number of emails James responds to in a day\nThe number of emails James responds to in a day is 80 - 16 = 64 emails.\n\n## Step 4: Calculate the number of emails James responds to in a 5-day work week\nNow, we need to calculate the total number of emails James responds to in a 5-day work week. We can do this by multiplying the number of emails he responds to in a day by 5. So, 64 * 5 = 320 emails.\n\n#### 320",
+			"retrievals": 2
+		}
+	]
+}

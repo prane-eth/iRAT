@@ -1,0 +1,13 @@
+{
+	"task_id": 574,
+	"prompt": "Katina has $3000 in her savings account. If she removes $100 from the account every month, how much money will be remaining within the account after 2 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A year has 12 months, and since she withdraws money from the account every month, after 2 years, she will have withdrawn money for 2*12= <<24=24>>24 months.\nSince she withdraws money from the account every month, after 24 months, she would have withdrawn 24*$100 = $<<24*100=2400>>2400.\nThe total amount of money remaining in the account after two years is $3000-$2400= $<<3000-2400=600>>600\n#### 600",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money will be remaining in Katina's account after 2 years, we first need to calculate the total amount of money she will remove from the account in that time period. Since there are 12 months in a year, 2 years will have 2 * 12 = 24 months.\n\nKatina removes $100 from her account every month. So, over 24 months, she will remove a total of 24 * $100 = $2400 from her account.\n\nThe initial amount in her savings account is $3000. To find the remaining amount after 2 years, we subtract the total amount removed from the initial amount. So, the remaining amount will be $3000 - $2400 = $600.\n\n#### $600",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money will be remaining in Katina's account after 2 years, we first need to calculate the total amount of money she will remove from her account. There are 12 months in a year, so 2 years will have 2 * 12 = 24 months. Since Katina removes $100 from her account every month, over 24 months, she will remove a total of 24 * $100 = $2400 from her account.\n\nThe initial amount in Katina's account is $3000. To find the remaining amount after 2 years, we subtract the total amount removed from the initial amount. So, the remaining amount will be $3000 - $2400 = $600.\n\n#### $600",
+			"retrievals": 2
+		}
+	]
+}

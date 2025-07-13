@@ -1,0 +1,13 @@
+{
+	"task_id": 842,
+	"prompt": "Gabriel wants to buy a car for $10000 and a phone for $800. Gabriel has $5000 from working on weekends and his brother gave him $200 to help him. How much money does he still need?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The amount of purchases Gabriel wants to make is $10000 + $800 = $<<10000+800=10800>>10800.\nAnd Gabriel has $5000 + $200 = $<<5000+200=5200>>5200.\nSo, Gabriel still needs $10800 - $5200 = $<<10800-5200=5600>>5600.\n#### 5600",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Gabriel still needs, we first need to calculate the total cost of the items he wants to buy. The car costs $10000 and the phone costs $800. \n\nThe total cost of the items is $10000 + $800 = $10800.\n\nGabriel has $5000 from working on weekends and his brother gave him $200. So, the total amount of money Gabriel currently has is $5000 + $200 = $5200.\n\nTo find out how much money Gabriel still needs, we subtract the amount of money he has from the total cost of the items. \n\nThe amount of money Gabriel still needs is $10800 - $5200 = $5600.\n\n#### $5600",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much money Gabriel still needs, we first need to calculate the total cost of the items he wants to buy. The total cost is the sum of the cost of the car and the cost of the phone. The car costs $10000 and the phone costs $800. Therefore, the total cost is $10000 + $800 = $10800.\n\nNext, we calculate the total amount of money Gabriel currently has. He has $5000 from working on weekends and his brother gave him $200 to help with the purchase. So, the total amount of money Gabriel currently has is $5000 + $200 = $5200.\n\nNow, to determine how much money Gabriel still needs, we subtract the amount of money he has from the total cost of the items. The calculation is $10800 (total cost) - $5200 (available funds) = $5600.\n\n#### $5600",
+			"retrievals": 2
+		}
+	]
+}

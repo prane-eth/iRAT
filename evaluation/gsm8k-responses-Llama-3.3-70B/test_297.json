@@ -1,0 +1,13 @@
+{
+	"task_id": 297,
+	"prompt": "Each person in a certain household consumes 0.2 kg of rice every meal. Supposing 5 members of the household eat rice every lunch and dinner, how many weeks will a 42 kg bag of rice last?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each person eats 0.2 kg/meal x 2 meals/day = <<0.2*2=0.4>>0.4 kg of rice per day.\nSo, the 5 members consume 0.4 kg/day/person x 5 people = <<0.4*5=2>>2 kg of rice per day.\nIn a week, the household consumes 2 kg/day x 7 days/week = <<2*7=14>>14kg of rice.\nThus, 42 kg of rice will last 42 kg / 14 kg/week = <<42/14=3>>3 weeks.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many weeks a 42 kg bag of rice will last, we first need to calculate the total amount of rice consumed by the household in one day. Since each person consumes 0.2 kg of rice per meal and there are two meals (lunch and dinner) in a day, the daily consumption per person is 0.2 kg * 2 = 0.4 kg.\n\nGiven that there are 5 members in the household who eat rice every lunch and dinner, the total daily consumption for the household is 0.4 kg * 5 = 2 kg.\n\nNext, we calculate the weekly consumption. Since there are 7 days in a week, the weekly consumption is 2 kg * 7 = 14 kg.\n\nNow, to find out how many weeks a 42 kg bag of rice will last, we divide the total weight of the rice bag by the weekly consumption: 42 kg / 14 kg = 3.\n\n#### 3",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many weeks a 42 kg bag of rice will last, we first need to calculate the total amount of rice consumed by the household members per day. Since each person consumes 0.2 kg of rice per meal and there are two meals (lunch and dinner), the daily consumption per person is 0.2 kg * 2 = 0.4 kg.\n\nGiven that there are 5 members in the household, the total daily consumption is 0.4 kg * 5 = 2 kg.\n\nNext, we calculate the weekly consumption. Since there are 7 days in a week, the total weekly consumption is 2 kg * 7 = 14 kg.\n\nNow, to find out how many weeks a 42 kg bag of rice will last, we divide the total weight of the rice (42 kg) by the weekly consumption (14 kg). So, 42 kg / 14 kg = 3 weeks.\n\n#### 3",
+			"retrievals": 2
+		}
+	]
+}

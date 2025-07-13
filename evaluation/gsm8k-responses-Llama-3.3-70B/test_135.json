@@ -1,0 +1,13 @@
+{
+	"task_id": 135,
+	"prompt": "Tom gets 4 car washes a month.  If each car wash costs $15 how much does he pay in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He gets 4*12=<<4*12=48>>48 car washes a year\nThat means it cost 48*15=$<<48*15=720>>720\n#### 720",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total amount Tom pays in a year for car washes, we\n\nThus, the yearly cost is: $60/month * 12 months/year = $720/year.\n\n#### $720",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how much Tom pays in a year for car washes, we first need to calculate his monthly expenses. Since Tom gets 4 car washes a month and each car wash costs $15, his monthly expense can be calculated as 4 car washes * $15 per car wash = $60 per month.\n\nNext, to find out how much Tom pays in a year, we multiply his monthly expenses by the number of months in a year. There are 12 months in a year, so Tom's yearly expense for car washes would be $60 per month * 12 months = $720 per year.\n\n#### $720",
+			"retrievals": 2
+		}
+	]
+}

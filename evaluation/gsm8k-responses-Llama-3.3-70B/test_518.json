@@ -1,0 +1,13 @@
+{
+	"task_id": 518,
+	"prompt": "The eighth-grade class held a bake-off. Kelsie made two times more cookies than Josh. Josh made one-fourth the number of cookies that Suzanne made. If Suzanne made 36 cookies, how many did Kelsie make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Josh made 36/4=<<36/4=9>>9 cookies\nKelsie made 9*2=<<9*2=18>>18 cookies\n#### 18",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cookies Kelsie made, we first need to determine how many cookies Josh made. We know that Josh made one-fourth the number of cookies that Suzanne made. Since Suzanne made 36 cookies, we can calculate Josh's cookies by taking one-fourth of 36.\n\nJosh's cookies = 36 * (1/4) = 36 / 4 = 9 cookies.\n\nNow that we know Josh made 9 cookies, we can find out how many cookies Kelsie made. It is given that Kelsie made two times more cookies than Josh. This means Kelsie made 2 times the number of cookies Josh made, plus the number of cookies Josh made.\n\nKelsie's cookies = 2 * Josh's cookies + Josh's cookies = 3 * Josh's cookies.\n\nSubstituting Josh's cookies with 9, we get:\n\nKelsie's cookies = 3 * 9 = 27 cookies.\n\n#### 27",
+			"old_rat_retrievals": 7,
+			"final_answer": "To solve this problem, let's start with what we know about Suzanne's cookies. Since Suzanne made 36 cookies, and Josh made one-fourth of the number of cookies Suzanne made, we can calculate Josh's cookies by multiplying 36 by 1/4 or 0.25. This gives us 36 * (1/4) = 36 / 4 = 36 * 0.25 = 9 cookies. So, Josh made 9 cookies.\n\nNow, we know Kelsie made two times more cookies than Josh. This means Kelsie made 2 times Josh's cookies, plus Josh's cookies. Essentially, Kelsie made 3 times the number of cookies Josh made. Therefore, Kelsie's cookies = 3 * Josh's cookies = 3 * 9 = 27 cookies.\n\n#### 27",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 553,
+	"prompt": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1000, you earn a 30% commission. Sales over $1000 get you an additional 10% commission. Calculate the amount of money Antonella earned if she sold goods worth $2500.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since Antonella sold $2500 worth of goods, she got the first 30% commission, which is 30/100*$1000 = $<<30/100*1000=300>>300\nSince goods worth over $1000 earn you a 10% commission, she was entitled to earn an additional 10% commission per $500 on $2500-$1000 = $1500 worth of goods.\nThis amounts to $1500 * 10% = $<<1500*10*.01=150>>150\nIn total, Antonella earned $300 from the first commission and $150 from the second commission for a total of $150 + $300 = $<<300+150=450>>450\n#### 450",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount of money Antonella earned, we first need to determine the commission she earned from the initial $1000 worth of goods sold. The commission rate for sales up to $1000 is 30%. \n\nSo, for the first $1000, the commission is 30% of $1000, which is calculated as $1000 * 0.30 = $300.\n\n`\nFor sales over $1000, the commission rate increases by an additional 10%, making it a total of 40% (30% initial commission + 10% additional commission). Since Antonella sold goods worth $2500, the amount over $1000 is $2500 - $1000 = $1500.\n\n`\nThe commission for the $1500 sold over the initial $1000 is 40% of $1500, which is calculated as $1500 * 0.40 = $600.\n\n`\nNow, to find the total amount Antonella earned, we add the commission from the first $1000 and the commission from the sales over $1000. Total commission = $300 (from the first $1000) + $600 (from the $1500 over $1000) = $900.\n\n#### $900",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the commission for the first $1000 of sales\nThe commission for the first $1000 is 30% of $1000, which is $1000 * 30% = $300.\n\n## Step 2: Calculate the commission for the sales over $1000\nFor the sales over $1000, which is $2500 - $1000 = $1500, Antonella earns an additional 10% commission on top of the base 30% commission, making it a total of 40% commission for this amount. The commission for this part is $1500 * 40% = $600.\n\n## Step 3: Calculate the total commission earned by Antonella\nTo find the total commission, we add the commission from the first $1000 and the commission from the sales over $1000. Therefore, the total commission is $300 + $600 = $900.\n\nThe final answer is: #### $900",
+			"retrievals": 3
+		}
+	]
+}

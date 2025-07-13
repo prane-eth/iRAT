@@ -1,0 +1,13 @@
+{
+	"task_id": 839,
+	"prompt": "Adam wants to eat some sliced apples. A large apple can be sliced into 5 pieces, and a small apple can be sliced into 3 pieces. Adam decides to slice 3 large and 5 small apples and then eats 15 slices. How many apple slices are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 3*5=<<3*5=15>>15 large apple slices.\nThere are 5*3=<<5*3=15>>15 small apple slices.\nIn total, there are 15+15=<<15+15=30>>30 apple slices.\nAfter Adam eats 15 slices, there are 30-15=<<30-15=15>>15 apple slices remaining.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many apple slices are left, we first need to calculate the total number of slices Adam gets from slicing the apples. \n\nHe slices 3 large apples and 5 small apples. Since a large apple can be sliced into 5 pieces, 3 large apples will yield 3 * 5 = 15 slices. Similarly, since a small apple can be sliced into 3 pieces, 5 small apples will yield 5 * 3 = 15 slices.\n\nSo, the total number of slices from both large and small apples is 15 (from large apples) + 15 (from small apples) = 30 slices.\n\nAdam then eats 15 slices of the apples. \n\nTo find out how many slices are left, we subtract the number of slices eaten from the total number of slices. So, 30 (total slices) - 15 (slices eaten) = 15 slices left.\n\n#### 15",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many apple slices are left, we first need to calculate the total number of slices Adam gets from slicing the apples. He slices 3 large apples and 5 small apples. Since a large apple can be sliced into 5 pieces, 3 large apples will yield 3 * 5 = 15 slices. Similarly, since a small apple can be sliced into 3 pieces, 5 small apples will yield 5 * 3 = 15 slices.\n\nSo, the total number of slices from both large and small apples is 15 (from large apples) + 15 (from small apples) = 30 slices. Adam then eats 15 slices of the apples. To find out how many slices are left, we subtract the number of slices eaten from the total number of slices. So, 30 (total slices) - 15 (slices eaten) = 15 slices left.\n\n#### 15",
+			"retrievals": 0
+		}
+	]
+}

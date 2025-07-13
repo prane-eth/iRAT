@@ -1,0 +1,13 @@
+{
+	"task_id": 502,
+	"prompt": "Mariah\u2019s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mariah\u2019s grandma used 1/2 a skein of yarn. We should multiply this by (2/2) to have a common denominator, so 1/2 * 2/2 = 2/4.\nNow that there are common denominators, we can add the 1/4 skein of yarn Mariah used + 2/4 skein of yarn her grandma used = 3/4 of a skein of yarn.\n3/4 of a skein of yarn * 364 yards = 364 / 4 = <<3/4*364=273>>273 yards.\n#### 273",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many yards of yarn Mariah and her grandma used altogether, we first need to determine how many yards each of them used. Mariah used 1/4 of a skein of yarn, and her grandma used 1/2 of a skein of yarn. \n\nGiven that there are 364 yards in a skein of yarn, we can calculate the yards used by Mariah and her grandma. For Mariah, 1/4 of 364 yards is (1/4) * 364 = 91 yards. For her grandma, 1/2 of 364 yards is (1/2) * 364 = 182 yards.\n\nNow, we add the yards used by Mariah and her grandma to find the total yards used. Total yards used = 91 yards (Mariah) + 182 yards (grandma) = 273 yards.\n\n#### 273",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many yards of yarn Mariah and her grandma used altogether, we need to calculate the total amount of yarn they used. \n\nFirst, let's determine how many yards of yarn Mariah used. Since Mariah used 1/4 of a skein of yarn and there are 364 yards in a skein, we can calculate the yards she used by multiplying 364 by 1/4. \n\nYards Mariah used = 364 * (1/4) = 364 / 4 = 91 yards.\n\nNext, we calculate how many yards of yarn her grandma used. Her grandma used 1/2 of a skein of yarn. So, we multiply 364 by 1/2.\n\nYards grandma used = 364 * (1/2) = 364 / 2 = 182 yards.\n\nFinally, to find the total yards of yarn they used altogether, we add the yards Mariah used to the yards her grandma used.\n\nTotal yards used = Yards Mariah used + Yards grandma used = 91 + 182 = 273 yards.\n\n#### 273",
+			"retrievals": 2
+		}
+	]
+}

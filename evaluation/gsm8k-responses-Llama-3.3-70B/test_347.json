@@ -1,0 +1,13 @@
+{
+	"task_id": 347,
+	"prompt": "Jenny buys 1 bag of cookies a week.  The bag has 36 cookies and she puts 4 cookies in her son's lunch box 5 days a week.  Her husband eats 1 cookie a day for 7 days.  Jenny eats the rest of the cookies.  How many cookies does Jenny eat?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The son gets 4 cookies a day for 5 days so he eats 4*5 = <<4*5=20>>20 cookies\nHer husband eats 1 cookie a day for 7 days so he eats 1*7 = <<1*7=7>>7 cookies\nThere are 36 cookies in a bag and her son eats 20 and her husband eats 7 so Jenny eats 36-20-7 = <<36-20-7=9>>9 cookies\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cookies Jenny eats, we first need to calculate the total number of cookies that are consumed by her son and husband in a week. \n\nHer son eats 4 cookies a day for 5 days, which means he eats a total of 4 * 5 = 20 cookies in a week. Her husband eats 1 cookie a day for 7 days, so he eats 1 * 7 = 7 cookies in a week.\n\nThe total number of cookies eaten by her son and husband is 20 + 7 = 27 cookies.\n\nThere are 36 cookies in a bag, and since Jenny buys 1 bag a week, the total number of cookies available for consumption in a week is 36.\n\nTo find out how many cookies Jenny eats, we subtract the total number of cookies eaten by her son and husband from the total number of cookies in the bag.\n\nSo, Jenny eats 36 - 27 = 9 cookies.\n\n#### 9",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total number of cookies in a week\nJenny buys 1 bag of cookies a week, and the bag contains 36 cookies.\n\n## Step 2: Calculate the number of cookies Jenny's son eats in a week\nJenny puts 4 cookies in her son's lunch box 5 days a week, so the total number of cookies her son eats is 4 * 5 = 20 cookies.\n\n## Step 3: Calculate the number of cookies Jenny's husband eats in a week\nJenny's husband eats 1 cookie a day for 7 days, which means he eats a total of 1 * 7 = 7 cookies in a week.\n\n## Step 4: Calculate the total number of cookies eaten by Jenny's son and husband in a week\nThe total number of cookies eaten by Jenny's son and husband is the sum of the cookies they each eat, which is 20 + 7 = 27 cookies.\n\n## Step 5: Calculate the number of cookies Jenny eats in a week\nTo find out how many cookies Jenny eats, we subtract the total number of cookies eaten by her son and husband from the total number of cookies in the bag. So, Jenny eats 36 - 27 = 9 cookies.\n\n#### 9",
+			"retrievals": 2
+		}
+	]
+}

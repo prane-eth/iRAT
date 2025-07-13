@@ -1,0 +1,13 @@
+{
+	"task_id": 1179,
+	"prompt": "Mike bought 5 face masks while Johnny bought 2 more than thrice as many as Mike. How many face masks did Johnny buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Thrice as many as Mike's face masks is 5 x 3 = <<5*3=15>>15.\nSo, Johnny bought 15 + 2 = <<15+2=17>>17 face masks.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many face masks Johnny bought, we first need to determine how many face masks Mike bought and then apply the given relationship to calculate Johnny's purchase.\n\nMike bought 5 face masks. Johnny bought 2 more than thrice as many as Mike. So, we first calculate thrice the number of face masks Mike bought: 3 * 5 = 15.\n\nThen, we add 2 more to this result to find out how many face masks Johnny bought: 15 + 2 = 17.\n\n#### 17",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many face masks Johnny bought, we first need to determine how many face masks Mike bought and then apply the given relationship to calculate Johnny's purchase. Mike bought 5 face masks. Johnny bought 2 more than thrice as many as Mike. So, we first calculate thrice the number of face masks Mike bought: 3 * 5 = 15. Then, we add 2 more to this result to find out how many face masks Johnny bought: 15 + 2 = 17. \n\n#### 17",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,6 +1,6 @@
 from irat.utils.logger import log_debug
-import datetime
 
+import datetime
 import psutil
 import signal
 import socket
@@ -15,9 +15,6 @@ def user_message(content, role='user'):
 def system_message(content):
 	return user_message(content, role='system')
 
-def assistant_message(content):
-	return user_message(content, role='assistant')
-
 def print_separator(text=None):
 	if text:
 		log_debug('-'*32, text, '-'*32)
@@ -27,10 +24,9 @@ def print_separator(text=None):
 def get_date():
 	return datetime.datetime.now().strftime('%Y-%m-%d')
 
-def get_date_month():
+def get_current_month():
 	return datetime.datetime.now().strftime('%Y-%m')
 
-host = '0.0.0.0'
 
 def kill_process_on_port(port):
 	for conn in psutil.net_connections(kind='tcp'):
@@ -42,6 +38,8 @@ def kill_process_on_port(port):
 			proc.send_signal(signal.SIGTERM)
 			proc.wait(timeout=15)
 			return
+
+host = '0.0.0.0'
 
 def clear_port(port):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

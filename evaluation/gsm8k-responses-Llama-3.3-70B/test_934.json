@@ -1,0 +1,13 @@
+{
+	"task_id": 934,
+	"prompt": "A charity group decides to do a yard sale.  10 people donate 5 boxes of stuff each.  They also have 10 boxes of stuff already.  They can fit 2 boxes worth of stuff per table.  If they already own 15 tables, how many new tables do they need?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 10*5=<<10*5=50>>50 donated boxes\nSo they have a total of 50+10=<<50+10=60>>60 boxes\nSo they need a total of 60/2=<<60/2=30>>30 tables\nThat means they need 30-15=<<30-15=15>>15 tables\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many new tables the charity group needs, we first need to calculate the total number of boxes of stuff they have. \n10 people donate 5 boxes of stuff each, so the total number of boxes donated is 10 * 5 = 50 boxes. \nThey also have 10 boxes of stuff already, so the total number of boxes is 50 + 10 = 60 boxes.\n\n \nThe charity group can fit 2 boxes worth of stuff per table. \nTo find out how many tables they need in total, we divide the total number of boxes by 2, which gives us 60 / 2 = 30 tables. \nThey already own 15 tables, so to find out how many new tables they need, we subtract the number of tables they own from the total number of tables needed, which is 30 - 15 = 15 tables.\n\n#### 15",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many new tables the charity group needs, we first need to calculate the total number of boxes of stuff they have. \n10 people donate 5 boxes of stuff each, so the total number of boxes donated is 10 * 5 = 50 boxes. \nThey also have 10 boxes of stuff already, so the total number of boxes is 50 + 10 = 60 boxes.\n\nThe charity group can fit 2 boxes worth of stuff per table. \nTo find out how many tables they need in total, we divide the total number of boxes by 2, which gives us 60 / 2 = 30 tables. \nThey already own 15 tables, so to find out how many new tables they need, we subtract the number of tables they own from the total number of tables needed, which is 30 - 15 = 15 tables. \n\n#### 15",
+			"retrievals": 1
+		}
+	]
+}

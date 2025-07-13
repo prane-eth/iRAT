@@ -1,0 +1,13 @@
+{
+	"task_id": 844,
+	"prompt": "Craig has 2 twenty dollar bills. He buys six squirt guns for $2 each.  He also buys 3 packs of water balloons for $3 each.  How much money does he have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Craig starts off with 2 * $20 = $<<2*20=40>>40.\nCraig spends 6 squirt guns * $2 = $<<6*2=12>>12 on squirt guns.\nCraig spends 3 packs of water balloons * $3 = $<<3*3=9>>9 on water balloons.\nTotal Craig has spent $12 + $9 = $<<12+9=21>>21.\nCraig has $40 - $21 = $<<40-21=19>>19 remaining.\n#### 19",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Craig has left, we first need to calculate the",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money Craig has left, we first need to calculate the total amount of money he initially has. Craig has 2 twenty dollar bills, which equals 2 * $20 = $40.\n\nNext, we calculate the cost of the six squirt guns. Each squirt gun costs $2, so six squirt guns cost 6 * $2 = $12.\n\nThen, we calculate the cost of the 3 packs of water balloons. Each pack costs $3, so 3 packs cost 3 * $3 = $9.\n\nNow, we add the cost of the squirt guns and the water balloons to find the total cost. The total cost is $12 + $9 = $21.\n\nFinally, we subtract the total cost from the initial amount of money Craig has to find out how much he has left. So, $40 - $21 = $19.\n\n#### $19",
+			"retrievals": 0
+		}
+	]
+}

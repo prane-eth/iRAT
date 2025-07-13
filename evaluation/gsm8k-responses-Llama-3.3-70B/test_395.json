@@ -1,0 +1,13 @@
+{
+	"task_id": 395,
+	"prompt": "Wendy wants to place 20 more than double the number of books in a shelving system with 6 rows and 6 columns. How many books will she need to carry to complete her task?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The capacity of the shelving system with 6 rows and 6 columns is 6*6=<<6*6=36>>36 books.\nDouble the capacity of the shelving system is 2*36=<<2*36=72>>72\nIf Wendy wants to place 20 more than double the number of books in a shelving system with 6 rows and 6 columns, she wants to place 20+72=92 books.\n#### 92",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of books Wendy wants to place, we first need to calculate the total capacity of the shelving system. The system has 6 rows and 6 columns, so the total number of books it can hold is 6 * 6 = 36.\n\nThe task requires Wendy to place 20 more than double the number of books the shelving system can hold. First, we calculate double the capacity: 2 * 36 = 72. Then, we add 20 more books to this number to find the total number of books Wendy needs: 72 + 20 = 92.\n\n#### 92",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many books Wendy will need, we first calculate the total capacity of the shelving system, which has 6 rows and 6 columns. The capacity is 6 * 6 = 36 books.\n\nNext, we need to double this capacity, which gives us 2 * 36 = 72 books.\n\nFinally, Wendy wants to place 20 more books than this doubled capacity. So, we add 20 to the doubled capacity: 72 + 20 = 92 books.\n\nTherefore, Wendy will need to carry 92 books to complete her task.\n\n#### 92",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 863,
+	"prompt": "Every hour, Paige can bake 2 banana bread loaves in the oven.  Each banana bread loaf is cut into 8 slices and wrapped individually for sale.  Each slice is sold for 50 cents for a fundraiser.  If she baked from 1:00 PM - 6:00 PM straight, and sold all the slices, how much did she raise in dollars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "From 1pm - 6pm, there are 6 - 1 = <<6-1=5>>5 hours.\nIn 5 hours, Paige baked 5 x 2 = <<5*2=10>>10 banana bread loaves.\nWhen they are sliced, there are 10 x 8 = <<10*8=80>>80 banana bread slices.\nBy selling all the slices, Paige has raised 80 x 0.50 = $<<80*0.50=40>>40.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Paige raised in dollars, we first need to calculate the total number of slices she baked. Paige bakes 2 banana bread loaves per hour, and each loaf is cut into 8 slices. \n\nSo, the number of slices per hour is 2 loaves * 8 slices/loaf = 16 slices per hour.\n\nShe baked from 1:00 PM to 6:00 PM, which is a total of 5 hours. \n\nThe total number of slices is then 16 slices/hour * 5 hours = 80 slices.\n\nEach slice is sold for 50 cents. \n\nTo find the total amount raised, we multiply the total number of slices by the price per slice: 80 slices * $0.50/slice = $40.\n\n#### $40",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we need to calculate the total number of banana bread slices Paige baked and sold, and then determine the total amount of money she raised. The problem states that Paige can bake 2 banana bread loaves per hour, and each loaf is cut into 8 slices. She baked from 1:00 PM to 6:00 PM, which is a total of 5 hours.\n\nFirst, we calculate the total number of slices Paige baked. Since she bakes 2 loaves per hour, and each loaf is cut into 8 slices, the number of slices per hour is 2 loaves * 8 slices/loaf = 16 slices per hour. She baked for 5 hours, so the total number of slices is 16 slices/hour * 5 hours = 80 slices.\n\nEach slice is sold for 50 cents, which is $0.50. To find the total amount raised, we multiply the total number of slices by the price per slice: 80 slices * $0.50/slice = $40.\n\nTherefore, Paige raised a total of $40 from selling the banana bread slices.\n\n#### $40",
+			"retrievals": 1
+		}
+	]
+}

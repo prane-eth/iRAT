@@ -1,0 +1,13 @@
+{
+	"task_id": 239,
+	"prompt": "Mary is two years younger than Joan, who is five years older than Jessa. If Jessa is 20 years old, what is the sum of the ages of the three girls?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Joan is 20 + 5 = <<20+5=25>>25 years old.\nMary is 25 \u2013 2 = <<25-2=23>>23 years old.\nTherefore, the sum of their ages is 20 + 25 + 23 = <<20+25+23=68>>68.\n#### 68",
+	"responses": [
+		{
+			"old_rat_answer": "To find the sum of the ages of the three girls, we first need to determine each of their ages based on the information provided.\n\n1. Jessa is 20 years old.\n2. Joan is five years older than Jessa, so Joan is 20 + 5 = 25 years old.\n3. Mary is two years younger than Joan, so Mary is 25 - 2 = 23 years old.\n\nNow, to find the sum of their ages, we add their individual ages together: 20 (Jessa) + 25 (Joan) + 23 (Mary) = 68.\n\n#### 68\n\nNow, we have the ages of all three girls: Jessa is 20, Joan is 25, and Mary is 23. To find the sum of their ages, we add these ages together: 20 + 25 + 23 = 68.\n\n#### 68",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine Jessa's Age\nJessa is 20 years old, as given in the problem.\n\n## Step 2: Calculate Joan's Age\nSince Joan is five years older than Jessa, we add 5 to Jessa's age to find Joan's age: 20 + 5 = 25.\n\n## Step 3: Calculate Mary's Age\nMary is two years younger than Joan. To find Mary's age, we subtract 2 from Joan's age: 25 - 2 = 23.\n\n## Step 4: Find the Sum of Their Ages\nTo find the total sum of their ages, we add Jessa's, Joan's, and Mary's ages together: 20 + 25 + 23 = 68.\n\nThe final answer is: #### 68",
+			"retrievals": 2
+		}
+	]
+}

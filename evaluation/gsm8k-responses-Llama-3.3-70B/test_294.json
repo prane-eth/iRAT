@@ -1,0 +1,13 @@
+{
+	"task_id": 294,
+	"prompt": "Three friends: Mike, Jim, and Tony decided to play a game. After 3 rounds Mike has 21 points, Jim 3 points less than Mike, and Tony 2 times more than Mike. In the fourth round, every player gets an extra point if they have over 20 points. How many points do all three players have in total after the extra points had been distributed?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After 3 rounds Jim has 21 points - 3 points = <<21-3=18>>18 points.\nTony has 2 times more points than Mike, so he has 2 * 21 points = <<2*21=42>>42 points.\nIn total they have 42 points + 18 points + 21 points = <<42+18+21=81>>81 points.\nOnly two of them have over 20 points, so in total, all friends have 81 points + 2 points = <<2+81=83>>83 points.\n#### 83",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total points of all three players after the extra points have been distributed, we first need to calculate the points each player has before the extra points are added. Mike has 21 points, Jim has 3 points less than Mike, which means Jim has 21 - 3 = 18 points. Tony has 2 times more points than Mike, so Tony has 2 * 21 = 42 points.\n\n \nNow, we need to determine which players receive an extra point in the fourth round. The rule states that every player gets an extra point if they have over 20 points. Mike has 21 points, which is over 20, so he gets an extra point. Jim has 18 points, which is less than 20, so he does not get an extra point. Tony has 42 points, which is over 20, so he also gets an extra point.\n\n \nAfter distributing the extra points, Mike now has 21 + 1 = 22 points, Jim still has 18 points, and Tony has 42 + 1 = 43 points. To find the total points of all three players, we add their points together: 22 (Mike) + 18 (Jim) + 43 (Tony) = 83 points.\n\n#### 83",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total points of all three players after the extra points have been distributed, we first calculate the points each player has before the extra points are added. Mike has 21 points, Jim has 3 points less than Mike (21 - 3 = 18 points), and Tony has 2 times more points than Mike (2 * 21 = 42 points).\n\nIn the fourth round, players with over 20 points get an extra point. Mike and Tony qualify, so they each get 1 extra point. Mike now has 21 + 1 = 22 points, and Tony has 42 + 1 = 43 points. Jim still has 18 points.\n\nThe total points after the extra distribution are found by adding the points of all three players: 22 (Mike) + 18 (Jim) + 43 (Tony) = 83 points.\n\n#### 83",
+			"retrievals": 3
+		}
+	]
+}

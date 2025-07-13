@@ -1,0 +1,13 @@
+{
+	"task_id": 995,
+	"prompt": "Tobias, Chikote, and Igneous are the three little wolves who live in the forest and howl at the moon every night. When Tobias howls, each howl lasts for a total of 20 seconds.  Chikote howls for twice as long as Tobias.  And Igneous howls for as long as the other two wolves combined.  What is the combined length of time, in minutes, of the three wolves' howls?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Chikote howls for 20*2=<<20*2=40>>40 seconds.\nIgneous howls for 20+40=<<20+40=60>>60 seconds.\nIn total, the combined length of time, in seconds, of the three wolves' howls is 20+40+60=<<20+40+60=120>>120 seconds.\nThus, the combined length of time, in minutes, of the three wolves' howls is 120/60=<<120/60=2>>2 minutes.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the combined length of time of the three wolves' howls, we first need to determine how long each wolf howls. Tobias howls for 20 seconds. Since Chikote howls for twice as long as Tobias, Chikote's howl lasts 2 * 20 = 40 seconds.\n\nIgneous howls for as long as the other two wolves combined. So, Igneous's howl lasts 20 (Tobias) + 40 (Chikote) = 60 seconds. Now, we have the lengths of all three wolves' howls: Tobias howls for 20 seconds, Chikote for 40 seconds, and Igneous for 60 seconds.\n\nTo find the combined length of time of their howls, we add the lengths of their howls together: 20 + 40 + 60 = 120 seconds. Since the question asks for the time in minutes, we need to convert seconds to minutes. There are 60 seconds in a minute, so 120 seconds is 120 / 60 = 2 minutes.\n\n#### 2",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the combined length of time of the three wolves' howls, we",
+			"retrievals": 1
+		}
+	]
+}

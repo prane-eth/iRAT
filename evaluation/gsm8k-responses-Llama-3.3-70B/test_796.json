@@ -1,0 +1,13 @@
+{
+	"task_id": 796,
+	"prompt": "Mike needed a new pair of jeans.  When he got to the mall he saw that his favorite jeans were advertised 25% off.  The original price of the jeans was $40.  How much money will Mike have left over if he pays with a $50.00 bill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The jeans cost $40 and are sale for 25% off so 40 * .25 = $<<40*.25=10.00>>10.00 discount\nTake the original cost of the jeans and subtract the discount so 40-10 = $<<40-10=30.00>>30.00\nMike pays with a $50 bill and the final cost of the jeans is $30 so 50-30 = $<<50-30=20.00>>20.00 left\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Mike will have left over, we first need to calculate the discount on the jeans. The original price of the jeans is $40, and they are advertised at 25% off. \n\nThe discount amount can be calculated by finding 25% of $40. To do this, we multiply $40 by 0.25 (since 25% is the same as 0.25). So, the discount amount is $40 * 0.25 = $10.\n\nNow that we know the discount amount, we can calculate the new price of the jeans after the discount. The new price is the original price minus the discount amount, which is $40 - $10 = $30.\n\nMike pays with a $50 bill, so to find out how much money he will have left over, we subtract the new price of the jeans from $50. Therefore, the amount of money Mike will have left over is $50 - $30 = $20.\n\n#### $20",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much money Mike will have left over, we first need to calculate the discount amount on the jeans. The original price of the jeans is $40, and they are advertised 25% off. \n\nThe discount amount is 25% of $40, which is 0.25 * $40 = $10. \n\nSo, the discounted price of the jeans is $40 - $10 = $30. \n\nIf Mike pays with a $50 bill, he will have $50 - $30 = $20 left over.\n\n#### $20",
+			"retrievals": 1
+		}
+	]
+}

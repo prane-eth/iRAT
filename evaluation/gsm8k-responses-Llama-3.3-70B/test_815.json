@@ -1,0 +1,13 @@
+{
+	"task_id": 815,
+	"prompt": "A new arcade opens up and Jack decides to play with his 3 friends.  Jack can play a game with 1 quarter for 20 minutes.  Two of his friends are significantly worse than him and can only play half as long.  One of them is significantly better and can play for 1.5 times as long.  They play for 4 hours.  How much money is used?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jack puts change in 60/20=<<60/20=3>>3 times an hour\nSo he spends 3*.25=$<<3*.25=.75>>.75 an hour\nHis two friends add change 3*2=<<3*2=6>>6 times an hour\nSo they spend 6*.25=$<<6*.25=1.5>>1.5 an hour\nHis last friend puts in money 3/1.5=<<3/1.5=2>>2 times an hour\nSo he spends 2*.25=$<<2*.25=.50>>.50 an hour\nSo in total they spend .75+1.5+.5=$<<.75+1.5+.5=2.75>>2.75 an hour\nSo they spend 2.75*4=$<<2.75*4=11>>11 in the 4 hours\n#### 11",
+	"responses": [
+		{
+			"old_rat_answer": "To determine the total amount of money used, we first need to calculate how long",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the playtime for each person\nFirst, let's establish the playtime for each person based on the information given. Jack can play for 20 minutes with 1 quarter. Two of his friends can play for half as long as Jack, which means they can play for 10 minutes with 1 quarter. The other friend, who is significantly better, can play for 1.5 times as long as Jack, which means he can play for 30 minutes with 1 quarter.\n\n## Step 2: Determine the total playtime for all players\nThey play for 4 hours, which is equivalent to 240 minutes. We need to calculate how many quarters each person would use in this timeframe. For Jack, playing for 240 minutes would require 240 / 20 = 12 quarters. For the two friends who are worse, playing for 240 minutes would require 240 / 10 = 24 quarters each. For the better friend, playing for 240 minutes would require 240 / 30 = 8 quarters.\n\n## Step 3: Calculate the total amount of money used\nTo find the total amount of money used, we need to add up the quarters used by all players. Jack uses 12 quarters, the two worse friends use 24 quarters each (so 48 quarters total), and the better friend uses 8 quarters. This gives us a total of 12 + 48 + 8 = 68 quarters.\n\n## Step 4: Convert the total quarters to dollars\nSince each quarter is worth $0.25, we multiply the total number of quarters by the value of one quarter to find the total amount of money used. So, 68 quarters * $0.25 = $17.\n\n#### $17",
+			"retrievals": 1
+		}
+	]
+}

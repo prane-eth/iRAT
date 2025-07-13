@@ -1,0 +1,13 @@
+{
+	"task_id": 953,
+	"prompt": "Vince can staple 30 reports every 15 minutes.  If he was stapling reports from 8:00 AM until 11:00 PM, how many reports did he staple altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In one hour, there are 60 / 15 = <<60/15=4>>4 (15 minutes).\nFrom 8am - 11am, there are 11 - 8 = <<11-8=3>>3 hours.\nIn 3 hours, there are 3 x 4 = <<3*4=12>>12 (15 minutes).\nIn those 3 hours, Vince stapled 12 x 30 = <<12*30=360>>360 reports.\n#### 360",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many reports Vince stapled altogether, we first need to determine the total time he spent stapling reports. Vince started stapling at 8:00 AM and finished at 11:00 PM. \n\nThe total time spent stapling can be calculated by finding the difference between the end time and the start time. From 8:00 AM to 11:00 PM is 15 hours. Since there are 60 minutes in an hour, 15 hours is equal to 15 * 60 = 900 minutes.\n\nVince can staple 30 reports every 15 minutes. To find out how many sets of 15 minutes are in 900 minutes, we divide 900 by 15. This gives us 900 / 15 = 60 sets of 15 minutes.\n\nSince Vince can staple 30 reports every 15 minutes, and there are 60 sets of 15 minutes in the total time, we multiply the number of reports stapled per set by the number of sets. So, 30 reports * 60 sets = 1800 reports.\n\n#### 1800",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total time Vince spent stapling reports\nVince stapled reports from 8:00 AM until 11:00 PM, which is a total of 15 hours.\n\n## Step 2: Convert the total time to minutes\nSince there are 60 minutes in an hour, the total time in minutes is 15 * 60 = 900 minutes.\n\n## Step 3: Calculate the number of 15-minute intervals\nTo find out how many 15-minute intervals there are in 900 minutes, we divide 900 by 15, which gives us 900 / 15 = 60 intervals.\n\n## Step 4: Calculate the total number of reports stapled\nSince Vince can staple 30 reports every 15 minutes, and there are 60 intervals of 15 minutes, the total number of reports stapled is 30 * 60 = 1800 reports.\n\nThe final answer is: #### 1800",
+			"retrievals": 2
+		}
+	]
+}

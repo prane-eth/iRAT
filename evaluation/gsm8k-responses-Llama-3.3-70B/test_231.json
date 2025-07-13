@@ -1,0 +1,13 @@
+{
+	"task_id": 231,
+	"prompt": "Mark buys a fleet of 12 cars for his company.  Each car sells for $20,000.  He pays 10% tax on the cars and then another $1000 for registration on each of them.  How much does he pay for everything?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cars cost 20000*12=$<<20000*12=240000>>240,000\nSo the tax came out to 240,000*.1=$<<240000*.1=24000>>24,000\nSo the cars cost 240,000+24,000=$<<240000+24000=264000>>264,000\nRegistration cost another 12*1000=<<12*1000=12000>>12,000\nSo his total cost is 264,000+12,000=$<<264000+12000=276000>>276,000\n#### 276,000",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total amount Mark pays for everything, we first need to calculate the\n\nNow, we add up the total cost of the cars, the tax, and the registration to find the total amount Mark pays. The total cost is $240,000 (cars) + $24,000 (tax) + $12,000 (registration) = $276,000.\n\n#### $276,000",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount Mark pays for the fleet of cars, we need to calculate the total cost of the cars, the tax, and the registration. \n\nFirst, we calculate the total cost of the cars before tax and registration. Since Mark buys 12 cars and each car sells for $20,000, the total cost of the cars is 12 * $20,000 = $240,000.\n\nNext, we calculate the tax on the cars, which is 10% of $240,000. This equals 0.10 * $240,000 = $24,000.\n\nThen, we consider the registration cost, which is $1000 for each of the 12 cars. The total registration cost is 12 * $1000 = $12,000.\n\nTo find the total amount Mark pays, we add the total cost of the cars, the tax, and the registration: $240,000 (cars) + $24,000 (tax) + $12,000 (registration) = $276,000.\n\n#### $276,000",
+			"retrievals": 2
+		}
+	]
+}

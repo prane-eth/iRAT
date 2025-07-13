@@ -1,0 +1,13 @@
+{
+	"task_id": 1051,
+	"prompt": "It is approximately 1955 kilometers from San Diego, California to New York City, New York. If Bernice drove 325 kilometers for 4 days, how many kilometers will she still need to drive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "325 * 4 = <<325*4=1300>>1300 km\n1955 - 1300 = <<1955-1300=655>>655 km\nBernice will still have 655 kilometers to travel.\n#### 655",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many kilometers Bernice will still need to drive, we first need to calculate the total distance she has driven so far. She drove 325 kilometers for 4 days. \n\nThis means the total distance covered is 325 kilometers * 4 days = 1300 kilometers.\n\nThe total distance from San Diego, California to New York City, New York is approximately 1955 kilometers. \n\nTo find out how many kilometers she will still need to drive, we subtract the distance she has already driven from the total distance. So, 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n#### 655",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many kilometers Bernice will still need to drive, we first need to calculate the total distance she has driven so far. Since she drove 325 kilometers for 4 days, we multiply the distance driven per day by the number of days.\n\n## Step 1: Calculate the total distance Bernice drove\nThe total distance Bernice drove is 325 kilometers * 4 days = 1300 kilometers.\n\n## Step 2: Calculate the remaining distance Bernice needs to drive\nThe total distance from San Diego, California to New York City, New York is approximately 1955 kilometers. To find out how many kilometers Bernice will still need to drive, we subtract the distance she has already driven from the total distance.\n\nRemaining distance = Total distance - Distance driven\nRemaining distance = 1955 kilometers - 1300 kilometers\nRemaining distance = 655 kilometers\n\n#### 655",
+			"retrievals": 1
+		}
+	]
+}

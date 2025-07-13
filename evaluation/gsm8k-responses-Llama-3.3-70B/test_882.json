@@ -1,0 +1,13 @@
+{
+	"task_id": 882,
+	"prompt": "In 10 years, Melanie will be 18 years old. In how many years will her age be thrice her present age?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Melanie's present age is 18 - 10 = <<18-10=8>>8.\nThrice Melanie's present age is 8 x 3 = <<8*3=24>>24.\nSo, she will be thrice her present age in 24 - 8 = 16 years.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine Melanie's current age. We know that in 10 years, she will be 18 years old. \n\nLet's denote Melanie's current age as `x`. Since in 10 years she will be 18, we can set up the equation `x + 10 = 18` to find her current age.\n\nSolving the equation `x + 10 = 18` for `x`, we subtract 10 from both sides, which gives us `x = 18 - 10`, resulting in `x = 8`. This means Melanie is currently 8 years old.\n\nNext, we need to find out in how many years her age will be thrice her present age. Since her present age is 8, thrice that would be `3 * 8 = 24` years old.\n\nNow, we set up another equation to find out how many years it will take for Melanie to be 24 years old. Let `y` be the number of years it will take for her to reach 24 years old from her current age. The equation would be `8 + y = 24`.\n\nSolving the equation `8 + y = 24` for `y`, we subtract 8 from both sides, which gives us `y = 24 - 8`, resulting in `y = 16`. \n\nThis means it will take 16 years for Melanie's age to be thrice her present age.\n\n#### 16",
+			"old_rat_retrievals": 2,
+			"final_answer": "To solve this problem, we first need to determine Melanie's current age. We know that in 10 years, she will be 18 years old. Let's denote Melanie's current age as `x`. Since in 10 years she will be 18, we can set up the equation `x + 10 = 18` to find her current age. Solving the equation `x + 10 = 18` for `x`, we subtract 10 from both sides, which gives us `x = 18 - 10`, resulting in `x = 8`. This means Melanie is currently 8 years old.\n\nNext, we need to find out in how many years her age will be thrice her present age. Since her present age is 8, thrice that would be `3 * 8 = 24` years old. Now, we set up another equation to find out how many years it will take for Melanie to be 24 years old. Let `y` be the number of years it will take for her to reach 24 years old from her current age. The equation would be `8 + y = 24`.\n\nSolving the equation `8 + y = 24` for `y`, we subtract 8 from both sides, which gives us `y = 24 - 8`, resulting in `y = 16`. This means it will take 16 years for Melanie's age to be thrice her present age.\n\n#### 16",
+			"retrievals": 1
+		}
+	]
+}

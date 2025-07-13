@@ -1,0 +1,13 @@
+{
+	"task_id": 555,
+	"prompt": "When the water is cold Ray swims a mile in 16 minutes. When the water is warm Ray swims a mile in 2 minutes more than twice as long. How much longer does Ray take to swim 3 miles on a hot day than a cold day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cold water mile = <<16=16>>16 minutes\nWarm water mile = 2+2(16)=34 minutes\n3 miles in cold water: 3(16)=<<3*16=48>>48 minutes\n3 miles in warm water: 3(34)=<<3*34=102>>102 minutes\nRay takes 102-48=<<102-48=54>>54 minutes longer\n#### 54",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much longer Ray takes to swim 3 miles on a hot",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the time taken to swim a mile in cold water\nRay swims a mile in 16 minutes when the water is cold.\n\n## Step 2: Calculate the time taken to swim a mile in warm water\nWhen the water is warm, Ray swims a mile in 2 minutes more than twice as long as he does in cold water. Twice as long as 16 minutes is 2 * 16 = 32 minutes. 2 minutes more than this is 32 + 2 = 34 minutes.\n\n## Step 3: Calculate the time taken to swim 3 miles in cold water\nTo swim 3 miles in cold water, it would take Ray 3 * 16 = 48 minutes.\n\n## Step 4: Calculate the time taken to swim 3 miles in warm water\nTo swim 3 miles in warm water, it would take Ray 3 * 34 = 102 minutes.\n\n## Step 5: Calculate the difference in time to swim 3 miles between warm and cold water\nThe difference in time is 102 - 48 = 54 minutes.\n\nThe final answer is: #### 54",
+			"retrievals": 1
+		}
+	]
+}

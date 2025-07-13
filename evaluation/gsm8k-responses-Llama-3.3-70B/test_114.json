@@ -1,0 +1,13 @@
+{
+	"task_id": 114,
+	"prompt": "Ryan plants 2 flowers a day in his garden. After 15 days, how many flowers does he have if 5 did not grow?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ryan plants 2*15=<<2*15=30>>30 flowers in total.\nGiven 5 plants did not grow, he has 30-5=<<30-5=25>>25 flowers in his garden.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many flowers Ryan has after 15 days, we first need to calculate the total number of flowers he planted. Since he plants 2 flowers a day, after 15 days, he would have planted 2 * 15 = 30 flowers. However, we are told that 5 of these flowers did not grow. Therefore, we subtract the 5 flowers that did not grow from the total number of flowers planted to find out how many flowers he actually has.\n\nTotal flowers planted = 2 flowers/day * 15 days = 30 flowers\nFlowers that did not grow = 5\nTotal flowers that grew = Total flowers planted - Flowers that did not grow = 30 - 5 = 25\n\nSo, after 15 days, Ryan has 25 flowers in his garden.\n\n#### 25\n\n#### 25",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem states that Ryan plants 2 flowers a day in his garden. We need to calculate the total number of flowers he has after 15 days, considering that 5 of the flowers did not grow.\n\n## Step 2: Calculating Total Flowers Planted\nTo find the total number of flowers planted, we multiply the number of flowers Ryan plants per day by the number of days. This gives us total_flowers_planted = 2 flowers/day * 15 days = 30 flowers.\n\n## Step 3: Accounting for Flowers That Did Not Grow\nSince 5 of the flowers did not grow, we need to subtract this number from the total number of flowers planted to find the actual number of flowers Ryan has. So, total_flowers = total_flowers_planted - 5 = 30 - 5 = 25 flowers.\n\n## Step 4: Conclusion\nAfter calculating the total number of flowers planted and subtracting the number of flowers that did not grow, we find that Ryan has 25 flowers in his garden.\n\n#### 25",
+			"retrievals": 1
+		}
+	]
+}

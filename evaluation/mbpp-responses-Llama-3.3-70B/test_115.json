@@ -1,0 +1,21 @@
+{
+	"task_id": 125,
+	"prompt": "Write a function to extract values between quotation marks of the given string by using regex.?import re\n\nassert extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"') == ['A53', 'multi', 'Processor']",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"') == ['A53', 'multi', 'Processor']",
+		"assert extract_quotation('Cast your \"favorite\" entertainment \"apps\"') == ['favorite', 'apps']",
+		"assert extract_quotation('Watch content \"4k Ultra HD\" resolution with \"HDR 10\" Support') == ['4k Ultra HD', 'HDR 10']"
+	],
+	"mbpp_code": "import re\r\ndef extract_quotation(text1):\r\n  return (re.findall(r'\"(.*?)\"', text1))",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Identify the requirement\nThe problem requires writing a function to\n\ndef extract_quotation(s):\n    pattern = '\"([^\"]*)\"'\n    return re.findall(pattern, s)\n```",
+			"old_rat_retrievals": 6,
+			"final_answer": "To extract values between quotation marks from a given string, we can utilize regular expressions (regex) in Python. The `re` module provides support for regular expressions in Python.\n\nHere's how you can achieve it:\n\n```python\nimport re\n\ndef extract_quotation(s):\n    pattern = r'\"([^\"]*)\"'\n    matches = re.findall(pattern, s)\n    return matches\n\nassert extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"') == ['A53', 'multi', 'Processor']\n```\n\nIn this code:\n\n- The `extract_quotation` function takes a string `s` as input.\n- The pattern `r'\"([^\"]*)\"'` matches any substring that starts and ends with a double quote and captures any characters (except double quotes) in between. The `[^\"]*` part matches any character that is not a double quote.\n- The `re.findall` function finds all occurrences of the pattern in the string and returns them as a list of strings.\n- The function returns this list of matches.\n\nThis approach ensures that the function correctly extracts values between quotation marks. \n\nFor example, when you call `extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"')`, it returns `['A53', 'multi', 'Processor']`, which are the values between the quotation marks in the input string.",
+			"retrievals": 1
+		}
+	]
+}

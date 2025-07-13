@@ -1,0 +1,13 @@
+{
+	"task_id": 312,
+	"prompt": "In a family of 5, three people eat three eggs each day while the rest eat two eggs each day. If they eat eggs every day, how many eggs will the family consume in a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three persons eat 3 x 3 = <<3*3=9>>9 eggs each day.\nSo, 5 - 3 = <<5-3=2>>2 persons eat two eggs in a day.\nThus, 2 x 2 = 4 eggs are consumed by the two other people in a day.\nSo the family consumes 9 + 4 = <<9+4=13>>13 eggs each day.\nTherefore, 13 x 7 = <<13*7=91>>91 eggs will be consumed by the family in a week.\n#### 91",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many eggs the family consumes in a week, we need to calculate the daily egg consumption and then multiply it by 7.\n\nThere are 3 people who eat 3 eggs each day, so their total consumption is 3 * 3 = 9 eggs per day.\n\nThe rest of the family, which is 5 - 3 = 2 people, eat 2 eggs each day, so their total consumption is 2 * 2 = 4 eggs per day.\n\nThe total daily egg consumption for the family is 9 + 4 = 13 eggs per day.\n\nSince they eat eggs every day, the weekly consumption is 13 * 7 = 91 eggs.\n\n#### 91",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine the total number of eggs consumed by the family in a week, we first need to calculate the daily egg consumption. The family consists of 5 people, with 3 people eating 3 eggs each day and the remaining 2 people eating 2 eggs each day.\n\nThe 3 people who eat 3 eggs each day consume a total of 3 * 3 = 9 eggs per day. The 2 people who eat 2 eggs each day consume a total of 2 * 2 = 4 eggs per day.\n\nTo find the total daily egg consumption, we add the eggs consumed by both groups: 9 eggs (from the 3 people) + 4 eggs (from the 2 people) = 13 eggs per day.\n\nSince the family eats eggs every day, to find the total number of eggs consumed in a week, we multiply the daily egg consumption by 7 (the number of days in a week): 13 eggs/day * 7 days = 91 eggs.\n\nThis calculation provides a clear understanding of how the family's egg consumption adds up over the course of a week. By considering the daily habits of all family members and extrapolating that to a weekly total, we can confidently determine the family's weekly egg consumption.\n\n#### 91",
+			"retrievals": 2
+		}
+	]
+}

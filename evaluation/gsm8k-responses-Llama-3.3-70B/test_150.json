@@ -1,0 +1,13 @@
+{
+	"task_id": 150,
+	"prompt": "Charlie has three times as many Facebook friends as Dorothy. James has four times as many friends on Facebook as Dorothy. If Charlie has 12 friends on Facebook, how many Facebook friends does James have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Dorothy has 12 / 3 = <<12/3=4>>4 Facebook friends.\nJames has 4 * 4 = <<4*4=16>>16 Facebook friends.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many Facebook friends James has, we first need to establish the number of friends Dorothy has, since both Charlie's and James' number of friends are compared to hers. We know Charlie has three times as many friends as Dorothy and that Charlie has 12 friends.\n\nLet's denote the number of friends Dorothy has as \"D\". Since Charlie has three times as many friends as Dorothy, we can express this relationship as 3D = 12, where 3D represents Charlie's friends.\n\nSolving for D, we divide both sides of the equation by 3: D = 12 / 3 = 4. This means Dorothy has 4 friends on Facebook.\n\nNow that we know Dorothy has 4 friends, we can find out how many friends James has. James has four times as many friends as Dorothy. So, James' friends can be calculated as 4 * D = 4 * 4 = 16.\n\nTherefore, James has 16 friends on Facebook.\n\n#### 16",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many Facebook friends James has, we first need to establish the number of friends Dorothy has, given that Charlie has 12 friends and he has three times as many friends as Dorothy.\n\nLet's denote Dorothy's friends as D. Since Charlie has three times as many friends as Dorothy, we can write the equation as 12 = 3D. To find D, we divide both sides of the equation by 3, which gives us D = 12 / 3 = 4.\n\nNow that we know Dorothy has 4 friends, and James has four times as many friends as Dorothy, we can calculate James's friends by multiplying Dorothy's friends by 4: James's friends = 4 * 4 = 16.\n\nTherefore, James has 16 Facebook friends.\n\n#### 16",
+			"retrievals": 1
+		}
+	]
+}

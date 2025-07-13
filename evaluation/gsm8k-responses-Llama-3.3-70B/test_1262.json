@@ -1,0 +1,13 @@
+{
+	"task_id": 1262,
+	"prompt": "Alicia's clothes have to be sent to the dry cleaners weekly.  Her weekly drop-off includes 5 blouses, 2 pants and 1 skirt.  If they charge her $5.00 per blouse, $6.00 per skirt and $8.00 per pair of pants, how much does she spend on dry-cleaning in 5 weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The blouses cost $5.00 each to dry clean and she has 5 so that's 5*5 = $<<5*5=25.00>>25.00\nThe one skirt she has costs $6.00 to dry clean\nThe pants cost $8.00 to dry clean and she has 2 pairs so that's 8*2 = $<<8*2=16.00>>16.00\nIn one week she spends 25+6+16 = $<<25+6+16=47.00>>47.00 on dry cleaning\nOver 5 weeks, she will spend 5*47 = $<<5*47=235.00>>235.00 on dry cleaning\n#### 235",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount Alicia spends on dry-cleaning in 5 weeks, we first need to determine the weekly cost. Her weekly drop-off includes 5 blouses, 2 pants, and 1 skirt.\n\nThe cost for each item is as follows: $5.00 per blouse, $6.00 per skirt, and $8.00 per pair of pants. We calculate the weekly cost by multiplying the number of each item by its respective cost and then summing these amounts. So, the weekly cost is (5 blouses * $5.00) + (2 pants * $8.00) + (1 skirt * $6.00).\n\nThis gives us a weekly cost of (5 * $5.00) + (2 * $8.00) + (1 * $6.00) = $25.00 + $16.00 + $6.00 = $47.00.\n\nTo find the total cost for 5 weeks, we multiply the weekly cost by the number of weeks: $47.00 * 5.\n\nThe total cost for 5 weeks is $47.00 * 5 = $235.00.\n\n#### $235.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Introduction to the Problem\nTo calculate the total amount Alicia spends on dry-cleaning in 5 weeks, we first need to determine the weekly cost. Her weekly drop-off includes 5 blouses, 2 pants, and 1 skirt. The cost for each item is as follows: $5.00 per blouse, $6.00 per skirt, and $8.00 per pair of pants.\n\n## Calculating Weekly Cost\nWe calculate the weekly cost by multiplying the number of each item by its respective cost and then summing these amounts. So, the weekly cost is (5 blouses * $5.00) + (2 pants * $8.00) + (1 skirt * $6.00). This gives us (5 * $5.00) + (2 * $8.00) + (1 * $6.00) = $25.00 + $16.00 + $6.00 = $47.00 per week.\n\n## Calculating Total Cost for 5 Weeks\nTo find the total amount spent in 5 weeks, we multiply the weekly cost by the number of weeks. So, $47.00 per week * 5 weeks = $235.00.\n\n## Conclusion\nGiven the information provided and the calculations above, Alicia spends a total of $235.00 on dry-cleaning in 5 weeks.\n\n#### $235.00",
+			"retrievals": 2
+		}
+	]
+}

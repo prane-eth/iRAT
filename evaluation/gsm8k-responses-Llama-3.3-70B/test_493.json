@@ -1,0 +1,13 @@
+{
+	"task_id": 493,
+	"prompt": "Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small pizza. How much does she spend in all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost of the family-size pizza is 3 x $8 = $<<3*8=24>>24.\nTherefore, Sally spends $8 + $24 = $<<8+24=32>>32 in all.\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Sally spends in all, we first need to calculate the cost of the family-size pizza. Since the family-size pizza costs 3 times as much as the small pizza, and the small pizza costs $8, we multiply the cost of the small pizza by 3.\n\nThe cost of the family-size pizza is $8 * 3 = $24. Now, we add the cost of the small pizza to the cost of the family-size pizza to find the total amount spent. \n\nThe total amount spent is $8 (small pizza) + $24 (family-size pizza) = $32.\n\n#### $32",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much Sally spends in all, we first need to calculate the cost of the family-size pizza. Since the family-size pizza costs 3 times as much as the small pizza, and the small pizza costs $8, we multiply the cost of the small pizza by 3. The cost of the family-size pizza is $8 * 3 = $24.\n\nNow, we add the cost of the small pizza to the cost of the family-size pizza to find the total amount spent. The total amount spent is $8 (small pizza) + $24 (family-size pizza) = $32.\n\nThe calculation is straightforward and does not require any additional information beyond what is provided in the question. Therefore, the total amount spent by Sally is correctly calculated based on the given prices of the pizzas.\n\n#### $32",
+			"retrievals": 1
+		}
+	]
+}

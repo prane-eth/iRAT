@@ -1,0 +1,13 @@
+{
+	"task_id": 726,
+	"prompt": "A cat eats nine sausages in 30 minutes. A dog can eat the same number of sausages in 2/3 the amount of time the cat takes. Calculate the average time the two take the eat the sausages.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the cat takes 30 minutes to eat the sausages, the dog takes 2/3*30 = <<30*2/3=20>>20 minutes.\nThe total amount of time the cat and the dog take to eat the sausages is 20+30 = <<20+30=50>>50 minutes.\nThe average time in minutes that the two take to eat the sausages is 50/2 = <<50/2=25>>25 minutes.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average time the two take to eat the sausages, we first need to calculate the time the dog takes to eat the sausages. The cat eats nine sausages in 30 minutes. The dog can eat the same number of sausages in 2/3 the amount of time the cat takes.\n\nThe time the dog takes is 2/3 * 30 minutes = 20 minutes. Now we have the time for both the cat and the dog: the cat takes 30 minutes, and the dog takes 20 minutes.\n\nTo find the average time, we add the times for both the cat and the dog and then divide by 2 (the number of animals). The average time = (30 minutes + 20 minutes) / 2 = 50 minutes / 2 = 25 minutes.\n\n#### 25 minutes",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the average time it takes for the cat and the dog to eat the",
+			"retrievals": 1
+		}
+	]
+}

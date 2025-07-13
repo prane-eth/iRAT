@@ -1,0 +1,13 @@
+{
+	"task_id": 1275,
+	"prompt": "A family of parents and a child go to the cinema. The cost of an adult ticket is $12 and a child ticket is $8. Then they buy 2 popcorns for $3 each. How many dollars do they pay in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Adult tickets cost 12*2=$<<12*2=24>>24\nPopcorns cost 2*3=$<<2*3=6>>6\nThey pay 24+8+6=$<<24+8+6=38>>38 in total.\n#### 38",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost, we first need to calculate the cost of the cinema tickets. The family consists of 2 adults and 1 child. \n\nThe cost of an adult ticket is $12, and there are 2 adults, so the total cost for adult tickets is 2 * $12 = $24. The cost of a child ticket is $8, and there is 1 child, so the total cost for the child ticket is 1 * $8 = $8.\n\nNext, we add the cost of the adult tickets and the child ticket to get the total cost of the cinema tickets. Total cost of tickets = $24 + $8 = $32.\n\nThen, they buy 2 popcorns for $3 each. The total cost of the popcorns is 2 * $3 = $6.\n\nFinally, we add the total cost of the cinema tickets and the total cost of the popcorns to get the overall total cost. Total cost = $32 + $6 = $38.\n\n#### $38",
+			"old_rat_retrievals": 6,
+			"final_answer": "To calculate the total cost for the family's trip to the cinema, we first need to determine the cost of the tickets and then add the cost of the popcorn.\n\nThe cost for the adult tickets is 2 * $12 = $24, since there are two parents. The child's ticket costs $8. Therefore, the total cost for tickets is $24 (for the parents) + $8 (for the child) = $32.\n\nNext, we calculate the cost of the popcorn. The family buys 2 popcorns at $3 each. So, the total cost for popcorn is 2 * $3 = $6.\n\nTo find the total cost, we add the cost of the tickets to the cost of the popcorn. The total cost is $32 (tickets) + $6 (popcorn) = $38.\n\n#### $38",
+			"retrievals": 1
+		}
+	]
+}

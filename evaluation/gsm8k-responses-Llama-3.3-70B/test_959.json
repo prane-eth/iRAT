@@ -1,0 +1,13 @@
+{
+	"task_id": 959,
+	"prompt": "Courtney attended a concert and reported that the audience was 48 in number. However, Kelly went to the same concert and said that Courtney had made the mistake of overstating the number of people in attendance by 20%. If Kelly was right, how many people really attended the concert?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since she overstated the number by 20%, 48 is 20% greater than the actual number i.e. 48 = 100% + 20% = 120% of the actual number = 120/100 of the actual number\nTherefore, the actual number = (100/120)*48 = <<(100/120)*48=40>>40\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the actual number of people who attended the concert, we first need to understand that Courtney overstated the number by 20%. This means the number Courtney reported, 48, is 20% more than the actual number.\n\nLet's denote the actual number of people who attended the concert as \"x\". Since Courtney overstated the number by 20%, the number she reported (48) is 120% of the actual number (x). We can express this relationship as an equation: 48 = x + 20% of x.\n\nTo find 20% of x, we multiply x by 0.20. So, 20% of x is 0.20x. Therefore, the equation becomes 48 = x + 0.20x.\n\nCombining like terms, we get 48 = 1.20x. To solve for x, we divide both sides of the equation by 1.20.\n\nCalculating x = 48 / 1.20 gives us the actual number of people who attended the concert.\n\nx = 40.\n\n#### 40",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the actual number of people who attended the concert, we first need to understand that Courtney overstated the number by 20%. This means the number Courtney reported, 48, is 20% more than the actual number. Let's denote the actual number of people who attended the concert as \"x\". Since Courtney overstated the number by 20%, the number she reported (48) is 120% of the actual number (x). We can express this relationship as an equation: 48 = x + 20% of x.\n\nTo find 20% of x, we multiply x by 0.20. So, 20% of x is 0.20x. Therefore, the equation becomes 48 = x + 0.20x. Combining like terms, we get 48 = 1.20x. To solve for x, we divide both sides of the equation by 1.20. Calculating x = 48 / 1.20 gives us the actual number of people who attended the concert. x = 40.\n\n#### 40",
+			"retrievals": 0
+		}
+	]
+}

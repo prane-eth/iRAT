@@ -1,0 +1,13 @@
+{
+	"task_id": 406,
+	"prompt": "Tyson decided to make muffaletta sandwiches for the big game.  Each sandwich required 1 pound each of meat and cheese and would serve 4 people.  There would be 20 people in total watching the game.  The meat cost $7.00 per pound and the cheese cost $3.00 per pound.  How much money would he spend on the meat and cheese to make enough sandwiches to serve 20 people?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each sandwich serves 4 people and he had 20 people in total to make food for so 20/4 = <<20/4=5>>5 sandwiches\n1 pound of meat cost $7.00 per sandwich and he had to make 5 so 7*5 = $<<7*5=35.00>>35.00 for meat\n1 pound of cheese cost $3.00 per sandwich and he had to make 5 so 3*5 = $<<3*5=15.00>>15.00 for cheese\nWhen you add the meat and cheese together, he would spend 35+15 = $<<35+15=50.00>>50.00\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Tyson would spend on the meat and cheese, we first need to calculate the number of sandwiches required to serve 20 people. Since each sandwich serves 4 people, we divide the total number of people by the number of people each sandwich serves. \n\nThis gives us 20 people / 4 people per sandwich = 5 sandwiches. Since each sandwich requires 1 pound of meat and 1 pound of cheese, we then calculate the total amount of meat and cheese needed. \n\nFor 5 sandwiches, the total meat needed is 5 sandwiches * 1 pound of meat per sandwich = 5 pounds of meat. Similarly, the total cheese needed is 5 sandwiches * 1 pound of cheese per sandwich = 5 pounds of cheese.\n\nThe cost of the meat is $7.00 per pound, so the total cost for the meat is 5 pounds * $7.00 per pound = $35.00. The cost of the cheese is $3.00 per pound, so the total cost for the cheese is 5 pounds * $3.00 per pound = $15.00.\n\nTo find the total amount spent on meat and cheese, we add the cost of the meat and the cost of the cheese together: $35.00 (meat) + $15.00 (cheese) = $50.00.\n\n#### $50.00",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Determine the number of sandwiches needed\nTo find out how",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 973,
+	"prompt": "Mrs. Harrington bought 12 boxes of oranges at the market. She gave her mom and her sister 2 boxes of oranges each. Then she kept 1/4 of the oranges and sold the rest. How many oranges did Mrs. Harrington sell if each box contains 20 oranges?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mrs. Harrington gave a total of 2 x 2 = <<2*2=4>>4 boxes of oranges to her mom and sister.\nShe then had 12 - 4 = <<12-4=8>>8 boxes of oranges left.\nShe kept 8 x 1/4 = <<8*1/4=2>>2 boxes of oranges.\nSo, she had 8 - 2 = <<8-2=6>>6 boxes of oranges to be sold.\nHence, Mrs. Harrington sold 6 boxes x 20 oranges = <<6*20=120>>120 oranges.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many oranges Mrs. Harrington sold, we first need to calculate the total number of oranges she initially bought. Since she bought 12 boxes and each box contains 20 oranges, the total number of oranges is 12 * 20 = 240 oranges.\n\nShe then gave her mom and her sister 2 boxes of oranges each, which means she gave away a total of 2 + 2 = 4 boxes. Since each box contains 20 oranges, she gave away 4 * 20 = 80 oranges.\n\nAfter giving away 80 oranges, Mrs. Harrington was left with 240 - 80 = 160 oranges.\n\nMrs. Harrington decided to keep 1/4 of the remaining oranges. 1/4 of 160 is (1/4) * 160 = 40 oranges. This means she kept 40 oranges and was left with 160 - 40 = 120 oranges to sell.\n\n#### 120",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many oranges Mrs. Harrington sold, we first need to calculate the total number of oranges she initially bought. Since she bought 12 boxes and each box contains 20 oranges, the total number of oranges is 12 * 20 = 240 oranges. She then gave her mom and her sister 2 boxes of oranges each, which means she gave away a total of 2 + 2 = 4 boxes. Since each box contains 20 oranges, she gave away 4 * 20 = 80 oranges.\n\nAfter giving away 80 oranges, Mrs. Harrington was left with 240 - 80 = 160 oranges. Mrs. Harrington decided to keep 1/4 of the remaining oranges. 1/4 of 160 is (1/4) * 160 = 40 oranges. This means she kept 40 oranges and was left with 160 - 40 = 120 oranges to sell.\n\n#### 120",
+			"retrievals": 1
+		}
+	]
+}

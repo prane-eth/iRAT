@@ -1,0 +1,13 @@
+{
+	"task_id": 960,
+	"prompt": "Coach brought one bag filled with basketballs to practice and dumped them all out onto the gym floor before practice began.  After the practice time was over, he asked Jordan, Jason, and Jeffrey to pick up the balls and carry them over to the bag.  The three boys picked up and carried all of the balls in one trip.  Jordan carried twice as many balls as Jason, and Jason carried twice as many balls as Jeffrey. If Jason had picked up and carried 2 balls, what is the total number of balls that the coach brought to practice?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since Jordan carried twice as many balls as Jason, Jordan carried 2*2=<<2*2=4>>4 balls.\nSince Jason carried twice as many balls as Jeffrey, Jeffrey carried 2/2=<<2/2=1>>1 ball.\nIn total, the three boys carried 4+2+1=<<4+2+1=7>>7 balls, which were all the balls the coach brought to practice.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of balls the coach brought to practice, we first need to establish the relationship between the number of balls each boy carried. We know that Jason carried 2 balls.\n\n`\nSince Jason carried 2 balls, and Jordan carried twice as many balls as Jason, Jordan carried 2 * 2 = 4 balls.\n\n`\nNext, we know that Jason carried twice as many balls as Jeffrey. Since Jason carried 2 balls, Jeffrey must have carried 2 / 2 = 1 ball.\n\n`\nNow, we add up the number of balls each boy carried to find the total number of balls. Jordan carried 4 balls, Jason carried 2 balls, and Jeffrey carried 1 ball. So, the total number of balls is 4 + 2 + 1 = 7.\n\n#### 7",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total number of balls the coach brought to practice, we first need to establish the relationship between the number of balls each boy carried. We know that Jason carried 2 balls. Since Jason carried 2 balls, and Jordan carried twice as many balls as Jason, Jordan carried 2 * 2 = 4 balls. Next, we know that Jason carried twice as many balls as Jeffrey. Since Jason carried 2 balls, Jeffrey must have carried 2 / 2 = 1 ball.\n\nNow, we add up the number of balls each boy carried to find the total number of balls. Jordan carried 4 balls, Jason carried 2 balls, and Jeffrey carried 1 ball. So, the total number of balls is 4 + 2 + 1 = 7. \n\n#### 7",
+			"retrievals": 1
+		}
+	]
+}

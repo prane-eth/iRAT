@@ -1,0 +1,13 @@
+{
+	"task_id": 565,
+	"prompt": "In the first week, Judy read for 15 minutes each night before going to sleep. In the second week, she read a total of 100 pages. If she can read 2 pages per 1.5 minutes, how many pages did she read in two weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Every night, Judy reads 15 minutes/1.5 minutes = <<15/1.5=10>>10 sets of 2 pages.\nSo, she read 10 x 2 = <<10*2=20>>20 pages every night in the first week.\nIn the first week, she reads a total of 20 x 7 = <<20*7=140>>140 pages.\nTherefore, she read a total of 140 + 100 = <<140+100=240>>240 pages in two weeks.\n#### 240",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out the total number of pages Judy read in two weeks, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of minutes Judy read in the first week\nJudy read for 15 minutes each night before going to sleep. Since there are 7 nights in a week, she read for a total of 15 * 7 = 105 minutes in the first week.\n\n## Step 2: Calculate the number of pages Judy read in the first week\nWe are given that Judy can read 2 pages per 1.5 minutes. To find out how many pages she can read in 1 minute, we need to divide 2 by 1.5, which equals approximately 1.33 pages per minute. Now, we can calculate the total number of pages she read in the first week by multiplying the total minutes she read (105) by the number of pages she can read per minute (1.33). pages_read_first_week = 105 * 1.33 = 140.\n\n## Step 3: Calculate the total number of pages Judy read in two weeks\nIn the second week, Judy read a total of 100 pages. To find the total number of pages she read in two weeks, we add the pages she read in the first week to the pages she read in the second week. total_pages = pages_read_first_week + 100 = 140 + 100 = 240.\n\n#### 240",
+			"retrievals": 1
+		}
+	]
+}

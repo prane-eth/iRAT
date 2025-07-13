@@ -1,0 +1,13 @@
+{
+	"task_id": 747,
+	"prompt": "Jake's family wants to compare the cost of the two different amusement parks. The first amusement park has a $26 fee for each adult and a $12 fee for each child; while the second amusement park has a $14 fee for each adult and $10 for each child. If there are 2 adults and 2 children in their family, how much will they be able to save if they choose the second amusement park over the first?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The two adults pay $26 x 2 = $<<26*2=52>>52 for the first amusement park.\nWhile the two children's tickets cost $12 x 2 = $<<12*2=24>>24 for the first amusement park.\nSo, they will pay a total of $52 + $24 = $<<52+24=76>>76 for the first amusement park.\nThe two adults pay $14 x 2 = $<<14*2=28>>28 for the second amusement park.\nWhile the two children's tickets for the second amusement park cost $10 x 2 = $<<10*2=20>>20.\nSo, they will pay a total of $28 + $20 = $<<28+20=48>>48 for the second amusement park.\nThus, they will save $76 - $48 = $<<76-48=28>>28 if they choose the second amusement park over the first.\n#### 28",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the cost savings, we first need to determine the total cost for Jake",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the cost savings, we first need to determine the total cost for Jake",
+			"retrievals": 0
+		}
+	]
+}

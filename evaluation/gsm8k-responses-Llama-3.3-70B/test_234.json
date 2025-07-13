@@ -1,0 +1,13 @@
+{
+	"task_id": 234,
+	"prompt": "There are 36 penguins sunbathing in the snow.  One-third of them jump in and swim in the ocean.  Another one-third go inside the cave to eat their dinner.  How many penguins are still left sunbathing?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "This many penguins are swimming: 36/3 = <<36/3=12>>12 penguins.\nThis many penguins are eating their dinner: 36/3 = <<36/3=12>>12 penguins.\nThis many penguins are not sunbathing: 12 + 12 = <<12+12=24>>24.\nThis many penguins are still sunbathing: 36 - 24 = <<36-24=12>>12 penguins.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many penguins are still left sunbathing, we first determine the total number of penguins and then calculate how many leave the sunbathing area.\n\n1. Total number of penguins sunbathing = 36\n2. One-third of the penguins jump into the ocean = 36 / 3 = 12 penguins\n3. Another one-third go inside the cave = 36 / 3 = 12 penguins\n\nThe total number of penguins that leave the sunbathing area = 12 (ocean) + 12 (cave) = 24 penguins\n\nTherefore, the number of penguins still left sunbathing = Total number of penguins - Total number of penguins that leave = 36 - 24 = 12\n\n#### 12\n\n#### 12",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of penguins that jump in and swim\nTo find out how many penguins are still left sunbathing, we first need to calculate the number of penguins that jump in and swim in the ocean. Since one-third of the penguins jump in, we can calculate this as 36 * (1/3) = 12 penguins.\n\n## Step 2: Calculate the number of penguins that go inside the cave to eat\nNext, we calculate the number of penguins that go inside the cave to eat their dinner. Another one-third of the penguins go inside, which is also 36 * (1/3) = 12 penguins.\n\n## Step 3: Determine the number of penguins left sunbathing\nTo find out how many penguins are still left sunbathing, we subtract the total number of penguins that either jumped in to swim or went inside to eat from the initial total. So, the number of penguins left sunbathing is 36 - 12 (swimming) - 12 (eating) = 12 penguins.\n\n#### 12",
+			"retrievals": 2
+		}
+	]
+}

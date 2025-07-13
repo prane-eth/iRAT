@@ -1,0 +1,13 @@
+{
+	"task_id": 88,
+	"prompt": "A company pays each of its employees $600 in a month. The company has a policy of increasing the salaries of each of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. If Sylvie just clocked 5 years in the company last December, what's her annual salary after three more years of service?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In a month, Sylvie earns $600. which totals $600/month * 12 months/year = $7200 in a year.\nSylvie earnings will increase by 10/100 * $7200/year = $<<10/100*7200=720>>720/year after 5 years.\nIn three years, the total increase in her salary will be 3 years * $720/year = $<<3*720=2160>>2160\nAfter three years, Sylvie will be paid $7200 + $2160 = $<<7200+2160=9360>>9360\n#### 9360",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate Sylvie's annual salary after three more years of service, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the initial annual salary\nThe initial monthly salary is $600, so the initial annual salary is $600 * 12 = $7,200.\n\n## Step 2: Determine the annual increase amount\nThe company increases the salaries by 10% of the initial salary. The initial salary is $7,200, so the annual increase is 10% of $7,200, which is 0.10 * $7,200 = $720.\n\n## Step 3: Calculate the annual salary after the first year of increase\nAfter one year, Sylvie's annual salary will be her initial annual salary plus the increase, which is $7,200 + $720 = $7,920.\n\n## Step 4: Calculate the annual salary after the second year of increase\nAfter the second year, her annual salary will increase again by $720, making it $7,920 + $720 = $8,640.\n\n## Step 5: Calculate the annual salary after the third year of increase\nAfter the third year, her annual salary will increase once more by $720, making it $8,640 + $720 = $9,360.\n\nThe final answer is: #### $9360",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 948,
+	"prompt": "Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jasmine had 15 stickers - 7 stickers = <<15-7=8>>8 stickers after losing 7.\nThen, she now has 8 stickers + 5 stickers = <<8+5=13>>13 stickers at the end.\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many stickers Jasmine has at the end, we first start with the number of stickers she was initially given for participating in class, which is 15 stickers.\n\nThen, we need to account for the stickers she lost during playtime, which were 7 stickers. So, we subtract the lost stickers from the initial number: 15 - 7 = 8 stickers.\n\nAfter that, her teacher gave her another 5 stickers for helping her classmates. We add these stickers to the number she had after losing some: 8 + 5 = 13 stickers.\n\n#### 13",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many stickers Jasmine has at the end, we need to follow the sequence of events and calculate the total number of stickers she has. \n\nFirst, we start with the number of stickers she was initially given for participating in class, which is 15 stickers. Then, we need to account for the stickers she lost during playtime, which were 7 stickers. So, we subtract the lost stickers from the initial number: 15 - 7 = 8 stickers.\n\nAfter losing some stickers, Jasmine received additional stickers for helping her classmates. Her teacher gave her 5 more stickers. To find the total number of stickers she has at the end, we add these additional stickers to the number she had after losing some: 8 + 5 = 13 stickers.\n\nTherefore, by following the sequence of events and calculating the total number of stickers Jasmine received and lost, we can determine the final number of stickers she has.\n\n#### 13",
+			"retrievals": 1
+		}
+	]
+}

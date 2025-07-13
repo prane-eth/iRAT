@@ -1,0 +1,14 @@
+{
+	"task_id": 1233,
+	"prompt": "Eve had 20 pieces of pomelos. After giving her friend some pomelos, Eve is left with 1/4 of the pomelos she originally had. How many pomelos did Eve give away?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Eve is left with 20 x 1/4 = <<20*1/4=5>>5 pieces of pomelos.\nSo she gave away 20 - 5 = <<20-5=15>>15 pieces of pomelos to her friend.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pomelos Eve gave away, we first need to determine how many pomelos she had left after giving some to her friend. Since Eve is left with 1/4 of the pomelos she originally had, and she originally had 20 pieces, we can calculate the number of pomelos she has left by multiplying 20 by 1/4.\n\nThis calculation is 20 * 1/4 = 20 * 0.25 = 5. So, Eve has 5 pomelos left after giving some away.\n\nTo find out how many pomelos Eve gave away, we subtract the number of pomelos she has left from the original number of pomelos she had. This means we subtract 5 from 20.\n\nThe calculation for this is 20 - 5 = 15.\n\n#### 15",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the Number of Pomelos Eve Had Left\nEve originally had 20 pieces of pomelos. After giving some away, she is left with 1/4 of the original amount. To find out how many pomelos she has left, we need to calculate 1/4 of 20.\n\n## Step 2: Perform the Calculation for 1/4 of 20\n1/4 of 20 is calculated as 20 * 1/4 = 20 * 0.25 = 5. So, Eve is left with 5 pomelos.\n\n## Step 3: Determine the Number of Pomelos Eve Gave Away\nTo find out how many pomelos Eve gave away, we subtract the number of pomelos she has left from the original number of pomelos. The calculation is 20 - 5 = 15.\n\nThe final answer is: #### 15",
+			"retrievals": 2,
+			"unsafe_prompt": true
+		}
+	]
+}

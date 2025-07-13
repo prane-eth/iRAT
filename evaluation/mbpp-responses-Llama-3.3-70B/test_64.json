@@ -1,0 +1,19 @@
+{
+	"task_id": 74,
+	"prompt": "Write a function to remove duplicate words from a given string using collections module.?assert remove_duplicate(\"Python Exercises Practice Solution Exercises\")==(\"Python Exercises Practice Solution\")",
+	"test_imports": [],
+	"test_list": [
+		"assert remove_duplicate(\"Python Exercises Practice Solution Exercises\")==(\"Python Exercises Practice Solution\")",
+		"assert remove_duplicate(\"Python Exercises Practice Solution Python\")==(\"Python Exercises Practice Solution\")",
+		"assert remove_duplicate(\"Python Exercises Practice Solution Practice\")==(\"Python Exercises Practice Solution\")"
+	],
+	"mbpp_code": "from collections import OrderedDict\r\ndef remove_duplicate(string):\r\n  result = ' '.join(OrderedDict((w,w) for w in string.split()).keys())\r\n  return result",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we will first import the necessary module, which is `collections` in this case, and define a function `remove_duplicate` that takes a string as input. \nWe will split the input string into words to process each word individually.\n\n```python\nimport collections\n\ndef remove_duplicate(s):\n    # Split the string into words\n    words = s.split()\n```\n\nNext, we will use the `OrderedDict` from the `collections` module to remove duplicate words while preserving the order of words. \nThe `OrderedDict` automatically removes duplicate keys, so we can use it to remove duplicate words from the list.\n\n```python\n    # Use OrderedDict to remove duplicates\n    unique_words = collections.OrderedDict.fromkeys(words)\n```\n\nFinally, we will join the unique words back into a string with spaces in between and return the result.\n\n```python\n    # Join the unique words back into a string\n    result = ' '.join(unique_words)\n    return result\n```\n\nWe can test the function with the provided assertion to verify its correctness.\n\n```python\n# Test the function\nassert remove_duplicate(\"Python Exercises Practice Solution Exercises\") == (\"Python Exercises Practice Solution\")\n```",
+			"old_rat_retrievals": 7,
+			"final_answer": "To solve this problem, you can use the `OrderedDict` class from the `collections` module, which preserves the order of elements. Here's a Python function that accomplishes this:\n\n```python\nfrom collections import OrderedDict\n\ndef remove_duplicate(s):\n    words = s.split()\n    unique_words = OrderedDict((word, True) for word in words)\n    return ' '.join(unique_words.keys())\n\nassert remove_duplicate(\"Python Exercises Practice Solution Exercises\") == (\"Python Exercises Practice Solution\")\n```\n\nThis function splits the input string into words, adds them to an `OrderedDict` (which automatically removes duplicates while preserving order), and then joins the unique words back into a string.\n\nAlternatively, you can use a more modern approach with Python 3.7+, where dictionaries preserve the insertion order, making the use of `OrderedDict` unnecessary:\n\n```python\ndef remove_duplicate(s):\n    words = s.split()\n    unique_words = dict((word, True) for word in words)\n    return ' '.join(unique_words.keys())\n\nassert remove_duplicate(\"Python Exercises Practice Solution Exercises\") == (\"Python Exercises Practice Solution\")\n```",
+			"retrievals": 3
+		}
+	]
+}

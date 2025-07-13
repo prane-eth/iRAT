@@ -1,0 +1,13 @@
+{
+	"task_id": 1107,
+	"prompt": "Marty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The 100-centimeter ribbon is cut into 4 equal parts in pieces of 100 / 4 = <<100/4=25>>25 cm\nFrom each piece of 25 cm, he gets 5 equal parts of 25 / 5 = <<25/5=5>>5 cm each.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the length of each final cut, we first need to determine the length of each of the 4 equal parts that Marty will cut the 100 centimeters of ribbon into. \n\nWe calculate this by dividing the total length of the ribbon, which is 100 centimeters, by the number of parts, which is 4. So, 100 centimeters / 4 = 25 centimeters for each of the 4 equal parts.\n\nEach of these 4 parts must then be divided into 5 equal parts. \n\nTo find the length of each of these final 5 parts, we divide the length of each of the 4 equal parts, which is 25 centimeters, by 5. So, 25 centimeters / 5 = 5 centimeters for each of the final cuts.\n\n#### 5",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the length of each final cut, we first need to divide the total length of the ribbon by the number of equal parts Marty must cut it into, which is 4. \n\n100 centimeters / 4 = 25 centimeters\n\nThis means each of the initial 4 cuts will be 25 centimeters long. Then, Marty needs to divide each of these 25 centimeter parts into 5 equal parts.\n\n25 centimeters / 5 = 5 centimeters\n\nTherefore, each final cut will be 5 centimeters long.\n\n#### 5 centimeters",
+			"retrievals": 1
+		}
+	]
+}

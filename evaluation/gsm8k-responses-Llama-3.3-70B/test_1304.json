@@ -1,0 +1,13 @@
+{
+	"task_id": 1304,
+	"prompt": "Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes\nThen find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day\nThen divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days\nThen divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to calculate the total number of holes the dog digs while Nate is on vacation. The dog digs 6 holes a day for 14 days. So, the total number of holes dug is 6 holes/day * 14 days = 84 holes.\n\n \nNext, we need to understand the rate at which Nate fills in the holes and the rate at which the dog continues to dig new holes. Nate fills in 9 holes a day, but the dog digs 6 new holes every night. This means the net number of holes filled in each day is 9 holes/day - 6 holes/day = 3 holes/day.\n\n \nNow, to find out how many days it takes Nate to fill in all the holes, we divide the total number of holes by the net number of holes filled in per day. So, 84 holes / 3 holes/day = 28 days.\n\n \nFinally, to convert the number of days into weeks, we divide the total number of days by 7 (since there are 7 days in a week). Therefore, 28 days / 7 days/week = 4 weeks.\n\n#### 4",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how many weeks it takes Nate to fill in all the holes, let",
+			"retrievals": 3
+		}
+	]
+}

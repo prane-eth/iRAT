@@ -1,0 +1,19 @@
+{
+	"task_id": 151,
+	"prompt": "Write a function to check if the given array represents min heap or not.?assert check_min_heap([1, 2, 3, 4, 5, 6], 0) == True",
+	"test_imports": [],
+	"test_list": [
+		"assert check_min_heap([1, 2, 3, 4, 5, 6], 0) == True",
+		"assert check_min_heap([2, 3, 4, 5, 10, 15], 0) == True",
+		"assert check_min_heap([2, 10, 4, 5, 3, 15], 0) == False"
+	],
+	"mbpp_code": "def check_min_heap(arr, i):\r\n    if 2 * i + 2 > len(arr):\r\n        return True\r\n    left_child = (arr[i] <= arr[2 * i + 1]) and check_min_heap(arr, 2 * i + 1)\r\n    right_child = (2 * i + 2 == len(arr)) or (arr[i] <= arr[2 * i + 2] \r\n                                      and check_min_heap(arr, 2 * i + 2))\r\n    return left_child and right_child",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to check if the given array represents a\n\nIn the context of a complete binary tree, the height of the tree is log(n), so the space complexity can be considered as O(log n). \n\nTo use this function, simply call it with the array and the index of the root node (usually 0) as arguments, like `check_min_heap([1, 2, 3, 4, 5, 6], 0)`.",
+			"old_rat_retrievals": 11,
+			"final_answer": "Here's a simple function to check if the given array represents a min heap:\n\n```python\ndef check_min_heap(array, index):\n    left_child = 2 * index + 1\n    right_child = 2 * index + 2\n\n    # Check if left child exists and is smaller than the parent\n    if left_child < len(array) and array[index] > array[left_child]:\n        return False\n\n    # Check if right child exists and is smaller than the parent\n    if right_child < len(array) and array[index] > array[right_child]:\n        return False\n\n    # Recursively check the min heap property for the children\n    if left_child < len(array) and not check_min_heap(array, left_child):\n        return False\n\n    if right_child < len(array) and not check_min_heap(array, right_child):\n        return False\n\n    return True\n\n# Example usage\narray = [1, 2, 3, 4, 5, 6]\nindex = 0\nresult = check_min_heap(array, index)\nprint(result)  # Output: True\n```\nThis function checks the min heap property for the given array by recursively verifying that each node is smaller than its children. If the property holds for all nodes, the function returns True; otherwise, it returns False.",
+			"retrievals": 6
+		}
+	]
+}

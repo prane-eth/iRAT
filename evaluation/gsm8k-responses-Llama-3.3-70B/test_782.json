@@ -1,0 +1,13 @@
+{
+	"task_id": 782,
+	"prompt": "Four friends ordered four pizzas for a total of 64 dollars. If two of the pizzas cost 30 dollars, how much did each of the other two pizzas cost if they cost the same amount?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The other two pizzas cost 64-30 = <<64-30=34>>34 dollars.\nEach of the other two pizzas cost 34/2 = <<34/2=17>>17 dollars each.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of each of the other two pizzas, we first need to determine the total cost of the two pizzas that cost 30 dollars. Since two pizzas cost 30 dollars, their total cost is 30 * 2 = 60 dollars.\n\nThe total cost for all four pizzas is 64 dollars. To find the cost of the other two pizzas, we subtract the cost of the two 30-dollar pizzas from the total cost. So, the total cost of the other two pizzas is 64 - 60 = 4 dollars.\n\nSince the other two pizzas cost the same amount, we divide the total cost of these two pizzas by 2 to find the cost of each. Therefore, the cost of each of the other two pizzas is 4 / 2 = 2 dollars.\n\n#### 2",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Introduction to the Problem\nThe problem presents a scenario where four friends order four pizzas for a total of 64 dollars. We are given that two of the pizzas cost 30 dollars, and we need to find the cost of the other two pizzas, which are equal in price.\n\n## Breaking Down the Given Information\nWe know that the total cost of all four pizzas is 64 dollars. Additionally, we are told that two of the pizzas cost 30 dollars. To find the cost of the other two pizzas, we first need to determine the total cost of these two pizzas. Since two pizzas cost 30 dollars, we subtract this amount from the total cost to find the cost of the remaining two pizzas.\n\n## Calculating the Cost of the Other Two Pizzas\nThe total cost of all four pizzas is 64 dollars, and two of them cost 30 dollars. So, the cost of the other two pizzas combined is 64 - 30 = 34 dollars. Since the problem states that these two pizzas cost the same amount, we divide the combined cost by 2 to find the cost of each pizza. Therefore, each of the other two pizzas costs 34 / 2 = 17 dollars.\n\nThe final answer is: #### 17",
+			"retrievals": 1
+		}
+	]
+}

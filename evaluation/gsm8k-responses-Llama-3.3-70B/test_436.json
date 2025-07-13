@@ -1,0 +1,13 @@
+{
+	"task_id": 436,
+	"prompt": "Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with his four friends. How many lollipops did each of his friends receive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ray shared a total of 25 - 5 = <<25-5=20>>20 lollipops.\nTherefore, each of his friends received 20/4 = <<20/4=5>>5 lollipops.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many lollipops each of Ray's friends received, we first need to determine the total number of lollipops that Ray shared with his friends. Ray started with 25 lollipops and kept 5 for himself. \n\nThe number of lollipops Ray shared can be calculated by subtracting the number of lollipops he kept from the total number of lollipops he had. So, the calculation would be 25 (total lollipops) - 5 (lollipops kept) = 20 lollipops shared.\n\nThese 20 lollipops were shared equally among his four friends. To find out how many lollipops each friend received, we divide the total number of shared lollipops by the number of friends. Therefore, the calculation is 20 (shared lollipops) / 4 (number of friends) = 5 lollipops per friend.\n\n#### 5",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve this problem, we first need to determine how many lollipops Ray shared with his friends. Since Ray started with 25 lollipops and kept 5 for himself, we subtract the number he kept from the total to find out how many were shared. So, 25 (total lollipops) - 5 (lollipops kept) = 20 lollipops shared.\n\nNext, we divide the number of shared lollipops by the number of friends to find out how many each friend received. Ray has 4 friends, so we divide 20 (shared lollipops) by 4 (number of friends) = 5 lollipops per friend.\n\nTherefore, each of Ray's friends received 5 lollipops.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

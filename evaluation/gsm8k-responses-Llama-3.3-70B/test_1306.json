@@ -1,0 +1,13 @@
+{
+	"task_id": 1306,
+	"prompt": "The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of pieces of rainbow and oatmeal cookies is 2595 + 3075 = <<2595+3075=5670>>5670.\nTherefore, they made 7995 - 5670 = <<7995-5670=2325>>2325 chocolate chip cookies.\n#### 2325",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many chocolate chip cookies the Adams family has made, we need to first calculate the total number of rainbow and oatmeal cookies they've made. \n\nThe total number of rainbow cookies is 2595, and the total number of oatmeal cookies is 3075. \n\nWe can find the total number of these two types of cookies by adding them together: 2595 + 3075 = 5670.\n\n`\nNow, we know that the Adams family has made a total of 7995 cookies, and 5670 of them are either rainbow or oatmeal cookies. \n\nTo find the number of chocolate chip cookies, we subtract the total number of rainbow and oatmeal cookies from the total number of cookies: 7995 - 5670 = 2325.\n\n#### 2325",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Understand the problem\nWe need to find the number of chocolate chip cookies made by the Adams family. They have made a total of 7995 cookies, with 2595 being rainbow cookies and 3075 being oatmeal cookies.\n\n## Step 2: Calculate the number of chocolate chip cookies\nTo find the number of chocolate chip cookies, we subtract the total number of rainbow and oatmeal cookies from the total number of cookies made. This can be calculated as: total_cookies - (rainbow_cookies + oatmeal_cookies) = 7995 - (2595 + 3075).\n\n## Step 3: Perform the calculation\nSubtract the sum of rainbow and oatmeal cookies from the total number of cookies: 7995 - (2595 + 3075) = 7995 - 5670.\n\n## Step 4: Calculate the final result\nPerform the final subtraction to find the number of chocolate chip cookies: 7995 - 5670 = 2325.\n\n#### 2325",
+			"retrievals": 1
+		}
+	]
+}

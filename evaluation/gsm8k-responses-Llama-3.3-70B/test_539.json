@@ -1,0 +1,13 @@
+{
+	"task_id": 539,
+	"prompt": "Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.\nTherefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.\n#### 18",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many vlogs Emma should do to complete the 72 vlogs per month, we first need to calculate the total number of vlogs she has already made. \n\nShe made 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. \n\nSo, the total number of vlogs she has already made is 18 + 21 + 15 = 54 vlogs.\n\nSince Emma needs to make 72 vlogs per month and she has already made 54 vlogs, we need to subtract the number of vlogs she has already made from the total number of vlogs she needs to make. \n\nThe number of vlogs she still needs to make is 72 - 54 = 18 vlogs.\n\n#### 18",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the total number of vlogs Emma has already made\nEmma made 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. To find the total number of vlogs she has already made, we need to add these numbers together: 18 + 21 + 15 = 54 vlogs.\n\n## Step 2: Determine the number of vlogs Emma still needs to make\nSince Emma needs to make 72 vlogs per month and she has already made 54 vlogs, we need to subtract the number of vlogs she has already made from the total number of vlogs she needs to make. The number of vlogs she still needs to make is 72 - 54 = 18 vlogs.\n\n## Step 3: Conclusion\nTo complete the 72 vlogs per month, Emma should make 18 more vlogs.\n\n#### 18",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 575,
+	"prompt": "A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00\nThey sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00\nThey made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches\n#### 37",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the net profit of the food truck, we first need to determine the total cost and the total revenue. \n\nThe cost of bread for 10 sandwiches is $3.00, and the cost of cheeses and condiments for 10 sandwiches is $30.00. Therefore, the total cost for 10 sandwiches is $3.00 (bread) + $30.00 (cheeses and condiments) = $33.00.\n\nThe food truck sells 10 sandwiches for $7.00 each. So, the total revenue from selling 10 sandwiches is 10 * $7.00 = $70.00.\n\nTo find the net profit, we subtract the total cost from the total revenue: $70.00 (total revenue) - $33.00 (total cost) = $37.00.\n\n#### $37.00",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the net profit of the food truck, we need to calculate the total revenue and the total cost.\n\nFirst, let's calculate the total revenue. The food truck sells 10 sandwiches for $7.00 each. So, the total revenue is 10 * $7.00 = $70.00.\n\nNext, let's calculate the total cost. The cost of producing 10 sandwiches includes the cost of bread and the cost of cheeses and condiments. The cost of bread is $3.00 per loaf, and each loaf makes 10 sandwiches. So, the cost of bread for 10 sandwiches is $3.00. The cost of cheeses and condiments is $30.00 per 10 sandwiches. Therefore, the total cost is $3.00 + $30.00 = $33.00.\n\nNow, we can calculate the net profit by subtracting the total cost from the total revenue. Net profit = Total revenue - Total cost = $70.00 - $33.00 = $37.00.\n\n#### $37.00",
+			"retrievals": 2
+		}
+	]
+}

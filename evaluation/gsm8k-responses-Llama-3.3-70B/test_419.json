@@ -1,0 +1,15 @@
+{
+	"task_id": 419,
+	"prompt": "Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Zack's locker is 5*4=<<5*4=20>>20 cubic inches.\nTimothy's locker is 20*2=<<20*2=40>>40 cubic inches.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the size of Timothy's locker, we first need to understand the relationships between the sizes of the lockers. We know that Zack's locker is half as big as Timothy's locker, and Peter's locker is 1/4 as big as Zack's locker.\n\nGiven that Peter's locker is 5 cubic inches, and it is 1/4 as big as Zack's locker, we can find the size of Zack's locker. If Peter's locker is 1/4 of Zack's, then Zack's locker is 4 times as big as Peter's locker. So, Zack's locker size is 5 cubic inches * 4 = 20 cubic inches.\n\nNow that we know Zack's locker is 20 cubic inches, and it is half as big as Timothy's locker, we can find Timothy's locker size. Since Zack's locker is half of Timothy's, Timothy's locker must be twice as big as Zack's. Therefore, Timothy's locker size is 20 cubic inches * 2 = 40 cubic inches.\n\n#### 40",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the size of Zack's locker\nSince Peter's locker is 1/4 as big as Zack's locker, we can find the size of Zack's locker by multiplying Peter's locker size by 4. Peter's locker is 5 cubic inches, so Zack's locker size is 5 cubic inches * 4 = 20 cubic inches.\n\n## Step 2: Calculate the size of Timothy's locker\nNow that we know Zack's locker is 20 cubic inches, and it is half as big as Timothy's locker, we can find Timothy's locker size. Since Zack's locker is half of Timothy's, Timothy's locker must be twice as big as Zack's. Therefore, Timothy's locker size is 20 cubic inches * 2 = 40 cubic inches.\n\n#### 40",
+			"retrievals": 2,
+			"unsafe_prompt": true
+		}
+	],
+	"unsafe_prompt": true
+}

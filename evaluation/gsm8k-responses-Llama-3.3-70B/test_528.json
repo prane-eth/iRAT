@@ -1,0 +1,13 @@
+{
+	"task_id": 528,
+	"prompt": "If one person can paint half a house in 5 days, how many hours would it take for 5 people to paint a whole house?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First, we need to determine how many days it takes 1 person to paint a whole house. We do this by performing 5*2=<<5*2=10>>10 days to paint the full house.\nSince five people would perform the task 5 times as fast, we find the total amount of time required by performing 10/5= <<10/5=2>>2 days to paint the full house.\nSince there are 24 hours in a day, we perform 24*2=<<24*2=48>>48 hours for them to paint the full house.\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to establish the rate at which one person",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many hours it would take for 5 people to paint a whole house, we first need to establish the rate at which one person paints. Given that one person can paint half a house in 5 days, we can calculate the total time it would take for one person to paint a whole house.\n\nSince one person can paint half a house in 5 days, it would take the same person 10 days to paint a whole house (because painting a whole house is twice the work of painting half a house).\n\nThere are 24 hours in a day. Therefore, if it takes one person 10 days to paint a whole house, the total hours for one person to paint a whole house would be 10 days * 24 hours/day = 240 hours.\n\nIf one person can paint a whole house in 240 hours, then 5 people can paint the same house in less time because the work is divided among more people. The formula to find the time it would take for 5 people is: Total time for one person / Number of people. Therefore, the time for 5 people to paint a whole house would be 240 hours / 5 people = 48 hours.\n\n#### 48",
+			"retrievals": 1
+		}
+	]
+}

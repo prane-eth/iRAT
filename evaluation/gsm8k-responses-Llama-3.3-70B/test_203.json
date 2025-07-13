@@ -1,0 +1,13 @@
+{
+	"task_id": 203,
+	"prompt": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If each acre produces 5 tons of grapes per year, then her ten-acre farm produces 10*5=<<10*5=50>>50 tons of grapes per year.\nIf each ton of grapes makes 2 barrels of wine, then 50 tons makes 2*50=<<50*2=100>>100 barrels of wine per year.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total barrels of wine Josie's farm produces per year, we need to calculate the total tons of grapes produced and then convert that into barrels of wine.\n\n1. Calculate the total tons of grapes produced per year:\n   - Each acre produces 5 tons of grapes per year.\n   - Josie has a 10-acre farm.\n   - Total tons of grapes = 5 tons/acre * 10 acres = 50 tons.\n\n2. Calculate the total barrels of wine produced per year:\n   - Each ton of grapes makes 2 barrels of wine.\n   - Total barrels of wine = 50 tons * 2 barrels/ton = 100 barrels.\n\nTherefore, Josie's farm produces 100 barrels of wine per year.\n\n#### 100\n\nThe calculation for the total barrels of wine per year is 50 tons * 2 barrels/ton = 100 barrels.\n\n#### 100 barrels",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many barrels of wine Josie's farm produces per year, we need to follow a simple calculation process. \n\nFirst, we determine the total tons of grapes produced by Josie's farm annually. Since she has a 10-acre farm and each acre produces 5 tons of grapes per year, the total production is 10 acres * 5 tons/acre = 50 tons of grapes per year.\n\nNext, knowing that each ton of grapes makes 2 barrels of wine, we can calculate the total barrels of wine produced. This is done by multiplying the total tons of grapes by the number of barrels each ton can produce, which gives us 50 tons * 2 barrels/ton = 100 barrels of wine per year.\n\nTherefore, Josie's farm produces 100 barrels of wine per year.\n\n#### 100 barrels",
+			"retrievals": 2
+		}
+	]
+}

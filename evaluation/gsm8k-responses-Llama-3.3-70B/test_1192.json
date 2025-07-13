@@ -1,0 +1,13 @@
+{
+	"task_id": 1192,
+	"prompt": "May is getting her hair cut and colored. It costs $40 for the color and $30 per inch of haircut. If her hair started at 10 inches and ended at 8, how much did her cut and color cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She had 2 inches cut because 10-8=<<10-8=2>>2\nIt cost $60 for the cut because 2 x 30 =<<2*30=60>>60\nIt cost $100 total because 40+60=<<40+60=100>>100\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the cost of May's hair cut and color, we first need to calculate the cost of the haircut. The haircut costs $30 per inch, and we know that her hair started at 10 inches and ended at 8 inches. \n\nThis means she had 10 - 8 = 2 inches of her hair cut off. Since the cost is $30 per inch, we multiply the number of inches cut off by the cost per inch to find the total cost of the haircut. So, 2 inches * $30 per inch = $60.\n\nNext, we add the cost of the color to the cost of the haircut to find the total cost. The color costs $40. Therefore, the total cost is $60 (haircut) + $40 (color) = $100.\n\n#### $100",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the cost of May's hair cut and color, we need to calculate the cost of both services. The color costs $40. For the haircut, we first find out how many inches of hair were cut off. Since her hair started at 10 inches and ended at 8 inches, we subtract the final length from the initial length: 10 - 8 = 2 inches. The cost of the haircut is $30 per inch, so we multiply the number of inches cut off by the cost per inch: 2 inches * $30 per inch = $60. \n\nTo find the total cost, we add the cost of the haircut to the cost of the color: $40 (color) + $60 (haircut) = $100. \n\n#### $100",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"task_id": 88,
+	"prompt": "Write a function to get the length of a complex number.?import cmath\n\nassert len_complex(3,4)==5.0",
+	"test_imports": [
+		"import cmath"
+	],
+	"test_list": [
+		"assert len_complex(3,4)==5.0",
+		"assert len_complex(9,10)==13.45362404707371",
+		"assert len_complex(7,9)==11.40175425099138"
+	],
+	"mbpp_code": "import cmath\r\ndef len_complex(a,b):\r\n  cn=complex(a,b)\r\n  length=abs(cn)\r\n  return length",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to calculate the length of a complex number\nThe function should take two parameters, the real and imaginary parts of the complex number.\n\n## Step 2: Use the cmath module to create a complex number\nWe will use the cmath module to create a complex number from the given real and imaginary parts.\n\n## Step 3: Calculate the length of the complex number\nThe length of a complex number can be calculated using the abs() function in Python.\n\n## Step 4: Return the length of the complex number\nThe function will return the calculated length.\n\n## Step 5: Test the function with an example\nWe will test the function with a complex number having real part 3 and imaginary part 4.\n\nHere is the implementation:\n\n```python\nimport cmath\n\ndef len_complex(real, imag):\n    cn = complex(real, imag)\n    return abs(cn)\n\nassert len_complex(3,4)==5.0\n```\n\nThe final answer is: $\\boxed{import cmath\n\ndef len_complex(real, imag):\n    cn = complex(real, imag)\n    return abs(cn)\n\nassert len_complex(3,4)==5.0}$",
+			"old_rat_retrievals": 6,
+			"final_answer": "You can use the `cmath` module in Python to calculate the length (or magnitude) of a complex number. Here is a simple function that does this:\n\n```python\nimport math\n\ndef len_complex(real, imag):\n    return math.sqrt(real**2 + imag**2)\n```\n\nThis function takes the real and imaginary parts of the complex number as input, calculates the square of each part, adds them together, and then returns the square root of the result. This is based on the mathematical formula for the magnitude of a complex number, which is `|z| = sqrt(a^2 + b^2)` where `z = a + bj` is the complex number.\n\nYou can use this function like this:\n\n```python\nprint(len_complex(3, 4))  # Output: 5.0\n```",
+			"retrievals": 4
+		}
+	]
+}

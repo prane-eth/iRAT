@@ -1,0 +1,13 @@
+{
+	"task_id": 547,
+	"prompt": "Elise is learning to write and decides to keep re-writing the alphabet until she knows it. She writes it in full twice, writes half of it once, then re-writes everything she has already written. How many letters has Elise written in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Elise has written the alphabet twice which is a total of 26 * 2 = <<26*2=52>>52 letters.\nShe then writes half the alphabet, which is 26 / 2 = <<26/2=13>>13 letters.\nSo far, this is a total of 52 + 13 = <<52+13=65>>65 letters.\nWriting this again means she has doubled the number of letters she has written, so she has written a total of 65 * 2 = <<65*2=130>>130 letters.\n#### 130",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of letters Elise has written, we first need to determine the number of letters in the alphabet. The English alphabet consists of 26 letters.\n\nElise writes the alphabet in full twice, which means she writes 26 letters twice. So, the total number of letters from writing the alphabet in full twice is 26 * 2 = 52.\n\nThen, she writes half of the alphabet once. Half of the alphabet is 26 / 2 = 13 letters. So, she writes an additional 13 letters.\n\nAt this point, Elise has written 52 (from the full alphabets) + 13 (from the half alphabet) = 65 letters.\n\nNext, she re-writes everything she has already written. This means she writes the 65 letters again. Therefore, she adds another 65 letters to her total.\n\nTo find the total number of letters Elise has written, we add the initial 65 letters to the 65 letters she wrote the second time around: 65 + 65 = 130.\n\n#### 130",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find the total number of letters Elise has written, let's break down her process step by step. \n\n1. The alphabet consists of 26 letters. \n2. Elise writes the alphabet in full twice, which means she writes 26 letters * 2 = 52 letters.\n3. Then, she writes half of the alphabet once. Half of the alphabet is 26 / 2 = 13 letters.\n4. So far, she has written 52 (from the full alphabets) + 13 (from the half alphabet) = 65 letters.\n5. After that, she re-writes everything she has already written. This means she writes the 65 letters again.\n6. Therefore, the total number of letters Elise has written is 65 (initial letters) + 65 (re-written letters) = 130 letters.\n\n#### 130",
+			"retrievals": 2
+		}
+	]
+}

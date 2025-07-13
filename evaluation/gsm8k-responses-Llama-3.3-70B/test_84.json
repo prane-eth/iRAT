@@ -1,0 +1,13 @@
+{
+	"task_id": 84,
+	"prompt": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of roses: 3 bushes * 25 roses/bush = <<3*25=75>>75 roses\nThen multiply the number of roses by the number of thorns per rose: 75 roses * 8 thorns/rose = <<75*8=600>>600 thorns\n#### 600",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of thorns, we first calculate the total number of roses and then multiply that by the number of thorns per rose.\n\n1. Dan plants 3 rose bushes, and each bush has 25 roses. So, the total number of roses is 3 * 25 = 75 roses.\n2. Each rose has 8 thorns. Therefore, the total number of thorns is 75 * 8 = 600 thorns.\n\n#### 600",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of thorns, we first need to calculate the total number of roses. Dan plants 3 rose bushes, and each rose bush has 25 roses. So, the total number of roses is 3 * 25 = 75 roses. Since each rose has 8 thorns, we multiply the total number of roses by the number of thorns per rose: 75 * 8 = 600 thorns.\n\n#### 600",
+			"retrievals": 1
+		}
+	]
+}

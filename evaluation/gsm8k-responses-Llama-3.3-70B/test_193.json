@@ -1,0 +1,13 @@
+{
+	"task_id": 193,
+	"prompt": "Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many trees Tom has left after 10 years, we first need to calculate the total number of trees he has before any of them die. Tom starts with 50 trees. Every year, he plants 10 trees but chops down 2 trees. So, the net gain of trees per year is 10 - 2 = 8 trees.\n\nOver 10 years, the total net gain of trees would be 8 trees/year * 10 years = 80 trees. Adding this to the initial number of trees, we get 50 trees + 80 trees = 130 trees. This is the total number of trees Tom has before any of them die.\n\nAfter 10 years, 30% of the trees die. To find out how many trees die, we calculate 30% of 130 trees, which is 0.30 * 130 = 39 trees. Therefore, the number of trees that die is 39.\n\nTo find the final number of trees Tom has left, we subtract the number of trees that died from the total number of trees he had before they died. So, 130 trees - 39 trees = 91 trees.\n\n#### 91",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many trees Tom has left after 10 years, we first need to calculate the total number of trees he has before any of them die. Tom starts with 50 trees. Every year, he plants 10 trees but chops down 2 trees. So, the net gain of trees per year is 10 - 2 = 8 trees.\n\nOver 10 years, the total net gain of trees would be 8 trees/year * 10 years = 80 trees. Adding this to the initial number of trees, we get 50 trees + 80 trees = 130 trees. This is the total number of trees Tom has before any of them die. \n\nAfter 10 years, 30% of the trees die. To find out how many trees die, we calculate 30% of 130 trees, which is 0.30 * 130 = 39 trees. Therefore, the number of trees that die is 39.\n\nTo find the final number of trees Tom has left, we subtract the number of trees that died from the total number of trees he had before they died. So, 130 trees - 39 trees = 91 trees.\n\n#### 91",
+			"retrievals": 3
+		}
+	]
+}

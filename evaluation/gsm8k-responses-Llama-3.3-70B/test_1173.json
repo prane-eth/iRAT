@@ -1,0 +1,13 @@
+{
+	"task_id": 1173,
+	"prompt": "Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Monday Alice counts 3 puffs of clouds in the sky, and double that on Tuesday, 3 x 2 = <<3*2=6>>6 puffs of clouds.\nOn Wednesday she sees twice that amount, 6 x 2 = <<6*2=12>>12 puffs of clouds.\nOn Thursday she sees twice that amount, 12 x 2 = <<12*2=24>>24 puffs of clouds.\nOn Friday she sees twice the amount of the day before, 24 x 2 = <<24*2=48>>48 puffs of clouds.\nIn total, across all five days, she sees 3 + 6 + 12 + 24 + 48 = <<3+6+12+24+48=93>>93 total cloud puffs.\n#### 93",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out the total number of clouds Alice counted across all five days, we first need to determine the number of clouds she saw each day. On Monday, she counted 3 puffs of clouds.\n\nOn Tuesday, she saw double the number of clouds from Monday, which is 2 * 3 = 6 clouds. Following this pattern, on Wednesday, she would see double the number from Tuesday, which is 2 * 6 = 12 clouds. On Thursday, double the number from Wednesday, which is 2 * 12 = 24 clouds. Finally, on Friday, double the number from Thursday, which is 2 * 24 = 48 clouds.\n\nNow, we add up the number of clouds she saw each day to find the total: 3 (Monday) + 6 (Tuesday) + 12 (Wednesday) + 24 (Thursday) + 48 (Friday) = 3 + 6 + 12 + 24 + 48 = 93.\n\n#### 93",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out the total number of clouds Alice counted across all five days, we first need to determine the number of clouds she saw each day. On Monday, she counted 3 puffs of clouds.\n\nOn Tuesday, she saw double the number of clouds from Monday, which is 2 * 3 = 6 clouds. Following this pattern, on Wednesday, she would see double the number from Tuesday, which is 2 * 6 = 12 clouds. On Thursday, double the number from Wednesday, which is 2 * 12 = 24 clouds. Finally, on Friday, double the number from Thursday, which is 2 * 24 = 48 clouds.\n\nNow, we add up the number of clouds she saw each day to find the total: 3 (Monday) + 6 (Tuesday) + 12 (Wednesday) + 24 (Thursday) + 48 (Friday) = 3 + 6 + 12 + 24 + 48 = 93.\n\n#### 93",
+			"retrievals": 3
+		}
+	]
+}

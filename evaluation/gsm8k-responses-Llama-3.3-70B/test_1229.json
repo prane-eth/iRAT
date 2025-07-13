@@ -1,0 +1,13 @@
+{
+	"task_id": 1229,
+	"prompt": "Samantha has 12 fewer paintings than Shelley, and Shelley has 8 paintings more than Kim. If Samantha has 27 paintings, how many paintings does Kim have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Shelley has 27+12=<<27+12=39>>39 paintings.\nKim has 39-8=<<39-8=31>>31 paintings.\n#### 31",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many paintings Kim has, we first need to establish the relationship between the number of paintings Samantha, Shelley, and Kim have. We know that Samantha has 27 paintings.\n\nSamantha has 12 fewer paintings than Shelley. This means if Samantha has 27 paintings, Shelley has 27 + 12 = 39 paintings.\n\nShelley has 8 paintings more than Kim. Since Shelley has 39 paintings, we can find out how many paintings Kim has by subtracting 8 from Shelley's total. So, Kim has 39 - 8 = 31 paintings.\n\n#### 31",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many paintings Kim has, we need to follow the information given step by step. \n\nFirst, we know Samantha has 27 paintings. \nSecond, we are told Samantha has 12 fewer paintings than Shelley. So, to find out how many paintings Shelley has, we add 12 to Samantha's total: 27 + 12 = 39 paintings.\nThird, we know Shelley has 8 paintings more than Kim. To find out how many paintings Kim has, we subtract 8 from Shelley's total: 39 - 8 = 31 paintings.\n\nTherefore, Kim has 31 paintings.\n\n#### 31",
+			"retrievals": 2
+		}
+	]
+}

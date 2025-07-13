@@ -1,0 +1,13 @@
+{
+	"task_id": 871,
+	"prompt": "Madeline and her roommate, Keenan, share the cost of groceries. In total, they spend about $400 per month. In a four-week month, how many dollars does Keenan spend per week if Madeline pays 60% of the cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They spend $400/4=$<<400/4=100>>100 per week.\nKeenan pays for 100-60=<<100-60=40>>40% of the groceries.\nThus, she spends $100*(40/100)=$<<100*40/100=40>>40 per week.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dollars Keenan spends per week, first, we need to calculate the total amount Keenan pays per month. Since Madeline pays 60% of the cost, Keenan pays the remaining 40%. \n\nThe total monthly cost is $400. To find Keenan's share, we calculate 40% of $400. This can be found by multiplying $400 by 0.4 (since 40% = 40/100 = 0.4).\n\nSo, Keenan's monthly share = $400 * 0.4 = $160.\n\nNow, we need to find out how much Keenan spends per week. Since there are approximately 4 weeks in the month in question, we divide Keenan's monthly share by 4 to get the weekly share.\n\nKeenan's weekly share = $160 / 4 = $40.\n\n#### $40",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate Madeline's Monthly Share\nTo find out how much Madeline pays, we need to calculate 60% of the total monthly cost. The total monthly cost is $400. So, Madeline's share = 60% of $400 = 0.6 * $400 = $240.\n\n## Step 2: Calculate Keenan's Monthly Share\nSince the total cost is $400 and Madeline pays $240, Keenan's share can be found by subtracting Madeline's share from the total cost. So, Keenan's share = Total cost - Madeline's share = $400 - $240 = $160.\n\n## Step 3: Calculate Keenan's Weekly Share\nTo find out how much Keenan spends per week, we need to divide Keenan's monthly share by the number of weeks in the month. Given that it's a four-week month, Keenan's weekly share = Keenan's monthly share / Number of weeks = $160 / 4 = $40.\n\nThe final answer is: #### $40",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1241,
+	"prompt": "Elly is organizing her books on the new bookcases her parents bought her. Each of the middle 2 shelves can hold 10 books. The bottom shelf can hold twice as many books as a middle shelf. The top shelf can hold 5 fewer books than the bottom shelf. If she has 110 books, how many bookcases does she need to hold all of them?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The bottom shelf can hold 2 * 10 = <<2*10=20>>20 books.\nThe 2 middle shelves can hold a total of 2 * 10 = <<2*10=20>>20 books.\nThe top shelf can hold 20 \u2013 5 = <<20-5=15>>15 books.\nEach bookcase can hold a total of 20 books + 20 books + 15 books = <<20+20+15=55>>55 books.\nTo hold all of her books, she needs 110 / 55 = <<110/55=2>>2 bookcases.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many bookcases Elly needs, we first need to determine how many books one bookcase can hold. \n\n1. Each middle shelf can hold 10 books.\n2. The bottom shelf can hold twice as many books as a middle shelf, so it can hold 2 * 10 = 20 books.\n3. The top shelf can hold 5 fewer books than the bottom shelf, so it can hold 20 - 5 = 15 books.\n\nNow, let's calculate the total number of books one bookcase can hold:\n- 2 middle shelves = 2 * 10 = 20 books\n- 1 bottom shelf = 20 books\n- 1 top shelf = 15 books\nTotal books one bookcase can hold = 20 (middle) + 20 (bottom) + 15 (top) = 55 books.\n\nElly has 110 books. To find out how many bookcases she needs:\n110 books / 55 books per bookcase = 2 bookcases.\n\nSince 2 bookcases can hold 110 books (2 * 55 = 110), Elly needs exactly 2 bookcases to hold all her books.\n\n#### 2\n\n#### 2",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the number of bookcases Elly needs, we first need to calculate the capacity of one bookcase. Each of the middle 2 shelves can hold 10 books, so together they can hold 10 * 2 = 20 books. The bottom shelf can hold twice as many books as a middle shelf, which means it can hold 10 * 2 = 20 books. The top shelf can hold 5 fewer books than the bottom shelf, so it can hold 20 - 5 = 15 books.\n\nNow, we calculate the total capacity of one bookcase by adding the capacities of all shelves: 20 (middle shelves) + 20 (bottom shelf) + 15 (top shelf) = 55 books per bookcase. To find out how many bookcases Elly needs for 110 books, we divide the total number of books by the capacity of one bookcase: 110 / 55 = 2.\n\n#### 2",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1015,
+	"prompt": "Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has spent $3.5 on peaches and pears because 7 x .5 = <<7*.5=3.5>>3.5\nHe has spent $2 on kiwis because 2 x 1 = <<2*1=2>>2\nHe has spent $3.75 on apples because 5 x .75 = <<5*.75=3.75>>3.75\nHe has already spent $9.25 because 3.5 + 2 + 3.75 = <<3.5+2+3.75=9.25>>9.25\nHe can buy three plums because .75 / .25 = <<.75/.25=3>>3\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many plums Jamaar can buy, we first need to calculate the total amount he has spent on the fruits he has already purchased. \n\nThe cost of 3 peaches at $.5 each is 3 * $.5 = $1.5. \nThe cost of 4 pears at $.5 each is 4 * $.5 = $2. \nThe cost of 2 kiwis at $1 each is 2 * $1 = $2. \nThe cost of 5 apples at $.75 each is 5 * $.75 = $3.75.\n\n`\nNow, we sum the costs of all these fruits to find the total amount spent: $1.5 + $2 + $2 + $3.75 = $9.25.\n\n`\nJamaar started with $10, so to find out how much money he has left, we subtract the total amount spent from his initial amount: $10 - $9.25 = $0.75.\n\n`\nSince plums cost $.25 each, we divide the amount of money Jamaar has left by the cost of one plum to find out how many plums he can buy: $0.75 / $.25 = 3.\n\n#### 3",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine how many plums Jamaar can buy, we first need to calculate the total cost of the items he has already purchased. This includes 3 peaches, 4 pears, 2 kiwis, and 5 apples. The cost of each item is as follows: peaches and pears are $0.5 each, apples are $0.75 each, and kiwis are $1 each.\n\nThe total cost of peaches is 3 * $0.5 = $1.5. The total cost of pears is 4 * $0.5 = $2. The total cost of kiwis is 2 * $1 = $2. The total cost of apples is 5 * $0.75 = $3.75.\n\nThe total cost of all the items purchased is $1.5 + $2 + $2 + $3.75 = $9.25.\n\nJamaar started with $10, so the remaining budget is $10 - $9.25 = $0.75.\n\nEach plum costs $0.25, so the number of plums Jamaar can buy is $0.75 / $0.25 = 3.\n\n#### 3",
+			"retrievals": 1
+		}
+	]
+}

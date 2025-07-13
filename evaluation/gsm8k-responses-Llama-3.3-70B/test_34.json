@@ -1,0 +1,13 @@
+{
+	"task_id": 34,
+	"prompt": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x be the number of silver coins Gretchen has\nGretchen has x+30 gold coins.\nx+x+30=110\n2*x=80\nx=<<40=40>>40\nGretchen has 40+30=<<40+30=70>>70 gold coins\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of silver coins as S and the number of gold coins as G. We are given two pieces of information: Gretchen has 110 coins in total, and there are 30 more gold coins than silver coins.\n\nWe can express the total number of coins as the sum of gold and silver coins: S + G = 110. We also know that G = S + 30, since there are 30 more gold coins than silver coins.\n\nWe can substitute the expression for G from the second equation into the first equation: S + (S + 30) = 110. This simplifies to 2S + 30 = 110.\n\nNow, we need to solve for S. Subtracting 30 from both sides gives us 2S = 80. Dividing both sides by 2 gives us S = 40.\n\nSince G = S + 30, we can substitute S = 40 into this equation to find G: G = 40 + 30 = 70.\n\n#### 70",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Define the relationship between the number of gold and silver coins\nLet's denote the number of silver coins as S and the number of gold coins as G. We are given that there are 30 more gold coins than silver coins, so we can write this relationship as G = S + 30.\n\n## Step 2: Express the total number of coins in terms of gold and silver coins\nThe total number of coins Gretchen has is 110, which means that G + S = 110.\n\n## Step 3: Substitute the relationship between gold and silver coins into the total coins equation\nFrom Step 1, we have G = S + 30. Substituting this into the equation from Step 2 gives us (S + 30) + S = 110.\n\n## Step 4: Solve for the number of silver coins\nCombining like terms in the equation (S + 30) + S = 110 gives us 2S + 30 = 110. Subtracting 30 from both sides gives 2S = 80. Dividing both sides by 2 gives S = 40.\n\n## Step 5: Calculate the number of gold coins\nNow that we know S = 40, we can find G using the relationship G = S + 30 from Step 1. So, G = 40 + 30 = 70.\n\nThe final answer is #### 70",
+			"retrievals": 1
+		}
+	]
+}

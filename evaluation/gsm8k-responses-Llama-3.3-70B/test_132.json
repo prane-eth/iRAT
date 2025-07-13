@@ -1,0 +1,13 @@
+{
+	"task_id": 132,
+	"prompt": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His expenditure in June was $500 - $60 = $<<500-60=440>>440.\nHis total expenditure for May and June was $500 + $440 = $<<500+440=940>>940.\n#### 940",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Joseph's total expenditure for May and June, we first need to calculate his expenditure for each month. \nIn May, his expenditure was $500. \n\nHis expenditure in June was $60 less than in May. So, we subtract $60 from $500 to find the expenditure in June: $500 - $60 = $440.\n\nNow, we add the expenditures for May and June to find the total: $500 (May) + $440 (June) = $940.\n\n#### $940",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Joseph's total expenditure for May and June, we first need to calculate his expenditure for each month. In May, his expenditure was $500. His expenditure in June was $60 less than in May. So, we subtract $60 from $500 to find the expenditure in June: $500 - $60 = $440. Now, we add the expenditures for May and June to find the total: $500 (May) + $440 (June) = $940. #### $940",
+			"retrievals": 1
+		}
+	]
+}

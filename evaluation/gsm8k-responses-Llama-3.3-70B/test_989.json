@@ -1,0 +1,13 @@
+{
+	"task_id": 989,
+	"prompt": "Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She is paid $2,000.00 a month and she saves 25% for shoes so she saves 2000*.25 = $<<2000*.25=500.00>>500.00\nShe saves $500.00 a month for 12 months so she saves 500*12 = $<<500*12=6000.00>>6,000.00\nEach pair of shoes costs $1,000.00 and she has saved $6,000.00 so she can buy 6000/1000 = 6 pair of shoes per year\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many shoes Jessica can buy in a year, we first need to calculate how much she sets aside each month for shoes. Since she makes $2,000.00 a month and sets 25% of her paycheck aside, we calculate 25% of $2,000.00. \n\n25% of $2,000.00 is 0.25 * $2,000.00 = $500.00. This means she sets aside $500.00 each month for shoes.\n\nNext, we need to find out how much she sets aside in a year. Since there are 12 months in a year, we multiply $500.00 by 12 to get the total amount she sets aside in a year. $500.00 * 12 = $6,000.00.\n\nNow, we know that each pair of shoes costs $1,000.00. To find out how many shoes she can buy in a year, we divide the total amount she sets aside in a year by the cost of each pair of shoes. $6,000.00 / $1,000.00 = 6.\n\n#### 6",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate Jessica's monthly savings for shoes\nJessica makes $2,000.00 a month and sets 25% of her paycheck aside for shoes. To find out how much she saves each month, we calculate 25% of $2,000.00, which is 0.25 * $2,000.00 = $500.00.\n\n## Step 2: Calculate Jessica's yearly savings for shoes\nSince there are 12 months in a year, we multiply her monthly savings by 12 to get her yearly savings. $500.00 * 12 = $6,000.00.\n\n## Step 3: Determine the number of shoes Jessica can buy in a year\nEach pair of shoes costs $1,000.00. To find out how many shoes she can buy, we divide her yearly savings by the cost of each pair of shoes. $6,000.00 / $1,000.00 = 6.\n\nThe final answer is: #### 6",
+			"retrievals": 1
+		}
+	]
+}

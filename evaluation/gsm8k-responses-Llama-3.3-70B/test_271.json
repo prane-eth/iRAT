@@ -1,0 +1,13 @@
+{
+	"task_id": 271,
+	"prompt": "Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First Bag:300\nSecond Bag:300+12=<<300+12=312>>312\nThird Bag:300/2=<<300/2=150>>150\nTotal number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's\n#### 762",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of M&Ms Mary got, we first need to calculate the number of M&Ms in each bag. The first bag has 300 M&Ms.\n\nThe second bag has 12 more M&Ms than the first bag. So, the number of M&Ms in the second bag is 300 + 12 = 312 M&Ms.\n\nThe third bag has half the number of M&Ms that the first bag had. Since the first bag had 300 M&Ms, the third bag has 300 / 2 = 150 M&Ms.\n\nNow, we add up the number of M&Ms in each bag to find the total: 300 (first bag) + 312 (second bag) + 150 (third bag) = 762 M&Ms.\n\n#### 762",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of M&Ms Mary got, we first need to calculate the number of M&Ms in each bag. The first bag has 300 M&Ms. The second bag has 12 more M&Ms than the first, which means it has 300 + 12 = 312 M&Ms. The third bag has half the number of M&Ms that the first bag had, so it has 300 / 2 = 150 M&Ms.\n\nNow, we need to add up the number of M&Ms in each bag to find the total. The total number of M&Ms is 300 (from the first bag) + 312 (from the second bag) + 150 (from the third bag).\n\nPerforming the calculation: 300 + 312 + 150 = 762.\n\nTherefore, the total number of M&Ms Mary got is 762.\n\n#### 762",
+			"retrievals": 1
+		}
+	]
+}

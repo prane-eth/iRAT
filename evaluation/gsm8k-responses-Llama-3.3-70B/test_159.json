@@ -1,0 +1,13 @@
+{
+	"task_id": 159,
+	"prompt": "Raphael went to buy some school supplies. He bought 4 pens which cost $1.5 each, 2 notebooks which cost $4 each, and a rim of bond paper which cost $20. How much did Raphael spend on everything?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Raphael spent 4 x $1.5 = $<<4*1.5=6>>6 for the pens.\nHe also spent 2 x $4 = $<<2*4=8>>8 for the notebooks.\nTherefore, Raphael spent a total of $6 + $8 + $20 = $<<6+8+20=34>>34 for the school supplies.\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount Raphael spent, we need to calculate the cost of each item separately and then add them together. First, let's calculate the cost of the pens. Raphael bought 4 pens at $1.5 each.\n\nThe total cost of the pens is 4 * $1.5 = $6.\n\nNext, we calculate the cost of the notebooks. He bought 2 notebooks at $4 each.\n\nThe total cost of the notebooks is 2 * $4 = $8.\n\nLastly, we add the cost of the rim of bond paper, which is $20.\n\nNow, we add all these costs together to get the total amount spent: $6 (pens) + $8 (notebooks) + $20 (bond paper) = $34.\n\n#### $34",
+			"old_rat_retrievals": 7,
+			"final_answer": "Raphael went to buy some school supplies, and we need to calculate the total amount he spent. \n\nFirst, let's calculate the cost of the pens. Since he bought 4 pens at $1.5 each, the total cost for the pens is 4 * $1.5 = $6.\n\nNext, we calculate the cost of the notebooks. He bought 2 notebooks at $4 each, so the total cost for the notebooks is 2 * $4 = $8.\n\nLastly, he bought a rim of bond paper for $20.\n\nTo find the total amount spent, we add up the costs of all the items: $6 (pens) + $8 (notebooks) + $20 (bond paper) = $34.\n\nTherefore, Raphael spent a total of $34 on school supplies.\n#### $34",
+			"retrievals": 1
+		}
+	]
+}

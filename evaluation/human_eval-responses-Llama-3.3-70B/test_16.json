@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/15",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef string_sequence(n: int) -> str:\n    \"\"\" Return a string containing space-delimited numbers starting from 0 upto n inclusive.\n    >>> string_sequence(0)\n    '0'\n    >>> string_sequence(5)\n    '0 1 2 3 4 5'\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef string_sequence(n: int) -> str:\n    \"\"\"\n    Return a string containing space-delimited numbers starting from 0 upto n inclusive.\n\n    >>> string_sequence(0)\n    '0'\n    >>> string_sequence(5)\n    '0 1 2 3 4 5'\n    \"\"\"\n    # Generate a list of numbers from 0 to n (inclusive) and convert them to strings\n    numbers = [str(i) for i in range(n + 1)]\n    \n    # Join the list of strings into a single string with spaces in between\n    result = ' '.join(numbers)\n    \n    return result\n```\n\n```python\nprint(string_sequence(0))  # Expected output: '0'\nprint(string_sequence(5))  # Expected output: '0 1 2 3 4 5'\n```",
+			"old_rat_retrievals": 5,
+			"final_answer": "def string_sequence(n: int) -> str:\n    \"\"\" Return a string containing space-delimited numbers starting from 0 upto n inclusive.\n    >>> string_sequence(0)\n    '0'\n    >>> string_sequence(5)\n    '0 1 2 3 4 5'\n    \"\"\"\n    return ' '.join(map(str, range(n + 1)))\n\nprint(string_sequence(0))  # Expected output: '0'\nprint(string_sequence(5))  # Expected output: '0 1 2 3 4 5'",
+			"retrievals": 3
+		}
+	]
+}

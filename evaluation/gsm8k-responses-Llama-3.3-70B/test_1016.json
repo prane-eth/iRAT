@@ -1,0 +1,13 @@
+{
+	"task_id": 1016,
+	"prompt": "Anne purchased a box of sweets that contains 15 packs, and each pack has 60 pieces. She kept two packs and gave the rest to her 10 friends equally. How many pieces of sweets did each of her friends receive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After Anne kept 2 packs, there were only 15 - 2 = <<15-2=13>>13 packs left.\nTherefore, there were 13 x 60 = <<13*60=780>>780 pieces of sweets left.\nSo, each of her 10 friends received 780 / 10 = <<780/10=78>>78 pieces of sweets.\n#### 78",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many pieces of sweets each of Anne's friends received, we first need to calculate the total number of packs she gave away and then determine the total number of pieces in those packs.\n\n1. Total packs in the box = 15 packs\n2. Packs kept by Anne = 2 packs\n3. Packs given away = Total packs - Packs kept = 15 - 2 = 13 packs\n4. Since each pack has 60 pieces, the total number of pieces given away = 13 packs * 60 pieces/pack = 780 pieces\n5. Anne has 10 friends, and they receive the sweets equally, so each friend gets = Total pieces given away / Number of friends = 780 pieces / 10 friends = 78 pieces\n\n#### 78",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of packs Anne gave to her friends\nAnne purchased a box of sweets that contains 15 packs, and she kept two packs for herself. To find out how many packs she gave to her friends, we subtract the number of packs she kept from the total number of packs. packs_given = total_packs - packs_kept = 15 - 2 = 13.\n\n## Step 2: Calculate the total number of pieces of sweets given to her friends\nSince each pack has 60 pieces of sweets, we can calculate the total number of pieces given to her friends by multiplying the number of packs given by the number of pieces per pack. total_pieces_given = packs_given * pieces_per_pack = 13 * 60 = 780.\n\n## Step 3: Calculate the number of pieces each friend received\nAnne has 10 friends, and she gave the sweets equally among them. To find out how many pieces each friend received, we divide the total number of pieces given by the number of friends. pieces_per_friend = total_pieces_given / number_of_friends = 780 / 10 = 78.\n\n#### 78",
+			"retrievals": 2
+		}
+	]
+}

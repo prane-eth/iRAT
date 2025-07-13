@@ -1,0 +1,13 @@
+{
+	"task_id": 1213,
+	"prompt": "Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali\u2019s class which has the capacity of 120 students. What is the combined capacity of both schools?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each of John\u2019s classes has a capacity of 120 * 1/8 = <<120*1/8=15>>15 students.\nCombined, both his classes have a capacity of 15 * 2= <<15*2=30>>30 students.\nCombined, both schools have a capacity of 120+30=<<120+30=150>>150 students\n#### 150",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the combined capacity of both schools, we first need to determine the capacity of each class in John's school and then calculate the total capacity of both schools. \n\nAli's class has a capacity of 120 students. Since each class in John's school has 1/8 the capacity of Ali's class, we can calculate the capacity of each class in John's school by multiplying Ali's class capacity by 1/8. This gives us 120 * (1/8) = 15 students per class in John's school.\n\nJohn has two classes in his school, so the total capacity of John's school is 2 * 15 = 30 students.\n\nNow, to find the combined capacity of both schools, we need to add the capacity of Ali's school (which is 120 students) to the total capacity of John's school (which is 30 students). \n\nThe combined capacity is 120 + 30 = 150 students.\n\n#### 150",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Identify the Capacity of Ali's Class\nAli's class has a capacity of 120 students.\n\n## Step 2: Determine the Capacity of Each of John's Classes\nEach of John's classes has 1/8 the capacity of Ali's class. So, the capacity of each of John's classes is 120 * 1/8 = 15 students.\n\n## Step 3: Calculate the Total Capacity of John's Classes\nSince John has two classes, the total capacity of his classes is 2 * 15 = 30 students.\n\n## Step 4: Calculate the Combined Capacity of Both Schools\nThe combined capacity of both schools is the sum of the capacity of Ali's class and the total capacity of John's classes. So, the combined capacity is 120 + 30 = 150 students.\n\n## Step 5: Conclusion\nThe combined capacity of both schools can be calculated by adding the capacity of Ali's class to the total capacity of John's classes.\n\n#### 150",
+			"retrievals": 2
+		}
+	]
+}

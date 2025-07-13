@@ -1,0 +1,19 @@
+{
+	"task_id": 87,
+	"prompt": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion.?assert recur_gcd(12,14) == 2",
+	"test_imports": [],
+	"test_list": [
+		"assert recur_gcd(12,14) == 2",
+		"assert recur_gcd(13,17) == 1",
+		"assert recur_gcd(9, 3) == 3"
+	],
+	"mbpp_code": "def recur_gcd(a, b):\r\n\tlow = min(a, b)\r\n\thigh = max(a, b)\r\n\tif low == 0:\r\n\t\treturn high\r\n\telif low == 1:\r\n\t\treturn 1\r\n\telse:\r\n\t\treturn recur_gcd(low, high%low)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the problem and the approach to solve it\nWe\n\n \n```python\ndef recur_gcd(a, b):\n    # Base case: if b is zero, return a\n    if b == 0:\n        return a\n    # Recursive case: call the function with b and the remainder of a divided by b\n    else:\n        return recur_gcd(b, a % b)\n```",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the greatest common divisor (gcd) of two integers using recursion, we can utilize the Euclidean algorithm, which is an efficient method for computing the gcd of two numbers. The Euclidean algorithm states that the gcd of two numbers a and b is the same as the gcd of b and the remainder of a divided by b. This process continues until b is zero, at which point a is the gcd.\n\nHere is a step-by-step breakdown of how the recursive function would work:\n1. Define the base case: If b is zero, the function returns a, because the gcd of a and 0 is a.\n2. Define the recursive case: If b is not zero, the function calls itself with b and the remainder of a divided by b.\n\nWe can implement this using a recursive function that takes two arguments, a and b, and returns the gcd of a and b. Here's the Python code for the recursive function:\n\n```python\ndef recur_gcd(a, b):\n    # Base case: if b is zero, return a\n    if b == 0:\n        return a\n    # Recursive case: call the function with b and the remainder of a divided by b\n    else:\n        return recur_gcd(b, a % b)\n```\n\nThis function works by recursively replacing (a, b) with (b, a % b) until b is zero. At that point, a is the gcd of the original a and b. \n\nFor example, if you call `recur_gcd(12, 14)`, the function will calculate the gcd as follows:\n- `recur_gcd(12, 14)` calls `recur_gcd(14, 12 % 14)` = `recur_gcd(14, 12)`\n- `recur_gcd(14, 12)` calls `recur_gcd(12, 14 % 12)` = `recur_gcd(12, 2)`\n- `recur_gcd(12, 2)` calls `recur_gcd(2, 12 % 2)` = `recur_gcd(2, 0)`\n- `recur_gcd(2, 0)` returns `2` because the base case is met (b is zero)\n\nTherefore, `recur_gcd(12, 14)` returns `2`, which is the greatest common divisor of 12 and 14.",
+			"retrievals": 4
+		}
+	]
+}

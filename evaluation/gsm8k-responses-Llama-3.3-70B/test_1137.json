@@ -1,0 +1,13 @@
+{
+	"task_id": 1137,
+	"prompt": "Bob has a certain number of marbles. If he receives 2 dozen more marbles, he will have 60 marbles. If he loses 10 of the marbles he has, how many marbles will Bob have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let B be the number of marbles Bob starts with.\n2 dozen marbles is 2 * 12 = <<2*12=24>>24 marbles.\nSo after receiving 2 dozen more marbles, we know B + 24 = 60.\nThis means B = 60 - 24 = <<60-24=36>>36.\nBob ends with 36 - 10 = <<36-10=26>>26 marbles.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Bob will have if he loses 10 of the marbles he has, we first need to determine the current number of marbles Bob has. We know that if he receives 2 dozen more marbles, he will have 60 marbles. Since 1 dozen equals 12 marbles, 2 dozen equals 24 marbles.\n\nSo, if Bob receives 24 more marbles and ends up with 60, we can set up the equation: current marbles + 24 = 60. To find the current number of marbles, we subtract 24 from both sides of the equation. Thus, current marbles = 60 - 24 = 36.\n\nNow that we know Bob currently has 36 marbles, we can calculate how many marbles he will have if he loses 10. This is found by subtracting 10 from the current number of marbles: 36 - 10 = 26.\n\n#### 26",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Understand the Problem\nTo find out how many marbles Bob will have if he loses 10 of the marbles he has, we first need to determine the current number of marbles Bob has. We know that if he receives 2 dozen more marbles, he will have 60 marbles. Since 1 dozen equals 12 marbles, 2 dozen equals 24 marbles.\n\n## Step 2: Calculate Current Marbles\nSo, if Bob receives 24 more marbles and ends up with 60, we can set up the equation: current marbles + 24 = 60. To find the current number of marbles, we subtract 24 from both sides of the equation. Thus, current marbles = 60 - 24 = 36.\n\n## Step 3: Calculate Marbles After Loss\nNow that we know Bob currently has 36 marbles, we can calculate how many marbles he will have if he loses 10. This is found by subtracting 10 from the current number of marbles: 36 - 10 = 26.\n\n#### 26",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 325,
+	"prompt": "Ralph has a record store where people can trade their own records for new ones. People can trade 2 old records for 1 new one. 5 people come in with old records and leave with 7 new records between them. How many old records did the 5 people bring in?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "People can bring in 2 old records = get 1 new record.\n5 people come in with old records and leave with 7 new records, 7 new records x 2 old records traded for each = <<7*2=14>>14 old records that the 5 people brought in.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many old records the 5 people brought in, we first need to understand the trade ratio. The store allows people to trade 2 old records for 1 new one. This means for every new record a person gets, they must have brought in 2 old records.\n\nGiven that the 5 people left with 7 new records between them, we can calculate the total number of old records they brought in by using the trade ratio. Since 2 old records are required for 1 new record, the total number of old records brought in would be 2 times the number of new records received.\n\nThe total number of new records received is 7. So, the total number of old records brought in would be 7 * 2 = 14.\n\n#### 14",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many old records the 5 people brought in, we first need to understand the trade ratio. The store allows people to trade 2 old records for 1 new one. This means for every new record a person gets, they must have brought in 2 old records.\n\nGiven that the 5 people left with 7 new records between them, we can calculate the total number of old records they brought in by using the trade ratio. Since 2 old records are required for 1 new record, the total number of old records brought in would be 2 times the number of new records received. The total number of new records received is 7. So, the total number of old records brought in would be 7 * 2 = 14.\n\n#### 14",
+			"retrievals": 2
+		}
+	]
+}

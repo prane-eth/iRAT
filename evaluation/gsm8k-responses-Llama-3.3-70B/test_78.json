@@ -1,0 +1,13 @@
+{
+	"task_id": 78,
+	"prompt": "If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calculate the difference in the amount of laundry Raymond and David do if Sarah does 400 pounds of laundry.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Sarah does 400 pounds of laundry, and Raymond does half as much laundry as Sarah, Raymond does 1/2*400 = 200 pounds of laundry.\nSara also does 4 times as much laundry as David, meaning David does 400/4 = <<400/4=100>>100 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200-100 = <<200-100=100>>100 pounds\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "To find the difference in the amount of laundry that Raymond and David do, we first need to determine how much laundry each of them does based on the information given.\n\n1. Sarah does 400 pounds of laundry.\n2. Sarah does 4 times as much laundry as David. So, if David does D pounds of laundry, then 4D = 400 pounds.\n   - Solving for D gives D = 400 / 4 = 100 pounds. Therefore, David does 100 pounds of laundry.\n3. Raymond does half as much laundry as Sarah. So, if Sarah does 400 pounds, then Raymond does 400 / 2 = 200 pounds of laundry.\n\nNow, to find the difference in the amount of laundry that Raymond and David do:\n- Raymond does 200 pounds of laundry.\n- David does 100 pounds of laundry.\n- The difference is 200 - 100 = 100 pounds.\n\n#### 100\n\n#### 100 pounds",
+			"old_rat_retrievals": 7,
+			"final_answer": "To solve this problem, we first need to establish the amount of laundry each person does in relation to Sarah, who does 400 pounds of laundry. Since Sarah does 4 times as much laundry as David, we can calculate David's laundry by dividing Sarah's total by 4. David's laundry = Sarah's laundry / 4 = 400 / 4 = 100 pounds.\n\nNext, we know Raymond does half as much laundry as Sarah. So, to find out how much laundry Raymond does, we divide Sarah's total by 2. Raymond's laundry = Sarah's laundry / 2 = 400 / 2 = 200 pounds.\n\nNow, to find the difference in the amount of laundry Raymond and David do, we subtract David's amount from Raymond's amount. Difference = Raymond's laundry - David's laundry = 200 - 100 = 100 pounds.\n\n#### 100 pounds",
+			"retrievals": 2
+		}
+	]
+}

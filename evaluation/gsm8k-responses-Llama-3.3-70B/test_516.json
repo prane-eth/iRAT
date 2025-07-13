@@ -1,0 +1,13 @@
+{
+	"task_id": 516,
+	"prompt": "Tara bought 8 packs of 5 canvas bags for $4 each. She painted them and sold them at a craft fair for $8 each. How much profit did she earn on her bags?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of bags is 8*5 = <<8*5=40>>40\nThe cost of the 40 bags is 40*4 = <<40*4=160>>160\nTara sold the 40 bags at 8 each earning her 40*8 = <<40*8=320>>320\nHer profit was 320-160 = <<320-160=160>>160\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the profit Tara earned, we first need to determine the total cost of the canvas bags and the total revenue from selling them. Tara bought 8 packs of 5 canvas bags, so she bought a total of 8 * 5 = 40 canvas bags.\n\nThe cost of each pack of 5 canvas bags is $4, so the total cost for all the bags is 8 packs * $4 = $32. This gives us the total cost.\n\nNext, we calculate the total revenue from selling the bags. Tara sold each bag for $8, and she had 40 bags to sell. Therefore, the total revenue is 40 bags * $8/bag = $320.\n\nTo find the profit, we subtract the total cost from the total revenue. The profit is $320 (total revenue) - $32 (total cost) = $288.\n\n#### $288",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the profit Tara earned, we first calculate the total cost and the total revenue. Tara bought 8 packs of 5 canvas bags, so she purchased a total of 8 * 5 = 40 canvas bags. The cost per pack is $4, and since she bought 8 packs, the total cost is 8 * $4 = $32.\n\nThe total revenue from selling the bags is found by multiplying the number of bags sold by the price per bag: 40 bags * $8/bag = $320.\n\nProfit is calculated by subtracting the total cost from the total revenue: profit = total revenue - total cost = $320 - $32 = $288.\n\n#### $288",
+			"retrievals": 2
+		}
+	]
+}

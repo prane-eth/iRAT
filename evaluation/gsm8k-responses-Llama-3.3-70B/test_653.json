@@ -1,0 +1,13 @@
+{
+	"task_id": 653,
+	"prompt": "James hires a horse-drawn carriage from 5 PM to 9 PM.  He gets 1 hour free.  The first paid hour is $15 and each hour after that is twice the cost.  How much did he pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He got it for 9-5=<<9-5=4>>4 hours\nHe pays for 4-1=<<4-1=3>>3 hours\nThe first hour cost 1*15=$<<1*15=15>>15\nThe other 3-1=2 hours are more expensive\nThey cost 15*2=$<<15*2=30>>30 per hour\nSo those 2 hours cost 2*30=$<<2*30=60>>60\nSo he pays 60+15=$<<60+15=75>>75 per hours\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the cost, we need to determine the total hours James hired the carriage",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the cost, we need to determine the total hours James hired the carriage. He hired it from 5 PM to 9 PM, which is a total of 4 hours. Since he gets 1 hour free, he only pays for 4 - 1 = 3 hours.\n\nThe first paid hour is $15. Each hour after that is twice the cost, so the second hour is $15 * 2 = $30, and the third hour is $30 * 2 = $60.\n\nThe total cost is $15 + $30 + $60 = $105.\n\n#### $105",
+			"retrievals": 1
+		}
+	]
+}

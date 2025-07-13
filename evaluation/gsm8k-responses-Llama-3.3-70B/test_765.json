@@ -1,0 +1,13 @@
+{
+	"task_id": 765,
+	"prompt": "Leila buys 3 cucumbers from the market. Cucumbers are $2 each. Jack buys 5 tomatoes from the grocery store.  Tomatoes are $1 each. Chase buys 1 head of lettuce from the farmer\u2019s market.  Lettuce cost $3 each. Together, how much did the three of them spend to make a salad for the potluck?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Leila spends 3 x $2 = $<<3*2=6>>6.\nJack spends 5 x $1 = $<<5*1=5>>5.\nChase spends 1 x $3 = $<<1*3=3>>3.\nTogether, they spend a total of $6 + $5 + $3 = $<<6+5+3=14>>14.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount spent by Leila, Jack, and Chase, we first need to calculate the amount each of them spent individually. Leila bought 3 cucumbers at $2 each. \n\nSo, the amount Leila spent is 3 * $2 = $6.\n\nJack bought 5 tomatoes at $1 each. \n\nThe amount Jack spent is 5 * $1 = $5.\n\nChase bought 1 head of lettuce at $3 each. \n\nThe amount Chase spent is 1 * $3 = $3.\n\nNow, to find the total amount spent, we add the amounts spent by Leila, Jack, and Chase together: $6 + $5 + $3 = $14.\n\n#### $14",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much the three of them spent together to make a salad for the potluck, we need to calculate the amount each person spent and then add those amounts together.\n\nLeila bought 3 cucumbers at $2 each. So, the amount Leila spent is 3 * $2 = $6.\n\nJack bought 5 tomatoes at $1 each. So, the amount Jack spent is 5 * $1 = $5.\n\nChase bought 1 head of lettuce at $3 each. So, the amount Chase spent is 1 * $3 = $3.\n\nNow, to find the total amount spent, we add the amounts spent by Leila, Jack, and Chase: $6 + $5 + $3 = $14.\n\n#### $14",
+			"retrievals": 1
+		}
+	]
+}

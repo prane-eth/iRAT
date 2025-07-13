@@ -1,0 +1,13 @@
+{
+	"task_id": 125,
+	"prompt": "Jennie is helping at her mom's office. She has a pile of 60 letters needing stamps, and a pile of letters already stamped. She puts stamps on one-third of the letters needing stamps. If there are now 30 letters in the pile of already-stamped letters, how many were in that pile when Jennie began?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She stamped 60/3=<<60/3=20>>20 letters.\nThen there were 30-20=<<30-20=10>>10 in the already-stamped pile to begin with.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "Jennie starts with 60 letters needing stamps. She puts stamps on one-third of these letters, which is (1/3) * 60 = 20 letters. This means she has now stamped 20 letters and added them to the pile of already stamped letters.\n\nIf there are now 30 letters in the pile of already-stamped letters after she added the 20 stamped letters, we need to find out how many letters were in that pile before she started stamping.\n\nLet x be the number of letters in the pile of already-stamped letters before Jennie began. After stamping 20 letters and adding them to this pile, the total number of letters in the pile of already-stamped letters becomes x + 20.\n\nWe are told that after she adds the 20 stamped letters, there are 30 letters in the pile of already-stamped letters. Therefore, x + 20 = 30.\n\nTo find the original number of letters in the pile of already-stamped letters, we solve for x:\nx + 20 = 30\nx = 30 - 20\nx = 10\n\nSo, there were 10 letters in the pile of already-stamped letters when Jennie began.\n\n#### 10\n\n \nThe problem states that after stamping these letters, there are now 30 letters in the pile of already-stamped letters. This means that before Jennie started stamping, there were 30 - 20 = 10 letters already stamped.\n\n#### 10",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many letters were in the pile of already-stamped letters when Jennie began, let's break down the information given. Jennie starts with 60 letters that need stamps and another pile of letters that are already stamped. She then stamps one-third of the 60 letters needing stamps. \n\nOne-third of 60 is calculated as 60 * (1/3) = 20 letters stamped. After stamping these letters, the pile of already-stamped letters contains 30 letters. To determine how many letters were already stamped before Jennie started, we subtract the number of letters she stamped (20) from the total number of stamped letters after her task (30). \n\nSo, 30 - 20 = 10 letters. This means that before Jennie began stamping, there were 10 letters in the pile of already-stamped letters.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

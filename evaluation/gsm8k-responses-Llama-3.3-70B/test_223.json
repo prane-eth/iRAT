@@ -1,0 +1,13 @@
+{
+	"task_id": 223,
+	"prompt": "Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of petunias Andy plants: 90 flowers - 40 = <<90-40=50>>50 flowers\nThen add the number of each kind of flower he plants to find the total number: 50 flowers + 90 flowers = <<50+90=140>>140 flowers\n#### 140",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of flowers Andy plants, we first need to determine the number of petunias he plants. Since he plants 40 fewer petunias than geraniums, and he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90.\n\nThe number of petunias = 90 - 40 = 50.\n\nNow that we know the number of geraniums (90) and the number of petunias (50), we can find the total number of flowers by adding these two numbers together.\n\nTotal flowers = Number of geraniums + Number of petunias = 90 + 50 = 140.\n\n#### 140",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of flowers Andy plants, we first need to determine the number of petunias he plants. Since he plants 40 fewer petunias than geraniums, and he plants 90 geraniums, the number of petunias can be calculated as follows: 90 - 40 = 50 petunias.\n\nNext, we add the number of geraniums (90) to the number of petunias (50) to find the total number of flowers. Total flowers = 90 (geraniums) + 50 (petunias) = 140.\n\nTherefore, the total number of flowers Andy plants is 140.\n\n#### 140",
+			"retrievals": 2
+		}
+	]
+}

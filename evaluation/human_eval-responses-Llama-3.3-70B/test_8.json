@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/7",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\nfrom typing import List\n\n\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\" Filter an input list of strings only for ones that contain given substring\n    >>> filter_by_substring([], 'a')\n    []\n    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')\n    ['abc', 'bacd', 'array']\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "from typing import List\n\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\"\n    Filter an input list of strings only for ones that contain given substring\n\n    Args:\n        strings (List[str]): A list of strings to be filtered.\n        substring (str): The substring to search for in the strings.\n\n    Returns:\n        List[str]: A list of strings that contain the given substring.\n    \"\"\"\n    # Initialize an empty list to store the filtered strings\n    filtered_strings = []\n    \n    # Iterate over each string in the input list\n    for string in strings:\n        # Check if the substring is present in the current string\n        if substring in string:\n            # If the substring is found, add the string to the filtered list\n            filtered_strings.append(string)\n    \n    # Return the filtered list of strings\n    return filtered_strings\n\n\n# Test cases\nprint(filter_by_substring([], 'a'))  # []\nprint(filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a'))  # ['abc', 'bacd', 'array']",
+			"old_rat_retrievals": 4,
+			"final_answer": "from typing import List\n\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\"\n    Filter an input list of strings only for ones that contain given substring\n    >>> filter_by_substring([], 'a')\n    []\n    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')\n    ['abc', 'bacd', 'array']\n    \"\"\"\n    result = [string for string in strings if substring in string]\n    return result\n\ndef main():\n    print(filter_by_substring([], 'a'))\n    print(filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a'))\n\nif __name__ == \"__main__\":\n    main()",
+			"retrievals": 2
+		}
+	]
+}

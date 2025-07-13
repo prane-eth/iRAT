@@ -1,0 +1,13 @@
+{
+	"task_id": 1149,
+	"prompt": "Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Chatty prepared 3 dozen x 12 eggs/dozen = <<3*12=36>>36 eggs.\nSince all four children receive the same number of eggs, each child gets 36 eggs / 4 children = <<36/4=9>>9 eggs/child\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many eggs each child receives, we first need to determine the total number of eggs Chatty prepared. Since Chatty prepared three dozen eggs, we calculate the total number of eggs by multiplying the number of dozens by 12, as there are 12 eggs in a dozen.\n\nThree dozen eggs would be 3 * 12 = 36 eggs. Now that we know there are 36 eggs in total, we need to divide this number by the number of children to find out how many eggs each child gets.\n\nThere are four children, so we divide the total number of eggs, which is 36, by the number of children, which is 4. This calculation is 36 / 4 = 9 eggs per child.\n\n#### 9",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many eggs each child receives, we first need to determine the total number of eggs Chatty prepared. Since Chatty prepared three dozen eggs, we calculate the total number of eggs by multiplying the number of dozens by 12, as there are 12 eggs in a dozen. Three dozen eggs would be 3 * 12 = 36 eggs. Now that we know there are 36 eggs in total, we need to divide this number by the number of children to find out how many eggs each child gets.\n\nThere are four children, so we divide the total number of eggs, which is 36, by the number of children, which is 4. This calculation is 36 / 4 = 9 eggs per child.\n\n#### 9",
+			"retrievals": 1
+		}
+	]
+}

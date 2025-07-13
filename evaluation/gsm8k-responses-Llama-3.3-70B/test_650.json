@@ -1,0 +1,13 @@
+{
+	"task_id": 650,
+	"prompt": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received 20000 more new likes recently, how many Instagram likes are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After receiving 2000 likes on her photo on Instagram on the first week, Fishio received 70*2000 = <<70*2000=140000>>140000 new likes on the photo after three more weeks.\nThe total number of likes in the four weeks is 140000+2000 = <<140000+2000=142000>>142000\nIf Fishio received 20000 more likes recently, the number of likes on the photo is 142000+20000=<<142000+20000=162000>>162000\n#### 162000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of likes, we first need to calculate the number of likes Fishio received after three weeks. Initially, she received 2000 likes. Three weeks later, the number of likes was 70 times as many as the initial number of likes. \n\nThis means the total likes after three weeks = 70 * initial likes = 70 * 2000 = 140000.\n\n`\nNow, we need to add the initial likes and the additional likes she received after three weeks to find out how many likes she had before receiving the new likes. However, since the 140000 likes already include the initial 2000 likes (because 70 times the initial likes would be the initial likes multiplied by 70, thus including the original 2000), we don't need to add the initial likes again.\n\n`\nThe problem states she received 20000 more new likes recently. To find the total number of likes now, we need to add these new likes to the total likes she had before. total_likes_now = total_likes_after_three_weeks + new_likes = 140000 + 20000.\n\n`\nCalculating the total likes: total_likes_now = 140000 + 20000 = 160000.\n\n#### 160000",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the total number of likes, we first need to calculate the number of likes after three weeks. Initially, Fishio received 2000 likes on her selfie after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. So, we multiply the initial number of likes by 70 to get the total likes after three weeks: 2000 * 70 = 140000.\n\nThen, we add the 20000 new likes she received recently to the total likes after three weeks: 140000 + 20000 = 160000.\n\nTherefore, the total number of Instagram likes is 160000.\n\n#### 160000",
+			"retrievals": 2
+		}
+	]
+}

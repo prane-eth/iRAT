@@ -1,0 +1,13 @@
+{
+	"task_id": 751,
+	"prompt": "Candy has a chair rental business. During the weekdays, 60 chairs are rented each day; but during weekends, 100 chairs are rented each day. If this continues, how many chairs in total will Candy be able to rent out in two 4-week months?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "During weekdays, a total of 60 x 5 = <<60*5=300>>300 chairs are rented.\nDuring the weekends, a total of 100 x 2 = <<100*2=200>>200 chairs are rented.\nIn a week, 300 + 200 = <<300+200=500>>500 chairs are rented.\nSince there are 4 weeks in a month, 500 x 4 = <<500*4=2000>>2000 chairs are rented in a month.\nThus, a total of 2000 x 2 = <<2000*2=4000>>4000 chairs are rented in two months.\n#### 4000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to calculate the total number of chairs rented in a week. During the weekdays (Monday to Friday), 60 chairs are rented each day. So, for 5 weekdays, the total chairs rented are 60 * 5 = 300 chairs.\n\nOn weekends (Saturday and Sunday), 100 chairs are rented each day. So, for 2 weekend days, the total chairs rented are 100 * 2 = 200 chairs. \n\nCombining the weekdays and weekends, the total chairs rented in a week are 300 + 200 = 500 chairs.\n\n`\nNow, we need to find out how many chairs are rented in a 4-week month. Since there are 4 weeks in the month, the total chairs rented in a month are 500 * 4 = 2000 chairs.\n\n`\nGiven that we have two 4-week months, the total chairs rented in two months are 2000 * 2 = 4000 chairs.\n\n#### 4000",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we first need to calculate the total number of chairs rented in a week. During the weekdays (Monday to Friday), 60 chairs are rented each day. So, for 5 weekdays, the total chairs rented are 60 * 5 = 300 chairs. On weekends (Saturday and Sunday), 100 chairs are rented each day. So, for 2 weekend days, the total chairs rented are 100 * 2 = 200 chairs. Combining the weekdays and weekends, the total chairs rented in a week are 300 + 200 = 500 chairs.\n\nNow, we need to find out how many chairs are rented in a 4-week month. Since there are 4 weeks in the month, the total chairs rented in a month are 500 * 4 = 2000 chairs.\n\nGiven that we have two 4-week months, the total chairs rented in two months are 2000 * 2 = 4000 chairs.\n\n#### 4000",
+			"retrievals": 1
+		}
+	]
+}

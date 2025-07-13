@@ -1,0 +1,13 @@
+{
+	"task_id": 249,
+	"prompt": "A chef bought 4 bags of onions. Each bag weighs 50 pounds. A pound of onions cost $1.50. How much did the chef spend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A bag of onions cost $1.50 x 50 = $<<1.5*50=75>>75.\nTherefore, the chef spent $75 x 4 = $<<75*4=300>>300 for the four bags of onions.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount spent by the chef, we first need to find out the total weight of onions purchased. The chef bought 4 bags of onions, and each bag weighs 50 pounds. \n\nSo, the total weight of onions is 4 bags * 50 pounds/bag = 200 pounds.\n\nThe cost of onions is $1.50 per pound. \n\nTo find the total cost, we multiply the total weight of onions by the cost per pound: 200 pounds * $1.50/pound = $300.\n\n#### $300",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much the chef spent, we first need to calculate the total weight of onions purchased. Since the chef bought 4 bags, and each bag weighs 50 pounds, the total weight is 4 bags * 50 pounds/bag = 200 pounds.\n\nNext, we calculate the total cost by multiplying the total weight by the cost per pound. Given that a pound of onions costs $1.50, the total cost is 200 pounds * $1.50/pound = $300.\n\nTherefore, the chef spent a total of $300 on onions.\n\n#### $300",
+			"retrievals": 1
+		}
+	]
+}

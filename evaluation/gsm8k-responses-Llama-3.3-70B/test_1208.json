@@ -1,0 +1,13 @@
+{
+	"task_id": 1208,
+	"prompt": "Deandre caught 3 tunas last Monday, the first tuna he caught weighs 56 kilograms, the second tuna he caught weighs 46 kilograms, and the last tuna he caught weighs 26 kilograms. If a kilogram of tuna costs $0.50, how much will he earn after selling all the tunas to the market?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Deandre will earn 56 x $0.50 = $<<56*0.5=28>>28 from the first tuna.\nHe will earn 46 x $0.50 = $<<46*0.5=23>>23 for the second tuna.\nAnd he will earn 26 x $0.50 = $<<26*0.5=13>>13 from the third tuna.\nTherefore, the total amount he will earn for all the tunas is $28 + $23 + $13= $<<28+23+13=64>>64.\n#### 64",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Deandre will earn after selling all the tunas, we first need to calculate the total weight of the tunas he caught. \n\nThe first tuna weighs 56 kilograms, the second tuna weighs 46 kilograms, and the last tuna weighs 26 kilograms. We add these weights together: 56 + 46 + 26 = 128 kilograms.\n\n`\nNow that we know the total weight of the tunas is 128 kilograms, we can calculate the total earnings by multiplying the total weight by the cost per kilogram of tuna, which is $0.50.\n\n`\nThe calculation for the total earnings is: 128 kilograms * $0.50/kilogram = $64.\n\n#### $64",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much Deandre will earn after selling all the tunas, we first need to calculate the total weight of the tunas. The first tuna weighs 56 kilograms, the second tuna weighs 46 kilograms, and the last tuna weighs 26 kilograms. So, the total weight is 56 + 46 + 26 = 128 kilograms. Given that a kilogram of tuna costs $0.50, we multiply the total weight by the cost per kilogram: 128 * $0.50 = $64.\n\n#### $64",
+			"retrievals": 2
+		}
+	]
+}

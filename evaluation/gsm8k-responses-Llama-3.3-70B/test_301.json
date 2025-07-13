@@ -1,0 +1,13 @@
+{
+	"task_id": 301,
+	"prompt": "On Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Sunday and Monday he exercised a total of 39 minutes because 23 + 16 = <<23+16=39>>39\nOn Tuesday he has to exercise for 78 minutes because 39 x 2 = <<39*2=78>>78\n#### 78",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many minutes Peter has to exercise on Tuesday, we first need to calculate the total amount of time he exercised on Monday and Sunday combined. \n\nOn Sunday, Peter exercised for 23 minutes. On Monday, he exercised for 16 minutes. So, the total time exercised on Sunday and Monday is 23 + 16 = 39 minutes.\n\nSince Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined, we need to multiply the total time exercised on those days by 2. \n\nThe calculation for this is 39 * 2 = 78 minutes.\n\n#### 78",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many minutes Peter has to exercise on Tuesday, we first need to calculate the total amount of time he exercised on Monday and Sunday combined. On Sunday, Peter exercised for 23 minutes. On Monday, he exercised for 16 minutes. So, the total time exercised on Sunday and Monday is 23 + 16 = 39 minutes. Since Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined, we need to multiply the total time exercised on those days by 2.\n\nThe calculation for this is 39 * 2 = 78 minutes. This means Peter has to exercise for 78 minutes on Tuesday to reach his goal of exercising for twice the amount of time he did on Monday and Sunday combined.\n\n#### 78",
+			"retrievals": 2
+		}
+	]
+}

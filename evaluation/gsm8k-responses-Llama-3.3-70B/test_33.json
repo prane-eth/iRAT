@@ -1,0 +1,13 @@
+{
+	"task_id": 33,
+	"prompt": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spends 10*.5=<<10*.5=5>>5 hours per day\nThat means he spends 5*7=<<5*7=35>>35 hours per week\n#### 35",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many hours a week John spends taking care of dogs, we first need to calculate how many hours a day he spends on this task and then multiply that by the number of days in a week.\n\n1. Each dog takes 0.5 hours a day to walk and take care of their business.\n2. John takes care of 10 dogs, so the total time spent per day is 10 dogs * 0.5 hours/dog = 5 hours/day.\n3. Since there are 7 days in a week, the total time spent per week is 5 hours/day * 7 days/week = 35 hours/week.\n\n#### 35",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many hours a week John spends taking care of dogs, we first need to calculate the daily hours spent on this activity. John takes care of 10 dogs, and each dog requires 0.5 hours a day for walking and taking care of their business. \n\nThe daily time spent on taking care of the dogs is calculated by multiplying the number of dogs by the time it takes to care for each dog. So, 10 dogs * 0.5 hours/dog = 5 hours/day.\n\nNext, we calculate the weekly time spent by multiplying the daily time by the number of days in a week. There are 7 days in a week, so the weekly time spent is 5 hours/day * 7 days/week = 35 hours/week.\n\nTherefore, John spends a total of 35 hours per week taking care of the dogs.\n\n#### 35 hours/week",
+			"retrievals": 2
+		}
+	]
+}

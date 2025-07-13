@@ -1,0 +1,13 @@
+{
+	"task_id": 769,
+	"prompt": "In one hour, Ezra read twice as many books as Ahmed. Ezra has read 300 books this hour and decided to read 150 more. How many books have they read altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450\nSince Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.\nTogether, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books\n#### 675",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to first find out how many books Ahmed read. Since Ezra read twice as many books as Ahmed, we can find Ahmed's total by dividing Ezra's initial total by 2.\n\nEzra initially read 300 books. \nAhmed read half of what Ezra read, so Ahmed read 300 / 2 = 150 books.\n\nNow, we add up all the books read by both Ezra and Ahmed, including Ezra's additional 150 books.\nEzra's total books read = 300 (initial) + 150 (additional) = 450 books.\nAhmed's total books read = 150 books.\n\nTotal books read altogether = Ezra's total + Ahmed's total = 450 + 150 = 600 books.\n\n#### 600\n\n`\nNow, we need to calculate the total number of books both Ezra and Ahmed have read. Ezra initially read 300 books and then decided to read 150 more. So, Ezra's total = 300 + 150 = 450 books.\n\n`\nTo find the total number of books they have read altogether, we add Ezra's total to Ahmed's total. Total books = Ezra's total + Ahmed's total = 450 + 150 = 600.\n\n#### 600",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many books Ahmed read, we first need to determine the number of books Ezra read in the given hour, which is already stated as 300. Since Ezra read twice as many books as Ahmed, we can calculate Ahmed's books by dividing Ezra's total by 2. So, Ahmed's books = Ezra's books / 2 = 300 / 2 = 150.\n\nNow, we need to calculate the total number of books both Ezra and Ahmed have read. Ezra initially read 300 books and then decided to read 150 more. So, Ezra's total = 300 + 150 = 450 books.\n\nTo find the total number of books they have read altogether, we add Ezra's total to Ahmed's total. Total books = Ezra's total + Ahmed's total = 450 + 150 = 600.\n\n#### 600",
+			"retrievals": 0
+		}
+	]
+}

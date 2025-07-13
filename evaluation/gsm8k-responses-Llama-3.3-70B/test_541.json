@@ -1,0 +1,13 @@
+{
+	"task_id": 541,
+	"prompt": "$18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each boy gets $18/3 = $<<18/3=6>>6.\nThe eldest had $5+$6=$<<5+6=11>>11 after adding $5 to his share.\nHe added another $10 so he had $11+$10=$<<11+10=21>>21.\nThen he had $21-$8=$<<21-8=13>>13 after spending $8.\nSo, he now has $13*3=$<<13*3=39>>39.\n#### 39",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the eldest boy has now, we first need to determine his initial share of the $18. Since the money is shared among 3 boys, we divide $18 by 3 to get each boy's share. $18 / 3 = $6. So, the eldest boy's initial share is $6.\n\n \nThe eldest boy then adds $5 to his share, making it $6 + $5 = $11. The following day, he adds another $10, bringing his total to $11 + $10 = $21. After spending $8 from this total, he is left with $21 - $8 = $13.\n\n \nAt this point, he has $13. We are told that after saving some more, he was able to triple the amount he had left after spending the $8. This means he triples the $13. So, we calculate $13 * 3 = $39.\n\n#### $39",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Initial Share Calculation\nTo find out how much the eldest boy has now, we first need to determine his initial share of the $18. Since the money is shared among 3 boys, we divide $18 by 3 to get each boy's share. $18 / 3 = $6. So, the eldest boy's initial share is $6.\n\n## Step 2: Additional Money Added\nThe eldest boy then adds $5 to his share, making it $6 + $5 = $11. The following day, he adds another $10, bringing his total to $11 + $10 = $21.\n\n## Step 3: Spending Money\nAfter spending $8 from this total, he is left with $21 - $8 = $13.\n\n## Step 4: Tripling the Amount\nAt this point, he has $13. We are told that after saving some more, he was able to triple the amount he had left after spending the $8. This means he triples the $13. So, we calculate $13 * 3 = $39.\n\nThe final answer is: #### $39",
+			"retrievals": 2
+		}
+	]
+}

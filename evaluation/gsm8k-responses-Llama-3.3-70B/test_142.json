@@ -1,0 +1,13 @@
+{
+	"task_id": 142,
+	"prompt": "There are 700 bees in a hive. There are twice as many worker bees as baby bees, and there are twice as many babies as queens.  How many worker bees are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x represent the number of queens\nBabies:2x\nWorkers:2(2x)=4x\nTotal:x+2x+4x=700\n7x=700\nx=<<100=100>>100 queen bees\nWorkers:4(100)=400 worker bees\n#### 400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of queens as Q, the number of baby bees as B, and the number of worker bees as W. We are given that there are twice as many babies as queens, so B = 2Q. We are also given that there are twice as many worker bees as baby bees, so W = 2B.\n\nSince B = 2Q, we can substitute this into the equation for W to get W = 2(2Q), which simplifies to W = 4Q. We know that the total number of bees is 700, and this total is the sum of Q, B, and W. So, we can write the equation Q + B + W = 700.\n\nSubstituting B = 2Q and W = 4Q into the equation Q + B + W = 700 gives us Q + 2Q + 4Q = 700. This simplifies to 7Q = 700.\n\nSolving for Q gives us Q = 700 / 7 = 100. Now that we know Q, we can find B and W. Since B = 2Q, B = 2 * 100 = 200. And since W = 4Q, W = 4 * 100 = 400.\n\n#### 400",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Define the relationships between the different types of bees\nLet's denote the number of queens as Q, the number of baby bees as B, and the number of worker bees as W. We are given that there are twice as many baby bees as queens (B = 2Q) and twice as many worker bees as baby bees (W = 2B).\n\n## Step 2: Express worker bees and baby bees in terms of queens\nSince B = 2Q, and W = 2B, it follows that W = 2(2Q) = 4Q. So, we have W = 4Q and B = 2Q.\n\n## Step 3: Calculate the total number of bees using the given relationships\nThe total number of bees in the hive is 700, which means Q + B + W = 700. Substituting the expressions for B and W from Step 2, we get Q + 2Q + 4Q = 700.\n\n## Step 4: Solve for Q\nCombining like terms in the equation Q + 2Q + 4Q = 700 gives us 7Q = 700. Solving for Q, we find Q = 700 / 7 = 100.\n\n## Step 5: Calculate the number of worker bees\nNow that we know Q = 100, we can find W using the relationship W = 4Q. So, W = 4 * 100 = 400.\n\nThe final answer is: #### 400",
+			"retrievals": 1
+		}
+	]
+}

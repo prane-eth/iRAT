@@ -1,0 +1,13 @@
+{
+	"task_id": 411,
+	"prompt": "Sally went to the seashore for vacation.  Her parents gave her $10 to buy whatever she wanted.  At the trinket shop, taffy was on sale for \"Buy 1 pound at $3, get 1 pound 1/2 off.\"  She scooped up 2 pounds.  She also bought a mixed bag of seashells for $1.50 and 4 magnets that were $0.25 each.  How much money does Sally have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Taffy is buying 1 pound for $3 and gets 1 pound half off. So 1/2 off of 1 pound is $3/2 = $1.50+$3.00=$4.50\n4 magnets at $0.25 each is 4*.25=$<<4*0.25=1.00>>1.00\nWhen you add all her purchases, $4.50+$1.50+$1.00 = $<<4.5+1.5+1=7.00>>7.00\nShe had $10 and spent $7 so she had $10-$7 = $<<10-7=3.00>>3.00 left over\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Sally has left, we need to calculate the total amount she spent. \nFirst, let's calculate the cost of the taffy. The sale is \"Buy 1 pound at $3, get 1 pound 1/2 off.\" So, for the first pound, she pays $3. For the second pound, she gets 1/2 off, which means she pays $3 * 0.5 = $1.5 for the second pound. \nThe total cost for the taffy is $3 + $1.5 = $4.5.\n\n`\nNext, we calculate the cost of the mixed bag of seashells and the magnets. The mixed bag of seashells costs $1.50. The magnets are $0.25 each, and she bought 4 of them, so the total cost for the magnets is $0.25 * 4 = $1. \nThe total cost for the seashells and magnets is $1.50 + $1 = $2.50.\n\n`\nNow, we add up the total cost of all the items Sally bought: the taffy ($4.5), the seashells ($1.50), and the magnets ($1). The total cost is $4.5 + $2.50 = $7. \nSally started with $10, so we subtract the total amount she spent from the initial amount: $10 - $7 = $3.\n\n`\nFinally, we determine how much money Sally has left after her purchases. \n\n#### $3",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Sally has left, we need to calculate the total amount she spent. \n\nFirst, let's calculate the cost of the taffy. Since it's \"Buy 1 pound at $3, get 1 pound 1/2 off,\" the first pound costs $3 and the second pound costs $3 * 0.5 = $1.5. So, the total cost of the taffy is $3 + $1.5 = $4.5.\n\nNext, she bought a mixed bag of seashells for $1.50 and 4 magnets that were $0.25 each. The total cost of the magnets is 4 * $0.25 = $1.\n\nNow, let's add up the total amount she spent: $4.5 (taffy) + $1.50 (seashells) + $1 (magnets) = $7.\n\nSally started with $10, so she has $10 - $7 = $3 left.\n\n#### $3",
+			"retrievals": 3
+		}
+	]
+}

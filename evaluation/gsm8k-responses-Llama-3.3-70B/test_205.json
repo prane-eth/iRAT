@@ -1,0 +1,13 @@
+{
+	"task_id": 205,
+	"prompt": "Janet had 22 green pens and 10 yellow pens. Then she bought 6 bags of blue pens and 2 bags of red pens. There were 9 pens in each bag of blue and 6 pens in each bag of red. How many pens does Janet have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Janet previously had 22 + 10 = <<22+10=32>>32 pens.\nThe number of blue pens is 6 \u00d7 9 = <<6*9=54>>54.\nThe number of red pens is 2 \u00d7 6 = <<2*6=12>>12.\nJanet has 32 + 54 + 12 = <<32+54+12=98>>98 pens now.\n#### 98",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of pens Janet has now, we need to add the number of green pens, yellow pens, blue pens, and red pens.\n\nFirst, calculate the total number of blue pens: 6 bags * 9 pens per bag = 54 blue pens.\nNext, calculate the total number of red pens: 2 bags * 6 pens per bag = 12 red pens.\n\nNow, add all the pens together: 22 green pens + 10 yellow pens + 54 blue pens + 12 red pens = 98 pens.\n\n#### 98\n\nThe total number of blue pens bought is 6 bags * 9 pens/bag = 54 pens.\nThe total number of red pens bought is 2 bags * 6 pens/bag = 12 pens.\n\nNow, we add the initial pens to the newly bought pens to find the total number of pens Janet has now. \nTotal pens now = Initial pens + Blue pens + Red pens = 32 + 54 + 12 = 98 pens.\n\n#### 98",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the total number of pens Janet has now, we first need to calculate the total number of pens she had initially. This is the sum of the green pens and the yellow pens: 22 (green pens) + 10 (yellow pens) = 32 pens.\n\nThen, Janet bought 6 bags of blue pens and 2 bags of red pens. There were 9 pens in each bag of blue pens, so the total number of blue pens is 6 bags * 9 pens/bag = 54 pens. There were 6 pens in each bag of red pens, so the total number of red pens is 2 bags * 6 pens/bag = 12 pens.\n\nNow, we add the initial pens to the additional pens Janet bought: 32 (initial pens) + 54 (blue pens) + 12 (red pens) = 98 pens.\n\nAfter calculating the total number of pens Janet had initially and the number of pens she bought, we can determine that Janet now has a total of 98 pens.\n\n#### 98",
+			"retrievals": 2
+		}
+	]
+}

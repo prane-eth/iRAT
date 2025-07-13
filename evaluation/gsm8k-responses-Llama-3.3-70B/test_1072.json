@@ -1,0 +1,13 @@
+{
+	"task_id": 1072,
+	"prompt": "Kayla is having her birthday party at a movie theater. The fee to rent the theater is $125 for a party of 20, plus $6 for each additional guest. Kayla invited her 25 classmates and the 7 girls in her dance class, as well as 13 family members. Only 4 people said they could not come. How much will the party cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Kayla invited 25 classmates + 7 dance class friends + 13 family members = <<25+7+13=45>>45 people invited.\nOf the 45 people invited \u2013 4 people cannot come = <<45-4=41>>41 people attending the party.\nOf the 41 people attending \u2013 20 are included in the fee = <<41-20=21>>21 additional guests not included in the fee.\nThe cost for 21 additional guests is 21 x $6 = $<<21*6=126>>126.\nThe total cost for the party is the $125 fee + $126 for additional guests = $<<125+126=251>>251.\n#### 251",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much the party will cost, we first need to determine the total number of guests attending. Kayla invited 25 classmates, 7 girls from her dance class, and 13 family members, totaling 25 + 7 + 13 = 45 guests. However, 4 people said they could not come, so we subtract those from the total: 45 - 4 = 41 guests.\n\nThe fee to rent the theater is $125 for a party of 20, plus $6 for each additional guest. Since Kayla has 41 guests, we calculate the additional guests as 41 - 20 = 21.\n\nThe cost for these additional guests is 21 * $6 = $126.\n\nTherefore, the total cost of the party is the base fee plus the cost for the additional guests: $125 + $126 = $251.\n\n#### $251",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total cost of the party, we first need to calculate the total number of guests attending. Kayla invited 25 classmates, 7 girls from her dance class, and 13 family members, making a total of 25 + 7 + 13 = 45 guests invited. However, only 4 people said they could not come, so we subtract these from the total invited: 45 - 4 = 41 guests attending.\n\nThe fee to rent the theater is $125 for a party of 20, plus $6 for each additional guest. Since Kayla has 41 guests and the base fee covers 20 guests, we need to calculate the cost for the additional guests: 41 - 20 = 21 additional guests. The cost for these additional guests is 21 * $6 = $126. Now, we add the base fee to the cost of the additional guests to find the total cost: $125 (base fee) + $126 (additional guests) = $251.\n\n#### $251",
+			"retrievals": 0
+		}
+	]
+}

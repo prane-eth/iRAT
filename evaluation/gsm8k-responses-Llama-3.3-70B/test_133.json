@@ -1,0 +1,13 @@
+{
+	"task_id": 133,
+	"prompt": "Pam and Fred went to a carnival. Pam rode the roller coaster 2 times while Fred rode it 4 times. After that, each of them decided to ride the luge 2 times. If each ride cost 6 tickets, how many tickets did they use that day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total times that they ride the roller coaster is 2+4=<<2+4=6>>6 times.\nThe total times that they ride the luge is 2+2=<<2+2=4>>4 times.\nThe total times they ride that day is 6+4=<<6+4=10>>10 times.\nSo, Pam and Fred used 10x6=<<10*6=60>>60 tickets that day.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of tickets used, we first need to calculate the total number of rides taken by Pam and Fred. \nPam rode the roller coaster 2 times and the luge 2 times, making a total of 2 + 2 = 4 rides for Pam. \nFred rode the roller coaster 4 times and the luge 2 times, making a total of 4 + 2 = 6 rides for Fred.\n\nThe total number of rides taken by both Pam and Fred is 4 (Pam's rides) + 6 (Fred's rides) = 10 rides. \nSince each ride costs 6 tickets, we multiply the total number of rides by the cost per ride to find the total number of tickets used.\n\nThe total number of tickets used is 10 rides * 6 tickets per ride = 60 tickets.\n\n#### 60",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of tickets used by Pam and Fred, we first need to calculate the total number of rides they took. Pam rode the roller coaster 2 times, and then she rode the luge 2 times, making her total rides 2 + 2 = 4. Fred rode the roller coaster 4 times, and then he also rode the luge 2 times, making his total rides 4 + 2 = 6.\n\nThe total number of rides taken by both Pam and Fred is 4 (Pam's rides) + 6 (Fred's rides) = 10 rides. Since each ride costs 6 tickets, we multiply the total number of rides by the cost per ride to find the total number of tickets used. The total number of tickets used is 10 rides * 6 tickets per ride = 60 tickets.\n\n#### 60",
+			"retrievals": 2
+		}
+	]
+}

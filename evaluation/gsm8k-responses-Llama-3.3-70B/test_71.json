@@ -1,0 +1,13 @@
+{
+	"task_id": 71,
+	"prompt": "Judy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturday.  If each class has 15 students and she charges $15.00 per student, how much money does she make in 1 week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She teaches 5 dance classes 5 days a week so that's 5*5 = <<5*5=25>>25 classes\nShe teaches 25 classes during the week and 8 classes on Saturday for a total of 25+8 = <<25+8=33>>33 classes\nThere are 15 students in each of the 33 classes so there are 15*33 = <<15*33=495>>495 students\nEach student pays $15.00 per class and there are 495 students so Judy makes 15*495 = $<<15*495=7425>>7,425\n#### 7425",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money Judy makes in a week, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total amount of money Judy makes in a week, we first need to determine the number of classes she teaches on weekdays and Saturday. Since there are 5 weekdays, and she teaches 5 classes each day, the total number of classes on weekdays is 5 * 5 = 25 classes.\n\nOn Saturday, she teaches 8 classes. Therefore, the total number of classes she teaches in a week is 25 (weekdays) + 8 (Saturday) = 33 classes.\n\nGiven that each class has 15 students, the total number of students she teaches in a week is 33 classes * 15 students per class = 495 students.\n\nSince Judy charges $15.00 per student, the total amount of money she makes in a week is 495 students * $15.00 per student = $7425.00.\n\n#### $7425.00",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 889,
+	"prompt": "Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 55 - 5 = <<55-5=50>>50 cookies left after she ate five cookies.\nTherefore, there were 50/5 = <<50/5=10>>10 cookies in each jar.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cookies were in each jar, we first need to determine the total number of cookies Lani had after eating 5 cookies. Lani started with 55 cookies and then ate 5, so we subtract 5 from 55.\n\nThe calculation for the remaining cookies after Lani ate 5 is: 55 - 5 = 50 cookies.\n\nNext, we need to divide the remaining cookies equally into 5 jars. This means we divide the total number of remaining cookies, which is 50, by the number of jars, which is 5.\n\nThe calculation to find out how many cookies were in each jar is: 50 / 5 = 10 cookies per jar.\n\n#### 10",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many cookies were in each jar, we first need to calculate the total number of cookies Lani had after eating 5 cookies. \n\nLani started with 55 cookies and ate 5, so the calculation to find out how many cookies were left is: 55 - 5 = 50 cookies.\n\nNext, we need to divide the remaining cookies equally into 5 jars. The calculation for this is: 50 / 5 = 10 cookies per jar.\n\nSo, after placing the remaining cookies equally into 5 jars, each jar contained 10 cookies.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

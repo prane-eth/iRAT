@@ -1,0 +1,13 @@
+{
+	"task_id": 171,
+	"prompt": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the cost of the jacket: $25 * 3 = $<<25*3=75>>75\nThen add the cost of the jacket and hat: $25 + $75 = $<<25+75=100>>100\nThen divide that amount by 2 to find the average cost, which is the cost of the pants: $100 / 2 = $<<100/2=50>>50\nThen add the cost of each item of clothing to find the total cost of the uniform: $25 + $75 + $50 = $<<25+75+50=150>>150\n#### 150",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total cost of each uniform, we need to calculate the costs of the hat, jacket, and pants.\n\nThe hat costs $25.\nThe jacket costs three times as much as the hat, so the jacket costs $25 * 3 = $75.\nThe pants cost the average of the costs of the hat and jacket, which is ($25 + $75) / 2 = $50.\n\nNow, we add up the costs of the hat, jacket, and pants to find the total cost of each uniform:\n$25 (hat) + $75 (jacket) + $50 (pants) = $150.\n\n#### $150",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Introduction to the Problem\nThe problem is about calculating the total cost of a marching band uniform. Each uniform consists of a hat, a jacket, and pants. We are given the cost of the hat and the relationship between the costs of the hat, jacket, and pants.\n\n## Understanding the Costs\nThe hat costs $25. The jacket costs three times as much as the hat, which means the jacket costs $25 * 3 = $75.\n\n## Calculating the Cost of Pants\nThe pants cost the average of the costs of the hat and jacket. To find the average, we add the cost of the hat and the jacket and then divide by 2: ($25 + $75) / 2 = $100 / 2 = $50.\n\n## Calculating the Total Cost\nTo find the total cost of each uniform, we need to add the costs of the hat, jacket, and pants together. So, the total cost is $25 (hat) + $75 (jacket) + $50 (pants) = $150.\n\nThe final answer is: #### $150",
+			"retrievals": 1
+		}
+	]
+}

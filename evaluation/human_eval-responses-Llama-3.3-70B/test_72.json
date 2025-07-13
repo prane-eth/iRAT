@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/71",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef triangle_area(a, b, c):\n    '''\n    Given the lengths of the three sides of a triangle. Return the area of\n    the triangle rounded to 2 decimal points if the three sides form a valid triangle. \n    Otherwise return -1\n    Three sides make a valid triangle when the sum of any two sides is greater \n    than the third side.\n    Example:\n    triangle_area(3, 4, 5) == 6.00\n    triangle_area(1, 2, 10) == -1\n    '''\n",
+	"responses": [
+		{
+			"old_rat_answer": "\n\n```python\ndef triangle_area(a, b, c):\n    '''\n    Given the lengths of the three sides of a triangle. Return the area of\n    the triangle rounded to 2 decimal points if the three sides form a valid triangle. \n    Otherwise return -1\n    Three sides make a valid triangle when the sum of any two sides is greater \n    than the third side.\n    Example:\n    triangle_area(3, 4, 5) == 6.00\n    triangle_area(1, 2, 10) == -1\n    '''\n    # First, we need to check if the three sides form a valid triangle\n    # A valid triangle is formed when the sum of any two sides is greater than the third side\n    if (a + b > c) and (a + c > b) and (b + c > a):\n        # If the triangle is valid, we can calculate its area using Heron's formula\n        # Heron's formula states that the area of a triangle whose sides have lengths a, b, and c is\n        # sqrt(s(s-a)(s-b)(s-c)) where s is the semi-perimeter of the triangle\n        s = (a + b + c) / 2\n        area = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n        # We need to round the area to 2 decimal points\n        area = round(area, 2)\n        return area\n    else:\n        # If the triangle is not valid, we return -1\n        return -1\n```\n\n```python\n# Test the function\nprint(triangle_area(3, 4, 5))  # Output: 6.0\nprint(triangle_area(1, 2, 10))  # Output: -1\n```",
+			"old_rat_retrievals": 2,
+			"final_answer": "```python\ndef triangle_area(a, b, c):\n    '''\n    Given",
+			"retrievals": 2
+		}
+	]
+}

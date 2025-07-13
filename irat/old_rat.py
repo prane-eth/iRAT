@@ -1,24 +1,23 @@
 # This file allows to call old RAT as a single function to pass the query and get the final response.
 
-# Credits: https://github.com/CraftJarvis/RAT/blob/main/creative.ipynb
+# Reference: https://github.com/CraftJarvis/RAT/blob/main/creative.ipynb
 
 from irat.retrieval import record_retrieval
 from irat.utils.settings import env
 from irat.utils.logger import log_debug
-print = log_debug
 
 from langchain.tools import Tool
 from langchain_community.document_loaders import AsyncHtmlLoader
 from langchain_community.document_transformers import Html2TextTransformer
 from langchain_community.utilities import GoogleSearchAPIWrapper
 from openai import OpenAI, AzureOpenAI, BadRequestError
-from datetime import datetime
 import tiktoken
-from multiprocessing import Process, Queue
-import queue  # Needed to catch Empty exception
-from difflib import unified_diff
-from IPython.display import display, HTML
 
+from datetime import datetime
+from multiprocessing import Process, Queue
+import queue
+
+print = log_debug
 if env('AZURE_OPENAI_ENDPOINT'):
 	openai = AzureOpenAI()
 else:
@@ -38,7 +37,7 @@ def user_message(content, role='user'):
 def system_message(content):
 	return user_message(content, role='system')
 
-def get_search(query:str='', k:int=1):  # get the top-k resources with google
+def get_search(query: str = '', k: int = 1):  # get the top-k resources with google
 	try:
 		search = GoogleSearchAPIWrapper(k=k)
 		def search_results(query):
@@ -54,7 +53,7 @@ def get_search(query:str='', k:int=1):  # get the top-k resources with google
 	except Exception as e:
 		pass
 
-def get_page_content(link:str):
+def get_page_content(link: str):
 	loader = AsyncHtmlLoader([link])
 	docs = loader.load()
 	html2text = Html2TextTransformer()
@@ -77,7 +76,8 @@ def chunk_text_by_sentence(text, chunk_size=2048):
 	curr_chunk = []
 	# Add text snippets sentence by sentence, making sure each paragraph is less than 2k tokens
 	for sentence in sentences:
-		if count_tokens('. '.join(curr_chunk)) + count_tokens(sentence) + 2 <= chunk_size:
+		if count_tokens('. '.join(curr_chunk)) + \
+				count_tokens(sentence) + 2 <= chunk_size:
 			curr_chunk.append(sentence)
 		else:
 			chunked_text.append('. '.join(curr_chunk))
@@ -123,6 +123,7 @@ def chunk_texts(text, chunk_size = 2048):
 			start = end
 		return parts
 
+
 # RAT Pipeline
 
 chatgpt_system_prompt = f'''
@@ -136,6 +137,7 @@ Try to answer this question/instruction with step-by-step thoughts and make the 
 Use `\n\n` to split the answer into several paragraphs.
 Just respond to the instruction directly. DO NOT add additional explanations or introducement in the answer unless you are asked to.
 '''
+
 def get_draft(question):
 	try:
 		# Getting the draft answer
@@ -153,9 +155,7 @@ def get_draft(question):
 
 def split_draft(draft, split_char = '\n\n'):
 	# Split the draft into multiple paragraphs
-	# split_char: '\n\n'
 	draft_paragraphs = draft.split(split_char)
-	# print(f'The draft answer has {len(draft_paragraphs)}')
 	return draft_paragraphs
 
 query_prompt = '''
@@ -198,6 +198,7 @@ def get_content(query):
 	trunked_texts = [trunked_text.replace('\n', ' ') for trunked_text in trunked_texts]
 	return trunked_texts
 
+
 revise_prompt = '''
 I want to revise the answer according to retrieved related text of the question in WIKI pages.
 You need to check whether the answer is correct.
@@ -209,6 +210,7 @@ Try to keep the structure (multiple paragraphs with its subtitles) in the revise
 Split the paragraphs with `\n\n` characters.
 Just output the revised answer directly. DO NOT add additional explanations or annoucement in the revised answer unless you are asked to.
 '''
+
 def get_revise_answer(question, answer, content):
 	try:
 		revised_answer = openai.chat.completions.create(
@@ -271,24 +273,6 @@ def run_with_timeout(func, args=(), timeout=30):
 	return result
 
 
-def generate_diff_html(text1, text2):
-	diff = unified_diff(text1.splitlines(keepends=True),
-						text2.splitlines(keepends=True),
-						fromfile='text1', tofile='text2')
-
-	diff_html = ""
-	for line in diff:
-		if line.startswith('+'):
-			diff_html += f"<div style='color:green;'>{line.rstrip()}</div>"
-		elif line.startswith('-'):
-			diff_html += f"<div style='color:red;'>{line.rstrip()}</div>"
-		elif line.startswith('@'):
-			diff_html += f"<div style='color:blue;'>{line.rstrip()}</div>"
-		else:
-			diff_html += f"{line.rstrip()}<br>"
-	return diff_html
-
-
 # RAT Function
 newline_char = '\n'
 
@@ -309,9 +293,7 @@ def rat(question, draft_1: str = None):
 		print(str(i)*80)
 		print(f'{datetime.now()} [INFO] Modify {i+1}/{len(draft_paragraphs)} parts...')
 		answer = answer + '\n\n' + p
-		# print(f'[{i}/{len(draft_paragraphs)}] Original Answer:\n{answer.replace(newline_char, ' ')}')
 
-		# query = get_query(question, answer)
 		print(f'{datetime.now()} [INFO] Generating corresponding Query...')
 		res = run_with_timeout(get_query_wrapper, args=(question, answer), timeout=3)
 
@@ -323,7 +305,6 @@ def rat(question, draft_1: str = None):
 		print(f'>>> {i}/{len(draft_paragraphs)} Query: {query.replace(newline_char, " ")}')
 
 		print(f'{datetime.now()} [INFO] Get web page content...')
-		# content = get_content(query)
 		res = run_with_timeout(get_content_wrapper, args=(query,), timeout=5)
 
 		if not res:
@@ -336,23 +317,14 @@ def rat(question, draft_1: str = None):
 			if  j > 2:
 				break
 			print(f'{datetime.now()} [INFO] Modifying the answer according to page...[{j}/{min(len(content),3)}]')
-			# answer = get_revise_answer(question, answer, c)
 			res = run_with_timeout(get_revise_answer_wrapper, args=(question, answer, c), timeout=10)
 
 			if not res:
 				print(f'{datetime.now()} [INFO] No response. Skipping next steps...')
 				continue
 			else:
-				# diff_html = generate_diff_html(answer, res)
-				# display(HTML(diff_html))
 				answer = res
 				total_revisions += 1
 			print(f'{datetime.now()} [INFO] Answer updation completed: [{j}/{min(len(content),3)}]')
-		# print(f'[{i}/{len(draft_paragraphs)}] REVISED ANSWER:\n {answer.replace(newline_char, ' ')}')
-		# print()
 	return draft, answer, total_revisions
 
-# draft, answer = rat("Introduce Jin-Yong's Life.")
-
-# diff_html = generate_diff_html(draft, answer)
-# display(HTML(diff_html))

@@ -1,0 +1,13 @@
+{
+	"task_id": 826,
+	"prompt": "Becca, Smendrick, and PJ have collections of Magic Cards.  There is a total of 341 cards.  Becca has 12 more than Smendrick, and Smendrick has 3 times the amount of cards that PJ has.  How many cards does Becca have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x represent the number of cards PJ has\nSmendrick:3x\nBecca:3x+12\nTotal:x+3x+3x+12=341\n7x+12=341\n7x=329\nx=<<47=47>>47 cards\nBecca:3(47)+12=153 cards\n#### 153",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of cards PJ has as x. Since Smendrick",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Define the problem and the known variables\nWe are given that Becca, Smendrick, and PJ have collections of Magic Cards, with a total of 341 cards. Becca has 12 more cards than Smendrick, and Smendrick has 3 times the amount of cards that PJ has.\n\n## Step 2: Represent the number of cards each person has with variables\nLet's represent the number of cards PJ has as \"x\". Since Smendrick has 3 times the amount of cards that PJ has, Smendrick has 3x cards. Given that Becca has 12 more cards than Smendrick, Becca has 3x + 12 cards.\n\n## Step 3: Write an equation to represent the total number of cards\nThe total number of cards is the sum of the cards each person has, which equals 341. So, the equation is x (PJ's cards) + 3x (Smendrick's cards) + 3x + 12 (Becca's cards) = 341.\n\n## Step 4: Solve the equation for x\nCombining like terms, the equation becomes x + 3x + 3x + 12 = 341, which simplifies to 7x + 12 = 341. Subtracting 12 from both sides gives 7x = 329. Dividing both sides by 7 gives x = 47.\n\n## Step 5: Calculate the number of cards Becca has\nSince Becca has 3x + 12 cards and x = 47, Becca has 3*47 + 12 = 141 + 12 = 153 cards.\n\nThe final answer is: #### 153",
+			"retrievals": 1
+		}
+	]
+}

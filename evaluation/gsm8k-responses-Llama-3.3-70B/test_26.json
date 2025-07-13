@@ -1,0 +1,13 @@
+{
+	"task_id": 26,
+	"prompt": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many boxes of pizza Marie ordered, we first need to calculate the total cost of the items we know the prices for, and then subtract that total from the $50 she paid. This will give us the total amount spent on pizza. We can then divide this amount by the cost per box of pizza to find out how many boxes she bought.\n\n1. Calculate the total cost of the chicken meal, milk, and apples:\n- Chicken meal: $12\n- 5 packs of milk: 5 * $3 = $15\n- 4 apples: 4 * $1.50 = $6\n- Total for these items: $12 + $15 + $6 = $33\n\n2. Subtract the total cost of these items from the total amount paid to find the amount spent on pizza:\n- Total paid: $50\n- Total spent on known items: $33\n- Total spent on pizza: $50 - $33 = $17\n\n3. Divide the total amount spent on pizza by the cost per box to find out how many boxes were bought:\n- Cost per box of pizza: $8.50\n- Total spent on pizza: $17\n- Number of boxes: $17 / $8.50 = 2\n\n#### 2",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the Total Cost of the Chicken Meal, Milk, and Apples\nFirst, let's calculate the total cost of the chicken meal, milk, and apples. The chicken meal costs $12, 5 packs of milk cost $3 each, so 5 * $3 = $15, and 4 apples cost $1.50 each, so 4 * $1.50 = $6. The total cost for these items is $12 + $15 + $6 = $33.\n\n## Step 2: Determine the Remaining Amount After Purchasing the Chicken Meal, Milk, and Apples\nMarie paid a total of $50. To find out how much she spent on pizza, we subtract the total cost of the chicken meal, milk, and apples from the total amount paid. So, $50 - $33 = $17. This means $17 was spent on pizza.\n\n## Step 3: Calculate the Number of Boxes of Pizza Purchased\nEach box of pizza costs $8.50. To find out how many boxes of pizza Marie ordered, we divide the total amount spent on pizza by the cost of each box. So, $17 / $8.50 = 2.\n\n## Step 4: Conclusion\nGiven the calculations, Marie ordered 2 boxes of pizza.\n\n#### 2",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 580,
+	"prompt": "A boy has 5 cards. His brother has 3 fewer cards than he has. How many cards do they have together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His brother has 5 - 3 = <<5-3=2>>2 cards.\nTogether, they have 5 + 2 = <<5+2=7>>7 cards.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of cards the boy and his brother have together, we first need to determine how many cards each of them has. The boy has 5 cards.\n\nThe brother has 3 fewer cards than the boy. So, to find out how many cards the brother has, we subtract 3 from the number of cards the boy has: 5 - 3 = 2. This means the brother has 2 cards.\n\nTo find the total number of cards they have together, we add the number of cards the boy has to the number of cards the brother has: 5 (boy's cards) + 2 (brother's cards) = 7.\n\n#### 7",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of cards the boy and his brother have together, we first need to determine how many cards each of them has. The boy has 5 cards. His brother has 3 fewer cards than he has, which means we need to subtract 3 from the number of cards the boy has to find out how many cards the brother has. So, the brother has 5 - 3 = 2 cards.\n\nNow that we know the boy has 5 cards and the brother has 2 cards, we can find the total number of cards they have together by adding the number of cards each of them has: 5 (boy's cards) + 2 (brother's cards) = 7.\n\n#### 7",
+			"retrievals": 2
+		}
+	]
+}

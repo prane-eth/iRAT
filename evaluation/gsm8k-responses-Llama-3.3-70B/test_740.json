@@ -1,0 +1,13 @@
+{
+	"task_id": 740,
+	"prompt": "Cecelia went to the milk store and found out that a gallon jar costs $2 more than a half-gallon jar. If a gallon jar costs $5, calculate the total amount of money she spent on 10-gallon jars and 16 half-gallon jars.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If a full gallon costs $2 more than a half-gallon jar, then the cost of a half-gallon jar is $5 - $2 = $3\nIf he bought 10 full gallon jars, she spent 10 jars * $5/jar = $<<10*5=50>>50\nFor the half-gallon jars, she spent $3/jar * 16 jars = $<<3*16=48>>48\nThe total amount she spent at the store is $48 + $50 = $<<48+50=98>>98\n#### 98",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of money Cecelia spent on 10-gallon jars",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total amount of money Cecelia spent on 10-gallon jars and 16 half-gallon jars, we need to calculate the cost of each type of jar first. \n\nGiven that a gallon jar costs $5 and it costs $2 more than a half-gallon jar, we can find the cost of a half-gallon jar by subtracting $2 from the cost of a gallon jar. So, the cost of a half-gallon jar is $5 - $2 = $3.\n\nNext, we calculate the total cost for 10-gallon jars. Since each gallon jar costs $5, the total cost for 10-gallon jars is 10 * $5 = $50.\n\nThen, we calculate the total cost for 16 half-gallon jars. Since each half-gallon jar costs $3, the total cost for 16 half-gallon jars is 16 * $3 = $48.\n\nFinally, to find the total amount of money Cecelia spent, we add the total cost of the gallon jars and the half-gallon jars. So, the total amount spent is $50 + $48 = $98.\n\n#### $98",
+			"retrievals": 0
+		}
+	]
+}

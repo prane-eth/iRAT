@@ -1,0 +1,13 @@
+{
+	"task_id": 37,
+	"prompt": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He eats 2 yogurts a day so over 30 days he will need 2*30 = <<2*30=60>>60 yogurts\nThe yogurt is sold as 4 units for $5.00 and he needs 60 yogurts so that\u2019s 60/4 = <<60/4=15>>15 4-packs\nEach 4-pack is $5.00 and he needs 15 4-packs so he will spend $5*15 = $<<5*15=75.00>>75.00 on yogurt\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Terry spends on yogurt over 30 days, we need to calculate how many yogurts he eats in 30 days and then determine the cost based on the sale price.\n\n1. Terry eats 2 yogurts a day.\n2. Over 30 days, he eats 2 yogurts/day * 30 days = 60 yogurts.\n3. The yogurts are on sale at 4 yogurts for $5.00.\n4. To find out how much 1 yogurt costs, we divide $5.00 by 4 yogurts: $5.00 / 4 yogurts = $1.25 per yogurt.\n5. Therefore, for 60 yogurts, the cost would be 60 yogurts * $1.25/yogurt = $75.00.\n\n#### $75.00",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how much Terry spends on yogurt over 30 days, we first need to calculate the total number of yogurts he eats in that period. Since Terry eats 2 yogurts a day, the total number of yogurts he eats in 30 days is 2 yogurts/day * 30 days = 60 yogurts.\n\nNext, we need to figure out how much 60 yogurts cost, given that they are sold at a rate of 4 yogurts for $5.00. To do this, we first find out the cost per yogurt by dividing the cost of 4 yogurts ($5.00) by the number of yogurts (4). The cost per yogurt is $5.00 / 4 yogurts = $1.25 per yogurt.\n\nNow, we multiply the cost per yogurt by the total number of yogurts Terry eats in 30 days to find the total cost. The total cost is 60 yogurts * $1.25/yogurt = $75.00.\n\n#### $75.00",
+			"retrievals": 2
+		}
+	]
+}

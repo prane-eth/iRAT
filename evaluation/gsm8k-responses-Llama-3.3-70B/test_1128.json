@@ -1,0 +1,13 @@
+{
+	"task_id": 1128,
+	"prompt": "Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The 2nd fastest car can go 600 MPH because 5 x 120 = <<5*120=600>>600\nThe faster car can go 750 MPH because 1.25 x 600 = <<1.25*600=750>>750\n#### 750",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the speed of the fastest car, we first need to determine the speed of the 2nd fastest car. We are given that the average car can go 120 miles per hour and that the 2nd fastest car is 5 times faster than the average car.\n\nThe speed of the 2nd fastest car can be calculated by multiplying the speed of the average car by 5. So, the speed of the 2nd fastest car is 120 * 5 = 600 miles per hour.\n\nNow that we know the speed of the 2nd fastest car, we can find the speed of the fastest car. The fastest car is 1.25 times faster than the 2nd fastest car. \n\nThe speed of the fastest car can be calculated by multiplying the speed of the 2nd fastest car by 1.25. So, the speed of the fastest car is 600 * 1.25 = 750 miles per hour.\n\n#### 750",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the speed of the fastest car, we first need to determine the speed of the 2nd fastest car. We are given that the average car can go 120 miles per hour and that the 2nd fastest car is 5 times faster than the average car. The speed of the 2nd fastest car can be calculated by multiplying the speed of the average car by 5. So, the speed of the 2nd fastest car is 120 * 5 = 600 miles per hour.\n\nNow that we know the speed of the 2nd fastest car, we can find the speed of the fastest car. The fastest car is 1.25 times faster than the 2nd fastest car. The speed of the fastest car can be calculated by multiplying the speed of the 2nd fastest car by 1.25. So, the speed of the fastest car is 600 * 1.25 = 750 miles per hour. #### 750",
+			"retrievals": 0
+		}
+	]
+}

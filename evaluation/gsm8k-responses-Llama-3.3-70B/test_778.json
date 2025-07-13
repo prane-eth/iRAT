@@ -1,0 +1,13 @@
+{
+	"task_id": 778,
+	"prompt": "Mike decides he wants to replace his movie collection with digital versions.  He has 600 movies.  A third of the movies are in various series and he knows he can get those for only $6 of the cost of a normal movie by just buying the series together.  40% of the remaining movies are older movies which are $5.  How much does replacing the movies cost if a normal movie costs $10?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 600/3=<<600/3=200>>200 movies in series\nSo he pays 200*6=$<<200*6=1200>>1200\nHe has 600-200=<<600-200=400>>400 movies not in series\n400*.4=<<400*.4=160>>160 movies are old\nSo those cost 160*5=$<<160*5=800>>800\n400-160=<<400-160=240>>240 movies are neither old nor in series\nThey cost 240*10=$<<240*10=2400>>2400\nSo the total cost is 1200+800+2400=$<<1200+800+2400=4400>>4400\n#### 4400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of replacing Mike's movie collection, we first need to determine how many movies fall into each category: series, older movies, and normal movies. Mike has 600 movies in total.\n\nA third of the movies are in series, so the number of movies in series is 600 / 3 = 200 movies. The remaining movies that are not in series are 600 - 200 = 400 movies. \n\n40% of the remaining 400 movies are older movies, which means 0.4 * 400 = 160 movies are older. This leaves 400 - 160 = 240 movies that are neither in series nor older movies, thus considered normal movies.\n\nThe cost of the movies in series is $6 each, the cost of older movies is $5 each, and the cost of normal movies is $10 each.\n\nThe cost of the series movies is 200 * $6 = $1200. \n\nThe cost of the older movies is 160 * $5 = $800.\n\nThe cost of the normal movies is 240 * $10 = $2400.\n\nTo find the total cost, we add the costs of all three categories together: $1200 + $800 + $2400 = $4400.\n\n#### $4400",
+			"old_rat_retrievals": 6,
+			"final_answer": "To calculate the total cost of replacing Mike's movie collection, we need to break",
+			"retrievals": 1
+		}
+	]
+}

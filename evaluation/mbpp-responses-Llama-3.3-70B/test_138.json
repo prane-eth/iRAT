@@ -1,0 +1,21 @@
+{
+	"task_id": 148,
+	"prompt": "Write a function to put spaces between words starting with capital letters in a given string by using regex.?import re\n\nassert capital_words_spaces(\"Python\") == 'Python'",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert capital_words_spaces(\"Python\") == 'Python'",
+		"assert capital_words_spaces(\"PythonProgrammingExamples\") == 'Python Programming Examples'",
+		"assert capital_words_spaces(\"GetReadyToBeCodingFreak\") == 'Get Ready To Be Coding Freak'"
+	],
+	"mbpp_code": "import re\r\ndef capital_words_spaces(str1):\r\n  return re.sub(r\"(\\w)([A-Z])\", r\"\\1 \\2\", str1)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to use the `re` module in Python, which provides support for regular expressions. The goal is to insert a space before each word that starts with a capital letter, unless it's the first word in the string.\n\n```python\nimport re\n\ndef capital_words_spaces(s):\n    return re.sub(r'(?<!^)(?=[A-Z])', ' ', s)\n```\n\nThis function uses the `re.sub` function to replace each occurrence of the specified pattern with a space. The pattern `(?<!^)(?=[A-Z])` is a regular expression that matches the position before any capital letter that is not at the start of the string.\n\nThe `(?<!^)` part is a negative lookbehind assertion that checks if the current position is not at the start of the string. The `(?=[A-Z])` part is a positive lookahead assertion that checks if the next character is an uppercase letter. If both conditions are met, the function inserts a space at that position.\n\nFor example, given the string \"PythonIsGreat\", the function would return \"Python Is Great\". \n\nThe unit test `assert capital_words_spaces(\"Python\") == 'Python'` passes because the function does not insert a space before the first word, even if it starts with a capital letter.",
+			"old_rat_retrievals": 7,
+			"final_answer": "To write a function that puts spaces between words starting with capital letters in a given string using regex, you can utilize the `re` module in Python. The goal is to insert a space before every capital letter that is not at the beginning of the string.\n\nHere is a Python function that accomplishes this:\n\n```python\nimport re\n\ndef capital_words_spaces(s):\n    return re.sub(r'(?<!^)(?=[A-Z])', ' ', s)\n```\n\nThis function works by using the `re.sub` method to insert a space at every position in the string where the preceding character is not the start of the string (`(?<!^)`) and the following character is an uppercase letter (`(?=[A-Z])`). \n\nFor example, calling `capital_words_spaces(\"StackOverflowKegger\")` will return `\"Stack Overflow Kegger\"`. This approach ensures that spaces are correctly inserted between words that start with capital letters, making the string more readable.\n\nTo verify that the function works correctly, you can use the provided assertion test:\n\n```python\nassert capital_words_spaces(\"Python\") == 'Python'\n```\n\nThis test checks that the function does not add a space before the first word, which starts with a capital letter. If the assertion passes, it indicates that the function behaves as expected for strings where the first word starts with a capital letter. \n\nYou can also test the function with other strings, such as `assert capital_words_spaces(\"StackOverflowKegger\") == 'Stack Overflow Kegger'` and `assert capital_words_spaces(\"HelloWorldExample\") == 'Hello World Example'`. \n\nThis function should meet your requirements and correctly insert spaces between words starting with capital letters in a given string using regex.",
+			"retrievals": 4
+		}
+	]
+}

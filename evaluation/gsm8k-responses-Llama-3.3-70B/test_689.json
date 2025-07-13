@@ -1,0 +1,13 @@
+{
+	"task_id": 689,
+	"prompt": "John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.\nJohn has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.\nThus, John has 180-80=<<180-80=100>>100 minutes for his nap.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many minutes John has to nap, we first need to calculate the total time he spends on his homework. He has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework. \n\nWe add these together: 20 minutes (math) + 40 minutes (reading) + 20 minutes (history) = 80 minutes.\n\nNext, we need to determine how many minutes John has available before dinner. He has 3 hours before he has to eat dinner. Since there are 60 minutes in an hour, we multiply 3 hours by 60 minutes to find the total minutes: 3 * 60 = 180 minutes.\n\nNow, we subtract the total time spent on homework from the total time available before dinner to find out how many minutes John has to nap: 180 minutes (available time) - 80 minutes (homework time) = 100 minutes.\n\n#### 100",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many minutes John has to nap, we first need to calculate the total time he spends on his homework. He has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework. We add these together: 20 minutes (math) + 40 minutes (reading) + 20 minutes (history) = 80 minutes.\n\nNext, we need to determine how many minutes John has available before dinner. He has 3 hours before he has to eat dinner. Since there are 60 minutes in an hour, we multiply 3 hours by 60 minutes to find the total minutes: 3 * 60 = 180 minutes. Now, we subtract the total time spent on homework from the total time available before dinner to find out how many minutes John has to nap: 180 minutes (available time) - 80 minutes (homework time) = 100 minutes.\n\n#### 100",
+			"retrievals": 0
+		}
+	]
+}

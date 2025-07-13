@@ -1,0 +1,13 @@
+{
+	"task_id": 600,
+	"prompt": "A pet store currently has 5 dogs, 2 cats, and 10 birds. How many legs in total do the pets in the store have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The dogs have 5 dogs * 4 legs/dog = <<5*4=20>>20 legs.\nThe cats have 2 cats * 4 legs/cat = <<2*4=8>>8 legs.\nThe birds have 10 birds * 2 legs/bird = <<10*2=20>>20 legs.\nThe pets have 20 legs + 8 legs + 20 legs = <<20+8+20=48>>48 legs.\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of legs of the pets in the store, we first need to identify the number of legs each type of pet has. Dogs have 4 legs, cats have 4 legs, and birds have 2 legs.\n\nWe then calculate the total number of legs for each type of pet. For dogs: 5 dogs * 4 legs = 20 legs. For cats: 2 cats * 4 legs = 8 legs. For birds: 10 birds * 2 legs = 20 legs.\n\nNow, we add up the total number of legs from all the pets to find the overall total. Total legs = 20 legs (dogs) + 8 legs (cats) + 20 legs (birds) = 48 legs.\n\n#### 48",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of legs of the pets in the store, we need to calculate the number of legs for each type of pet and then add them together. \n\nDogs have 4 legs, cats have 4 legs, and birds have 2 legs. \n\nThe store has 5 dogs, so the total number of legs from dogs is 5 * 4 = 20.\nThe store has 2 cats, so the total number of legs from cats is 2 * 4 = 8.\nThe store has 10 birds, so the total number of legs from birds is 10 * 2 = 20.\n\nNow, we add the total number of legs from each type of pet: 20 (dogs) + 8 (cats) + 20 (birds) = 48.\n\n#### 48",
+			"retrievals": 2
+		}
+	]
+}

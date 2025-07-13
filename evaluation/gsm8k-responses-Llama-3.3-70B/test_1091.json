@@ -1,0 +1,13 @@
+{
+	"task_id": 1091,
+	"prompt": "Caroline has 4 children.  The first child is 6 feet tall.  The second child is two inches taller than the first child.  The third child is 5 inches shorter than the second child.  And the fourth child is three inches taller than the third child.  How tall is the fourth child, in inches?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The six-foot-tall first child is 12*6=<<6*12=72>>72 inches tall.\nThe second child is two inches taller than the first child, or 72+2=<<72+2=74>>74 inches tall.\nThe third child is 5 inches shorter than the second child, or 74-5=<<74-5=69>>69 inches tall.\nAnd the fourth child is three inches taller than the third child, or 69+3=<<69+3=72>>72 inches tall.\n#### 72",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the height of the fourth child, we first need to establish a common unit of measurement for all the heights mentioned. Since the final answer is required in inches, we will convert the height of the first child from feet to inches. Given that 1 foot equals 12 inches, the first child, who is 6 feet tall, is 6 * 12 = 72 inches tall.\n\nThe second child is two inches taller than the first child. Therefore, the height of the second child is 72 + 2 = 74 inches.\n\nThe third child is 5 inches shorter than the second child. So, the height of the third child is 74 - 5 = 69 inches.\n\nThe fourth child is three inches taller than the third child. Thus, the height of the fourth child is 69 + 3 = 72 inches.\n\n#### 72",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the height of the first child in inches\nThe first child is 6 feet tall. Since 1 foot equals 12 inches, the first child's height in inches is 6 * 12 = 72 inches.\n\n## Step 2: Calculate the height of the second child\nThe second child is 2 inches taller than the first child. Therefore, the second child's height is 72 + 2 = 74 inches.\n\n## Step 3: Calculate the height of the third child\nThe third child is 5 inches shorter than the second child. Thus, the third child's height is 74 - 5 = 69 inches.\n\n## Step 4: Calculate the height of the fourth child\nThe fourth child is 3 inches taller than the third child. So, the fourth child's height is 69 + 3 = 72 inches.\n\nThe final answer is: #### 72",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 207,
+	"prompt": "Micheal loves riding a bike. He rode it at least 5 times a week and makes 25 kilometers each time. He did that for four weeks, and then he decided, to ride the bike only 2 times a week, but for 60 kilometers each time, and he did that for 3 weeks. How many kilometers did Micheal do in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the first part, Micheal did 5 * 25 = <<5*25=125>>125 kilometers every week.\nHe did that for four weeks, which means he made during that time 125 * 4 = <<125*4=500>>500 kilometers.\nAfter that, he made 2 * 60 = <<2*60=120>>120 kilometers a week.\nAnd Micheal did that for three weeks, so he rode 120 * 3 = <<120*3=360>>360 kilometers during that time.\nIn total Micheal did 500 + 360 = <<500+360=860>>860 kilometers.\n#### 860",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total distance Micheal rode his bike, we first need to calculate the distance he covered during the first four weeks. He rode his bike at least 5 times a week, making 25 kilometers each time. So, the distance covered in one week is 5 * 25 = 125 kilometers.\n\nSince he did this for four weeks, the total distance covered in the first four weeks is 125 * 4 = 500 kilometers.\n\nThen, Micheal decided to ride his bike only 2 times a week, but for 60 kilometers each time. So, the distance covered in one week during this period is 2 * 60 = 120 kilometers.\n\nHe did this for 3 weeks, so the total distance covered during the second period is 120 * 3 = 360 kilometers.\n\nTo find the total distance Micheal rode his bike, we add the distances covered in both periods: 500 + 360 = 860 kilometers.\n\n#### 860",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the total kilometers rode in the first four weeks\nMicheal rode his bike 5 times a week for 4 weeks, making 25 kilometers each time. So, the total kilometers in the first four weeks is 5 times/week * 25 kilometers/time * 4 weeks = 500 kilometers.\n\n## Step 2: Calculate the total kilometers rode in the next three weeks\nThen, Micheal rode his bike 2 times a week for 3 weeks, making 60 kilometers each time. So, the total kilometers in the next three weeks is 2 times/week * 60 kilometers/time * 3 weeks = 360 kilometers.\n\n## Step 3: Calculate the total kilometers rode\nTo find the total kilometers Micheal rode, we need to add the kilometers from the first four weeks and the next three weeks. Total kilometers = 500 kilometers + 360 kilometers = 860 kilometers.\n\n#### 860",
+			"retrievals": 1
+		}
+	]
+}

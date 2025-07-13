@@ -1,0 +1,13 @@
+{
+	"task_id": 1132,
+	"prompt": "John cuts down an 80-foot tree.  He can make logs out of 80% of it. He cuts it into 4-foot logs.  From each of those logs, he cuts 5 planks.  He then sells each plank for $1.2.  How much does he make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He can use 80*.8=<<80*.8=64>>64 feet of the tree.\nThat means he can make 64/4=<<64/4=16>>16 logs.\nThat gives him16*5=<<16*5=80>>80 planks.\nSo he makes 80*1.2=$<<80*1.2=96>>96.\n#### 96",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much John makes, we first need to calculate the total length of the tree that can be used to make logs. Since he can make logs out of 80% of the 80-foot tree, we calculate this as 80% of 80 feet.\n\n80% of 80 feet = 0.8 * 80 = 64 feet\n\nThis means John can use 64 feet of the tree to make logs.\n\n`\nNext, we need to find out how many 4-foot logs John can cut from the 64 feet of usable tree. We divide the total usable length by the length of each log.\n\nNumber of logs = 64 feet / 4 feet per log = 16 logs\n\n`\nNow, we know that from each log, John cuts 5 planks. So, the total number of planks he can cut from 16 logs is calculated as follows:\n\nTotal planks = Number of logs * Planks per log = 16 logs * 5 planks/log = 80 planks\n\n`\nFinally, since John sells each plank for $1.2, we calculate his total earnings by multiplying the number of planks by the price per plank.\n\nTotal earnings = Total planks * Price per plank = 80 planks * $1.2/plank = $96\n\n#### $96",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how much John makes, we first need to calculate the total length of the tree that can be used to make logs. Since he can make logs out of 80% of the 80-foot tree, we calculate this as 80% of 80 feet. 80% of 80 feet = 0.8 * 80 = 64 feet. This means John can use 64 feet of the tree to make logs.\n\nNext, we need to find out how many 4-foot logs John can cut from the 64 feet of usable tree. We divide the total usable length by the length of each log.\nNumber of logs = 64 feet / 4 feet per log = 16 logs.\n\nNow, we know that from each log, John cuts 5 planks. So, the total number of planks he can cut from 16 logs is calculated as follows: Total planks = Number of logs * Planks per log = 16 logs * 5 planks/log = 80 planks.\n\nFinally, since John sells each plank for $1.2, we calculate his total earnings by multiplying the number of planks by the price per plank. Total earnings = Total planks * Price per plank = 80 planks * $1.2/plank = $96.\n\n#### $96",
+			"retrievals": 1
+		}
+	]
+}

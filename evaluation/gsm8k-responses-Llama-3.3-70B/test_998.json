@@ -1,0 +1,13 @@
+{
+	"task_id": 998,
+	"prompt": "Walter is collecting money for charity. First he collects $500 from his neighbors. Then he collects $1500 from a fund he set up online. His lawyer offers to donate three times as much as everyone else donates. Walter is going to tell him about his neighbors and the online fund until his friend gives him $200 as well. How much is Walter's lawyer going to contribute?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Walter collects $500 + $1500 + $200 = $<<500+1500+200=2200>>2,200 he collects from everyone for charity.\nHis lawyer has offered to donate 3 times that amount, $2,200 x 3 = $<<3*2200=6600>>6,600 that Walter's lawyer is going to donate.\n#### 6,600",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Walter's lawyer is going to contribute, we first need to calculate the total amount of money collected from the neighbors and the online fund. Walter collects $500 from his neighbors and $1500 from the online fund. \n\nSo, the total amount collected from these sources is $500 + $1500 = $2000.\n\nWalter also receives $200 from his friend. However, this amount is not included in the amount that Walter tells his lawyer about, as he only mentions the neighbors and the online fund to his lawyer before his friend gives him $200.\n\nThe lawyer offers to donate three times as much as everyone else donates. Since Walter only tells his lawyer about the $2000 collected from the neighbors and the online fund, the lawyer will donate three times this amount.\n\nTherefore, the lawyer's donation will be 3 * $2000 = $6000.\n\n#### $6000",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the Total Amount Collected from Neighbors and Online Fund\nWalter collects $500 from his neighbors and $1500 from the online fund, so the total amount collected from these sources is $500 + $1500 = $2000.\n\n## Step 2: Add the $200 Donation from Walter's Friend\nBefore telling his lawyer about the total donations, Walter's friend gives him $200. So, the new total amount collected is $2000 + $200 = $2200.\n\n## Step 3: Calculate the Lawyer's Donation\nThe lawyer offers to donate three times as much as everyone else donates. Since the total amount donated by others (including Walter's friend) is $2200, the lawyer will donate 3 * $2200 = $6600.\n\nThe final answer is: #### $6600",
+			"retrievals": 3
+		}
+	]
+}

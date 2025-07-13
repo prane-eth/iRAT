@@ -1,0 +1,13 @@
+{
+	"task_id": 394,
+	"prompt": "Carol spends 4 hours writing a song, half that much time recording it, and 90 minutes editing it. What percentage of her total work time did she spend editing?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find how long Carol spent writing the song in minutes: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes\nThen find how long she spent recording the song: 240 minutes / 2 = <<240/2=120>>120 minutes\nThen add up all her work time to find the total work time: 240 minutes + 120 minutes + 90 minutes = <<240+120+90=450>>450 \u200bminutes\nThen divide her editing time by her total work time and multiply by 100% to express the answer as a percentage: 90 minutes / 450 minutes * 100% = 20%\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percentage of her total work time that Carol spent editing, we first need to calculate the total time she spent on the song. \n\nShe spends 4 hours writing the song. Since there are 60 minutes in an hour, 4 hours is equal to 4 * 60 = 240 minutes.\n\nThen, she spends half that much time recording it. Half of 240 minutes is 240 / 2 = 120 minutes.\n\nLastly, she spends 90 minutes editing the song.\n\nNow, we add up all these times to find the total work time: 240 minutes (writing) + 120 minutes (recording) + 90 minutes (editing) = 450 minutes.\n\nThe time spent editing is 90 minutes. \n\nTo find the percentage of the total work time that she spent editing, we use the formula: (time spent editing / total work time) * 100. Substituting the values, we get: (90 / 450) * 100 = 0.2 * 100 = 20%.\n\n#### 20%",
+			"old_rat_retrievals": 8,
+			"final_answer": "## Step 1: Calculate the time spent writing the song\nCarol spends 4 hours writing a song. To make the time consistent with the other times given, we convert this into minutes: 4 hours * 60 minutes/hour = 240 minutes.\n\n## Step 2: Calculate the time spent recording the song\nThe time spent recording is half the time spent writing, so it is 240 minutes / 2 = 120 minutes.\n\n## Step 3: Calculate the time spent editing the song\nThe time spent editing is given as 90 minutes.\n\n## Step 4: Calculate the total work time\nTotal work time is the sum of writing, recording, and editing times: 240 minutes (writing) + 120 minutes (recording) + 90 minutes (editing) = 450 minutes.\n\n## Step 5: Calculate the percentage of time spent editing\nTo find the percentage of total work time spent editing, we use the formula: (time spent editing / total work time) * 100. Substituting the values: (90 / 450) * 100 = 20%.\n\n#### 20%",
+			"retrievals": 2
+		}
+	]
+}

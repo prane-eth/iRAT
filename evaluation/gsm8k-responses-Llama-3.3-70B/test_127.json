@@ -1,0 +1,13 @@
+{
+	"task_id": 127,
+	"prompt": "Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 38 + 6 = <<38+6=44>>44 fish sausages.\nDylan bought 38 + 44 = <<38+44=82>>82 sausages in all.\n#### 82",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of sausages Dylan bought, we first need to determine how many fish sausages he bought. Since he bought 6 more fish sausages than chicken sausages, and he bought 38 chicken sausages, the number of fish sausages is 38 + 6 = 44.\n\nNext, to find the total number of sausages, we add the number of chicken sausages to the number of fish sausages: 38 (chicken sausages) + 44 (fish sausages) = 82.\n\nTherefore, Dylan bought a total of 82 sausages.\n\n#### 82",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Identifying the Number of Chicken Sausages\nDylan bought 38 chicken sausages.\n\n## Step 2: Calculating the Number of Fish Sausages\nHe bought 6 more fish sausages than chicken sausages. So, the number of fish sausages is 38 + 6 = 44.\n\n## Step 3: Calculating the Total Number of Sausages\nThe total number of sausages is the sum of chicken sausages and fish sausages: 38 + 44.\n\n## Step 4: Performing the Calculation\nTotal sausages = 38 + 44 = 82.\n\n#### 82",
+			"retrievals": 2
+		}
+	]
+}

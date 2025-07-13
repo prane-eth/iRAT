@@ -1,0 +1,13 @@
+{
+	"task_id": 583,
+	"prompt": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid $76,000 for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Juan's house is 30% less expensive than Herb's house, meaning Juan's house is 30/100*$76000= $<<30/100*76000=22800>>22800 less expensive than Herb's house.\nJuan's house is worth $76000-$22800 = $<<76000-22800=53200>>53200\nThe combined total value of Juan's and Herb's house is $76000+$53200 = $<<76000+53200=129200>>129200\n#### 129200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the value of Juan's house, we first need to calculate 30% of the value of Herb's house. Herb's house is worth $76,000. \n\n30% of $76,000 can be calculated as 0.3 * $76,000 = $22,800. This means Juan's house is $22,800 less expensive than Herb's house.\n\nThe value of Juan's house can be found by subtracting $22,800 from the value of Herb's house: $76,000 - $22,800 = $53,200.\n\nTo find the combined value of the two houses, we add the value of Juan's house to the value of Herb's house: $53,200 + $76,000 = $129,200.\n\n#### $129,200",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the value of Herb's house\nHerb paid $76,000 for his house.\n\n## Step 2: Calculate the value of Juan's house\nSince Juan's house is 30% less expensive than Herb's, we need to find 30% of $76,000 and subtract it from $76,000. 30% of $76,000 is 0.3 * $76,000 = $22,800. So, Juan's house is $76,000 - $22,800 = $53,200.\n\n## Step 3: Calculate the combined value of the two houses\nTo find the combined value, we add the value of Herb's house to the value of Juan's house: $76,000 + $53,200 = $129,200.\n\n#### $129,200",
+			"retrievals": 2
+		}
+	]
+}

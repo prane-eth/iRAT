@@ -1,0 +1,13 @@
+{
+	"task_id": 1314,
+	"prompt": "A fruit vendor bought 50 watermelons for $80. He sold all of them at a profit of 25%. How much was each watermelon sold?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The fruit vendor's profit for the 50 watermelons was $80 x 25/100 = $<<80*25/100=20>>20.\nSo, he was able to sell them all for $80 + $20 = $<<80+20=100>>100.\nThus, the vendor sold each watermelon for $100/$50 = $<<100/50=2>>2 each.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much each watermelon was sold for, we first need to calculate the total cost of the watermelons and then determine the selling price with a 25% profit.\n\nThe total cost of the watermelons is $80 for 50 watermelons. To find the cost per watermelon, we divide the total cost by the number of watermelons: $80 / 50 = $1.60 per watermelon.\n\nTo calculate the selling price with a 25% profit, we need to find 25% of the cost per watermelon and add it to the cost per watermelon. 25% of $1.60 is 0.25 * $1.60 = $0.40. \n\nThe selling price per watermelon is the cost per watermelon plus the profit per watermelon: $1.60 + $0.40 = $2.00.\n\n#### $2.00",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total cost of the watermelons\nThe vendor bought 50 watermelons for $80.\n\n## Step 2: Determine the profit made from selling the watermelons\nThe vendor sold all the watermelons at a profit of 25%. This means the selling price is 125% of the cost price.\n\n## Step 3: Calculate the total selling price of the watermelons\nTo find the total selling price, we multiply the cost by 1.25 (100% + 25% profit). Total selling price = $80 * 1.25 = $100.\n\n## Step 4: Calculate the selling price per watermelon\nTo find out how much each watermelon was sold for, we divide the total selling price by the number of watermelons. Selling price per watermelon = $100 / 50 = $2.\n\nThe final answer is: #### $2",
+			"retrievals": 2
+		}
+	]
+}

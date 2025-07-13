@@ -1,0 +1,13 @@
+{
+	"task_id": 1282,
+	"prompt": "Dexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In a day, one pig consumes 4 x 2 = <<4*2=8>>8 pounds of feed.\nIn a day, five pigs consume 8 x 5 = <<8*5=40>>40 pounds.\nIn a week, five pigs consume 40 x 7 = <<40*7=280>>280 pounds.\nSo, there are 300 - 280 = <<300-280=20>>20 pounds of feed left.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To find the amount of feed left after a week, we first need to calculate how much feed the pigs consume in a day and then in a week.\n\nEach pig eats 4 pounds of feed twice a day, so that's 4 * 2 = 8 pounds per pig per day.\n\nSince Dexter has five pigs, the total feed consumption per day is 5 * 8 = 40 pounds.\n\nIn a week (7 days), the total feed consumption would be 40 * 7 = 280 pounds.\n\nDexter ordered 300 pounds of feed, so after a week, the amount of feed left would be 300 - 280 = 20 pounds.\n\n#### 20",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many pounds of feed are left after a week, we first need to calculate the total amount of feed each pig eats in a day. Since each pig eats 4 pounds of feed twice a day, the daily consumption per pig is 4 * 2 = 8 pounds. The total number of pigs Dexter has is five, so the total amount of feed all the pigs eat in a day is 5 * 8 = 40 pounds.\n\nNext, we calculate the total amount of feed the pigs eat in a week. Since there are 7 days in a week, we multiply the daily consumption by 7 to get the weekly consumption: 40 * 7 = 280 pounds.\n\nNow, to find out how many pounds of feed are left after a week, we need to subtract the total weekly consumption from the total amount of feed Dexter ordered. Dexter ordered 300 pounds of feed, so we subtract the weekly consumption from this amount: 300 - 280 = 20 pounds.\n\nThis calculation tells us that after a week, Dexter will have 20 pounds of feed left. \n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1181,
+	"prompt": "A company sold 4000 gallons of milk in jars to Mr. Marcellus' store at the cost of $3.5 per gallon. However, Mr. Marcellus later realized 2/5 of the amount of milk he purchased had passed the expiry date and could not be sold. He returned the sour milk to the company and ordered a refund. Calculate how much he got in refunds.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If he purchased 4000 gallons, the number of gallons expired is 2/5 * 4000 gallons = <<2/5*4000=1600>>1600 gallons.\nIf each gallon costs $3.5, and he returned 1600 gallons for refund, the total amount he got from the refund is $3.5/gallon * 1600 gallons = $<<3.5*1600=5600>>5600\n#### 5600",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the refund amount, we first need to determine the total amount Mr. Marcellus paid for the milk. The company sold 4000 gallons of milk at $3.5 per gallon. \n\nThe total cost of the milk can be calculated by multiplying the number of gallons by the cost per gallon: 4000 gallons * $3.5 per gallon = $14,000.\n\nNext, we need to find out how much of the milk was returned. Since 2/5 of the milk had passed the expiry date, we calculate 2/5 of 4000 gallons to determine the amount of sour milk: (2/5) * 4000 = 1600 gallons.\n\nNow, we calculate the refund amount by multiplying the amount of sour milk by the cost per gallon: 1600 gallons * $3.5 per gallon = $5600.\n\n#### $5600",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the refund amount, we first need to determine the total amount Mr. Marcellus paid for the milk. The company sold 4000 gallons of milk at $3.5 per gallon. The total cost of the milk can be calculated by multiplying the number of gallons by the cost per gallon: 4000 gallons * $3.5 per gallon = $14,000.\n\nNext, we need to find out how much of the milk was returned. Since 2/5 of the milk had passed the expiry date, we calculate 2/5 of 4000 gallons to determine the amount of sour milk: (2/5) * 4000 = 1600 gallons. Now, we calculate the refund amount by multiplying the amount of sour milk by the cost per gallon: 1600 gallons * $3.5 per gallon = $5600.\n\n#### $5600",
+			"retrievals": 1
+		}
+	]
+}

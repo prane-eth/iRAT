@@ -1,0 +1,13 @@
+{
+	"task_id": 83,
+	"prompt": "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. What are their combined weights in pounds?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Alex weighs 125*4-2 = <<125*4-2=498>>498.\nTheir combined weights are 125+498 = <<125+498=623>>623 pounds.\n#### 623",
+	"responses": [
+		{
+			"old_rat_answer": "To find their combined weights, we first need to calculate Alex's weight.\n\nGiven that Grace weighs 125 pounds, and Alex weighs 2 pounds less than 4 times what Grace weighs, we can calculate Alex's weight as follows:\n\n1. Four times Grace's weight: 4 * 125 = 500 pounds\n2. Two pounds less than that: 500 - 2 = 498 pounds\n\nSo, Alex weighs 498 pounds.\n\nNow, to find their combined weights, we add Grace's weight to Alex's weight:\n\n125 (Grace's weight) + 498 (Alex's weight) = 623 pounds\n\n#### 623",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Alex's weight, we first need to calculate 4 times Grace's weight. Grace weighs 125 pounds. Four times Grace's weight is 4 * 125 = 500 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. So, Alex's weight is 500 - 2 = 498 pounds. Now, we need to find their combined weights. Grace weighs 125 pounds and Alex weighs 498 pounds. Their combined weights are 125 + 498 = 623 pounds. #### 623",
+			"retrievals": 1
+		}
+	]
+}

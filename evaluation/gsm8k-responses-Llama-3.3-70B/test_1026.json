@@ -1,0 +1,13 @@
+{
+	"task_id": 1026,
+	"prompt": "The Easter egg hunt team hid 100 eggs. The Smith twins each found 30 eggs. All the other eggs except 10 were found by their friends. How many eggs did the friends find?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The Smith twins found, 30 * 2 = <<30*2=60>>60 eggs.\nThe number that remained hidden was 100 - 60 = <<100-60=40>>40 eggs\nSince 10 eggs were not found, this means the friends found 40 - 10 = 30 eggs\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nFirst, calculate the total number of eggs found by the Smith twins. \nThe",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total eggs found by the Smith twins\nThe Smith twins each found 30 eggs, so together they found 30 + 30 = 60 eggs.\n\n## Step 2: Determine the number of eggs left after the Smith twins found theirs\nThere were originally 100 eggs, and the Smith twins found 60, so 100 - 60 = 40 eggs were left.\n\n## Step 3: Calculate the number of eggs found by the friends\nAll the other eggs except 10 were found by their friends, so the friends found 40 - 10 = 30 eggs.\n\n#### 30",
+			"retrievals": 1
+		}
+	]
+}

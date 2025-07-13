@@ -1,0 +1,13 @@
+{
+	"task_id": 11,
+	"prompt": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of downloads over the three months, we first need to calculate the downloads for each month. The program had 60 downloads in the first month.\n\nThe number of downloads in the second month was three times as many as the downloads in the first month. So, the downloads in the second month = 3 * 60 = 180.\n\nIn the third month, the number of downloads reduced by 30% from the second month. To find the number of downloads in the third month, we calculate 30% of 180 and subtract it from 180. 30% of 180 = 0.3 * 180 = 54. So, the downloads in the third month = 180 - 54 = 126.\n\nNow, we add up the downloads for all three months to find the total: 60 (first month) + 180 (second month) + 126 (third month) = 366.\n\n#### 366",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of downloads in the first month\nThe program had 60 downloads in the first month.\n\n## Step 2: Calculate the number of downloads in the second month\nThe number of downloads in the second month was three times as many as the downloads in the first month. So, the downloads in the second month = 3 * 60 = 180.\n\n## Step 3: Calculate the number of downloads in the third month\nIn the third month, the number of downloads reduced by 30% from the second month. To find the number of downloads in the third month, we calculate 30% of 180 and subtract it from 180. 30% of 180 = 0.3 * 180 = 54. So, the downloads in the third month = 180 - 54 = 126.\n\n## Step 4: Calculate the total number of downloads over the three months\nNow, we add up the downloads for all three months to find the total: 60 (first month) + 180 (second month) + 126 (third month) = 366.\n\n#### 366",
+			"retrievals": 2
+		}
+	]
+}

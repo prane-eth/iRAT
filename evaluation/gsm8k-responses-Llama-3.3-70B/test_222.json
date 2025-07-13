@@ -1,0 +1,13 @@
+{
+	"task_id": 222,
+	"prompt": "A water tank is filled with 120 liters of water. Celine used 90 liters of water from the tank to water her small garden. She was then able to collect rainwater that is twice as much as what was left. How many liters of water are in the tank now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After watering Celine's garden, 120 - 90 = <<120-90=30>>30 liters of water were left in the tank.\nCeline was able to collect 30 x 2 = <<30*2=60>>60 liters of rainwater.\nThus, there are 30 + 60 = <<30+60=90>>90 liters of water in the tank.\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many liters of water are in the tank now, we first need to determine how much water was left after Celine used 90 liters from the initial 120 liters. \n\nThe initial amount of water in the tank was 120 liters. Celine used 90 liters for her garden. So, the amount of water left in the tank after Celine's use is 120 - 90 = 30 liters.\n\nThen, Celine collected rainwater that is twice as much as what was left in the tank. Since there were 30 liters left, the amount of rainwater collected is 2 * 30 = 60 liters.\n\nNow, to find the total amount of water in the tank, we add the amount of water left after Celine's use to the amount of rainwater collected. So, 30 liters (left in the tank) + 60 liters (collected rainwater) = 90 liters.\n\n#### 90",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the initial amount of water left in the tank after Celine's use.\nThe initial amount of water in the tank was 120 liters. Celine used 90 liters for her garden. So, the amount of water left in the tank after Celine's use is 120 - 90 = 30 liters.\n\n## Step 2: Determine the amount of rainwater collected.\nAccording to the given information, Celine collected rainwater that is twice as much as what was left in the tank. Since there were 30 liters left, the amount of rainwater collected is 2 * 30 = 60 liters.\n\n## Step 3: Calculate the total amount of water in the tank now.\nTo find the total amount of water in the tank now, we need to add the amount of water left after Celine's use to the amount of rainwater collected. So, the total amount of water in the tank now is 30 + 60 = 90 liters.\n\n#### 90",
+			"retrievals": 2
+		}
+	]
+}

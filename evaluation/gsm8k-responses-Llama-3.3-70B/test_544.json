@@ -1,0 +1,13 @@
+{
+	"task_id": 544,
+	"prompt": "For each small task accomplished, Jairus gets $0.8 while Jenny gets $0.5. If each of them finished 20 tasks, how much more will Jairus get than Jenny?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The difference of the amount received by Jairus and Jenny is $0.8/task - $0.5/task = $<<0.8-0.5=0.3>>0.3/task.\nSo, Jairus will get $0.3/task x 20 tasks = $<<0.3*20=6>>6 more than Jenny.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more Jairus will get than Jenny, we first need to calculate the total amount each of them will receive for completing 20 tasks. Jairus gets $0.8 for each task, so for 20 tasks, he will get 20 * $0.8.\n\nJairus' total earnings = 20 * $0.8 = $16.\n\nOn the other hand, Jenny gets $0.5 for each task, so for 20 tasks, she will get 20 * $0.5.\n\nJenny's total earnings = 20 * $0.5 = $10.\n\nNow, to find out how much more Jairus will get than Jenny, we subtract Jenny's total earnings from Jairus' total earnings.\n\nDifference in earnings = Jairus' total earnings - Jenny's total earnings = $16 - $10 = $6.\n\n#### $6",
+			"old_rat_retrievals": 7,
+			"final_answer": "To determine how much more Jairus will get than Jenny, we first need to calculate the total amount each of them earns for completing 20 tasks. Jairus gets $0.8 for each task, so for 20 tasks, he earns 20 * $0.8 = $16. Jenny gets $0.5 for each task, so for 20 tasks, she earns 20 * $0.5 = $10.\n\nThe difference in their earnings is $16 - $10 = $6. Therefore, Jairus will get $6 more than Jenny.\n\n#### $6",
+			"retrievals": 2
+		}
+	]
+}

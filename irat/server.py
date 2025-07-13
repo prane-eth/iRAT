@@ -2,12 +2,14 @@
 
 from irat.utils.common_functions import host, clear_port, print_separator
 from irat.utils.logger import log_debug, log_error
+from irat.utils.prompt_security import UnsafePromptError
 
 from irat.old_rat import rat as old_rat
 from irat.pipeline import run_pipeline
 
 import gradio as gr
 from gradio.themes.base import Base as BaseTheme
+
 
 
 def get_response(project, prompt):
@@ -20,10 +22,9 @@ def get_response(project, prompt):
 
 	elif project == 'iRAT':
 		try:
-			response_result = run_pipeline(prompt)
-			_, draft_2, _, _, final_answer = response_result
+			_, draft_2, _, final_answer = run_pipeline(prompt)
 			return draft_2, final_answer
-		except Exception as e:
+		except UnsafePromptError:
 			log_error(e)
 			print_separator()
 			return 'Not available', 'Error: Query seems to be against our policies.'
@@ -36,9 +37,6 @@ class LargeFontTheme(BaseTheme):
 	def __init__(self):
 		super().__init__() # text_size='lg' or sm, md, lg, xl, xxl
 		self.set(
-			# body_text_size='18px',
-			# input_text_size='18px',
-			# section_header_text_size='22px',
 			block_info_text_size='18px',
 			block_label_text_size='20px',
 			block_title_text_size='24px',

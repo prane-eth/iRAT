@@ -1,0 +1,13 @@
+{
+	"task_id": 1011,
+	"prompt": "Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.\nShaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.\nQuinn can run 7 - 2 = <<7-2=5>>5 laps.\nBethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more laps Bethany can run compared to Quinn, we first need to establish the number of laps each person can run. \nBethany can run 10 laps in one hour. \nTrey can run 4 more laps than Bethany, which means Trey can run 10 + 4 = 14 laps.\n\n`\nSince Shaelyn can run half as many laps as Trey, and Trey can run 14 laps, Shaelyn can run 14 / 2 = 7 laps. \nQuinn can run 2 fewer laps than Shaelyn, so Quinn can run 7 - 2 = 5 laps.\n\n`\nTo find out how many more laps Bethany can run compared to Quinn, we subtract the number of laps Quinn can run from the number of laps Bethany can run: 10 - 5 = 5.\n\n#### 5",
+			"old_rat_retrievals": 2,
+			"final_answer": "To solve this problem, let's break it down step by step.\n\n## Step 1: Determine Bethany's Laps\nBethany can run 10 laps on the track in one hour.\n\n## Step 2: Calculate Trey's Laps\nTrey can run 4 more laps than Bethany. Since Bethany runs 10 laps, Trey runs 10 + 4 = 14 laps.\n\n## Step 3: Calculate Shaelyn's Laps\nShaelyn can run half as many laps as Trey. Since Trey runs 14 laps, Shaelyn runs 14 / 2 = 7 laps.\n\n## Step 4: Calculate Quinn's Laps\nQuinn can run 2 fewer laps than Shaelyn. Since Shaelyn runs 7 laps, Quinn runs 7 - 2 = 5 laps.\n\n## Step 5: Compare Bethany's and Quinn's Laps\nTo find out how many more laps Bethany can run compared to Quinn, we subtract Quinn's laps from Bethany's laps: 10 - 5 = 5.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

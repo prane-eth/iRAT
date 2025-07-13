@@ -1,0 +1,13 @@
+{
+	"task_id": 1142,
+	"prompt": "If Chester eats 3 eggs a day for 30 days and then increases it to 5 eggs a day for 30 days, how many dozens of eggs will Chester need for 60 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He starts off eating 3 eggs a day for 30 days for a total of 3*30 = <<3*30=90>>90 eggs\nThen he increases it to 5 eggs a day for 30 days for a total of 5*30 = <<5*30=150>>150 eggs\nAll total he will eat 90+150 = <<90+150=240>>240 eggs\nThere are 12 eggs in 1 dozen and he will 240 eggs which is 240/12 = 20 dozen eggs\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dozens of eggs Chester will need for 60 days, we first need to calculate the total number of eggs he will eat in that period. \n\nChester eats 3 eggs a day for the first 30 days. So, for the first 30 days, he will eat 3 eggs/day * 30 days = 90 eggs.\n\nThen, he increases his egg consumption to 5 eggs a day for the next 30 days. So, for the next 30 days, he will eat 5 eggs/day * 30 days = 150 eggs.\n\nNow, we add the eggs from both periods to get the total number of eggs: 90 eggs + 150 eggs = 240 eggs.\n\nSince there are 12 eggs in a dozen, we need to divide the total number of eggs by 12 to find out how many dozens of eggs Chester will need: 240 eggs / 12 eggs/dozen = 20 dozens.\n\n#### 20",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine the total number of eggs Chester will need for 60 days, we first calculate his egg consumption for the first 30 days and then for the next 30 days. \n\nFor the first 30 days, Chester eats 3 eggs a day. So, his total egg consumption for the first 30 days is 3 eggs/day * 30 days = 90 eggs.\n\nThen, Chester increases his egg consumption to 5 eggs a day for the next 30 days. So, for the next 30 days, he will eat 5 eggs/day * 30 days = 150 eggs.\n\nNow, we add the eggs from both periods to get the total number of eggs: 90 eggs + 150 eggs = 240 eggs.\n\nSince there are 12 eggs in a dozen, we need to divide the total number of eggs by 12 to find out how many dozens of eggs Chester will need: 240 eggs / 12 eggs/dozen = 20 dozens.\n\n#### 20",
+			"retrievals": 0
+		}
+	]
+}

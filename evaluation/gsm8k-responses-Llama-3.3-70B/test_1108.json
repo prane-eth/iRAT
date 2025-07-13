@@ -1,0 +1,13 @@
+{
+	"task_id": 1108,
+	"prompt": "How many girls are in the school if 40% of a school population is made up of 240 boys?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "100% - 40% = 60% of the school's population are girls.\nSince 40% is equal to 240 students, then 1% is equal to 240/40 = <<240/40=6>>6 students.\nHence, there are 60 x 6 = <<60*6=360>>360 girls.\n#### 360",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of girls in the school, we first need to determine the total population of the school. We know that 40% of the school population is made up of 240 boys. \n\nLet's denote the total population of the school as \"x\". Since 40% of the school population are boys, we can express this as 0.4x = 240.\n\nTo find the total population \"x\", we need to solve the equation 0.4x = 240 for \"x\". Dividing both sides of the equation by 0.4 gives us x = 240 / 0.4.\n\nCalculating 240 / 0.4 gives us x = 600. This means the total population of the school is 600 students.\n\nSince 40% of the school population are boys, the remaining 60% must be girls. To find the number of girls, we calculate 60% of the total population, which is 0.6 * 600.\n\nCalculating 0.6 * 600 gives us 360. Therefore, the number of girls in the school is 360.\n\n#### 360",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the number of girls in the school, we first need to determine the total population of the school. Let's denote the total population of the school as \"x\". Since 40% of the school population are boys, and we know that this equals 240 boys, we can express this as 0.4x = 240. To find the total population \"x\", we need to solve the equation 0.4x = 240 for \"x\". Dividing both sides of the equation by 0.4 gives us x = 240 / 0.4.\n\nCalculating 240 / 0.4 gives us x = 600. This means the total population of the school is 600 students. Since 40% of the school population are boys, the remaining 60% must be girls. To find the number of girls, we calculate 60% of the total population, which is 0.6 * 600. Calculating 0.6 * 600 gives us 360. Therefore, the number of girls in the school is 360.\n\n#### 360",
+			"retrievals": 2
+		}
+	]
+}

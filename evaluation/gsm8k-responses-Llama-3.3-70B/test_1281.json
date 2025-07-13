@@ -1,0 +1,13 @@
+{
+	"task_id": 1281,
+	"prompt": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half the time it took Steve to put together the puzzle is 10/2=<<10/2=5>>5\nIf Anna put together the same puzzle in 2 hours more than half the time it took Steve, she took 5+2=7 hours to finish the puzzle.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how long it took Anna to finish the puzzle, we first need to determine half of Steve's time. Steve took 10 hours to complete the puzzle. Half of Steve's time is 10 / 2 = 5 hours.\n\nAnna took 2 hours more than half of Steve's time to complete the puzzle. Since half of Steve's time is 5 hours, we add 2 hours to this to find Anna's time. So, Anna's time is 5 + 2 = 7 hours.\n\n#### 7",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate half of Steve's time\nTo find half of Steve's time, we need to divide his total time by 2. Steve's time is 10 hours, so half of his time is 10 / 2 = 5 hours.\n\n## Step 2: Calculate Anna's time\nAnna took 2 hours more than half of Steve's time to complete the puzzle. Since half of Steve's time is 5 hours, Anna's time is 5 + 2 = 7 hours.\n\n## Step 3: Determine the final answer\nBased on the calculation, it took Anna 7 hours to finish the difficult puzzle.\n\n#### 7",
+			"retrievals": 1
+		}
+	]
+}

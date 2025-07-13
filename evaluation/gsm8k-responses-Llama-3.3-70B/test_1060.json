@@ -1,0 +1,13 @@
+{
+	"task_id": 1060,
+	"prompt": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will 720 grams of cat food last?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The 3 cats consume 60 grams/cat x 3 cats = <<60*3=180>>180 grams of food per meal.\nSince they eat twice a day, then they consume 180 grams/meal x 2 meals/day = <<180*2=360>>360 grams in a day.\nSo, 720 grams of cat food only last for 720 grams / 360 grams/day = <<720/360=2>>2 days.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many days the cat food will last, we first need to calculate the total amount of food Imma's cats consume in one day. Since she has 3 cats and feeds each of them twice a day with 60 grams of cat food, the daily consumption for one cat is 60 * 2 = 120 grams.\n\nThe total daily consumption for all 3 cats would then be 120 * 3 = 360 grams per day.\n\nTo find out how many days 720 grams of cat food will last, we divide the total amount of food available by the daily consumption. So, 720 grams / 360 grams per day = 2 days.\n\n#### 2",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many days 720 grams of cat food will last for Imma's 3 cats, we need to follow a few steps.\n\n## Step 1: Calculate the daily consumption of cat food per cat\nImma feeds each of her cats twice a day with 60 grams of cat food. So, the daily consumption for one cat is 60 * 2 = 120 grams.\n\n## Step 2: Calculate the total daily consumption for all cats\nSince Imma has 3 cats, the total daily consumption for all cats is 120 * 3 = 360 grams.\n\n## Step 3: Calculate how many days the cat food will last\nTo find out how many days 720 grams of cat food will last, we divide the total amount of cat food by the daily consumption. So, 720 / 360 = 2.\n\n#### 2",
+			"retrievals": 1
+		}
+	]
+}

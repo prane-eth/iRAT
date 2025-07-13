@@ -1,0 +1,13 @@
+{
+	"task_id": 333,
+	"prompt": "There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ruins:220(.40)=88\nUnmanned:88/2=<<88/2=44>>44 castles\n#### 44",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of unmanned ruined castles in Scotland, we first need to calculate the total number of ruined castles. Given that 40 percent of the 220 castles are ruins, we can calculate this by multiplying 220 by 40 percent (or 0.4).\n\nThe calculation for the number of ruined castles is: 220 * 0.4 = 88.\n\nSo, there are 88 ruined castles in Scotland.\n\nNext, we need to find out how many of these ruined castles are unmanned. It is stated that half of the ruined castles are unmanned. To find this number, we multiply the total number of ruined castles by 50 percent (or 0.5).\n\nThe calculation for the number of unmanned ruined castles is: 88 * 0.5 = 44.\n\n#### 44",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the number of unmanned ruined castles in Scotland, we first need to calculate the total number of ruined castles. Given that 40 percent of the 220 castles are ruins, we calculate this as follows: 40% of 220 = 0.4 * 220 = 88 ruined castles.\n\nNext, since half of the ruined castles are unmanned, we divide the total number of ruined castles by 2 to find the number of unmanned ones: 88 / 2 = 44.\n\nTherefore, there are 44 unmanned ruined castles in Scotland.\n\n#### 44",
+			"retrievals": 2
+		}
+	]
+}

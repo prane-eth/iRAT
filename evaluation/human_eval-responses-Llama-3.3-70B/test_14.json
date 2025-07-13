@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/13",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\" Return a greatest common divisor of two integers a and b\n    >>> greatest_common_divisor(3, 5)\n    1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\"\n    Return a greatest common divisor of two integers a and b\n    >>> greatest_common_divisor(3, 5)\n    1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n    while b:\n        a, b = b, a % b\n    return a\n```",
+			"old_rat_retrievals": 2,
+			"final_answer": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\"\n    Return the greatest common divisor of two integers a and b\n    >>> greatest_common_divisor(3, 5)\n    1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n    # Ensure a and b are positive integers\n    a = abs(a)\n    b = abs(b)\n\n    # If b is zero, the GCD is a\n    while b != 0:\n        # Replace a with b and b with the remainder of a divided by b\n        a, b = b, a % b\n    return a\n```\nThis code correctly calculates the greatest common divisor of two integers using the Euclidean algorithm. It first ensures that both numbers are positive by taking their absolute values. Then, it repeatedly replaces `a` with `b` and `b` with the remainder of `a` divided by `b`, until `b` becomes zero. At that point, `a` is the greatest common divisor of the original `a` and `b`.",
+			"retrievals": 3
+		}
+	]
+}

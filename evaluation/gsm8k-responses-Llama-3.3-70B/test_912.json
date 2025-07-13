@@ -1,0 +1,13 @@
+{
+	"task_id": 912,
+	"prompt": "Colby works for a manufacturing company in the packaging division.  He gets paid $0.20 for every package he completes. If he completes 10 less than 50 packages per hour, how much money, in dollars, does he earn in a typical eight-hour workday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ten less than fifty is 50-10=<<50-10=40>>40 packages per hour.\nAt $0.20 per completed package. if he completes 40 packages per hour he earns 40*$0.20=$<<40*0.20=8>>8 per hour.\nThus, in a typical eight-hour day, he earns 8*$8=$<<8*8=64>>64.\n#### 64",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Colby earns in a typical eight-hour workday, we first need to calculate the number of packages he completes per hour. It's given that he completes 10 less than 50 packages per hour. So, the number of packages completed per hour is 50 - 10 = 40 packages.\n\n \nThe amount Colby earns per package is $0.20. Therefore, to find out how much he earns per hour, we multiply the number of packages he completes per hour by the amount he earns per package: 40 packages * $0.20/package = $8/hour.\n\n \nNow, to calculate his earnings for an eight-hour workday, we multiply his hourly earnings by the number of hours he works: $8/hour * 8 hours = $64.\n\n#### $64",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much money Colby earns in a typical eight-hour workday, we first need to determine how many packages he completes per hour. Since he completes 10 less than 50 packages per hour, we subtract 10 from 50. So, the number of packages completed per hour is 50 - 10 = 40 packages.\n\nNext, we calculate his earnings per hour by multiplying the number of packages completed per hour by the payment per package. Colby gets paid $0.20 for every package, so his earnings per hour are 40 * $0.20 = $8.\n\nFinally, to find out how much Colby earns in a typical eight-hour workday, we multiply his earnings per hour by the number of hours worked. Therefore, his total earnings in an eight-hour workday are $8 * 8 = $64.\n\n#### $64",
+			"retrievals": 1
+		}
+	]
+}

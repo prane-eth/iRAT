@@ -1,0 +1,13 @@
+{
+	"task_id": 449,
+	"prompt": "A salesman bought a case of 48 sneakers for $576. He sold 17 of them for $20 at a flash sale on Monday, and the rest were sold to a department store for $25 each throughout the rest of the week. How much money, in dollars, was the salesman's profit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The salesman made 17 \u00d7 $20 = $<<17*20=340>>340 at the flash sale on Monday.\nThere were 48 - 17 = <<48-17=31>>31 sneakers left.\nAt the department store he made 31 \u00d7 $25 = $<<31*25=775>>775 throughout the week.\nIn total he made $340 + $775 = $<<340+775=1115>>1115.\nThe profit made by the salesman was $1115 - $576 = $<<1115-576=539>>539.\n#### 539",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the salesman's profit, we first need to calculate the total cost of",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the salesman's profit, we first need to calculate the total cost of the sneakers and the total revenue from selling them. The total cost of the sneakers is $576. \n\nThe salesman sold 17 sneakers for $20 each, so the revenue from these sales is 17 * $20 = $340. He sold the rest, which is 48 - 17 = 31 sneakers, to a department store for $25 each. The revenue from these sales is 31 * $25 = $775.\n\nThe total revenue is $340 + $775 = $1,115. To find the profit, we subtract the total cost from the total revenue: $1,115 - $576 = $539.\n\n#### $539",
+			"retrievals": 1
+		}
+	]
+}

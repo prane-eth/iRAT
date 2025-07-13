@@ -1,0 +1,13 @@
+{
+	"task_id": 707,
+	"prompt": "The local firefighters are doing a \u201cfill the boot\u201d fundraiser. Their goal is to raise $6300. After the first 3 hours, they have raised $2100.  For how many hours do they have to fundraise in total to reach their goal, assuming an equal amount raised in every hour?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The fireman raise 2100 / 3 = $<<2100/3=700>>700 per hour.\nThey have to fundraise for 6300 / 700 = <<6300/700=9>>9 hours.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many hours the firefighters have to fundraise in total to reach their goal, we first need to determine the amount they raise per hour. \n\nThey raised $2100 in the first 3 hours. To find the hourly rate, we divide the total amount raised by the number of hours: $2100 / 3 hours = $700 per hour.\n\nNow that we know they raise $700 per hour, we can calculate how many hours it will take to reach their goal of $6300. \n\nWe divide the total goal by the hourly rate: $6300 / $700 per hour = 9 hours.\n\n#### 9",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we first need to understand how much money the firefighters raised per hour in the first 3 hours and then calculate how many more hours they need to reach their goal of $6300.\n\nGiven that they raised $2100 in the first 3 hours, we divide the total amount raised in the first 3 hours by the number of hours to find out the hourly rate:\n$2100 / 3 hours = $700 per hour.\n\nNow, we know they need to raise a total of $6300 and they have already raised $2100. So, the remaining amount they need to raise is:\n$6300 - $2100 = $4200.\n\nSince they raise $700 per hour, we divide the remaining amount they need to raise by the hourly rate to find out how many more hours they need to fundraise:\n$4200 / $700 per hour = 6 hours.\n\nThis means they need to fundraise for an additional 6 hours after the first 3 hours. Therefore, the total number of hours they need to fundraise to reach their goal is:\n3 hours (already fundraised) + 6 hours (additional needed) = 9 hours.\n\n#### 9",
+			"retrievals": 1
+		}
+	]
+}

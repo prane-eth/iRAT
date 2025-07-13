@@ -1,0 +1,13 @@
+{
+	"task_id": 759,
+	"prompt": "A bag has a 5% discount. If it is marked $140, how much will you pay after the discount?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the amount you will pay after the discount, first, calculate the discount amount. The bag is marked $140, and there is a 5% discount.\n\nThe discount amount can be calculated by multiplying the marked price by the discount percentage. So, the discount amount is $140 * 5% = $140 * 0.05 = $7.\n\nNow, subtract the discount amount from the marked price to find the amount you will pay after the discount. The amount after the discount is $140 - $7 = $133.\n\n#### $133",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much you will pay for the bag after the discount, we need to calculate the discount amount first. The bag is marked at $140, and there's a 5% discount. \n\nThe discount amount can be found by multiplying the marked price by the discount percentage. So, we calculate the discount as $140 * 5% = $140 * 0.05 = $7.\n\nNext, we subtract this discount amount from the marked price to find the final amount you will pay. Therefore, the amount after the discount is $140 - $7 = $133.\n\nThe final price after applying the 5% discount on the $140 marked bag is $133. #### $133",
+			"retrievals": 1
+		}
+	]
+}

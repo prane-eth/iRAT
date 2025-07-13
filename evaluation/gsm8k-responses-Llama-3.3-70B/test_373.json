@@ -1,0 +1,13 @@
+{
+	"task_id": 373,
+	"prompt": "Hallie had dance practice for 1 hour on Tuesdays and 2 hours on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She had practice for 1 hour on Tuesday and 2 hours on Thursday so she practiced for 1+2 = <<1+2=3>>3 hours\nSaturday's class was twice as long as Tuesday's so she danced 2*1 = <<2*1=2>>2 hours on Saturday\nIn one week she danced 3 hours on the weekdays and 2 hours on the weekend for a total of 3+2 = <<3+2=5>>5 hours\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many hours a week Hallie had dance practice, we first need to calculate the duration of each practice session. \nOn Tuesdays, she practiced for 1 hour. \nOn Thursdays, she practiced for 2 hours. \nOn Saturdays, her practice lasted twice as long as Tuesday's night class, which means it lasted 2 * 1 = 2 hours.\n\n \nNow, we need to add up the hours from each practice session to find the total number of hours she practiced per week. \nTotal hours = Tuesday hours + Thursday hours + Saturday hours\nTotal hours = 1 + 2 + 2\nTotal hours = 5\n\n#### 5",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total hours of dance practice on Tuesdays and Thursdays\nHallie had dance practice for 1 hour on Tuesdays and 2 hours on Thursdays, which adds up to 1 + 2 = 3 hours.\n\n## Step 2: Determine the hours of dance practice on Saturdays\nOn Saturdays, she had dance practice that lasted twice as long as Tuesday's night class, which is 2 * 1 = 2 hours.\n\n## Step 3: Calculate the total hours of dance practice per week\nTo find the total hours of dance practice per week, we need to add the hours from Tuesdays, Thursdays, and Saturdays. So, 3 hours (from Tuesdays and Thursdays) + 2 hours (from Saturdays) = 5 hours.\n\n#### 5",
+			"retrievals": 1
+		}
+	]
+}

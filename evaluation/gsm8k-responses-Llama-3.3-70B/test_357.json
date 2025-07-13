@@ -1,0 +1,13 @@
+{
+	"task_id": 357,
+	"prompt": "Dean's mother gave him $28 to go to the toy store. Dean bought 6 toy cars and 5 teddy bears. Each toy car cost $2 and each teddy bear cost $1. His mother then feels generous and decides to give him an extra $10. How much money does Dean have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost of the toy cars is 6 cars \u00d7 $2/car = $<<6*2=12>>12.\nThe cost of the teddy bears is 5 bears \u00d7 $1/bear = $<<5*1=5>>5.\nThe total cost of the toys is $12 + $5 = $<<12+5=17>>17.\nAdding the two amounts of money his mother gave him, we find that Dean has $28 + $10 = $<<28+10=38>>38 to spend.\nDean has $38 \u2212 $17 = $21 left.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Dean has left, we first need to calculate the total cost of the items he bought. Dean purchased 6 toy cars at $2 each and 5 teddy bears at $1 each.\n\nThe total cost of the toy cars is 6 * $2 = $12. The total cost of the teddy bears is 5 * $1 = $5. Adding these two amounts together gives us the total cost of the items: $12 + $5 = $17.\n\nDean's mother initially gave him $28. After spending $17 on toys, he had $28 - $17 = $11 left. Then, his mother gave him an extra $10.\n\nAdding this extra $10 to the $11 he already had gives us $11 + $10 = $21. This is the amount of money Dean has left after all the transactions.\n\n#### $21",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Dean has left, we first need to calculate the total cost of the items he bought. Dean purchased 6 toy cars at $2 each and 5 teddy bears at $1 each.\n\nThe total cost of the toy cars is 6 * $2 = $12. The total cost of the teddy bears is 5 * $1 = $5. Adding these two amounts together gives us the total cost of the items: $12 + $5 = $17.\n\nDean's mother initially gave him $28. After spending $17 on toys, he had $28 - $17 = $11 left.\n\nThen, his mother gave him an extra $10. Adding this extra $10 to the $11 he already had gives us $11 + $10 = $21.\n\nThis is the amount of money Dean has left after all the transactions. #### $21",
+			"retrievals": 2
+		}
+	]
+}

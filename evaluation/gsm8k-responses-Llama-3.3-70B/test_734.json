@@ -1,0 +1,13 @@
+{
+	"task_id": 734,
+	"prompt": "While walking down the street with his 3 younger siblings, Greg found $20. To be fair to his siblings, he decided to split the money equally. How much money did each of them get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Greg and his 3 siblings equal 3 people + 1 person = <<3+1=4>>4 people.\nThe 20 dollars were divided equally, so each of them received $20 / 4 people = <<20/4=5>>5 dollars/person\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money each of them got, we first need to determine the total number of people who will be splitting the money. This includes Greg and his 3 younger siblings.\n\nThe total amount of money found is $20. Since Greg wants to split the money equally among himself and his siblings, we need to divide the total amount of money by the total number of people. The total number of people is Greg plus his 3 siblings, which equals 4 people.\n\nTo calculate the amount of money each person gets, we divide the total amount of money, $20, by the total number of people, 4. So, $20 \u00f7 4 = $5.\n\n#### $5",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money each person gets, we need to consider the total amount of money found and the total number of people among whom it will be split. Greg found $20, and he has 3 younger siblings. Since he also wants to include himself in the split, the total number of people is 4 (Greg plus his 3 siblings).\n\nThe total amount of money is $20. To split this money equally among 4 people, we divide the total amount of money by the number of people: $20 \u00f7 4 = $5.\n\nTherefore, each of them, including Greg and his 3 siblings, will get $5.\n\n#### $5",
+			"retrievals": 1
+		}
+	]
+}

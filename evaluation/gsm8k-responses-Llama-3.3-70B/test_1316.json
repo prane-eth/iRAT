@@ -1,0 +1,13 @@
+{
+	"task_id": 1316,
+	"prompt": "There are some oranges in a basket. Ana spends 3 minutes peeling an orange and Jane spends 4 minutes doing the same. If Ana and Jane start picking oranges from this basket to peel at the same time, how many more oranges will Ana have peeled than Jane after an hour?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 60 minutes in an hour. Ana peels an orange in 3 minutes so she will peel 60/3 = <<60/3=20>>20 oranges in an hour\nJane peels an orange in 4 minutes so she will peel 60/4 = <<60/4=15>>15 oranges in an hour\nAna will have peeled 20-15 = <<20-15=5>>5 more oranges\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine how many oranges each person can peel in one hour. Since there are 60 minutes in an hour, we can calculate the number of oranges each can peel by dividing 60 by the time it takes for each to peel an orange.\n\nAna spends 3 minutes peeling an orange. So, in one hour, she can peel 60 / 3 = 20 oranges.\n\n \nJane spends 4 minutes peeling an orange. So, in one hour, she can peel 60 / 4 = 15 oranges.\n\n \nNow, to find out how many more oranges Ana will have peeled than Jane after an hour, we subtract the number of oranges Jane peels from the number Ana peels: 20 - 15 = 5.\n\n#### 5",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, let's first calculate how many oranges each person can peel in one hour. \n\nAna spends 3 minutes peeling an orange. Since there are 60 minutes in an hour, Ana can peel 60 / 3 = 20 oranges in one hour.\n\nJane spends 4 minutes peeling an orange. So, Jane can peel 60 / 4 = 15 oranges in one hour.\n\nNow, we need to find the difference in the number of oranges peeled by Ana and Jane after one hour. \n\nThe difference is 20 (oranges peeled by Ana) - 15 (oranges peeled by Jane) = 5 oranges.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 272,
+	"prompt": "John has 2 houses with 3 bedrooms each.  Each bedroom has 2 windows each.  There are an additional 4 windows in each house not connected to bedrooms.  How many total windows are there between the houses?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each house has 3*2=<<3*2=6>>6 windows for the bedrooms\nSo each house has 6+4=<<6+4=10>>10 windows\nSo the total number of windows is 10*2=<<10*2=20>>20 windows\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of windows between the houses, we first need to calculate the number of windows in each house. \nEach house has 3 bedrooms, and each bedroom has 2 windows. So, the number of windows connected to bedrooms in each house is 3 * 2 = 6 windows.\n\n`\nAdditionally, there are 4 windows in each house not connected to bedrooms. \n\n`\nSo, the total number of windows in each house is 6 (from bedrooms) + 4 (additional) = 10 windows. Since John has 2 houses, the total number of windows between the houses is 10 * 2 = 20 windows.\n\n#### 20",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of windows between the houses, we first need to calculate the number of windows in each house. Each house has 3 bedrooms, and each bedroom has 2 windows. So, the number of windows connected to bedrooms in each house is 3 * 2 = 6 windows. Additionally, there are 4 windows in each house not connected to bedrooms. These additional windows are unique to each house and are not shared between the two houses.\n\nSo, the total number of windows in each house is 6 (from bedrooms) + 4 (additional) = 10 windows. Since John has 2 houses, and each house has its own set of windows (both from bedrooms and the additional ones), we simply multiply the total number of windows in one house by 2. Therefore, the total number of windows between the houses is 10 * 2 = 20 windows.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 147,
+	"prompt": "Johnny is picking up the toys on the floor of his room.  He'd dumped a lego boxed set with 500 pieces on the floor, and another one that had 3 times more pieces than the 500 piece one, and another one that had 1/4 the number of pieces.  How many blocks does Johnny pick up if he picks up all the legos?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The first set had 500 pieces, and the second set had 3 times as many as the first set, so the second set has 500*3=<<500*3=1500>>1500 pieces\nThe third set had one-quarter of the 500 pieces, so that means it had 500*.25= <<500*.25=125>>125 pieces\nIn total, that means Johnny picked up 500 + 1500+ 125= <<500+1500+125=2125>>2125 blocks\n#### 2,125",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of blocks Johnny picks up, we need to calculate the\n\nThe third set has 1/4 the number of pieces of the 500 piece set. So, the number of pieces in the third set is 500 * 1/4 = 125.\n\nNow, we need to add up the number of pieces in all three sets to find the total number of blocks Johnny picks up.\n\nThe total number of blocks is 500 + 1500 + 125 = 2125.\n\n#### 2125",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of pieces in each Lego set\nThe first Lego set has 500 pieces. The second set has 3 times more pieces than the 500 piece set, which means it has 3 * 500 = 1500 pieces. The third set has 1/4 the number of pieces of the 500 piece set, so it has 500 / 4 = 125 pieces.\n\n## Step 2: Calculate the total number of Lego blocks\nTo find the total number of blocks, we need to add up the number of pieces in each set. total_blocks = 500 + 1500 + 125.\n\n## Step 3: Perform the addition\nAdding the numbers together: 500 + 1500 = 2000, then 2000 + 125 = 2125.\n\nThe final answer is: #### 2125",
+			"retrievals": 2
+		}
+	]
+}

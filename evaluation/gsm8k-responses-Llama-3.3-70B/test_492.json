@@ -1,0 +1,13 @@
+{
+	"task_id": 492,
+	"prompt": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and 2 trays, how many eggs won't he be able to place on the tray?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jaime will be able to place a total of 24 x 2 = <<24*2=48>>48.\nTherefore, there are 64 - 48 = <<64-48=16>>16 eggs that he won't be able to place on the tray.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many eggs won't be able to place on the tray, we first need to calculate the total number of eggs that can be held by the trays. Since each tray can hold 24 eggs and Jaime has 2 trays, the total capacity is 24 eggs/tray * 2 trays = 48 eggs.\n\nJaime has 64 eggs in total. Now, we compare the total number of eggs he has with the total capacity of the trays to find out how many eggs won't fit. The number of eggs that won't fit is calculated by subtracting the total capacity of the trays from the total number of eggs Jaime has: 64 eggs - 48 eggs = 16 eggs.\n\n#### 16",
+			"old_rat_retrievals": 3,
+			"final_answer": "Jaime has 2 trays, and each tray can hold 24 eggs. So, the total capacity of the trays is 2 * 24 = 48 eggs. Jaime has 64 eggs, which is more than the total capacity of the trays. To find out how many eggs won't fit, we subtract the total capacity from the number of eggs Jaime has: 64 - 48 = 16.\n\n#### 16",
+			"retrievals": 2
+		}
+	]
+}

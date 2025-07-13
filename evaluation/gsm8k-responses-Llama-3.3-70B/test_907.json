@@ -1,0 +1,13 @@
+{
+	"task_id": 907,
+	"prompt": "Tim has a box with 7 blue shoe boxes and 9 red shoe boxes. If he uses 3 blue shoeboxes and 1/3 red of his shoeboxes to go fishing, how many red and blue shoe boxes are left in Tim's box?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Tim uses 3 blue shoeboxes, he remains with 7-3=<<7-3=4>>4 blue shoe boxes in the box.\nTim also uses 1/3 of the red shoeboxes, a total of 1/3*9=<<1/3*9=3>>3 red shoe boxes.\nTim remains with 9-3=<<9-3=6>>6 red shoeboxes.\nThe total number of red and blue shoe boxes left in Tim's box is 6+4=<<6+4=10>>10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many shoe boxes are left, we first need to calculate the number of blue and red shoe boxes Tim used. He started with 7 blue shoe boxes and used 3 of them. \n\nSo, the number of blue shoe boxes left is 7 - 3 = 4.\n\n`\n \nNext, we calculate the number of red shoe boxes he used. He had 9 red shoe boxes and used 1/3 of them. To find 1/3 of 9, we divide 9 by 3, which equals 3. \n\nSo, the number of red shoe boxes used is 3.\n\n`\n \nNow, we subtract the number of red shoe boxes used from the total number of red shoe boxes to find out how many are left. 9 - 3 = 6.\n\n`\n \nTherefore, Tim has 4 blue shoe boxes and 6 red shoe boxes left. To find the total number of shoe boxes left, we add these two numbers together: 4 + 6 = 10.\n\n#### 10",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of blue shoe boxes left\nTim starts with 7 blue shoe boxes and uses 3 of them to go fishing. To find the number of blue shoe boxes left, we subtract the number used from the total: 7 - 3 = 4 blue shoe boxes left.\n\n## Step 2: Calculate the number of red shoe boxes left\nTim has 9 red shoe boxes and uses 1/3 of them to go fishing. First, we find out how many red shoe boxes 1/3 represents: 9 * (1/3) = 3 red shoe boxes used. To find the number of red shoe boxes left, we subtract the number used from the total: 9 - 3 = 6 red shoe boxes left.\n\n## Step 3: Determine the total number of red and blue shoe boxes left\nTo find the total number of shoe boxes left, we add the number of blue shoe boxes left to the number of red shoe boxes left: 4 (blue) + 6 (red) = 10 shoe boxes left in total.\n\nThe final answer is: #### 10",
+			"retrievals": 2
+		}
+	]
+}

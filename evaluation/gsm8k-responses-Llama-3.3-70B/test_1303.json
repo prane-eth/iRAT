@@ -1,0 +1,13 @@
+{
+	"task_id": 1303,
+	"prompt": "Matthew has a collection of 12 unique toy soldiers. He wants to sell them for a fair price. He found a buyer who is willing to pay for half his collection $5 per toy, and for the other half $7 per toy. If Matthew would agree to that offer, how much money would he earn?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of Matthew collection means 12 * 0.5 = <<12*0.5=6>>6 toy soldiers.\nA buyer wants to buy 6 toy soldiers for $5, so he would pay 6 * 5 = $<<6*5=30>>30 for them.\nAnd for the other half, he wants to pay $7 per toy, which would sum up to 6 * 7 = $<<6*7=42>>42.\nSo if Matthew would agree to the buyer's offer, he would earn 30 + 42 = $<<30+42=72>>72.\n#### 72",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Matthew would earn, we first need to find out how many toy soldiers he has in each half of his collection. Since he has 12 unique toy soldiers and wants to sell half at one price and the other half at another, we divide his collection into two equal parts. \n\nEach half of his collection would be 12 / 2 = 6 toy soldiers. For the first half, he sells each toy soldier for $5, and for the second half, he sells each for $7.\n\n`\nWe calculate the earnings from each half separately. For the half sold at $5 per toy soldier, the earnings would be 6 * $5 = $30. For the half sold at $7 per toy soldier, the earnings would be 6 * $7 = $42.\n\n`\nTo find the total amount of money Matthew would earn, we add the earnings from both halves of his collection. So, $30 (from the first half) + $42 (from the second half) = $72.\n\n#### $72",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how much money Matthew would earn, we first need to find out how many toy soldiers he has in each half of his collection. Since he has 12 unique toy soldiers and wants to sell half at one price and the other half at another, we divide his collection into two equal parts. Each half of his collection would be 12 / 2 = 6 toy soldiers. For the first half, he sells each toy soldier for $5, and for the second half, he sells each for $7.\n\nWe calculate the earnings from each half separately. For the half sold at $5 per toy soldier, the earnings would be 6 * $5 = $30. For the half sold at $7 per toy soldier, the earnings would be 6 * $7 = $42.\n\nTo find the total amount of money Matthew would earn, we add the earnings from both halves of his collection. So, $30 (from the first half) + $42 (from the second half) = $72.\n\n#### $72",
+			"retrievals": 1
+		}
+	]
+}

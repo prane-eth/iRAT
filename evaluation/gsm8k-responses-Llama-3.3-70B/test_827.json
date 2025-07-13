@@ -1,0 +1,13 @@
+{
+	"task_id": 827,
+	"prompt": "On Easter Sunday Cindy went to the city park to participate in the Easter Egg Hunt, and ended up with a basket full of eggs. She had 5 green ones, twice as many blue ones as green ones, one fewer pink eggs than blue eggs, and one-third as many yellow eggs as pink eggs. How many eggs did Cindy have altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has twice as many blue eggs as green eggs, so she has 5 * 2 = <<5*2=10>>10 blue eggs.\nShe has one fewer pink eggs than blue eggs, so she has 10 - 1 = <<10-1=9>>9 pink eggs.\nAnd finally, she has a third as many yellow eggs as pink eggs, so she has 9 / 3 = <<9/3=3>>3 yellow eggs.\nAdded all together, she has 5 green + 10 blue + 9 pink + 3 yellow = <<5+10+9+3=27>>27 eggs.\n#### 27",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of eggs Cindy had, we first need to determine the number of eggs of each color. \nShe had 5 green ones. \nThe number of blue eggs is twice the number of green eggs, so blue eggs = 2 * green eggs = 2 * 5 = 10.\n\n`\nThe number of pink eggs is one fewer than the number of blue eggs, so pink eggs = blue eggs - 1 = 10 - 1 = 9.\nThe number of yellow eggs is one-third the number of pink eggs, so yellow eggs = pink eggs / 3 = 9 / 3 = 3.\n\n`\nNow, we add up the number of eggs of each color to find the total: total eggs = green eggs + blue eggs + pink eggs + yellow eggs = 5 + 10 + 9 + 3 = 27.\n\n#### 27",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the number of green eggs\nCindy had 5 green eggs.\n\n## Step 2: Calculate the number of blue eggs\nThe number of blue eggs is twice the number of green eggs, so blue eggs = 2 * green eggs = 2 * 5 = 10.\n\n## Step 3: Calculate the number of pink eggs\nThe number of pink eggs is one fewer than the number of blue eggs, so pink eggs = blue eggs - 1 = 10 - 1 = 9.\n\n## Step 4: Calculate the number of yellow eggs\nThe number of yellow eggs is one-third the number of pink eggs, so yellow eggs = pink eggs / 3 = 9 / 3 = 3.\n\n## Step 5: Calculate the total number of eggs\nNow, we add up the number of eggs of each color to find the total: total eggs = green eggs + blue eggs + pink eggs + yellow eggs = 5 + 10 + 9 + 3 = 27.\n\n#### 27",
+			"retrievals": 1
+		}
+	]
+}

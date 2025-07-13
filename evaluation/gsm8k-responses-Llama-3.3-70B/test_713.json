@@ -1,0 +1,13 @@
+{
+	"task_id": 713,
+	"prompt": "Ginger and Amy both start with 100 pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the the difference in the number of pieces of candy the two people each per day: 4 pieces/day - 3 pieces/day = <<4-3=1>>1 piece/day\nThen find the number of days in 2 weeks: 2 weeks * 7 days/week = <<2*7=14>>14 days\nThen multiply the difference per day by the number of days to find the total difference after 14 days: 1 piece/day * 14 days = <<1*14=14>>14 pieces\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more candy Amy has after two weeks, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the initial amount of candy\nGinger and Amy both start with 100 pieces of Halloween candy.\n\n## Step 2: Calculate the amount of candy Ginger eats in two weeks\nGinger eats 4 pieces a day. There are 14 days in two weeks. So, Ginger eats 4 * 14 = 56 pieces of candy in two weeks.\n\n## Step 3: Calculate the amount of candy Amy eats in two weeks\nAmy eats 3 pieces a day. There are 14 days in two weeks. So, Amy eats 3 * 14 = 42 pieces of candy in two weeks.\n\n## Step 4: Calculate the amount of candy Ginger and Amy have left after two weeks\nGinger has 100 - 56 = 44 pieces of candy left. Amy has 100 - 42 = 58 pieces of candy left.\n\n## Step 5: Determine how much more candy Amy has than Ginger after two weeks\nTo find out how much more candy Amy has than Ginger, we need to subtract the amount of candy Ginger has from the amount of candy Amy has. So, 58 - 44 = 14.\n\n## Step 6: Conclusion\nAmy has 14 more pieces of candy than Ginger after two weeks.\n\n#### 14",
+			"retrievals": 1
+		}
+	]
+}

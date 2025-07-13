@@ -1,0 +1,13 @@
+{
+	"task_id": 885,
+	"prompt": "Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160\nArgo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys\nIf he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many toys Argo has now, we need to calculate the",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many toys Argo has now, we need to calculate the total number of toys he gave away and subtract that from the initial number of toys he had. Argo started with 200 toys. He gave 40 toys to Alyssa, 80 toys to Bonnie, and 30 toys to Nicky. The total number of toys given away is 40 + 80 + 30 = 150 toys. Now, subtracting the total number of toys given away from the initial number of toys: 200 - 150 = 50 toys. \n\n#### 50",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 495,
+	"prompt": "9 out of 10 cheerleaders are 64\" tall.  The 10th cheerleader is 60\" tall.  If they build a human pyramid, where 4 girls are on the bottom,  3 stand on top of the 4, 2 stand on top of the 3 and the shortest girl is at the top, how tall is the human pyramid in feet?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "All but one cheerleader is 64\" tall and these cheerleaders make up the bottom 3 layers of the pyramid. So, when standing on top of each other, they are 64*3 = <<64*3=192>>192\" tall\nThe shortest cheerleader is at the top of the pyramid and is 60\" tall so the pyramid is 192+60 = <<252=252>>252\" tall\n12\" are in 1 foot and the pyramid is 252\" tall so it's 252/12 = <<252/12=21>>21 feet tall\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total height of the human pyramid, we need to first determine the height of each level. The bottom level consists of 4 girls, all of whom are 64\" tall, except for the fact that we don't know their heights are relevant to the overall height of the pyramid, as the height of the pyramid is determined by the heights of the girls stacked on top of each other.\n\n \nThe height of each level of the pyramid is determined by the height of the girls in that level. Since the girls are standing on each other's shoulders, we can assume that the height of each level is equal to the height of the girls in that level. The bottom level has 4 girls who are 64\" tall, the next level has 3 girls who are 64\" tall, the next level has 2 girls who are 64\" tall, and the top level has 1 girl who is 60\" tall.\n\n \nTo calculate the total height of the pyramid, we need to add the heights of all the levels. The height of the bottom level is 64\", the height of the next level is 64\", the height of the next level is 64\", and the height of the top level is 60\". So, the total height is 64 + 64 + 64 + 60 = 252 inches.\n\n \nTo convert the total height from inches to feet, we divide the total height in inches by 12. So, the total height in feet is 252 / 12 = 21 feet.\n\n#### 21",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total height of the pyramid, we need to add the heights of all the levels. The height of the bottom level is 64\", the height of the next level is 64\", the height of the next level is 64\", and the height of the top level is 60\". So, the total height is 64 + 64 + 64 + 60 = 252 inches. To convert the total height from inches to feet, we divide the total height in inches by 12, since there are 12 inches in a foot. Therefore, the total height in feet is 252 / 12 = 21 feet.\n\n#### 21",
+			"retrievals": 2
+		}
+	]
+}

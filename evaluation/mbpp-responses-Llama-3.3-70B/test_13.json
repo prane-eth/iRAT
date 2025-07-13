@@ -1,0 +1,19 @@
+{
+	"task_id": 23,
+	"prompt": "Write a function to find the n-th power of individual elements in a list using lambda function.?assert nth_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2)==[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+	"test_imports": [],
+	"test_list": [
+		"assert nth_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2)==[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+		"assert nth_nums([10,20,30],3)==([1000, 8000, 27000])",
+		"assert nth_nums([12,15],5)==([248832, 759375])"
+	],
+	"mbpp_code": "def nth_nums(nums,n):\r\n nth_nums = list(map(lambda x: x ** n, nums))\r\n return nth_nums",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function with a lambda function to calculate the n\n\nThis shows that the function is working correctly, raising each number in the list to the power of 2. \n\nThe function can be used with any list of numbers and any power, making it a flexible and reusable solution.",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Introduction to the Problem\nThe problem requires writing a function to find the n-th power of individual elements in a list using a lambda function. This involves creating a function that takes a list of numbers and a power as input, and returns a new list where each number is raised to the given power.\n\n## Understanding the Solution\nTo solve this problem, we can utilize the `map()` function in Python, which applies a given function to each item of an iterable (such as a list) and returns a list of the results. The `map()` function can be combined with a lambda function to achieve the desired outcome. A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.\n\n## Implementing the Solution\nWe can define a function `nth_nums` that takes two parameters: `nums` (a list of numbers) and `n` (the power to which the numbers should be raised). Inside this function, we use the `map()` function with a lambda function that raises each number `x` in the list `nums` to the power `n`. The result is then converted to a list using the `list()` function.\n\n```python\ndef nth_nums(nums, n):\n    return list(map(lambda x: x**n, nums))\n```\n\n## Example Usage\nFor example, if we call `nth_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2)`, the function will return `[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]`, which are the squares of the input numbers.\n\n## Testing the Function\nWe can test the function using an assertion to verify that it works correctly:\n```python\nassert nth_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2) == [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nprint(nth_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2))\n```\nThe output of this test will be: `[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]`. This shows that the function is working correctly, raising each number in the list to the power of 2. The function can be used with any list of numbers and any power, making it a flexible and reusable solution.",
+			"retrievals": 3
+		}
+	]
+}

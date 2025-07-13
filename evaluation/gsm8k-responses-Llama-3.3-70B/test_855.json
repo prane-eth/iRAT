@@ -1,0 +1,13 @@
+{
+	"task_id": 855,
+	"prompt": "A local town is expanding and wants to build several new homes across the next three years. In the first year, they will build 12 homes. In the next year, they will build three times this many homes. In the third year, they will count how many homes they have built and double the amount. How many homes will the town have built over the next three years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the second year, they build three times as many homes as the first year which is 12 * 3 = <<12*3=36>>36 homes.\nSo far in the two years, they've built 36+12 = <<36+12=48>>48 homes\nIn the third year, they double the number of homes built in the first two years, so 48*2 = <<48*2=96>>96 homes.\nAltogether, the local town has built 48+ 96 = <<48+96=144>>144 homes.\n#### 144",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total number of homes built over the next three years, we first need to calculate the number of homes built each year. In the first year, the town will build 12 homes.\n\nIn the second year, they will build three times the number of homes built in the first year. So, the number of homes built in the second year is 12 * 3 = 36 homes.\n\nIn the third year, the town will double the total number of homes built in the first two years. The total number of homes built in the first two years is 12 + 36 = 48 homes. Doubling this amount gives 48 * 2 = 96 homes built in the third year.\n\nTo find the total number of homes built over the three years, we add the number of homes built each year: 12 (first year) + 36 (second year) + 96 (third year) = 144 homes.\n\n#### 144",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the total number of homes built over the next three years, we first need to calculate the number of homes built each year. In the first year, the town will build 12 homes. In the second year, they will build three times the number of homes built in the first year. So, the number of homes built in the second year is 12 * 3 = 36 homes.\n\nIn the third year, the town will double the total number of homes built in the first two years. The total number of homes built in the first two years is 12 + 36 = 48 homes. Doubling this amount gives 48 * 2 = 96 homes built in the third year. To find the total number of homes built over the three years, we add the number of homes built each year: 12 (first year) + 36 (second year) + 96 (third year) = 144 homes.\n\n#### 144",
+			"retrievals": 2
+		}
+	]
+}

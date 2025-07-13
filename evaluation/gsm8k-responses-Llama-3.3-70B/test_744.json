@@ -1,0 +1,13 @@
+{
+	"task_id": 744,
+	"prompt": "Mara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mara had 3+2=<<3+2=5>>5 slices of cake.\nShe was hungry and tripled the amount to 5*3=<<5*3=15>>15 slices.\nShe ate a couple, leaving 15-2=<<15-2=13>>13 slices.\nHer friend came and stole some which left Mara to 13-5=<<13-5=8>>8 slices.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of cake slices remaining on the plate, we start by determining the initial number of slices after Mara added more cake. Mara began with 2 slices of cake on the plate and added 3 more slices. So, the total number of slices after adding 3 slices is 2 + 3 = 5 slices.\n\n \nNext, Mara tripled the number of slices she currently had, which means the number of slices became 3 * 5 = 15 slices. After that, she ate 2 slices, reducing the total to 15 - 2 = 13 slices.\n\n \nThen, her friend stole 5 slices off her plate. So, the number of slices remaining after her friend stole some is 13 - 5 = 8 slices.\n\n#### 8",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of cake slices remaining on the plate, let's break down the events step by step. Initially, Mara had 2 slices of cake on the plate and added 3 more slices. So, the total number of slices after adding 3 slices is 2 + 3 = 5 slices. \n\nNext, Mara tripled the number of slices she currently had. This means the number of slices became 3 * 5 = 15 slices. \n\nAfter that, she ate 2 slices, reducing the total to 15 - 2 = 13 slices.\n\nThen, her friend stole 5 slices off her plate. So, the number of slices remaining after her friend stole some is 13 - 5 = 8 slices.\n\n#### 8",
+			"retrievals": 0
+		}
+	]
+}

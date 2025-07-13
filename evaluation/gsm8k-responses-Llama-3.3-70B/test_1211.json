@@ -1,0 +1,13 @@
+{
+	"task_id": 1211,
+	"prompt": "To kick off summer, Jolene is having a water balloon fight with her friends.  They fill up 10 packs of balloons that have 30 balloons per pack.  By the end of the afternoon, 12 balloons are left.  How many balloons did they throw?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They started off with 10 packs of balloons that had 30 balloons each for a total of 10*30 = <<10*30=300>>300 balloons\nThey started with 300 balloons and had 12 left which means they threw 300-12 = <<300-12=288>>288 balloons\n#### 288",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many balloons Jolene and her friends threw, we first need to calculate the total number of balloons they had at the beginning. They filled up 10 packs of balloons, with each pack containing 30 balloons.\n\nThe total number of balloons can be found by multiplying the number of packs by the number of balloons per pack: 10 packs * 30 balloons/pack = 300 balloons. So, they started with 300 balloons.\n\nBy the end of the afternoon, 12 balloons were left. To determine how many balloons were thrown, we subtract the number of remaining balloons from the total number of balloons: 300 balloons - 12 balloons = 288 balloons.\n\n#### 288",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the Total Number of Balloons\nTo find out how many balloons Jolene and her friends threw, we first need to calculate the total number of balloons they had at the beginning. They filled up 10 packs of balloons, with each pack containing 30 balloons. The total number of balloons can be found by multiplying the number of packs by the number of balloons per pack: 10 packs * 30 balloons/pack = 300 balloons. So, they started with 300 balloons.\n\n## Step 2: Determine the Number of Balloons Thrown\nBy the end of the afternoon, 12 balloons were left. To determine how many balloons were thrown, we subtract the number of remaining balloons from the total number of balloons: 300 balloons - 12 balloons = 288 balloons.\n\nThe calculation is based on the information provided in the problem, where the total number of balloons filled is 300, and after the water balloon fight, 12 balloons remain. The difference between the total and the remaining gives us the number of balloons thrown.\n\n#### 288",
+			"retrievals": 2
+		}
+	]
+}

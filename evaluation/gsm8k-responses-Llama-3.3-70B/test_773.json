@@ -1,0 +1,13 @@
+{
+	"task_id": 773,
+	"prompt": "Tatiana is deciding how much of her weekend she wants to spend playing soccer. She has 7 hours on Saturday and 5 hours on Sunday. She is dividing her time between soccer, video games, and reading. If she reads for 3 hours and plays video games for 1/3 of the remaining time, what percentage of her weekend does she spend playing soccer?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has 12 hours for her activities because 7 + 5 = <<7+5=12>>12\nAfter reading, she has 9 hours left because 12 - 3 = <<12-3=9>>9\nShe spends 3 hours playing video games because 9 x (1/3) = <<9*(1/3)=3>>3\nAfter video games she has 6 hours left for soccer because 9 - 3 = <<6=6>>6\nThe proportion of time spend on soccer is .5 because 6 / 12 = <<6/12=.5>>.5\nThe percentage of time spent on soccer is 50 because .5 x 100 = <<50=50>>50\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "To find the percentage of her weekend that Tatiana spends playing soccer, we first\n\n#### 50%",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the percentage of her weekend that Tatiana spends playing soccer, we first need to calculate the total hours available on the weekend. She has 7 hours on Saturday and 5 hours on Sunday, making a total of 7 + 5 = 12 hours. The next step is to calculate how much time she spends on activities other than soccer. We know she reads for 3 hours. After reading, she has 12 - 3 = 9 hours left. She then plays video games for 1/3 of the remaining time, which is 1/3 * 9 = 3 hours.\n\nNow, we subtract the time spent reading and playing video games from the total weekend hours to find out how much time she spends playing soccer. The total time spent on reading and video games is 3 + 3 = 6 hours. So, the time left for soccer is 12 - 6 = 6 hours. To find the percentage of her weekend spent playing soccer, we divide the hours spent playing soccer by the total hours available and then multiply by 100. The calculation is (6 / 12) * 100 = 50%. \n\n#### 50%",
+			"retrievals": 1
+		}
+	]
+}

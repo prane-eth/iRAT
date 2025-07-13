@@ -1,0 +1,13 @@
+{
+	"task_id": 344,
+	"prompt": "In his training as a professional athlete, Tyson runs 5000 meters every day. His coach, however, wants him to run 1/5 times more meters in a day. If he took the coach's advice and trained for a month, what is the total distance he covered in June?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tyson's coach wants him to run 1/5 * 5000 meters = <<5000/5=1000>>1000 more meters per day.\nWhen he took the coach's advice, he increased the training distance he runs per day to 5000 meters + 1000 meters = <<5000+1000=6000>>6000 meters.\nHe covered 6000 meters/day * 30 days/month =<<6000*30=180000>>180000 meters in June on his training sessions.\n#### 180000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total distance Tyson covered in June, we first need to calculate the new daily distance he runs after taking his coach's advice. His coach wants him to run 1/5 times more meters in a day. \n\nThis means we need to calculate 1/5 of 5000 meters and add it to the original 5000 meters. 1/5 of 5000 meters is (1/5) * 5000 = 1000 meters. So, the new daily distance is 5000 + 1000 = 6000 meters.\n\nSince Tyson trains for a month, and assuming a month has 30 days, we need to multiply the new daily distance by the number of days in June. June has 30 days. \n\nThe total distance covered in June is 6000 meters/day * 30 days = 180000 meters.\n\n#### 180000",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Understand the Problem\nThe problem states that Tyson runs 5000 meters every day. His coach wants him to increase this distance by 1/5 times more meters in a day. We need to calculate the total distance Tyson covers if he trains for a month, specifically in June, which has 30 days.\n\n## Step 2: Calculate the New Daily Distance\nTo find the new daily distance, we first calculate 1/5 of 5000 meters. This is 5000 * (1/5) = 1000 meters. So, the coach wants Tyson to run an additional 1000 meters each day. The new daily distance is 5000 + 1000 = 6000 meters.\n\n## Step 3: Calculate the Total Distance for June\nSince June has 30 days, we multiply the new daily distance by 30 to find the total distance covered in June. The total distance is 6000 meters/day * 30 days = 180,000 meters.\n\n## Step 4: Conclusion\nBy following the coach's advice and running 1/5 times more meters each day, Tyson would cover a total distance of 180,000 meters in June.\n\n#### 180,000",
+			"retrievals": 4
+		}
+	]
+}

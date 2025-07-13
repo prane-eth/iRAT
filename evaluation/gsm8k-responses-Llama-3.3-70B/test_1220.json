@@ -1,0 +1,13 @@
+{
+	"task_id": 1220,
+	"prompt": "John is a carpenter. For his friend Ali, he manufactured 4 wooden tables for $20 each and 2 roof frames for $10 each. How much does Ali have to pay John?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "For the wooden table, Ali should pay: $20 * 4 = $<<20*4=80>>80\nFor the roof frames, Ali should pay: $10 * 2 = $<<10*2=20>>20\nCombining the wooden table and the roof frames, Ali should pay: $20 + $80 = $<<20+80=100>>100\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Ali has to pay John, we first need to calculate the total cost of the wooden tables and the total cost of the roof frames separately. \n\nThe cost of each wooden table is $20, and John manufactured 4 tables for Ali. So, the total cost of the tables can be calculated as 4 tables * $20/table = $80.\n\nThe cost of each roof frame is $10, and John manufactured 2 roof frames for Ali. So, the total cost of the roof frames can be calculated as 2 frames * $10/frame = $20.\n\nNow, we need to add the total cost of the tables and the total cost of the roof frames to find out the total amount Ali has to pay. \n\nThe total cost is $80 (tables) + $20 (roof frames) = $100.\n\n#### $100",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine the total amount Ali has to pay John, we need to calculate the total cost of the items manufactured by John. This includes the cost of the wooden tables and the roof frames.\n\nThe cost of each wooden table is $20, and John manufactured 4 tables for Ali. Therefore, the total cost of the wooden tables is 4 * $20 = $80.\n\nThe cost of each roof frame is $10, and John manufactured 2 roof frames for Ali. Therefore, the total cost of the roof frames is 2 * $10 = $20.\n\nTo find the total amount Ali has to pay John, we need to add the cost of the wooden tables and the roof frames. Therefore, the total amount is $80 + $20 = $100.\n\n#### $100",
+			"retrievals": 1
+		}
+	]
+}

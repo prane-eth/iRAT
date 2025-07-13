@@ -1,0 +1,13 @@
+{
+	"task_id": 818,
+	"prompt": "Paul needs 63 cupcakes for a birthday party happening on Saturday. He already has 8 chocolate cupcakes and 40 toffee cupcakes. How many more cupcakes should Paul buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of chocolate and toffee cupcakes is 8 + 40 = <<8+40=48>>48.\nPaul should buy 63 \u2212 48 = <<63-48=15>>15 more cupcakes.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more cupcakes Paul should buy, we first need to calculate the total number of cupcakes he already has. Paul has 8 chocolate cupcakes and 40 toffee cupcakes.\n\nWe add these two numbers together to get the total number of cupcakes Paul currently has: 8 + 40 = 48 cupcakes.\n\nNow, we subtract the total number of cupcakes Paul has from the total number of cupcakes he needs for the party to find out how many more he should buy: 63 (needed) - 48 (already has) = 15 cupcakes.\n\n#### 15",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many more cupcakes Paul should buy, we first need to calculate the total number of cupcakes he already has. Paul has 8 chocolate cupcakes and 40 toffee cupcakes. We add these two numbers together to get the total number of cupcakes Paul currently has: 8 + 40 = 48 cupcakes. Now, we subtract the total number of cupcakes Paul has from the total number of cupcakes he needs for the party to find out how many more he should buy: 63 (needed) - 48 (already has) = 15 cupcakes. #### 15",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 377,
+	"prompt": "There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 40/2 = <<40/2=20>>20 pupils who like blue.\nSo, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.\nHence, 20/4 = <<20/4=5>>5 pupils like green.\nThus, 20 - 5 = <<20-5=15>>15 pupils like yellow.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pupils like the color yellow, we first need to determine the number of pupils who like blue and green. \nThe class has 40 pupils, and half of them like blue. So, the number of pupils who like blue is 40 / 2 = 20.\n\n`\nSince 20 pupils like blue, the remaining number of pupils is 40 - 20 = 20. One-fourth of these remaining pupils like green. \nSo, the number of pupils who like green is 20 / 4 = 5.\n\n`\nThe rest of the pupils, after subtracting those who like blue and green, like yellow. We have already calculated that 20 pupils like blue and 5 like green. \nSo, the total number of pupils who like either blue or green is 20 + 5 = 25. \nTo find the number of pupils who like yellow, we subtract this total from the overall number of pupils: 40 - 25 = 15.\n\n#### 15",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the number of pupils who like blue\nTo find out how many pupils like blue, we need to calculate half of the total number of pupils in the class. The total number of pupils is 40, so half of them would be 40 * 0.5 = 20 pupils who like blue.\n\n## Step 2: Calculate the number of remaining pupils\nAfter finding out that 20 pupils like blue, we subtract this number from the total number of pupils to find the remaining pupils. So, 40 - 20 = 20 pupils remain.\n\n## Step 3: Determine the number of pupils who like green\nOne-fourth of the remaining pupils like green. To find this number, we calculate 20 * 0.25 = 5 pupils who like green.\n\n## Step 4: Calculate the number of pupils who like yellow\nThe rest of the pupils, after subtracting those who like blue and green, like yellow. So, we subtract the number of pupils who like green from the remaining pupils. That gives us 20 - 5 = 15 pupils who like yellow.\n\n#### 15",
+			"retrievals": 1
+		}
+	]
+}

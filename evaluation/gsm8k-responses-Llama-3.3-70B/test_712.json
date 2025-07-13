@@ -1,0 +1,13 @@
+{
+	"task_id": 712,
+	"prompt": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.\nIf you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop\nErin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many scoops of ice cream Erin can buy, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how many scoops of ice cream Erin can buy, we first need to understand the deal being offered. The ice cream parlor provides a deal where if you buy 2 scoops of ice cream, you get 1 scoop free. Each scoop costs $1.50. \n\nGiven that Erin has $6.00, we need to calculate how many sets of 2 scoops (plus the free scoop) she can afford. Since each set of 2 scoops costs $1.50 * 2 = $3.00 and comes with a free scoop, essentially giving her 3 scoops for $3.00, we divide Erin's total money by the cost per set.\n\nErin has $6.00, and each set of 3 scoops (2 paid, 1 free) costs $3.00. So, $6.00 / $3.00 = 2 sets. Each set gives her 3 scoops, so 2 sets would give her 2 * 3 = 6 scoops.\n\n#### 6",
+			"retrievals": 0
+		}
+	]
+}

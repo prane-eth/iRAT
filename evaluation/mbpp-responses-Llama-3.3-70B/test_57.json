@@ -1,0 +1,19 @@
+{
+	"task_id": 67,
+	"prompt": "Write a python function to count number of vowels in the string.?assert Check_Vow('corner','AaEeIiOoUu') == 2",
+	"test_imports": [],
+	"test_list": [
+		"assert Check_Vow('corner','AaEeIiOoUu') == 2",
+		"assert Check_Vow('valid','AaEeIiOoUu') == 2",
+		"assert Check_Vow('true','AaEeIiOoUu') ==2"
+	],
+	"mbpp_code": "def Check_Vow(string, vowels): \r\n    final = [each for each in string if each in vowels] \r\n    return(len(final))",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function and its parameters\nThe function should take two parameters: the input string and the string of vowels.\n\n## Step 2: Initialize a counter for the vowels\nInitialize a counter variable to keep track of the number of vowels found in the string.\n\n## Step 3: Loop through each character in the input string\nIterate over each character in the input string to check if it is a vowel.\n\n## Step 4: Check if the character is in the string of vowels\nFor each character, check if it is present in the string of vowels. If it is, increment the vowel counter.\n\n## Step 5: Return the count of vowels\nAfter checking all characters, return the total count of vowels found in the string.\n\n## Step 6: Implement the function in Python\n```python\ndef Check_Vow(input_str, vowels):\n    \"\"\"\n    Counts the number of vowels in a given string.\n    \n    Parameters:\n    input_str (str): The string to check for vowels.\n    vowels (str): A string containing all vowel characters.\n    \n    Returns:\n    int: The number of vowels found in the input string.\n    \"\"\"\n    # Initialize a counter for vowels\n    vowel_count = 0\n    \n    # Loop through each character in the input string\n    for char in input_str:\n        # Check if the character is in the string of vowels\n        if char in vowels:\n            # If it is, increment the vowel counter\n            vowel_count += 1\n    \n    # Return the count of vowels\n    return vowel_count\n\n# Test the function\nassert Check_Vow('corner','AaEeIiOoUu') == 2\n```\n\nThe final answer is: $\\boxed{2}$",
+			"old_rat_retrievals": 1,
+			"final_answer": "Here's a Python function that counts the number of vowels in a given string:\n\n```python\ndef Check_Vow(string, vowels):\n    \"\"\"\n    Counts the number of occurrences of vowels in a string.\n    \n    Parameters:\n    - string: The input string to check.\n    - vowels: A string containing all the vowel characters (both lowercase and uppercase).\n    \n    Returns:\n    - The total count of vowels found in the string.\n    \"\"\"\n    count = 0\n    for char in string:\n        if char in vowels:\n            count += 1\n    return count\n\n# Example usage\nassert Check_Vow('corner','AaEeIiOoUu') == 2\n```\n\nThis function works by iterating over each character in the input string and checking if it is one of the vowels provided. If a character matches a vowel, it increments the count. The function then returns the total count of vowels found in the string.",
+			"retrievals": 1
+		}
+	]
+}

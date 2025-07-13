@@ -1,0 +1,13 @@
+{
+	"task_id": 468,
+	"prompt": "Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases\nThen find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels\nThen find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry\nThen multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces\n#### 1200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of pieces of laundry in 80 rooms, we first need to determine the number of each item in a single room. Each room has 2 sheets, 1 comforter, twice as many pillow cases as sheets, and twice as many towels as pillow cases.\n\nThe number of pillow cases in each room is twice the number of sheets, which means 2 * 2 = 4 pillow cases. The number of towels in each room is twice the number of pillow cases, so 2 * 4 = 8 towels. \n\nNow, we can calculate the total number of pieces of laundry in a single room: 2 sheets + 1 comforter + 4 pillow cases + 8 towels = 15 pieces of laundry per room.\n\nTo find the total number of pieces of laundry in 80 rooms, we multiply the number of pieces of laundry in one room by the total number of rooms: 15 pieces/room * 80 rooms = 1200 pieces of laundry.\n\n#### 1200",
+			"old_rat_retrievals": 4,
+			"final_answer": "To calculate the total number of pieces of laundry in 80 rooms, we first need to determine the number of each item in a single room. \n\nEach room has:\n- 2 sheets\n- 1 comforter\n- Twice as many pillow cases as sheets, which means 2 * 2 = 4 pillow cases\n- Twice as many towels as pillow cases, which means 2 * 4 = 8 towels\n\nSo, in one room, the total number of pieces of laundry is 2 (sheets) + 1 (comforter) + 4 (pillow cases) + 8 (towels) = 15 pieces.\n\nTo find the total number of pieces of laundry in 80 rooms, we multiply the number of pieces in one room by 80:\n15 pieces/room * 80 rooms = 1200 pieces\n\nTherefore, the total number of pieces of laundry in 80 rooms is 1200.\n\n#### 1200",
+			"retrievals": 2
+		}
+	]
+}

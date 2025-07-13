@@ -1,0 +1,14 @@
+{
+	"task_id": 224,
+	"prompt": "A company spends $15000 on advertising for a year, and then spends a third of that amount on advertising for another year.\u00a0 What's the total amount the company spent on advertising for the two years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "15000/3 = <<15000/3=5000>>5,000 is spent on advertisement in the second year.\nThe total on advertisement for the two years is 15000+5000 = <<15000+5000=20000>>20000 dollars.\n#### 20000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount spent on advertising for the two years, we first need to calculate the amount spent in the second year. The company spends a third of the initial $15000 on advertising for the second year.\n\nThe amount spent in the second year is calculated as $15000 * (1/3) = $5000.\n\nNext, we add the amount spent in the first year to the amount spent in the second year to find the total amount spent over the two years. The total amount spent is $15000 + $5000 = $20000.\n\n#### $20000",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount spent on advertising for the two years, we first need to calculate the amount spent in the second year. The company spends a third of the initial $15000 on advertising for the second year. This is calculated as $15000 * (1/3) = $5000. \n\nNext, we need to add the amount spent in the first year to the amount spent in the second year to find the total amount spent over the two years. The total amount spent is the sum of the first year's expenditure and the second year's expenditure, which is $15000 (first year) + $5000 (second year). \n\nPerforming the addition: $15000 + $5000 = $20000. \n\nTherefore, the total amount the company spent on advertising for the two years is $20000. #### $20000",
+			"retrievals": 1
+		}
+	],
+	"unsafe_prompt": true
+}

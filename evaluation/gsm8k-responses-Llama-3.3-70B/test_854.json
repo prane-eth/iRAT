@@ -1,0 +1,13 @@
+{
+	"task_id": 854,
+	"prompt": "There are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "90 * 20 = <<90*20=1800>>1800 minutes\n1800/2 = <<1800/2=900>>900 minutes\n900 minutes = <<900/60=15>>15 hours\nIt would take 15 hours to clean 45 rooms at the KozyInn Motel.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many hours it would take to clean one-half of the rooms",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many hours it would take to clean one-half of the rooms, we first need to determine how many rooms are in one-half of the total. Since there are 90 rooms, one-half of the rooms would be 90 / 2 = 45 rooms.\n\nGiven that it takes housekeeping 20 minutes to clean each room, the total time to clean 45 rooms would be 45 * 20 minutes. This equals 900 minutes.\n\nTo convert minutes into hours, we divide the total minutes by 60 since there are 60 minutes in an hour. Therefore, 900 minutes / 60 = 15 hours.\n\n#### 15",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 666,
+	"prompt": "Out of the 150 teachers on the school basketball court, 60% are history teachers. If the rest of the teachers on the court are math teachers, and each teacher sleeps for 6 hours a day, calculate the total time the math teachers collectively spend sleeping in one day.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of teachers in the basketball court who teaches history is 60/100*150 = <<60/100*150=90>>90\nThis means there are 150-90 = <<150-90=60>>60 math teachers are on the basketball court.\nIf each teacher sleeps for 6 hours daily, the total amount of time the math teachers sleep in a day is 60*6 = <<60*6=360>>360 hours.\n#### 360",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total time the math teachers collectively spend sleeping in one day, we",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we first need to calculate the number of history teachers. This can be done by finding 60% of the total number of teachers, which is $0.60 \\times 150 = 90$ teachers. Since the rest of the teachers are math teachers, we subtract the number of history teachers from the total number of teachers to find the number of math teachers: $150 - 90 = 60$ math teachers.\n\nEach teacher sleeps for 6 hours a day. To find the total time the math teachers collectively spend sleeping in one day, we multiply the number of math teachers by the hours each sleeps: $60 \\times 6 = 360$ hours.\n\n#### 360",
+			"retrievals": 1
+		}
+	]
+}

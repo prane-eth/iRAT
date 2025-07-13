@@ -1,0 +1,13 @@
+{
+	"task_id": 1041,
+	"prompt": "On Monday the post office delivered 425 letters. On Tuesday they delivered 17 more than one-fifth as many as Monday. On Wednesday they delivered 5 more than twice as many as they delivered on Tuesday. How many letters did the post office deliver Monday - Wednesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Monday = <<425=425>>425 letters\nTuesday = (1/5) * 425 + 17 = <<(1/5)*425+17=102>>102 letters\nWednesday = 2 * 102 + 5 = <<2*102+5=209>>209 letters\nTotal = 425 + 102 + 209 = <<425+102+209=736>>736 letters\nThe post office delivered 736 letters on Monday - Wednesday.\n#### 736",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total number of letters delivered from Monday to Wednesday, we first need to calculate the number of letters delivered each day. On Monday, the post office delivered 425 letters.\n\nOn Tuesday, they delivered 17 more than one-fifth as many as Monday. One-fifth of 425 is 425 / 5 = 85. Then, 17 more than that is 85 + 17 = 102 letters delivered on Tuesday.\n\nOn Wednesday, they delivered 5 more than twice as many as they delivered on Tuesday. Twice the number delivered on Tuesday is 2 * 102 = 204. Then, 5 more than that is 204 + 5 = 209 letters delivered on Wednesday.\n\nTo find the total number of letters delivered from Monday to Wednesday, we add the letters delivered each day: 425 (Monday) + 102 (Tuesday) + 209 (Wednesday) = 736.\n\n#### 736",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of letters delivered on Monday\nThe post office delivered 425 letters on Monday.\n\n## Step 2: Calculate the number of letters delivered on Tuesday\nOn Tuesday, they delivered 17 more than one-fifth as many as Monday. One-fifth of 425 is 425 / 5 = 85. So, on Tuesday, they delivered 85 + 17 = 102 letters.\n\n## Step 3: Calculate the number of letters delivered on Wednesday\nOn Wednesday, they delivered 5 more than twice as many as they delivered on Tuesday. Twice the number delivered on Tuesday is 2 * 102 = 204. So, on Wednesday, they delivered 204 + 5 = 209 letters.\n\n## Step 4: Calculate the total number of letters delivered from Monday to Wednesday\nTo find the total, we add the letters delivered each day: 425 (Monday) + 102 (Tuesday) + 209 (Wednesday) = 736.\n\n#### 736",
+			"retrievals": 1
+		}
+	]
+}

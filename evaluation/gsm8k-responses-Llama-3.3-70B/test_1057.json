@@ -1,0 +1,13 @@
+{
+	"task_id": 1057,
+	"prompt": "Greg puts clean sheets on 4 twin beds and 1 king size bed every week.  His laundry machine will only allow him to wash 2 twin sets of sheets at a time and 1 king set of sheets at a time.  How many loads of laundry does he do in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has to wash 4 twin size sheet sets each week and the machine will only let him do 2 sets at a time so he has to do 4/2 = <<4/2=2>>2 loads of twin size sheets\nHe does 2 loads of twin size sheets and 1 load for king size sheets every week for a total of 2+1 = <<2+1=3>>3 loads\nOver 52 weeks (1 year) he does 3 loads of laundry a week for a total of 52*3 = <<3*52=156>>156 loads of laundry\n#### 156",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total number of loads of laundry Greg does in a year, we first need to calculate how many loads he does per week. \n\nHe has 4 twin beds and 1 king size bed. His laundry machine can only wash 2 twin sets of sheets at a time and 1 king set of sheets at a time. For the twin beds, since he can wash 2 sets at a time, he will need to do 4 / 2 = 2 loads for the twin beds. For the king size bed, he can wash 1 set at a time, so he will need to do 1 load for the king size bed.\n\nSo, in total, Greg does 2 loads for the twin beds + 1 load for the king size bed = 3 loads per week. \n\nSince there are 52 weeks in a year, we multiply the number of loads per week by the number of weeks in a year to get the total number of loads per year: 3 loads/week * 52 weeks/year = 156 loads/year.\n\n#### 156",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the total number of loads of laundry Greg does in a year, we first need to calculate how many loads he does per week. He has 4 twin beds and 1 king size bed. His laundry machine can only wash 2 twin sets of sheets at a time and 1 king set of sheets at a time. For the twin beds, since he can wash 2 sets at a time, he will need to do 4 / 2 = 2 loads for the twin beds. For the king size bed, he can wash 1 set at a time, so he will need to do 1 load for the king size bed.\n\nSo, in total, Greg does 2 loads for the twin beds + 1 load for the king size bed = 3 loads per week. Since there are 52 weeks in a year, we multiply the number of loads per week by the number of weeks in a year to get the total number of loads per year: 3 loads/week * 52 weeks/year = 156 loads/year.\n\n#### 156",
+			"retrievals": 0
+		}
+	]
+}

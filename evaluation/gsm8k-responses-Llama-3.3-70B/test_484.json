@@ -1,0 +1,13 @@
+{
+	"task_id": 484,
+	"prompt": "Gabriel and Luri each own a portable media player that can store up to 100 songs. Gabriel has 20 songs on his player while Luri has 3 times as many songs. How many fewer songs can Luri add to his player than Gabriel can add to his?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Gabriel can still store 100 - 20 = <<100-20=80>>80 songs.\nLuri has 20 x 3 = <<20*3=60>>60 songs stored in his player.\nThus, Luri can still store 100 - 60 = <<100-60=40>>40 songs.\nLuri can add 80 - 40 = <<80-40=40>>40 fewer songs to his player than Gabriel.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many fewer songs Luri can add to his player than Gabriel can, we first need to find out how many songs each of them can still add. Gabriel has 20 songs on his player, and since the player can store up to 100 songs, we subtract the number of songs he already has from the total capacity to find out how many more songs he can add.\n\nGabriel can add 100 - 20 = 80 more songs to his player.\n\n`\n \n\nLuri has 3 times as many songs as Gabriel, which means Luri has 3 * 20 = 60 songs. Since Luri's player can also store up to 100 songs, we subtract the number of songs he already has from the total capacity to find out how many more songs he can add.\n\nLuri can add 100 - 60 = 40 more songs to his player.\n\n`\n \n\nNow, to find out how many fewer songs Luri can add compared to Gabriel, we subtract the number of songs Luri can add from the number of songs Gabriel can add: 80 - 40 = 40.\n\n#### 40",
+			"old_rat_retrievals": 8,
+			"final_answer": "Gabriel and Luri each own a portable media player that can store up to 100 songs. Gabriel has 20 songs on his player, which means he can add 100 - 20 = 80 more songs to his player. Luri has 3 times as many songs as Gabriel, so Luri has 3 * 20 = 60 songs on his player. This means Luri can add 100 - 60 = 40 more songs to his player. To find out how many fewer songs Luri can add compared to Gabriel, we subtract the number of songs Luri can add from the number of songs Gabriel can add: 80 - 40 = 40.\n\n#### 40",
+			"retrievals": 2
+		}
+	]
+}

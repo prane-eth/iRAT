@@ -1,0 +1,13 @@
+{
+	"task_id": 429,
+	"prompt": "A food caterer was told to prepare gourmet hot dogs for 36 guests. While most people would only eat one hotdog, he prepared enough for half of the guests to be able to have two hotdogs. However, 40 guests showed up, and everyone wanted a second hotdog. How many guests did not get a second hotdog?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The food caterer prepared an additional 36/2 = <<36/2=18>>18 hot dogs.\nAltogether, he prepared 36 + 18 = <<36+18=54>>54 hotdogs.\nIf 40 people wanted seconds, he would have needed 40 x 2 = <<40*2=80>>80 hot dogs.\n80 - 54 = <<80-54=26>>26 people did not get second hotdogs.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, let's first calculate the total number of hotdogs prepared",
+			"old_rat_retrievals": 1,
+			"final_answer": "To solve this problem, let's break it down into steps.\n\n## Step 1: Calculate the total number of hotdogs prepared\nThe caterer was told to prepare gourmet hot dogs for 36 guests, with enough for half of the guests to have two hotdogs. This means the caterer prepared for 18 guests to have two hotdogs each, and the remaining 18 guests to have one hotdog each. So, the total number of hotdogs prepared is (18 * 2) + (18 * 1) = 36 + 18 = 54 hotdogs.\n\n## Step 2: Determine the total number of hotdogs requested by the guests\n40 guests showed up, and everyone wanted a second hotdog. This means each of the 40 guests wanted 2 hotdogs, so the total number of hotdogs requested is 40 * 2 = 80 hotdogs.\n\n## Step 3: Calculate the number of guests who did not get a second hotdog\nSince the caterer only prepared 54 hotdogs, and 80 hotdogs were requested, there is a shortage of hotdogs. To find out how many guests did not get a second hotdog, we need to calculate the difference between the number of hotdogs requested and the number of hotdogs prepared. The difference is 80 - 54 = 26 hotdogs. Since each guest wanted a second hotdog, we divide the shortage by 1 (since each guest is missing 1 hotdog), so 26 guests did not get a second hotdog.\n\n#### 26",
+			"retrievals": 1
+		}
+	]
+}

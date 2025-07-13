@@ -1,0 +1,13 @@
+{
+	"task_id": 731,
+	"prompt": "Parker chews 4 pieces of gum a day.  A pack of gum has 15 pieces of chewing gum per pack.  How many packs of gum will he need to last him 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He chews 4 pieces of gum a day so over 30 days he will chew 4*30 = <<4*30=120>>120 pieces of gum\nEach pack of gum holds 15 pieces and he needs 120 pieces for the month so he will need 120/15 = <<120/15=8>>8 packs of gum\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many packs of gum Parker will need to last him 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many packs of gum Parker will need to last him 30 days, we need to calculate the total number of pieces of gum he will chew in 30 days. Since Parker chews 4 pieces of gum a day, the total number of pieces of gum he will chew in 30 days is 4 pieces/day * 30 days = 120 pieces.\n\nGiven that a pack of gum has 15 pieces of chewing gum per pack, we can determine the number of packs needed by dividing the total number of pieces of gum needed by the number of pieces per pack. So, the calculation is 120 pieces / 15 pieces/pack = 8 packs.\n\nTherefore, Parker will need 8 packs of gum to last him 30 days.\n#### 8",
+			"retrievals": 0
+		}
+	]
+}

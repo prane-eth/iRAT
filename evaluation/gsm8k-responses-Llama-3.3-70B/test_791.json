@@ -1,0 +1,13 @@
+{
+	"task_id": 791,
+	"prompt": "At the trip to the county-level scavenger hunt competition, 90 people were required to split into groups for the competition to begin. To break people up into smaller groups with different leaders, 9-person groups were formed. If 3/5 of the number of groups each had members bring back 2 seashells each, how many seashells did they bring?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since the total number of people at the competition was 90, they formed 90/9=<<90/9=10>>10 groups after splitting into 9-person groups.\nIf 3/5 of the number of groups each had members bringing back 2 seashells each, then 3/5*10=<<3/5*10=6>>6 groups had members bringing back 2 seashells.\nSince each group had 9 people, the number of people in the 6 groups, who found 2 seashells each, was 6*9= <<6*9=54>>54.\nThe total number of seashells the 54 people brought is 54*2=<<54*2=108>>108 seashells.\n#### 108",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to calculate the total number of seashells\n\n#### 108",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of seashells brought back, we first need to determine the number of groups formed. Since there are 90 people and each group consists of 9 people, we divide the total number of people by the number of people per group. 90 people / 9 people per group = 10 groups. Next, we need to find out how many of these groups had members bring back seashells. It is stated that 3/5 of the number of groups participated. 3/5 * 10 groups = (3 * 10) / 5 = 30 / 5 = 6 groups.\n\nNow, we know that 6 groups participated and each member in these groups brought back 2 seashells. Since each group has 9 members, we calculate the total number of seashells brought back by multiplying the number of participating groups by the number of members per group and then by the number of seashells each member brought back. 6 groups * 9 members per group * 2 seashells per member = 6 * 9 * 2 = 108 seashells. \n\n#### 108",
+			"retrievals": 2
+		}
+	]
+}

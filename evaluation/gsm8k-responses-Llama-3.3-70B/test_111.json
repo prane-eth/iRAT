@@ -1,0 +1,13 @@
+{
+	"task_id": 111,
+	"prompt": "Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.\nMarcell ate 42 because 14 x 3 = <<14*3=42>>42\nIn total they ate 90 because 48 + 42 = <<48+42=90>>90\nOn average they ate 45 because 90 / 2 = <<90/2=45>>45\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "To find the average number of fruit roll-ups eaten by Marcell and Beatrice, we first need to calculate the total number of roll-ups each of them ate and then find the total combined. After that, we divide the total combined by 2 to get the average.\n\nBeatrice's roll-ups were 2 roll-ups wide and 24 roll-ups long. So, she ate 2 * 24 = 48 roll-ups.\n\nMarcell's roll-ups were 3 roll-ups wide and 14 roll-ups long. So, he ate 3 * 14 = 42 roll-ups.\n\nThe total number of roll-ups they ate combined is 48 (Beatrice) + 42 (Marcell) = 90 roll-ups.\n\nTo find the average, we divide the total by 2: 90 / 2 = 45.\n\n#### 45",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of fruit roll-ups eaten by Beatrice\nTo find the total number of fruit roll-ups eaten by Beatrice, we need to multiply the width of her roll-ups by the length. Beatrice's roll-ups were 2 roll-ups wide and 24 rolls up long. So, the total number of fruit roll-ups eaten by Beatrice is 2 * 24 = 48.\n\n## Step 2: Calculate the total number of fruit roll-ups eaten by Marcell\nTo find the total number of fruit roll-ups eaten by Marcell, we need to multiply the width of his roll-ups by the length. Marcell's roll-ups were 3 roll-ups wide and 14 rolls up long. So, the total number of fruit roll-ups eaten by Marcell is 3 * 14 = 42.\n\n## Step 3: Calculate the total number of fruit roll-ups eaten by both\nTo find the total number of fruit roll-ups eaten by both, we need to add the total number of fruit roll-ups eaten by Beatrice and Marcell. So, the total number of fruit roll-ups eaten by both is 48 + 42 = 90.\n\n## Step 4: Calculate the average number of fruit roll-ups eaten\nTo find the average number of fruit roll-ups eaten, we need to divide the total number of fruit roll-ups eaten by both by 2. So, the average number of fruit roll-ups eaten is 90 / 2 = 45.\n\n#### 45",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/77",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this ingeger is a cube of some integer number.\n    Note: you may assume the input is always valid.\n    Examples:\n    iscube(1) ==> True\n    iscube(2) ==> False\n    iscube(-1) ==> True\n    iscube(64) ==> True\n    iscube(0) ==> True\n    iscube(180) ==> False\n    '''\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef iscube(a):\n    '''\n    This function checks if a given integer is a cube of some integer number.\n    \n    Parameters:\n    a (int): The input integer to be checked.\n    \n    Returns:\n    bool: True if the integer is a cube of some integer, False otherwise.\n    '''\n    # Calculate the cube root of the absolute value of a\n    cube_root = round(abs(a) ** (1. / 3))\n    \n    # Check if the cube of the cube root equals the absolute value of a\n    return cube_root ** 3 == abs(a)\n```",
+			"old_rat_retrievals": 6,
+			"final_answer": "```python\ndef iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this integer is a cube of some integer number.\n    Note: you may assume the input is always valid.\n    Examples:\n    iscube(1) ==> True\n    iscube(2) ==> False\n    iscube(-1) ==> True\n    iscube(64) ==> True\n    iscube(0) ==> True\n    iscube(180) ==> False\n    '''\n    cube_root = round(a ** (1/3))\n    return cube_root ** 3 == a\n\nprint(iscube(1))   # True\nprint(iscube(2))   # False\nprint(iscube(-1))  # True\nprint(iscube(64))  # True\nprint(iscube(0))   # True\nprint(iscube(180)) # False\n```",
+			"retrievals": 4
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 382,
+	"prompt": "Cho hiked 14 kilometers per hour for 8 hours. Chloe hiked 9 kilometers per hour and stopped after 5 hours. How many kilometers farther did Cho hike?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cho = 14 * 8 = <<14*8=112>>112 km\nChloe = 9 * 5 = <<9*5=45>>45 km\n112 - 45 = <<112-45=67>>67 km\nCho hiked 67 kilometers farther than Chloe.\n#### 67",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many kilometers farther Cho hiked, we first need to calculate the distance each of them covered. Cho's distance can be calculated by multiplying his speed by the time he hiked. His speed was 14 kilometers per hour, and he hiked for 8 hours.\n\n \nThe formula to calculate distance is Distance = Speed \u00d7 Time. For Cho, this would be 14 km/h \u00d7 8 h = 112 km. So, Cho covered a distance of 112 kilometers.\n\n \nNext, we calculate the distance covered by Chloe. Chloe's speed was 9 kilometers per hour, and she hiked for 5 hours. Using the same formula, Distance = Speed \u00d7 Time, we get 9 km/h \u00d7 5 h = 45 km. Therefore, Chloe covered a distance of 45 kilometers.\n\n \nTo find out how many kilometers farther Cho hiked compared to Chloe, we subtract the distance covered by Chloe from the distance covered by Cho. This would be 112 km - 45 km = 67 km.\n\n#### 67",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the Distance Covered by Cho\nTo find out how many kilometers Cho hiked, we need to multiply the speed at which Cho hiked by the number of hours Cho hiked. Cho's speed was 14 kilometers per hour, and Cho hiked for 8 hours. Thus, the distance covered by Cho is 14 kilometers/hour * 8 hours = 112 kilometers.\n\n## Step 2: Calculate the Distance Covered by Chloe\nSimilarly, to determine the distance Chloe hiked, we multiply Chloe's speed by the number of hours Chloe hiked. Chloe's speed was 9 kilometers per hour, and Chloe hiked for 5 hours. Therefore, the distance covered by Chloe is 9 kilometers/hour * 5 hours = 45 kilometers.\n\n## Step 3: Find the Difference in the Distances Covered\nTo find out how many kilometers farther Cho hiked compared to Chloe, we subtract the distance covered by Chloe from the distance covered by Cho. So, the difference is 112 kilometers - 45 kilometers = 67 kilometers.\n\n#### 67",
+			"retrievals": 2
+		}
+	]
+}

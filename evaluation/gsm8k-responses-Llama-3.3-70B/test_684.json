@@ -1,0 +1,13 @@
+{
+	"task_id": 684,
+	"prompt": "Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spends 60/2=<<60/2=30>>30 minutes in turtle mode\nHe spends 40/2=<<40/2=20>>20 minutes in rabbit mode\nHe took 30+20=<<30+20=50>>50 minutes to mow the lawn.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine the time it takes Chris to mow half of his lawn in both \"turtle\" and \"rabbit\" modes. \n\nIn \"turtle\" mode, Chris can mow his entire lawn in 1 hour, which is equivalent to 60 minutes. Therefore, to mow half of his lawn in \"turtle\" mode, it would take him half of 60 minutes, which is 30 minutes.\n\nIn \"rabbit\" mode, Chris can mow his entire lawn in 40 minutes. Thus, to mow half of his lawn in \"rabbit\" mode, it would take him half of 40 minutes, which is 20 minutes.\n\nNow, we add the time it takes to mow half of the lawn in \"turtle\" mode to the time it takes to mow the other half in \"rabbit\" mode to find the total time. \n\nThe total time is 30 minutes (for half in \"turtle\" mode) + 20 minutes (for half in \"rabbit\" mode) = 50 minutes.\n\n#### 50",
+			"old_rat_retrievals": 6,
+			"final_answer": "To solve this problem, we need to calculate the time it takes for Chris to mow half of his lawn in \"turtle\" mode and half in \"rabbit\" mode. \n\nFirst, let's find the time it takes to mow half of the lawn in \"turtle\" mode. Since Chris can mow his entire lawn in 1 hour (60 minutes) in \"turtle\" mode, to mow half of it, he would take half of 60 minutes, which is 30 minutes.\n\nNext, we determine the time it takes to mow half of the lawn in \"rabbit\" mode. Chris can mow his entire lawn in 40 minutes in \"rabbit\" mode, so to mow half of it, he would take half of 40 minutes, which is 20 minutes.\n\nNow, we add the time it takes to mow half of the lawn in \"turtle\" mode to the time it takes to mow the other half in \"rabbit\" mode to find the total time. The total time is 30 minutes (for half in \"turtle\" mode) + 20 minutes (for half in \"rabbit\" mode) = 50 minutes.\n\n#### 50",
+			"retrievals": 1
+		}
+	]
+}

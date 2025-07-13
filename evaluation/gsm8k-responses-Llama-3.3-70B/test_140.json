@@ -1,0 +1,13 @@
+{
+	"task_id": 140,
+	"prompt": "In a candy machine, there are 22 more than four times the number of pink gumballs as there are blue gumballs. If there are 12 blue gumballs how many pink ones are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Four times the number of blue gumballs is 12*4=<<12*4=48>>48 gumballs\nThere are 48+22=<<48+22=70>>70 pink gumballs\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "Let's denote the number of blue gumballs as B and the number of pink gumballs as P. According to the problem, there are 12 blue gumballs, so B = 12.\n\nThe problem states that there are 22 more than four times the number of pink gumballs as there are blue gumballs. This can be represented by the equation:\n\nP = 4B + 22\n\nSubstituting B = 12 into the equation, we get:\n\nP = 4 * 12 + 22\nP = 48 + 22\nP = 70\n\nTherefore, there are 70 pink gumballs.\n\n#### 70",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Define the relationship between pink and blue gumballs\nThe problem states that there are 22 more than four times the number of pink gumballs as there are blue gumballs. Let's denote the number of blue gumballs as B and the number of pink gumballs as P. This relationship can be expressed as P = 4B + 22.\n\n## Step 2: Determine the number of blue gumballs\nWe are given that there are 12 blue gumballs, so B = 12.\n\n## Step 3: Calculate the number of pink gumballs\nUsing the relationship defined in Step 1 and the number of blue gumballs from Step 2, we can calculate the number of pink gumballs. P = 4 * 12 + 22 = 48 + 22 = 70.\n\n## Step 4: Conclusion\nTherefore, the number of pink gumballs is 70.\n\n#### 70",
+			"retrievals": 2
+		}
+	]
+}

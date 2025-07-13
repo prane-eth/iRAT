@@ -1,0 +1,13 @@
+{
+	"task_id": 1110,
+	"prompt": "Three of the women at the cocktail party are wearing 4 inch heels and three are wearing 2 inch heels. What is the average height of heels at this party?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of inches from the 4-inch heels: 3 women * 4 inches/woman = <<3*4=12>>12 inches\nThen find the total number of inches from the 2-inch heels: 3 women * 2 inches/woman = <<3*2=6>>6 inches\nThen add the total number of inches from each group of heels to find the overall total: 12 inches + 6 inches = <<12+6=18>>18 inches\nThen find the total number of women at the party: 3 women + 3 women = <<3+3=6>>6 women\nThen divide the total number of heel inches by the number of women to find the average heel height per woman: 18 inches / 6 women = <<18/6=3>>3 inches / woman\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average height of heels at the party, we first need to calculate the total height of all the heels. \nThere are three women wearing 4 inch heels, so the total height from these heels is 3 * 4 = 12 inches. \nThere are also three women wearing 2 inch heels, so the total height from these heels is 3 * 2 = 6 inches.\n\nThe total height of all the heels combined is 12 + 6 = 18 inches. \nNow, to find the average height, we divide the total height by the number of women, which is 6. \nSo, the average height is 18 / 6 = 3 inches.\n\n#### 3",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total height of the 4 inch heels\nTo find the total height of the 4 inch heels, we multiply the number of women wearing them by the height of the heels: 3 * 4 = 12 inches.\n\n## Step 2: Calculate the total height of the 2 inch heels\nNext, we calculate the total height of the 2 inch heels by multiplying the number of women wearing them by the height of the heels: 3 * 2 = 6 inches.\n\n## Step 3: Find the total height of all heels\nWe then add the total heights of the 4 inch and 2 inch heels to find the overall total height: 12 + 6 = 18 inches.\n\n## Step 4: Calculate the average height of the heels\nTo find the average height, we divide the total height of all heels by the total number of women: 18 / 6 = 3 inches.\n\nThe final answer is: #### 3",
+			"retrievals": 4
+		}
+	]
+}

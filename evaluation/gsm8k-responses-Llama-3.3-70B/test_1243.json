@@ -1,0 +1,13 @@
+{
+	"task_id": 1243,
+	"prompt": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If half of the hats are red, there are 1/2*100= <<1/2*100=50>>50 red hats.\nThe remaining number of hats which are not red is 100-50 = <<100-50=50>>50\n3/5 of the remaining hats are blue, a total of 3/5*50 = <<3/5*50=30>>30 hats\nIf the rest of the remaining hats are white, then there are 50-30 = <<50-30=20>>20 white hats.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many white hats Skyler has, we first need to determine the total number of red hats and then the total number of blue hats, since the remaining hats after subtracting the red and blue ones will be white.\n\nSkyler has 100 hats in total, and half of them are red. So, the number of red hats is 100 / 2 = 50 hats.\n\nAfter removing the red hats, we have 100 - 50 = 50 hats remaining. These remaining hats are either blue or white. We are told that 3/5 of the remaining hats are blue. \n\nTo find the number of blue hats, we calculate 3/5 of 50, which is (3/5) * 50 = 30 hats.\n\nNow, we subtract the number of blue hats from the remaining hats to find the number of white hats: 50 - 30 = 20 hats.\n\n#### 20",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of red hats\nSkyler has 100 hats in total, and half of them are red. So, the number of red hats is 100 / 2 = 50.\n\n## Step 2: Calculate the number of remaining hats after removing the red hats\nAfter removing the 50 red hats, the number of remaining hats is 100 - 50 = 50.\n\n## Step 3: Calculate the number of blue hats\n3/5 of the remaining hats are blue. So, the number of blue hats is (3/5) * 50 = 30.\n\n## Step 4: Calculate the number of white hats\nThe rest of the hats are white. So, the number of white hats is 50 - 30 = 20.\n\n#### 20",
+			"retrievals": 1
+		}
+	]
+}

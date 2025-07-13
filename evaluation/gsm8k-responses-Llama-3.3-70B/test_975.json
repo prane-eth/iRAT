@@ -1,0 +1,13 @@
+{
+	"task_id": 975,
+	"prompt": "Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.\nTyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.\nTyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many hours Tyler needs to work to afford his books, we first need to calculate the total cost of the books he wants to buy. The dictionary costs $18, the dinosaur book costs $13, and the children's cookbook costs $8. \n\nThe total cost of the books is $18 + $13 + $8 = $39. Tyler has already saved $14 from his allowance. \n\nTo find out how much more money Tyler needs to buy the books, we subtract the amount he has saved from the total cost of the books: $39 - $14 = $25. This means Tyler needs to earn $25 more to afford all the books he wants.\n\nSince Tyler earns $5 per hour, we divide the amount he needs to earn ($25) by his hourly wage ($5) to find out how many hours he needs to work: $25 / $5 = 5 hours.\n\n#### 5 hours",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how many hours Tyler needs to work to afford his books, we need to calculate the total cost of the books he wants to buy and then figure out how much more money he needs to earn. The dictionary costs $18, the dinosaur book costs $13, and the children's cookbook costs $8. The total cost of the books is $18 + $13 + $8 = $39. \n\nTyler has already saved $14 from his allowance, but he wants to know how many hours he needs to work to afford all the books. To find out how much more money Tyler needs to buy the books, we subtract the amount he has saved from the total cost of the books: $39 - $14 = $25. This means Tyler needs to earn $25 more to afford all the books he wants.\n\nSince Tyler earns $5 per hour, we can calculate the number of hours he needs to work by dividing the amount he needs to earn ($25) by his hourly wage ($5): $25 / $5 = 5 hours. Therefore, Tyler needs to work 5 hours to earn enough money to buy the dictionary, the dinosaur book, and the children's cookbook.\n\n#### 5 hours",
+			"retrievals": 1
+		}
+	]
+}

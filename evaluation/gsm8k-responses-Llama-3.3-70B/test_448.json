@@ -1,0 +1,13 @@
+{
+	"task_id": 448,
+	"prompt": "Joey has 214 points before his turn in Scrabble. He scores 26 points. Then Marcy, who has 225 points, scores 10 points. By how many points is Joey now winning?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Joey now has 214+26=<<214+26=240>>240.\nMarcy now has 225+10=<<225+10=235>>235.\nAnd 240-235=<<240-235=5>>5.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out by how many points Joey is winning, we first need to calculate the total points Joey and Marcy have after their turns. Joey initially had 214 points and then scored 26 points. \n\nSo, Joey's total points = 214 + 26 = 240 points.\n\n`\n \nMarcy initially had 225 points and then scored 10 points. \n\nSo, Marcy's total points = 225 + 10 = 235 points.\n\n`\n \nNow, to find out by how many points Joey is winning, we subtract Marcy's total points from Joey's total points. \n\nPoints by which Joey is winning = 240 - 235 = 5 points.\n\n#### 5",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out by how many points Joey is now winning, we first need to calculate his total points after his turn and then calculate Marcy's total points after her turn. \n\nJoey starts with 214 points and scores 26 points, so his new total is 214 + 26 = 240 points.\n\nMarcy starts with 225 points and scores 10 points, so her new total is 225 + 10 = 235 points.\n\nNow, to find out by how many points Joey is winning, we subtract Marcy's total points from Joey's total points: 240 - 235 = 5 points.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

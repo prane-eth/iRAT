@@ -1,0 +1,13 @@
+{
+	"task_id": 322,
+	"prompt": "A magazine costs half as much as a book. The book costs $4. A pen costs $1 less than a magazine. How much is the pen?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost of a magazine is $4/2 = $<<4/2=2>>2.\nThe cost of a pen is $2 - $1 = $<<2-1=1>>1.\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the pen costs, we first need to determine the cost of the magazine, since the pen's cost is compared to the magazine's cost. \n\nWe know that the book costs $4 and that the magazine costs half as much as the book. So, the cost of the magazine can be calculated as follows: magazine cost = book cost / 2 = $4 / 2 = $2.\n\nNow that we know the magazine costs $2, we can find out how much the pen costs. The pen costs $1 less than the magazine. \n\nSo, the cost of the pen = cost of the magazine - $1 = $2 - $1 = $1.\n\n#### $1",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the cost of the pen, we need to follow the given relationships between the prices of a magazine, a book, and the pen. We are told that a magazine costs half as much as a book, and the book costs $4. \n\nFirst, we calculate the cost of the magazine. Since the magazine costs half as much as the book, and the book costs $4, the cost of the magazine is $4 / 2 = $2.\n\nNext, we determine the cost of the pen. The problem states that the pen costs $1 less than the magazine. Therefore, the cost of the pen is $2 - $1 = $1.\n\nBased on the given information and the calculations above, we can conclude that the pen costs $1.\n\n#### $1",
+			"retrievals": 1
+		}
+	]
+}

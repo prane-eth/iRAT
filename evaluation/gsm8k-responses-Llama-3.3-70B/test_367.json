@@ -1,0 +1,13 @@
+{
+	"task_id": 367,
+	"prompt": "To be promoted to the next school year, Jane takes 3 tests that together must total at least 42 points. On her first test, Jane scored 15 points, on the second test she scored 18 points. What is the minimum number of points she must score on the third test to pass?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Adding the points obtained in the first two tests, Jane scored 15 + 18 = <<15+18=33>>33 points.\nTo pass, Jane must score 42 - 33 = <<42-33=9>>9 points.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the minimum number of points Jane must score on the third test to pass, we first need to determine the total points she has scored so far on her first two tests. \n\nOn her first test, Jane scored 15 points, and on her second test, she scored 18 points. The sum of these two test scores is 15 + 18 = 33 points.\n\nThe total points required from all three tests for Jane to be promoted is at least 42 points. \n\nTo find out the minimum number of points Jane needs on her third test, we subtract the total points she has so far (33 points) from the required total (42 points). So, 42 - 33 = 9 points.\n\n#### 9",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine the minimum number of points Jane must score on her third test to pass, we first calculate the total points she has scored so far on her first two tests. Jane scored 15 points on her first test and 18 points on her second test, making the total points from these two tests 15 + 18 = 33 points.\n\nThe requirement for promotion is a total of at least 42 points from all three tests. To find out the minimum points Jane needs on her third test, we subtract the total points she has so far (33 points) from the required total (42 points). So, 42 - 33 = 9 points.\n\nTherefore, Jane must score at least 9 points on her third test to achieve a total of 42 points or more, thereby meeting the requirement for promotion to the next school year.\n\n#### 9",
+			"retrievals": 2
+		}
+	]
+}

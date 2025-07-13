@@ -1,0 +1,13 @@
+{
+	"task_id": 610,
+	"prompt": "Juan wants to add croissants to his bakery menu.  It takes 1/4 pound of butter to make 1 dozen croissants.  He wants to start with making 4 dozen a day for a week.  How many pounds of butter will he need to make these croissants?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "1/4 pound of butter makes 1 dozen croissants and he wants to make 4 dozen so that\u2019s 4*.25 = <<4*.25=1>>1 pound of butter\nHe wants to add 4 dozen croissants a day to the menu for a total of 7 days so he needs 1*7 = 7 pounds of butter\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of butter needed, we first need to calculate the amount of butter required to make 4 dozen croissants in a day. Since it takes 1/4 pound of butter to make 1 dozen croissants, we multiply this amount by 4 to find the butter needed for 4 dozen croissants. \n\nSo, the calculation for the butter needed for 4 dozen croissants in a day is: 1/4 pound/dozen * 4 dozen = 1 pound.\n\nNext, we need to calculate the total amount of butter needed for a week. Since a week has 7 days, we multiply the daily amount of butter by 7. \n\nThe calculation for the total butter needed for a week is: 1 pound/day * 7 days = 7 pounds.\n\n#### 7 pounds",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the amount of butter Juan will need, we first need to find out how much butter is required to make 4 dozen croissants in a day. Since it takes 1/4 pound of butter to make 1 dozen croissants, to make 4 dozen croissants, Juan will need 4 times that amount. So, for 4 dozen croissants, the butter needed is 1/4 * 4 = 1 pound.\n\nSince Juan wants to make 4 dozen croissants a day for a week, and a week has 7 days, he will need 1 pound of butter per day for 7 days. Therefore, the total amount of butter needed for a week is 1 * 7 = 7 pounds.\n\n#### 7 pounds",
+			"retrievals": 2
+		}
+	]
+}

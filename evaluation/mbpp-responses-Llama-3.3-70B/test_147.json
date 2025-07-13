@@ -1,0 +1,19 @@
+{
+	"task_id": 157,
+	"prompt": "Write a function to count the pairs of reverse strings in the given string list.?assert count_reverse_pairs([\"julia\", \"best\", \"tseb\", \"for\", \"ailuj\"])== '2'",
+	"test_imports": [],
+	"test_list": [
+		"assert count_reverse_pairs([\"julia\", \"best\", \"tseb\", \"for\", \"ailuj\"])== '2'",
+		"assert count_reverse_pairs([\"geeks\", \"best\", \"for\", \"skeeg\"]) == '1'",
+		"assert count_reverse_pairs([\"makes\", \"best\", \"sekam\", \"for\", \"rof\"]) == '2'"
+	],
+	"mbpp_code": "def count_reverse_pairs(test_list):\r\n  res = sum([1 for idx in range(0, len(test_list)) for idxn in range(idx, len( \r\n\ttest_list)) if test_list[idxn] == str(''.join(list(reversed(test_list[idx]))))]) \r\n  return str(res)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to create a function that takes a list of strings as input and returns the count of pairs of reverse strings. \nWe will start by initializing a variable to store the count of pairs, and then we will iterate over the list of strings to compare each string with the others.\n\n \nThe function will be defined with a parameter for the list of strings, and we will use a nested loop to compare each string with the others. \nWe will also use Python's slicing feature to reverse each string and compare it with the other strings.\n\n \nHere is the code to solve the problem:\n```python\ndef count_reverse_pairs(strings):\n    count = 0\n    for i in range(len(strings)):\n        for j in range(i + 1, len(strings)):\n            if strings[i] == strings[j][::-1]:\n                count += 1\n    return str(count)\n```",
+			"old_rat_retrievals": 2,
+			"final_answer": "To solve this problem, we need to create a function that takes a list of strings as input and returns the count of pairs of reverse strings. \nWe will start by initializing a variable to store the count of pairs, and then we will iterate over the list of strings to compare each string with the others.\n\nThe function will be defined with a parameter for the list of strings, and we will use a nested loop to compare each string with the others. \nWe will also use Python's slicing feature to reverse each string and compare it with the other strings.\n\nHere is the code to solve the problem:\n```python\ndef count_reverse_pairs(strings):\n    count = 0\n    for i in range(len(strings)):\n        for j in range(i + 1, len(strings)):\n            if strings[i] == strings[j][::-1]:\n                count += 1\n    return str(count)\n```\nThis function works as follows:\n- It iterates over the list of strings using a nested loop structure.\n- For each pair of strings, it checks if the first string is equal to the reverse of the second string.\n- If a match is found, it increments the count of pairs.\n- Finally, it returns the count of pairs as a string.\n\nYou can test this function with the provided example:\n```python\nprint(count_reverse_pairs([\"julia\", \"best\", \"tseb\", \"for\", \"ailuj\"]))  # Output: '2'\n```",
+			"retrievals": 3
+		}
+	]
+}

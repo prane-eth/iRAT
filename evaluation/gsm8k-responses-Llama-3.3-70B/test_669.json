@@ -1,0 +1,13 @@
+{
+	"task_id": 669,
+	"prompt": "In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "20% of 50 employees are part of management so that's .20*50 = <<.20*50=10>>10 employees\nOut of these 10 employees, only 30% oversee the entire company so 10*.30 = <<10*.3=3>>3 people oversee the company\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of employees who oversee the company, we first need to calculate",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of management employees\nFirst, we need to find out how many employees are management. Given that 20% of the employees are management, we calculate this as 20% of 50.\n\n## Step 2: Perform the calculation for management employees\n20% of 50 is calculated as 0.20 * 50 = 10. So, there are 10 management employees.\n\n## Step 3: Calculate the number of employees overseeing the company\nNext, we need to find out how many of these management employees oversee the entire company. We are told that 30% of the management employees oversee the company.\n\n## Step 4: Perform the calculation for employees overseeing the company\n30% of 10 is calculated as 0.30 * 10 = 3. So, there are 3 employees who oversee the company.\n\nThe final answer is: #### 3",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1197,
+	"prompt": "Alain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Alain has a total of 5 x 5= <<5*5=25>>25 red pens.\nAnd he has a total of 5 x 2 = <<5*2=10>>10 packs of black pens.\nSo, the total number of black pens he has is 10 x 5 = <<10*5=50>>50.\nTherefore, the total number of pens he has is 50 + 25= <<50+25=75>>75.\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of pens Alain has, we first need to calculate the number of red pens and the number of black pens separately. Alain's mom bought 5 packs of red pens. Since each pack has 5 pens, the total number of red pens is 5 packs * 5 pens/pack = 25 red pens.\n\n \nThe number of black pens bought is twice the amount of red pens. Since there are 25 red pens, the number of black pens is 2 * 25 = 50 black pens.\n\n \nNow, to find the total number of pens Alain has, we add the number of red pens to the number of black pens: 25 red pens + 50 black pens = 75 pens.\n\n#### 75",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of pens Alain has, we first need to calculate the number of red pens and the number of black pens separately, then add them together.\n\nAlain's mom bought 5 packs of red pens. Since each pack has 5 pens, the total number of red pens is 5 packs * 5 pens/pack = 25 red pens.\n\nShe also bought twice the amount of black pens than the red pens. Since there are 5 packs of red pens, and each pack has 5 pens, she bought 5 * 5 = 25 red pens. Twice the amount of black pens would be 2 * 25 = 50 black pens.\n\nNow, adding the number of red pens and black pens together gives us the total number of pens Alain has: 25 red pens + 50 black pens = 75 pens.\n\n#### 75",
+			"retrievals": 4
+		}
+	]
+}

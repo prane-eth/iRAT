@@ -1,0 +1,13 @@
+{
+	"task_id": 566,
+	"prompt": "Cody and Trevor had 12 sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cody ate 12/3=<<12/3=4>>4 sandwiches.\nTrevor ate 12/4=<<12/4=3>>3 sandwiches.\nCody and Trevor ate 4+3=<<4+3=7>>7 sandwiches.\nThere are 12-7=<<12-7=5>>5 sandwiches left\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many sandwiches are left, we first need to determine how many sandwiches Cody and Trevor each ate. Cody ate a third of the sandwiches, which can be calculated as 12 * (1/3) = 12 / 3 = 4 sandwiches.\n\nTrevor ate a quarter of the sandwiches, which can be calculated as 12 * (1/4) = 12 / 4 = 3 sandwiches.\n\nNow, we add the number of sandwiches Cody and Trevor ate to find the total number of sandwiches eaten: 4 (Cody's sandwiches) + 3 (Trevor's sandwiches) = 7 sandwiches.\n\nTo find out how many sandwiches are left, we subtract the total number of sandwiches eaten from the initial number of sandwiches: 12 (initial sandwiches) - 7 (sandwiches eaten) = 5 sandwiches.\n\n#### 5",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of sandwiches Cody ate\nCody ate a third of the sandwiches, which is 12 * (1/3) = 4 sandwiches.\n\n## Step 2: Calculate the number of sandwiches Trevor ate\nTrevor ate a quarter of the sandwiches, which is 12 * (1/4) = 3 sandwiches.\n\n## Step 3: Calculate the total number of sandwiches eaten\nThe total number of sandwiches eaten is 4 (by Cody) + 3 (by Trevor) = 7 sandwiches.\n\n## Step 4: Calculate the number of sandwiches left\nTo find out how many sandwiches are left, we subtract the total number of sandwiches eaten from the initial number of sandwiches: 12 (initial sandwiches) - 7 (sandwiches eaten) = 5 sandwiches.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

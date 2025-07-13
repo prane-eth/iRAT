@@ -1,0 +1,13 @@
+{
+	"task_id": 637,
+	"prompt": "Julie operates the cash register exactly twice as fast as her less-experienced colleague Jewel. Daily, Jewel processes 50 customers. What is the total weekly production for the two if they work all days of the week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "While Jewel is processing 50 orders in a day, Julie processes 50 orders/day * 2 = <<50*2=100>>100 orders/day.\nIn a day, they process 100 orders/day + 50 orders/day = <<100+50=150>>150 orders together.\nThe total number of orders the two processes in a week is 150 orders/day * 7 days/week = <<150*7=1050>>1050 orders\n#### 1050",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total weekly production for Julie and Jewel, we first need to determine how many customers each of them can process in a day. Since Jewel processes 50 customers daily, and Julie operates the cash register exactly twice as fast as Jewel, Julie can process twice the number of customers that Jewel does.\n\nThis means Julie can process 2 * 50 = 100 customers daily. Now, to find the total number of customers they can process in a day together, we add the number of customers each of them can process. So, 50 (Jewel) + 100 (Julie) = 150 customers per day.\n\nTo find the total weekly production, we need to multiply the daily production by the number of days in a week, which is 7. Therefore, the total weekly production for the two is 150 * 7 = 1050 customers.\n\n#### 1050",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total weekly production for Julie and Jewel, we first need to determine how many customers each of them can process in a day. Since Jewel processes 50 customers daily, and Julie operates the cash register exactly twice as fast as Jewel, Julie can process twice the number of customers that Jewel does.\n\nThis means Julie can process 2 * 50 = 100 customers daily. Now, to find the total number of customers they can process in a day together, we add the number of customers each of them can process. So, 50 (Jewel) + 100 (Julie) = 150 customers per day. To find the total weekly production, we need to multiply the daily production by the number of days in a week, which is 7. Therefore, the total weekly production for the two is 150 * 7 = 1050 customers.\n\n#### 1050",
+			"retrievals": 2
+		}
+	]
+}

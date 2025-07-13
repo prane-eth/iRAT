@@ -1,0 +1,13 @@
+{
+	"task_id": 12,
+	"prompt": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total charge for the doughnuts was 3 x $68 = $<<3*68=204>>204.\nThe total charge for the mini cupcakes was 2 x $80 = $<<2*80=160>>160.\nThe total charge for the mini cheesecakes was 6 x $55 = $<<6*55=330>>330.\nTherefore the total amount Toula paid for the pastries was $204 + $160 + $330 = $<<204+160+330=694>>694.\n#### 694",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the pastries, we first need to calculate the cost of each type of pastry. \nToula bought 3 dozen donuts at $68 per dozen, so the cost of the donuts is 3 * $68 = $204.\nShe also bought 2 dozen mini cupcakes at $80 per dozen, so the cost of the mini cupcakes is 2 * $80 = $160.\nAdditionally, she bought 6 dozen mini cheesecakes at $55 per dozen, so the cost of the mini cheesecakes is 6 * $55 = $330.\n\nNow, we need to add up the costs of all the pastries to find the total cost. \nThe total cost is $204 (donuts) + $160 (mini cupcakes) + $330 (mini cheesecakes) = $694.\n\n#### $694",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the cost of donuts\nTo find the total cost of the pastries, we first need to calculate the cost of each type of pastry. Toula bought 3 dozen donuts at $68 per dozen, so the cost of the donuts is 3 * $68 = $204.\n\n## Step 2: Calculate the cost of mini cupcakes\nShe also bought 2 dozen mini cupcakes at $80 per dozen, so the cost of the mini cupcakes is 2 * $80 = $160.\n\n## Step 3: Calculate the cost of mini cheesecakes\nAdditionally, she bought 6 dozen mini cheesecakes at $55 per dozen, so the cost of the mini cheesecakes is 6 * $55 = $330.\n\n## Step 4: Calculate the total cost\nNow, we need to add up the costs of all the pastries to find the total cost. The total cost is $204 (donuts) + $160 (mini cupcakes) + $330 (mini cheesecakes) = $694.\n\n#### $694",
+			"retrievals": 2
+		}
+	]
+}

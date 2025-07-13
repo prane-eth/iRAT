@@ -1,0 +1,13 @@
+{
+	"task_id": 1202,
+	"prompt": "There are 66 fish in the fish tank. One-third of the fish have red stripes, and 5/11 of the remaining fish have blue stripes. Altogether, how many fish have red stripes and blue stripes?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "One-third of the fish in the fish tank have red stripes, a total of 1/3*66 = <<1/3*66=22>>22 fish\nThe number of fish in the fish tank with no red stripes is 66-22 =<<66-22=44>>44\n5/11 of the remaining fish have blue stripes, a total of 5/11*44 = <<5/11*44=20>>20 fish\nAltogether, the number of fish that have red stripes and blue stripes is 20+22 = <<20+22=42>>42 fish\n#### 42",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of fish with red stripes, we first calculate one-third of the total number of fish. The total number of fish is 66. So, the number of fish with red stripes is 66 * (1/3) = 22.\n\nThe remaining fish are 66 - 22 = 44. Now, we need to find 5/11 of the remaining fish to determine the number of fish with blue stripes. This is calculated as 44 * (5/11) = 20.\n\nTo find the total number of fish with red stripes and blue stripes, we add the number of fish with red stripes to the number of fish with blue stripes. So, 22 (red stripes) + 20 (blue stripes) = 42.\n\n#### 42",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the number of fish with red stripes\nTo find the number of fish with red stripes, we need to calculate one-third of the total number of fish. The total number of fish is 66. So, the number of fish with red stripes is 66 * (1/3) = 22.\n\n## Step 2: Calculate the number of remaining fish\nAfter finding the number of fish with red stripes, we subtract this from the total number of fish to find the remaining fish. The remaining fish are 66 - 22 = 44.\n\n## Step 3: Calculate the number of fish with blue stripes\nNow, we need to find 5/11 of the remaining fish to determine the number of fish with blue stripes. The number of fish with blue stripes is 44 * (5/11) = 20.\n\n## Step 4: Calculate the total number of fish with red and blue stripes\nTo find the total number of fish with red and blue stripes, we add the number of fish with red stripes and the number of fish with blue stripes. The total number of fish with red and blue stripes is 22 + 20 = 42.\n\nThe final answer is: #### 42",
+			"retrievals": 1
+		}
+	]
+}

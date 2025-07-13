@@ -1,0 +1,13 @@
+{
+	"task_id": 705,
+	"prompt": "Gerald and Julia divided $100 in the ratio 3:2. If Gerald spent $10 on a book, how much money did he have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The $100 was divided into 3 + 2 = <<3+2=5>>5 parts.\nSo each part is $100/5 = $<<100/5=20>>20.\nSo Gerald received $20 x 3 = $<<20*3=60>>60.\nGerald bought a book at $<<10=10>>10.\nTherefore, Gerald was left with $60 - $10 = $<<60-10=50>>50.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Gerald had left, we first need to determine how much money he received from the $100 that he and Julia divided in the ratio 3:2. \n\nThe total parts in the ratio are 3 + 2 = 5. This means Gerald's share is 3/5 of $100, and Julia's share is 2/5 of $100. To calculate Gerald's share: 3/5 * $100 = $60.\n\nGerald spent $10 on a book. So, to find out how much money he had left, we subtract the cost of the book from his share: $60 - $10 = $50.\n\n#### $50",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Gerald had left, we first need to determine how much money he received from the $100 that he and Julia divided in the ratio 3:2. The total parts in the ratio are 3 + 2 = 5. This means Gerald's share is 3/5 of $100. To calculate Gerald's share: 3/5 * $100 = $60. Gerald spent $10 on a book. So, to find out how much money he had left, we subtract the cost of the book from his share: $60 - $10 = $50. \n\n#### $50",
+			"retrievals": 1
+		}
+	]
+}

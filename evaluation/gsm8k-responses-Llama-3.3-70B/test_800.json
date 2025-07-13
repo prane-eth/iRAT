@@ -1,0 +1,13 @@
+{
+	"task_id": 800,
+	"prompt": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "3 loaves of bread cost 3 * $2 = $<<3*2=6>>6.\n2 bagels cost 2 * $1 = $<<2*1=2>>2.\nThe loaves of bread cost $6 - $2 = $<<6-2=4>>4 more than the bagels.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more 3 loaves of bread cost than 2 bagels, we first need to calculate the cost of 3 loaves of bread and the cost of 2 bagels separately.\n\nThe cost of one loaf of bread is $2. Therefore, the cost of 3 loaves of bread is 3 * $2 = $6. \n\nThe cost of one bagel is $1. Therefore, the cost of 2 bagels is 2 * $1 = $2.\n\nNow, we need to find the difference in cost between 3 loaves of bread and 2 bagels. This is calculated by subtracting the cost of 2 bagels from the cost of 3 loaves of bread: $6 - $2 = $4.\n\n#### $4",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the cost of 3 loaves of bread\nTo find the cost of 3 loaves of bread, we multiply the cost of one loaf by 3. The cost of one loaf of bread is $2, so 3 loaves of bread will cost $2 * 3 = $6.\n\n## Step 2: Calculate the cost of 2 bagels\nNext, we calculate the cost of 2 bagels. Since each bagel costs $1, 2 bagels will cost $1 * 2 = $2.\n\n## Step 3: Determine the difference in cost between 3 loaves of bread and 2 bagels\nTo find out how much more 3 loaves of bread cost than 2 bagels, we subtract the cost of 2 bagels from the cost of 3 loaves of bread. So, $6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4.\n\n#### $4",
+			"retrievals": 2
+		}
+	]
+}

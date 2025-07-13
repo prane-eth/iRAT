@@ -1,0 +1,13 @@
+{
+	"task_id": 572,
+	"prompt": "Leah just got a new kitten. Spaying her cost $200, her 3 vaccines costs $20 each, and the kitten broke 4 vases that cost $12 each. How much has the kitten cost so far?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total cost of the vaccines: $20/vaccine * 3 vaccines = $<<20*3=60>>60\nThen find the total cost of the vases: 4 vases * $12/vase = $<<4*12=48>>48\nThen add the cost of the vaccines and vases to the cost of the spaying to find the total cost: $200 + $48 + $60 = $<<200+48+60=308>>308\n#### 308",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the kitten, we need to break down the costs into separate components. \nThe cost of spaying the kitten is $200. \nThe cost of vaccines is $20 each, and the kitten received 3 vaccines, so the total cost of vaccines is 3 * $20 = $60.\n\n`\nThe cost of the broken vases is $12 each, and there were 4 vases broken, so the total cost of the broken vases is 4 * $12 = $48.\nNow, we can add up all the costs to find the total cost of the kitten: $200 (spaying) + $60 (vaccines) + $48 (broken vases) = $308.\n\n#### $308",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the total cost of the kitten, we need to add up the expenses for spaying, vaccines, and the damage caused by the kitten. \n\nFirst, let's calculate the cost of the vaccines. Since each vaccine costs $20 and the kitten received 3 vaccines, the total vaccine cost is 3 * $20 = $60.\n\nNext, we calculate the cost of the broken vases. The kitten broke 4 vases, each costing $12. So, the cost of the broken vases is 4 * $12 = $48.\n\nNow, we add up the costs of spaying, vaccines, and the broken vases to find the total cost. The cost of spaying is $200, the total vaccine cost is $60, and the cost of the broken vases is $48. \n\nThe total cost is $200 (spaying) + $60 (vaccines) + $48 (vases) = $308.\n\n#### $308",
+			"retrievals": 2
+		}
+	]
+}

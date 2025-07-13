@@ -1,0 +1,13 @@
+{
+	"task_id": 269,
+	"prompt": "A real estate agent has spent $5 on each newspaper ad and spent $75 on each television ad. He bought 50 newspaper ads and 15 television ads. How much did the real estate agent spend on buying all the ads?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spent a total of $5 x 50 = $<<5*50=250>>250 for the newspaper ads.\nHe spent a total of $75 x 15 = $<<75*15=1125>>1125 for the television ads.\nTherefore, the real estate agent spent $250 + $1125 = $<<250+1125=1375>>1375 on buying all the ads.\n#### 1375",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount spent by the real estate agent on buying all the ads, we first need to calculate the total cost of the newspaper ads and the total cost of the television ads separately. \n\nThe cost of each newspaper ad is $5, and the agent bought 50 newspaper ads. So, the total cost of the newspaper ads can be calculated as 5 * 50 = $250.\n\nThe cost of each television ad is $75, and the agent bought 15 television ads. So, the total cost of the television ads can be calculated as 75 * 15 = $1125.\n\nNow, to find the total amount spent on all the ads, we need to add the total cost of the newspaper ads and the total cost of the television ads. \n\nThe total cost is 250 + 1125 = $1375.\n\n#### $1375",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total amount spent by the real estate agent on buying all the ads, we need to calculate the total cost of newspaper ads and television ads separately and then add them together.\n\nFirst, we calculate the total cost of newspaper ads by multiplying the cost per ad by the number of ads: $5 * 50 = $250.\n\nNext, we calculate the total cost of television ads by multiplying the cost per ad by the number of ads: $75 * 15 = $1125.\n\nFinally, we add the total cost of newspaper ads and the total cost of television ads to find the total amount spent on all ads: $250 + $1125 = $1375.\n\n#### $1375",
+			"retrievals": 1
+		}
+	]
+}

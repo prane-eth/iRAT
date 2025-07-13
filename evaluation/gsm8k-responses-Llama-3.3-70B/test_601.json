@@ -1,0 +1,13 @@
+{
+	"task_id": 601,
+	"prompt": "Jamaal is at the gym. He has been using an 8-pound weight. He increases the weight that he uses by 50%. It turns out to be too heavy, so he uses a weight two pounds lighter than that. What is the weight, in pounds, that he now uses?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "An increase of 50% of 8 is 1.5*8=12.\nHe switches to a 12-2=<<12-2=10>>10 pound weight.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the weight Jamaal now uses, first, we need to calculate the weight after he increases it by 50%. The original weight is 8 pounds. \n\nAn increase of 50% means we add 50% of 8 pounds to 8 pounds. 50% of 8 pounds is calculated as 0.5 * 8 = 4 pounds.\n\nSo, the weight after the increase is 8 pounds + 4 pounds = 12 pounds.\n\nHowever, it turns out that 12 pounds is too heavy, so Jamaal decides to use a weight that is 2 pounds lighter than 12 pounds. \n\nTherefore, we subtract 2 pounds from 12 pounds to find the new weight: 12 pounds - 2 pounds = 10 pounds.\n\n#### 10",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the increased weight\nJamaal starts with an 8-pound weight and increases it by 50%. To find the new weight, we need to calculate 50% of 8 pounds and add it to the original weight. 50% of 8 pounds is 0.5 * 8 = 4 pounds.\n\n## Step 2: Add the increase to the original weight\nNow, we add the 50% increase (4 pounds) to the original weight (8 pounds) to find the new weight. new_weight = original_weight + increase = 8 + 4 = 12 pounds.\n\n## Step 3: Calculate the final weight used by Jamaal\nThe new weight of 12 pounds is too heavy, so Jamaal decides to use a weight that is 2 pounds lighter. final_weight = new_weight - 2 = 12 - 2 = 10 pounds.\n\n#### 10",
+			"retrievals": 2
+		}
+	]
+}

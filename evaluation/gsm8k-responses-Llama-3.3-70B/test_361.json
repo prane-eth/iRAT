@@ -1,0 +1,13 @@
+{
+	"task_id": 361,
+	"prompt": "Carver just turned 45 years old, which makes him 5 years less than twice the age of his son.  How old is his son, in years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x be the age of Carver's son.\nSince Carver's age (45) is 5 years less than twice the age of his son, then 45=(2*x)-5.\nAdd 5 to each side of the equation and we get 50=2*x.\nThus, the age of Carver's son is x=25 years old.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the age of Carver's son, we first need to set up an equation based on the information given. Let's denote the age of Carver's son as \\(S\\). According to the problem, Carver is 45 years old, which is 5 years less than twice the age of his son. This can be represented as \\(45 = 2S - 5\\).\n\n \nWe now need to solve this equation for \\(S\\) to find the son's age. First, we add 5 to both sides of the equation to get \\(45 + 5 = 2S - 5 + 5\\), which simplifies to \\(50 = 2S\\).\n\n \nNext, we divide both sides of the equation by 2 to solve for \\(S\\): \\(50 / 2 = 2S / 2\\), which simplifies to \\(25 = S\\). Therefore, Carver's son is 25 years old.\n\n#### 25",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the son's age, let's denote the son's age as \"x\". According to the problem, Carver is 5 years less than twice the age of his son. Therefore, we can set up the equation: 45 = 2x - 5. \n\nTo solve for x, we first add 5 to both sides of the equation: 45 + 5 = 2x - 5 + 5, which simplifies to 50 = 2x. \n\nThen, we divide both sides by 2 to solve for x: 50 / 2 = 2x / 2, which simplifies to 25 = x.\n\nSo, the son is 25 years old.\n\n#### 25",
+			"retrievals": 1
+		}
+	]
+}

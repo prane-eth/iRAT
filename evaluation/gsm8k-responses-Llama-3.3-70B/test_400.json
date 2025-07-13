@@ -1,0 +1,13 @@
+{
+	"task_id": 400,
+	"prompt": "Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Beth is 30+5 = <<30+5=35>>35 years old.\nAlice is 35+7 = <<35+7=42>>42 years old.\nThe difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the difference between the ages of Alice and Erica, we first need to establish the ages of Alice and Beth relative to Erica's age. We know Erica is 30 years old.\n\nErica's age is given as 30 years. Beth is 5 years older than Erica, so Beth's age can be calculated by adding 5 to Erica's age: 30 + 5 = 35 years.\n\nAlice is 7 years older than Beth. Since Beth is 35 years old, Alice's age can be found by adding 7 to Beth's age: 35 + 7 = 42 years.\n\nThe difference between Alice's and Erica's ages can be calculated by subtracting Erica's age from Alice's age: 42 - 30 = 12 years.\n\n#### 12",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine Erica's Age\nErica is 30 years old.\n\n## Step 2: Calculate Beth's Age\nBeth is 5 years older than Erica, so Beth's age is 30 + 5 = 35 years old.\n\n## Step 3: Calculate Alice's Age\nAlice is 7 years older than Beth, so Alice's age is 35 + 7 = 42 years old.\n\n## Step 4: Find the Difference Between Alice's and Erica's Ages\nThe difference between Alice's and Erica's ages is 42 - 30 = 12 years.\n\n#### 12",
+			"retrievals": 2
+		}
+	]
+}

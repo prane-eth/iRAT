@@ -1,0 +1,13 @@
+{
+	"task_id": 911,
+	"prompt": "Farmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Farmer Smith has 2*200+100=<<2*200+100=500>>500 acres.\nThe total is 200+500=<<200+500=700>>700.\n#### 700",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of acres both farms have, we first need to calculate the size of Farmer Smith's farm. Farmer Brown's farm is 200 acres.\n\nFarmer Smith's farm is 100 acres more than twice the size of Farmer Brown's farm. So, we calculate it as follows: twice the size of Farmer Brown's farm is 2 * 200 = 400 acres. Then, 100 acres more than that is 400 + 100 = 500 acres for Farmer Smith's farm.\n\nNow, to find the total number of acres both farms have together, we add the size of Farmer Brown's farm to the size of Farmer Smith's farm: 200 acres (Farmer Brown) + 500 acres (Farmer Smith) = 700 acres.\n\n#### 700",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of acres that both farms have together, we first need to calculate the size of Farmer Smith's farm. Since Farmer Brown's farm is 200 acres, twice that size would be 2 * 200 = 400 acres. Farmer Smith's farm is 100 acres more than twice the size of Farmer Brown's farm, so it is 400 + 100 = 500 acres.\n\nNow, we add the size of Farmer Brown's farm (200 acres) to the size of Farmer Smith's farm (500 acres) to get the total number of acres: 200 + 500 = 700 acres.\n\nTherefore, the total number of acres that the two farms have together is 700 acres.\n#### 700",
+			"retrievals": 2
+		}
+	]
+}

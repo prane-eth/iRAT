@@ -1,0 +1,13 @@
+{
+	"task_id": 1189,
+	"prompt": "Digimon had its 20th anniversary.  When it came out John was twice as old as Jim.  If John is 28 now how old is Jim?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "When Digimon came out John would have been 28-20=<<28-20=8>>8\nSo Jim was 8/2=<<8/2=4>>4 years old\nThat means John is now 4+20=<<4+20=24>>24\n#### 24",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Jim's current age, we first need to determine the age of both John and Jim at the time Digimon was released, which was 20 years ago.\n\nSince John is currently 28 years old, we subtract 20 from his current age to find his age 20 years ago. So, 28 - 20 = 8. This means John was 8 years old when Digimon was released.\n\nGiven that at the time of Digimon's release, John was twice as old as Jim, we can calculate Jim's age at that time. If John was 8, then Jim must have been 8 / 2 = 4 years old.\n\nTo find Jim's current age, we add the 20 years that have passed since Digimon's release to Jim's age at that time. So, Jim's current age is 4 + 20 = 24.\n\n#### 24",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find Jim's current age, we first need to determine John's age 20 years ago. Since John is 28 now, 20 years ago he would have been 28 - 20 = 8 years old.\n\nGiven that John was twice as old as Jim 20 years ago, we can calculate Jim's age at that time. If John was 8 years old, then Jim would have been 8 / 2 = 4 years old.\n\nTo find Jim's current age, we add the 20 years that have passed since Digimon's release to Jim's age at that time. So, Jim's current age is 4 + 20 = 24.\n\n#### 24",
+			"retrievals": 2
+		}
+	]
+}

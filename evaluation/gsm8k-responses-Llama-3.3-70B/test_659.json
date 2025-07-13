@@ -1,0 +1,13 @@
+{
+	"task_id": 659,
+	"prompt": "Finley went to the grocery store and bought rice, beans, and pork for use in their home. It took her 20 more minutes to cook pork than rice, while beans took half the combined cooking time of pork and rice. If it took her 30 minutes to cook rice, how long in minutes did it take to cook all the food?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If rice took thirty minutes to cook, pork took 20+30 = <<20+30=50>>50 minutes.\nThe total cooking time for pork and rice is 50+30 = <<50+30=80>>80 minutes.\nThe beans cooked 1/2*80 = <<80*1/2=40>>40 minutes to cook.\nThe total amount of time taken to cook all the food is 40+50+30 = <<40+50+30=120>>120 minutes.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Determine the cooking time for rice.\nThe cooking time for rice is given as 30 minutes.\n\n## Step 2: Calculate the cooking time for pork.\nIt took 20 more minutes to cook pork than rice. So, the cooking time for pork is 30 minutes (rice) + 20 minutes = 50 minutes.\n\n## Step 3: Calculate the combined cooking time of pork and rice.\nThe combined cooking time of pork and rice is 50 minutes (pork) + 30 minutes (rice) = 80 minutes.\n\n## Step 4: Calculate the cooking time for beans.\nBeans took half the combined cooking time of pork and rice. So, the cooking time for beans is 80 minutes / 2 = 40 minutes.\n\n## Step 5: Calculate the total cooking time for all the food.\nThe total cooking time is the sum of the cooking times for rice, pork, and beans. Total time = 30 minutes (rice) + 50 minutes (pork) + 40 minutes (beans) = 120 minutes.\n\n#### 120",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total cooking time, we first need to calculate the cooking time for each item. It took Finley 30 minutes to cook rice. Since it took her 20 more minutes to cook pork than rice, the cooking time for pork is 30 + 20 = 50 minutes. \n\nThe cooking time for beans is half the combined cooking time of pork and rice. The combined cooking time for pork and rice is 50 (pork) + 30 (rice) = 80 minutes. Therefore, beans took 80 / 2 = 40 minutes to cook. \n\nTo find the total cooking time, we add the cooking times for rice, pork, and beans: 30 (rice) + 50 (pork) + 40 (beans) = 120 minutes. \n\n#### 120",
+			"retrievals": 1
+		}
+	]
+}

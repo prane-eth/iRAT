@@ -1,0 +1,13 @@
+{
+	"task_id": 938,
+	"prompt": "Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep\nNow figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds\nNow figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds\nNow add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds\n#### 159",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pounds of hay Nate needs, we first need to determine the amount of hay each sheep needs. We know each goat needs 5 pounds of hay. \n\nEach sheep needs 3 pounds less than twice the amount each goat needs. So, we calculate the amount for each sheep as follows: 2 * (amount each goat needs) - 3 = 2 * 5 - 3 = 10 - 3 = 7 pounds.\n\nNow, we know each goat needs 5 pounds and each sheep needs 7 pounds of hay. \n\nWe have 15 goats and 12 sheep. To find the total amount of hay needed, we calculate the total for goats and sheep separately and then add them together. For goats: 15 * 5 = 75 pounds. For sheep: 12 * 7 = 84 pounds. \n\nThe total amount of hay needed is the sum of the hay needed for goats and sheep: 75 + 84 = 159 pounds.\n\n#### 159",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many pounds of hay Nate needs, we first need to determine the amount of hay each sheep needs. We know that each goat needs 5 pounds of hay. Since each sheep needs 3 pounds less than twice the amount each goat needs, we calculate this as 2 * 5 - 3 = 10 - 3 = 7 pounds of hay per sheep.\n\nNext, we calculate the total amount of hay needed for the goats. There are 15 goats, and each goat needs 5 pounds of hay. So, the total amount of hay needed for the goats is 15 * 5 = 75 pounds.\n\nThen, we calculate the total amount of hay needed for the sheep. There are 12 sheep, and each sheep needs 7 pounds of hay. So, the total amount of hay needed for the sheep is 12 * 7 = 84 pounds.\n\nFinally, we add the total amount of hay needed for the goats and the sheep to find out how many pounds of hay Nate needs in total. This is 75 + 84 = 159 pounds.\n\nTherefore, Nate needs a total of 159 pounds of hay to feed his livestock, which includes both the goats and the sheep.\n\n#### 159",
+			"retrievals": 1
+		}
+	]
+}

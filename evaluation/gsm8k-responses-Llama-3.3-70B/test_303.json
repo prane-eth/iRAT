@@ -1,0 +1,13 @@
+{
+	"task_id": 303,
+	"prompt": "Annika brought $50 to the town fair. She spent half of it on food and snacks, and an additional $10 for rides. How much, in dollars, is left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She spent 50/2=$<<50/2=25>>25 on the food.\nThen 50-25-10=$<<50-25-10=15>>15 are left.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much money Annika has left, we first need to calculate how much she spent. \n\n1. She spent half of her $50 on food and snacks. Half of $50 is $50 / 2 = $25.\n2. She also spent an additional $10 on rides.\n3. So, in total, she spent $25 + $10 = $35.\n\nNow, to find out how much money is left, we subtract the amount she spent from the amount she brought:\n\n$50 - $35 = $15.\n\nTherefore, Annika has $15 left.\n\n#### $15",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money Annika has left, we first need to calculate the amount she spent. Annika spent half of her $50 on food and snacks. Half of $50 is $50 * 0.5 = $25. In addition to this, she spent $10 on rides. So, the total amount she spent is $25 (food and snacks) + $10 (rides) = $35.\n\nTo determine the remaining balance, we subtract the total amount spent from the initial amount she brought to the fair. So, $50 (initial amount) - $35 (total spent) = $15.\n\nTherefore, Annika has $15 left after spending on food, snacks, and rides at the town fair.\n\n#### $15",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 536,
+	"prompt": "Nick had twice as many candies as George. Then George ate 5 candies. Now George has 3 candies left. How many candies does Nick have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "George has 3 candies now but he already ate 5. So he had 5 + 3 = <<5+3=8>>8 candies at the start.\nNick had twice as many candies as George, so he had 2 * 8 = <<2*8=16>>16 candies originally.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many candies Nick has, we first need to figure out how",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the initial number of candies George had\nLet's denote the initial number of candies George had as G. Since Nick had twice as many candies as George, Nick had 2G candies.\n\n## Step 2: Calculate the initial number of candies George had\nAfter George ate 5 candies, he had 3 candies left. This means that before eating the 5 candies, George had 3 + 5 = 8 candies.\n\n## Step 3: Determine the number of candies Nick had\nSince George had 8 candies initially, Nick had 2 * 8 = 16 candies.\n\n## Step 4: Conclusion\nGiven that George ended up with 3 candies after eating 5, we've determined that George initially had 8 candies. Therefore, Nick, who had twice as many candies as George, had 16 candies.\n\nThe final answer is: #### 16",
+			"retrievals": 1
+		}
+	]
+}

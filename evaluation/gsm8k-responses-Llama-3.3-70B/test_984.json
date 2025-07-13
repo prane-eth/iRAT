@@ -1,0 +1,13 @@
+{
+	"task_id": 984,
+	"prompt": "Charlie has boots that are five times the size of Sophie's. If Sophie wears size five boots, what is the average size of shoe worn by the two?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Sophie wears size five shoes, Charlie wears 5 * shoe size 5 = shoe size <<5*5=25>>25\nTheir combined shoes size for the two is shoe size 25 + shoe size 5 = <<25+5=30>>30\nThe average for the shoe size the two wear is shoe size 30/2 = shoe size <<30/2=15>>15\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average size of shoe worn by Charlie and Sophie, we first need to determine the size of Charlie's boots. Since Charlie's boots are five times the size of Sophie's, and Sophie wears size five boots, we can calculate Charlie's boot size by multiplying Sophie's boot size by five.\n\nCharlie's boot size = 5 * Sophie's boot size = 5 * 5 = 25\n\nNow that we know Charlie's boot size is 25 and Sophie's boot size is 5, we can find the average size of shoe worn by the two by adding their boot sizes together and then dividing by the number of people, which is two.\n\nAverage size = (Charlie's boot size + Sophie's boot size) / 2 = (25 + 5) / 2 = 30 / 2 = 15\n\n#### 15",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the average size of shoe worn by Charlie and Sophie, we first need to determine their individual shoe sizes. Sophie wears size five boots. Since Charlie's boots are five times the size of Sophie's, we can calculate Charlie's shoe size by multiplying Sophie's size by 5. This gives us Charlie's shoe size as 5 * 5 = 25.\n\nNext, we calculate the average shoe size by adding Sophie's and Charlie's shoe sizes and then dividing by 2. The sum of their shoe sizes is 5 + 25 = 30. Dividing this sum by 2 gives us an average size of 30 / 2 = 15.\n\nTherefore, the average size of shoe worn by the two is 15.\n\n#### 15",
+			"retrievals": 1
+		}
+	]
+}

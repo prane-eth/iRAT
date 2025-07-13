@@ -1,0 +1,13 @@
+{
+	"task_id": 311,
+	"prompt": "Theo has $6000 he wishes to spend on his upcoming business trip to South Africa. He buys 6 business suits at $100 each, 3 suitcases at $50 each, a flight ticket that costs $700 more than 5 times as much as the cost of a business suit. He wishes to save $2000 for this trip, how much does he have to spend on buying gifts for his business partners in South Africa?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Theo buys business suits for 6 suits * $100/suit = $<<6*100=600>>600.\nTheo buys suitcases for 3 suitcases * $50/suitcase = $<<3*50=150>>150.\nTheo buys a flight ticket that costs $700 + 5 * $100 = $<<700+5*100=1200>>1200.\nTheo can spend $6000 - $600 - $150 - $1200 - $2000 = $<<6000-600-150-1200-2000=2050>>2050 on gifts for his friends.\n#### 2050",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Theo can spend on gifts, we first need to calculate\n\n`\nTheo started with $6000 and wishes to save $2000 for the trip. This means he has $6000 - $2000 = $4000 available for expenses. Since he has already spent $1950, the amount left for buying gifts is $4000 - $1950 = $2050.\n\n#### $2050",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total cost of the business suits\nTheo buys 6 business suits at $100 each, so the total cost of the business suits is 6 * $100 = $600.\n\n## Step 2: Calculate the total cost of the suitcases\nTheo buys 3 suitcases at $50 each, so the total cost of the suitcases is 3 * $50 = $150.\n\n## Step 3: Calculate the cost of the flight ticket\nThe flight ticket costs $700 more than 5 times as much as the cost of a business suit. Since a business suit costs $100, 5 times this amount is 5 * $100 = $500. Adding $700 to this gives $500 + $700 = $1200 for the flight ticket.\n\n## Step 4: Calculate the total cost of the business suits, suitcases, and flight ticket\nAdding the costs calculated in the previous steps gives a total of $600 + $150 + $1200 = $1950.\n\n## Step 5: Determine how much Theo has left to spend on gifts after saving $2000 for the trip\nTheo started with $6000 and wants to save $2000 for the trip, leaving him with $6000 - $2000 = $4000 for expenses. After spending $1950 on suits, suitcases, and a flight ticket, he has $4000 - $1950 = $2050 left.\n\n## Step 6: Calculate how much Theo can spend on gifts\nSince Theo wants to save $2000 and has already accounted for his initial expenses, the amount he has left after these expenses is what he can spend on gifts. This amount is $2050.\n\nThe final answer is: #### $2050",
+			"retrievals": 1
+		}
+	]
+}

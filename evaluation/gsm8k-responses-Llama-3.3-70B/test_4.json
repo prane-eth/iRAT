@@ -1,0 +1,13 @@
+{
+	"task_id": 4,
+	"prompt": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total meters James runs in a week, we first need to calculate the total meters he runs in one session of sprints. James runs 3 sprints, and each sprint is 60 meters.\n\nSo, the total meters run in one session is 3 sprints * 60 meters/sprint = 180 meters.\n\nSince James runs 3 times a week, we need to multiply the total meters run in one session by the number of sessions he runs in a week. Therefore, the total meters run in a week is 180 meters/session * 3 sessions/week.\n\nThe calculation for the total meters run in a week is 180 * 3 = 540 meters.\n\n#### 540",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Understand the Problem\nThe problem asks us to calculate the total meters James runs in a week. He decides to run 3 sprints, 3 times a week, and each sprint is 60 meters.\n\n## Step 2: Calculate the Total Meters Run in One Session of Sprints\nTo find the total meters run in one session of sprints, we multiply the number of sprints by the length of each sprint. So, 3 sprints * 60 meters/sprint = 180 meters.\n\n## Step 3: Calculate the Total Meters Run in a Week\nSince James runs 3 times a week, we need to multiply the total meters run in one session by the number of sessions per week. Therefore, 180 meters/session * 3 sessions/week = 540 meters/week.\n\n## Step 4: Verify the Calculation\nTo ensure accuracy, let's break it down further: James runs 3 sprints per session, and each sprint is 60 meters. So, in one session, he runs 3 * 60 = 180 meters. Since he does this 3 times a week, the total is indeed 180 meters/session * 3 sessions/week.\n\n## Step 5: Confirm the Calculation\nThe calculation is straightforward: 3 sprints * 60 meters/sprint = 180 meters per session. With 3 sessions per week, the total weekly distance is 180 meters/session * 3 sessions/week = 540 meters/week.\n\nThe final answer is: #### 540",
+			"retrievals": 2
+		}
+	]
+}

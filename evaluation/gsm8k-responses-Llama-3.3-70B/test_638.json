@@ -1,0 +1,13 @@
+{
+	"task_id": 638,
+	"prompt": "Reggie, Lynn, and Paisley ran together. Paisley ran 4 miles. Reggie ran 5 times what Paisley ran and 3 miles farther than Lynn. How many miles did Lynn run?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Paisley ran <<4=4>>4 miles.\nReggie ran 5 * 4 miles = <<5*4=20>>20 miles\nLynn ran 3 miles less than Reggie = 20 - 3 = 17 miles\nLynn ran <<17=17>>17 miles.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many miles Lynn ran, we first need to determine how many",
+			"old_rat_retrievals": 1,
+			"final_answer": "Reggie, Lynn, and Paisley ran together, with Paisley covering a distance of 4 miles. Reggie's run was 5 times the distance Paisley ran, which calculates to 5 * 4 = 20 miles. Additionally, it's mentioned that Reggie ran 3 miles farther than Lynn. To find out how many miles Lynn ran, we subtract the extra 3 miles Reggie ran from his total distance. So, Lynn's distance = Reggie's distance - 3 miles = 20 - 3 = 17 miles.\n\n#### 17",
+			"retrievals": 1
+		}
+	]
+}

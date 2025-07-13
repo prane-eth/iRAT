@@ -1,0 +1,13 @@
+{
+	"task_id": 1242,
+	"prompt": "Rose bought five dozens of eggs for $2.40 a dozen. She will sell it for $1 for 3 eggs. How much will be Rose's profit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Rose bought five dozens of eggs for $2.40 x 5 = $<<2.40*5=12>>12.\nFive dozens of eggs is equal to 12 x 5 = <<12*5=60>>60 eggs.\nSo there are 60/3 = <<60/3=20>>20 sets of 3 eggs that Rose will sell.\nThus, the total earnings of Rose for selling the eggs are $1 x 20 = $<<20=20>>20.\nTherefore, her profit will be $20 - $12 = $<<20-12=8>>8.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine Rose's profit, we first need to calculate the total cost of the eggs she bought and the total revenue she will generate from selling them.\n\nThe total cost of the eggs can be found by multiplying the number of dozens she bought by the cost per dozen. Since she bought 5 dozens of eggs at $2.40 a dozen, the total cost is 5 * $2.40 = $12.00.\n\nNext, we need to calculate the total number of eggs she bought. Since there are 12 eggs in a dozen, 5 dozens will contain 5 * 12 = 60 eggs.\n\nNow, let's calculate the total revenue she will generate from selling these eggs. She sells 3 eggs for $1. So, the number of sets of 3 eggs she can sell is 60 / 3 = 20 sets. Therefore, her total revenue will be 20 * $1 = $20.\n\nTo find Rose's profit, we subtract the total cost from the total revenue. So, her profit will be $20 - $12 = $8.\n\n#### $8",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine Rose's profit, we first need to calculate the total cost of the eggs she bought and the total revenue she will generate from selling them. The total cost of the eggs can be found by multiplying the number of dozens she bought by the cost per dozen. Since she bought 5 dozens of eggs at $2.40 a dozen, the total cost is 5 * $2.40 = $12.00. Next, we need to calculate the total number of eggs she bought. Since there are 12 eggs in a dozen, 5 dozens will contain 5 * 12 = 60 eggs.\n\nNow, let's calculate the total revenue she will generate from selling these eggs. She sells 3 eggs for $1. So, the number of sets of 3 eggs she can sell is 60 / 3 = 20 sets. Therefore, her total revenue will be 20 * $1 = $20. To find Rose's profit, we subtract the total cost from the total revenue. So, her profit will be $20 - $12 = $8.\n\n#### $8",
+			"retrievals": 0
+		}
+	]
+}

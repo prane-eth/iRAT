@@ -1,0 +1,13 @@
+{
+	"task_id": 585,
+	"prompt": "90 single use contacts come in 1 box and will last Pete 45 days.  Each box is $100.00 and currently 10% off.  If he buys 2 boxes of contact, how much will each pair of contacts cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each box of contacts is $100.00 with 10% off so that's 100*.10 = $<<100*.10=10.00>>10.00 off\nSo the box was $100.00 and he has $10.00 off so each box will cost 100-10 = $<<100-10=90.00>>90.00\nHe buys 2 boxes and each box costs $90.00 so that's 2*90= $<<2*90=180.00>>180.00\n1 box of contacts has 90 contacts and he buys 2 boxes so that's 90*2 = <<90*2=180>>180 contacts\nHe needs 1 contact for each eye and he has 180 contacts so that's 180/2 = <<180/2=90>>90 pairs of contacts\nHe spent $180.00 to have 90 pairs of contacts so each pair of contacts costs 180/90 = $<<180/90=2.00>>2.00 a pair\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of each pair of contacts, we first need to calculate the",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of contacts in 2 boxes\nFirst, we need to find out how many contacts are in 2 boxes. Since each box contains 90 single-use contacts, 2 boxes will have 2 * 90 = 180 contacts.\n\n## Step 2: Determine the total cost of 2 boxes with the discount\nEach box is $100.00, and there is currently a 10% discount. The discount on one box is 10% of $100.00, which is 0.10 * $100.00 = $10.00. So, the price of one box after the discount is $100.00 - $10.00 = $90.00. For 2 boxes, the total cost is 2 * $90.00 = $180.00.\n\n## Step 3: Calculate the cost per pair of contacts\nSince Pete buys 2 boxes, which contain 180 contacts, and we know the total cost for these 2 boxes is $180.00, we can calculate the cost per contact. The cost per contact is the total cost divided by the total number of contacts, which is $180.00 / 180 contacts = $1.00 per contact.\n\n## Step 4: Consider the duration and usage\nGiven that 90 contacts last Pete 45 days, it implies that Pete uses 2 contacts per day (since 90 contacts / 45 days = 2 contacts per day). Therefore, each pair of contacts (assuming a pair means 2 contacts for both eyes) costs $1.00 * 2 = $2.00.\n\n#### $2.00",
+			"retrievals": 1
+		}
+	]
+}

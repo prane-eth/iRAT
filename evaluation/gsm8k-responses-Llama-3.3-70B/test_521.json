@@ -1,0 +1,13 @@
+{
+	"task_id": 521,
+	"prompt": "Martha is knitting winter wear for her 3 grandchildren. They're triplets, so they're all the same size. She wants to make a hat, scarf, sweater, mittens, and socks for each of them. It takes 2 skeins of wool to make a hat, 4 for a scarf, 12 for a sweater, 1 for a pair of mittens, and 2 for a pair of socks. How many skeins of wool will she need to buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A full outfit for each child will require 2 skeins per hat + 4 skeins per scarf + 12 skeins per sweater + 1 skein per pair of mittens + 2 skeins per pair of socks = <<2+4+12+1+2=21>>21 skeins of wool.\nSo to knit outfits for all of her grandchildren, she will need 3 * 21 = <<3*21=63>>63 skeins of wool.\n#### 63",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total amount of wool needed, we first need to calculate the amount of wool required for each item. \n- A hat requires 2 skeins of wool.\n- A scarf requires 4 skeins of wool.\n- A sweater requires 12 skeins of wool.\n- A pair of mittens requires 1 skein of wool.\n- A pair of socks requires 2 skeins of wool.\n\n \nWe then calculate the total amount of wool needed for one set of winter wear. \nTotal for one set = 2 (hat) + 4 (scarf) + 12 (sweater) + 1 (mittens) + 2 (socks) = 21 skeins of wool.\n\n \nSince Martha is making winter wear for her 3 grandchildren, and they all require the same amount of wool for their respective sets, we multiply the total amount of wool needed for one set by 3. \nTotal for three sets = 21 * 3 = 63 skeins of wool.\n\n#### 63",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many skeins of wool Martha will need to buy for her 3 grandchildren, we first need to calculate the amount of wool required for one set of winter wear. This includes a hat, scarf, sweater, mittens, and socks. \n\nThe wool requirements for each item are as follows: \n- A hat requires 2 skeins of wool.\n- A scarf requires 4 skeins of wool.\n- A sweater requires 12 skeins of wool.\n- A pair of mittens requires 1 skein of wool.\n- A pair of socks requires 2 skeins of wool.\n\nSo, for one set of winter wear, the total amount of wool needed is: 2 (hat) + 4 (scarf) + 12 (sweater) + 1 (mittens) + 2 (socks) = 21 skeins.\n\nSince Martha has 3 grandchildren and she wants to make a complete set for each, we multiply the amount of wool needed for one set by 3. Therefore, the total amount of wool needed = 21 skeins/set * 3 sets = 63 skeins.\n\n#### 63",
+			"retrievals": 2
+		}
+	]
+}

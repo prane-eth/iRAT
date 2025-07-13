@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/30",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef get_positive(l: list):\n    \"\"\"Return only positive numbers in the list.\n    >>> get_positive([-1, 2, -4, 5, 6])\n    [2, 5, 6]\n    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    [5, 3, 2, 3, 9, 123, 1]\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef get_positive(l: list):\n    \"\"\"\n    Return only positive numbers in the list.\n\n    Args:\n        l (list): A list of integers.\n\n    Returns:\n        list: A list of positive integers from the input list.\n    \"\"\"\n    # Use list comprehension to filter out non-positive numbers\n    return [num for num in l if num > 0]\n```\n\n### Example Use Cases\n\n```python\n# Test the function with a list containing both positive and negative numbers\nprint(get_positive([-1, 2, -4, 5, 6]))  # Output: [2, 5, 6]\n\n# Test the function with a list containing a mix of positive, negative, and zero\nprint(get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: [5, 3, 2, 3, 9, 123, 1]\n```\n\nThis code defines a function `get_positive` that takes a list of integers as input and returns a new list containing only the positive integers from the original list. The function uses list comprehension to filter out non-positive numbers, making it concise and efficient.",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef get_positive(l: list):\n    \"\"\"Return only positive numbers in the list.\n    >>> get_positive([-1, 2, -4, 5, 6])\n    [2, 5, 6]\n    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    [5, 3, 2, 3, 9, 123, 1]\n    \"\"\"\n    return [num for num in l if num > 0]\n```",
+			"retrievals": 2
+		}
+	]
+}

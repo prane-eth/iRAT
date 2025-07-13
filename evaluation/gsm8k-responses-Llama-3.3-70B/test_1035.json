@@ -1,0 +1,13 @@
+{
+	"task_id": 1035,
+	"prompt": "Ted starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 dollars each. How much did he spend in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ted spent a total of 3*16 = <<3*16=48>>48 dollars on books.\nTed spent a total of 3*6 = <<3*6=18>>18 dollars on pencils.\nIn total Ted spent 48+18 = <<48+18=66>>66 dollars.\n#### 66",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount Ted spent, we first need to calculate the cost of the books and the pencils separately. \nThe cost of 3 books at $16 each can be calculated by multiplying the number of books by the price per book: 3 * $16 = $48.\n\n`\n \nNext, we calculate the cost of 3 pencils at $6 each by multiplying the number of pencils by the price per pencil: 3 * $6 = $18.\n\n`\n \nNow, we add the cost of the books and the pencils together to find the total amount spent: $48 (books) + $18 (pencils) = $66.\n\n#### $66",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much Ted spent in total, we first need to calculate the cost of the books and the pencils separately. The cost of 3 books at $16 each is 3 * $16 = $48. The cost of 3 pencils at $6 each is 3 * $6 = $18. Then, we add these two costs together to find the total amount spent: $48 + $18 = $66. \n\n#### $66",
+			"retrievals": 0
+		}
+	]
+}

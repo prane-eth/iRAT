@@ -1,0 +1,13 @@
+{
+	"task_id": 552,
+	"prompt": "Carly wants to treat her friends. She orders five hamburgers at $4 each, ten packs of potato fries at $0.30 each pack, and five cans of fruit drinks at $2 each can.  How much change does Carly get back if she gives one fifty-dollar bill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost of 5 hamburgers is 5 x $4 = $<<5*4=20>>20.\nThe cost of 10 packs of potato fries is 10 x $0.30 = $<<10*0.3=3>>3.\nAnd, the cost of 5 cans of fruit drinks is 5 x $2 = $<<5*2=10>>10.\nThus, the total cost is $20 + $3 + $10 = $<<20+3+10=33>>33.\nTherefore, Carly gets a change of $50 - $33 = $<<50-33=17>>17.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change Carly gets back, we first need to calculate the total cost of the items she ordered. \nThe cost of the hamburgers is 5 * $4 = $20.\nThe cost of the potato fries is 10 * $0.30 = $3.\nThe cost of the fruit drinks is 5 * $2 = $10.\n\n \nThe total cost of all the items is $20 + $3 + $10 = $33.\nCarly pays with a $50 bill, so to find out how much change she gets, we subtract the total cost from $50.\nChange = $50 - $33 = $17.\n\n#### $17",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much change Carly gets back, we need to calculate the total cost of the items she ordered. \n\nFirst, we calculate the cost of the hamburgers: 5 hamburgers at $4 each is 5 x $4 = $20.\nThen, we calculate the cost of the potato fries: 10 packs at $0.30 each is 10 x $0.30 = $3.\nNext, we calculate the cost of the fruit drinks: 5 cans at $2 each is 5 x $2 = $10.\nNow, we add up the costs of all the items: $20 + $3 + $10 = $33.\n\nSince Carly pays with a $50 bill, we subtract the total cost from $50 to find the change: $50 - $33 = $17.\n\n#### $17",
+			"retrievals": 1
+		}
+	]
+}

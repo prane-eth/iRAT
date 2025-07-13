@@ -1,0 +1,13 @@
+{
+	"task_id": 160,
+	"prompt": "Finn watches 11 tadpoles swimming in the pond.  Suddenly he sees 6 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "When the hidden tadpoles come out, Finn sees 11 + 6 = <<11+6=17>>17 tadpoles swimming.\nAfter some of them hide under a rock, he now sees 17 - 2 = <<17-2=15>>15 tadpoles swimming.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "Finn initially sees 11 tadpoles swimming in the pond. Then, 6 more tadpoles come out of hiding from under a lily pad, so the total number of tadpoles he can see now is 11 + 6 = 17. After that, 2 tadpoles hide under a rock, so we subtract those from the total: 17 - 2 = 15. \n\nTherefore, Finn can see 15 tadpoles in the pond now.\n\n#### 15",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Understand the initial situation\nFinn initially watches 11 tadpoles swimming in the pond. This is the starting point for determining how many tadpoles he can see after the subsequent events.\n\n## Step 2: Analyze the movement of tadpoles\nThen, 6 tadpoles come out of hiding from under a lily pad. This increases the number of tadpoles Finn can see because these 6 were previously hidden.\n\n## Step 3: Calculate the total number of visible tadpoles after the first movement\nThe total number of tadpoles Finn can see after the 6 come out of hiding is 11 (initially visible) + 6 (came out of hiding) = 17.\n\n## Step 4: Account for the tadpoles hiding under a rock\nAfter that, 2 of them hide under a rock. This means that out of the total number of tadpoles that were visible, 2 are now hidden and cannot be seen by Finn.\n\n## Step 5: Calculate the final number of visible tadpoles\nTo find the final number of tadpoles Finn can see, subtract the 2 that hid under a rock from the total that were visible after the first movement: 17 - 2 = 15.\n\nThe final answer is: #### 15",
+			"retrievals": 1
+		}
+	]
+}

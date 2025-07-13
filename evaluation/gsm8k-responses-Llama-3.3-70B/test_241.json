@@ -1,0 +1,13 @@
+{
+	"task_id": 241,
+	"prompt": "James has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Robert has 54/2 = <<54/2=27>>27 candies.\nJames has 27+6 = <<27+6=33>>33 candies.\nJohn has 54-33= <<54-33=21>>21 more candies than James.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, let's first identify the relationship between the number of candies each person has.\n\n1. James has 6 more candies than Robert.\n2. John has twice as many candies as Robert.\n3. John has 54 candies.\n\nFrom point 2 and 3, we can find out how many candies Robert has since John has twice as many as Robert:\n\nRobert's candies = John's candies / 2 = 54 / 2 = 27 candies\n\nNow, using point 1, we can find out how many candies James has:\n\nJames's candies = Robert's candies + 6 = 27 + 6 = 33 candies\n\nFinally, to find out how many more candies John has than James, we subtract James's candies from John's:\n\nDifference = John's candies - James's candies = 54 - 33 = 21\n\n#### 21",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of candies Robert has\nSince John has twice as many candies as Robert and John has 54 candies, we can calculate the number of candies Robert has by dividing the number of candies John has by 2. Robert = 54 / 2 = 27 candies.\n\n## Step 2: Determine the number of candies James has\nJames has 6 more candies than Robert. Since Robert has 27 candies, James has 27 + 6 = 33 candies.\n\n## Step 3: Calculate the difference between the number of candies John and James have\nTo find out how many more candies John has than James, we subtract the number of candies James has from the number of candies John has. Difference = 54 - 33 = 21 candies.\n\nThe final answer is the difference calculated in the last step, which represents how many more candies John has than James.\n\n#### 21",
+			"retrievals": 2
+		}
+	]
+}

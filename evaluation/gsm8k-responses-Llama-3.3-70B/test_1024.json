@@ -1,0 +1,13 @@
+{
+	"task_id": 1024,
+	"prompt": "A man eats 5 sandwiches per day, his wife eats 4 sandwiches per day, and their son eats 2 sandwiches per day. How many sandwiches does this family eat in one week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of sandwiches they eat in one day is 5 + 4 + 2 = <<5+4+2=11>>11 sandwiches.\nThe number of sandwiches they eat in a week is 11 * 7 = <<11*7=77>>77 sandwiches.\n#### 77",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many sandwiches the family eats in one week, we first need to calculate the total number of sandwiches eaten per day. The man eats 5 sandwiches per day, his wife eats 4 sandwiches per day, and their son eats 2 sandwiches per day.\n\nSo, the total number of sandwiches eaten per day is 5 (man) + 4 (wife) + 2 (son) = 11 sandwiches per day.\n\nSince we are asked about the consumption for one week, we need to multiply the daily consumption by the number of days in a week. There are 7 days in a week.\n\nTherefore, the total number of sandwiches eaten in one week is 11 sandwiches per day * 7 days per week = 77 sandwiches.\n\n#### 77",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total number of sandwiches eaten by the family in one week, we first need to calculate the daily consumption. The man eats 5 sandwiches per day, the wife eats 4 sandwiches per day, and the son eats 2 sandwiches per day. \n\nSo, the total daily consumption is 5 + 4 + 2 = 11 sandwiches per day.\n\nSince there are 7 days in a week, we multiply the daily consumption by 7 to find the weekly consumption. Therefore, the total number of sandwiches eaten in one week is 11 sandwiches per day * 7 days per week = 77 sandwiches.\n\n#### 77",
+			"retrievals": 1
+		}
+	]
+}

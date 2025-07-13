@@ -1,0 +1,13 @@
+{
+	"task_id": 861,
+	"prompt": "Jennifer bought 12 oranges from the market, she gave her three daughters 2 oranges each, and her only boy got 3 oranges. How many oranges did she remain with?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Her three daughters received a total of 3 * 2 = <<3*2=6>>6 oranges.\nShe gave her children 6 + 3 = <<6+3=9>>9 oranges in total.\nShe remained with 12 - 9 = <<12-9=3>>3 oranges.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many oranges Jennifer remained with, we first need to calculate the total number of oranges she gave away. She gave her three daughters 2 oranges each. So, the total number of oranges given to her daughters is 3 * 2 = 6 oranges.\n\nHer only boy got 3 oranges. Adding this to the oranges given to her daughters, the total number of oranges given away is 6 (to daughters) + 3 (to son) = 9 oranges.\n\nJennifer initially bought 12 oranges from the market. After giving away 9 oranges, the number of oranges she remained with can be calculated by subtracting the total given away from the initial amount: 12 - 9 = 3 oranges.\n\n#### 3",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Identify the Initial Number of Oranges\nJennifer bought 12 oranges from the market.\n\n## Step 2: Calculate the Number of Oranges Given to Her Daughters\nShe gave her three daughters 2 oranges each, so the total number of oranges given to her daughters is 3 * 2 = 6 oranges.\n\n## Step 3: Calculate the Number of Oranges Given to Her Son\nHer only boy got 3 oranges.\n\n## Step 4: Calculate the Total Number of Oranges Given Away\nThe total number of oranges given away is the sum of the oranges given to her daughters and her son, which is 6 + 3 = 9 oranges.\n\n## Step 5: Calculate the Number of Oranges Jennifer Remained With\nTo find out how many oranges Jennifer remained with, we subtract the total number of oranges given away from the initial number of oranges. So, 12 - 9 = 3 oranges.\n\n#### 3",
+			"retrievals": 2
+		}
+	]
+}

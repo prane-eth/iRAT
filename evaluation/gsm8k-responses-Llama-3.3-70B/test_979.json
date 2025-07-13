@@ -1,0 +1,13 @@
+{
+	"task_id": 979,
+	"prompt": "The red car is 40% cheaper than the blue car. The price of the blue car is $100. How much do both cars cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The red car is 40/100 * 100 = $<<40/100*100=40>>40 cheaper than the blue car.\nThat means, that the red car costs 100 - 40 = $<<100-40=60>>60.\nSo both cars cost 100 + 60 = $<<100+60=160>>160.\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of both cars, we first need to determine the price of the red car, given that it is 40% cheaper than the blue car. \n\nThe price of the blue car is $100. Since the red car is 40% cheaper, we calculate the discount on the blue car's price to find the red car's price. The discount amount is 40% of $100.\n\nTo find 40% of $100, we multiply $100 by 0.40 (since 40% = 40/100 = 0.40). So, 40% of $100 = $100 * 0.40 = $40. \n\nThis means the red car is $40 cheaper than the blue car. To find the price of the red car, we subtract the discount from the price of the blue car: $100 - $40 = $60.\n\nTherefore, the blue car costs $100, and the red car costs $60. To find the total cost of both cars, we add their prices together: $100 + $60 = $160.\n\n#### $160",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the discount on the red car\nThe red car is 40% cheaper than the blue car. Given that the price of the blue car is $100, we can calculate the discount on the red car by finding 40% of $100. This is done by multiplying $100 by 0.4, which equals $40.\n\n## Step 2: Determine the price of the red car\nTo find the price of the red car, we subtract the discount from the price of the blue car: $100 - $40 = $60. Therefore, the red car costs $60.\n\n## Step 3: Calculate the total cost of both cars\nTo find the total cost of both cars, we add the price of the blue car to the price of the red car: $100 + $60 = $160.\n\nThe final answer is: #### $160",
+			"retrievals": 2
+		}
+	]
+}

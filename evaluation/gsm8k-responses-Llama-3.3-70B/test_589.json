@@ -1,0 +1,13 @@
+{
+	"task_id": 589,
+	"prompt": "Jared is trying to increase his typing speed. He starts with 47 words per minute (WPM). After some lessons the next time he tests his typing speed it has increased to 52 WPM. If he continues to increase his typing speed once more by 5 words, what will be the average of the three measurements?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jared types at 52 WPM and increases it by 5 WPM, 52 + 5 = <<52+5=57>>57 WPM.\nHis average over all his measured words-per-minute is 47 + 52 + 57 = <<47+52+57=156>>156.\nHis total is 156 / 3 typing speeds = <<156/3=52>>52 WPM as Jared's average typing speed.\n#### 52",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average of Jared's three typing speed measurements, we first need to determine the three speeds. Initially, Jared types at 47 words per minute (WPM). After some lessons, his speed increases to 52 WPM. \n\nIf he continues to increase his typing speed once more by 5 words, his new speed will be 52 WPM + 5 WPM = 57 WPM. So, the three measurements are 47 WPM, 52 WPM, and 57 WPM.\n\nThe average of these three measurements can be found by adding them together and then dividing by the number of measurements. The sum of the measurements is 47 + 52 + 57 = 156. Since there are three measurements, we divide the sum by 3 to find the average: 156 / 3 = 52.\n\n#### 52",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Identify the initial typing speed and the first increase\nJared starts with a typing speed of 47 words per minute (WPM) and increases it to 52 WPM after some lessons.\n\n## Step 2: Calculate the new typing speed after the second increase\nJared's typing speed increases once more by 5 words per minute. To find his new speed, we add 5 WPM to his last measured speed of 52 WPM. Therefore, his new speed will be 52 WPM + 5 WPM = 57 WPM.\n\n## Step 3: Determine the average of the three typing speeds\nTo find the average of Jared's typing speeds, we add the three measurements together: 47 WPM (initial speed), 52 WPM (speed after the first increase), and 57 WPM (speed after the second increase). The sum of these speeds is 47 + 52 + 57 = 156 WPM.\n\n## Step 4: Calculate the average\nSince there are three measurements, we divide the total sum of the speeds by 3 to find the average: 156 / 3 = 52 WPM.\n\nThe final answer is: #### 52",
+			"retrievals": 2
+		}
+	]
+}

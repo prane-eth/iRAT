@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/25",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\nfrom typing import List\n\n\ndef factorize(n: int) -> List[int]:\n    \"\"\" Return list of prime factors of given integer in the order from smallest to largest.\n    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.\n    Input number should be equal to the product of all factors\n    >>> factorize(8)\n    [2, 2, 2]\n    >>> factorize(25)\n    [5, 5]\n    >>> factorize(70)\n    [2, 5, 7]\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nfrom typing import List\n\ndef factorize(n: int) -> List[int]:\n    \"\"\" Return list of prime factors of given integer in the order from smallest to largest.\n    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.\n    Input number should be equal to the product of all factors\n    >>> factorize(8)\n    [2, 2, 2]\n    >>> factorize(25)\n    [5, 5]\n    >>> factorize(70)\n    [2, 5, 7]\n    \"\"\"\n    factors = []\n    divisor = 2\n    while n > 1:\n        if n % divisor == 0:\n            factors.append(divisor)\n            n = n // divisor\n        else:\n            divisor += 1\n    return factors\n\n\ndef main():\n    print(factorize(8))  # [2, 2, 2]\n    print(factorize(25))  # [5, 5]\n    print(factorize(70))  # [2, 5, 7]\n\n\nif __name__ == \"__main__\":\n    main()",
+			"old_rat_retrievals": 4,
+			"final_answer": "from typing import List\n\ndef factorize(n: int) -> List[int]:\n    \"\"\"\n    Return list of prime factors of given integer in the order from smallest to largest.\n    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.\n    Input number should be equal to the product of all factors\n    \"\"\"\n    factors = []\n    divisor = 2\n    while n > 1:\n        while n % divisor == 0:\n            factors.append(divisor)\n            n = n // divisor\n        divisor += 1\n    return factors\n\ndef main():\n    print(factorize(8))  # [2, 2, 2]\n    print(factorize(25))  # [5, 5]\n    print(factorize(70))  # [2, 5, 7]\n\nif __name__ == \"__main__\":\n    main()",
+			"retrievals": 3
+		}
+	]
+}

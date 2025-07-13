@@ -1,0 +1,13 @@
+{
+	"task_id": 996,
+	"prompt": "Adam bought himself some new trousers for $30. His mother gave him $6 for this purpose, and his father gave him twice as much. How much money did Adam have to contribute from his savings?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Adam's father gave him $6 * 2 = $<<6*2=12>>12.\nSo considering the price Adam needed to pay $30 - $12 - $6 = $<<30-12-6=12>>12 for his trousers from his savings.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Adam had to contribute from his savings, we first need to calculate the total amount of money he received from his parents. \n\nHis mother gave him $6. His father gave him twice as much as his mother, so his father gave him $6 * 2 = $12.\n\nThe total amount of money Adam received from his parents is $6 (from his mother) + $12 (from his father) = $18.\n\nAdam spent $30 on the trousers. To find out how much he had to contribute from his savings, we subtract the amount he received from his parents from the total cost of the trousers.\n\nSo, the amount Adam had to contribute from his savings is $30 (total cost) - $18 (amount received from parents) = $12.\n\n#### $12",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Adam had to contribute from his savings, we first need to calculate the total amount of money he received from his parents. His mother gave him $6, and his father gave him twice as much as his mother, which is $6 * 2 = $12. \n\nSo, the total amount of money Adam received from his parents is $6 (from his mother) + $12 (from his father) = $18.\n\nSince the trousers cost $30, Adam needs to cover the remaining cost after using the money given by his parents. The amount he needs to cover is $30 (cost of trousers) - $18 (money from parents) = $12.\n\nTherefore, Adam had to contribute $12 from his savings to buy the trousers.\n\n#### $12",
+			"retrievals": 1
+		}
+	]
+}

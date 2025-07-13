@@ -1,0 +1,13 @@
+{
+	"task_id": 822,
+	"prompt": "Hunter counted 50 cars packed in their school parking lot when entering class one morning. During the first break, he counted 20 more cars in the parking lot. When he got out of class for the lunch break, he realized that 1/2 the number of cars in the parking lot had gone. What's the total number of cars he counted during lunch break?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "During the first break, he saw 20 more cars in the parking lot, which totals 50 + 20 = <<50+20=70>>70 cars\nWhen going for the lunch break, he counted and realized only half the number of cars were present, which is 1/2 * 70 = 35 cars.\n#### 35",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of cars Hunter counted during the lunch break, we first need to calculate the total number of cars in the parking lot before any left. Hunter initially counted 50 cars. During the first break, he counted 20 more cars, so the total number of cars before any left is 50 + 20 = 70.\n\n \nThe problem states that by the time Hunter got out of class for the lunch break, 1/2 of the cars in the parking lot had gone. This means that half of the 70 cars had left. To find the number of cars that had left, we calculate 1/2 * 70 = 35. Therefore, 35 cars had left the parking lot by the lunch break.\n\n \nTo find the total number of cars Hunter counted during the lunch break, we subtract the number of cars that had left from the total number of cars that were in the parking lot before any left. So, the total number of cars during the lunch break is 70 - 35 = 35.\n\n#### 35",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the initial total number of cars in the parking lot\nHunter initially counted 50 cars in the school parking lot. During the first break, he counted 20 more cars. To find the total number of cars before lunch, we need to add these two numbers together: 50 + 20 = 70.\n\n## Step 2: Determine the number of cars that left during lunch\nIt's stated that 1/2 of the cars in the parking lot had gone by the time Hunter got out for the lunch break. To find out how many cars left, we calculate half of the total number of cars that were in the parking lot before lunch: 1/2 * 70 = 35.\n\n## Step 3: Calculate the total number of cars remaining during lunch\nSince 35 cars left, we subtract this number from the total number of cars that were in the parking lot before lunch to find out how many cars remained: 70 - 35 = 35.\n\n#### 35",
+			"retrievals": 3
+		}
+	]
+}

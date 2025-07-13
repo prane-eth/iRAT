@@ -1,0 +1,13 @@
+{
+	"task_id": 1067,
+	"prompt": "The glee club ordered 20 pizzas and ate 70% of them. The football team ordered twice as many pizzas and ate 80% of them. How many pizzas are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the percentage of pizzas left from the glee club: 100% - 70% = 30%\nThen multiply that percentage by the number of pizzas the glee club ordered to find the number of pizzas left: 30% * 20 pizzas = <<30*.01*20=6>>6 pizzas\nThen multiply the number of pizzas the glee club ordered by 2 to find the number the football team ordered: 20 pizzas * 2 = <<20*2=40>>40 pizzas\nThen find the percentage of pizzas left from the football team: 100% - 80% = 20%\nThen multiply that percentage by the number of pizzas the football team ordered to find the number of pizzas left: 20% * 40 pizzas = <<20*.01*40=8>>8 pizzas\nThen add the number of pizzas left from each group to find the total number left: 8 pizzas + 6 pizzas = <<8+6=14>>14 pizzas\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pizzas are left, we first need to calculate how many pizzas each group ate and then subtract that from the total number of pizzas they ordered. \n\nThe glee club ordered 20 pizzas and ate 70% of them. To find out how many pizzas they ate, we calculate 70% of 20, which is 0.7 * 20 = 14 pizzas. This means the glee club has 20 - 14 = 6 pizzas left.\n\nThe football team ordered twice as many pizzas as the glee club, so they ordered 2 * 20 = 40 pizzas. They ate 80% of these pizzas, which is 0.8 * 40 = 32 pizzas. Therefore, the football team has 40 - 32 = 8 pizzas left.\n\nTo find the total number of pizzas left, we add the number of pizzas left from both groups: 6 (from the glee club) + 8 (from the football team) = 14 pizzas.\n\n#### 14",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many pizzas are left, we first need to calculate how many pizzas each group ate and then subtract that from the total number of pizzas they ordered. The glee club ordered 20 pizzas and ate 70% of them. To find out how many pizzas they ate, we calculate 70% of 20, which is 0.7 * 20 = 14 pizzas. This means the glee club has 20 - 14 = 6 pizzas left.\n\nThe football team ordered twice as many pizzas as the glee club, so they ordered 2 * 20 = 40 pizzas. They ate 80% of these pizzas, which is 0.8 * 40 = 32 pizzas. Therefore, the football team has 40 - 32 = 8 pizzas left. To find the total number of pizzas left, we add the number of pizzas left from both groups: 6 (from the glee club) + 8 (from the football team) = 14 pizzas. \n\n#### 14",
+			"retrievals": 1
+		}
+	]
+}

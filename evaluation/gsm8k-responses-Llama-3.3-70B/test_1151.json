@@ -1,0 +1,13 @@
+{
+	"task_id": 1151,
+	"prompt": "Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Patricia had 30 - 24 = <<30-24=6>>6 roses left after she gave 24 roses to her mother.\nTherefore, she has 6 + 15 = <<6+15=21>>21 roses now.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many roses Patricia has now, we first start with the initial number of roses she had, which is 30.\n\nShe then gave 24 roses to her mother. To find out how many roses she had left, we subtract the number of roses she gave away from the initial number: 30 - 24 = 6.\n\nAfter that, she bought 15 more roses. To find the total number of roses she has now, we add the number of roses she bought to the number she had left: 6 + 15 = 21.\n\n#### 21",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many roses Patricia has now, we first start with the initial number of roses she had, which is 30. She then gave 24 roses to her mother. To find out how many roses she had left, we subtract the number of roses she gave away from the initial number: 30 - 24 = 6. After that, she bought 15 more roses. To find the total number of roses she has now, we add the number of roses she bought to the number she had left: 6 + 15 = 21. #### 21",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 512,
+	"prompt": "Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He earns $30 daily for a week (7 days) for a total earnings of $30*7 = $<<30*7=210>>210\nHe spent $100 leaving him with $210-$100 = $110\n#### 110",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Gerald has left, we first need to calculate how much he earned in a week. Since he earns $30 every day and there are 7 days in a week, we can calculate his weekly earnings by multiplying the daily earnings by the number of days in a week.\n\nHis daily earnings are $30, and there are 7 days in a week, so his weekly earnings would be $30 * 7 = $210.\n\n`\nNow that we know Gerald earned $210 in a week, we can find out how much he has left after spending $100. To do this, we subtract the amount spent from the total earnings.\n\nSo, we subtract $100 from $210 to find out how much he has left: $210 - $100 = $110.\n\n#### $110",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much Gerald has left, we first need to calculate his total earnings for the week. Since he earns $30 every day and there are 7 days in a week, his total earnings can be calculated as follows:\n\nDaily earnings: $30\nTotal days worked in a week: 7\nTotal earnings for the week = Daily earnings * Total days worked in a week\nTotal earnings for the week = $30 * 7\nTotal earnings for the week = $210\n\nNext, we subtract the total amount he spent from his total earnings to find out how much he has left:\n\nTotal spent = $100\nAmount left = Total earnings for the week - Total spent\nAmount left = $210 - $100\nAmount left = $110\n\n#### $110",
+			"retrievals": 2
+		}
+	]
+}

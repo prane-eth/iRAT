@@ -1,0 +1,13 @@
+{
+	"task_id": 1287,
+	"prompt": "James likes to check the coin return of the vending machine for change. One day he finds a quarter, two nickels, and 7 dimes. How much money in cents does James have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First figure out how much the nickels are worth: 2 * 5 cents = <<2*5=10>>10 cents\nThen figure out how much the dimes are worth: 7 * 10 cents = <<7*10=70>>70 cents\nFinally, add the value of the nickels, dimes and quarter: 25 cents + 10 cents + 70 cents = <<25+10+70=105>>105 cents\n#### 105",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of money James has, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the value of the quarter\nThe quarter is worth 25 cents.\n\n## Step 2: Calculate the value of the nickels\nJames found 2 nickels, and each nickel is worth 5 cents. So, the total value of the nickels is 2 * 5 = 10 cents.\n\n## Step 3: Calculate the value of the dimes\nJames found 7 dimes, and each dime is worth 10 cents. So, the total value of the dimes is 7 * 10 = 70 cents.\n\n## Step 4: Calculate the total amount of money James has\nTo find the total amount of money James has, we need to add the value of the quarter, the nickels, and the dimes. total_value = 25 + 10 + 70 = 105 cents.\n\n#### 105",
+			"retrievals": 1
+		}
+	]
+}

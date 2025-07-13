@@ -1,0 +1,13 @@
+{
+	"task_id": 95,
+	"prompt": "In a neighborhood, the number of rabbits pets is twelve less than the combined number of pet dogs and cats. If there are two cats for every dog, and the number of dogs is 60, how many pets in total are in the neighborhood?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If there are two cats for every dog, and the number of dogs is 60, the number of cats is 2*60 = <<2*60=120>>120\nThe combined number of cats and dogs is 120+60 = <<120+60=180>>180\nThe number of rabbits pets is twelve less than the combined number of pet dogs and cats, a total of 180-12 = 168\nThe total number of pets in the compound is 168+180 = <<168+180=348>>348\n#### 348",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of pets in the neighborhood, we first need to determine the number of cats, given that there are two cats for every dog and the number of dogs is 60.\n\nSince there are two cats for every dog, we calculate the number of cats as follows:\nNumber of cats = 2 * Number of dogs\nNumber of cats = 2 * 60\nNumber of cats = 120\n\nNext, we are told that the number of rabbits is twelve less than the combined number of pet dogs and cats. So, we calculate the combined number of dogs and cats first:\nCombined number of dogs and cats = Number of dogs + Number of cats\nCombined number of dogs and cats = 60 + 120\nCombined number of dogs and cats = 180\n\nThen, we find the number of rabbits:\nNumber of rabbits = Combined number of dogs and cats - 12\nNumber of rabbits = 180 - 12\nNumber of rabbits = 168\n\nFinally, to find the total number of pets in the neighborhood, we add the number of dogs, cats, and rabbits together:\nTotal number of pets = Number of dogs + Number of cats + Number of rabbits\nTotal number of pets = 60 + 120 + 168\nTotal number of pets = 348\n\n#### 348",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of pets in the neighborhood, we first need to establish the relationship between the number of dogs, cats, and rabbits. We are given that there are two cats for every dog and that the number of dogs is 60. This means the number of cats is 2 times the number of dogs, which is 2 * 60 = 120 cats.\n\nNext, we know that the number of rabbits is twelve less than the combined number of pet dogs and cats. So, we calculate the combined number of dogs and cats first, which is 60 (dogs) + 120 (cats) = 180. The number of rabbits is then 180 - 12 = 168.\n\nFinally, to find the total number of pets in the neighborhood, we add the number of dogs, cats, and rabbits together: 60 (dogs) + 120 (cats) + 168 (rabbits) = 348.\n\n#### 348",
+			"retrievals": 1
+		}
+	]
+}

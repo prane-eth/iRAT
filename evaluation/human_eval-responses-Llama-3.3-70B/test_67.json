@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/66",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef digitSum(s):\n    \"\"\"Task\n    Write a function that takes a string as input and returns the sum of the upper characters only'\n    ASCII codes.\n\n    Examples:\n        digitSum(\"\") => 0\n        digitSum(\"abAB\") => 131\n        digitSum(\"abcCd\") => 67\n        digitSum(\"helloE\") => 69\n        digitSum(\"woArBld\") => 131\n        digitSum(\"aAaaaXa\") => 153\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef digitSum(s):\n    \"\"\"\n    This function calculates the sum of ASCII codes of upper case characters in a given string.\n\n    Args:\n        s (str): The input string.\n\n    Returns:\n        int: The sum of ASCII codes of upper case characters.\n    \"\"\"\n    # Initialize sum to 0\n    total_sum = 0\n    \n    # Iterate over each character in the string\n    for char in s:\n        # Check if the character is an upper case letter\n        if char.isupper():\n            # Add the ASCII value of the character to the sum\n            total_sum += ord(char)\n    \n    # Return the total sum\n    return total_sum\n\n# Test cases\nprint(digitSum(\"\"))  # 0\nprint(digitSum(\"abAB\"))  # 131\nprint(digitSum(\"abcCd\"))  # 67\nprint(digitSum(\"helloE\"))  # 69\nprint(digitSum(\"woArBld\"))  # 131\nprint(digitSum(\"aAaaaXa\"))  # 153\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "```python\ndef digitSum(s):\n    \"\"\"\n    Task\n    Write a function that takes a string as input and returns the sum of the upper characters only'\n    ASCII codes.\n\n    Examples:\n        digitSum(\"\") => 0\n        digitSum(\"abAB\") => 131\n        digitSum(\"abcCd\") => 67\n        digitSum(\"helloE\") => 69\n        digitSum(\"woArBld\") => 131\n        digitSum(\"aAaaaXa\") => 153\n    \"\"\"\n    return sum(ord(c) for c in s if c.isupper())\n\n# Test cases\nprint(digitSum(\"\"))  # 0\nprint(digitSum(\"abAB\"))  # 131\nprint(digitSum(\"abcCd\"))  # 67\nprint(digitSum(\"helloE\"))  # 69\nprint(digitSum(\"woArBld\"))  # 131\nprint(digitSum(\"aAaaaXa\"))  # 153\n```",
+			"retrievals": 1
+		}
+	]
+}

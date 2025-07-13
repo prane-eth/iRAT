@@ -1,0 +1,13 @@
+{
+	"task_id": 149,
+	"prompt": "Brittany and her mom go to the museum. The cost of admission is $12 for adults and $10 for children. Brittany's mom gives the cashier money for 1 child ticket and 1 adult ticket. If she received $8 in change, how much money, in dollars, did she give the cashier?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total cost of the tickets is 12+10=<<12+10=22>>22 dollars.\nBrittany's mom gave the cashier 22+8=<<22+8=30>>30 dollars.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much money Brittany's mom gave the cashier, we first need to calculate the total cost of the tickets. The cost for 1 child ticket is $10, and the cost for 1 adult ticket is $12. So, the total cost is $10 + $12 = $22.\n\nSince Brittany's mom received $8 in change, this means the amount she gave the cashier minus the total cost of the tickets equals $8. Let's denote the amount she gave the cashier as X. Therefore, we have the equation:\n\nX - $22 = $8\n\nTo find X, we add $22 to both sides of the equation:\n\nX = $8 + $22\nX = $30\n\nSo, Brittany's mom gave the cashier $30.\n\n#### $30",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understand the Problem\nThe problem involves calculating the amount of money Brittany's mom gave to the cashier for museum tickets. We know the cost of admission for adults is $12 and for children is $10. Brittany's mom bought one ticket for a child and one for an adult, and she received $8 in change.\n\n## Step 2: Calculate the Total Cost of Tickets\nTo find out how much money Brittany's mom gave the cashier, we first need to calculate the total cost of the tickets. The cost for 1 adult ticket is $12, and the cost for 1 child ticket is $10. So, the total cost of the tickets is $12 + $10 = $22.\n\n## Step 3: Determine the Amount Given to the Cashier\nSince Brittany's mom received $8 in change after buying the tickets, we can infer that the amount she gave the cashier minus the total cost of the tickets equals the change she received. If we let x be the amount she gave the cashier, then x - $22 = $8.\n\n## Step 4: Solve for the Amount Given\nTo find the amount Brittany's mom gave the cashier, we solve the equation x - $22 = $8 for x. Adding $22 to both sides of the equation gives us x = $8 + $22.\n\n## Step 5: Calculate the Final Amount\nTherefore, x = $8 + $22 = $30.\n\n#### $30",
+			"retrievals": 1
+		}
+	]
+}

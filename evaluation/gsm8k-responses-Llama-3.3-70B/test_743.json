@@ -1,0 +1,13 @@
+{
+	"task_id": 743,
+	"prompt": "In a certain school, two classes have a total of 80 students. Each class has the same amount of students, and in each class 40% of the students are girls. How many boys are in each class?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.\nThe girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.\nThat means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.\n#### 24",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many boys are in each class, we first need to determine the total number of students in each class. Since there are two classes with a total of 80 students, and each class has the same amount of students, we can find the number of students in each class by dividing the total number of students by 2.\n\nSo, the total number of students in each class = 80 / 2 = 40 students.\n\n`\nNow that we know each class has 40 students, we can calculate the number of girls in each class. Given that 40% of the students in each class are girls, we find the number of girls by multiplying the total number of students in a class by 40%.\n\nNumber of girls in each class = 40% * 40 = 0.4 * 40 = 16 girls.\n\n`\nTo find the number of boys in each class, we subtract the number of girls from the total number of students in each class.\n\nNumber of boys in each class = Total number of students in each class - Number of girls in each class = 40 - 16 = 24 boys.\n\n#### 24",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how many boys are in each class, we first need to determine the total number of students in each class. Since there are two classes with a total of 80 students, and each class has the same amount of students, we can find the number of students in each class by dividing the total number of students by 2. So, the total number of students in each class = 80 / 2 = 40 students.\n\nNow that we know each class has 40 students, we can calculate the number of girls in each class. Given that 40% of the students in each class are girls, we find the number of girls by multiplying the total number of students in a class by 40%. Number of girls in each class = 40% * 40 = 0.4 * 40 = 16 girls.\n\nTo find the number of boys in each class, we subtract the number of girls from the total number of students in each class. Number of boys in each class = Total number of students in each class - Number of girls in each class = 40 - 16 = 24 boys.\n\n#### 24",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 941,
+	"prompt": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are 7 rows each for 5 different Schools. How many children can there be in the drill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each school can have up to 8 students in 7 rows for a total of 8*7 = <<8*7=56>>56 students\nThere are 5 different schools that can bring a total of 5*56 = <<5*56=280>>280 students\n#### 280",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of children that can be in the drill, we first need to calculate the number of children in one school. Since the children stand 8 in a row and there are 7 rows for each school, we multiply the number of children in a row by the number of rows.\n\nThe number of children in one school is calculated as 8 children/row * 7 rows = 56 children.\n\n`\n \nSince there are 5 different schools participating in the drill, we need to multiply the number of children in one school by the total number of schools to find the overall number of children.\n\nThe total number of children is 56 children/school * 5 schools = 280 children.\n\n#### 280",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of children participating in the drill, we need to calculate the number of children in one school and then multiply it by the total number of schools. \n\nFirst, we calculate the number of children in one school. Since there are 8 children in a row and 7 rows, the total number of children for one school is 8 * 7 = 56 children.\n\nNext, we account for all 5 schools participating, each with the same arrangement of 56 children. We multiply the number of children in one school by the total number of schools to find the overall number of children in the drill. Therefore, the total number of children is 56 * 5 = 280 children.\n\nThe total number of children that can be in the drill is 280.\n\n#### 280",
+			"retrievals": 1
+		}
+	]
+}

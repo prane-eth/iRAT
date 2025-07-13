@@ -66,14 +66,12 @@ def fetch_and_filter_results(question: str, urls: list[str], limit: int = 1) -> 
 
 if __name__ == '__main__':
 	# Example usage
-	# question = 'What is the capital of France?'
-	# urls = ['https://en.wikipedia.org/wiki/Paris', 'https://www.bbc.com/news/world-europe-17298730']
 	question = 'What is the first repeated character in a given string?'
 	urls = ['https://stackoverflow.com/questions/50976511/code-to-output-the-first-repeated-character-in-given-string']
 	try:
 		results = fetch_and_filter_results(question, urls, 1)
 		log_debug('Filtered Results:', len(results))
-		# for result in results[:1]:
-		# 	log_debug(result)
+		for result in results[:1]:  # Display the first result
+			log_debug(result)
 	except Exception as e:
 		log_error('Error:', e)

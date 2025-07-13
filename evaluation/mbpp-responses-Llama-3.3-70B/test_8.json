@@ -1,0 +1,19 @@
+{
+	"task_id": 18,
+	"prompt": "Write a function to divide two lists using map and lambda function.?assert div_list([4,5,6],[1, 2, 3])==[4.0,2.5,2.0]",
+	"test_imports": [],
+	"test_list": [
+		"assert div_list([4,5,6],[1, 2, 3])==[4.0,2.5,2.0]",
+		"assert div_list([3,2],[1,4])==[3.0, 0.5]",
+		"assert div_list([90,120],[50,70])==[1.8, 1.7142857142857142]"
+	],
+	"mbpp_code": "def div_list(nums1,nums2):\r\n  result = map(lambda x, y: x / y, nums1, nums2)\r\n  return list(result)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to divide two lists\nThe function `\n\nIt's also important to note that this function does not handle the case where an element in the second list is zero, which would cause a ZeroDivisionError. Depending on the requirements, you might want to add error checking code to handle this case.",
+			"old_rat_retrievals": 8,
+			"final_answer": "You can write a function to divide two lists using the `map` function and a `lambda` function in Python. Here's an example implementation:\n\n```python\ndef div_list(list1, list2):\n    \"\"\"\n    This function divides two lists element-wise using map and lambda function.\n    \n    Args:\n        list1 (list): The list of dividend numbers.\n        list2 (list): The list of divisor numbers.\n    \n    Returns:\n        list: A list of results after dividing each element in list1 by the corresponding element in list2.\n    \"\"\"\n    # Check if the lists have the same length\n    if len(list1) != len(list2):\n        raise ValueError(\"Both lists must have the same length\")\n    \n    # Use map and lambda to divide the lists element-wise\n    result = list(map(lambda x, y: x / y, list1, list2))\n    \n    return result\n\n# Example usage:\nprint(div_list([4, 5, 6], [1, 2, 3]))  # Output: [4.0, 2.5, 2.0]\n```\n\nThis function takes two lists `list1` and `list2` as input, checks if they have the same length, and then uses the `map` function with a `lambda` function to divide each element in `list1` by the corresponding element in `list2`. The result is returned as a list.\n\nNote that this function does not handle the case where an element in the second list is zero, which would cause a `ZeroDivisionError`. Depending on your requirements, you might want to add error checking code to handle this case.",
+			"retrievals": 4
+		}
+	]
+}

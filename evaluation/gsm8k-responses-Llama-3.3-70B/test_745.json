@@ -1,0 +1,13 @@
+{
+	"task_id": 745,
+	"prompt": "Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.\nTherefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many animals Melissa will groom each day, we first need to calculate the total number of animals that need grooming. This includes 8 dogs, 5 cats, 3 birds, and 12 horses. \n\nThe total number of animals can be found by adding these numbers together: 8 (dogs) + 5 (cats) + 3 (birds) + 12 (horses) = 28 animals.\n\nSince Melissa splits the grooming jobs evenly over the days of the week, we need to divide the total number of animals by the number of days in a week, which is 7.\n\nSo, the calculation will be: 28 animals / 7 days = 4 animals per day.\n\n#### 4",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many animals Melissa will groom each day of the week, we need to calculate the total number of animals and then divide that by the number of days in a week. \n\nFirst, let's add up all the animals: 8 dogs + 5 cats + 3 birds + 12 horses = 28 animals in total.\n\nSince there are 7 days in a week and Melissa splits the grooming jobs evenly over the days, we divide the total number of animals by the number of days: 28 animals / 7 days = 4 animals per day.\n\n#### 4",
+			"retrievals": 2
+		}
+	]
+}

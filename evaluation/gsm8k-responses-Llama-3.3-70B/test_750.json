@@ -1,0 +1,13 @@
+{
+	"task_id": 750,
+	"prompt": "In a school activity, fifty-four students are to be separated into six groups of equal size. If the activity requires 12 groups, how many more groups are needed to form?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 54/6 = <<54/6=9>>9 groups formed from the 54 students.\nSo, 12 - 9 = <<12-9=3>>3 groups more are needed to form.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to find out how many students are in",
+			"old_rat_retrievals": 1,
+			"final_answer": "To solve this problem, we first need to find out how many students are in each group when fifty-four students are separated into six groups of equal size. We calculate the number of students per group by dividing the total number of students by the number of groups: 54 students / 6 groups = 9 students per group.\n\nSince the activity requires 12 groups, and we now know that each group should have 9 students, we can find out how many students are needed in total for 12 groups: 9 students per group * 12 groups = 108 students.\n\nHowever, the question isn't about the number of students but rather about how many more groups are needed to form 12 groups, given that we initially have 6 groups. To find this out, we subtract the initial number of groups from the required number of groups: 12 groups (required) - 6 groups (initial) = 6 more groups.\n\nTherefore, to form 12 groups as required by the activity, 6 more groups are needed.\n\n#### 6",
+			"retrievals": 1
+		}
+	]
+}

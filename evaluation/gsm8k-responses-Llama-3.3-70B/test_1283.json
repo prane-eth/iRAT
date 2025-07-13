@@ -1,0 +1,13 @@
+{
+	"task_id": 1283,
+	"prompt": "John invited 20 people to a birthday party.  Each guest will eat 2 hot dogs.  He already has 4 hot dogs left over from a previous party.  If a pack of hot dogs contains 6 hot dogs and costs $2, how much does he need to spend on hot dogs?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He needs 2*20=<<2*20=40>>40 hot dogs\nSo he needs another 40-4=<<40-4=36>>36 hot dogs\nSo he needs to buy 36/6=<<36/6=6>>6 packs of hotdogs\nThat means he needs to spend 6*2=$<<6*2=12>>12\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how much John needs to spend on hot dogs, we first need to calculate the total number of hot dogs required for the party.\n\n1. Each guest will eat 2 hot dogs, and there are 20 guests. So, the total number of hot dogs needed is 20 guests * 2 hot dogs/guest = 40 hot dogs.\n\n2. John already has 4 hot dogs left over from a previous party. So, the number of hot dogs he needs to buy is 40 hot dogs - 4 hot dogs = 36 hot dogs.\n\n3. Since a pack of hot dogs contains 6 hot dogs, we need to find out how many packs John needs to buy. This can be calculated by dividing the total number of hot dogs needed by the number of hot dogs in a pack: 36 hot dogs / 6 hot dogs/pack = 6 packs.\n\n4. Finally, to find out how much John needs to spend, we multiply the number of packs he needs to buy by the cost of one pack: 6 packs * $2/pack = $12.\n\n#### $12\n\n#### $12",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the Total Number of Hot Dogs Needed\nTo find out how much John needs to spend on hot dogs, we first need to calculate the total number of hot dogs required for the party. Since each guest will eat 2 hot dogs and there are 20 guests, the total number of hot dogs needed is 20 guests * 2 hot dogs/guest = 40 hot dogs.\n\n## Step 2: Consider the Leftover Hot Dogs\nJohn already has 4 hot dogs leftover from a previous party. So, we subtract these from the total number needed: 40 hot dogs - 4 hot dogs = 36 hot dogs.\n\n## Step 3: Determine the Number of Packs Needed\nEach pack of hot dogs contains 6 hot dogs. To find out how many packs John needs to buy, we divide the total number of hot dogs needed by the number of hot dogs per pack: 36 hot dogs / 6 hot dogs/pack = 6 packs.\n\n## Step 4: Calculate the Total Cost\nEach pack of hot dogs costs $2. Therefore, the total cost will be the number of packs needed multiplied by the cost per pack: 6 packs * $2/pack = $12.\n\n## Step 5: Conclusion\nJohn needs to spend $12 on hot dogs for the party.\n\n#### $12",
+			"retrievals": 1
+		}
+	]
+}

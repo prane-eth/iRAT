@@ -1,0 +1,13 @@
+{
+	"task_id": 766,
+	"prompt": "George has 45% more pears than bananas. If George has 200 bananas, how many fruits does George have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If George has 200 bananas, 45% more than that number is 45/100*200 = <<200*0.45=90>>90\nThe total number of pears that George has is 200+90 =<<200+90=290>>290\nTogether, George has 290 pears + 200 bananas = <<290+200=490>>490 fruits\n#### 490",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many fruits George has, we first need to determine how many pears he has, given that he has 200 bananas and 45% more pears than bananas.\n\n1. Calculate the number of pears George has:\n   Since George has 45% more pears than bananas, and he has 200 bananas, we calculate the number of pears as follows:\n   - 45% of 200 bananas = 0.45 * 200 = 90\n   - So, George has 200 + 90 = 290 pears.\n\n2. Calculate the total number of fruits George has:\n   - Total fruits = Number of bananas + Number of pears\n   - Total fruits = 200 (bananas) + 290 (pears) = 490\n\nTherefore, George has a total of 490 fruits.\n\n#### 490",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the Problem\nGeorge has 45% more pears than bananas, and he has 200 bananas. We need to find out how many fruits George has in total.\n\n## Step 2: Calculate the Number of Pears\nTo find the number of pears, we calculate 45% of the number of bananas and then add that to the number of bananas. 45% of 200 bananas is 0.45 * 200 = 90. So, George has 200 + 90 = 290 pears.\n\n## Step 3: Calculate the Total Number of Fruits\nThe total number of fruits George has is the sum of the number of bananas and the number of pears. Total fruits = 200 bananas + 290 pears = 490 fruits.\n\n#### 490",
+			"retrievals": 1
+		}
+	]
+}

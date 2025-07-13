@@ -1,0 +1,13 @@
+{
+	"task_id": 811,
+	"prompt": "In one year, the number of students on campus doubles at the end of every month. If there are 10 students on campus at the beginning of the year, how many additional students would have joined by the end of May, above and beyond the number of students already on campus at the beginning of the year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "At the end of January, the number of students doubles to 2*10=<<2*10=20>>20\nAt the end of February, the number of students increases to 2*20=<<2*20=40>>40\nBy the end of March, the number of students doubles to 2*40=<<2*40=80>>80\nBy the end of April, the number of students is 2*80=<<2*80=160>>160\nAt the end of May, the number of students has doubled to 2*160=<<2*160=320>>320\nIf there were initially 10 students, 320-10=<<320-10=310>>310 students would join the campus by the end of May.\n#### 310",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many additional students would have joined by the end of May, we first need to calculate the total number of students on campus at the beginning of the year and at the end of May. At the start of the year, there are 10 students.\n\nThe number of students doubles at the end of every month. So, by the end of January, the number of students will be 10 * 2 = 20. By the end of February, it will be 20 * 2 = 40. By the end of March, it will be 40 * 2 = 80. By the end of April, it will be 80 * 2 = 160. And by the end of May, it will be 160 * 2 = 320.\n\nTo find out how many additional students joined by the end of May above and beyond the original number, we subtract the original number of students from the total at the end of May. So, 320 - 10 = 310.\n\n#### 310",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many additional students would have joined by the end of May,",
+			"retrievals": 3
+		}
+	]
+}

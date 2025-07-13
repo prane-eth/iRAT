@@ -1,0 +1,13 @@
+{
+	"task_id": 540,
+	"prompt": "My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the total bill is $50, the total tip of 20% would be $50*20% = $<<50*20*.01=10>>10\nSimilarly, if the bill was $50 an even split (1/2) would be $50 * 1/2 = $<<50*1/2=25>>25 to be paid by each person\nThat means I paid $25 for the bill + $10 for the tip = $<<25+10=35>>35\n#### 35",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much I ended up paying, first, we need to calculate",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how much you ended up paying, we first need to calculate the total amount of the bill including the tip. Since you're splitting the bill evenly, you'll pay half of the total bill, and then you'll also pay the additional 20% tip on the total bill.\n\n## Step 1: Calculate the Total Bill Amount\nThe total bill amount before the tip is $50.\n\n## Step 2: Calculate the 20% Tip\nTo find 20% of $50, we multiply $50 by 0.20. So, $50 * 0.20 = $10.\n\n## Step 3: Calculate Your Share of the Bill\nSince you're splitting the bill evenly, your share of the bill without the tip is $50 / 2 = $25.\n\n## Step 4: Add Your Share of the Tip to Your Bill\nYou also need to pay the additional 20% tip, which is $10. However, since you're only paying half of the bill and the additional tip is on the whole bill, you actually pay half of the $10 tip as part of the even split, which is $5, and then you pay the full $10 as the \"additional\" tip. But correctly understood, you pay half of the bill ($25) and half of the tip ($5), and then the full additional tip ($10) is a misunderstanding of the instruction. The correct interpretation is you pay half of the bill and the full 20% tip as that's what's asked - to pay an additional 20% tip on the whole bill, not half of it.\n\n## Step 5: Correct Calculation\nYou pay half of the bill ($25) and the full 20% tip ($10), because the instruction implies you're covering the entire tip as an addition to your half of the bill.\n\nThe final amount you pay is $25 (your half of the bill) + $10 (the full 20% tip) = $35.\n\n#### $35",
+			"retrievals": 1
+		}
+	]
+}

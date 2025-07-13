@@ -1,0 +1,13 @@
+{
+	"task_id": 859,
+	"prompt": "A plague infects ten people. Every day, each infected person infects six others. How many people are infected after three days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On the first day, the original ten people infect six people each, so 10 * 6 = <<10*6=60>>60 more people are infected.\nThere are 10 + 60 = <<10+60=70>>70 infected people after the first day.\nOn the second day, 70 * 6 = <<70*6=420>>420 more people are infected.\nThere are 70 + 420 = <<70+420=490>>490 infected people after the second day.\nOn the third day, 490 * 6 = 2940 more people are infected. Therefore, there are 490 + 2940 = 3430 infected people after three days.\n#### 3430",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of people infected after three days, we start with the",
+			"old_rat_retrievals": 0,
+			"final_answer": "To solve this problem, let's break it down step by step, analyzing the spread of the plague over the three days.\n\nInitially, 10 people are infected.\n\nOn the first day, each of these 10 people infects 6 others. So, the number of new infections is 10 * 6 = 60. Therefore, after the first day, the total number of infected people is 10 (initially infected) + 60 (newly infected) = 70.\n\nOn the second day, each of the 70 people infects 6 others. So, the number of new infections is 70 * 6 = 420. Therefore, after the second day, the total number of infected people is 70 (previously infected) + 420 (newly infected) = 490.\n\nOn the third day, each of the 490 people infects 6 others. So, the number of new infections is 490 * 6 = 2940. Therefore, after the third day, the total number of infected people is 490 (previously infected) + 2940 (newly infected) = 3430.\n\n#### 3430",
+			"retrievals": 1
+		}
+	]
+}

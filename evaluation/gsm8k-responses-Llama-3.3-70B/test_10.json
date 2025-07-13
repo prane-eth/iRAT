@@ -1,0 +1,13 @@
+{
+	"task_id": 10,
+	"prompt": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate Eliza's earnings for the week, we need to break down her pay into regular and overtime pay.\n\nFirst, let's calculate her regular pay for the first 40 hours:\nRegular pay = 40 hours * $10/hour = $400\n\nNext, let's calculate her overtime pay for the 5 additional hours she worked:\nOvertime rate = 1.2 * $10/hour = $12/hour\nOvertime pay = 5 hours * $12/hour = $60\n\nNow, let's add her regular pay and overtime pay to get her total earnings for the week:\nTotal earnings = $400 + $60 = $460\n\n#### $460",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate Eliza's earnings for this week, we first need to find out her regular earnings for the first 40 hours and then add her overtime pay for the additional hours worked. Eliza's rate per hour for the first 40 hours is $10. \n\nHer regular earnings for 40 hours can be calculated by multiplying her hourly rate by the number of hours worked within the regular 40-hour limit. Therefore, her regular earnings = $10 * 40 = $400.\n\nEliza worked a total of 45 hours, which means she worked 5 hours of overtime. Her overtime rate is 1.2 times $10, which equals $12 per hour. Therefore, her overtime earnings = $12 * 5 = $60.\n\nTo find her total earnings for the week, we need to add her regular earnings and her overtime earnings. Total earnings = regular earnings + overtime earnings = $400 + $60 = $460.\n\n#### $460",
+			"retrievals": 1
+		}
+	]
+}

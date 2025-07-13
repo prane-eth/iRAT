@@ -1,0 +1,13 @@
+{
+	"task_id": 715,
+	"prompt": "James decides to pick some blueberries.  It cost $20 to go picking and then another $1.5 per pound.  He picked 30 pounds of blueberries.  How much did he save compared to buying at the store for $2.5 a pound?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He paid 30*1.5=$<<30*1.5=45>>45 for the blueberries he picked\nSo after the entrance fee it was 45+20=$<<45+20=65>>65\nTo buy them at the grocery store it would cost 30*2.5=$<<30*2.5=75>>75\nSo he saved 75-65=$<<75-65=10>>10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount James saved, we first need to determine how much he spent",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the amount James saved, we first need to determine how much he spent on picking the blueberries. The cost to go picking is $20, and then there's an additional $1.5 per pound. He picked 30 pounds of blueberries. So, the total cost for picking is $20 (initial cost) + $1.5 * 30 (cost per pound) = $20 + $45 = $65.\n\nNow, let's compare this to the cost of buying the blueberries at the store. The store price is $2.5 per pound, and James picked 30 pounds. So, the total cost at the store would be $2.5 * 30 = $75.\n\nTo find out how much James saved, we subtract the cost of picking from the cost of buying at the store: $75 (store cost) - $65 (picking cost) = $10.\n\n#### $10",
+			"retrievals": 0
+		}
+	]
+}

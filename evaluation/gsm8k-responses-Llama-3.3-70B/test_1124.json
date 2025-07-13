@@ -1,0 +1,13 @@
+{
+	"task_id": 1124,
+	"prompt": "Elijah has one dog that is one-fourth the weight of Kory\u2019s dog and another dog that is half the weight of Kory\u2019s dog. If Kory\u2019s dog is 60 pounds, how much do Elijah and Kory\u2019s dogs weigh altogether, in pounds?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Elijah\u2019s first dog is 60 / 4 = <<60/4=15>>15 pounds\nElijah\u2019s second dog is 60 / 2 = <<60/2=30>>30 pounds\nThe total weight of Elijah and Kory\u2019s dogs is 15 + 30 + 60 = <<15+30+60=105>>105 pounds\n#### 105",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total weight of Elijah and Kory's dogs, we first need to determine the weights of Elijah's dogs in relation to Kory's dog. Kory's dog weighs 60 pounds.\n\nElijah has one dog that is one-fourth the weight of Kory's dog. Since Kory's dog is 60 pounds, this dog's weight is 60 * 1/4 = 15 pounds. Elijah also has another dog that is half the weight of Kory's dog, which is 60 * 1/2 = 30 pounds.\n\nNow, we add the weights of all the dogs together to find the total weight. Elijah's dogs weigh 15 pounds and 30 pounds, which totals to 15 + 30 = 45 pounds. Kory's dog weighs 60 pounds. So, the total weight of all the dogs is 45 (Elijah's dogs) + 60 (Kory's dog) = 105 pounds.\n\n#### 105",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Identify the weights of Elijah's dogs in relation to Kory's dog\nElijah has one dog that is one-fourth the weight of Kory's dog and another dog that is half the weight of Kory's dog. Kory's dog weighs 60 pounds.\n\n## Step 2: Calculate the weight of Elijah's first dog\nThe first dog is one-fourth the weight of Kory's dog. So, the weight of the first dog is 60 * (1/4) = 15 pounds.\n\n## Step 3: Calculate the weight of Elijah's second dog\nThe second dog is half the weight of Kory's dog. So, the weight of the second dog is 60 * (1/2) = 30 pounds.\n\n## Step 4: Calculate the total weight of Elijah's dogs and Kory's dog\nTo find the total weight, we need to add the weights of all three dogs: Elijah's first dog (15 pounds), Elijah's second dog (30 pounds), and Kory's dog (60 pounds). Total weight = 15 + 30 + 60 = 105 pounds.\n\n## Step 5: Conclusion\nThe total weight of Elijah and Kory's dogs is 105 pounds.\n\n#### 105",
+			"retrievals": 2
+		}
+	]
+}

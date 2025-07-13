@@ -1,0 +1,13 @@
+{
+	"task_id": 89,
+	"prompt": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let m be the number of copies Marilyn sold and h be the number Harald sold. We know that m + h = 80,000 and m = 10h.\nSubstituting the second equation into the first, we get 10h + h = 88,000\nCombining like terms, we get 11h = 88,000\nDividing both sides by 11, we get h = 8,000\n#### 8000",
+	"responses": [
+		{
+			"old_rat_answer": "Let's denote the number of copies Harald sold as \\(H\\). Since Marilyn's record sold 10 times as many copies as Harald's, the number of copies Marilyn sold can be denoted as \\(10H\\).\n\nWe are told that together, they sold 88,000 copies. Therefore, the equation to represent the total sales is:\n\\[H + 10H = 88,000\\]\n\nCombining like terms, we get:\n\\[11H = 88,000\\]\n\nDividing both sides by 11 to solve for \\(H\\), we get:\n\\[H = \\frac{88,000}{11}\\]\n\\[H = 8,000\\]\n\nSo, Harald sold 8,000 copies.\n\n#### 8000",
+			"old_rat_retrievals": 8,
+			"final_answer": "To solve this problem, let's denote the number of copies Harald's record sold as H and the number of copies Marilyn's record sold as M. According to the problem, Marilyn's first record sold 10 times as many copies as Harald's, so we can write this relationship as M = 10H.\n\nWe are also told that they sold 88,000 copies combined. This can be represented as M + H = 88,000.\n\nSubstituting the first equation into the second, we get 10H + H = 88,000, which simplifies to 11H = 88,000.\n\nTo find the number of copies Harald sold (H), we divide both sides of the equation by 11: H = 88,000 / 11 = 8,000.\n\nTherefore, Harald sold 8,000 copies of his record.\n\n#### 8,000",
+			"retrievals": 1
+		}
+	]
+}

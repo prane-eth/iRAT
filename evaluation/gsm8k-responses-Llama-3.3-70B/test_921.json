@@ -1,0 +1,13 @@
+{
+	"task_id": 921,
+	"prompt": "Larry loves taking care of animals.  He has 3 cats.  He has 3 times as many dogs as cats.  He has 2 fewer rabbits than dogs.  He has a fish tank with three times the number of fish as rabbits.  He also has a collection of gerbils that's 1/3 the number of fish he has.  How many pets does Larry have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Larry has 3 cats and 3 times as many dogs as cats, for 3*3=<<3*3=9>>9 dogs\nLarry has 2 fewer rabbits than his 9 dogs, for 9-2=7 rabbits\nLarry has 3 times as many fish as rabbits, for 3*7=<<7*3=21>>21 fish\nLarry has 1 /3 as many gerbils as he has fish, for 21/3= 7 gerbils\nAdding these all together, he has 9+7+21+7+3= <<9+7+21+7+3=47>>47 pets\n#### 47",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pets Larry has, we first need to determine the number of each type of animal he has. We know Larry has 3 cats.\n\nLarry has 3 times as many dogs as cats. Since he has 3 cats, he has 3 * 3 = 9 dogs.\n\nHe has 2 fewer rabbits than dogs. Given that he has 9 dogs, he then has 9 - 2 = 7 rabbits.\n\nHe has a fish tank with three times the number of fish as rabbits. Since he has 7 rabbits, he has 3 * 7 = 21 fish.\n\nHe also has a collection of gerbils that's 1/3 the number of fish he has. With 21 fish, he has 21 / 3 = 7 gerbils.\n\nTo find the total number of pets Larry has, we need to add up the number of cats, dogs, rabbits, fish, and gerbils. So, 3 (cats) + 9 (dogs) + 7 (rabbits) + 21 (fish) + 7 (gerbils) = 47.\n\n#### 47",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many pets Larry has, we first need to determine the number of each type of animal he has. We know Larry has 3 cats. Larry has 3 times as many dogs as cats. Since he has 3 cats, he has 3 * 3 = 9 dogs. He has 2 fewer rabbits than dogs. Given that he has 9 dogs, he then has 9 - 2 = 7 rabbits. He has a fish tank with three times the number of fish as rabbits. Since he has 7 rabbits, he has 3 * 7 = 21 fish.\n\nHe also has a collection of gerbils that's 1/3 the number of fish he has. With 21 fish, he has 21 / 3 = 7 gerbils. To find the total number of pets Larry has, we need to add up the number of cats, dogs, rabbits, fish, and gerbils. So, 3 (cats) + 9 (dogs) + 7 (rabbits) + 21 (fish) + 7 (gerbils) = 47. #### 47",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1308,
+	"prompt": "James is putting together 4 tables.  Each table has 4 legs and each leg needs 2 screws.  He has 40 screws.  How many screws will he have left over?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each table will take 4*2=<<4*2=8>>8 screws\nSo he needs 8*4=<<8*4=32>>32 screws\nThat means he will have 40-32=<<40-32=8>>8 screws left over\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many screws James will have left over, we first need to calculate the total number of screws required for all 4 tables. Each table has 4 legs, and each leg needs 2 screws. So, the number of screws needed for one table is 4 legs * 2 screws = 8 screws.\n\nSince James is putting together 4 tables, the total number of screws required is 4 tables * 8 screws/table = 32 screws. James has 40 screws available for this task.\n\nTo find out how many screws James will have left over, we subtract the total number of screws required from the total number of screws he has. So, 40 screws (available) - 32 screws (required) = 8 screws left over.\n\n#### 8",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how many screws James will have left over, we need to calculate the total number of screws required for all 4 tables. Each table has 4 legs, and each leg needs 2 screws. So, the number of screws needed for one table is 4 legs * 2 screws = 8 screws. Since James is putting together 4 tables, the total number of screws required is 4 tables * 8 screws/table = 32 screws. James has 40 screws available for this task.\n\nThe calculation of the total screws required is based on the fact that each leg of the table needs 2 screws, and there are 4 legs per table. Therefore, for 4 tables, the total number of screws needed is 32. \n\nTo find out how many screws James will have left over, we subtract the total number of screws required from the total number of screws he has. So, 40 screws (available) - 32 screws (required) = 8 screws left over.\n\n#### 8",
+			"retrievals": 1
+		}
+	]
+}

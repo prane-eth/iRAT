@@ -1,0 +1,13 @@
+{
+	"task_id": 816,
+	"prompt": "Tanya makes a salt scrub from salt, oil, fragrance, citrus zest, and sugar. She makes enough to fill a 10-ounce jar each time. She uses the same amount of citrus zest as fragrance and the same amount of salt as sugar. She uses twice as much oil as salt and twice as much salt as zest. How many ounces of oil does she use?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let Z be the ounces of zest Tanya uses.\nTanya uses the same amount of fragrance as zest, so she uses Z + Z = 2Z fragrance and zest.\nShe uses twice as much salt as zest, so she uses 2Z salt.\nShe uses the same amount of sugar as salt, so she uses 2Z + 2Z + 2Z = <<2+2+2=6>>6Z fragrance, zest, salt, and sugar.\nShe uses twice as much oil as salt, so she uses 2 * 2Z = <<2*2=4>>4Z oil.\nIn all, she uses 6Z + 4Z = 10Z = <<6+4=10>>10 ounces of fragrance, zest, salt, sugar, and oil.\nThus, she uses Z = 10 / 10 = <<10/10=1>>1 ounce of zest.\nThus, Tanya uses 4Z = <<4=4>>4 ounces of oil.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the amount of citrus zest as Z, the amount of fragrance as",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many ounces of oil Tanya uses, let's break down the information given. \n\nLet's denote the amount of citrus zest as Z. Since she uses the same amount of citrus zest as fragrance, the amount of fragrance is also Z. \n\nGiven that she uses twice as much salt as zest, the amount of salt is 2Z. Since she uses the same amount of salt as sugar, the amount of sugar is also 2Z.\n\nShe uses twice as much oil as salt, so the amount of oil is 2 * 2Z = 4Z.\n\nThe total amount of the mixture is the sum of the amounts of oil, salt, sugar, fragrance, and zest. Therefore, the equation representing the total mixture is:\n4Z (oil) + 2Z (salt) + 2Z (sugar) + Z (fragrance) + Z (zest) = 10 ounces.\n\nCombining like terms, we get:\n4Z + 2Z + 2Z + Z + Z = 10 ounces,\nwhich simplifies to:\n10Z = 10 ounces.\n\nDividing both sides by 10 gives:\nZ = 1 ounce.\n\nNow that we know Z (the amount of zest and fragrance) is 1 ounce, we can find the amount of oil used. Since the amount of oil is 4Z:\n4 * 1 = 4 ounces.\n\nSo, Tanya uses 4 ounces of oil.\n\n#### 4",
+			"retrievals": 1
+		}
+	]
+}

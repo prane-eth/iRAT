@@ -1,0 +1,19 @@
+{
+	"task_id": 145,
+	"prompt": "Write a function to find numbers within a given range where every number is divisible by every digit it contains.?assert divisible_by_digits(1,22)==[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]",
+	"test_imports": [],
+	"test_list": [
+		"assert divisible_by_digits(1,22)==[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]",
+		"assert divisible_by_digits(1,15)==[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15]",
+		"assert divisible_by_digits(20,25)==[22, 24]"
+	],
+	"mbpp_code": "def divisible_by_digits(startnum, endnum):\r\n    return [n for n in range(startnum, endnum+1) \\\r\n                if not any(map(lambda x: int(x) == 0 or n%int(x) != 0, str(n)))]",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to create a function that iterates over a given range of numbers and checks each number to see if it is divisible by every digit it contains. \nWe will start by defining the function `divisible_by_digits` that takes two parameters, `start` and `end`, representing the range of numbers we want to check.\n\n```\ndef divisible_by_digits(start, end):\n```\n\nWe will then initialize an empty list `result` to store the numbers that meet the condition. \nNext, we will loop through each number in the given range. \nFor each number, we will convert it to a string so we can easily iterate over its digits.\n\n```\n    result = []\n    for num in range(start, end + 1):\n        str_num = str(num)\n```\n\nFor each digit in the number, we will check if the digit is not zero and if the number is divisible by the digit. \nIf the number is not divisible by any of its digits, we will break the loop and move on to the next number.\n\n```\n        is_divisible = True\n        for digit in str_num:\n            if digit == '0' or num % int(digit) != 0:\n                is_divisible = False\n                break\n```\n\nIf the number is divisible by all its digits, we will add it to the `result` list.\n\n```\n        if is_divisible:\n            result.append(num)\n```\n\nFinally, we will return the `result` list containing all the numbers in the range that are divisible by every digit they contain.\n\n```\n    return result\n```",
+			"old_rat_retrievals": 9,
+			"final_answer": "To solve this problem, we can create a function that checks each number in a given range to see if it's divisible by every digit it contains. Here's how you can do it:\n\n```python\ndef divisible_by_digits(start, end):\n    result = []\n    for num in range(start, end + 1):\n        str_num = str(num)\n        is_divisible = True\n        for digit in str_num:\n            if digit == '0' or num % int(digit) != 0:\n                is_divisible = False\n                break\n        if is_divisible:\n            result.append(num)\n    return result\n```\n\nThis function works by iterating over each number in the given range, converting it to a string to easily access its digits, and then checking if the number is divisible by each digit. If it finds a digit that the number is not divisible by, it moves on to the next number. If the number is divisible by all its digits, it adds the number to the result list. \n\nYou can use this function like this: \n```python\nprint(divisible_by_digits(1, 22))\n```",
+			"retrievals": 4
+		}
+	]
+}

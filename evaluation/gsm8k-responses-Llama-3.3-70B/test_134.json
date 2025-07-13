@@ -1,0 +1,13 @@
+{
+	"task_id": 134,
+	"prompt": "On Monday, Walt walked 4 miles. Tuesday, he walked 6 times as many miles as he walked on Monday. His total mileage Monday through Wednesday was 41 miles. How many miles did he walk on Wednesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Walt\u2019s Tuesday walk was 4*6 = <<4*6=24>>24 miles.\nWalt\u2019s Monday and Tuesday walk were 4+24 = <<4+24=28>>28 miles combined.\nWalt\u2019s Wednesday walk was 41-28 = <<41-28=13>>13 miles.\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to break it down step by step.\n\n1. On Monday, Walt walked 4 miles.\n2. On Tuesday, he walked 6 times as many miles as he walked on Monday, which is 6 * 4 = 24 miles.\n3. The total mileage from Monday through Wednesday is 41 miles.\n4. The total mileage from Monday and Tuesday is 4 + 24 = 28 miles.\n5. To find out how many miles Walt walked on Wednesday, we subtract the total mileage from Monday and Tuesday from the total mileage from Monday through Wednesday: 41 - 28 = 13 miles.\n\n#### 13\n\n#### 13",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate miles walked on Tuesday\nWalt walked 4 miles on Monday. On Tuesday, he walked 6 times as many miles as he walked on Monday, which is 6 * 4 = 24 miles.\n\n## Step 2: Calculate total miles walked on Monday and Tuesday\nThe total miles walked on Monday and Tuesday is 4 + 24 = 28 miles.\n\n## Step 3: Calculate miles walked on Wednesday\nWalt's total mileage from Monday through Wednesday was 41 miles. To find out how many miles he walked on Wednesday, subtract the total miles walked on Monday and Tuesday from the total mileage. miles_walked_on_Wednesday = 41 - 28 = 13 miles.\n\n## Step 4: Conclusion\nBased on the calculations, Walt walked 13 miles on Wednesday.\n\n#### 13",
+			"retrievals": 2
+		}
+	]
+}

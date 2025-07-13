@@ -1,0 +1,13 @@
+{
+	"task_id": 1008,
+	"prompt": "Two friends are playing pick-up sticks. While playing, they noticed that there are 9 red sticks, and 5 more blue sticks than red. Also, the number of yellow sticks is 3 less than the blue sticks. How many sticks do they have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 9 + 5 = <<9+5=14>>14 blue sticks.\nThere are 14 - 3 = <<14-3=11>>11 yellow sticks.\nThere are a total of 9 + 14 + 11 = <<9+14+11=34>>34 sticks.\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of sticks, we first need to determine the number of each color of sticks. We know there are 9 red sticks.\n\nThe number of blue sticks is 5 more than the number of red sticks. Since there are 9 red sticks, the number of blue sticks is 9 + 5 = 14.\n\nThe number of yellow sticks is 3 less than the number of blue sticks. Given that there are 14 blue sticks, the number of yellow sticks is 14 - 3 = 11.\n\nNow, we can calculate the total number of sticks by adding the number of red, blue, and yellow sticks together: 9 (red) + 14 (blue) + 11 (yellow) = 34.\n\n#### 34",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of sticks, we first need to determine the number of each color of sticks. We know there are 9 red sticks. The number of blue sticks is 5 more than the number of red sticks. Since there are 9 red sticks, the number of blue sticks is 9 + 5 = 14. The number of yellow sticks is 3 less than the number of blue sticks. Given that there are 14 blue sticks, the number of yellow sticks is 14 - 3 = 11.\n\nNow, we can calculate the total number of sticks by adding the number of red, blue, and yellow sticks together: 9 (red) + 14 (blue) + 11 (yellow) = 34. \n\n#### 34",
+			"retrievals": 0
+		}
+	]
+}

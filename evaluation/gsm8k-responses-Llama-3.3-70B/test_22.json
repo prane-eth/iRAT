@@ -1,0 +1,13 @@
+{
+	"task_id": 22,
+	"prompt": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to find out how old Raymond is now and then determine how many years ago his son was born.\n\n1. Since Raymond was born 6 years before Samantha, and Samantha is now 31, we can calculate Raymond's current age by adding 6 to Samantha's age. So, Raymond is 31 + 6 = 37 years old.\n\n2. We know that Raymond had a son at the age of 23. To find out how many years ago this was, we subtract 23 from Raymond's current age. Therefore, 37 - 23 = 14 years ago.\n\nSo, Raymond's son was born 14 years ago.\n\n#### 14",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many years ago Raymond's son was born, we need to determine Raymond's current age first. Since Raymond was born 6 years before Samantha, and Samantha is now 31, we can calculate Raymond's age by adding 6 to Samantha's age. This means Raymond is 31 + 6 = 37 years old now.\n\nNext, we need to find out how old Raymond was when his son was born. According to the information, Raymond had a son at the age of 23. To find out how many years ago this was, we subtract the age at which Raymond had his son from his current age. So, 37 (Raymond's current age) - 23 (age when his son was born) = 14 years.\n\nTherefore, Raymond's son was born 14 years ago.\n\n#### 14",
+			"retrievals": 2
+		}
+	]
+}

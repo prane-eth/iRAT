@@ -1,0 +1,13 @@
+{
+	"task_id": 348,
+	"prompt": "Davos bought 2 shirts from the mall that cost $30 each. If he bought them with a 40% discount, how much did Davos pay for the 2 shirts?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total price of the 2 shirts is $30 x 2 = $<<30*2=60>>60.\nThe total discount on the 2 shirts is $60 x 0.40 = $<<60*0.40=24>>24.\nTherefore, the total amount Davos paid for the 2 shirts is $60 - $24 = $<<60-24=36>>36.\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total amount Davos paid for the 2 shirts, we first need to calculate the original price of the shirts and then apply the 40% discount.\n\n1. Calculate the original price of the 2 shirts:\nOriginal price per shirt = $30\nOriginal price for 2 shirts = $30 * 2 = $60\n\n2. Apply the 40% discount:\nDiscount amount = 40% of $60 = 0.40 * $60 = $24\nAmount paid = Original price - Discount amount = $60 - $24 = $36\n\nTherefore, Davos paid $36 for the 2 shirts.\n\n#### $36\n\nThis $24 is the amount of discount Davos gets. To find out how much he actually paid, we subtract the discount from the total cost without discount. \n\nAmount paid = Total cost - Discount = $60 - $24 = $36.\n\n#### $36",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how much Davos paid for the 2 shirts, we first need to calculate the total cost of the shirts before the discount. Each shirt costs $30, and Davos bought 2 shirts, so the total cost is 2 * $30 = $60.\n\nNext, we apply the 40% discount to the total cost. The discount amount can be calculated by multiplying the total cost by the discount percentage divided by 100. So, the discount is $60 * (40 / 100) = $60 * 0.4 = $24.\n\nFinally, to find out how much Davos paid, we subtract the discount from the total cost before the discount. The final cost is total cost - discount = $60 - $24 = $36.\n\n#### $36",
+			"retrievals": 2
+		}
+	]
+}

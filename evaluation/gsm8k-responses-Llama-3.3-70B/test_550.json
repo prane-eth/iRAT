@@ -1,0 +1,13 @@
+{
+	"task_id": 550,
+	"prompt": "Jonathan was sad to learn he needed 2 more toys than he already had to have enough toys to make a sorted play set five times larger than James's play set, which had 80 toys. How many toys does Jonathan currently have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Five times as large as James's set of play, which has 80 toys, is 5*80 = <<5*80=400>>400 toys.\nIf Jonathan was sad to learn he needed 2 more toys than he already had, then he had 400-2 = <<400-2=398>>398 toys\n#### 398",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many toys Jonathan currently has, we first need to determine the size of the play set he wants to achieve, which is five times larger than James's play set. James has 80 toys, so five times that amount is 5 * 80 = 400 toys.\n\n \nThis means Jonathan wants to have a total of 400 toys to make his play set five times larger than James's. However, it's stated that he needs 2 more toys than he already has to achieve this. Therefore, we can set up an equation where the number of toys Jonathan currently has plus 2 equals 400.\n\n \nLet's denote the number of toys Jonathan currently has as \"x\". The equation based on the given information is x + 2 = 400. To find the value of \"x\", which represents the number of toys Jonathan currently has, we need to solve this equation for \"x\". Subtracting 2 from both sides of the equation gives us x = 400 - 2.\n\n \nSolving the equation x = 400 - 2 gives us x = 398. This means Jonathan currently has 398 toys.\n\n#### 398",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many toys Jonathan currently has, we first need to determine the size of the play set he wants to achieve. Since James has 80 toys, and Jonathan wants his play set to be five times larger than James's, we calculate this by multiplying 80 by 5. This gives us 5 * 80 = 400 toys, which is the size of the play set Jonathan aims to have.\n\nGiven that Jonathan needs 2 more toys than he already has to reach this goal, we can set up an equation to represent the situation. Let \"x\" be the number of toys Jonathan currently has. The equation is x + 2 = 400, because he needs 2 more toys to achieve his desired play set size of 400 toys.\n\nTo solve for \"x\", which represents the number of toys Jonathan currently has, we subtract 2 from both sides of the equation x + 2 = 400. This gives us x = 400 - 2 = 398.\n\nTherefore, Jonathan currently has 398 toys.\n\n#### 398",
+			"retrievals": 3
+		}
+	]
+}

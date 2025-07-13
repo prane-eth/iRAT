@@ -1,0 +1,13 @@
+{
+	"task_id": 611,
+	"prompt": "It costs $194 per meter to repave a street. Monica's street is 150 meters long. How much more does it cost to repave Lewis' street, which is 490 meters long?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Total cost to repave Monica\u2019s street is 194*150 = <<194*150=29100>>29,100 dollars.\nTotal cost to repave Lewis\u2019 street is 194*490 = <<194*490=95060>>95,060.\nIt costs 95,060-29,100 = <<95060-29100=65960>>65,960 more dollars to repave Lewis\u2019 street.\n#### 65,960",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the difference in cost between repaving Monica's street and Lewis' street",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much more it costs to repave Lewis' street compared to Monica's street, we first need to calculate the cost of repaving each street and then find the difference between these costs.\n\nThe cost to repave Monica's street can be calculated by multiplying the length of her street by the cost per meter. Since Monica's street is 150 meters long and it costs $194 per meter, the total cost for Monica's street is 150 * $194 = $29,100.\n\nFor Lewis' street, which is 490 meters long, the cost is 490 * $194 = $95,060.\n\nNow, to find out how much more it costs to repave Lewis' street, we subtract the cost of repaving Monica's street from the cost of repaving Lewis' street: $95,060 - $29,100 = $65,960.\n\n#### $65,960",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1247,
+	"prompt": "Ara joined the school basketball team four years ago. She has been playing 40 games every year. If her score for every game is 21 points, calculate the total number of points she has scored in the four years.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Forty games every year translates to 40*4 = <<40*4=160>>160 games in four years.\nIf Ara scores 21 points in each game, she has scored 160*21 = <<21*160=3360>>3360 points\n#### 3360",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of points Ara has scored in the four years, we first need to determine the total number of games she has played. Since she has been playing 40 games every year for four years, we multiply the number of games per year by the number of years.\n\nThe total number of games played is 40 games/year * 4 years = 160 games.\n\n`\n \nNow that we know Ara has played 160 games, we can calculate the total number of points she has scored. Given that her score for every game is 21 points, we multiply the total number of games by the score per game.\n\nThe total number of points scored is 160 games * 21 points/game = 3360 points.\n\n#### 3360",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the total number of games played by Ara in four years.\nAra has been playing 40 games every year for four years. So, the total number of games played is 40 games/year * 4 years = 160 games.\n\n## Step 2: Calculate the total number of points scored by Ara in four years.\nGiven that her score for every game is 21 points, we can find the total number of points scored by multiplying the total number of games by the score per game. The total number of points scored is 160 games * 21 points/game = 3360 points.\n\nThe final answer is: #### 3360",
+			"retrievals": 2
+		}
+	]
+}

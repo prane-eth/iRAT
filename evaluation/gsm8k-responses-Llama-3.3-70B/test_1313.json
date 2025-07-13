@@ -1,0 +1,13 @@
+{
+	"task_id": 1313,
+	"prompt": "Tom's restaurant gets 6 reservations a night.  They normally order 2 meals that cost $5 each and a $5 bottle of wine.  How much do they make a week if they are open 2 days a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The meals cost 2*5=$<<2*5=10>>10 per table\nSo each table pays 10+5=$<<10+5=15>>15 a night\nSo they make 6*$15=$<<6*15=90>>90 a night\nThat means they make $90*2=$<<90*2=180>>180 a week\n#### 180",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money Tom's restaurant makes in a week, we first need to determine how much money they make from one reservation. Each reservation orders 2 meals at $5 each, which totals to 2 * $5 = $10. Additionally, they order a $5 bottle of wine. So, the total amount spent by one reservation is $10 (for meals) + $5 (for wine) = $15.\n\nEach night, Tom's restaurant gets 6 reservations. Therefore, the total amount of money they make in one night from these reservations is 6 * $15 = $90.\n\nSince Tom's restaurant is open 2 days a week, we need to calculate the total weekly income by multiplying the daily income by the number of days they are open. So, $90 * 2 = $180.\n\n#### $180",
+			"old_rat_retrievals": 2,
+			"final_answer": "To calculate the total amount of money Tom's restaurant makes in a week, we first need to determine how much they make per night. Given that they get 6 reservations a night, and each reservation orders 2 meals at $5 each and a $5 bottle of wine, we can calculate the total revenue per reservation.\n\nEach reservation orders 2 meals at $5 each, so the total cost for meals per reservation is 2 * $5 = $10. Adding the $5 bottle of wine, the total cost per reservation is $10 + $5 = $15.\n\nWith 6 reservations per night, and each reservation spending $15, the total revenue per night is 6 * $15 = $90.\n\nSince Tom's restaurant is open 2 days a week, the total weekly revenue would be the revenue per night multiplied by the number of nights they are open. Therefore, $90 * 2 = $180.\n\n#### $180",
+			"retrievals": 4
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 665,
+	"prompt": "John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He is in class for 4*2=<<4*2=8>>8 hours per week\nSo he takes classes for 8*6=<<8*6=48>>48 hours\nThat means he learned 48/1.5=<<48/1.5=32>>32 recipes\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many recipes John learns, we need to calculate the total hours",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many recipes John learns, we first need to calculate the total hours of class time he attends. \n\nThe class meets 4 times a week for 2 hours each time. So, the total class hours per week are 4 * 2 = 8 hours.\n\nSince the class goes on for 6 weeks, the total class hours over 6 weeks would be 8 hours/week * 6 weeks = 48 hours.\n\nJohn learns a new recipe for every 1.5 hours of class time. To find out how many recipes he learns, we divide the total class hours by 1.5 hours.\n\nTotal recipes learned = Total class hours / 1.5 hours/recipe = 48 hours / 1.5 hours/recipe = 32 recipes.\n\n#### 32",
+			"retrievals": 1
+		}
+	]
+}

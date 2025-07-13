@@ -1,0 +1,13 @@
+{
+	"task_id": 900,
+	"prompt": "Susan made 100 cookies for Christmas and was going to equally divide them between her 6 nephews. Before Susan could package them, her husband snuck 4 cookies for himself. How many cookies will each of Susan\u2019s nephews get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Subtract 4 from 100 to see how many cookies are left. 100 cookies - 4 cookies = <<100-4=96>>96 cookies\nDivide 96 cookies between her 6 nephews = 96 cookies/6 people = <<96/6=16>>16 cookies/person\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cookies each of Susan's nephews will get, we first need to determine the total number of cookies available after Susan's husband took some. Susan initially made 100 cookies. \n\nHer husband snuck 4 cookies for himself, so we subtract these from the total to find out how many cookies are left: 100 - 4 = 96 cookies.\n\nNow that we know there are 96 cookies left, we need to divide this number by the number of nephews Susan has, which is 6, to find out how many cookies each nephew will get. \n\nWe calculate this by dividing the total number of remaining cookies by the number of nephews: 96 / 6 = 16 cookies per nephew.\n\n#### 16",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many cookies each of Susan's nephews will get, we first need to determine the total number of cookies available after Susan's husband took some. Susan initially made 100 cookies. Her husband snuck 4 cookies for himself, so we subtract these from the total to find out how many cookies are left: 100 - 4 = 96 cookies.\n\nNow that we know there are 96 cookies left, we need to divide this number by the number of nephews Susan has, which is 6, to find out how many cookies each nephew will get. We calculate this by dividing the total number of remaining cookies by the number of nephews: 96 / 6 = 16 cookies per nephew.\n\n#### 16",
+			"retrievals": 1
+		}
+	]
+}

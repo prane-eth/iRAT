@@ -1,0 +1,13 @@
+{
+	"task_id": 1076,
+	"prompt": "Jenny goes to the florist to buy some flowers. Roses cost $2 each and $15 for a dozen. If she bought 15 roses and arrived with five 5 dollar bills and they only have quarters for change, how many quarters does she leave with?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jenny has $25 because 5 x 5 = <<5*5=25>>25\nShe buys 1 dozen roses and 3 single roses because 15 - 12 - 3 = <<15-12-3=0>>0\nShe spends $6 on the single roses because 3 x 2 = <<3*2=6>>6\nShe spends $21 on roses because 15 + 6 = <<15+6=21>>21\nShe gets $4 in change because 25 - 21 = <<25-21=4>>4\nShe gets 16 quarters because 4 x 4 = <<4*4=16>>16\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many quarters Jenny leaves with, we first need to calculate the total cost of the roses she bought. Since roses cost $2 each and $15 for a dozen, buying 15 roses would be cheaper if she buys a dozen (12 roses) for $15 and then buys the remaining 3 roses at $2 each.\n\nThe cost for a dozen roses is $15. The cost for the remaining 3 roses is 3 * $2 = $6. So, the total cost for 15 roses is $15 + $6 = $21.\n\nJenny arrived with five 5 dollar bills, which equals 5 * $5 = $25. \n\nTo find out how much change she gets, we subtract the total cost of the roses from the amount she paid with: $25 - $21 = $4.\n\nSince they only have quarters for change and each quarter is $0.25, we need to divide the change by the value of a quarter to find out how many quarters she gets. $4 / $0.25 = 16.\n\n#### 16",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many quarters Jenny leaves with, we first need to calculate the total cost of the roses she bought. Roses cost $2 each and $15 for a dozen. Since she bought 15 roses, we can calculate the cost by first determining the cost of a dozen roses and then adding the cost of the remaining 3 roses.\n\nThe cost of a dozen roses is $15. For the remaining 3 roses, each costs $2, so 3 roses cost $6. Therefore, the total cost for 15 roses is $15 (for the dozen) + $6 (for the 3 additional roses) = $21.\n\nJenny arrived with five $5 dollar bills, which totals $25. \n\nSince the total cost of the roses is $21 and Jenny paid with $25, she is due $25 - $21 = $4 in change.\n\nSince they only have quarters for change and each quarter is $0.25, we divide the total change by the value of a quarter to find out how many quarters Jenny leaves with. $4 / $0.25 = 16 quarters.\n\n#### 16",
+			"retrievals": 1
+		}
+	]
+}

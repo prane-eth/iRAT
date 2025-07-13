@@ -1,0 +1,13 @@
+{
+	"task_id": 1073,
+	"prompt": "Maggie spent a quarter of her money, while Riza spent one-third of her money. They each had $60. How much money do the two of them have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Maggie spent $60/4 = $<<60/4=15>>15.\nSo, Maggie is left with $60 - $15 = $<<60-15=45>>45.\nRiza spent $60/3 = $<<60/3=20>>20.\nSo, Riza is left with $60 - $20 = $<<60-20=40>>40.\nThus, they have a total of $45 + $40 = $<<45+40=85>>85 left.\n#### 85",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much money Maggie and Riza have left, we first need\n\nNow, we need to find out how much money each of them has left. Maggie had $60 and spent $15, so she has $60 - $15 = $45 left. Riza had $60 and spent $20, so she has $60 - $20 = $40 left. To find the total amount of money they have left, we add the amounts they each have left: $45 + $40 = $85.\n\n#### $85",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate Maggie's Spending\nMaggie spent a quarter of her money. To find out how much she spent, we need to calculate 1/4 of $60. This can be done by multiplying $60 by 0.25.\n\n## Step 2: Perform Maggie's Spending Calculation\n$60 * 0.25 = $15. So, Maggie spent $15.\n\n## Step 3: Calculate Riza's Spending\nRiza spent one-third of her money. To find out how much she spent, we need to calculate 1/3 of $60. This can be done by multiplying $60 by 0.3333.\n\n## Step 4: Perform Riza's Spending Calculation\n$60 * 0.3333 = $20. So, Riza spent $20.\n\n## Step 5: Calculate Remaining Money for Maggie\nTo find out how much money Maggie has left, we subtract the amount she spent from her original $60: $60 - $15 = $45.\n\n## Step 6: Calculate Remaining Money for Riza\nTo find out how much money Riza has left, we subtract the amount she spent from her original $60: $60 - $20 = $40.\n\n## Step 7: Calculate Total Remaining Money\nTo find the total amount of money they have left, we add Maggie's remaining money to Riza's remaining money: $45 + $40 = $85.\n\nThe final answer is: #### $85",
+			"retrievals": 1
+		}
+	]
+}

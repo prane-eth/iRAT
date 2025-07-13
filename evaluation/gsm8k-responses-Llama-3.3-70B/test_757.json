@@ -1,0 +1,13 @@
+{
+	"task_id": 757,
+	"prompt": "A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let V be the number of votes against the new regulation.\nThere were twice as many votes in favor of the new regulation, so V + 2V = 3V = 33.\nThus, there were V = 33 / 3 = <<33/3=11>>11 votes against the new regulation.\nTherefore, there were 2V = 2 * 11 = 22 votes in favor of the new regulation.\n#### 22",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to establish the relationship between the votes in favor and the votes against the new regulation. Let's denote the number of votes in favor as F and the number of votes against as A. We are told that the vote passed with twice as many votes in favor of the new regulation as there were against it. This can be represented as F = 2A.\n\n`\nWe also know that the total number of council members is 33, and assuming every member voted, the total number of votes is the sum of votes in favor and against, which gives us F + A = 33.\n\n`\nUsing the relationship F = 2A, we can substitute F in the equation F + A = 33, resulting in 2A + A = 33. Simplifying this, we get 3A = 33, which means A = 33 / 3 = 11.\n\n`\nSince F = 2A, and we've found that A = 11, we can calculate F by substituting the value of A into the equation, which gives us F = 2 * 11 = 22.\n\n#### 22",
+			"old_rat_retrievals": 1,
+			"final_answer": "To solve this problem, we first need to establish the relationship between the votes in",
+			"retrievals": 0
+		}
+	]
+}

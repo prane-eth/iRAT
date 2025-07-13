@@ -1,0 +1,13 @@
+{
+	"task_id": 447,
+	"prompt": "Rozanne is making eggnog for her family. She uses 4 dozen eggs that were in cases and another 2 eggs that were loose in the cupboard. She puts out trays that each hold 5 glasses of eggnog. If each glass needs 5 eggs, how many trays can Rozanne put out?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "As a dozen is equivalent to 12 eggs, Rozanne has 4 dozen eggs * 12 = <<4*12=48>>48 eggs in cases.\nShe therefore has a total of 48 eggs in cases + 2 loose eggs = <<48+2=50>>50 eggs.\nSo she can make 50 eggs / 5 eggs per glass of eggnog = <<50/5=10>>10 glasses of eggnog.\nThis means she can put out 10 glasses of eggnog / 5 glasses per tray = <<10/5=2>>2 trays.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many trays Rozanne can put out, we first need to calculate the total number of eggs she has. She uses 4 dozen eggs from cases and another 2 eggs that were loose. Since 1 dozen equals 12 eggs, 4 dozen eggs equal 4 * 12 = 48 eggs.\n\n \nWe then add the 2 loose eggs to the 48 eggs from the cases, giving Rozanne a total of 48 + 2 = 50 eggs.\n\n \nNext, we calculate how many glasses of eggnog she can make with these eggs, knowing that each glass requires 5 eggs. The total number of glasses she can fill is 50 eggs / 5 eggs per glass = 10 glasses.\n\n \nFinally, since each tray holds 5 glasses of eggnog, we divide the total number of glasses by the number of glasses each tray can hold to find out how many trays she can put out. So, 10 glasses / 5 glasses per tray = 2 trays.\n\n#### 2",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many trays Rozanne can put out, first calculate the total number of eggs she has. Since 1 dozen equals 12 eggs, 4 dozen eggs equal 4 * 12 = 48 eggs. Adding the 2 loose eggs gives a total of 48 + 2 = 50 eggs. Each glass of eggnog requires 5 eggs, so the total number of glasses she can fill is 50 / 5 = 10 glasses. Since each tray holds 5 glasses, the number of trays she can put out is 10 / 5 = 2 trays.\n\n#### 2",
+			"retrievals": 2
+		}
+	]
+}

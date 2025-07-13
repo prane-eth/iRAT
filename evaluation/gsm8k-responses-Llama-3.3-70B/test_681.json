@@ -1,0 +1,13 @@
+{
+	"task_id": 681,
+	"prompt": "The elevator in Jack's building supports a maximum load of 700 kg. An adult weighs an average of 80 kg. If Jack rides the elevator with 8 other adults, by how much will they have exceeded the maximum load of the elevator?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.\nIn total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.\nThey have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out by how much they will have exceeded the maximum load of the elevator",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out by how much they will have exceeded the maximum load of the elevator, we need to calculate the total weight of the adults in the elevator and then subtract the maximum load from this total weight. \n\nFirst, calculate the total weight of the adults: Jack plus 8 other adults makes 9 adults in total. Since an adult weighs an average of 80 kg, the total weight is 9 adults * 80 kg/adult = 720 kg.\n\nNext, subtract the maximum load of the elevator from this total weight to find the excess: 720 kg - 700 kg = 20 kg.\n\n#### 20 kg",
+			"retrievals": 1
+		}
+	]
+}

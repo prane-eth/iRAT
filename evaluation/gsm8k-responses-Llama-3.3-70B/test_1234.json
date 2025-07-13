@@ -1,0 +1,13 @@
+{
+	"task_id": 1234,
+	"prompt": "Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "From the 60 apples that Walter bought, he ate 2/5*60=<<2/5*60=24>>24 apples\nThe number of apples remaining was 60-24=<<60-24=36>>36\nWalter gave 25/100*36=<<25/100*36=9>>9 apples to his sister.\nHe remained with 36-9=<<36-9=27>>27 apples.\nHe then sold the apples for 27*$3=$<<27*3=81>>81 to his uncle.\n#### 81",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Walter received, we first need to calculate the number of apples he had left after eating and giving some to his sister. Walter started with 60 apples. He ate 2/5 of them, which is (2/5) * 60 = 24 apples.\n\n \nWalter then had 60 - 24 = 36 apples left. He gave his sister 25% of these remaining apples. 25% of 36 is (25/100) * 36 = 9 apples. So, after giving his sister 9 apples, Walter had 36 - 9 = 27 apples left.\n\n \nWalter sold these remaining 27 apples to his uncle at $3 each. To find out how much money he received, we multiply the number of apples by the price per apple: 27 * $3 = $81.\n\n#### $81",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of apples Walter ate\nWalter bought 60 apples and ate 2/5 of them. To find out how many apples he ate, we calculate 2/5 * 60 = 24 apples.\n\n## Step 2: Calculate the number of remaining apples after Walter ate some\nAfter eating 24 apples, Walter had 60 - 24 = 36 apples left.\n\n## Step 3: Calculate the number of apples Walter gave to his sister\nWalter gave his sister 25% of the remaining 36 apples. To find out how many apples he gave away, we calculate 25% * 36 = 0.25 * 36 = 9 apples.\n\n## Step 4: Calculate the number of remaining apples after giving some to his sister\nAfter giving away 9 apples, Walter had 36 - 9 = 27 apples left.\n\n## Step 5: Calculate the total amount of money Walter received from selling the remaining apples\nWalter sold the remaining 27 apples to his uncle at $3 each. To find out how much money he received, we calculate 27 * $3 = $81.\n\n#### $81",
+			"retrievals": 1
+		}
+	]
+}

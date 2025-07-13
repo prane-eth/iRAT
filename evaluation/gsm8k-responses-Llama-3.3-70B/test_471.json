@@ -1,0 +1,13 @@
+{
+	"task_id": 471,
+	"prompt": "Theo bought a pen for $2 and a piece of paper that cost $1 less than three times the price of the pen. She gave the cashier $10. What is the amount of change Theo received?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three times the cost of pen is $2 x 3 = $<<2*3=6>>6.\nThe cost of paper is $6 - $1 = $<<6-1=5>>5.\nThe total cost for the pen and paper is $2 + $5 = $<<2+5=7>>7.\nTheo received $10 - $7 = $<<10-7=3>>3 change.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the amount of change Theo received, we first need to calculate the total",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the amount of change Theo received, we need to calculate the total cost of the items she bought and subtract that from the $10 she gave the cashier.\n\n## Step 1: Determine the cost of the pen.\nThe pen costs $2.\n\n## Step 2: Calculate the cost of the paper.\nThe paper costs $1 less than three times the price of the pen. Three times the price of the pen is 3 * $2 = $6. $1 less than that is $6 - $1 = $5.\n\n## Step 3: Calculate the total cost of the items.\nThe total cost is the cost of the pen plus the cost of the paper, which is $2 + $5 = $7.\n\n## Step 4: Calculate the change Theo received.\nTheo gave the cashier $10. The change she received is $10 - $7 = $3.\n\n#### $3",
+			"retrievals": 1
+		}
+	]
+}

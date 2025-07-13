@@ -1,0 +1,13 @@
+{
+	"task_id": 485,
+	"prompt": "Stetson made a bet with Alec that he would give up $10 for each orange he eats. While at the farm, Stetson ate 2/5 of the oranges they picked. If they picked 60 oranges, calculate the total amount of money Stetson gave up?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If they picked 60 oranges and Stetson ate 2/5 of them, he ate 2/5*60 = <<60*2/5=24>>24 oranges.\nIf he gave $10 for every orange he ate, then he gave up $10*24 = $<<10*24=240>>240\n#### 240",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to find out how many oranges Stet",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of oranges eaten by Stetson\nTo find out how many oranges Stetson ate, we need to calculate 2/5 of the total oranges picked, which is 60. The formula to find the number of oranges eaten is: (2/5) * 60.\n\n## Step 2: Perform the calculation for the number of oranges eaten\nThe calculation is as follows: (2/5) * 60 = (2 * 60) / 5 = 120 / 5 = 24 oranges.\n\n## Step 3: Determine the total amount of money Stetson gave up\nSince Stetson made a bet that he would give up $10 for each orange he eats, we need to multiply the number of oranges eaten by the amount he gives up for each orange. The formula to find the total amount of money given up is: 24 * $10.\n\n## Step 4: Perform the calculation for the total amount of money given up\nThe calculation is as follows: 24 * $10 = $240.\n\n#### $240",
+			"retrievals": 1
+		}
+	]
+}

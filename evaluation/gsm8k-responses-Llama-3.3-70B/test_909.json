@@ -1,0 +1,13 @@
+{
+	"task_id": 909,
+	"prompt": "Dean has 30 marbles. He gives 1/5  of them to Jamie and gives 10 to Donald. How many marbles are left for Dean?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Dean gives 30 x 1/5 = <<30*1/5=6>>6 marbles to Jamie.\nHe gives a total of 6 + 10 = <<6+10=16>>16 marbles in all.\nSo, Dean has 30 - 16 = <<30-16=14>>14 marbles left.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Dean has left, we first need to calculate",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the number of marbles given to Jamie\nTo find out how many marbles Dean gives to Jamie, we need to calculate 1/5 of the total number of marbles Dean has. Dean has 30 marbles, so 1/5 of 30 is (1/5) * 30 = 6 marbles.\n\n## Step 2: Calculate the total number of marbles given away\nDean gives 6 marbles to Jamie and 10 marbles to Donald. So, the total number of marbles given away is 6 + 10 = 16 marbles.\n\n## Step 3: Calculate the number of marbles left for Dean\nTo find out how many marbles Dean has left, we subtract the total number of marbles given away from the initial number of marbles. Dean had 30 marbles and gave away 16, so he has 30 - 16 = 14 marbles left.\n\n#### 14",
+			"retrievals": 1
+		}
+	]
+}

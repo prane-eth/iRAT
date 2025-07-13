@@ -1,0 +1,13 @@
+{
+	"task_id": 418,
+	"prompt": "Tom went on a two-week-long trip through Europe. In the first 4 days, he traveled 200 kilometers every day, and over the next two days, he totaled only 30% of the distance traveled over the first four days. On the next day, he wasn't traveling at all. During the second week, he made 300 kilometers every day. How many kilometers in total did Tom make during his two-week-long trip?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the first four days, Tom made 4 * 200 = <<4*200=800>>800 kilometers.\nFor the next two days, he made only 30/100 * 800 = <<30/100*800=240>>240 kilometers.\nDuring the second week, Tom made 300 kilometers every day, which means 7 * 300 = <<7*300=2100>>2100 kilometers during the whole week.\nDuring his whole trip, Tom made 800 + 240 + 2100 = <<800+240+2100=3140>>3140 kilometers.\n#### 3140",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total distance Tom traveled during his two-week-long trip, we first",
+			"old_rat_retrievals": 0,
+			"final_answer": "To calculate the total distance Tom traveled during his two-week-long trip, we need to break down his journey into segments and calculate the distance for each part.\n\nFirst, Tom traveled 200 kilometers every day for the first 4 days, which totals 200 * 4 = 800 kilometers.\n\nNext, over the following two days, he traveled 30% of the distance he covered in the first four days. This is 0.3 * 800 = 240 kilometers.\n\nThen, Tom had a day where he didn't travel at all, so the distance for that day is 0 kilometers.\n\nDuring the second week, Tom traveled 300 kilometers every day for 7 days, totaling 300 * 7 = 2100 kilometers.\n\nTo find the total distance traveled, we add the distances from each segment: 800 + 240 + 0 + 2100 = 3140 kilometers.\n\n#### 3140",
+			"retrievals": 1
+		}
+	]
+}

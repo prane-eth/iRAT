@@ -1,0 +1,13 @@
+{
+	"task_id": 749,
+	"prompt": "Carl has four times as many marbles as Sean and Sean has half as many marbles as Cal. If Sean has 56 marbles, how many marbles do Carl and Cal have combined?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cal has 56*2 = <<56*2=112>>112 marbles.\nCarl has 4*56 = <<4*56=224>>224 marbles.\nCarl and Cal have 112+224 = <<112+224=336>>336 marbles combined.\n#### 336",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Carl and Cal have combined, we first need to understand the relationships between the number of marbles each person has. We know that Sean has 56 marbles.\n\nSince Sean has half as many marbles as Cal, we can determine the number of marbles Cal has by doubling Sean's marbles. So, Cal has 2 * 56 = 112 marbles.\n\nWe are also told that Carl has four times as many marbles as Sean. Given that Sean has 56 marbles, Carl has 4 * 56 = 224 marbles.\n\nNow, to find the total number of marbles Carl and Cal have combined, we add the number of marbles each of them has. So, the total is 224 (Carl's marbles) + 112 (Cal's marbles) = 336 marbles.\n\n#### 336",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many marbles Carl and Cal have combined, we first need",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 902,
+	"prompt": "Calvin is making soup for his family for dinner. He has a pot with enough soup to fill four adult's bowls or eight child's bowls. He is an adult and will be eating with his adult wife and their two children. If everyone eats one bowl at a meal, how many times will each child be able to have a bowl of soup for lunch from the leftover soup?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Four adult bowls equal eight children\u2019s bowls, so each adult bowl is 8 / 4 = <<8/4=2>>2 children\u2019s bowls.\nCalvin and his wife will eat two adult bowls, so they will eat the equivalent of 2 * 2 = <<2*2=4>>4 children\u2019s bowls.\nThus, he, his wife, and their children will eat 4 + 2 = <<4+2=6>>6 children\u2019s bowls at dinner.\nAfter dinner, there will be 8 - 6 = <<8-6=2>>2 children\u2019s bowls left over.\nThere are 2 children, so each child will be able to eat a bowl of leftover soup for lunch 2 / 2 = <<2/2=1>>1 time.\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many times each child can have a bowl of soup for lunch",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many times each child can have a bowl of soup for lunch from the leftover soup, we first need to determine how much soup will be left after dinner. Calvin has enough soup to fill four adult's bowls or eight child's bowls. Since he and his wife are adults, and they have two children, we calculate the total soup consumed at dinner as follows:\n\n- Calvin and his wife will eat 2 adult bowls.\n- Their two children will eat 2 child bowls.\n\nGiven that 1 adult bowl is equivalent to 2 child bowls (since 4 adult bowls = 8 child bowls), we can convert the adult bowls to child bowls for easier comparison:\n- 2 adult bowls = 4 child bowls (since 1 adult bowl = 2 child bowls).\n\nSo, at dinner, the total consumption in terms of child bowls is:\n- 4 child bowls (from the 2 adults) + 2 child bowls (from the 2 children) = 6 child bowls.\n\nSince Calvin started with enough soup to fill 8 child bowls, the amount of soup left after dinner is:\n- 8 child bowls (total) - 6 child bowls (consumed) = 2 child bowls.\n\nThis means there are 2 child bowls of soup left. Since there are 2 children, and the question asks how many times each child can have a bowl of soup for lunch from the leftover soup, we divide the leftover soup by the number of children:\n- 2 child bowls / 2 children = 1 bowl per child.\n\nTherefore, each child can have 1 bowl of soup for lunch from the leftover soup.\n\n#### 1",
+			"retrievals": 0
+		}
+	]
+}

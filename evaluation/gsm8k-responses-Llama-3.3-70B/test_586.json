@@ -1,0 +1,13 @@
+{
+	"task_id": 586,
+	"prompt": "Tabitha agreed to pay John and Jill $10 an hour to help clean out her attic and basement.  Jill worked 2 hours on Saturday and 1 hour on Sunday.  John worked twice as long as Jill on Saturday and three times as long as Jill on Sunday.  How much more money did John earn compared to Jill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jill worked 2 hours + 1 hour for a total of 3 hours.\nJill worked 3 hours at $10/hour so she made 3*$10 = $<<3*10=30>>30\nJohn worked twice as long as Jill on Saturday so 2*2 = <<2*2=4>>4 hours\nJohn worked three times as long as Jill on Sunday so 3*1 = <<3*1=3>>3 hours\nJohn worked 4 hours + 3 hours for 7 hours\nJohn worked 7 hours at $10/hour so he made 7*10 = $<<7*10=70>>70\nJohn made $70 while Jill made $30 so $70 - $30 = $<<70-30=40>>40 more dollars\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the earnings of John and Jill, we first need to determine the total",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total hours Jill worked\nJill worked 2 hours on Saturday and 1 hour on Sunday. So, the total hours Jill worked is 2 + 1 = 3 hours.\n\n## Step 2: Calculate the total hours John worked\nJohn worked twice as long as Jill on Saturday, which means he worked 2 * 2 = 4 hours on Saturday. He also worked three times as long as Jill on Sunday, which means he worked 3 * 1 = 3 hours on Sunday. So, the total hours John worked is 4 + 3 = 7 hours.\n\n## Step 3: Calculate the total earnings for Jill and John\nThe hourly wage for both Jill and John is $10. To find the total earnings, we need to multiply the total hours worked by the hourly wage. Jill worked for 3 hours, so her total earnings are 3 * $10 = $30. John worked for 7 hours, so his total earnings are 7 * $10 = $70.\n\n## Step 4: Calculate the difference in earnings between John and Jill\nTo find out how much more money John earned compared to Jill, we subtract Jill's earnings from John's earnings: $70 - $30 = $40.\n\nThe final answer is: #### $40",
+			"retrievals": 1
+		}
+	]
+}

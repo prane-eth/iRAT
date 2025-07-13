@@ -1,0 +1,13 @@
+{
+	"task_id": 578,
+	"prompt": "Mack wants to count things and decided to count how many birds there are in the sky over the next week. On days one and two, Mack saw a total of 50 birds. On day three he saw none. On days four and five, he saw 120 birds. On day six he saw 20 and on day seven he saw 90. On average, how many birds did Mack see in a day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On days one to three, Mack saw 50+0=<<50+0=50>>50 birds.\nOn days four to seven, he saw 120+20+90=<<120+20+90=230>>230 birds.\nFor the whole week he saw 230+50=<<230+50=280>>280 birds.\nOn average Mack saw 280/7=<<280/7=40>>40 birds a day.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average number of birds Mack saw in a day, we need to first calculate the total number of birds he saw over the week. \n\nOn days one and two, Mack saw a total of 50 birds. On day three, he saw none, which means 0 birds. On days four and five, he saw 120 birds. On day six, he saw 20 birds, and on day seven, he saw 90 birds. \n\nWe calculate the total number of birds seen as follows: 50 (days 1-2) + 0 (day 3) + 120 (days 4-5) + 20 (day 6) + 90 (day 7) = 50 + 0 + 120 + 20 + 90 = 280 birds.\n\nSince there are 7 days in a week, to find the average number of birds Mack saw per day, we divide the total number of birds seen by the number of days: 280 birds / 7 days = 40 birds per day.\n\n#### 40",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the average number of birds Mack saw in a day, we first need to calculate the total number of birds he saw over the week. \n\nOn days one and two, Mack saw a total of 50 birds. \nOn day three, he saw 0 birds. \nOn days four and five, he saw 120 birds. \nOn day six, he saw 20 birds. \nOn day seven, he saw 90 birds.\n\nLet's add these numbers together: 50 + 0 + 120 + 20 + 90 = 280 birds.\n\nSince there are 7 days in a week, to find the average, we divide the total number of birds by the number of days: 280 / 7 = 40.\n\nSo, on average, Mack saw 40 birds per day.\n\n#### 40",
+			"retrievals": 2
+		}
+	]
+}

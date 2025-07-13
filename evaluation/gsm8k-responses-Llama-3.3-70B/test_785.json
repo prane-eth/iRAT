@@ -1,0 +1,13 @@
+{
+	"task_id": 785,
+	"prompt": "Andy's car fuel efficiency is 10 MPG (miles per gallon). If the current price for regular gas is $3/gallon, how much money is Andy's car consuming per week if he only uses his car to go to work from Monday to Friday and the one-way distance between his home and office is 5 miles?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Between Monday to Friday there are 5 days\nIf the one-way distance between his home and office is 5 miles the total round trip distance Andy drives daily is 5*2 = <<5*2=10>>10 miles\nThat means he drives a total of 10 miles * 5 days = <<10*5=50>>50 miles per week\nIf his car's fuel efficiency is 10 MPG, then his car is consuming a total of 50 miles / 10 MPG = <<50/10=5>>5 gallons of gas each week\nGiven that each gallon of gas costs $3, then his car is consuming 5 * $3 = $<<5*3=15>>15 worth of gas each week\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate how much money Andy's car is consuming per week, we need to calculate the total distance driven per week and the total amount of gas consumed, then multiply that by the price of gas.\n\n1. Calculate the total distance driven per week:\n- The one-way distance between home and office is 5 miles.\n- Since Andy drives to and from work, the daily round-trip distance is 5 miles * 2 = 10 miles.\n- Andy drives to work 5 days a week (Monday to Friday), so the total weekly distance is 10 miles * 5 days = 50 miles.\n\n2. Calculate the total amount of gas consumed per week:\n- Andy's car fuel efficiency is 10 MPG.\n- To find out how much gas is consumed for 50 miles, we divide the total miles by the MPG: 50 miles / 10 MPG = 5 gallons.\n\n3. Calculate the total cost of gas per week:\n- The price of regular gas is $3/gallon.\n- The total amount of gas consumed per week is 5 gallons.\n- So, the total cost per week is 5 gallons * $3/gallon = $15.\n\n#### $15\n\n#### $15",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how much money Andy's car is consuming per week, we need to",
+			"retrievals": 2
+		}
+	]
+}

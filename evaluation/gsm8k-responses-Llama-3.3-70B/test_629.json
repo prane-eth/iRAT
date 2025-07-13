@@ -1,0 +1,13 @@
+{
+	"task_id": 629,
+	"prompt": "Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam\u2019s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8\nIt will take 4 years because 8/2=<<8/2=4>>4\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "To ride the roller coaster, Adam needs to be 4 feet tall, which is equivalent to 48 inches (since 1 foot = 12 inches). Currently, Adam is 40 inches tall. \n\nHe needs to grow 48 - 40 = 8 inches to reach the required height. \n\nSince Adam grows 2 inches a year, he will need 8 / 2 = 4 years to grow enough to ride the roller coaster.\n\n#### 4",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve the problem, we need to convert the required height to ride the roller coaster into inches, since Adam's height is given in inches. 4 feet is equal to 4 * 12 = 48 inches. \n\nAdam's current height is 40 inches. To find out how many years it will take for him to be tall enough to ride the roller coaster, we need to calculate the difference between the required height and his current height, and then divide it by his annual growth rate.\n\nThe difference between the required height and Adam's current height is 48 - 40 = 8 inches. Since Adam grows 2 inches a year, it will take him 8 / 2 = 4 years to grow 8 inches.\n\n#### 4",
+			"retrievals": 3
+		}
+	]
+}

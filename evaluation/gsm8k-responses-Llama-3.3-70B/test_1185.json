@@ -1,0 +1,13 @@
+{
+	"task_id": 1185,
+	"prompt": "To heat during the winter, Ali ordered 850 kilos of coal. The coal is delivered in 50 kg bags, costing $18 per unit. How much does his order cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of bags Ali ordered is 850 kg/ 50 kg/bag = <<850/50=17>>17 bags\nThe total order cost is 17 bags x $18/bag = $<<17*18=306>>306\n#### 306",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of Ali's coal order, we first need to determine how many 50 kg bags of coal he ordered. This can be calculated by dividing the total kilos of coal ordered by the weight of each bag.\n\nThe total kilos of coal ordered is 850 kg, and each bag weighs 50 kg. So, the number of bags ordered is 850 kg / 50 kg per bag = 17 bags.\n\n`\nNow that we know Ali ordered 17 bags of coal, we can calculate the total cost of his order. Each bag costs $18, so the total cost is the number of bags multiplied by the cost per bag.\n\nThe total cost = 17 bags * $18 per bag = $306.\n\n#### $306",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of bags of coal ordered\nTo find out how much Ali's order costs, we first need to determine the total number of bags of coal he ordered. Given that the coal is delivered in 50 kg bags and Ali ordered 850 kilos of coal, we divide the total amount of coal ordered by the weight of each bag. Number of bags = Total amount of coal / Weight per bag = 850 kg / 50 kg per bag = 17 bags.\n\n## Step 2: Calculate the total cost of the coal order\nNow that we know Ali ordered 17 bags of coal, we can calculate the total cost of his order. Each bag costs $18, so the total cost is the number of bags multiplied by the cost per bag. The total cost = 17 bags * $18 per bag = $306.\n\n## Step 3: Verify the calculation with the given information\nWe verified that the calculation of the number of bags and the total cost is correct based on the given information. The coal's weight and the cost per bag are used to find the total cost.\n\n## Step 4: Conclusion of the calculation\nThe calculation is straightforward and does not require additional information beyond the weight of the coal ordered and the cost per bag.\n\nThe final answer is: #### $306",
+			"retrievals": 4
+		}
+	]
+}

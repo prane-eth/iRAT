@@ -1,0 +1,13 @@
+{
+	"task_id": 879,
+	"prompt": "Julie, Micah, and Mitchell sold 32 glasses of lemonade at their lemonade stand. Julie sold 14 glasses and the boys sold an equal number of glasses. How many more glasses did Julie sell than Micah?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Micah and Mitchell sold 32 - 14 = <<32-14=18>>18 glasses.\nThey each sold 18/2 = <<18/2=9>>9 glasses.\nJulie sold 14 - 9 = <<14-9=5>>5 glasses more than Micah\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more glasses Julie sold than Micah, we first need to determine how many glasses Micah sold. We know that Julie, Micah, and Mitchell sold 32 glasses of lemonade in total. Since Julie sold 14 glasses, the remaining glasses were sold by the boys, which would be 32 - 14 = 18 glasses.\n\n \nThe problem states that the boys (Micah and Mitchell) sold an equal number of glasses. Therefore, to find out how many glasses each boy sold, we divide the total number of glasses sold by the boys by 2. So, 18 / 2 = 9 glasses per boy. This means Micah sold 9 glasses.\n\n \nNow, to find out how many more glasses Julie sold than Micah, we subtract the number of glasses Micah sold from the number of glasses Julie sold. So, 14 (Julie's glasses) - 9 (Micah's glasses) = 5.\n\n#### 5",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total number of glasses sold by the boys\nThe total number of glasses sold is 32, and Julie sold 14 glasses. So, the total number of glasses sold by the boys (Micah and Mitchell) is 32 - 14 = 18.\n\n## Step 2: Determine the number of glasses sold by each boy\nSince the boys sold an equal number of glasses, we divide the total number of glasses sold by the boys by 2. So, each boy sold 18 / 2 = 9 glasses.\n\n## Step 3: Calculate how many more glasses Julie sold than Micah\nTo find out how many more glasses Julie sold than Micah, we subtract the number of glasses Micah sold from the number of glasses Julie sold. So, 14 - 9 = 5.\n\n#### 5",
+			"retrievals": 1
+		}
+	]
+}

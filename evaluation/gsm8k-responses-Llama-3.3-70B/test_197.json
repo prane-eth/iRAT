@@ -1,0 +1,13 @@
+{
+	"task_id": 197,
+	"prompt": "200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The restaurants need 40 * 2 = <<40*2=80>>80 lbs. of carrots.\nSo 200 - 80 = <<200-80=120>>120 lbs. of carrots will not be used.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many pounds of carrots will not be used, we first need to calculate the total amount of carrots that will be distributed to the restaurants. \n\nEach restaurant is to receive 2 pounds of carrots, and there are 40 restaurants. So, the total amount of carrots to be distributed is 2 pounds/restaurant * 40 restaurants = 80 pounds.\n\nSince there are 200 pounds of carrots in total, and 80 pounds are to be distributed, the amount of carrots that will not be used is 200 pounds - 80 pounds = 120 pounds.\n\n#### 120",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many pounds of carrots will not be used, we first need to calculate the total amount of carrots that will be distributed to the 40 restaurants. Since each restaurant is to receive 2 pounds of carrots, the total amount used can be found by multiplying the amount each restaurant receives by the number of restaurants. So, 2 pounds/restaurant * 40 restaurants = 80 pounds.\n\nNow, we subtract the total amount of carrots used from the initial amount of carrots. The initial amount is 200 pounds, and the total used is 80 pounds. Therefore, the amount of carrots that will not be used is 200 pounds - 80 pounds = 120 pounds.\n\n#### 120",
+			"retrievals": 1
+		}
+	]
+}

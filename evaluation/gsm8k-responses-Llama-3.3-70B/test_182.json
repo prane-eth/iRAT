@@ -1,0 +1,13 @@
+{
+	"task_id": 182,
+	"prompt": "Sandra, the florist around the corner, is very unhappy with Fred's incomplete order delivery. Sandra had ordered four times as many red roses as white carnations. She also ordered 200 pink calla lilies, which were five times the number of white carnations. Sandra has threatened to switch suppliers if the missing red roses are not delivered by 5 pm. To keep Sandra's business, how many red roses must Fred deliver by 5 pm?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Sandra ordered 200 pink calla lilies / 5 = <<200/5=40>>40 white carnations.\nSandra therefore ordered 4 * 40 = <<4*40=160>>160 red roses.\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "Let's break down the information provided:\n\n1. Sandra ordered four times as many red roses as white carnations.\n2. She ordered 200 pink calla lilies, which were five times the number of white carnations.\n\nFrom the second point, we can determine the number of white carnations:\n\n200 pink calla lilies = 5 * number of white carnations\nNumber of white carnations = 200 / 5\nNumber of white carnations = 40\n\nNow, using the first point, we can calculate the number of red roses:\n\nNumber of red roses = 4 * number of white carnations\nNumber of red roses = 4 * 40\nNumber of red roses = 160\n\nTherefore, Fred must deliver 160 red roses by 5 pm to keep Sandra's business.\n\n#### 160",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the number of white carnations ordered by Sandra.\nLet's denote the number of white carnations as W. We know that Sandra ordered 200 pink calla lilies, which were five times the number of white carnations. So, we can write the equation: 200 = 5W.\n\n## Step 2: Solve for the number of white carnations.\nTo find the number of white carnations (W), we need to solve the equation 200 = 5W for W. Dividing both sides of the equation by 5 gives us W = 200 / 5 = 40.\n\n## Step 3: Determine the number of red roses ordered by Sandra.\nWe are told that Sandra ordered four times as many red roses as white carnations. Since we now know that the number of white carnations (W) is 40, we can calculate the number of red roses (R) as R = 4W = 4 * 40 = 160.\n\n## Step 4: Conclusion\nTo keep Sandra's business, Fred must deliver the missing red roses by 5 pm. We have calculated that Sandra ordered 160 red roses.\n\n#### 160",
+			"retrievals": 3
+		}
+	]
+}

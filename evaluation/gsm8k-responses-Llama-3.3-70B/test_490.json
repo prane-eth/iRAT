@@ -1,0 +1,13 @@
+{
+	"task_id": 490,
+	"prompt": "The highest temperature ever recorded in Southlandia is -48 degrees Fahrenheit. The highest temperature ever recorded in Northlandia is 21 degrees Fahrenheit. The highest temperature recorded in Midlandia is -3 degrees Fahrenheit. What is the average highest temperature of these 3 countries?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "-48 + 21 + (-3) = <<-48+21+(-3)=-30>>-30\n-30/3 = <<-30/3=-10>>-10 degrees\nThe average highest temperature recorded in Southlandia, Northlandia, and Midlandia is -10 degrees Fahrenheit.\n#### -10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average highest temperature of the three countries, we first need to identify the highest temperatures recorded in each country. \nThe highest temperature ever recorded in Southlandia is -48 degrees Fahrenheit, in Northlandia is 21 degrees Fahrenheit, and in Midlandia is -3 degrees Fahrenheit.\n\nWe then need to add these temperatures together to find the total. \nTotal = -48 + 21 - 3 = -30 degrees Fahrenheit.\n\nAfter finding the total, we divide by the number of countries to find the average. \nThere are 3 countries, so we divide the total by 3. \nAverage = Total / Number of countries = -30 / 3 = -10 degrees Fahrenheit.\n\n#### -10",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the average highest temperature of Southlandia, Northlandia, and Midlandia, we need to add up the highest temperatures recorded in each country and then divide by the total number of countries.\n\nThe highest temperature ever recorded in Southlandia is -48 degrees Fahrenheit.\nThe highest temperature ever recorded in Northlandia is 21 degrees Fahrenheit.\nThe highest temperature recorded in Midlandia is -3 degrees Fahrenheit.\n\nFirst, let's add up these temperatures: -48 + 21 - 3 = -30.\n\nSince there are 3 countries, we will divide the sum of the temperatures by 3 to find the average: -30 / 3 = -10.\n\nTherefore, the average highest temperature of these 3 countries is -10 degrees Fahrenheit.\n\n#### -10",
+			"retrievals": 2
+		}
+	]
+}

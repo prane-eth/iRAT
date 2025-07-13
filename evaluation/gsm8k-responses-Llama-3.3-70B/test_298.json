@@ -1,0 +1,13 @@
+{
+	"task_id": 298,
+	"prompt": "Sam sells bread. He has a target of selling 120 crates of bread in a week. One week he was closed on Monday and Friday. Over the weekend he sold 20 crates. On Tuesday he sold 15 crates, on Wednesday 12 crates, and Thursday 18 crates. By how many crates was Sam off from his target for the week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "During the whole week Sam sold 15 + 12 + 18 + 20 = <<15+12+18+20=65>>65 crates.\nSam was off his target by 120 - 65 = <<120-65=55>>55 crates.\n#### 55",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many crates Sam was off from his target, we first need to calculate the total number of crates he sold during the week. \n\nHe was closed on Monday and Friday, so he only sold bread on Tuesday, Wednesday, Thursday, and over the weekend. The sales for each of these days were as follows: Tuesday (15 crates), Wednesday (12 crates), Thursday (18 crates), and over the weekend (20 crates).\n\n`\nNow, let's add up the total number of crates Sam sold: 15 (Tuesday) + 12 (Wednesday) + 18 (Thursday) + 20 (weekend) = 65 crates.\n\n`\nSam's target was to sell 120 crates of bread in a week. To find out how many crates he was off from his target, we subtract the total number of crates he sold from his target: 120 (target) - 65 (total sold) = 55 crates.\n\n#### 55",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how many crates Sam was off from his target, we first need to calculate the total number of crates he sold during the week. He was closed on Monday and Friday, so he only sold bread on Tuesday, Wednesday, Thursday, and over the weekend. The sales for each of these days were as follows: Tuesday (15 crates), Wednesday (12 crates), Thursday (18 crates), and over the weekend (20 crates).\n\nNow, let's add up the total number of crates Sam sold: 15 (Tuesday) + 12 (Wednesday) + 18 (Thursday) + 20 (weekend) = 65 crates.\n\nHowever, this calculation seems to be incorrect based on the provided numbers. Let's recheck: 15 + 12 + 18 + 20 = 65. This step is correct, but the feedback suggests a miscalculation. Reevaluating, we see the calculation is indeed 15 + 12 + 18 + 20 = 65, which matches the initial calculation.\n\nSam's target was to sell 120 crates of bread in a week. To find out how many crates he was off from his target, we subtract the total number of crates he sold from his target: 120 (target) - 65 (total sold) = 55 crates.\n\n#### 55",
+			"retrievals": 2
+		}
+	]
+}

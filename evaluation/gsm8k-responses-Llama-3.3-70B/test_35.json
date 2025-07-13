@@ -1,0 +1,13 @@
+{
+	"task_id": 35,
+	"prompt": "Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of Raymond's jewels is 40/2 = <<40/2=20>>20\nSince Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.\nIf Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.\n#### 23",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we'll follow the given information step by step.\n\n1. Raymond has 40 jewels.\n2. Aaron has 5 more jewels than half of Raymond's jewels. So, half of Raymond's jewels is 40 / 2 = 20 jewels. Aaron has 5 more than this, which is 20 + 5 = 25 jewels.\n3. Siobhan has 2 fewer jewels than Aaron. Since Aaron has 25 jewels, Siobhan has 25 - 2 = 23 jewels.\n\n#### 23",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many jewels Siobhan has, we first need to determine the number of jewels Aaron has. Since Aaron has 5 more jewels than half of Raymond's jewels, and Raymond has 40 jewels, we calculate Aaron's jewels as follows:\n\n1. Find half of Raymond's jewels: 40 / 2 = 20\n2. Add 5 to this half to find Aaron's jewels: 20 + 5 = 25\n\nSo, Aaron has 25 jewels. Now, since Siobhan has 2 fewer jewels than Aaron, we subtract 2 from Aaron's total:\n\n25 - 2 = 23\n\nTherefore, Siobhan has 23 jewels.\n\n#### 23",
+			"retrievals": 1
+		}
+	]
+}

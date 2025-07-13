@@ -1,0 +1,13 @@
+{
+	"task_id": 288,
+	"prompt": "A 76-star flag has three rows of 8 stars, two rows of 6 stars and the rest are 5-star rows. How many rows of 5 stars are there altogether on the flag?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The rows of 8 stars have a total of: 3 rows * 8 stars/row = <<3*8=24>>24 stars.\nThe rows of 6 stars have a total of: 2 rows * 6 stars/row = <<2*6=12>>12 stars.\nIncluding the rows of 8 and 6 stars, we have 24 stars + 12 stars = <<24+12=36>>36 stars.\nNow we need to know how many stars are missing, 76 stars - 36 stars = <<76-36=40>>40 stars.\nNow we need to distribute the missing stars in rows of 5 stars, 40 stars/5 rows = <<40/5=8>>8 rows of 5 stars.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of rows of 5 stars on the flag, we first need to calculate the total number of stars in the rows of 8 and 6 stars, and then subtract this from the total number of stars (76) to find out how many stars are in the rows of 5. Afterward, we can determine how many rows of 5 stars there are.\n\n1. Calculate the total number of stars in the 8-star rows: 3 rows * 8 stars/row = 24 stars.\n2. Calculate the total number of stars in the 6-star rows: 2 rows * 6 stars/row = 12 stars.\n3. Add these together to find the total number of stars not in 5-star rows: 24 stars + 12 stars = 36 stars.\n4. Subtract this total from the overall number of stars to find the number of stars in the 5-star rows: 76 stars - 36 stars = 40 stars.\n5. Finally, divide the total number of stars in the 5-star rows by the number of stars per row to find the number of 5-star rows: 40 stars / 5 stars/row = 8 rows.\n\n#### 8",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the number of rows of 5 stars on the flag, we first need to calculate the total number of stars in the rows of 8 and 6 stars. There are 3 rows of 8 stars, so the total number of stars in these rows is 3 * 8 = 24. There are 2 rows of 6 stars, so the total number of stars in these rows is 2 * 6 = 12.\n\nNext, we add the total number of stars in the rows of 8 and 6 stars to get the combined total. 24 + 12 = 36.\n\nThen, we subtract the total number of stars in the rows of 8 and 6 stars from the total number of stars on the flag. The total number of stars on the flag is 76, and we have already accounted for 36 stars in the rows of 8 and 6 stars. So, the number of stars left for the rows of 5 stars is 76 - 36 = 40.\n\nFinally, to find the number of rows of 5 stars, we divide the total number of stars left (40) by the number of stars in each row (5). 40 / 5 = 8.\n\n#### 8",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1215,
+	"prompt": "Jordan has 2 children who wear diapers.  Each child requires 5 diaper changes per day.  Jordan's wife changes half of the diapers.  How many diapers does Jordan change per day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jordan has 2 children, each requiring 5 diaper changes per day, for a total of 5*2=<<2*5=10>>10 diaper changes per day.\nJordan's wife changes half of the diapers, leaving Jordan to change the other half, for a total of 10/2=<<10/2=5>>5 diaper changes per day that Jordan is responsible for.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many diapers Jordan changes per day, we first need to calculate the total number of diaper changes required for both children. Each child requires 5 diaper changes per day, and there are 2 children.\n\nThe total number of diaper changes per day for both children is 5 changes/child * 2 children = 10 changes.\n\nSince Jordan's wife changes half of the diapers, this means Jordan also changes half of the diapers. Therefore, we need to divide the total number of diaper changes by 2 to find out how many Jordan changes.\n\nThe number of diapers Jordan changes per day is 10 changes / 2 = 5 changes.\n\n#### 5",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the total number of diaper changes required for both children.\nTo find out how many diapers Jordan changes per day, we first need to calculate the total number of diaper changes required for both children. Each child requires 5 diaper changes per day, and there are 2 children. The total number of diaper changes per day for both children is 5 changes/child * 2 children = 10 changes.\n\n## Step 2: Determine the number of diapers Jordan changes per day.\nSince Jordan's wife changes half of the diapers, this means Jordan also changes half of the diapers. Therefore, we need to divide the total number of diaper changes by 2 to find out how many Jordan changes. The number of diapers Jordan changes per day is 10 changes / 2 = 5 changes.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1114,
+	"prompt": "The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Start = +<<2=2>>2 degrees\nDrop 8 degrees = 2 - 8 = -6 degrees\nIncrease 3 degrees = -6 + 3 = -3 degrees\nIt was -3 degrees Celsius in the morning.\n#### -3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the temperature in the morning, we first need to start with the initial temperature, which was 2 degrees Celsius.\n\nThe temperature then dropped 8 degrees Celsius overnight. This means we subtract 8 from the initial temperature: 2 - 8 = -6 degrees Celsius.\n\nAfter the drop, the temperature increased 3 degrees Celsius in the morning. So, we add 3 to the temperature after the drop: -6 + 3 = -3 degrees Celsius.\n\n#### -3",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the temperature in the morning, we need to follow the changes in temperature step by step. The initial temperature was 2 degrees Celsius. Overnight, it dropped by 8 degrees Celsius. To find the temperature after this drop, we subtract 8 from the initial temperature: 2 - 8 = -6 degrees Celsius. This is the temperature before the morning increase. In the morning, the temperature increased by 3 degrees Celsius. To find the final temperature in the morning, we add 3 to the temperature after the drop: -6 + 3 = -3 degrees Celsius. \n\n#### -3",
+			"retrievals": 0
+		}
+	]
+}

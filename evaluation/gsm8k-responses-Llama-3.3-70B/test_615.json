@@ -1,0 +1,13 @@
+{
+	"task_id": 615,
+	"prompt": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs $0.15. How much does Gary spend on water for laundry in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First multiply the number of times Gary does laundry per week by the number of weeks per year to find how many times he does it in a year: 2 loads/week * 52 weeks/year = <<2*52=104>>104 loads/year\nThen find how much each load of laundry costs: 20 gallons/load * $0.15/gallon = $<<20*0.15=3.00>>3.00/load\nThen multiply the cost of each load by the number of loads to find the total cost: $3.00/load * 104 loads = $<<3*104=312>>312\n#### 312",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much Gary spends on water for laundry in a year, we first need to determine how many loads of laundry he does in a week. Since Gary does laundry twice a week, and each load of laundry uses 20 gallons of water, we calculate the weekly water usage.\n\nThe weekly water usage can be calculated as follows: 2 loads/week * 20 gallons/load = 40 gallons/week.\n\n`\nNext, we need to calculate the yearly water usage. Since there are 52 weeks in a year, we multiply the weekly water usage by the number of weeks in a year: 40 gallons/week * 52 weeks/year = 2080 gallons/year.\n\n`\nNow, to find out how much Gary spends on water for laundry in a year, we need to multiply the yearly water usage by the cost of one gallon of water. Given that a gallon of water costs $0.15, the yearly cost can be calculated as follows: 2080 gallons/year * $0.15/gallon = $312/year.\n\n#### $312",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how much Gary spends on water for laundry in a year, we first need to calculate the amount of water he uses for laundry in a week and then multiply it by the number of weeks in a year. Gary does laundry twice a week, and each load uses 20 gallons of water. \n\n1. Calculate the weekly water usage: Gary does 2 loads of laundry per week, with each load using 20 gallons of water. So, the weekly water usage is 2 loads * 20 gallons/load = 40 gallons/week.\n\n2. Calculate the yearly water usage: Since there are 52 weeks in a year, the yearly water usage is 40 gallons/week * 52 weeks/year = 2080 gallons/year.\n\n3. Calculate the cost of water per year: Given that a gallon of water costs $0.15, the total cost of water for laundry in a year is 2080 gallons/year * $0.15/gallon = $312.\n\n#### $312",
+			"retrievals": 3
+		}
+	]
+}

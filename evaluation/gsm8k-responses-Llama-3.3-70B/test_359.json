@@ -1,0 +1,13 @@
+{
+	"task_id": 359,
+	"prompt": "Marisa gets $5 as pocket money every day from her parents. She buys 4 lollipops worth 25 cents each every day and saves the change in her piggy bank. How much money does she put in her piggy bank if she saves for 5 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If each lollipop costs 25 cents, 4 lollipops cost 4 * 25 cents = <<4*25=100>>100 cents\nSince 100 cents = $1 she spends $1 everyday.\nHer savings everyday is $5 - $1 = $<<5-1=4>>4\nIf she saves $4 every day for 5 days, she will have $4 * 5 = $<<4*5=20>>20\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much money Marisa puts in her piggy bank, we first need to determine how much she spends on lollipops each day. She buys 4 lollipops worth 25 cents each. \n\nSo, the cost of lollipops per day is 4 * 25 cents = 100 cents. Since 100 cents equals $1, she spends $1 on lollipops every day.\n\nMarisa gets $5 as pocket money every day. After spending $1 on lollipops, she is left with $5 - $1 = $4 each day.\n\nIf she saves this amount for 5 days, the total amount saved would be 5 * $4 = $20.\n\n#### $20",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how much money Marisa puts in her piggy bank after saving for 5 days, we need to follow a simple calculation process.\n\nFirst, we calculate Marisa's daily expenditure on lollipops. She buys 4 lollipops worth 25 cents each every day. The total cost of lollipops per day is 4 * $0.25 = $1.\n\nNext, we calculate Marisa's daily savings. She gets $5 as pocket money every day and spends $1 on lollipops, so her daily savings is $5 - $1 = $4.\n\nThen, to find out how much she saves in 5 days, we multiply her daily savings by 5. Total savings = $4 * 5 = $20.\n\nThis means that after 5 days of saving the change from her daily pocket money, Marisa will have put a total of $20 into her piggy bank.\n\n#### $20",
+			"retrievals": 2
+		}
+	]
+}

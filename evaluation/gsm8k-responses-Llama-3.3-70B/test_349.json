@@ -1,0 +1,13 @@
+{
+	"task_id": 349,
+	"prompt": "A factory used to make tractors, but now makes silos. When they made tractors, they sold 10 tractors a day and made $100 per tractor. Now, they sell 5 silos a day, and make $220 per silo. What percentage more are they making per day now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They used to make $1,000 a day because 10 x 100 = <<10*100=1000>>1,000\nThey now make 1,100 a day because 5 x 220 = <<5*220=1100>>1,100\nThey make 10% more per day because 1000 +(1000 x (X/100)) = 1,100 if X = 10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percentage increase in daily earnings, we first need to calculate the daily earnings when the factory made tractors and when it makes silos. \n\nWhen the factory made tractors, they sold 10 tractors a day at $100 per tractor. So, the daily earnings from tractors can be calculated as 10 tractors/day * $100/tractor = $1000/day.\n\nNow, the factory sells 5 silos a day at $220 per silo. The daily earnings from silos can be calculated as 5 silos/day * $220/silo = $1100/day.\n\nTo find the percentage increase, we use the formula: ((New earnings - Old earnings) / Old earnings) * 100. Plugging in the values, we get ((1100 - 1000) / 1000) * 100 = (100 / 1000) * 100 = 10%.\n\n#### 10%",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the percentage increase in daily earnings, we first need to calculate the original daily earnings from tractors and the current daily earnings from silos.\n\n## Step 1: Calculate the original daily earnings from tractors\nThe factory sold 10 tractors a day and made $100 per tractor. So, the original daily earnings from tractors = 10 tractors/day * $100/tractor = $1000/day.\n\n## Step 2: Calculate the current daily earnings from silos\nThe factory now sells 5 silos a day and makes $220 per silo. So, the current daily earnings from silos = 5 silos/day * $220/silo = $1100/day.\n\n## Step 3: Calculate the percentage increase in daily earnings\nTo find the percentage increase, we use the formula: ((New earnings - Old earnings) / Old earnings) * 100. Plugging in the values, we get ((1100 - 1000) / 1000) * 100 = (100 / 1000) * 100 = 10%.\n\n#### 10%",
+			"retrievals": 2
+		}
+	]
+}

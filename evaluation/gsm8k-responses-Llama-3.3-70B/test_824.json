@@ -1,0 +1,13 @@
+{
+	"task_id": 824,
+	"prompt": "Sasha and Julie are best friends playing on opposing basketball teams. The teams have two practice games scheduled. In the first game, Sasha had the home court advantage and scored 14 points. Julie scored 4 fewer points than Sasha in the same game. Sasha always struggles during away games and their second match was at Julie's home court. Sasha scored 6 fewer points in the second game than Julie's score in the first game. How many total points did Sasha score during both games?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the first game, Sasha scored 14 points, and Julie scored four fewer points: 14-4 = <<14-4=10>>10 points.\nIn the second game, Sasha scored 6 points fewer than Julie's score in the first game, meaning she scored 10-6=<<10-6=4>>4 points.\nSasha scored 10+4=<<10+4=14>>14 points in the two games.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total points Sasha scored during both games, we first need to calculate\n\nSince Julie scored 4 fewer points than Sasha in the first game, Julie's score in the first game was 14 - 4 = 10 points.\n\nIn the second game, Sasha scored 6 fewer points than Julie's score in the first game. So, Sasha's score in the second game was 10 - 6 = 4 points.\n\nNow, to find the total points Sasha scored during both games, we add her scores from the first and second games: 14 (first game) + 4 (second game) = 18 points.\n\n#### 18",
+			"old_rat_retrievals": 3,
+			"final_answer": "Correct chain, let's analyze the problem step by step.\n\n## Step 1: Calculate Julie's score in the first game\nJulie scored 4 fewer points than Sasha in the first game. Since Sasha scored 14 points, Julie scored 14 - 4 = 10 points.\n\n## Step 2: Calculate Sasha's score in the second game\nSasha scored 6 fewer points in the second game than Julie's score in the first game. Julie scored 10 points in the first game, so Sasha scored 10 - 6 = 4 points in the second game.\n\n## Step 3: Calculate Sasha's total score\nTo find the total points Sasha scored during both games, we add her score in the first game (14 points) to her score in the second game (4 points). Total score = 14 + 4 = 18 points.\n\n#### 18",
+			"retrievals": 1
+		}
+	]
+}

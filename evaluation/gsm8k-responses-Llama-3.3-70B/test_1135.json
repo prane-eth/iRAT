@@ -1,0 +1,13 @@
+{
+	"task_id": 1135,
+	"prompt": "Jane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has already saved 8 * $4 = $<<8*4=32>>32.\nShe needs to save an additional $60 - $32 = $<<60-32=28>>28.\nIt will take her 28 / 4 = <<28/4=7>>7 more weeks to save the rest of the money.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more weeks it will take for Jane to save a total of $60, we first need to calculate how much she has saved so far. Jane has saved $4 every week for 8 weeks. \n\nThe total amount saved so far can be calculated by multiplying the weekly savings by the number of weeks: $4 * 8 = $32.\n\nNext, we need to determine how much more Jane needs to save to reach her goal of $60. This can be found by subtracting the amount she has already saved from her goal: $60 - $32 = $28.\n\nNow, we need to find out how many weeks it will take for Jane to save an additional $28 at a rate of $4 per week. \n\nThis can be calculated by dividing the additional amount needed by the weekly savings: $28 / $4 = 7.\n\n#### 7",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many more weeks it will take for Jane to save a total of $60, we first need to calculate the total amount she has saved so far. Jane has saved $4 of her allowance every week for the past 8 weeks. So, the total amount saved so far is 4 * 8 = $32.\n\nNext, we determine the remaining amount needed to reach her goal of saving $60. We subtract the amount she has already saved from her goal: 60 - 32 = $28.\n\nThen, we calculate the number of weeks needed to save this remaining amount. Since Jane saves $4 each week, we divide the remaining amount by the weekly savings: 28 / 4 = 7.\n\nTherefore, it will take Jane 7 more weeks to save a total of $60.\n\n#### 7",
+			"retrievals": 2
+		}
+	]
+}

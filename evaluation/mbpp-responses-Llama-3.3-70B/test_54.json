@@ -1,0 +1,19 @@
+{
+	"task_id": 64,
+	"prompt": "Write a python function to find the average of even numbers till a given even number.?assert average_Even(2) == 2",
+	"test_imports": [],
+	"test_list": [
+		"assert average_Even(2) == 2",
+		"assert average_Even(4) == 3",
+		"assert average_Even(100) == 51"
+	],
+	"mbpp_code": "def average_Even(n) : \r\n    if (n% 2!= 0) : \r\n        return (\"Invalid Input\") \r\n        return -1  \r\n    sm = 0\r\n    count = 0\r\n    while (n>= 2) : \r\n        count = count+1\r\n        sm = sm+n \r\n        n = n-2\r\n    return sm // count",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average of even numbers till a given even number, we need to identify all the even numbers up to the given number, add them together, and then divide by the total count of even numbers. \n\nWe can start by generating a sequence of even numbers from 2 up to the given even number. This can be achieved using a loop that iterates over a range of numbers, checking each number to see if it is even. \n\nNext, we will calculate the sum of these even numbers and count how many there are. \n\nFinally, we will divide the sum of the even numbers by the count of even numbers to get the average. \n\nHere is the Python function to accomplish this:\n```python\ndef average_Even(n):\n    even_sum = 0\n    even_count = 0\n    for i in range(2, n+1, 2):\n        even_sum += i\n        even_count += 1\n    return even_sum / even_count\n```",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Finding the Average of Even Numbers\nTo find the average of even numbers till a given even number, we can create a Python function that calculates the sum of all even numbers up to the given number and then divides by the count of even numbers.\n\n## Code Implementation\n```python\ndef average_Even(n):\n    \"\"\"\n    This function calculates the average of even numbers till a given even number.\n    \n    Parameters:\n    n (int): The given even number.\n    \n    Returns:\n    float: The average of even numbers till the given even number.\n    \"\"\"\n    # Initialize sum and count variables\n    total_sum = 0\n    count = 0\n    \n    # Iterate over all numbers from 2 to the given even number\n    for i in range(2, n + 1, 2):\n        # Add the current even number to the sum\n        total_sum += i\n        # Increment the count of even numbers\n        count += 1\n    \n    # Calculate and return the average\n    return total_sum / count\n\n# Test the function\nassert average_Even(2) == 2\n```\n\n## Explanation\nThe `average_Even` function takes an even number `n` as input and calculates the average of all even numbers from 2 to `n`. It does this by iterating over the range of even numbers, adding each number to a running sum, and keeping track of the count of even numbers. Finally, it returns the average by dividing the sum by the count.\n\n## Example Use Cases\n- `average_Even(2)` returns `2`, which is the average of the only even number in the range (2).\n- `average_Even(4)` returns `3`, which is the average of the even numbers 2 and 4.\n- `average_Even(6)` returns `3`, which is the average of the even numbers 2, 4, and 6.",
+			"retrievals": 2
+		}
+	]
+}

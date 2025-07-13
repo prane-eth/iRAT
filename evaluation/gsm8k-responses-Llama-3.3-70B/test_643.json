@@ -1,0 +1,13 @@
+{
+	"task_id": 643,
+	"prompt": "James buys a new wardrobe.  He buys 10 suits and 10 dress pants.  He also buys 3 dress shirts per suit.  The suits cost $750 each and the dress pants cost 1/5 that cost.  The dress shirts were $60 each.  How much did everything cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The suits cost 750*10=$<<750*10=7500>>7500\nThe dress pants cost 750/5=$<<750/5=150>>150 each\nSo in total they cost 150*10=$<<150*10=1500>>1500\nHe bought 3*10=<<3*10=30>>30 dress shirts\nso he spends 30*60=$<<30*60=1800>>1800 on dress shirts\nThus the total cost is 7500+1500+1800=$<<7500+1500+1800=10800>>10,800\n#### 10,800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of James' new wardrobe, we first need to determine the cost of each item. The suits cost $750 each, and James buys 10 suits. \n\nThe dress pants cost 1/5 of the cost of a suit, which is $750 * 1/5 = $150 per pair of dress pants. James buys 10 dress pants.\n\nJames also buys 3 dress shirts per suit, and he buys 10 suits. So, the total number of dress shirts is 3 * 10 = 30 dress shirts. The cost of each dress shirt is $60.\n\n```\nNow, let's calculate the total cost of each item:\n- The total cost of the suits is 10 * $750 = $7,500.\n- The total cost of the dress pants is 10 * $150 = $1,500.\n- The total cost of the dress shirts is 30 * $60 = $1,800.\n```\n\nTo find the total cost of everything, we need to add up the costs of the suits, dress pants, and dress shirts. \n\nThe total cost is $7,500 + $1,500 + $1,800 = $10,800.\n\n#### $10,800",
+			"old_rat_retrievals": 7,
+			"final_answer": "To calculate the total cost of James' new wardrobe, we first need to determine the cost of each item. The suits cost $750 each, and James buys 10 suits. The dress pants cost 1/5 of the cost of a suit, which is $750 * 1/5 = $150 per pair of dress pants. James buys 10 dress pants. James also buys 3 dress shirts per suit, and he buys 10 suits. So, the total number of dress shirts is 3 * 10 = 30 dress shirts. The cost of each dress shirt is $60.\n\nNow, let's calculate the total cost of each item:\n- The total cost of the suits is 10 * $750 = $7,500.\n- The total cost of the dress pants is 10 * $150 = $1,500.\n- The total cost of the dress shirts is 30 * $60 = $1,800.\n\nTo find the total cost of everything, we need to add up the costs of the suits, dress pants, and dress shirts. The total cost is $7,500 + $1,500 + $1,800 = $10,800.\n\n#### $10,800",
+			"retrievals": 2
+		}
+	]
+}

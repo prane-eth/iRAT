@@ -1,0 +1,13 @@
+{
+	"task_id": 808,
+	"prompt": "Milo is making a mosaic with chips of glass. It takes twelve glass chips to make every square inch of the mosaic. A bag of glass chips holds 72 chips. Milo wants his mosaic to be three inches tall. If he has two bags of glass chips, how many inches long can he make his mosaic?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Milo has two bags of glass chips, so he has 72 * 2 = <<72*2=144>>144 chips.\nWith those, he can make 144 / 12 = <<144/12=12>>12 square inches of mosaic.\nThus, Milo can make his 3 inch tall mosaic 12 / 3 = <<12/3=4>>4 inches long.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how many inches long Milo can make his mosaic, we first need to\n\n \nSince Milo wants his mosaic to be three inches tall, and we know the total area he can cover is 12 square inches, we can find the length by dividing the total area by the height. The formula for area is length times width (or height, in this case), so length = area / height = 12 / 3 = 4 inches.\n\n#### 4",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the total number of glass chips Milo has\nMilo has two bags of glass chips, and each bag holds 72 chips. So, the total number of glass chips Milo has is 2 * 72 = 144 chips.\n\n## Step 2: Determine the number of square inches Milo can cover with the glass chips\nIt takes twelve glass chips to make every square inch of the mosaic. To find out how many square inches Milo can cover, we divide the total number of glass chips by 12. So, 144 / 12 = 12 square inches.\n\n## Step 3: Calculate the length of the mosaic given its height\nMilo wants his mosaic to be three inches tall. Since we know the total area Milo can cover is 12 square inches, and the height is 3 inches, we can find the length by dividing the area by the height. So, the length is 12 / 3 = 4 inches.\n\n## Step 4: Conclusion\nGiven the calculations above, we can conclude that Milo can make his mosaic 4 inches long.\n\nThe final answer is: #### 4",
+			"retrievals": 2
+		}
+	]
+}

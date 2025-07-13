@@ -1,0 +1,13 @@
+{
+	"task_id": 321,
+	"prompt": "At the beginning of the party, there were 25 men and 15 women. After an hour, 1/4 of the total number of people left. How many women are left if 22 men stayed at the party?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were a total of 25 men + 15 women = <<25+15=40>>40 people who attended the party.\nAfter an hour, 40 people / 4 = <<40/4=10>>10 people left the party.\nThis means 40 people - 10 people = <<40-10=30>>30 people stayed.\nOut of the 30 who stayed, 30 people - 22 men = <<30-22=8>>8 were women.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many women are left at the party, let's first determine the total number of people at the beginning and then calculate how many people left after an hour.\n\n1. **Initial Total Number of People:**\n   - Men: 25\n   - Women: 15\n   - Total: 25 + 15 = 40 people\n\n2. **Number of People Who Left:**\n   - Since 1/4 of the total number of people left, we calculate this as follows:\n     - 1/4 * 40 = 10 people left\n\n3. **Total Number of People Remaining:**\n   - Initial total: 40 people\n   - People left: 10\n   - Remaining: 40 - 10 = 30 people\n\n4. **Number of Men Remaining:**\n   - Given that 22 men stayed at the party.\n\n5. **Number of Women Remaining:**\n   - Since there are 30 people remaining in total and 22 of them are men, the number of women can be found by subtracting the number of men from the total remaining:\n     - Total remaining: 30\n     - Men remaining: 22\n     - Women remaining: 30 - 22 = 8\n\nTherefore, the number of women left at the party is 8.\n\n#### 8",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many women are left at the party, we first need to understand the initial conditions and the changes that occurred after an hour. \n\nInitially, there were 25 men and 15 women at the party, totaling 40 people. After an hour, 1/4 of the total number of people left the party. This means that 1/4 * 40 = 10 people left.\n\nWe are told that 22 men stayed at the party. Since there were initially 25 men, the number of men who left is 25 - 22 = 3.\n\nSince a total of 10 people left the party and 3 of them were men, the number of women who left is 10 - 3 = 7.\n\nInitially, there were 15 women at the party. After 7 women left, the number of women left at the party is 15 - 7 = 8.\n\n#### 8",
+			"retrievals": 2
+		}
+	]
+}

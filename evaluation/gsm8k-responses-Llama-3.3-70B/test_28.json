@@ -1,0 +1,13 @@
+{
+	"task_id": 28,
+	"prompt": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Cynthia will spend on ice cream after 60 days, we first need to calculate how many servings of ice cream she will eat in 60 days. Since she eats one serving every night, in 60 days she will eat 60 servings.\n\nGiven that each carton of ice cream contains 15 servings, we then calculate how many cartons she will need for 60 servings:\n\n60 servings / 15 servings per carton = 4 cartons\n\nSince each carton costs $4.00, we then calculate the total cost for 4 cartons:\n\n4 cartons * $4.00 per carton = $16.00\n\nTherefore, after 60 days, Cynthia will spend $16.00 on ice cream.\n\n#### $16.00",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total number of servings Cynthia eats in 60 days\nCynthia eats one serving of ice cream every night, so in 60 days, she will eat 60 servings of ice cream.\n\n## Step 2: Determine the number of cartons needed\nEach carton of ice cream contains 15 servings. To find out how many cartons Cynthia will need for 60 servings, we divide the total number of servings by the number of servings per carton: 60 / 15 = 4.\n\n## Step 3: Calculate the total cost\nEach carton of ice cream costs $4.00. Since Cynthia needs 4 cartons, we multiply the number of cartons by the cost per carton to find the total cost: 4 * $4.00 = $16.00.\n\n#### $16.00",
+			"retrievals": 1
+		}
+	]
+}

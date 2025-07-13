@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/35",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef max_element(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef max_element(l: list):\n    \"\"\"\n    Return maximum element in the list.\n    \n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n    if not l:\n        raise ValueError(\"List is empty\")\n    return max(l)\n\n# Example usage:\nprint(max_element([1, 2, 3]))  # Output: 3\nprint(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef max_element(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n    # Check if the list is empty\n    if not l:\n        raise ValueError(\"List is empty\")\n    \n    # Initialize max_element with the first element of the list\n    max_element = l[0]\n    \n    # Iterate over the list to find the maximum element\n    for element in l:\n        if element > max_element:\n            max_element = element\n    \n    return max_element\n\n# Alternatively, you can use the built-in max function in Python\ndef max_element_built_in(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element_built_in([1, 2, 3])\n    3\n    >>> max_element_built_in([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n    # Check if the list is empty\n    if not l:\n        raise ValueError(\"List is empty\")\n    \n    return max(l)\n```",
+			"retrievals": 2
+		}
+	]
+}

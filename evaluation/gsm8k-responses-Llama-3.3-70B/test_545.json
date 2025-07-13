@@ -1,0 +1,13 @@
+{
+	"task_id": 545,
+	"prompt": "Jeff and Brad are trying to divide 100 dollars between them. Jeff gets 4 times as much as Brad. How much does Jeff get in dollars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Brad gets 100/5=<<100/5=20>>20 dollars.\nJeff gets 20*4=<<20*4=80>>80 dollars.\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Jeff gets, we first need to set up the relationship between Jeff's and Brad's shares. Let's denote Brad's share as B dollars. Since Jeff gets 4 times as much as Brad, Jeff's share can be denoted as 4B dollars.\n\nThe total amount they are dividing is $100. Therefore, the sum of Jeff's and Brad's shares equals $100. This can be represented by the equation: B + 4B = 100. Simplifying this equation gives us 5B = 100.\n\nTo find the value of B, which is Brad's share, we divide both sides of the equation by 5. This gives us B = 100 / 5 = 20. So, Brad gets $20.\n\nSince Jeff gets 4 times as much as Brad, and Brad gets $20, Jeff gets 4 * 20 = $80.\n\n#### $80",
+			"old_rat_retrievals": 5,
+			"final_answer": "Jeff and Brad are trying to divide $100 between them, with Jeff getting 4 times as much as Brad. Let's denote Brad's share as B dollars. Since Jeff gets 4 times as much as Brad, Jeff's share is 4B dollars. The sum of their shares must equal $100, so we have the equation B + 4B = 100.\n\nCombining like terms in the equation B + 4B = 100 gives us 5B = 100. To solve for B, we divide both sides by 5, which yields B = 100 / 5 = 20. This means Brad's share is $20.\n\nGiven that Jeff's share is 4 times Brad's share, and knowing Brad gets $20, we calculate Jeff's share as 4 * 20 = $80.\n\nTherefore, Jeff gets $80.\n#### $80",
+			"retrievals": 2
+		}
+	]
+}

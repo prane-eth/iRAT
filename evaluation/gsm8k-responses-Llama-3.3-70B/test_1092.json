@@ -1,0 +1,13 @@
+{
+	"task_id": 1092,
+	"prompt": "An apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 2000/10 = <<2000/10=200>>200 bags of apples sold.\nTherefore, the orchard earned 200 x $5 = $<<200*5=1000>>1000.\n#### 1000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the orchard earned from selling apples, we first need to determine the total number of bags sold. Since each bag contains 10 apples and the orchard sold 2000 apples, we divide the total number of apples by the number of apples per bag to find the total number of bags sold.\n\nThe calculation for the total number of bags sold is: 2000 apples / 10 apples per bag = 200 bags.\n\nNext, we need to calculate the total amount earned by the orchard. Since each bag is sold for $5, we multiply the total number of bags sold by the price per bag to find the total earnings.\n\nThe calculation for the total earnings is: 200 bags * $5 per bag = $1000.\n\n#### $1000",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much the orchard earned from selling apples, we first need",
+			"retrievals": 2
+		}
+	]
+}

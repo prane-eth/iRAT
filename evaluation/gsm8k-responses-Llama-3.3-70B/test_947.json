@@ -1,0 +1,13 @@
+{
+	"task_id": 947,
+	"prompt": "A bakery has 40 less than seven times as many loaves of bread as Sam had last Friday. If Sam had seventy loaves of bread last Friday, how many loaves of bread does the bakery have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Sam had seventy loaves of bread last Friday, seven times that number is 7*70 = 490 loaves.\nSince the bakery has 40 less than seven times as many loaves of bread as Sam had last Friday, the bakery has 490-40 = 450 loaves of bread\n#### 450",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many loaves of bread the bakery has, we first need to determine how many loaves of bread Sam had last Friday and then calculate seven times that amount.\n\nSam had seventy loaves of bread last Friday. Now, we calculate seven times the amount Sam had: 7 * 70 = 490 loaves of bread.\n\nThe bakery has 40 less than seven times as many loaves of bread as Sam had. So, we subtract 40 from the result of the previous calculation to find out how many loaves the bakery has: 490 - 40 = 450 loaves of bread.\n\n#### 450",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many loaves of bread the bakery has, we first need to determine how many loaves of bread Sam had last Friday and then calculate seven times that amount. Sam had seventy loaves of bread last Friday. Now, we calculate seven times the amount Sam had: 7 * 70 = 490 loaves of bread.\n\nThe bakery has 40 less than seven times as many loaves of bread as Sam had. So, we subtract 40 from the result of the previous calculation to find out how many loaves the bakery has: 490 - 40 = 450 loaves of bread. \n\n#### 450",
+			"retrievals": 2
+		}
+	]
+}

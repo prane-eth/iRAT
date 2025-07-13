@@ -1,0 +1,13 @@
+{
+	"task_id": 470,
+	"prompt": "Mary has 6 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 8 cupcakes. Mary wants to bake enough cupcakes to use up all of her sprinkles. If each pan holds 12 cupcakes, how many pans worth of cupcakes should she bake?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She has enough sprinkles for 6 * 8 = <<6*8=48>>48 cupcakes.\nShe needs 48 / 12 = <<48/12=4>>4 pans to bake all of the cupcakes.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many pans worth of cupcakes Mary should bake, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the total number of cupcakes Mary needs to bake, we first need to calculate how many cupcakes she can decorate with the sprinkles she has. Since each jar of sprinkles can decorate 8 cupcakes and she has 6 jars, the total number of cupcakes she can decorate is 6 jars * 8 cupcakes/jar = 48 cupcakes.\n\nNow that we know she needs to bake 48 cupcakes, and each pan holds 12 cupcakes, we can find out how many pans worth of cupcakes she should bake by dividing the total number of cupcakes by the number of cupcakes each pan can hold. So, 48 cupcakes / 12 cupcakes/pan = 4 pans.\n\n#### 4",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 858,
+	"prompt": "The amount of water passing through a river at one point in time is 4000 gallons. After a day of heavy rain, the amount of water passing through the river doubles at the same point. If the volume of water passing through the river at that point increases by 6000 gallons on the third day, calculate the total amount of water passing through the river at that point.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After a day of rain, the volume of water in the river passing at one point in time doubled to 2*4000 = <<2*4000=8000>>8000 gallons.\nAfter more heavy rains, the volume of water passing through the river on the third day is 8000+6000 = <<8000+6000=14000>>14000 gallons.\n#### 14000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of water passing through the river at the given point, we first need to determine the initial amount of water and then account for the changes that occur over the next few days. The initial amount of water passing through the river is given as 4000 gallons.\n\n \nThe amount of water doubles after a day of heavy rain, which means it becomes 2 * 4000 = 8000 gallons. This is the amount of water passing through the river after the first day of heavy rain.\n\n \nOn the third day, the volume of water passing through the river increases by 6000 gallons. To find the total amount of water passing through the river at this point, we add this increase to the amount present after the heavy rain, which is 8000 gallons. So, the total amount of water is 8000 + 6000 = 14000 gallons.\n\n#### 14000",
+			"old_rat_retrievals": 0,
+			"final_answer": "To solve this problem, let's break it down step by step. The initial",
+			"retrievals": 2
+		}
+	]
+}

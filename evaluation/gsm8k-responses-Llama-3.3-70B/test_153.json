@@ -1,0 +1,13 @@
+{
+	"task_id": 153,
+	"prompt": "Carl buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost $0.10. How much change does Carl receive if he pay with a $10 bill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A pack of cookies costs 6 x $0.10 = $<<6*0.1=0.60>>0.60.\nThus, ten packs of cookies cost 10 x $0.6 = $<<10*0.6=6>>6.\nTherefore, Carl will receive a $10 - $6 = $<<10-6=4>>4 change.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much change Carl receives, we first need to calculate the total cost of the cookies.\n\n1. Carl buys 10 packs of cookies.\n2. Each pack contains 6 cookies, so the total number of cookies is 10 packs * 6 cookies/pack = 60 cookies.\n3. Each cookie costs $0.10, so the total cost of the cookies is 60 cookies * $0.10/cookie = $6.00.\n4. Carl pays with a $10 bill.\n\nThe change Carl receives is the difference between the $10 bill and the total cost of the cookies: $10 - $6.00 = $4.00.\n\n#### $4.00",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the Total Number of Cookies\nCarl buys ten packs of cookies, and each pack contains six cookies. So, the total number of cookies is 10 packs * 6 cookies/pack = 60 cookies.\n\n## Step 2: Calculate the Total Cost of the Cookies\nEach cookie costs $0.10. To find the total cost of the cookies, we multiply the total number of cookies by the cost per cookie. So, the total cost is 60 cookies * $0.10/cookie = $6.\n\n## Step 3: Calculate the Change Carl Receives\nCarl pays with a $10 bill. To find the change he receives, we subtract the total cost of the cookies from the $10 bill. So, the change is $10 - $6 = $4.\n\n#### $4",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 497,
+	"prompt": "Brett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Four years from now Angela will be 14*3=<<14*3=42>>42.\nRight now Angela is 42-4=<<42-4=38>>38 years old.\n#### 38",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to understand the given information and set up an equation to find Angela's current age. Brett is 14 years old now.\n\nIn four years, Brett's age will be 14 + 4 = 18 years old. However, the problem states that in four years, Angela will be three times as old as Brett is now. Since Brett is 14 now, three times his current age is 3 * 14 = 42. This means in four years, Angela will be 42 years old.\n\nTo find out how old Angela is now, we need to subtract 4 from 42 because that's how much time needs to pass for Angela to be 42. So, Angela's current age is 42 - 4 = 38.\n\n#### 38",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem states that Brett is 14 years old and in four years, his sister Angela will be three times as old as he is now. We need to find out how old Angela is currently.\n\n## Step 2: Setting Up the Equation\nFirst, we determine Brett's current age, which is given as 14. The problem specifies that in four years, Angela's age will be three times Brett's current age. So, three times Brett's current age is 3 * 14 = 42. This means in four years, Angela will be 42 years old.\n\n## Step 3: Calculating Angela's Current Age\nTo find Angela's current age, we subtract 4 from 42 because that's the amount of time that needs to pass for Angela to be 42. Therefore, Angela's current age is 42 - 4 = 38.\n\n## Step 4: Verification\nGiven the information provided in the problem, the calculation of Angela's age is based solely on the relationship between Brett's and Angela's ages as described. There are no additional details provided that would alter this calculation.\n\n#### 38",
+			"retrievals": 2
+		}
+	]
+}

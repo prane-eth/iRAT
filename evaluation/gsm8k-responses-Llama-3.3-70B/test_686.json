@@ -1,0 +1,13 @@
+{
+	"task_id": 686,
+	"prompt": "Catherine goes to the grocery store. She buys 1 kilo of apples for $4, 2 kilos of bananas for $2 per kilo, and 2 kilos of oranges for $3 per kilo. How many dollars does she pay in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "1 kilo of apples costs $<<1*4=4>>4.\n2 kilos of bananas costs 2 * 2 = $<<2*2=4>>4.\n2 kilos of oranges costs 2 * 3 = $<<2*3=6>>6.\nShe pays 4 + 4 + 6= $<<4+4+6=14>>14 in total.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount Catherine pays, we first need to calculate the cost of each item she buys. \nShe buys 1 kilo of apples for $4. \nThe cost of bananas is 2 kilos times $2 per kilo, which equals 2 * $2 = $4. \nThe cost of oranges is 2 kilos times $3 per kilo, which equals 2 * $3 = $6.\n\nThe total cost is the sum of the costs of apples, bananas, and oranges. \nSo, we add the costs together: $4 (apples) + $4 (bananas) + $6 (oranges) = $14.\n\n#### $14",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount Catherine pays, we first need to calculate the cost of each item she buys. \nShe buys 1 kilo of apples for $4. \nThe cost of bananas is 2 kilos times $2 per kilo, which equals 2 * $2 = $4. \nThe cost of oranges is 2 kilos times $3 per kilo, which equals 2 * $3 = $6. \nThe total cost is the sum of the costs of apples, bananas, and oranges. \nSo, we add the costs together: $4 (apples) + $4 (bananas) + $6 (oranges) = $14. \n#### $14",
+			"retrievals": 0
+		}
+	]
+}

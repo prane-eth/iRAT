@@ -1,0 +1,13 @@
+{
+	"task_id": 958,
+	"prompt": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Shawna is three times older than Aliya so Shawn is 3 * 3 = <<3*3=9>>9 years old.\nShawna's father is five times older than than Shawna, so her father is 9 * 5 = <<9*5=45>>45 years.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Shawna's father's age, we first need to determine Shawna's age. We know that Aliya is 3 years old and Shawna is currently three times as old as Aliya. \n\nSo, Shawna's age can be calculated by multiplying Aliya's age by 3. This gives us Shawna's age as 3 * 3 = 9 years.\n\nSince Shawna's father is five times as old as Shawna, we can find his age by multiplying Shawna's age by 5. \n\nThis calculation yields Shawna's father's age as 5 * 9 = 45 years.\n\n#### 45",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine Aliya's Age\nAliya is given to be 3 years old.\n\n## Step 2: Calculate Shawna's Age\nSince Shawna is currently three times as old as Aliya, and Aliya is 3 years old, Shawna's age can be calculated as 3 * 3 = 9 years.\n\n## Step 3: Calculate Shawna's Father's Age\nGiven that Shawna's father is five times as old as Shawna, and Shawna is 9 years old, her father's age can be calculated by multiplying Shawna's age by 5. Therefore, Shawna's father's age is 5 * 9 = 45 years.\n\nThe final answer is: #### 45",
+			"retrievals": 1
+		}
+	]
+}

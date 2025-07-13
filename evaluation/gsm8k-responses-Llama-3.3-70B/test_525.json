@@ -1,0 +1,13 @@
+{
+	"task_id": 525,
+	"prompt": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys 36 red tulips and 24 blue tulips, how many rows of flowers will he plant?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First, divide the number of red tulips by the number of red tulips per row: 36 / 6 = <<36/6=6>>6 rows.\nNext, divide the number of blue tulips by the number of blue tulips per row: 24 / 8 = <<24/8=3>>3 rows.\nNow add the number of rows of each color to find the total: 6 + 3 = <<6+3=9>>9 rows.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of rows of flowers Jackson will plant, we first need to calculate the number of rows for each color of tulip separately. \n\nFor the red tulips, since Jackson can fit 6 red tulips in a row and he buys 36 red tulips, we divide the total number of red tulips by the number of red tulips per row. rows_of_red = 36 / 6 = 6.\n\nFor the blue tulips, since Jackson can fit 8 blue tulips in a row and he buys 24 blue tulips, we divide the total number of blue tulips by the number of blue tulips per row. rows_of_blue = 24 / 8 = 3.\n\nNow, to find the total number of rows of flowers, we add the number of rows of red tulips to the number of rows of blue tulips. total_rows = rows_of_red + rows_of_blue = 6 + 3 = 9.\n\n#### 9",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of rows of flowers Jackson will plant, we need to calculate the number of rows for the red tulips and the number of rows for the blue tulips, then add these two numbers together.\n\nFirst, let's calculate the number of rows for the red tulips. Since Jackson can fit 6 red tulips in a row and he buys 36 red tulips, we divide the total number of red tulips by the number of red tulips per row. rows_of_red = 36 / 6 = 6.\n\nNext, for the blue tulips, since Jackson can fit 8 blue tulips in a row and he buys 24 blue tulips, we divide the total number of blue tulips by the number of blue tulips per row. rows_of_blue = 24 / 8 = 3.\n\nNow, to find the total number of rows of flowers, we add the number of rows of red tulips to the number of rows of blue tulips. total_rows = rows_of_red + rows_of_blue = 6 + 3 = 9.\n\n#### 9",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 486,
+	"prompt": "Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First triple the cost of the shoes: $80 * 3 = $<<80*3=240>>240\nThen subtract $20 to find the cost of the handbag: $240 - $20 = $<<240-20=220>>220\n#### 220",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of Jillian's handbag, we first need to calculate 3 times the cost of her shoes. \n\nHer shoes cost $80. So, 3 times the cost of her shoes is 3 * $80 = $240.\n\nNow, we know that her handbag cost $20 less than 3 times as much as her shoes. \n\nSo, the cost of her handbag is $240 - $20 = $220.\n\n#### $220",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the cost of Jillian's handbag, we need to follow the given information step by step. First, we are told that her shoes cost $80. The next step is to calculate 3 times the cost of her shoes. This is done by multiplying the cost of her shoes by 3: 3 * $80 = $240. \n\nNow, we know that Jillian's handbag cost $20 less than 3 times as much as her shoes. So, the cost of her handbag can be found by subtracting $20 from the result of the previous calculation: $240 - $20 = $220.\n\nTherefore, the cost of Jillian's handbag is $220. #### $220",
+			"retrievals": 1
+		}
+	]
+}

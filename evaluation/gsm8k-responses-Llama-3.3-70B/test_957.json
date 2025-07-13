@@ -1,0 +1,13 @@
+{
+	"task_id": 957,
+	"prompt": "Robyn sends sixteen emails a day. Seven are work emails, and two-thirds of the remainder are to family. One-third of the other emails are to her boyfriend. How many emails a day does she send to her boyfriend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Robyn sends 16 - 7 = <<16-7=9>>9 non-work emails.\nShe sends 9 * 2 / 3 = <<9*2/3=6>>6 emails to family.\nThere are 9 - 6 = <<9-6=3>>3 emails remaining.\nOf the remaining 3, 1/3 are to her boyfriend, so Robyn sends him 3 * 1 / 3 = <<3*1/3=1>>1 email a day.\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many emails Robyn sends to her boyfriend, we first need to determine the total number of emails that are not work-related. Since she sends 16 emails a day and 7 of them are work emails, the remainder is 16 - 7 = 9 emails.\n\nThese 9 emails are divided into two categories: emails to her family and emails to others (which include her boyfriend). We are told that two-thirds of the remainder (9 emails) are to her family. So, the number of emails to her family is 2/3 * 9 = 6 emails.\n\nThis leaves us with 9 - 6 = 3 emails that are not to her family or work-related. We are informed that one-third of these other emails are to her boyfriend. Therefore, the number of emails to her boyfriend is 1/3 * 3 = 1 email.\n\n#### 1",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many emails Robyn sends to her boyfriend, we first need to determine the total number of emails that are not work-related. Since she sends 16 emails a day and 7 of them are work emails, the remainder is 16 - 7 = 9 emails. These 9 emails are divided into two categories: emails to her family and emails to others (which include her boyfriend). We are told that two-thirds of the remainder (9 emails) are to her family. So, the number of emails to her family is 2/3 * 9 = 6 emails.\n\nThis leaves us with 9 - 6 = 3 emails that are not to her family or work-related. We are informed that one-third of these other emails are to her boyfriend. Therefore, the number of emails to her boyfriend is 1/3 * 3 = 1 email. \n\n#### 1",
+			"retrievals": 2
+		}
+	]
+}

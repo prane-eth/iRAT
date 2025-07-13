@@ -1,0 +1,13 @@
+{
+	"task_id": 355,
+	"prompt": "Annabelle is saving for a phone that costs $400. She already has $80 in her savings. Her first job, where she earns $10 per hour, pays her for 20 hours of work. She is also paid for 15 hours of work at her second job, where she earns $5 an hour. In dollars, how much money does Annabelle still need to save?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Subtracting Annabelle\u2019s initial savings shows that she still needs to save $400 \u2013 $80 = $<<400-80=320>>320.\nFrom her first job, she earns $10 * 20 hours = $<<10*20=200>>200.\nFrom her second job, she earns $5 * 15 hours = $<<5*15=75>>75.\nShe therefore still needs to save $320 \u2013 $200 \u2013 $75 = $<<320-200-75=45>>45.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Annabelle still needs to save, we first need to calculate how much she already has and how much she earns from her jobs. Annabelle starts with $80 in her savings.\n\nShe earns $10 per hour at her first job, where she works for 20 hours. So, her earnings from the first job are $10 * 20 = $200. At her second job, she earns $5 per hour for 15 hours of work, which gives her $5 * 15 = $75. \n\nThe total amount she earns from both jobs is $200 + $75 = $275. Adding this to her initial savings of $80, she now has $80 + $275 = $355.\n\nThe phone costs $400, and she has $355, so to find out how much more she needs, we subtract the amount she has from the price of the phone: $400 - $355 = $45.\n\n#### $45",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate Total Earnings from the First Job\nAnnabelle earns $10 per hour at her first job, where she works for 20 hours. So, her earnings from the first job are $10 * 20 = $200.\n\n## Step 2: Calculate Earnings from the Second Job\nAt her second job, Annabelle earns $5 per hour for 15 hours of work. Thus, her earnings from the second job are $5 * 15 = $75.\n\n## Step 3: Calculate Total Earnings\nNow, we add the earnings from both jobs to find her total earnings. Total earnings = $200 (from the first job) + $75 (from the second job) = $275.\n\n## Step 4: Calculate Total Savings\nAnnabelle already had $80 in her savings. After earning $275, her total savings will be $80 (initial savings) + $275 (total earnings) = $355.\n\n## Step 5: Determine How Much More She Needs to Save\nThe phone Annabelle wants costs $400. To find out how much more she needs to save, we subtract her total savings from the cost of the phone. Amount needed = $400 (cost of the phone) - $355 (total savings) = $45.\n\n#### $45",
+			"retrievals": 2
+		}
+	]
+}

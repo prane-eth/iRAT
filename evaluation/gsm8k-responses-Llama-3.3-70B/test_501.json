@@ -1,0 +1,13 @@
+{
+	"task_id": 501,
+	"prompt": "Together Lily, David, and Bodhi collected 43 insects. Lily found 7 more than David. David found half of what Bodhi found. How many insects did Lily find?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let B = the number of insects Bodhi collected\nDavid = B/2\nLily = B/2 + 7\nB + B + 7 = 43\n2B = <<36=36>>36\nB = <<18=18>>18 insects\nDavid = 18/2 = <<18/2=9>>9 insects\nLily = 9 + 7 = <<9+7=16>>16 insects\nLily found <<16=16>>16 insects.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of insects found by David as D, the number of",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Analyze the given problem\nThe problem states that together, Lily, David, and Bodhi collected 43 insects. It also provides the following relationships: Lily found 7 more insects than David, and David found half the number of insects that Bodhi found.\n\n## Step 2: Define the variables for the number of insects found by each person\nLet's denote the number of insects found by David as D, the number of insects found by Lily as L, and the number of insects found by Bodhi as B.\n\n## Step 3: Translate the given information into equations\nFrom the problem, we have the following equations:\n1. L + D + B = 43 (Together they collected 43 insects)\n2. L = D + 7 (Lily found 7 more than David)\n3. D = B/2 (David found half of what Bodhi found)\n\n## Step 4: Solve the system of equations\nWe can start by substituting equation (3) into equation (2) to find a relationship between L and B.\nSince D = B/2, we can substitute this into L = D + 7 to get L = B/2 + 7.\n\n## Step 5: Substitute the expressions for L and D into the total equation to solve for B\nSubstituting L = B/2 + 7 and D = B/2 into the equation L + D + B = 43 gives:\n(B/2 + 7) + B/2 + B = 43.\nCombining like terms gives:\n2B + 7 = 43.\nSubtracting 7 from both sides gives:\n2B = 36.\nDividing both sides by 2 gives:\nB = 18.\n\n## Step 6: Find the number of insects found by David and then by Lily\nNow that we know B = 18, we can find D:\nD = B/2 = 18/2 = 9.\nThen, using L = D + 7:\nL = 9 + 7 = 16.\n\nThe final answer is: #### 16",
+			"retrievals": 1
+		}
+	]
+}

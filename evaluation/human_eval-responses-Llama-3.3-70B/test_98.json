@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/97",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef multiply(a, b):\n    \"\"\"\n    This function takes two integers and returns the product of their unit digits.\n    \n    Parameters:\n    a (int): The first integer.\n    b (int): The second integer.\n    \n    Returns:\n    int: The product of the unit digits of a and b.\n    \"\"\"\n    # Get the unit digit of a by finding the remainder when a is divided by 10\n    unit_digit_a = abs(a) % 10\n    \n    # Get the unit digit of b by finding the remainder when b is divided by 10\n    unit_digit_b = abs(b) % 10\n    \n    # Return the product of the unit digits\n    return unit_digit_a * unit_digit_b\n\n# Test cases\nprint(multiply(148, 412))  # Expected output: 16\nprint(multiply(19, 28))    # Expected output: 72\nprint(multiply(2020, 1851)) # Expected output: 0\nprint(multiply(14, -15))   # Expected output: 20\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "```python\ndef multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    # Get the unit digit of a\n    unit_digit_a = abs(a) % 10\n    \n    # Get the unit digit of b\n    unit_digit_b = abs(b) % 10\n    \n    # Return the product of the unit digits\n    return unit_digit_a * unit_digit_b\n```",
+			"retrievals": 1
+		}
+	]
+}

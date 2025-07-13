@@ -1,0 +1,13 @@
+{
+	"task_id": 1164,
+	"prompt": "Tyrion changes his face mask two times every time he goes out. If he goes out three times a day, how many face masks does he use every 2 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tyrion uses 2 x 3 = <<2*3=6>>6 face masks every day.\nTherefore, the total number of face masks he uses every 2 days is 6 x 2 = <<6*2=12>>12.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many face masks Tyrion uses every 2 days, we first need to determine how many face masks he uses in a day. \nHe changes his face mask two times every time he goes out, and he goes out three times a day. \n\nSo, the number of face masks used in a day can be calculated by multiplying the number of times he goes out in a day by the number of face masks he changes each time he goes out. \nThis means 2 face masks * 3 times = 6 face masks per day.\n\nTo find out how many face masks he uses every 2 days, we then multiply the number of face masks used in a day by 2. \nThis calculation is 6 face masks per day * 2 days = 12 face masks every 2 days.\n\n#### 12",
+			"old_rat_retrievals": 2,
+			"final_answer": "To determine how many face masks Tyrion uses every 2 days, we first need to calculate how many face masks he uses in a day. Since he changes his face mask two times every time he goes out and he goes out three times a day, the daily usage is 2 face masks * 3 times = 6 face masks per day. To find out how many face masks he uses every 2 days, we then multiply the number of face masks used in a day by 2. This calculation is 6 face masks per day * 2 days = 12 face masks every 2 days. \n#### 12",
+			"retrievals": 1
+		}
+	]
+}

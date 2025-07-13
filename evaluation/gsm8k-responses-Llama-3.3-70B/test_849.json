@@ -1,0 +1,13 @@
+{
+	"task_id": 849,
+	"prompt": "A clothing store has 40 white shirts and 50 floral shirts. Half of the white shirts have collars, and 20 of the floral shirts have buttons. How many more floral shirts with no buttons are there than white shirts with no collars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "40/2 = <<40/2=20>>20 white shirts have no collars.\n50 - 20 = <<50-20=30>>30 floral shirts have no buttons.\nThere are 30 - 20 = <<30-20=10>>10 more floral shirts with no buttons than white shirts with no collars.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more floral shirts with no buttons are there than white shirts",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many more floral shirts with no buttons are there than white shirts with no collars, let's break down the information given.\n\nFirst, we know that there are 40 white shirts and half of them have collars. This means 40 / 2 = 20 white shirts have collars, and the remaining half do not have collars. So, 40 - 20 = 20 white shirts do not have collars.\n\nNext, we are told there are 50 floral shirts, with 20 of them having buttons. This implies that the remaining floral shirts do not have buttons. So, 50 - 20 = 30 floral shirts do not have buttons.\n\nNow, to find out how many more floral shirts with no buttons are there than white shirts with no collars, we subtract the number of white shirts with no collars from the number of floral shirts with no buttons: 30 - 20 = 10.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

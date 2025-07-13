@@ -1,0 +1,13 @@
+{
+	"task_id": 1066,
+	"prompt": "If John scored 100 on his first 3 tests and an 80 on his 4th, what was his average score across the 4 tests?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "100+100+100+80=<<100+100+100+80=380>>380 total score across 4 tests\n380 total score / 4 tests = <<380/4=95>>95 average score\n#### 95",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find John's average score across the 4 tests, we first need to calculate the total score he achieved in all the tests. \n\nHe scored 100 on each of his first 3 tests. So, the total score for these 3 tests is 100 * 3 = 300. \n\nThen, he scored 80 on his 4th test. \n\nThe total score for all 4 tests is 300 (from the first 3 tests) + 80 (from the 4th test) = 380.\n\nTo find the average score, we divide the total score by the number of tests, which is 4.\n\nThe average score = total score / number of tests = 380 / 4 = 95.\n\n#### 95",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total score for the first 3 tests\nJohn scored 100 on each of his first 3 tests. So, the total score for these tests is 100 * 3 = 300.\n\n## Step 2: Add the score of the 4th test to the total\nOn his 4th test, John scored 80. Therefore, the total score across all 4 tests is 300 + 80 = 380.\n\n## Step 3: Calculate the average score\nTo find the average score, we divide the total score by the number of tests. The total score is 380, and the number of tests is 4. Thus, the average score is 380 / 4 = 95.\n\n#### 95",
+			"retrievals": 2
+		}
+	]
+}

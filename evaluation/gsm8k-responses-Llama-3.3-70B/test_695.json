@@ -1,0 +1,13 @@
+{
+	"task_id": 695,
+	"prompt": "Tomorrow, 42 adults and 15 babies will be attending a function at Mia\u2019s restaurant. The restaurant has 5 times as many regular chairs as high chairs. If there are 8 high chairs, how many more chairs does she have to get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since there are 8 high chairs, the number of regular chairs is 5 * 8 = <<8*5=40>>40 regular chairs\nThe total number of both types of chairs is therefore 8 + 40 = <<8+40=48>>48 chairs\nHowever, the total number of attendants will be 42 + 15 = <<42+15=57>>57 people\nMia will therefore need 57-48 = <<57-48=9>>9 more chairs\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more chairs Mia needs to get, we first need to calculate the total number of chairs required for the adults and babies attending the function. There are 42 adults and 15 babies, so the total number of chairs needed is 42 (for adults) + 15 (for babies) = 57 chairs.\n\n \nThe restaurant has 5 times as many regular chairs as high chairs, and there are 8 high chairs. This means the restaurant has 5 * 8 = 40 regular chairs. So, in total, the restaurant currently has 40 regular chairs + 8 high chairs = 48 chairs.\n\n \nSince the total number of chairs needed is 57 and the restaurant currently has 48 chairs, Mia will need to get 57 - 48 = 9 more chairs to accommodate all the guests.\n\n#### 9",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many more chairs Mia needs, we first calculate the total number of people attending the function. There are 42 adults and 15 babies, making a total of 57 people. \n\nThe restaurant has 5 times as many regular chairs as high chairs, and there are 8 high chairs. So, the number of regular chairs is 5 * 8 = 40.\n\nSince there are 8 high chairs for the babies, we only need to consider the seating for the adults, which requires regular chairs. There are 42 adults, and we have 40 regular chairs. \n\nTherefore, Mia needs 42 - 40 = 2 more chairs for the adults. The high chairs are sufficient for the babies, so no additional high chairs are needed.\n\n#### 2",
+			"retrievals": 2
+		}
+	]
+}

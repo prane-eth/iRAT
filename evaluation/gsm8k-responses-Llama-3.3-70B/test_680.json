@@ -1,0 +1,13 @@
+{
+	"task_id": 680,
+	"prompt": "If 6 potatoes makes 36 hash browns, how many hash browns can you make out of 96 potatoes?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of hash browns per potato: 36 hash browns / 6 potatoes = <<36/6=6>>6 hash browns/potato\nThen multiply that number by the number of potatoes to find the total number of hash browns: 6 hash browns/potato * 96 potatoes = <<6*96=576>>576 hash browns\n#### 576",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many hash browns can be made from 96 potatoes, we first need to determine the ratio of potatoes to hash browns. We are given that 6 potatoes make 36 hash browns. \n\nThis means that for every 6 potatoes, 36 hash browns are produced. To find out how many hash browns 1 potato can make, we divide the number of hash browns by the number of potatoes: 36 hash browns / 6 potatoes = 6 hash browns per potato.\n\nNow that we know 1 potato can make 6 hash browns, we can calculate how many hash browns 96 potatoes can make by multiplying the number of potatoes by the number of hash browns per potato: 96 potatoes * 6 hash browns/potato = 576 hash browns.\n\n#### 576",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many hash browns can be made from 96 potatoes, we first need to establish the ratio of potatoes to hash browns. Given that 6 potatoes make 36 hash browns, we divide the number of hash browns by the number of potatoes to find out how many hash browns one potato can make: 36 hash browns / 6 potatoes = 6 hash browns per potato.\n\nNow that we know 1 potato can make 6 hash browns, we can calculate how many hash browns 96 potatoes can make by multiplying the number of potatoes by the number of hash browns per potato: 96 potatoes * 6 hash browns/potato = 576 hash browns.\n\n#### 576",
+			"retrievals": 1
+		}
+	]
+}

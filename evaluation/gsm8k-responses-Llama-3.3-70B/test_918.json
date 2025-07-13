@@ -1,0 +1,13 @@
+{
+	"task_id": 918,
+	"prompt": "Kira bought 3 apples, 5 bananas and 6 oranges at the grocery store. Lola ate 2 pieces of the fruit. How many pieces are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Kira bought 3 + 5 + 6 = <<3+5+6=14>>14 pieces of fruit.\nAfter Lola ate 2 pieces of fruit there are 14 - 2 = <<14-2=12>>12 pieces of fruit.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pieces of fruit are left, we need to first calculate the total number of fruits Kira bought. This can be done by adding the number of apples, bananas, and oranges she purchased. \n\nThe total number of fruits = number of apples + number of bananas + number of oranges\nThe total number of fruits = 3 + 5 + 6\nThe total number of fruits = 14\n\n`\nNow, we know that Lola ate 2 pieces of the fruit. To find out how many pieces are left, we need to subtract the number of fruits Lola ate from the total number of fruits Kira bought.\n\nNumber of fruits left = Total number of fruits - Number of fruits Lola ate\nNumber of fruits left = 14 - 2\nNumber of fruits left = 12\n\n#### 12",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many pieces of fruit are left, we need to calculate the total number of fruits Kira bought and then subtract the number of fruits Lola ate.\n\n## Step 1: Calculate the total number of fruits Kira bought\nKira bought 3 apples, 5 bananas, and 6 oranges. To find the total number of fruits, we need to add these numbers together: 3 + 5 + 6 = 14.\n\n## Step 2: Subtract the number of fruits Lola ate from the total\nLola ate 2 pieces of fruit. To find the number of pieces left, we subtract the number of fruits Lola ate from the total number of fruits Kira bought: 14 - 2 = 12.\n\n## Step 3: Determine the final number of pieces of fruit left\nAfter subtracting the number of fruits Lola ate, we find that there are 12 pieces of fruit left.\n\n#### 12",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 542,
+	"prompt": "Elvis has a monthly saving target of $1125. In April, he wants to save twice as much daily in the second half as he saves in the first half in order to hit his target. How much does he have to save for each day in the second half of the month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let the amount he has to save for each day of the second half of April be y\nSince y is twice as much what he saved in each day of the first half, he saved y/2 in each day of the first half\nApril has 30 days, 15 days in each half, so he is saving (15*(y/2)) in the 1st half, (15*y) in the 2nd half to give (15*(y/2))+(15*y)=$1125\nSolving the equation gives 15(3y/2) = $1125\n45y/2 = $1125\ny = $1125*(2/45)\ny = $<<50=50>>50\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Elvis has to save each day in the second half of",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the Problem and Identify Given Information\nThe problem states that Elvis has a monthly saving target of $1125. In April, he wants to save twice as much daily in the second half as he saves in the first half in order to hit his target. We need to find out how much he has to save for each day in the second half of the month.\n\n## Step 2: Determine the Number of Days in April\nApril has 30 days. The first half of the month would be 15 days (1-15 April), and the second half would also be 15 days (16-30 April).\n\n## Step 3: Set Up the Equation for Savings\nLet x be the amount Elvis saves each day in the first half of the month. Then, 2x would be the amount he saves each day in the second half. The total savings for the month can be represented by the equation: 15x + 15(2x) = 1125.\n\n## Step 4: Solve the Equation for x\nSimplifying the equation gives us 15x + 30x = 1125, which further simplifies to 45x = 1125. Dividing both sides by 45 gives x = 25. This means Elvis saves $25 each day in the first half of the month.\n\n## Step 5: Calculate the Daily Savings for the Second Half\nSince Elvis saves twice as much in the second half, he would save 2 * $25 = $50 each day in the second half of the month.\n\n#### $50",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 94,
+	"prompt": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald would run the 400-meter hurdles.  But Gerald changed his diet, which improved his speed by 10%.  If Lee runs the 400-meter hurdles in 38 seconds, how fast can Gerald, with his improved diet, run the 400-meter hurdles, in seconds?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Lee runs the 400-meter hurdles in 38 seconds, which was two seconds faster than Gerald used to run the 400-meter hurdles, then Gerald initially would run the 400-meter hurdles in 38+2=<<38+2=40>>40 seconds.\n10% of 40 seconds is 40*0.1=<<40*0.1=4>>4 seconds.\nThe improved diet reduced Gerald's race time to 40-4=<<40-4=36>>36 seconds.\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how fast Gerald can run the 400-meter hurdles after improving his diet, we first need to determine Gerald's original time. Since Lee runs the 400-meter hurdles in 38 seconds and he is 2 seconds faster than Gerald, we can calculate Gerald's original time by adding 2 seconds to Lee's time.\n\nGerald's original time = Lee's time + 2 seconds = 38 seconds + 2 seconds = 40 seconds.\n\nNow, we know that Gerald improved his speed by 10%. To find his new time, we calculate 10% of his original time and subtract it from his original time.\n\n10% of 40 seconds = 0.10 * 40 = 4 seconds.\n\nGerald's new time = Original time - 10% of original time = 40 seconds - 4 seconds = 36 seconds.\n\nTherefore, with his improved diet, Gerald can run the 400-meter hurdles in 36 seconds.\n\n#### 36",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine Lee's Time\nLee runs the 400-meter hurdles in 38 seconds.\n\n## Step 2: Find Gerald's Original Time\nSince Lee used to run the 400-meter hurdles two seconds faster than Gerald, Gerald's original time can be found by adding 2 seconds to Lee's time. Gerald's original time = Lee's time + 2 seconds = 38 + 2 = 40 seconds.\n\n## Step 3: Calculate Gerald's Improved Time\nGerald's diet improved his speed by 10%. To find his improved time, we need to calculate 10% of his original time and subtract it from his original time. 10% of 40 seconds = 0.1 * 40 = 4 seconds. Gerald's improved time = Gerald's original time - 10% of Gerald's original time = 40 - 4 = 36 seconds.\n\nThe final answer is: #### 36",
+			"retrievals": 3
+		}
+	]
+}

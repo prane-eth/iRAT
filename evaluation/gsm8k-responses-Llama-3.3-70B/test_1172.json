@@ -1,0 +1,13 @@
+{
+	"task_id": 1172,
+	"prompt": "Tom has 4 bedrooms in his house.  They measure 20 by 12 feet each.  The living room is 5 times bigger than one bedroom.  The rest of the house is 1000 square feet.  What is the total area, in square feet, of the house?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The bedrooms are each 20*12=<<20*12=240>>240 square feet\nSo in total the bedrooms are 240*4=<<240*4=960>>960 square feet\nThe living room is 240*5=<<240*5=1200>>1200 square feet\nSo in total the house is 1200+1000+960=<<1200+1000+960=3160>>3160 square feet\n#### 3160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total area of the house, we first need to calculate the area of one bedroom. The area of a bedroom can be calculated by multiplying its length by its width. Given that the bedrooms measure 20 by 12 feet, the area of one bedroom is 20 * 12 = 240 square feet.\n\nThe living room is 5 times bigger than one bedroom. Therefore, the area of the living room is 5 * 240 = 1200 square feet.\n\nNext, we calculate the total area of all the bedrooms. Since there are 4 bedrooms, each with an area of 240 square feet, the total area of the bedrooms is 4 * 240 = 960 square feet.\n\nNow, we add the area of the living room and the total area of the bedrooms to find the area of these parts of the house. 960 (bedrooms) + 1200 (living room) = 2160 square feet.\n\nThe rest of the house is given as 1000 square feet. To find the total area of the house, we add this to the area of the bedrooms and the living room. So, 2160 + 1000 = 3160 square feet.\n\n#### 3160",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the area of one bedroom\nThe area of one bedroom can be calculated by multiplying its length and width. Given that the dimensions of each bedroom are 20 by 12 feet, the area of one bedroom is 20 * 12 = 240 square feet.\n\n## Step 2: Calculate the total area of all bedrooms\nSince Tom has 4 bedrooms, the total area of all bedrooms can be found by multiplying the area of one bedroom by the number of bedrooms. So, 4 * 240 = 960 square feet.\n\n## Step 3: Calculate the area of the living room\nIt is given that the living room is 5 times bigger than one bedroom. Therefore, the area of the living room is 5 * 240 = 1200 square feet.\n\n## Step 4: Calculate the total area of the house\nThe total area of the house includes the area of all bedrooms, the living room, and the rest of the house. The rest of the house is given as 1000 square feet. So, the total area of the house is 960 (bedrooms) + 1200 (living room) + 1000 (rest of the house) = 3160 square feet.\n\n#### 3160",
+			"retrievals": 3
+		}
+	]
+}

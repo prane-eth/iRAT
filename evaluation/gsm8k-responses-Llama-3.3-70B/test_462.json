@@ -1,0 +1,13 @@
+{
+	"task_id": 462,
+	"prompt": "Shondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Toni has 10 * 0.60 = <<10*0.60=6>>6 more plants than Frederick\nToni has a total of 10 + 6 = <<10+6=16>>16 plants\nShondra has 16 - 7 = <<16-7=9>>9 plants.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many plants Shondra has, we first need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the number of plants Frederick has.\nFrederick has 10 plants.\n\n## Step 2: Calculate the number of plants Toni has.\nToni has 60% more plants than Frederick. To find out how many plants Toni has, we calculate 60% of Frederick's plants and add that to Frederick's total. 60% of 10 is 0.6 * 10 = 6. So, Toni has 10 + 6 = 16 plants.\n\n## Step 3: Calculate the number of plants Shondra has.\nShondra has 7 fewer plants than Toni. Since Toni has 16 plants, we subtract 7 from Toni's total to find Shondra's total. Shondra has 16 - 7 = 9 plants.\n\n#### 9",
+			"retrievals": 1
+		}
+	]
+}

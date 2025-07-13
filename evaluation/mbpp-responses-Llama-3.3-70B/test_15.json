@@ -1,0 +1,19 @@
+{
+	"task_id": 25,
+	"prompt": "Write a python function to interchange first and last elements in a given list.?assert swap_List([1,2,3]) == [3,2,1]",
+	"test_imports": [],
+	"test_list": [
+		"assert swap_List([1,2,3]) == [3,2,1]",
+		"assert swap_List([1,2,3,4,4]) == [4,2,3,4,1]",
+		"assert swap_List([4,5,6]) == [6,5,4]"
+	],
+	"mbpp_code": "def swap_List(newList): \r\n    size = len(newList) \r\n    temp = newList[0] \r\n    newList[0] = newList[size - 1] \r\n    newList[size - 1] = temp   \r\n    return newList",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef swap_List(lst):\n    if len(lst) > 1:\n        lst[0], lst[-1] = lst[-1], lst[0]\n    return lst\n```\n\n### Explanation\n\n* The function `swap_List` checks if the input list `lst` has more than one element. If it does, it proceeds to swap the first and last elements.\n* The swapping is done using tuple packing and unpacking, where the values of `lst[0]` and `lst[-1]` are packed into a tuple in reverse order, and then immediately unpacked back into `lst[0]` and `lst[-1]`.\n* If the list has one or zero elements, the function simply returns the original list, as there are no elements to swap.\n* The function returns the modified list with the first and last elements swapped.",
+			"old_rat_retrievals": 1,
+			"final_answer": "To interchange the first and last elements in a given list, you can use a simple Python function. Here's an example implementation:\n\n```python\ndef swap_List(input_list):\n    if len(input_list) > 1:\n        input_list[0], input_list[-1] = input_list[-1], input_list[0]\n    return input_list\n\nassert swap_List([1,2,3]) == [3,2,1]\n```\n\nThis function works by using tuple packing and unpacking to swap the first and last elements of the list. The `if len(input_list) > 1` check ensures that the function doesn't attempt to swap elements in a list with only one element, which would be unnecessary. \n\nAlternatively, you can also use list slicing and concatenation to achieve the same result:\n\n```python\ndef swap_List(input_list):\n    if len(input_list) > 1:\n        return [input_list[-1]] + input_list[1:-1] + [input_list[0]]\n    return input_list\n\nassert swap_List([1,2,3]) == [3,2,1]\n```\n\nBoth of these functions will correctly swap the first and last elements of the input list.",
+			"retrievals": 1
+		}
+	]
+}

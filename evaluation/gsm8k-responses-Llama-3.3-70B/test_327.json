@@ -1,0 +1,13 @@
+{
+	"task_id": 327,
+	"prompt": "Some people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 20 - 8 = <<20-8=12>>12 people on the bus before 8 people got in at the second stop.\nThere were a total of 12 + 7 =<<12+7=19>>19 people at the second stop before 7 people went down.\nSo, 19 - 5 = <<19-5=14>>14 people got on the bus at the terminal.\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "Let's denote the number of people who got on the bus at the terminal as x.\n\nAt the first bus stop, 5 more people got in, so the total number of people became x + 5.\n\nAt the second bus stop, 7 people got down and 8 more got in. This means the total number of people after the second stop is (x + 5) - 7 + 8, which simplifies to x + 6.\n\nWe are told that there were a total of 20 people heading to the third stop. So, we can set up the equation:\n\nx + 6 = 20\n\nTo solve for x, we subtract 6 from both sides of the equation:\n\nx = 20 - 6\nx = 14\n\nTherefore, the number of people who got on the bus at the terminal is 14.\n\n#### 14\n\nx = 14.\n\n#### 14",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Understand the problem\nThe problem describes a scenario where people get on and off a bus at different stops, and we need to find out how many people got on the bus at the terminal. Let's denote the number of people who got on the bus at the terminal as x.\n\n## Step 2: Calculate the total number of people after each stop\nAt the first bus stop, 5 more people got in, so the total number of people on the bus became x + 5. At the second bus stop, 7 people got down and 8 more got in. This means the total number of people on the bus after the second stop is (x + 5) - 7 + 8.\n\n## Step 3: Simplify the expression for the total number of people after the second stop\nWe can simplify the expression (x + 5) - 7 + 8 by combining like terms: (x + 5) - 7 + 8 = x + 6.\n\n## Step 4: Set up an equation to solve for x\nWe are told that there were a total of 20 people heading to the third stop. So, we set up the equation x + 6 = 20 to find the value of x.\n\n## Step 5: Solve for x\nTo solve for x, we subtract 6 from both sides of the equation: x = 20 - 6. x = 14.\n\nThe final answer is: #### 14",
+			"retrievals": 2
+		}
+	]
+}

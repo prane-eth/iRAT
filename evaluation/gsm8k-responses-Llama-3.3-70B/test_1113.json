@@ -1,0 +1,13 @@
+{
+	"task_id": 1113,
+	"prompt": "Pierre, Paul, and Jacques bought 12 kg of apples. Peter wants a quarter of that and Paul wants 1/3 of that. How many kilograms will James have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Peter wants 12 * 1/4 = <<12*1/4=3>>3 kg of apples.\nPaul wants 12 * 1/3 = <<12*1/3=4>>4 kg of apples.\nTogether, Peter and Paul want a total of 3 + 4 = <<3+4=7>>7 kg of apples.\nSo James will have 12 - 7 = <<12-7=5>>5 kg.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many kilograms James will have left, we first need to calculate the amount of apples that Pierre and Paul want. Pierre wants a quarter of the 12 kg of apples, which is calculated as 12 kg * 1/4 = 3 kg.\n\nPaul wants 1/3 of the 12 kg of apples, which is calculated as 12 kg * 1/3 = 4 kg.\n\nThe total amount of apples that Pierre and Paul want is 3 kg + 4 kg = 7 kg.\n\nSince the total amount of apples bought is 12 kg, and Pierre and Paul will take 7 kg, we subtract the amount they want from the total to find out how much James will have left: 12 kg - 7 kg = 5 kg.\n\n#### 5 kg",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many kilograms James will have left, we first need to calculate the amount of apples Peter and Paul want. \n\nPeter wants a quarter of the 12 kg of apples, which is 12 kg * 1/4 = 3 kg. \nPaul wants 1/3 of the 12 kg of apples, which is 12 kg * 1/3 = 4 kg.\n\nTogether, Peter and Paul will take 3 kg + 4 kg = 7 kg of apples.\n\nSince the total amount of apples bought is 12 kg, and Pierre and Paul will take 7 kg, we subtract the amount they want from the total to find out how much James will have left: 12 kg - 7 kg = 5 kg.\n\n#### 5 kg",
+			"retrievals": 2
+		}
+	]
+}

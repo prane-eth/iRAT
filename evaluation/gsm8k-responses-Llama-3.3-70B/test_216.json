@@ -1,0 +1,13 @@
+{
+	"task_id": 216,
+	"prompt": "Lori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00.  Her part-time job pays her $8.00 an hour.  How many hours will she have to work before she can make her purchase?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She wants to buy a pair of shoes for $320.00 and a belt for $32.00 for a total of 320+32 = $<<320+32=352.00>>352.00\nHer purchase will total $352.00 and she makes $8.00 at her part-time job so she'll have to work 352/8 = <<352/8=44>>44 hours\n#### 44",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many hours Lori needs to work to buy the shoes and the belt, we first need to calculate the total cost of the items she wants to purchase. The shoes cost $320.00 and the belt costs $32.00.\n\nThe total cost of the items is $320.00 (shoes) + $32.00 (belt) = $352.00. This is the amount Lori needs to earn to make her purchase.\n\nLori's part-time job pays her $8.00 per hour. To find out how many hours she needs to work to earn $352.00, we divide the total cost of the items by her hourly wage. So, we calculate $352.00 / $8.00 = 44 hours.\n\n#### 44",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many hours Lori needs to work to buy the shoes and the belt, we first need to calculate the total cost of the purchase. The total cost is the sum of the cost of the shoes and the cost of the belt. Total cost = $320.00 (shoes) + $32.00 (belt) = $352.00.\n\nNext, we determine the number of hours Lori needs to work to make the purchase by dividing the total cost of the purchase by her hourly wage. Hours = Total cost / Hourly wage = $352.00 / $8.00.\n\nPerforming the division gives us the number of hours Lori needs to work. Hours = $352.00 / $8.00 = 44.\n\n#### 44",
+			"retrievals": 2
+		}
+	]
+}

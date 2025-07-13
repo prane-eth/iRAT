@@ -1,0 +1,13 @@
+{
+	"task_id": 823,
+	"prompt": "John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each cycle pays 5*$1.2=$<<5*1.2=6>>6\nThat means he earns $6*30=$<<6*30=180>>180 a day\nSo he makes $180*7=$<<180*7=1260>>1260 a week\n#### 1260",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much John makes in a week, we first need to find out",
+			"old_rat_retrievals": 1,
+			"final_answer": "Step 1: Calculate the total number of tasks John completes in a day.\nJohn does 30 cycles of work a day, and each cycle has 5 different tasks. So, the total number of tasks he completes in a day is 30 * 5 = 150 tasks.\n\nStep 2: Calculate John's daily earnings.\nEach task pays $1.20, and John completes 150 tasks in a day. So, his daily earnings are 150 * $1.20 = $180.\n\nStep 3: Calculate John's weekly earnings.\nJohn works a full 7-day week, and his daily earnings are $180. So, his weekly earnings are 7 * $180 = $1260.\n\n#### $1260",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 455,
+	"prompt": "Marin and his neighbor Nancy each eat 4 apples a day. How many apples do they eat in 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In one day, Marin and Nancy eat 4 + 1 = <<4+1=5>>5 apples.\nIn 30 days, they eat 30 * 5 = <<30*5=150>>150 apples.\n#### 150",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many apples Marin and Nancy eat in 30 days, we first need to calculate how many apples they eat in one day together. Since each of them eats 4 apples a day, their combined daily apple consumption is 4 + 4 = 8 apples.\n\n \nNext, we need to multiply their daily consumption by the number of days, which is 30, to find out the total number of apples they eat in that period. So, we calculate 8 apples/day * 30 days = 240 apples.\n\n#### 240",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve this problem, we need to calculate the total number of apples Marin and his neighbor Nancy eat in 30 days. First, we determine their combined daily apple consumption. Since each of them eats 4 apples a day, together they eat 4 + 4 = 8 apples per day. Next, we multiply their daily consumption by the number of days to find the total number of apples eaten in that period. So, we calculate 8 apples/day * 30 days = 240 apples.\n\n#### 240",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 503,
+	"prompt": "Cherrie wants to buy Christmas gifts for her 5 friends. 2 of her friends want 5 gifts and the other 3 friends want 2 gifts for themselves. Cherrie goes ahead and buys them and decides to further surprise them by getting 10 more random gifts. How many gifts did Cherrie buy in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Two of Cherries friends in total want 2*5=<<2*5=10>>10 gifts.\nHer other three friends will get 3*2=<<3*2=6>>6 gifts in total between them.\nCherrie buys more gifts, leaving a total of 10+6+10=<<10+6+10=26>>26 gifts.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of gifts Cherrie bought, we first need to calculate the number of gifts she bought for her friends. \n2 of her friends want 5 gifts each, so the total number of gifts for these 2 friends is 2 * 5 = 10 gifts.\nThe other 3 friends want 2 gifts each, so the total number of gifts for these 3 friends is 3 * 2 = 6 gifts.\n\nThe total number of gifts Cherrie bought for her friends is 10 + 6 = 16 gifts.\nCherrie also decides to buy 10 more random gifts.\n\nSo, to find the total number of gifts Cherrie bought, we need to add the gifts she bought for her friends and the random gifts.\nTotal gifts = gifts for friends + random gifts = 16 + 10 = 26\n\n#### 26",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of gifts for the 2 friends who want 5 gifts each.\n2 friends want 5 gifts each, so the total number of gifts for these friends is 2 * 5 = 10 gifts.\n\n## Step 2: Calculate the total number of gifts for the 3 friends who want 2 gifts each.\n3 friends want 2 gifts each, so the total number of gifts for these friends is 3 * 2 = 6 gifts.\n\n## Step 3: Calculate the total number of gifts bought for all 5 friends.\nTo find the total number of gifts bought for all 5 friends, we add the gifts for the 2 friends and the 3 friends: 10 gifts + 6 gifts = 16 gifts.\n\n## Step 4: Add the 10 additional random gifts Cherrie decided to buy.\nCherrie also bought 10 more random gifts, so we add these to the total: 16 gifts + 10 gifts = 26 gifts.\n\nThe final answer is: #### 26",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 646,
+	"prompt": "A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.\nSo, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of flour in one bag before it was divided, we",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total amount of flour in one bag before it was divided, we first calculate the total weight of flour in one bag by multiplying the number of portions by the weight of each portion. Since the bag is divided into 8 portions of 2 kilograms each, the total weight of flour in one bag is 8 portions * 2 kilograms/portion = 16 kilograms.\n\nNow, to find the total amount of flour in three bags, we multiply the weight of flour in one bag by the number of bags. So, the total weight of flour in three bags is 16 kilograms/bag * 3 bags = 48 kilograms.\n\nTherefore, the total amount of flour in three bags before it was divided into portions is 48 kilograms.\n\n#### 48",
+			"retrievals": 1
+		}
+	]
+}

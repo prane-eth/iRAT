@@ -1,0 +1,13 @@
+{
+	"task_id": 307,
+	"prompt": "A bakery produces 60 loaves of bread each day. Two-thirds of the loaves are sold in the morning and half of what is left is sold equally in the afternoon and evening. How many loaves of bread are sold in the afternoon?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "60 x 2/3 = <<60*2/3=40>>40 loaves of bread are sold in the morning.\n60 - 40 = <<60-40=20>>20 loaves of bread are sold in the afternoon and evening.\nTherefore, 20/2 = <<20/2=10>>10 loaves of bread are sold in the afternoon.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many loaves of bread are sold in the afternoon, we first need to calculate the total number of loaves sold in the morning. The bakery produces 60 loaves of bread each day, and two-thirds of these are sold in the morning. Two-thirds of 60 can be calculated as (2/3) * 60 = 40 loaves.\n\n \nThe remaining loaves after the morning sales would be 60 - 40 = 20 loaves. It is stated that half of what is left is sold equally in the afternoon and evening. Therefore, half of the remaining 20 loaves is (1/2) * 20 = 10 loaves. Since these 10 loaves are sold equally in the afternoon and evening, the number of loaves sold in the afternoon would be half of 10, which is 10 / 2 = 5 loaves.\n\n#### 5",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the number of loaves of bread sold in the afternoon, we need to follow a step-by-step calculation based on the information provided. \n\nFirst, we calculate the total number of loaves sold in the morning. Since the bakery produces 60 loaves of bread each day and two-thirds of these are sold in the morning, we find two-thirds of 60. This can be calculated as (2/3) * 60 = 40 loaves.\n\nNext, we find out how many loaves are left after the morning sales. This would be the total number of loaves produced minus the number sold in the morning, which is 60 - 40 = 20 loaves.\n\nIt's mentioned that half of what is left after the morning sales is sold equally in the afternoon and evening. So, we calculate half of the remaining 20 loaves, which is (1/2) * 20 = 10 loaves. Since these 10 loaves are sold equally in the afternoon and evening, we divide this number by 2 to find out how many are sold in the afternoon. Therefore, 10 / 2 = 5 loaves are sold in the afternoon.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 167,
+	"prompt": "Sandra's neighbor gives her a basket of 9 eggs every time she babysits their daughter. To make a Spanish flan, she needs 3 eggs. If Sandra has been tasked to make 15 Spanish flans for her school fundraiser, how many times does Sandra have to babysit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Sandra needs a total of 15 x 3 = <<15*3=45>>45 eggs.\nShe will have to babysit 45/9 = <<45/9=5>>5 times.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how many times Sandra has to babysit, we first need to calculate the total number of eggs required to make 15 Spanish flans. Since each flan requires 3 eggs, the total number of eggs needed is 15 * 3 = 45 eggs.\n\nGiven that Sandra's neighbor gives her a basket of 9 eggs every time she babysits, we then divide the total number of eggs needed by the number of eggs received per babysitting session to find out how many times she needs to babysit. So, 45 eggs / 9 eggs per session = 5 sessions.\n\n#### 5",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the number of eggs needed for 15 Spanish flans\nTo make a Spanish flan, Sandra needs 3 eggs. Since she has been tasked to make 15 Spanish flans, the total number of eggs required is 15 * 3 = 45 eggs.\n\n## Step 2: Calculate the number of times Sandra needs to babysit\nSandra's neighbor gives her a basket of 9 eggs every time she babysits their daughter. To find out how many times Sandra needs to babysit to get 45 eggs, we divide the total number of eggs needed by the number of eggs she gets per babysitting session: 45 / 9 = 5.\n\n## Step 3: Conclusion\nBased on the calculations, Sandra needs to babysit 5 times to get enough eggs to make 15 Spanish flans.\n\n#### 5",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 915,
+	"prompt": "Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He drives 100*30=<<100*30=3000>>3000 miles\nSo he needs 3000/1000=<<3000/1000=3>>3 tune-ups\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many tune-ups Jon needs, we first need to calculate the total distance he drives in a month. \n\nHe drives 100 miles a day for 30 days. So, the total distance driven in a month is 100 miles/day * 30 days = 3000 miles.\n\nSince his car needs a tune-up every 1000 miles, we need to divide the total distance driven by the frequency of tune-ups to find out how many tune-ups he needs.\n\nThe total distance driven is 3000 miles, and the car needs a tune-up every 1000 miles. \n\nSo, the number of tune-ups needed is 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n#### 3",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many tune-ups Jon needs, we first need to calculate the total distance he drives in a month. He drives 100 miles a day for 30 days. So, the total distance driven in a month is 100 miles/day * 30 days = 3000 miles. Since his car needs a tune-up every 1000 miles, we need to divide the total distance driven by the frequency of tune-ups to find out how many tune-ups he needs.\n\nThe total distance driven is 3000 miles, and the car needs a tune-up every 1000 miles. To calculate the number of tune-ups, we perform the division: 3000 miles / 1000 miles/tune-up. This calculation yields 3. However, considering that the result of this division indicates how many 1000-mile intervals are completed, and thus how many tune-ups are needed after those intervals, we should also account for any remainder that might necessitate an additional tune-up.\n\nGiven that 3000 miles divided by 1000 miles per tune-up equals 3, it means Jon's car will have completed 3 full cycles of 1000 miles each, requiring 3 tune-ups after each cycle. Since 3000 miles is exactly divisible by 1000 miles, with no remainder, the calculation directly gives us the number of tune-ups needed without implying the need for an additional tune-up due to a partial cycle.\n\nSo, the number of tune-ups needed is exactly 3, as calculated. #### 3",
+			"retrievals": 1
+		}
+	]
+}

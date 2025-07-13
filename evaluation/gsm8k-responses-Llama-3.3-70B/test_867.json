@@ -1,0 +1,13 @@
+{
+	"task_id": 867,
+	"prompt": "Together, Sofie, Anne, and Fawn have 85 books. If Sofie has 25 more books than Anne, and Anne has 12 fewer books than Fawn does, how many books does Fawn have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x = the number of books Anne has.\nThen x + 25 + x + 12 + x = 85\n3x + 37 = 85\n3x = 48\nx = 48 / 3 = <<48/3=16>>16 books\nAnne has 12 fewer books than Fawn, so Fawn has 16 + 12 = 28 books.\n#### 28",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of books that Sofie, Anne, and Fawn have as S, A, and F respectively. We are given the following information:\n- S + A + F = 85 (Together, Sofie, Anne, and Fawn have 85 books)\n- S = A + 25 (Sofie has 25 more books than Anne)\n- A = F - 12 (Anne has 12 fewer books than Fawn)\n\n`\nWe can use the second and third equations to express S and A in terms of F. From the third equation, we have A = F - 12. \n\n`\nUsing the second equation, we substitute A in terms of F into the equation for S: S = (F - 12) + 25, which simplifies to S = F + 13.\n\n`\nNow, we substitute the expressions for S and A into the first equation: (F + 13) + (F - 12) + F = 85. This simplifies to 3F + 1 = 85.\n\n`\nSolving for F, we get 3F = 84, which gives F = 28.\n\n#### 28",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Define the variables and given conditions\nLet's denote the number of books that Sofie, Anne, and Fawn have as S, A, and F respectively. We are given the following information:\n- S + A + F = 85 (Together, Sofie, Anne, and Fawn have 85 books)\n- S = A + 25 (Sofie has 25 more books than Anne)\n- A = F - 12 (Anne has 12 fewer books than Fawn)\n\n## Step 2: Express S and A in terms of F\nFrom the third equation, we have A = F - 12. Using the second equation, we can express S in terms of A, which is S = A + 25. Substituting A = F - 12 into this equation gives S = (F - 12) + 25 = F + 13.\n\n## Step 3: Substitute expressions for S and A into the first equation\nSubstituting S = F + 13 and A = F - 12 into the first equation S + A + F = 85 gives (F + 13) + (F - 12) + F = 85. Simplifying this equation yields 3F + 1 = 85.\n\n## Step 4: Solve for F\nSolving the equation 3F + 1 = 85 for F, we subtract 1 from both sides to get 3F = 84. Then, dividing both sides by 3 gives F = 28.\n\n## Step 5: Conclusion\nTherefore, Fawn has 28 books.\n\n#### 28",
+			"retrievals": 1
+		}
+	]
+}

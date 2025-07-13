@@ -1,0 +1,13 @@
+{
+	"task_id": 464,
+	"prompt": "Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.\nHence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.\n#### 18",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount that Ashley should give the delivery man, first, we",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the total amount Ashley should give the delivery man, we need to calculate the tip amount first. The tip is equal to 1/5 of the pizza delivery cost, which is $15. So, the tip amount is 1/5 * $15 = $3.\n\nNext, we add the tip amount to the cost of the pizza delivery to find the total amount. The total amount is $15 (cost of pizza delivery) + $3 (tip amount) = $18.\n\nTherefore, the total amount that Ashley should give the delivery man is $18.\n\n#### $18",
+			"retrievals": 1
+		}
+	]
+}

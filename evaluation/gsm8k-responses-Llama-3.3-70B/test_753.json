@@ -1,0 +1,13 @@
+{
+	"task_id": 753,
+	"prompt": "Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.\nSince there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.\n#### 240",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much each roommate will pay per year for electricity, we first need to calculate the total annual electricity bill. The monthly electricity bill is $100.\n\nThe next step is to calculate the annual electricity bill. Since there are 12 months in a year, we multiply the monthly bill by 12. Annual bill = $100 * 12 = $1200.\n\nNow, we need to divide the annual bill equally among the 5 roommates (including Jenna). Each roommate's share = $1200 / 5 = $240.\n\n#### $240",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much each roommate will pay per year for electricity, we first need to calculate the total annual electricity bill. Since the monthly electricity bill is $100, the total bill for 12 months (1 year) would be $100 * 12 = $1,200.\n\nThis total annual bill will be divided equally among Jenna and her 4 roommates, making a total of 5 people. So, to find out the share of each roommate, we divide the total annual bill by the number of people: $1,200 / 5 = $240.\n\nTherefore, each roommate, including Jenna, will pay $240 per year for electricity.\n\n#### $240",
+			"retrievals": 1
+		}
+	]
+}

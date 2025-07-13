@@ -1,0 +1,13 @@
+{
+	"task_id": 633,
+	"prompt": "Max bought stamps at the post office. Some of the stamps had a snowflake design, some had a truck design, and some had a rose design. Max bought 16 snowflake stamps. He bought 3 more truck stamps than snowflake stamps, and 9 fewer rose stamps than truck stamps. How many stamps did Max buy in all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Max bought 16 + 3 = <<16+3=19>>19 truck stamps.\nMax bought 19 \u2013 9 = <<19-9=10>>10 rose stamps.\nIn total Max bought 16 snowflake + 19 truck + 10 rose stamps = <<16+19+10=45>>45 stamps.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of stamps Max bought, we first need to determine the number of stamps for each design. Max bought 16 snowflake stamps. \n\nHe bought 3 more truck stamps than snowflake stamps. So, the number of truck stamps is 16 (snowflake stamps) + 3 = 19 truck stamps.\n\nHe also bought 9 fewer rose stamps than truck stamps. So, the number of rose stamps is 19 (truck stamps) - 9 = 10 rose stamps.\n\nNow, we add up the number of stamps for each design to find the total: 16 (snowflake) + 19 (truck) + 10 (rose) = 45 stamps in total.\n\n#### 45",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of stamps Max bought, we first need to calculate the number of truck stamps and rose stamps he bought. \n\nMax bought 16 snowflake stamps. He bought 3 more truck stamps than snowflake stamps. So, the number of truck stamps is 16 + 3 = 19.\n\nHe bought 9 fewer rose stamps than truck stamps. So, the number of rose stamps is 19 - 9 = 10.\n\nNow, to find the total number of stamps, we add the number of snowflake stamps, truck stamps, and rose stamps: 16 (snowflake) + 19 (truck) + 10 (rose) = 45.\n\n#### 45",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 733,
+	"prompt": "Dora's father's age is eight more than twice Dora's age. If Dora's mother is four years younger than Dora's father, and Dora is 15 years old, calculate the total combined age of Dora, her father, and her mother.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Dora's age is 15, her father, with eight more than twice Dora's age, is eight more than 15*2 = <<15*2=30>>30 years.\nThis means Dora's father is 30+8 = <<30+8=38>>38 years old.\nTogether, Dora and her father have a total age of 38+15 =<<38+15=53>>53.\nDora's mother is four years younger than Dora's father, meaning Dora's mother is 38-4 = 34 years old.\nAltogether, Dora's family has a total age of 53+34 = <<53+34=87>>87 years.\n#### 87",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total combined age of Dora, her father, and her mother",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total combined age of Dora, her father, and her mother, we first need to determine each of their ages based on the given information. Dora is 15 years old. Her father's age is eight more than twice Dora's age, which can be calculated as (2 * 15) + 8 = 30 + 8 = 38 years old. Since Dora's mother is four years younger than Dora's father, her age would be 38 - 4 = 34 years old. \n\nNow, to find the total combined age, we add the ages of Dora, her father, and her mother: 15 (Dora's age) + 38 (father's age) + 34 (mother's age) = 87 years.\n\n#### 87",
+			"retrievals": 1
+		}
+	]
+}

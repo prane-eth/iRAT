@@ -1,0 +1,13 @@
+{
+	"task_id": 1121,
+	"prompt": "John visits his parents twice a month.  It takes him 2 hours to drive there at a speed of 70 mph.  Considering the round trip, how many miles a month does he drive when visiting his parents?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His parents live 70*2=<<70*2=140>>140 miles away\nSo he drives 140*2=<<140*2=280>>280 miles a round trip\n280*2 = <<280*2=560>>560 miles a month\n#### 560",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total miles John drives in a month when visiting his parents, we first need to calculate the distance of a one-way trip. Since it takes him 2 hours to drive there at a speed of 70 mph, we can use the formula Distance = Speed * Time to find the distance.\n\nDistance = Speed * Time = 70 mph * 2 hours = 140 miles for a one-way trip.\n\nSince John visits his parents twice a month, and considering the round trip (to his parents and back home), we need to calculate the total distance for one round trip and then multiply it by the number of visits per month.\n\nThe distance for a round trip is 2 * 140 miles = 280 miles.\n\nJohn visits his parents twice a month, so the total distance he drives in a month is 2 * 280 miles = 560 miles.\n\n#### 560 miles",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the one-way distance John drives to visit his parents.\nTo find the distance, we use the formula Distance = Speed * Time. Given that the speed is 70 mph and the time is 2 hours, we substitute these values into the formula: Distance = 70 mph * 2 hours = 140 miles for a one-way trip.\n\n## Step 2: Determine the round trip distance.\nSince a round trip involves traveling to the destination and back, we multiply the one-way distance by 2: 140 miles * 2 = 280 miles for a round trip.\n\n## Step 3: Calculate the total distance driven in a month.\nJohn visits his parents twice a month. To find the total monthly distance, we multiply the round trip distance by the number of visits per month: 280 miles * 2 = 560 miles.\n\nThe final answer is: #### 560",
+			"retrievals": 4
+		}
+	]
+}

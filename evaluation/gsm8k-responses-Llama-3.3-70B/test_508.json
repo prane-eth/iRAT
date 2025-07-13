@@ -1,0 +1,13 @@
+{
+	"task_id": 508,
+	"prompt": "Janet takes two bus trips five days a week. If each bus trip costs her $2.20, how much would she save by buying a weekly bus pass for $20?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total number of trips Janet takes during the week: 2 trips/day * 5 days/week = <<2*5=10>>10 trips/week\nThen multiply this number by the cost per trip to find her current weekly spending: 10 trips/week * $2.20/trip = $<<10*2.20=22>>22/week\nThen subtract the cost of the weekly bus pass from this number to find her savings: $22/week - $20/week = $<<22-20=2>>2\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount Janet would save by buying a weekly bus pass, we first need to determine how much she spends on bus trips in a week. Janet takes two bus trips five days a week, which means she takes a total of 2 * 5 = 10 bus trips per week.\n\nEach bus trip costs her $2.20. Therefore, the total cost of her bus trips per week is 10 * $2.20 = $22.\n\nThe cost of a weekly bus pass is $20. To find out how much Janet would save by buying a weekly bus pass instead of paying for each trip individually, we subtract the cost of the pass from the total weekly cost of individual trips: $22 - $20 = $2.\n\n#### $2",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how much Janet would save by buying a weekly bus pass, we need to calculate her current weekly expenditure on bus trips and compare it to the cost of the pass. Janet takes two bus trips five days a week, which translates to 2 * 5 = 10 bus trips per week. Given that each bus trip costs $2.20, her total weekly expenditure on bus trips is 10 * $2.20 = $22.\n\nThe weekly bus pass costs $20. To find out how much Janet saves by buying the pass, we subtract the cost of the pass from her total weekly expenditure on individual bus trips: $22 - $20 = $2.\n\nTherefore, Janet would save $2 per week by buying a weekly bus pass instead of paying for each trip individually.\n\n#### $2",
+			"retrievals": 2
+		}
+	]
+}

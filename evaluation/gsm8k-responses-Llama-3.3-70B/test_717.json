@@ -1,0 +1,13 @@
+{
+	"task_id": 717,
+	"prompt": "John makes himself a 6 egg omelet with 2 oz of cheese and an equal amount of ham.  Eggs are 75 calories each.  Cheese is 120 calories per ounce.  Ham is 40 calories per ounce.  How many calories is the omelet?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The eggs contributed 6*75=<<6*75=450>>450 calories\nHe eats 2*120=<<2*120=240>>240 calories of cheese\nHe eats 2*40=<<2*40=80>>80 calories of ham\nSo in total he eats 450+240+80=<<450+240+80=770>>770 calories\n#### 770",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total calories in the omelet, we first need to calculate the calories from each ingredient separately. \nThe omelet contains 6 eggs, and each egg is 75 calories. \nSo, the total calories from eggs can be calculated as 6 eggs * 75 calories/egg = 450 calories.\n\n`\nNext, we calculate the calories from the cheese. The omelet contains 2 oz of cheese, and each ounce of cheese is 120 calories. \nSo, the total calories from cheese can be calculated as 2 oz * 120 calories/oz = 240 calories.\n\n`\nThen, we calculate the calories from the ham. The omelet contains an equal amount of ham as cheese, which is 2 oz, and each ounce of ham is 40 calories. \nSo, the total calories from ham can be calculated as 2 oz * 40 calories/oz = 80 calories.\n\n`\nFinally, we add up the calories from eggs, cheese, and ham to get the total calories in the omelet: 450 calories + 240 calories + 80 calories = 770 calories.\n\n#### 770",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total calories in the omelet, we first need to calculate the calories from each ingredient separately. \nThe omelet contains 6 eggs, and each egg is 75 calories. \nSo, the total calories from eggs can be calculated as 6 eggs * 75 calories/egg = 450 calories.\n\nNext, we calculate the calories from the cheese. The omelet contains 2 oz of cheese, and each ounce of cheese is 120 calories. \nSo, the total calories from cheese can be calculated as 2 oz * 120 calories/oz = 240 calories.\n\nThen, we calculate the calories from the ham. The omelet contains an equal amount of ham as cheese, which is 2 oz, and each ounce of ham is 40 calories. \nSo, the total calories from ham can be calculated as 2 oz * 40 calories/oz = 80 calories.\n\nFinally, we add up the calories from eggs, cheese, and ham to get the total calories in the omelet: 450 calories + 240 calories + 80 calories = 770 calories.\n#### 770",
+			"retrievals": 2
+		}
+	]
+}

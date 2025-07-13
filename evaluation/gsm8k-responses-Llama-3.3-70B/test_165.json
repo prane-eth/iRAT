@@ -1,0 +1,13 @@
+{
+	"task_id": 165,
+	"prompt": "Jackie is trying to decide whether to do her taxes herself or hire an accountant. If she does the taxes herself, she'll be able to do 3 fewer hours of freelance work, losing $35/hour in missed income. The accountant charges $90. How much more money will she have if she hires the accountant?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total lost revenue if Jackie does her taxes herself: $35/hour * 3 hours = $<<35*3=105>>105\nThen subtract the accountant's charge to find how much money Janet saves: $105 - $90 = $<<105-90=15>>15\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much more money Jackie will have if she hires the accountant, we first need to calculate the total cost of doing her taxes herself. This includes the lost income from not being able to do freelance work.\n\nIf Jackie does her taxes herself, she loses 3 hours of freelance work, which pays $35 per hour. So, the lost income is 3 hours * $35/hour = $105.\n\nOn the other hand, if Jackie hires an accountant, she will have to pay $90 for the service. \n\nTo find out how much more money she will have if she hires the accountant, we subtract the cost of hiring the accountant from the lost income of doing her taxes herself: $105 (lost income) - $90 (accountant's fee) = $15.\n\n#### $15",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how much more money Jackie will have if she hires the accountant, we need to calculate the difference in costs between doing her taxes herself and hiring a professional.\n\nIf Jackie does her taxes herself, she loses 3 hours of freelance work, which translates to a loss of $35/hour * 3 hours = $105 in missed income. This is the opportunity cost of her time spent on taxes rather than on freelance work.\n\nOn the other hand, hiring an accountant costs $90 directly.\n\nThe difference in cost between these two options is $105 (loss from doing taxes herself) - $90 (cost of hiring an accountant) = $15. This means that by hiring the accountant, Jackie saves $15 compared to doing her taxes herself.\n\nTherefore, Jackie will have $15 more if she hires the accountant instead of doing her taxes herself.\n\n#### $15",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 605,
+	"prompt": "Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Tuesday, he spends $8 * 2 = $<<8*2=16>>16.\nOn Wednesday, he spends $16 * 4 = $<<16*4=64>>64.\nIn total he spent $8 + $16 + $64 = $<<8+16+64=88>>88 at the arcade.\nHe has $100 - $88 = $<<100-88=12>>12 left.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Howard has left, we first need to calculate the total amount he spent at the arcade from Monday to Wednesday. \n\nOn Monday, Howard spent $8 at the arcade. \n\nOn Tuesday, he spent twice as much as he did on Monday, which is 2 * $8 = $16.\n\nOn Wednesday, he spent 4 times as much as he spent on Tuesday, which is 4 * $16 = $64.\n\nNow, we add up the amounts spent on each day to find the total amount spent: $8 (Monday) + $16 (Tuesday) + $64 (Wednesday) = $88.\n\nHoward originally had $100. \n\nTo find out how much money he has left, we subtract the total amount spent from the original amount: $100 - $88 = $12.\n\n#### $12",
+			"old_rat_retrievals": 7,
+			"final_answer": "To find out how much money Howard has left, we first need to calculate the total amount he spent at the arcade from Monday to Wednesday. On Monday, Howard spent $8 at the arcade. On Tuesday, he spent twice as much as he did on Monday, which is 2 * $8 = $16. On Wednesday, he spent 4 times as much as he spent on Tuesday, which is 4 * $16 = $64. Now, we add up the amounts spent on each day to find the total amount spent: $8 (Monday) + $16 (Tuesday) + $64 (Wednesday) = $88.\n\nHoward originally had $100. To find out how much money he has left, we subtract the total amount spent from the original amount: $100 - $88 = $12.\n\n#### $12",
+			"retrievals": 2
+		}
+	]
+}

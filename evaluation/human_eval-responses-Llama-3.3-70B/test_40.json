@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/39",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef prime_fib(n: int):\n    \"\"\"\n    prime_fib returns n-th number that is a Fibonacci number and it's also prime.\n    >>> prime_fib(1)\n    2\n    >>> prime_fib(2)\n    3\n    >>> prime_fib(3)\n    5\n    >>> prime_fib(4)\n    13\n    >>> prime_fib(5)\n    89\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "\n\ndef prime_fib(n: int):\n    \"\"\"\n    prime_fib returns n-th number that is a Fibonacci number and it's also prime.\n    >>> prime_fib(1)\n    2\n    >>> prime_fib(2)\n    3\n    >>> prime_fib(3)\n    5\n    >>> prime_fib(4)\n    13\n    >>> prime_fib(5)\n    89\n    \"\"\"\n    def is_prime(num: int) -> bool:\n        if num < 2:\n            return False\n        for i in range(2, int(num ** 0.5) + 1):\n            if num % i == 0:\n                return False\n        return True\n\n \n    a, b = 0, 1\n    count = 0\n    while True:\n        a, b = b, a + b\n        if a > 1 and is_prime(a):\n            count += 1\n            if count == n:\n                return a\n\n\n# Test cases\nprint(prime_fib(1))  # 2\nprint(prime_fib(2))  # 3\nprint(prime_fib(3))  # 5\nprint(prime_fib(4))  # 13\nprint(prime_fib(5))  # 89",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef prime_fib(n: int):\n    \"\"\"\n    prime_fib returns n-th number that is a Fibonacci number and it's also prime.\n    >>> prime_fib(1)\n    2\n    >>> prime_fib(2)\n    3\n    >>> prime_fib(3)\n    5\n    >>> prime_fib(4)\n    13\n    >>> prime_fib(5)\n    89\n    \"\"\"\n    def is_prime(num: int) -> bool:\n        \"\"\"\n        Checks if a number is prime.\n        \"\"\"\n        if num < 2:\n            return False\n        for i in range(2, int(num ** 0.5) + 1):\n            if num % i == 0:\n                return False\n        return True\n\n    def fibonacci() -> int:\n        \"\"\"\n        Generator function to generate Fibonacci numbers.\n        \"\"\"\n        a, b = 0, 1\n        while True:\n            yield a\n            a, b = b, a + b\n\n    fib_gen = fibonacci()\n    count = 0\n    while True:\n        fib_num = next(fib_gen)\n        if is_prime(fib_num):\n            count += 1\n            if count == n:\n                return fib_num\n\n# Test the function\nprint(prime_fib(1))\nprint(prime_fib(2))\nprint(prime_fib(3))\nprint(prime_fib(4))\nprint(prime_fib(5))\n```",
+			"retrievals": 2
+		}
+	]
+}

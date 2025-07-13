@@ -1,0 +1,13 @@
+{
+	"task_id": 683,
+	"prompt": "Shania is designing her own dress, and decides to make it a longer dress by extending the dress by 50% of its original length. She also adds 20cm to the bottom of the dress with a lace trim. If the final design is 140cm long then how long, in centimeters, was the dress in its original design?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Without the lace trim, the dress is 140cm full length \u2013 20cm lace trim = <<140-20=120>>120cm.\nLet's assume the dress was originally x cm in length.\nHalf the original length is x/2.\nAdding the original length and the extended length, which is x+x/2 = 120\n3/2x = 120\nThe orginal length is x= 80 cm\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the original length of the dress, we first need to remove the additional 20cm lace trim from the final length. The final length of the dress is 140cm, so subtracting the lace trim gives us 140cm - 20cm = 120cm.\n\nThis 120cm is the length after the dress has been extended by 50% of its original length. Let's denote the original length of the dress as x. When the dress is extended by 50% of its original length, the new length becomes x + 0.5x = 1.5x.\n\nWe know that this new length, 1.5x, equals 120cm. So, we can set up the equation 1.5x = 120cm to solve for the original length x.\n\nSolving the equation for x, we get x = 120cm / 1.5 = 80cm.\n\n#### 80",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the original length of the dress, we first need to remove the additional 20cm lace trim from the final length. The final length of the dress is 140cm, so subtracting the lace trim gives us 140cm - 20cm = 120cm. This 120cm is the length after the dress has been extended by 50% of its original length. Let's denote the original length of the dress as x. When the dress is extended by 50% of its original length, the new length becomes x + 0.5x = 1.5x.\n\nWe know that this new length, 1.5x, equals 120cm. So, we can set up the equation 1.5x = 120cm to solve for the original length x. Solving the equation for x, we get x = 120cm / 1.5 = 80cm. \n\n#### 80",
+			"retrievals": 2
+		}
+	]
+}

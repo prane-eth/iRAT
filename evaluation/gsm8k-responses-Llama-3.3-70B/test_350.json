@@ -1,0 +1,13 @@
+{
+	"task_id": 350,
+	"prompt": "Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Madeline spends$25*4=$<<25*4=100>>100 on food for her dog per month.\nShe spends $100+$20+$100=$<<100+20+100=220>>220 on her dog per month.\nShe will spend $220*12=$<<220*12=2640>>2640 on her dog per year\n#### 2640",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount Madeline spends on her dog per year, we first need to determine how much she spends per month. The dog food costs $25 per week. Since there are 4 weeks in a month, the monthly cost of food is $25 * 4 = $100.\n\nThe cost of treats is $20 per month, and the cost of medicine is $100 per month. To find the total monthly expenditure, we add the costs of food, treats, and medicine: $100 (food) + $20 (treats) + $100 (medicine) = $220 per month.\n\nTo calculate the yearly expenditure, we multiply the monthly expenditure by 12, since there are 12 months in a year: $220 * 12 = $2640.\n\n#### $2640",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the monthly cost of food\nThe dog food costs $25 per week. Since there are 4 weeks in a month, the monthly cost of food is $25 * 4 = $100.\n\n## Step 2: Calculate the total monthly cost\nIn addition to the food, Madeline also spends $20 per month on treats and $100 per month on medicine. So, the total monthly cost is $100 (food) + $20 (treats) + $100 (medicine) = $220.\n\n## Step 3: Calculate the yearly cost\nTo calculate the yearly expenditure, we multiply the monthly expenditure by 12, since there are 12 months in a year: $220 * 12 = $2640.\n\n#### $2640",
+			"retrievals": 2
+		}
+	]
+}

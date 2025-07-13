@@ -1,0 +1,13 @@
+{
+	"task_id": 279,
+	"prompt": "Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There will be an additional 10 (for Mico) + 10 9for Marco) = <<10+10=20>>20 to Mico and Marco's current sum of ages in 10 years.\nTherefore, the sum of their ages in 10 years is 20 + 20 = <<20+20=40>>40.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the sum of Mico and Marco's ages in 10 years, we first need to understand the current situation. The sum of their ages is given as 20. This information can be represented as: Mico's age + Marco's age = 20.\n\n \nWe are asked to find the sum of their ages in 10 years. Since both Mico and Marco will age 10 years, we need to add 10 years to each of their current ages. The increase in their total age will be 10 (for Mico) + 10 (for Marco) = 20 years.\n\n \nThe current sum of their ages is 20, and in 10 years, this sum will increase by 20. Therefore, to find the future sum of their ages, we add the increase to the current sum: 20 (current sum) + 20 (increase) = 40.\n\n#### 40",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understand the problem\nMico and Marco want to get to know each other and have realized that the sum of their ages is 20. This information provides a basis for calculating their ages at a future point.\n\n## Step 2: Determine the current age sum\nThe sum of their ages is given as 20. This means that if we were to represent their ages as x and y, we have the equation x + y = 20.\n\n## Step 3: Calculate the age sum in 10 years\nIn 10 years, both Mico and Marco will have aged by 10 years. So, their ages will be x + 10 and y + 10, respectively. The sum of their ages in 10 years will be (x + 10) + (y + 10).\n\n## Step 4: Simplify the expression for the age sum in 10 years\nThe expression (x + 10) + (y + 10) simplifies to x + y + 20. Since we know that x + y = 20 (from the current age sum), we can substitute this into our expression to get 20 + 20 = 40.\n\n## Step 5: Provide the final answer\nGiven the simplification, the sum of Mico and Marco's ages in 10 years will indeed be 40.\n\n#### 40",
+			"retrievals": 1
+		}
+	]
+}

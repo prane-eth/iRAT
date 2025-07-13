@@ -1,0 +1,13 @@
+{
+	"task_id": 1098,
+	"prompt": "Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 20 private cars * 3 people = <<20*3=60>>60 people.\nThere were 12 buses * 35 people = <<12*35=420>>420 people.\nTotal inside the church was 60 people + 420 people = <<60+420=480>>480 people.\n#### 480",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many people were inside the church, we need to calculate the total number of people that arrived at the church. This can be done by adding the number of people who came by bus to the number of people who came by car.\n\nFirst, let's calculate the number of people who came by bus. There were 12 buses, and each bus carried 35 people. So, the total number of people who came by bus is 12 * 35 = 420.\n\nNext, let's calculate the number of people who came by car. There were 20 private cars, and each car carried 3 people. So, the total number of people who came by car is 20 * 3 = 60.\n\nNow, we need to add the number of people who came by bus to the number of people who came by car to find the total number of people who were inside the church.\n\nThe total number of people is 420 (from buses) + 60 (from cars) = 480.\n\n#### 480",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many people were inside the church, we need to calculate the total number of people that arrived at the church. This can be done by adding the number of people who came by bus to the number of people who came by car. First, let's calculate the number of people who came by bus. There were 12 buses, and each bus carried 35 people. So, the total number of people who came by bus is 12 * 35 = 420.\n\nNext, let's calculate the number of people who came by car. There were 20 private cars, and each car carried 3 people. So, the total number of people who came by car is 20 * 3 = 60. Now, we need to add the number of people who came by bus to the number of people who came by car to find the total number of people who were inside the church. The total number of people is 420 (from buses) + 60 (from cars) = 480. \n#### 480",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1294,
+	"prompt": "A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.\nIf the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.\n#### 140000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money the company will receive for selling the produced chocolate bars during two weeks, we first need to determine how many days are in two weeks. Since there are 7 days in a week, two weeks would have 7 * 2 = 14 days.\n\n \nThe company can produce 5000 bars per day. So, in 14 days, the total number of bars produced would be 5000 * 14 = 70000 bars.\n\n \nEach bar is sold for $2. Therefore, to find the total amount of money the company will receive, we need to multiply the total number of bars produced by the price per bar. So, the total amount of money = 70000 * $2 = $140000.\n\n#### $140000",
+			"old_rat_retrievals": 0,
+			"final_answer": "To calculate the total amount of money the company will receive for selling the produced chocolate bars during two weeks, we first need to determine how many days are in two weeks. Since there are 7 days in a week, two weeks would have 7 * 2 = 14 days. The company can produce 5000 bars per day. So, in 14 days, the total number of bars produced would be 5000 * 14 = 70000 bars.\n\nEach bar is sold for $2. Therefore, to find the total amount of money the company will receive, we need to multiply the total number of bars produced by the price per bar. So, the total amount of money = 70000 * $2 = $140000. \n\n#### $140000",
+			"retrievals": 1
+		}
+	]
+}

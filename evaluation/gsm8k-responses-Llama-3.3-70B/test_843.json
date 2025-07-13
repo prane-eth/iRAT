@@ -1,0 +1,13 @@
+{
+	"task_id": 843,
+	"prompt": "While on vacation in Bali, Thea bought a hat from a craftsman worth $70. If she gave the craftsman four $20 bills, how much change did she get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If she gave the craftsman four $20 bills, the total amount of money she gave to the craftsman is 4*$20 = $<<4*20=80>>80.\nSince the hat was worth $70, the craftsman gave her change equal to $80-$70=$10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change Thea got, we first need to calculate the total amount of money she gave to the craftsman. She gave him four $20 bills.\n\nThe total amount given is 4 * $20 = $80.\n\n`\nNow, we subtract the cost of the hat from the total amount given to find the change. The cost of the hat was $70.\n\n`\nThe change Thea got is $80 - $70 = $10.\n\n#### $10",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much change Thea got, we need to calculate the total amount she paid and then subtract the cost of the hat from that amount.\n\nFirst, let's calculate the total amount Thea paid. She gave the craftsman four $20 bills, which equals 4 * $20 = $80.\n\nNext, we determine the change Thea should get. Since the hat is worth $70 and Thea paid $80, the change she should get is $80 - $70 = $10.\n\nTherefore, the change Thea got from the craftsman is $10.\n\n#### $10",
+			"retrievals": 1
+		}
+	]
+}

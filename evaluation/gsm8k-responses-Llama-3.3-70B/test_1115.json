@@ -1,0 +1,13 @@
+{
+	"task_id": 1115,
+	"prompt": "Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Raymond started with $21 + $11 = $<<21+11=32>>32.\nRaymond then spent $5 + $19 = $<<5+19=24>>24.\nRaymond now has $32 - $24 = $<<32-24=8>>8 left.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Raymond has left, we first need to calculate the total amount of money he had initially and after saving his allowance. Raymond started with $21 and then saved an additional $11 from his allowance.\n\nThe total amount of money Raymond had after saving his allowance is $21 (initial amount) + $11 (allowance) = $32.\n\nNext, we need to subtract the amounts he spent on a comic book and a puzzle from the total amount of money he had. He spent $5 on a comic book and $19 on a puzzle, so the total amount spent is $5 + $19 = $24.\n\nNow, we subtract the total amount spent from the total amount of money Raymond had after saving his allowance: $32 (total after saving) - $24 (total spent) = $8.\n\n#### $8",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money Raymond has left, we first need to calculate the total amount of money he had initially and after saving his allowance. Raymond started with $21 and then saved an additional $11 from his allowance. The total amount of money Raymond had after saving his allowance is $21 (initial amount) + $11 (allowance) = $32.\n\nNext, we need to subtract the amounts he spent on a comic book and a puzzle from the total amount of money he had. He spent $5 on a comic book and $19 on a puzzle, so the total amount spent is $5 + $19 = $24. Now, we subtract the total amount spent from the total amount of money Raymond had after saving his allowance: $32 (total after saving) - $24 (total spent) = $8.\n\n#### $8",
+			"retrievals": 1
+		}
+	]
+}

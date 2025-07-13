@@ -1,0 +1,13 @@
+{
+	"task_id": 1154,
+	"prompt": "Carlos, Jim and Carrey were at the beach playing and they decided to gather some seashells. Jim collected 27 seashells, which was 5 more than what Carlos collected. Carlos collected twice as many as Carrey. They gathered all their seashells and divided them equally between themselves. How many did each person get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jim collected 27 seashells, 5 more than what Carlos collected, which means Carlos collected 27-5 = <<27-5=22>>22 seashells\nCarlos collected twice as many as Carrey did, meaning Carrey collected 22/2 = <<22/2=11>>11 seashells\nIn total, they collected 27+22+11 = <<27+22+11=60>>60 seashells\nThey divided them into three equal group, getting 60/3 = <<60/3=20>>20 each\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many seashells each person got, we first need to determine how many seashells each of them collected. Jim collected 27 seashells. Since Jim collected 5 more seashells than Carlos, we can calculate Carlos' collection by subtracting 5 from Jim's total. So, Carlos collected 27 - 5 = 22 seashells.\n\n \nCarlos collected twice as many seashells as Carrey. This means Carrey's collection can be found by dividing Carlos' total by 2. Therefore, Carrey collected 22 / 2 = 11 seashells.\n\n \nNow, we add up all the seashells they collected: Jim's 27 + Carlos' 22 + Carrey's 11 = 60 seashells in total. Since they divided the seashells equally among themselves, we divide the total number of seashells by the number of people, which is 3. So, each person got 60 / 3 = 20 seashells.\n\n#### 20",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many seashells each person got, we first need to determine how many seashells each of them collected. Jim collected 27 seashells. Since Jim collected 5 more seashells than Carlos, we can calculate Carlos' collection by subtracting 5 from Jim's total. So, Carlos collected 27 - 5 = 22 seashells. \n\nCarlos collected twice as many seashells as Carrey. This means Carrey's collection can be found by dividing Carlos' total by 2. Therefore, Carrey collected 22 / 2 = 11 seashells.\n\nNow, we add up all the seashells they collected: Jim's 27 + Carlos' 22 + Carrey's 11 = 60 seashells in total. Since they divided the seashells equally among themselves, we divide the total number of seashells by the number of people, which is 3. So, each person got 60 / 3 = 20 seashells.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

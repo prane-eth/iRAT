@@ -1,0 +1,13 @@
+{
+	"task_id": 210,
+	"prompt": "Twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. Calculate the total cost of buying each cup.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since a dozen has 12 items, half a dozen plates are 12/2 = <<6=6>>6\nHalf a dozen plates sold at $6000 each cost 6*$6000 = $<<6*6000=36000>>36000\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates, meaning the twenty dozen cups cost a total of $36000-$1200 = 34800\nSince a dozen has 12 items, twenty dozen cups are 20*12 = <<20*12=240>>240 cups.\nIf the twenty dozen cups cost $34800, each cup costs $34800/240=$<<34800/240=145>>145\n#### 145",
+	"responses": [
+		{
+			"old_rat_answer": "To find the cost of each cup, let's first calculate the total cost of half a dozen plates and then find the cost of twenty dozen cups.\n\n1. Calculate the total cost of half a dozen plates:\n   - Half a dozen plates = 6 plates\n   - Cost of each plate = $6000\n   - Total cost of half a dozen plates = 6 * $6000 = $36,000\n\n2. Twenty dozen cups cost $1200 less than the total cost of half a dozen plates:\n   - Total cost of half a dozen plates = $36,000\n   - Cost of twenty dozen cups = $36,000 - $1200 = $34,800\n\n3. Calculate the cost of each cup:\n   - Twenty dozen cups = 20 * 12 = 240 cups\n   - Total cost of twenty dozen cups = $34,800\n   - Cost of each cup = $34,800 / 240 cups = $145\n\nTherefore, the cost of buying each cup is $145.\n\n#### $145",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total cost of half a dozen plates\nFirst, we need to find out the total cost of half a dozen plates. Since half a dozen equals 6, and each plate costs $6000, the total cost for the plates is 6 * $6000 = $36,000.\n\n## Step 2: Determine the cost of twenty dozen cups\nWe are told that twenty dozen cups cost $1200 less than the total cost of half a dozen plates. So, the cost of twenty dozen cups is $36,000 - $1200 = $34,800.\n\n## Step 3: Calculate the cost per cup\nTo find the cost of each cup, we need to know that twenty dozen equals 20 * 12 = 240 cups. Thus, the cost per cup is $34,800 / 240.\n\n## Step 4: Perform the division to find the cost per cup\n$34,800 / 240 = $145.\n\nThe final answer is: #### $145",
+			"retrievals": 3
+		}
+	]
+}

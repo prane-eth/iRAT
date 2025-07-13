@@ -1,0 +1,13 @@
+{
+	"task_id": 654,
+	"prompt": "Sally has realized she did not receive a full wage this week. Her bank account, which held $200 at the start of the week, now holds $420. She has received no other money into her bank account this week. If her weekly wage should be $300, how many dollars were withheld from Sally\u2019s wage?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The wage she received was $420 \u2013 $200 = $<<420-200=220>>220\nThis means her wage was $300 \u2013 $220 = $<<300-220=80>>80 short\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dollars were withheld from Sally's wage, we first need to determine how much money she should have received in total, including her wage and the initial amount in her bank account.\n\nHer bank account initially held $200, and she should have received a weekly wage of $300. So, if she had received her full wage, her bank account should now hold $200 (initial amount) + $300 (weekly wage) = $500.\n\n`\nHowever, her bank account now holds $420, which means she did not receive the full $300 wage. To find out how much of her wage was withheld, we need to calculate the difference between what she should have received ($500) and what she actually received ($420).\n\n`\nThe difference between the expected total ($500) and the actual total ($420) is $500 - $420 = $80. This $80 difference represents the amount that was withheld from her wage.\n\n#### $80",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many dollars were withheld from Sally's wage, we first need to establish how much money she received in total during the week. We know that her bank account initially held $200 and now holds $420, with no other deposits made during the week. This means the difference in her account balance is due to her wage.\n\nThe increase in her account balance is $420 - $200 = $220. Since she should have received $300 as her weekly wage, the amount withheld can be calculated by subtracting the amount she actually received ($220) from her full wage ($300).\n\nSo, the calculation to find the amount withheld is $300 - $220 = $80.\n\n#### $80",
+			"retrievals": 2
+		}
+	]
+}

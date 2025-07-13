@@ -1,0 +1,19 @@
+{
+	"task_id": 103,
+	"prompt": "Write a function to check whether the given key is present in the dictionary or not.?assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},5)==True",
+	"test_imports": [],
+	"test_list": [
+		"assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},5)==True",
+		"assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},6)==True",
+		"assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},10)==False"
+	],
+	"mbpp_code": "def is_key_present(d,x):\r\n  if x in d:\r\n    return True\r\n  else:\r\n     return False",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function with dictionary and key as parameters\nThe\n\n \nWe can test this function with the given unit test to verify its correctness. The unit test `assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},5)==True` should pass if the function is implemented correctly.",
+			"old_rat_retrievals": 5,
+			"final_answer": "To check whether a given key is present in a dictionary or not, you can use the `in` keyword in Python. Here's how you can define a function to achieve this:\n\n```python\ndef is_key_present(dictionary, key):\n    return key in dictionary\n```\n\nThis function takes two parameters: the dictionary to be searched and the key to be found. It returns `True` if the key is present in the dictionary and `False` otherwise.\n\nFor example, if you have a dictionary `{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}` and you want to check if the key `5` is present, you can use the function as follows:\n\n```python\ndictionary = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}\nkey = 5\nresult = is_key_present(dictionary, key)\nprint(result)  # Output: True\n```\n\nIn this case, the function returns `True` because the key `5` is present in the dictionary. The provided unit test `assert is_key_present({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60},5)==True` will pass with this implementation.",
+			"retrievals": 2
+		}
+	]
+}

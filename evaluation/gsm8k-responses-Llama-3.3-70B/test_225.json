@@ -1,0 +1,13 @@
+{
+	"task_id": 225,
+	"prompt": "Carlos and Benji are at the beach. Carlos rents a canoe for $30 an hour and Benji rents a banana boat raft for $18 an hour. If Carlos uses the boat for 3 hours and Benji uses the raft for 5 hours, how much will they pay for their rentals, altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Carlos would have to pay $30 x 3 = $<<30*3=90>>90\nBenji would have to pay $18 x 5 = $<<18*5=90>>90\nAll together, Carlos and Benji will have to pay $90 + $90 = $<<90+90=180>>180\n#### 180",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the rentals, we first need to calculate the cost for Carlos and Benji separately. Carlos rents a canoe for $30 an hour and uses it for 3 hours. \n\nThe cost for Carlos can be calculated as follows: $30/hour * 3 hours = $90.\n\nBenji rents a banana boat raft for $18 an hour and uses it for 5 hours. \n\nThe cost for Benji can be calculated as follows: $18/hour * 5 hours = $90.\n\nTo find the total cost, we add the cost for Carlos and the cost for Benji together: $90 (Carlos) + $90 (Benji) = $180.\n\n#### $180",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the cost of Carlos' canoe rental\nCarlos rents a canoe for $30 an hour and uses it for 3 hours. To calculate the total cost for Carlos, we multiply the hourly rate by the number of hours used: $30 * 3 = $90.\n\n## Step 2: Compute the total cost for Benji\nBenji rents a banana boat raft for $18 an hour and uses it for 5 hours. To calculate the total cost for Benji, we multiply the hourly rate by the number of hours used: $18 * 5 = $90.\n\n## Step 3: Add the costs of Carlos and Benji to find the total cost\nTo find the total cost of their rentals, we add the cost of Carlos' rental to the cost of Benji's rental: $90 + $90 = $180.\n\n#### $180",
+			"retrievals": 1
+		}
+	]
+}

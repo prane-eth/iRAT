@@ -1,5 +1,5 @@
 # Wraps OpenAI/Transformers calls for “initial draft”
-from irat.utils.common_functions import get_date, get_date_month, user_message, system_message
+from irat.utils.common_functions import get_current_month, user_message, system_message
 from irat.utils.logger import log_debug, log_error, log_info
 from irat.utils.ratelimit_counter import wait_for_rate_limit
 from irat.utils.settings import env
@@ -14,7 +14,7 @@ else:
 	client = openai.OpenAI()
 
 knowledge_cutoff = env('LLM_KNOWLEDGE_CUTOFF')
-cutoff_text = f'Your knowledge cutoff: {knowledge_cutoff}. Current date: {get_date_month()}. \n'
+cutoff_text = f'Your knowledge cutoff: {knowledge_cutoff}. Current date: {get_current_month()}. \n'
 
 
 def get_response(prompt: str, use_sys_message=False) -> str:

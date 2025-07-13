@@ -1,0 +1,13 @@
+{
+	"task_id": 1222,
+	"prompt": "Aiden is making his famous steakhouse-seasoned meatballs for a neighborhood cookout. He adds two tablespoons of his secret steakhouse seasoning for every pound of ground beef he uses. He gets sixteen meatballs from each pound of meat. If he wants to make 80 meatballs for the cookout, how much of his secret seasoning will he need?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "To make 80 meatballs, Aiden will need 80 / 16 = <<80/16=5>>5 pounds of meat.\nAiden will need 5 * 2 = <<5*2=10>>10 tablespoons of his secret steakhouse seasoning to make 80 meatballs.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much of the secret seasoning Aiden will need, first, we need to figure out how many pounds of ground beef he needs to make 80 meatballs. Since he gets 16 meatballs from each pound of meat, we divide the total number of meatballs he wants by the number of meatballs per pound.\n\nWe calculate the pounds of meat needed as follows: 80 meatballs / 16 meatballs per pound = 5 pounds of meat.\n\nSince Aiden adds 2 tablespoons of his secret steakhouse seasoning for every pound of ground beef, we then multiply the number of pounds of meat he needs by the amount of seasoning per pound to find the total amount of seasoning required.\n\nThe calculation for the total seasoning needed is: 5 pounds * 2 tablespoons/pound = 10 tablespoons.\n\n#### 10 tablespoons",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine the amount of secret seasoning Aiden will need, we first need to figure out how many pounds of ground beef he will use to make 80 meatballs. Since he gets 16 meatballs from each pound of meat, we divide the total number of meatballs he wants to make by the number of meatballs per pound. \n\nSo, we calculate the pounds of meat needed as follows: 80 meatballs / 16 meatballs per pound = 5 pounds.\n\nGiven that Aiden uses 2 tablespoons of his secret steakhouse seasoning for every pound of ground beef, we then multiply the number of pounds of meat by the amount of seasoning per pound to find the total amount of seasoning needed. \n\nTherefore, the total amount of seasoning needed is: 5 pounds * 2 tablespoons/pound = 10 tablespoons.\n\n#### 10 tablespoons",
+			"retrievals": 2
+		}
+	]
+}

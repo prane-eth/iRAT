@@ -1,0 +1,13 @@
+{
+	"task_id": 609,
+	"prompt": "Joe has $50 to buy an outfit for his new field trip. There is a 30% off sale at the clothing store. The shirt he picks out has a price of $25. He also picks out a pair of shorts for $35. Assuming that sales tax is included, how much money will Joe have left after the purchase?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The price of the two clothing items totals 35 + 25 = <<35+25=60>>60 dollars before discount.\nThe total sale discount comes to 60 * 0.3 = <<60*0.3=18>>18 dollars.\nThe final sale price comes to 60 - 18 = <<60-18=42>>42 dollars.\nJoe ends up with 50 - 42 = <<50-42=8>>8 dollars change.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Joe will have left after the purchase, we first need to calculate the total cost of the outfit before the discount. The shirt costs $25 and the shorts cost $35. \n\nThe total cost before the discount is $25 + $35 = $60.\n\nNext, we need to calculate the discount amount. There is a 30% off sale, so we calculate 30% of $60 to find the discount amount. \n\n30% of $60 is 0.30 * $60 = $18.\n\nNow, we subtract the discount from the total cost to find the final cost of the outfit. \n\n$60 - $18 = $42.\n\nSince Joe has $50 to buy the outfit, we subtract the final cost from the amount Joe has to find out how much money he will have left. \n\n$50 - $42 = $8.\n\n#### $8",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total cost of the outfit before the discount\nThe shirt costs $25 and the shorts cost $35. So, the total cost before the discount is $25 + $35 = $60.\n\n## Step 2: Apply the 30% discount to the total cost\nTo find the discount amount, we need to calculate 30% of the total cost. The discount amount is 30% of $60, which is 0.3 * $60 = $18. So, the total cost after the discount is $60 - $18 = $42.\n\n## Step 3: Determine how much money Joe will have left after the purchase\nJoe has $50 to spend. After buying the outfit for $42, he will have $50 - $42 = $8 left.\n\nThe final answer is: #### $8",
+			"retrievals": 2
+		}
+	]
+}

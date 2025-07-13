@@ -1,0 +1,13 @@
+{
+	"task_id": 968,
+	"prompt": "Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Nani's brother is 8 * 2 = <<8*2=16>>16 years old.\nNani's sister is 25/100 * 8 = <<25/100*8=2>>2 years younger than he is.\nThat means she is 8 - 2 = <<8-2=6>>6 years old.\nIn total all mentioned family members, are 16 + 6 + 8 = <<16+6+8=30>>30 years old.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total age of all three family members, we first need to calculate the age of each member. Nani is 8 years old. His brother is twice his age, which means his brother's age is 8 * 2 = 16 years.\n\nNani's sister is 25% younger than him. To find her age, we calculate 25% of Nani's age and subtract it from his age. 25% of 8 is 0.25 * 8 = 2. So, Nani's sister is 8 - 2 = 6 years old.\n\nNow, we add up the ages of all three family members to find the total age. Nani's age is 8, his brother's age is 16, and his sister's age is 6. The total age is 8 + 16 + 6 = 30.\n\n#### 30",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total age of all three family members, we need to calculate the age of each member and then add them together.\n\nNani is 8 years old. His brother is twice his age, so his brother's age is 8 * 2 = 16 years.\n\nNani's sister is 25% younger than him. To calculate her age, we first find 25% of Nani's age, which is 0.25 * 8 = 2 years. Then, we subtract this from Nani's age to get his sister's age: 8 - 2 = 6 years.\n\nNow, we add the ages of all three family members together: Nani's age (8 years) + his brother's age (16 years) + his sister's age (6 years) = 8 + 16 + 6 = 30 years.\n\n#### 30",
+			"retrievals": 1
+		}
+	]
+}

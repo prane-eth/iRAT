@@ -1,0 +1,13 @@
+{
+	"task_id": 805,
+	"prompt": "Two cars are driving on a highway.  The first car is traveling at an average speed of 60 miles per hour when the second car passes it at an average speed of 70 miles per hour.  If both cars continue on the highway at the same speed, how many miles will separate them after 2 hours?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In two hours, the first car will have traveled 60*2 = <<60*2=120>>120 miles.\nSimilarly, the second car will have traveled 70*2 = <<70*2=140>>140 miles.\nThus, the cars are separated by 140 - 120 = <<140-120=20>>20 miles after two hours.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many miles will separate the two cars after 2 hours, we first need to determine the distance each car travels in that time frame. The distance traveled by an object can be calculated using the formula: distance = speed * time.\n\nThe first car is traveling at an average speed of 60 miles per hour. After 2 hours, the distance it will have traveled is 60 miles/hour * 2 hours = 120 miles.\n\nThe second car is traveling at an average speed of 70 miles per hour. After 2 hours, the distance it will have traveled is 70 miles/hour * 2 hours = 140 miles.\n\nSince the second car passes the first car, we are interested in the difference in distance they travel, which gives us the separation between them.\n\nThe difference in distance traveled is 140 miles - 120 miles = 20 miles.\n\n#### 20 miles",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the distance traveled by the first car in 2 hours\nThe first car is traveling at an average speed of 60 miles per hour. To find the distance it travels in 2 hours, we multiply its speed by the time: 60 miles/hour * 2 hours = 120 miles.\n\n## Step 2: Calculate the distance traveled by the second car in 2 hours\nThe second car is traveling at an average speed of 70 miles per hour. To find the distance it travels in 2 hours, we multiply its speed by the time: 70 miles/hour * 2 hours = 140 miles.\n\n## Step 3: Determine the distance between the two cars after 2 hours\nSince the second car passes the first car and they continue at the same speeds, the distance between them after 2 hours is the difference in the distances they traveled. So, we subtract the distance traveled by the first car from the distance traveled by the second car: 140 miles - 120 miles = 20 miles.\n\nThe final answer is: #### 20",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 97,
+	"prompt": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "James slept 9 hours * 2/3 = <<9*2/3=6>>6 hours.\nSo, Harry slept 9 - 6 = <<9-6=3>>3 hours more than James.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many more hours Harry slept than James, we first need to calculate how many hours James slept. Since James slept 2/3 of what Harry slept, and Harry slept 9 hours, we can calculate James' sleep as follows:\n\nJames' sleep = 2/3 * Harry's sleep\nJames' sleep = 2/3 * 9\nJames' sleep = 6\n\nNow, to find the difference in the hours slept by Harry and James, we subtract James' sleep from Harry's sleep:\n\nDifference = Harry's sleep - James' sleep\nDifference = 9 - 6\nDifference = 3\n\nSo, Harry slept 3 more hours than James.\n\n#### 3",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate James' sleep hours\nTo find out how many hours James slept, we need to calculate 2/3 of Harry's sleep hours. Harry slept for 9 hours.\n\n## Step 2: Perform the calculation for James' sleep hours\nThe calculation for James' sleep hours is: 9 * (2/3) = 6 hours. Therefore, James slept for 6 hours.\n\n## Step 3: Find the difference in sleep hours between Harry and James\nTo determine how many more hours Harry slept than James, we subtract James' sleep hours from Harry's sleep hours: 9 - 6 = 3 hours.\n\nThe final answer is: #### 3",
+			"retrievals": 1
+		}
+	]
+}

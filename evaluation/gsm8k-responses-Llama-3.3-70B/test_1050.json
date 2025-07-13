@@ -1,0 +1,13 @@
+{
+	"task_id": 1050,
+	"prompt": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up to 10%, which means there are 10/100 * 50 = <<10/100*50=5>>5 of them.\nSo as a result there are 50 - 25 - 5 = <<50-25-5=20>>20 Spanish books in the library.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of Spanish books, we first need to calculate the number of books written in English and German. \nThe total number of books is 50. Half of them are written in English, so the number of English books is 50 * 0.5 = 25.\n\n`\nNext, we calculate the number of books written in German. 10% of the books are in German, so the number of German books is 50 * 0.1 = 5.\n\n`\nNow, we can find the number of Spanish books by subtracting the number of English and German books from the total number of books. The number of Spanish books is 50 - 25 - 5 = 20.\n\n#### 20",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the number of Spanish books, we first need to calculate the number of books written in English and German. \n\nThe total number of books is 50. Half of them are written in English, so the number of English books is 50 * 0.5 = 25.\n\nNext, we calculate the number of books written in German. 10% of the books are in German, so the number of German books is 50 * 0.1 = 5.\n\nNow, we can find the number of Spanish books by subtracting the number of English and German books from the total number of books. The number of Spanish books is 50 - 25 - 5 = 20.\n\n#### 20",
+			"retrievals": 2
+		}
+	]
+}

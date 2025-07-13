@@ -1,0 +1,13 @@
+{
+	"task_id": 1286,
+	"prompt": "The recent floods in Mamou\u2019s country have left many families without food or shelter. To help, Mamou has volunteered to distribute 1,360 meals to the affected families. She gave out 64 meals on Friday, 30 meals on Saturday, and 48 meals on Sunday. How many meals does she have left to distribute?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Friday, Saturday and Sunday, Mamou distributed a total of 64 meals + 30 meals + 48 meals = <<64+30+48=142>>142 meals\nThe remaining meals are 1,360 meals - 142 meals = <<1360-142=1218>>1,218 meals\n#### 1218",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many meals Mamou has left to distribute, we first need to determine the total number of meals she has given out so far. This involves adding up the meals she distributed on Friday, Saturday, and Sunday.\n\nThe total meals given out can be calculated as follows: 64 meals (Friday) + 30 meals (Saturday) + 48 meals (Sunday) = 142 meals.\n\nNow that we know Mamou gave out 142 meals in total, we need to subtract this number from the initial number of meals she had, which was 1,360, to find out how many meals she has left.\n\nThe calculation for the remaining meals is: 1,360 (initial meals) - 142 (meals given out) = 1,218 meals.\n\n#### 1218",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many meals Mamou has left to distribute, we first need to calculate the total number of meals she gave out. She distributed 64 meals on Friday, 30 meals on Saturday, and 48 meals on Sunday. \n\nThe total number of meals distributed is the sum of the meals given out on each day: 64 + 30 + 48 = 142 meals.\n\nTo determine how many meals Mamou has left, we subtract the total meals distributed from the initial total of meals she had, which is 1,360. So, we calculate 1,360 - 142.\n\n1,360 - 142 = 1,218. This result indicates the number of meals Mamou has left to distribute among the affected families.\n\n#### 1218",
+			"retrievals": 1
+		}
+	]
+}

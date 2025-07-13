@@ -1,0 +1,13 @@
+{
+	"task_id": 1028,
+	"prompt": "A store offers sandwiches in 3 different package sizes: the first package with 2 sandwiches for $3, the second with 4 sandwiches for $6, and a third with 8 sandwiches, but the price is not indicated. Knowing that the prices are proportional, how much will the package with 8 sandwiches cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "So the price for 1 sandwich is $3 / 2 sandwiches = $<<3/2=1.5>>1.5/sandwich\nNow the price for the package with 8 sandwiches would be $1.5/sandwich * 8 sandwiches = $<<1.5*8=12>>12\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "To find the price of the package with 8 sandwiches, we first need to\n\nThe first package contains 2 sandwiches for $3. To find the price per sandwich, we divide the total cost by the number of sandwiches: $3 / 2 sandwiches = $1.5 per sandwich. \n\nThe second package contains 4 sandwiches for $6. Similarly, to find the price per sandwich, we divide the total cost by the number of sandwiches: $6 / 4 sandwiches = $1.5 per sandwich.\n\nSince the price per sandwich is the same for both packages ($1.5), we can conclude that the prices are indeed proportional to the number of sandwiches.\n\nNow, to find the cost of the package with 8 sandwiches, we multiply the number of sandwiches by the price per sandwich: 8 sandwiches * $1.5 per sandwich = $12.\n\n#### $12",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Understand the problem and identify the key information\nThe problem states that a store offers sandwiches in 3 different package sizes, with the first package containing 2 sandwiches for $3 and the second package containing 4 sandwiches for $6. We are asked to find the cost of the third package, which contains 8 sandwiches.\n\n## Step 2: Recognize the proportionality of prices\nSince the prices are proportional, we can set up a proportion to relate the number of sandwiches to their cost. The ratio of the number of sandwiches to the cost is constant across all packages.\n\n## Step 3: Determine the price per sandwich for the first and second packages\nFor the first package, the price per sandwich is $3 / 2 sandwiches = $1.5 per sandwich. For the second package, the price per sandwich is $6 / 4 sandwiches = $1.5 per sandwich. This confirms that the prices are proportional to the number of sandwiches.\n\n## Step 4: Calculate the cost of the third package\nNow that we know the price per sandwich is $1.5, we can find the cost of the package with 8 sandwiches by multiplying the number of sandwiches by the price per sandwich: 8 sandwiches * $1.5 per sandwich = $12.\n\nThe final answer is: #### $12",
+			"retrievals": 3
+		}
+	]
+}

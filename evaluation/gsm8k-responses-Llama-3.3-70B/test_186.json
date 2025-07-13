@@ -1,0 +1,13 @@
+{
+	"task_id": 186,
+	"prompt": "Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Jenna got half as many apples as her mom, then she got 1/2 * 20 apples = <<20*1/2=10>>10 apples\nTogether, they had 10 apples + 20 apples = <<10+20=30>>30 apples\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many apples Jenna and her mother picked in total, we first need to determine how many apples Jenna picked, given that she picked half as many as her mom. Since her mom picked 20 apples, Jenna picked half of that amount, which is 20 / 2 = 10 apples. To find the total number of apples they both picked, we add Jenna's apples to her mom's apples: 10 (Jenna's apples) + 20 (her mom's apples) = 30 apples.\n\n#### 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem states that Jenna picked half as many apples as her mom. If her mom got 20 apples, we need to find out how many apples Jenna picked and then calculate the total number of apples they both picked.\n\n## Step 2: Calculating Jenna's Apples\nSince Jenna picked half as many apples as her mom, and her mom picked 20 apples, Jenna picked 20 / 2 = 10 apples.\n\n## Step 3: Calculating Total Apples\nTo find the total number of apples they both picked, we add the number of apples Jenna picked to the number of apples her mom picked. Total apples = Jenna's apples + Mom's apples = 10 + 20 = 30.\n\nThe final answer is: #### 30",
+			"retrievals": 1
+		}
+	]
+}

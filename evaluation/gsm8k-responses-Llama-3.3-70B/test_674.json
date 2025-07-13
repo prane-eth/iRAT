@@ -1,0 +1,13 @@
+{
+	"task_id": 674,
+	"prompt": "Janey has 3 more than twice the number of books that Sally has. If Janey has 21 books, how many does Sally have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x be the number of books that Sally has\nJaney has 3+2x books\n3+2x=21\n2x=18\nx=<<9=9>>9\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of books Sally has as \"x\". According to the problem, Janey has 3 more than twice the number of books Sally has. This can be represented as 2x + 3.\n\nWe are given that Janey has 21 books. So, we can set up the equation 2x + 3 = 21 to find the value of x.\n\nTo solve for x, we need to isolate x on one side of the equation. First, subtract 3 from both sides of the equation: 2x + 3 - 3 = 21 - 3. This simplifies to 2x = 18.\n\nNext, divide both sides of the equation by 2 to solve for x: 2x / 2 = 18 / 2. This simplifies to x = 9.\n\nTherefore, Sally has 9 books.\n\n#### 9",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many books Sally has, let's denote the number of books Sally has as \"x\". According to the problem, Janey has 3 more than twice the number of books Sally has. This can be represented as 2x + 3. We are given that Janey has 21 books. So, we can set up the equation 2x + 3 = 21 to find the value of x. To solve for x, we need to isolate x on one side of the equation. First, subtract 3 from both sides of the equation: 2x + 3 - 3 = 21 - 3. This simplifies to 2x = 18.\n\nNext, divide both sides of the equation by 2 to solve for x: 2x / 2 = 18 / 2. This simplifies to x = 9. Therefore, Sally has 9 books. #### 9",
+			"retrievals": 1
+		}
+	]
+}

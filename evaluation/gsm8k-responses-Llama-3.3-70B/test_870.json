@@ -1,0 +1,13 @@
+{
+	"task_id": 870,
+	"prompt": "An electronics seller bought 5 phones for $700 each and gives the seller $4000 in dollar bills. How much will the seller give back in change?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The seller bought the 5 phones for $700 * 5 = $<<700*5=3500>>3500.\nSo the seller gives back $4000-$3500 = $<<4000-3500=500>>500.\n#### 500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change the seller will give back, we first need to calculate the total cost of the phones. The seller bought 5 phones for $700 each. \n\nThe total cost of the phones can be calculated by multiplying the number of phones by the price of each phone: 5 * $700 = $3500.\n\nThe seller gives the electronics seller $4000 in dollar bills. \n\nTo find out how much change the seller will get back, we subtract the total cost of the phones from the amount given: $4000 - $3500 = $500.\n\n#### $500",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much change the seller will give back, we first need to calculate the total cost of the phones. The seller bought 5 phones for $700 each. The total cost of the phones can be calculated by multiplying the number of phones by the price of each phone: 5 * $700 = $3500. The seller gives the electronics seller $4000 in dollar bills. To find out how much change the seller will get back, we subtract the total cost of the phones from the amount given: $4000 - $3500 = $500. #### $500",
+			"retrievals": 0
+		}
+	]
+}

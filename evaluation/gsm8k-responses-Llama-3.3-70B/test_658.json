@@ -1,0 +1,13 @@
+{
+	"task_id": 658,
+	"prompt": "James buys a plane.  The plane cost $150,000.  He pays $5000 a month to rent a hanger to keep it in.  He also spends twice as much as that on fuel per month.  How much did it cost him to get and maintain the plane for the first year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The fuel cost 5000*2=$<<5000*2=10000>>10000 per month\nWith the hanger that means he pays 10000+5000=$<<10000+5000=15000>>15,000 per month\nSo he spends 12*15000=$<<12*15000=180000>>180,000 a year\nThat means the total cost was 150,000+180,000=$<<150000+180000=330000>>330,000\n#### 330000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of getting and maintaining the plane for the first year, we first need to determine the initial cost of the plane and the monthly costs associated with its maintenance.\n\nThe initial cost of the plane is $150,000. In addition to this, James incurs monthly costs for renting a hanger and buying fuel. The monthly cost for renting a hanger is $5,000. He also spends twice as much as the hanger rental on fuel per month, which means he spends $5,000 * 2 = $10,000 on fuel each month.\n\nThe total monthly cost for maintaining the plane is the sum of the hanger rental and fuel costs, which is $5,000 + $10,000 = $15,000 per month. Since we are calculating the costs for the first year, we need to multiply this monthly cost by 12 to get the annual maintenance cost: $15,000 * 12 = $180,000.\n\nTo find the total cost of getting and maintaining the plane for the first year, we add the initial cost of the plane to the annual maintenance cost: $150,000 + $180,000 = $330,000.\n\n#### $330,000",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total cost for James to get and maintain the plane for the first year, we need to consider the initial cost of the plane, the monthly cost of renting a hanger, and the monthly cost of fuel.\n\n1. The initial cost of the plane is $150,000.\n2. The monthly cost of renting a hanger is $5,000.\n3. The monthly cost of fuel is twice the cost of renting the hanger, which is $5,000 * 2 = $10,000 per month.\n\nThe total monthly cost for maintaining the plane (hanger rental and fuel) is $5,000 (hanger) + $10,000 (fuel) = $15,000 per month.\n\nSince there are 12 months in a year, the total cost for maintaining the plane for the first year is $15,000 * 12 = $180,000.\n\nAdding the initial cost of the plane to the maintenance cost for the first year gives us the total cost: $150,000 (initial cost) + $180,000 (maintenance for the first year) = $330,000.\n\n#### $330,000",
+			"retrievals": 2
+		}
+	]
+}

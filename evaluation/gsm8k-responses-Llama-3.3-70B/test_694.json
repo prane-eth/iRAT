@@ -1,0 +1,13 @@
+{
+	"task_id": 694,
+	"prompt": "Brittany's quilted comforter has many 1-foot by 1-foot colored squares. The comforter had 14 red squares, 4 more blue squares than red squares, 6 more green squares than blue squares, and 12 fewer white squares than green squares.  How many square feet is Brittany's comforter?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "With 4 more blue than red squares, the comforter has 14+4=<<14+4=18>>18 blue squares.\nWith 6 more green than blue squares, the comforter has 24 green squares.\nWith 12 fewer white squares than green squares, the comforter has 12 white squares.\nIn total, the comforter has 14+18+24+12 = <<14+18+24+12=68>>68 squares that are 1-foot by 1-foot in size.\nSince each square is 1-foot by 1-foot, then each square equals one square foot.\nThus, the comforter is 68 square feet.\n#### 68",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total area of Brittany's comforter, we first need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total area of Brittany's comforter, we first need to determine the number of squares of each color. The comforter has 14 red squares. It has 4 more blue squares than red squares, so it has 14 + 4 = 18 blue squares. Since it has 6 more green squares than blue squares, it has 18 + 6 = 24 green squares. Lastly, it has 12 fewer white squares than green squares, meaning it has 24 - 12 = 12 white squares.\n\nNow, we add up all the squares to find the total area: 14 (red) + 18 (blue) + 24 (green) + 12 (white) = 68 squares. Since each square is 1 foot by 1 foot, each square represents 1 square foot. Therefore, the total area of Brittany's comforter is 68 square feet.\n\n#### 68",
+			"retrievals": 0
+		}
+	]
+}

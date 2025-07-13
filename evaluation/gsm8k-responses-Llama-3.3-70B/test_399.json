@@ -1,0 +1,13 @@
+{
+	"task_id": 399,
+	"prompt": "Nancy is cleaning out her old woodshed. She saw 90 spiders, 1/3rd as many millipedes as spiders, and a number of stink bugs equal to twice the number of millipedes minus 12. How many bugs did she count total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of millipedes: 90 spiders / 3 spiders/millipede = <<90/3=30>>30 millipedes\nThen multiply the number of millipedes by 2: 30 bugs * 2 = <<30*2=60>>60 bugs\nThen subtract 12 to find the number of stink bugs: 60 bugs - 12 bugs = <<60-12=48>>48 bugs\nThen add the number of each kind of bug to find the total: 48 bugs + 30 bugs + 90 bugs = <<48+30+90=168>>168 bugs\n#### 168",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of bugs Nancy counted, we first need to calculate the number of millipedes and stink bugs. We know she saw 90 spiders.\n\nThe number of millipedes is 1/3rd the number of spiders. So, the number of millipedes = 90 * (1/3) = 30.\n\n``\n\nNow, we calculate the number of stink bugs, which is twice the number of millipedes minus 12. So, the number of stink bugs = (2 * 30) - 12 = 60 - 12 = 48.\n\n``\n\nTo find the total number of bugs, we add the number of spiders, millipedes, and stink bugs together. Total = 90 (spiders) + 30 (millipedes) + 48 (stink bugs) = 168.\n\n#### 168",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the number of millipedes\nThe number of millipedes is 1/3rd the number of spiders. Since there are 90 spiders, the number of millipedes can be calculated as 90 * (1/3) = 30.\n\n## Step 2: Calculate the number of stink bugs\nThe number of stink bugs is equal to twice the number of millipedes minus 12. So, the number of stink bugs can be calculated as (2 * 30) - 12 = 60 - 12 = 48.\n\n## Step 3: Calculate the total number of bugs\nThe total number of bugs is the sum of spiders, millipedes, and stink bugs. Total bugs = 90 (spiders) + 30 (millipedes) + 48 (stink bugs) = 168.\n\n#### 168",
+			"retrievals": 2
+		}
+	]
+}

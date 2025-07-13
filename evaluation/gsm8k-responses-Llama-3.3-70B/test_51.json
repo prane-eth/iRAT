@@ -1,0 +1,13 @@
+{
+	"task_id": 51,
+	"prompt": "Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How much does Lloyd make on eggs per week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In a week, Lloyd's egg farm produces 252 x 7 = <<252*7=1764>>1764 eggs.\nThere are 1764/12 = <<1764/12=147>>147 dozens of eggs produced in a week.\nSo, Lloyd makes 147 x $2 = $<<147*2=294>>294 on eggs.\n#### 294",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Lloyd makes on eggs per week, we first need to calculate how much he makes per day and then multiply that by 7.\n\n1. Calculate daily revenue:\n   - Eggs produced per day: 252 eggs\n   - Since eggs are sold by the dozen, we divide the total number of eggs by 12 to find out how many dozens are sold per day: 252 / 12 = 21 dozen eggs per day\n   - Price per dozen eggs: $2\n   - Daily revenue: 21 dozen eggs * $2/dozen = $42 per day\n\n2. Calculate weekly revenue:\n   - Daily revenue: $42\n   - Weekly revenue: $42 * 7 = $294\n\n#### $294",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the total number of eggs produced per week\nLloyd's chickens produce 252 eggs per day. To find out the total number of eggs produced per week, we multiply the daily production by 7, since there are 7 days in a week. So, the total number of eggs per week is 252 eggs/day * 7 days/week = 1764 eggs/week.\n\n## Step 2: Convert the total number of eggs into dozens\nSince the selling price is given per dozen, we need to convert the total number of eggs into dozens. We know that 1 dozen equals 12 eggs. Therefore, the number of dozens per week is 1764 eggs / 12 eggs/dozen = 147 dozen.\n\n## Step 3: Calculate the total weekly revenue from egg sales\nNow that we know Lloyd sells 147 dozen eggs per week and he sells them for $2 per dozen, we can calculate the total weekly revenue from egg sales by multiplying the number of dozens by the price per dozen. The total weekly revenue is 147 dozen * $2/dozen = $294.\n\nThe final answer is: #### $294",
+			"retrievals": 3
+		}
+	]
+}

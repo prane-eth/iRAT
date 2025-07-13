@@ -1,0 +1,13 @@
+{
+	"task_id": 1145,
+	"prompt": "The ratio of men to women on a bus is 5:9. If the total number of passengers on the bus is 84, and 20 women alight from the bus at the next stop, how many women have remained on the bus?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total ratio representing the number of women on the bus is 5+9=<<5+9=14>>14\nThe fraction from the ratio representing the number of women is 9/14, and since the total number of passengers representing the full ratio is 84, there are 9/14*84=<<9/14*84=54>>54 women on the bus.\nIf 20 women alight from the bus at the next stop, the number of women remaining on the bus becomes 54-20=<<54-20=34>>34\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of women who have remained on the bus, we first need to determine the total number of women on the bus initially. Given that the ratio of men to women is 5:9, we can represent the number of men as 5x and the number of women as 9x, where x is a common multiplier.\n\nThe total number of passengers on the bus is 84, which means that 5x (men) + 9x (women) = 84. Combining like terms, we get 14x = 84. Solving for x, we find x = 84 / 14 = 6.\n\nNow that we know x = 6, we can find the initial number of women on the bus by substituting x back into the expression for women: 9x = 9 * 6 = 54 women.\n\nIf 20 women alight from the bus at the next stop, the number of women remaining on the bus would be the initial number of women minus the number who got off: 54 - 20 = 34.\n\n#### 34",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of women who have remained on the bus, we first need to determine the total number of women on the bus initially. Given that the ratio of men to women is 5:9, we can represent the number of men as 5x and the number of women as 9x, where x is a common multiplier. The total number of passengers on the bus is 84, which means that 5x (men) + 9x (women) = 84. Combining like terms, we get 14x = 84. Solving for x, we find x = 84 / 14 = 6.\n\nNow that we know x = 6, we can find the initial number of women on the bus by substituting x back into the expression for women: 9x = 9 * 6 = 54 women. If 20 women alight from the bus at the next stop, the number of women remaining on the bus would be the initial number of women minus the number who got off: 54 - 20 = 34.\n\n#### 34",
+			"retrievals": 2
+		}
+	]
+}

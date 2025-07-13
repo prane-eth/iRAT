@@ -1,0 +1,13 @@
+{
+	"task_id": 557,
+	"prompt": "How much does it cost you for lunch today at Subway if you pay $40 for a foot-long fish sub and thrice as much for a six-inch cold-cut combo sub?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If you pay $40 for a foot-long fish sub, thrice as much for a six-inch cold-cut combo sub will be 3*$40= $120\nThe cost of lunch will be $120+$40 = $<<120+40=160>>160\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of lunch at Subway, we first need to calculate the cost of each item. The foot-long fish sub costs $40.\n\nThe six-inch cold-cut combo sub costs thrice as much as the foot-long fish sub. So, we need to multiply the cost of the foot-long fish sub by 3 to find the cost of the six-inch cold-cut combo sub. \nCost of six-inch cold-cut combo sub = 3 * $40 = $120.\n\nNow, we add the cost of the foot-long fish sub and the six-inch cold-cut combo sub to find the total cost.\nTotal cost = $40 + $120 = $160.\n\n#### $160",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the cost of the foot-long fish sub\nThe cost of the foot-long fish sub is given as $40.\n\n## Step 2: Calculate the cost of the six-inch cold-cut combo sub\nIt is mentioned that the cost of the six-inch cold-cut combo sub is thrice as much as the foot-long fish sub. So, the cost of the six-inch cold-cut combo sub is 3 * $40 = $120.\n\n## Step 3: Calculate the total cost for lunch today at Subway\nTo find the total cost, we need to add the cost of the foot-long fish sub and the cost of the six-inch cold-cut combo sub. Total cost = $40 + $120 = $160.\n\n#### $160",
+			"retrievals": 2
+		}
+	]
+}

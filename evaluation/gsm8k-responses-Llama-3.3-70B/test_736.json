@@ -1,0 +1,13 @@
+{
+	"task_id": 736,
+	"prompt": "In a student council election, candidate A got 20% of the votes while candidate B got 50% more than candidate A's votes. The rest of the votes was given to candidate C. If there were 100 voters, how many votes did candidate C get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Candidate A got 100 x 20/100 = <<100*20/100=20>>20 votes.\nCandidate B got 20 x 50/100 = <<20*50/100=10>>10 more votes than candidate A.\nThus, candidate B got 20 + 10 = <<20+10=30>>30 votes.\nCandidate A and B have 20 + 30 = <<20+30=50>>50 votes together.\nTherefore, candidate C got 100 - 50 = <<100-50=50>>50 votes.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many votes candidate C got, we first need to calculate the number of votes candidate A and candidate B received. \nCandidate A got 20% of the votes. Since there were 100 voters, we calculate candidate A's votes as 20% of 100, which is 0.20 * 100 = 20 votes.\n\nCandidate B got 50% more votes than candidate A. \n50% of candidate A's votes is 0.50 * 20 = 10 votes. \nSo, candidate B got 20 + 10 = 30 votes.\n\nNow, we know candidate A got 20 votes and candidate B got 30 votes. \nThe total votes they received together is 20 + 30 = 50 votes.\n\nSince there were 100 voters in total, we subtract the votes candidate A and B received from the total number of voters to find out how many votes candidate C got.\nSo, candidate C's votes = 100 - 50 = 50 votes.\n\n#### 50",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of votes candidate A received.\nCandidate A got 20% of the votes. Since there were 100 voters, candidate A received 20% of 100 votes, which is 0.20 * 100 = 20 votes.\n\n## Step 2: Determine the number of votes candidate B received.\nCandidate B got 50% more votes than candidate A. To find the number of votes candidate B received, we first calculate 50% of candidate A's votes, which is 0.50 * 20 = 10 votes. Then, we add this to candidate A's total to find candidate B's total: 20 + 10 = 30 votes.\n\n## Step 3: Calculate the number of votes candidate C received.\nThe total number of votes is 100. Candidate A received 20 votes, and candidate B received 30 votes. To find the number of votes candidate C received, we subtract the votes received by candidates A and B from the total number of votes: 100 - 20 - 30 = 50 votes.\n\n#### 50",
+			"retrievals": 2
+		}
+	]
+}

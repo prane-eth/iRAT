@@ -1,0 +1,13 @@
+{
+	"task_id": 1284,
+	"prompt": "Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "20 cupcakes cost 20 x $2 =$<<20*2=40>>40.\n40 cookies cost 40 x $1 = $<<40*1=40>>40.\nSo, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.\nThe cost of five trays is 5 x $4 = $<<5*4=20>>20.\nTherefore, France will have $80 - $20 = $<<80-20=60>>60 left.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Frances has left, we first need to calculate the total amount of money she made from selling cupcakes and cookies. \nShe sells 20 cupcakes for $2 each, so the total amount of money from cupcakes is 20 * $2 = $40.\nShe also sells 40 cookies at $1 each, so the total amount of money from cookies is 40 * $1 = $40.\n\n`\nThe total amount of money Frances made is the sum of the money from cupcakes and cookies, which is $40 + $40 = $80.\n\n`\nNext, we need to calculate the total amount of money Frances spent on buying trays. \nShe buys five trays at $4 for each tray, so the total amount of money spent on trays is 5 * $4 = $20.\n\n`\nTo find out how much money Frances has left, we subtract the total amount of money she spent from the total amount of money she made. \nSo, the amount of money Frances has left is $80 - $20 = $60.\n\n#### $60",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Frances has left, we first need to calculate the total amount of money she made from selling cupcakes and cookies. \n\nFrances sells 20 cupcakes for $2 each, so the total amount of money she made from cupcakes is 20 * $2 = $40. \nShe also sells 40 cookies at $1 each, so the total amount of money she made from cookies is 40 * $1 = $40. \n\nThe total amount of money Frances made is $40 (from cupcakes) + $40 (from cookies) = $80.\n\nNext, we need to calculate the total amount of money Frances spent on buying trays. \nShe buys five trays at $4 for each tray, so the total amount of money spent on trays is 5 * $4 = $20.\n\nTo find out how much money Frances has left, we subtract the total amount of money she spent from the total amount of money she made. \nSo, the amount of money Frances has left is $80 - $20 = $60.\n\n#### $60",
+			"retrievals": 1
+		}
+	]
+}

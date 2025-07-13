@@ -1,0 +1,13 @@
+{
+	"task_id": 537,
+	"prompt": "Chenny is 10 years old. Alyana is 4 years younger than Chenny. How old is Anne if she is 2 years older than Alyana?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Alyana is 10 - 4 = <<10-4=6>>6 years old.\nSo, Anne is 6 + 2 = <<6+2=8>>8 years old.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Anne's age, we first need to determine Alyana's age. Since Alyana is 4 years younger than Chenny, and Chenny is 10 years old, we subtract 4 from Chenny's age to find Alyana's age. \n\nAlyana's age = Chenny's age - 4 = 10 - 4 = 6\n\nNow that we know Alyana is 6 years old, we can find Anne's age. Anne is 2 years older than Alyana, so we add 2 to Alyana's age to find Anne's age.\n\nAnne's age = Alyana's age + 2 = 6 + 2 = 8\n\n#### 8",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find Anne's age, we first need to determine Alyana's age. Since Alyana is 4 years younger than Chenny, and Chenny is 10 years old, we subtract 4 from Chenny's age to find Alyana's age. Alyana's age = Chenny's age - 4 = 10 - 4 = 6. Now that we know Alyana is 6 years old, we can find Anne's age. Anne is 2 years older than Alyana, so we add 2 to Alyana's age to find Anne's age. Anne's age = Alyana's age + 2 = 6 + 2 = 8. \n\n#### 8",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 793,
+	"prompt": "Damien created a currency based on bottle caps and got his friends to take part.  He finds 10 bottle caps a day on his way home and each bottle cap is worth $.25.  How much money does he make in a 30 day month?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He finds 10*30=<<10*30=300>>300 bottle caps in the month\nThey are worth 300*.25=$<<300*.25=75>>75\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Damien makes in a 30-day month, we",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much money Damien makes in a 30-day month, we first need to calculate how many bottle caps he finds in a month. Since he finds 10 bottle caps a day, we multiply this by the number of days in the month, which is 30. So, 10 bottle caps/day * 30 days = 300 bottle caps.\n\nNext, we need to determine the total value of these bottle caps. Each bottle cap is worth $0.25, so we multiply the total number of bottle caps by the value of each one. Therefore, 300 bottle caps * $0.25/bottle cap = $75.\n\n#### $75",
+			"retrievals": 1
+		}
+	]
+}

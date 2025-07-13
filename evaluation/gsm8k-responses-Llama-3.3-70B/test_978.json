@@ -1,0 +1,13 @@
+{
+	"task_id": 978,
+	"prompt": "Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours\nShe applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen\nHer bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many bottles of sunscreen Pamela will need, first, we need to calculate the total amount of sunscreen she will use during her vacation. She reapplies an ounce of sunscreen every hour she's outside.\n\nShe will be outside 4 hours a day over 8 days. So, the total hours she will be outside is 4 hours/day * 8 days = 32 hours. Since she uses 1 ounce of sunscreen per hour, the total amount of sunscreen she will use is 32 hours * 1 ounce/hour = 32 ounces.\n\nSince her sunscreen comes in 8-ounce bottles, to find out how many bottles she will need, we divide the total amount of sunscreen she will use by the amount in each bottle. So, 32 ounces / 8 ounces/bottle = 4 bottles.\n\n#### 4",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how many bottles of sunscreen Pamela will need to pack for her vacation, we first need to calculate the total amount of sunscreen she will use. She reapplies an ounce of sunscreen every hour she's outside and will be outside 4 hours a day for 8 days. \n\nThe total hours she will be outside is 4 hours/day * 8 days = 32 hours. Since she uses 1 ounce of sunscreen per hour, the total amount of sunscreen she will use is 32 hours * 1 ounce/hour = 32 ounces.\n\nGiven that her sunscreen comes in 8-ounce bottles, to find out how many bottles she will need, we divide the total amount of sunscreen she will use by the amount in each bottle. So, 32 ounces / 8 ounces/bottle = 4 bottles.\n\n#### 4",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 804,
+	"prompt": "Kris is trying to earn a video game achievement for playing a total of 30 hours. If Kris plays for half an hour every day for 2 weeks then plays for 2 hours every day for a week, how many hours does she still need to play to earn the achievement?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Two weeks is the same as 2 weeks * 7 days = <<2*7=14>>14 days.\nSo playing for half an hour every day means Kris will have played for 0.5 hours * 14 days = <<0.5*14=7>>7 hours.\nPlaying for 2 hours every day for another week will be an additional 2 hours * 7 days = <<2*7=14>>14 hours.\nShe therefore still needs to play 30 \u2013 7 \u2013 14 = <<30-7-14=9>>9 hours.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many hours Kris still needs to play to earn the achievement, we",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how many hours Kris still needs to play to earn the achievement, we need to calculate the total hours she has already played and then subtract that from the total hours required for the achievement.\n\nFirst, let's calculate the total hours Kris played in the first 2 weeks. Since there are 7 days in a week, 2 weeks would be 2 * 7 = 14 days. If she plays for half an hour every day, then in 14 days, she would have played for 14 * 0.5 = 7 hours.\n\nNext, let's calculate the total hours Kris played in the next week. Since there are 7 days in a week and she plays for 2 hours every day, she would have played for 7 * 2 = 14 hours.\n\nNow, we add the hours played in the first 2 weeks and the next week to get the total hours played. Total hours played = 7 hours + 14 hours = 21 hours.\n\nThe achievement requires a total of 30 hours of playtime. To find out how many hours Kris still needs to play, we subtract the total hours she has already played from the total hours required. Hours still needed = 30 hours - 21 hours = 9 hours.\n\n#### 9",
+			"retrievals": 1
+		}
+	]
+}

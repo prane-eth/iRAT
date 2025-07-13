@@ -1,0 +1,13 @@
+{
+	"task_id": 634,
+	"prompt": "Bob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tom is driving at 70 miles per hour to Bob's 55 miles per hour, meaning Tom is gaining at a rate of 70 mph - 55 mph = <<70-55=15>>15 mph.\nBob is 75 miles ahead of Tom, and if Tom is gaining 15 mph on him, it will take Tom 75 miles / 15 mph = <<75/15=5>>5 hours to catch up with Bob.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how long it will take Tom to catch up with Bob, we\n\nTo find out how long it will take Tom to catch up with Bob, we divide the initial distance by the relative speed. So, the time it will take is 75 miles / 15 miles per hour.\n\nThe calculation is 75 / 15 = 5 hours. Therefore, it will take Tom 5 hours to catch up with Bob.\n\n#### 5 hours",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we need to understand the concept of relative speed. Since Bob and Tom are moving in the same direction, we subtract their speeds to find the relative speed between them. Tom is driving at 70 miles per hour, and Bob is driving at 55 miles per hour. The relative speed is 70 - 55 = 15 miles per hour.\n\nThis means that Tom is effectively closing the gap between him and Bob at a rate of 15 miles per hour. Given that Bob is initially 75 miles ahead of Tom, we can calculate the time it will take for Tom to catch up by dividing the distance by the relative speed.\n\nTime = Distance / Relative Speed\nTime = 75 miles / 15 miles per hour\nTime = 5 hours\n\nTherefore, it will take Tom 5 hours to catch up with Bob.\n\n#### 5 hours",
+			"retrievals": 2
+		}
+	]
+}

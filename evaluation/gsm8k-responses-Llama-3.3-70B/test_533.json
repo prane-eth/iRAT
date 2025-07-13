@@ -1,0 +1,13 @@
+{
+	"task_id": 533,
+	"prompt": "Jame will turn 27 in 5 years.  In 8 years his cousin will be 5 years younger than twice his age.  How many years separate the age of the two now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "James is 27-5=<<27-5=22>>22 years old\nIn 8 years he will be 22+8=<<22+8=30>>30 years old\nSo in 8 years, his cousin will be 30*2-5=<<30*2-5=55>>55\nSo his cousin is 55-8=<<55-8=47>>47 years old now\nSo there is a 47-22=<<47-22=25>>25 year gap\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine Jame's current age and then his cousin's current age. Jame will turn 27 in 5 years, which means his current age is 27 - 5 = 22 years.\n\nIn 8 years, Jame's age will be 22 + 8 = 30 years. According to the problem, in 8 years, his cousin will be 5 years younger than twice Jame's age at that time. Twice Jame's age in 8 years will be 2 * 30 = 60 years. So, his cousin's age in 8 years will be 60 - 5 = 55 years.\n\nTo find the cousin's current age, we subtract 8 from 55, which gives us 55 - 8 = 47 years. \n\nThe difference between Jame's current age and his cousin's current age is 47 - 22 = 25 years.\n\n#### 25",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we first need to determine Jame's current age and then his cousin's current age. Jame will turn 27 in 5 years, which means his current age is 27 - 5 = 22 years. In 8 years, Jame's age will be 22 + 8 = 30 years. According to the problem, in 8 years, his cousin will be 5 years younger than twice Jame's age at that time. Twice Jame's age in 8 years will be 2 * 30 = 60 years. So, his cousin's age in 8 years will be 60 - 5 = 55 years.\n\nTo find the cousin's current age, we subtract 8 from 55, which gives us 55 - 8 = 47 years. The difference between Jame's current age and his cousin's current age is 47 - 22 = 25 years. \n\n#### 25",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 87,
+	"prompt": "Greg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues to ring until Greg turns it off. The first time it went off today, it rang four times. The second time it went off, it rang for three times as long as the first time. The third time, it rang for half as long as the second time. How many times did the alarm ring in all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The second time Greg\u2019s alarm went off, it rang three times as long as the first, so it rang 3 * 4 = <<3*4=12>>12 times the second time.\nThe third time it went off, it rang half as long as the second, so it rang 12 / 2 = <<12/2=6>>6 times the third time.\nIn all, Greg\u2019s alarm rang 4 + 12 + 6 = <<4+12+6=22>>22 times.\n#### 22",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many times the alarm rang in all, we need to calculate the number of times it rang each time it went off and then sum those amounts.\n\n1. The first time it went off, it rang 4 times.\n2. The second time it went off, it rang for three times as long as the first time, which is 3 * 4 = 12 times.\n3. The third time it went off, it rang for half as long as the second time, which is 12 / 2 = 6 times.\n\nNow, we add up all the times it rang: 4 (first time) + 12 (second time) + 6 (third time) = 22 times.\n\n#### 22",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we need to find out how many times the alarm rang each time it went off and then add those amounts together.\n\nThe first time the alarm went off, it rang 4 times.\n\nThe second time it went off, it rang for three times as long as the first time. So, the second time it rang 4 * 3 = 12 times.\n\nThe third time, it rang for half as long as the second time. Since the second time it rang 12 times, the third time it rang 12 / 2 = 6 times.\n\nTo find the total number of times the alarm rang, we add the number of times it rang each time it went off: 4 (first time) + 12 (second time) + 6 (third time) = 22 times.\n\n#### 22",
+			"retrievals": 2
+		}
+	]
+}

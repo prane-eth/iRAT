@@ -1,0 +1,21 @@
+{
+	"task_id": 31,
+	"prompt": "Write a function to replace whitespaces with an underscore and vice versa in a given string by using regex.?import re\n\nassert replace_spaces('Jumanji The Jungle') == 'Jumanji_The_Jungle'",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert replace_spaces('Jumanji The Jungle') == 'Jumanji_The_Jungle'",
+		"assert replace_spaces('The Avengers') == 'The_Avengers'",
+		"assert replace_spaces('Fast and Furious') == 'Fast_and_Furious'"
+	],
+	"mbpp_code": "import re\r\ntext = 'Python Exercises'\r\ndef replace_spaces(text):\r\n  text =text.replace (\" \", \"_\")\r\n  return (text)\r\n  text =text.replace (\"_\", \" \")\r\n  return (text)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Analyze the problem\nWe need to create a function\n\n```python\nprint(replace_spaces('Jumanji The Jungle'))  # Outputs: Jumanji_The_Jungle\n```",
+			"old_rat_retrievals": 9,
+			"final_answer": "To replace whitespaces with an underscore and vice versa in a given string, we can use the `re` module in Python. Here's a function that accomplishes this:\n\n```python\nimport re\n\ndef replace_spaces(s, reverse=False):\n    if reverse:\n        return re.sub('_+', ' ', s)\n    else:\n        return re.sub('\\s+', '_', s)\n\nprint(replace_spaces('Jumanji The Jungle'))  # Outputs: Jumanji_The_Jungle\nprint(replace_spaces('Jumanji_The_Jungle', reverse=True))  # Outputs: Jumanji The Jungle\n```\n\nThis function uses the `sub` function from the `re` module to replace all occurrences of whitespace with an underscore, and vice versa if the `reverse` parameter is `True`. The `\\s+` pattern matches one or more whitespace characters, and `_+` matches one or more underscores. \n\nHowever, the above function requires two separate calls to replace spaces with underscores and vice versa. To achieve both replacements in a single function call, we can modify the function as follows:\n\n```python\nimport re\n\ndef replace_spaces(s):\n    s = re.sub('\\s+', '_', s)\n    return re.sub('_+', ' ', s)\n\n# But this will not work as expected because it first replaces spaces with underscores and then underscores with spaces.\n# To achieve the desired result, we can use a single regular expression that matches both spaces and underscores.\n\ndef replace_spaces(s):\n    return re.sub('(_|\\s+)', lambda m: '_' if m.group(0) == ' ' else ' ', s)\n\nprint(replace_spaces('Jumanji The Jungle'))  # Outputs: Jumanji_The_Jungle\nprint(replace_spaces('Jumanji_The_Jungle'))  # Outputs: Jumanji The Jungle\n```\n\nThis revised function uses a single regular expression that matches both spaces and underscores. The `lambda` function is used to determine whether to replace the match with an underscore or a space. If the match is a space, it is replaced with an underscore; otherwise, it is replaced with a space.",
+			"retrievals": 3
+		}
+	]
+}

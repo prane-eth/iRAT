@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 # Hosting models through an API
-# Why host the models?
-# - When we restart the evaluator or the server, we should not wait for the models to load repeatedly.
-# - We can host the models on a server and access them through an API.
+# Reasons:
+# 	- When we restart the evaluator or the server, we should not wait for the models to load repeatedly.
+# 	- We can host the models on a server and access them through an API.
 
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
@@ -23,9 +23,6 @@ if not os.getenv('HF_TOKEN').strip():
 	raise ValueError('HF_TOKEN environment variable is not set.')
 
 app = FastAPI()
-
-SERVER_ID = os.getenv('SERVER_ID')
-
 
 print('Loading models...')
 
@@ -139,3 +136,17 @@ if __name__ == '__main__':
 			print('Retrying in 5 seconds...')
 			time.sleep(5)
 
+# For persistent hosting, run the command:
+'''
+gunicorn host_models:app \
+	-k uvicorn.workers.UvicornWorker \
+	--workers 1 \
+	--worker-connections 1000 \
+	--timeout 1000 \
+	--max-requests 1000 \
+	--max-requests-jitter 200 \
+	--access-logfile server.log \
+	--error-logfile server.log \
+	--bind 0.0.0.0:8000 \
+	&
+'''

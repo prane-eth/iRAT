@@ -1,0 +1,13 @@
+{
+	"task_id": 1158,
+	"prompt": "Carl has a cane that is half as long as he is tall.  Carl is one foot taller than his brother, Ned.  And Ned is two feet shorter than his cousin, Isabel.  If Isabel is 7 feet tall, how long is Carl's cane, in feet?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Isabel is 7 feet tall, and Ned is two feet shorter than Isabel, then Ned is 7-2=<<7-2=5>>5 feet tall.\nIf Carl is one foot taller than Ned, then Carl is 5+1=<<5+1=6>>6 feet tall.\nCarl's cane is half as long as he is tall, or 6/2=<<6/2=3>>3 feet long.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the length of Carl's cane, we first need to determine Carl's height. We know that Isabel is 7 feet tall, and Ned is 2 feet shorter than Isabel. \n\nSo, Ned's height is 7 - 2 = 5 feet. Since Carl is 1 foot taller than Ned, Carl's height is 5 + 1 = 6 feet.\n\nCarl's cane is half as long as he is tall. Therefore, the length of Carl's cane is 6 / 2 = 3 feet.\n\n#### 3",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine Isabel's height\nIsabel is 7 feet tall.\n\n## Step 2: Calculate Ned's height\nNed is two feet shorter than Isabel, so Ned's height is 7 - 2 = 5 feet.\n\n## Step 3: Calculate Carl's height\nCarl is one foot taller than Ned, so Carl's height is 5 + 1 = 6 feet.\n\n## Step 4: Calculate the length of Carl's cane\nCarl's cane is half as long as he is tall, so the length of Carl's cane is 6 / 2 = 3 feet.\n\n#### 3",
+			"retrievals": 1
+		}
+	]
+}

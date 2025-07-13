@@ -1,0 +1,13 @@
+{
+	"task_id": 896,
+	"prompt": "Martin's weight is 55 kg. Carl\u2019s weight is 16 kg more than Martin\u2019s weight. Christian\u2019s weight is 8 kg more than Carl\u2019s weight. Harry is 5 kg less than Christian\u2019s weight. What is the weight of Harry, in kg?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Carl\u2019s weight is 55 + 16 = <<55+16=71>>71 kg.\nChristian\u2019s weight is 71 + 8 = <<71+8=79>>79 kg.\nSo, Harry\u2019s weight is 79 - 5 = <<79-5=74>>74 kg.\n#### 74",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Harry's weight, we first need to calculate the weights of Carl and Christian based on the information given about their weights relative to Martin's.\n\nMartin's weight is 55 kg. Carl's weight is 16 kg more than Martin's weight. So, Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nChristian's weight is 8 kg more than Carl's weight. So, Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nHarry is 5 kg less than Christian's weight. So, Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n#### 74",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find Harry's weight, we first need to calculate the weights of Carl and Christian based on the information given about their weights relative to Martin's. Martin's weight is 55 kg. Carl's weight is 16 kg more than Martin's weight. So, Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg. Christian's weight is 8 kg more than Carl's weight. So, Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nHarry is 5 kg less than Christian's weight. So, Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n#### 74",
+			"retrievals": 0
+		}
+	]
+}

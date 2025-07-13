@@ -1,0 +1,13 @@
+{
+	"task_id": 657,
+	"prompt": "Mike's teacher, leaves as homework the reading of a 200-page book. The assignment is to be completed within 30 days. Mike plans to read 10 pages a day. How many days before the deadline will Mike finish his reading?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Reading 10 pages per day, Mike finishes reading his book in 200 \u00f7 10 = <<200/10=20>>20 days.\nMike finishes reading his book 30 - 20 = <<30-20=10>>10 days before the deadline.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many days before the deadline Mike will finish his reading, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how many days before the deadline Mike will finish his reading, we first need to calculate how many days it will take him to read the entire book. Since Mike plans to read 10 pages a day and the book is 200 pages long, we divide the total number of pages by the number of pages he reads per day. \n\n200 pages / 10 pages per day = 20 days\n\nThis means Mike will finish reading the book in 20 days. Since the assignment is to be completed within 30 days, we subtract the number of days it takes Mike to finish the book from the total number of days allowed to find out how many days before the deadline he will finish.\n\n30 days - 20 days = 10 days\n\nTherefore, Mike will finish his reading 10 days before the deadline.\n\n#### 10 days",
+			"retrievals": 1
+		}
+	]
+}

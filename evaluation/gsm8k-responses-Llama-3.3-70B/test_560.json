@@ -1,0 +1,13 @@
+{
+	"task_id": 560,
+	"prompt": "A stickler for health, Octavia drinks half the daily recommended cups of coffee. By contract, Octavia\u2019s husband Juan drinks 10 times the amount of coffee she drinks. Juan\u2019s doctor has asked him to reduce his coffee intake to the daily recommendation of 4 cups. By how many cups must Juan reduce his daily coffee intake?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since the daily recommendation is 4 cups of coffee, Octavia drinks 4/2 = <<4/2=2>>2 cups\nJuan drinks 10 times the amount of coffee Octavia drinks, which translates to 10 * 2 = <<10*2=20>>20 cups\nSubtracting the daily recommended amount from Juan\u2019s current coffee intake gives 20 - 4 = <<20-4=16>>16 cups\nJuan must therefore reduce his daily coffee intake by 16 cups\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cups Juan must reduce his daily coffee intake, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the daily recommended cups of coffee for Octavia\nThe problem states that Octavia drinks half the daily recommended cups of coffee. However, to find out how many cups she drinks, we need a reference point. Given that Juan's doctor recommends 4 cups as the daily limit, we can infer this might be the standard daily recommendation.\n\n## Step 2: Calculate the amount of coffee Octavia drinks\nIf the daily recommended amount is 4 cups, then Octavia, who drinks half of this, consumes 4 / 2 = 2 cups of coffee.\n\n## Step 3: Calculate the amount of coffee Juan drinks\nJuan drinks 10 times the amount of coffee Octavia drinks. Since Octavia drinks 2 cups, Juan drinks 2 * 10 = 20 cups of coffee.\n\n## Step 4: Determine the amount Juan needs to reduce his coffee intake by\nJuan's doctor has recommended he reduce his intake to 4 cups. Currently, Juan drinks 20 cups. To find out how much he needs to reduce his intake, we subtract the recommended amount from his current consumption: 20 - 4 = 16 cups.\n\nThe final answer is: #### 16",
+			"retrievals": 1
+		}
+	]
+}

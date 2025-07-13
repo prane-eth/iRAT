@@ -1,0 +1,13 @@
+{
+	"task_id": 77,
+	"prompt": "Cecilia just bought a new puppy. According to her veterinarian, she has to feed the puppy 1 cup of dog food every day for the first 180 days. Then she has to feed the puppy 2 cups of dog food every day for the rest of its life. If one bag of dog food contains 110 cups, how many bags of dog food will Cecilia use in the first year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of cups of dog food given for the first 180 days is 180 * 1 = <<180*1=180>>180 cups\nThe number of days left in the year is 365 - 180 = <<365-180=185>>185\nThe number of cups of dog food given for the rest of the first year is 185 * 2 = <<185*2=370>>370 cups\nThe total number of cups given in the first year is 180 + 370 = <<180+370=550>>550 cups\nThe number of bags of dog food used in the first year is 550 / 110 = <<550/110=5>>5 bags\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many bags of dog food Cecilia will use in the first",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine how many bags of dog food Cecilia will use in the first year, we first need to calculate the total amount of dog food the puppy will consume in that period. \n\nThe first year consists of 365 days. For the first 180 days, the puppy consumes 1 cup of dog food per day, which equals 180 cups. After the first 180 days, there are 365 - 180 = 185 days left in the year. For these 185 days, the puppy consumes 2 cups of dog food per day, which equals 185 * 2 = 370 cups.\n\nAdding the dog food consumed in the first 180 days to the dog food consumed in the remaining 185 days gives us a total of 180 + 370 = 550 cups of dog food for the entire year.\n\nSince one bag of dog food contains 110 cups, we divide the total amount of dog food consumed in the first year by the amount in one bag to find out how many bags Cecilia will need. So, 550 cups / 110 cups per bag = 5 bags.\n\n#### 5",
+			"retrievals": 3
+		}
+	]
+}

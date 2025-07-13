@@ -1,0 +1,13 @@
+{
+	"task_id": 963,
+	"prompt": "Jen decides to travel to 3 different countries.  He has to pay $400 for the supplies he needs, in total.  The tickets for travel cost, in total, 50% more than the supplies.  How much does travel cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He pays 400*.5=$<<400*.5=200>>200 more for tickets than supplies\nThat means the tickets cost 400+200=$<<400+200=600>>600\nSo it cost 600+400=$<<600+400=1000>>1000 in total.\n#### 1000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of travel, we first need to determine the cost of the supplies and then calculate 50% more than this cost for the tickets.\n\nThe cost of supplies is given as $400. \n\nTo find the cost of travel, which is 50% more than the supplies, we first need to calculate 50% of $400. This is done by multiplying $400 by 0.5 (since 50% = 50/100 = 0.5). So, 50% of $400 = $400 * 0.5 = $200.\n\nNow, we add this 50% increase to the original cost of supplies to find the total cost of travel. Therefore, the cost of travel = $400 (cost of supplies) + $200 (50% increase) = $600.\n\n#### $600",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the cost of travel, we first need to determine the cost of the supplies and then calculate 50% more than this cost for the tickets. The cost of supplies is given as $400. To find the cost of travel, which is 50% more than the supplies, we first need to calculate 50% of $400. This is done by multiplying $400 by 0.5 (since 50% = 50/100 = 0.5). So, 50% of $400 = $400 * 0.5 = $200.\n\nNow, we add this 50% increase to the original cost of supplies to find the total cost of travel. Therefore, the cost of travel = $400 (cost of supplies) + $200 (50% increase) = $600.\n\n#### $600",
+			"retrievals": 2
+		}
+	]
+}

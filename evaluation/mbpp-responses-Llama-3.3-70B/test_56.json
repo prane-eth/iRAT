@@ -1,0 +1,19 @@
+{
+	"task_id": 66,
+	"prompt": "Write a function to count occurrence of a character in a string.?assert count_char(\"Python\",'o')==1",
+	"test_imports": [],
+	"test_list": [
+		"assert count_char(\"Python\",'o')==1",
+		"assert count_char(\"little\",'t')==2",
+		"assert count_char(\"assert\",'s')==2"
+	],
+	"mbpp_code": "def count_char(string,char):\r\n count = 0\r\n for i in range(len(string)):\r\n    if(string[i] == char):\r\n        count = count + 1\r\n return count",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to create a function that takes two parameters: the string to search in and the character to search for. We will start by defining the function `count_char` with two parameters: `string` and `char`. \n\n`\ndef count_char(string, char):\n`\n\nNext, we need to initialize a counter variable to keep track of the occurrences of the character. We will use a for loop to iterate over each character in the string. If the current character matches the character we are searching for, we will increment the counter.\n\n`\n    count = 0\n    for c in string:\n        if c == char:\n            count += 1\n    return count\n`\n\nWe can then call this function with the string \"Python\" and the character 'o' to get the count of occurrences of 'o' in \"Python\". \n\n`\nprint(count_char(\"Python\", 'o'))  # Output: 1\n`",
+			"old_rat_retrievals": 5,
+			"final_answer": "To create a function that counts the occurrence of a character in a string, we can follow these steps:\n\n1. Define a function that takes two parameters: the input string and the character to be counted.\n2. Initialize a counter variable to zero. This variable will store the number of occurrences of the character.\n3. Iterate over each character in the input string.\n4. Inside the loop, check if the current character matches the character we are looking for. If it does, increment the counter.\n5. After the loop finishes, return the counter value, which represents the total number of occurrences of the character.\n\nHere is a Python function that implements these steps:\n\n```python\ndef count_char(s, char):\n    \"\"\"\n    Count the occurrence of a character in a string.\n\n    Args:\n        s (str): The input string.\n        char (str): The character to be counted.\n\n    Returns:\n        int: The number of occurrences of the character.\n    \"\"\"\n    count = 0\n    for c in s:\n        if c == char:\n            count += 1\n    return count\n```\n\nYou can use this function like this:\n\n```python\nprint(count_char(\"Python\", 'o'))  # Output: 1\n```\n\nThis function works by iterating over each character in the string \"Python\" and checking if it matches the character 'o'. If it does, it increments the counter. Finally, it returns the counter value, which is 1 in this case.",
+			"retrievals": 1
+		}
+	]
+}

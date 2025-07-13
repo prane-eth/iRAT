@@ -1,0 +1,13 @@
+{
+	"task_id": 190,
+	"prompt": "Three friends spent $20.25 on 3 tickets to the fair. They also spent $4.50 less on food than on the tickets. They also went on 2 different rides which costs $33 for each ride. If they agreed to split all the costs evenly, how much did each of them pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They spent $20.25 - $4.50 = $<<20.25-4.5=15.75>>15.75 on food.\nThey spent $33 x 2 = $<<33*2=66>>66 for the rides.\nThey spent a total of $20.25 + $15.75 + $66 = $102.\nSo each of them paid $102/3 = $<<102/3=34>>34.\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total cost and then determine how much each friend paid, we'll break down the costs step by step.\n\n1. **Cost of tickets:** $20.25 for 3 tickets.\n2. **Cost of food:** They spent $4.50 less on food than on the tickets. So, the cost of food is $20.25 - $4.50 = $15.75.\n3. **Cost of rides:** They went on 2 different rides, each costing $33. So, the total cost for the rides is 2 * $33 = $66.\n\nNow, let's add up all the costs:\n- Tickets: $20.25\n- Food: $15.75\n- Rides: $66\n\nTotal cost = $20.25 + $15.75 + $66 = $102\n\nSince they agreed to split all the costs evenly among the three of them, we divide the total cost by 3:\n$102 / 3 = $34\n\nEach friend paid $34.\n\n#### $34",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much each of the three friends paid, we first need to calculate the total cost of their trip to the fair. \n\nThe cost of the tickets was $20.25. They spent $4.50 less on food than on the tickets, which means they spent $20.25 - $4.50 = $15.75 on food. \n\nFor the rides, each ride cost $33, and they went on 2 rides, so the total cost for the rides is $33 * 2 = $66.\n\nNow, we add up all these costs: $20.25 (tickets) + $15.75 (food) + $66 (rides) = $102.\n\nSince they are splitting the cost evenly among the three of them, we divide the total cost by 3: $102 / 3 = $34.\n\n#### $34",
+			"retrievals": 1
+		}
+	]
+}

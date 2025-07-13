@@ -1,0 +1,13 @@
+{
+	"task_id": 1018,
+	"prompt": "Olivia uploaded 72 pictures to Facebook.  She put the same number of the pics into 8 albums.  3 of the albums were selfies only and 2 of the albums were portraits.  How many portraits and selfies did she have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Olivia had 72 pictures / 8 albums = <<72/8=9>>9 picture per album.\nOlivia had 3 selfie albums * 9 pictures = <<3*9=27>>27 pictures.\nOlivia had 2 portrait albums * 9 pictures = <<2*9=18>>18 pictures.\nThe total of portraits and selfies for Olivia is 27 + 18 = <<27+18=45>>45 pictures.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many portraits and selfies Olivia had, we first need to determine the total number of pictures in each album. Since she uploaded 72 pictures and put the same number of pictures into 8 albums, we divide the total number of pictures by the number of albums. \n\nSo, the number of pictures in each album is 72 / 8 = 9.\n\nSince 3 of the albums were selfies only and 2 of the albums were portraits, we can calculate the total number of selfies and portraits by multiplying the number of albums of each type by the number of pictures in each album. \n\nThe total number of selfies is 3 albums * 9 pictures per album = 27. The total number of portraits is 2 albums * 9 pictures per album = 18.\n\nTo find the total number of portraits and selfies, we add these two numbers together: 27 (selfies) + 18 (portraits) = 45.\n\n#### 45",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many portraits and selfies Olivia had, we first need to determine the total number of pictures in each album. Since she uploaded 72 pictures and put the same number of pictures into 8 albums, we divide the total number of pictures by the number of albums. So, the number of pictures in each album is 72 / 8 = 9.\n\nSince 3 of the albums were selfies only and 2 of the albums were portraits, we can calculate the total number of selfies and portraits by multiplying the number of albums of each type by the number of pictures in each album. The total number of selfies is 3 albums * 9 pictures per album = 27. The total number of portraits is 2 albums * 9 pictures per album = 18. To find the total number of portraits and selfies, we add these two numbers together: 27 (selfies) + 18 (portraits) = 45.\n\nThe remaining 3 albums are not specified as either selfies or portraits, but since we are only asked about portraits and selfies, we do not need to consider the content of these albums for the purpose of this question. Therefore, the total number of portraits and selfies Olivia had is 45.\n\n#### 45",
+			"retrievals": 4
+		}
+	]
+}

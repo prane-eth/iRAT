@@ -1,0 +1,13 @@
+{
+	"task_id": 338,
+	"prompt": "Luke ate 2 hot dogs. Thomas ate three times more hot dogs than Luke. John ate half the amount Thomas ate. How many more hot dogs did John eat than Luke?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Thomas ate 3 * 2 = <<3*2=6>>6 hot dogs.\nJohn ate 6/2 = <<6/2=3>>3 hot dogs.\nJohn ate 3 - 2 = <<3-2=1>>1 more hot dog than Luke.\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many more hot dogs John ate than Luke, we need to\n\nThe difference in the number of hot dogs John and Luke ate is 3 - 2 = 1 hot dog.\n\n#### 1",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Identify the number of hot dogs Luke ate\nLuke ate 2 hot dogs.\n\n## Step 2: Calculate the number of hot dogs Thomas ate\nThomas ate three times more hot dogs than Luke. So, Thomas ate 3 * 2 = 6 hot dogs.\n\n## Step 3: Calculate the number of hot dogs John ate\nJohn ate half the amount Thomas ate. Therefore, John ate 6 / 2 = 3 hot dogs.\n\n## Step 4: Determine how many more hot dogs John ate than Luke\nTo find out how many more hot dogs John ate than Luke, subtract the number of hot dogs Luke ate from the number of hot dogs John ate. So, 3 - 2 = 1.\n\n#### 1",
+			"retrievals": 1
+		}
+	]
+}

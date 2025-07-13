@@ -1,0 +1,13 @@
+{
+	"task_id": 668,
+	"prompt": "Sarah\u2019s basketball games are 4 quarters that are each 12 minutes long. In the last quarter, there was a tie so the game was extended for five minutes. How long did the entire game last?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The four quarters lasted for 12 x 4 = <<12*4=48>>48 minutes.\nThe total time of the game for the entire game was 48 + 5 = <<48+5=53>>53 minutes.\n#### 53",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total duration of the game, we first calculate the duration of the four quarters and then add the overtime period.\n\nEach quarter is 12 minutes long, so four quarters last:\n4 * 12 = 48 minutes\n\nSince the game was tied at the end of the fourth quarter, it went into overtime, which is 5 minutes long.\n\nThe total duration of the game is the sum of the four quarters and the overtime period:\n48 + 5 = 53 minutes\n\n#### 53",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the total length of Sarah's basketball game, we start by determining the",
+			"retrievals": 1
+		}
+	]
+}

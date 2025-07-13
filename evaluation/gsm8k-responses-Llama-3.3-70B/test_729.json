@@ -1,0 +1,13 @@
+{
+	"task_id": 729,
+	"prompt": "Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools\nThen find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools\nThen divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percent of Candy's spools that are blue, we first need to determine the total number of blue spools and the total number of spools overall. \n\nThe total number of blue spools is the sum of light blue and dark blue spools. So, blue spools = 15 (light blue) + 45 (dark blue) = 60 spools.\n\nThe total number of spools is the sum of all spools, regardless of color. So, total spools = 15 (light blue) + 45 (dark blue) + 40 (light green) + 50 (dark green) = 150 spools.\n\nTo find the percent of blue spools, we divide the number of blue spools by the total number of spools and then multiply by 100. \n\nPercent of blue spools = (60 / 150) * 100 = 0.4 * 100 = 40%.\n\n#### 40%",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the total number of blue spools\nTo find the percentage of blue spools, we first need to calculate the total number of blue spools. Candy has 15 light blue spools of thread and 45 dark blue spools of thread. So, the total number of blue spools is 15 + 45 = 60.\n\n## Step 2: Calculate the total number of spools\nNext, we need to calculate the total number of spools Candy has. This includes light blue, dark blue, light green, and dark green spools. The total number of spools is 15 (light blue) + 45 (dark blue) + 40 (light green) + 50 (dark green) = 150.\n\n## Step 3: Calculate the percentage of blue spools\nTo find the percentage of blue spools, we divide the total number of blue spools by the total number of spools and then multiply by 100. So, the percentage of blue spools is (60 / 150) * 100 = 40%.\n\nThe final answer is: #### 40%",
+			"retrievals": 2
+		}
+	]
+}

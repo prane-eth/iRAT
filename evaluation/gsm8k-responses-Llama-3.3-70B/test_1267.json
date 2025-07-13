@@ -1,0 +1,13 @@
+{
+	"task_id": 1267,
+	"prompt": "The Kennel house keeps 3 German Shepherds and 2 Bulldogs. If a German Shepherd consumes 5 kilograms of dog food and a bulldog consumes 3 kilograms of dog food per day. How many kilograms of dog food will they need in a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The German Shepherds consume 3 x 5 = <<3*5=15>>15 kilograms of dog food per day.\nThe Bulldogs consume 2 x 3 = <<2*3=6>>6 kilograms of dog food per day.\nThe dogs can consume a total of 15 + 6 = <<15+6=21>>21 kilograms of dog food per day.\nTherefore, they need 21 x 7 = <<21*7=147>>147 kilograms of dog food in a week.\n#### 147",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of dog food needed in a week, we first need to determine the daily consumption of dog food by all the dogs. The Kennel house has 3 German Shepherds and 2 Bulldogs. \n\nEach German Shepherd consumes 5 kilograms of dog food per day, so the total consumption for German Shepherds per day is 3 * 5 = 15 kilograms. Each Bulldog consumes 3 kilograms of dog food per day, so the total consumption for Bulldogs per day is 2 * 3 = 6 kilograms.\n\nThe total daily consumption of dog food by all dogs is the sum of the consumption by German Shepherds and Bulldogs, which is 15 + 6 = 21 kilograms per day.\n\nTo find out how many kilograms of dog food they will need in a week, we multiply the daily consumption by 7, since there are 7 days in a week. So, the weekly consumption is 21 * 7 = 147 kilograms.\n\n#### 147",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate Daily Dog Food Consumption\nFirst, we need to calculate how much dog food is consumed by the dogs in the Kennel house per day. There are 3 German Shepherds, each consuming 5 kilograms of dog food per day, and 2 Bulldogs, each consuming 3 kilograms of dog food per day.\n\n## Step 2: Calculate Total Daily Consumption for German Shepherds\nThe total daily consumption for the German Shepherds is 3 * 5 = 15 kilograms of dog food per day.\n\n## Step 3: Calculate Total Daily Consumption for Bulldogs\nThe total daily consumption for the Bulldogs is 2 * 3 = 6 kilograms of dog food per day.\n\n## Step 4: Calculate Total Daily Consumption for All Dogs\nTo find the total daily consumption for all dogs, we add the consumption of the German Shepherds and the Bulldogs: 15 + 6 = 21 kilograms of dog food per day.\n\n## Step 5: Calculate Weekly Dog Food Consumption\nSince there are 7 days in a week, we multiply the total daily consumption by 7 to find the weekly consumption: 21 * 7 = 147 kilograms of dog food per week.\n\n#### 147",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 914,
+	"prompt": "Benny threw bologna at his balloons.  He threw two pieces of bologna at each red balloon and three pieces of bologna at each yellow balloon.  If Benny threw 58 pieces of bologna at a bundle of red and yellow balloons, and twenty of the balloons were red, then how many of the balloons in the bundle were yellow?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Benny had twenty red balloons in the bundle, and he threw two pieces of bologna at each red balloon, then he threw 2*20=40 pieces of bologna at red balloons in the bundle.\nIf he threw a total of 58 pieces of bologna at balloons in the bundle, then he threw 58-40=<<58-40=18>>18 pieces of bologna at yellow balloons.\nIf he threw three pieces of bologna at each yellow balloon, then he had 18/3=<<18/3=6>>6 yellow balloons.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, let's first identify the given information: Benny threw",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the given problem\nBenny threw bologna at his balloons, with 2 pieces of bologna at each red balloon and 3 pieces at each yellow balloon. We are given that Benny threw a total of 58 pieces of bologna and that there were 20 red balloons.\n\n## Step 2: Calculate the total bologna thrown at red balloons\nSince there are 20 red balloons and each red balloon gets 2 pieces of bologna, the total number of bologna pieces thrown at red balloons is 20 * 2 = 40.\n\n## Step 3: Determine the total bologna thrown at yellow balloons\nWe know that the total number of bologna pieces thrown is 58, and 40 of those were thrown at red balloons. So, the number of bologna pieces thrown at yellow balloons is 58 - 40 = 18.\n\n## Step 4: Calculate the number of yellow balloons\nSince each yellow balloon gets 3 pieces of bologna, we can find the number of yellow balloons by dividing the total number of bologna pieces thrown at yellow balloons (18) by 3. This gives us 18 / 3 = 6.\n\n## Step 5: Conclusion\nBased on the calculations, there are 6 yellow balloons in the bundle.\n\n#### 6",
+			"retrievals": 2
+		}
+	]
+}

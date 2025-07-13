@@ -1,0 +1,13 @@
+{
+	"task_id": 868,
+	"prompt": "Daisy bought a bag of potatoes that weighed 5 pounds. She also bought a bag of sweet potatoes that weighed 2 times as much as the potatoes and a bag of carrots that weighed 3 pounds fewer than the sweet potatoes. How many pounds of carrots did Daisy buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She bought 5 x 2 = <<5*2=10>>10 pounds of sweet potatoes.\nDaisy bought 10 - 3 = <<10-3=7>>7 pounds of carrots.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pounds of carrots Daisy bought, we first need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many pounds of carrots Daisy bought, we first need to determine the weight of the sweet potatoes. Since the sweet potatoes weighed 2 times as much as the potatoes, and the potatoes weighed 5 pounds, the sweet potatoes weighed 2 * 5 = 10 pounds. \n\nNext, we know that the carrots weighed 3 pounds fewer than the sweet potatoes. So, the weight of the carrots is 10 - 3 = 7 pounds.\n\n#### 7",
+			"retrievals": 1
+		}
+	]
+}

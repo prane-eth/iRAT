@@ -1,0 +1,13 @@
+{
+	"task_id": 1195,
+	"prompt": "From her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since a shark has three times as much blood as a whale, then a shark has 3*40 = <<3*40=120>>120 gallons of blood.\n10 sharks swimming in the sea will have 10*120 = <<10*120=1200>>1200 gallons of blood.\n#### 1200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of blood in ten sharks, we first need to determine how much blood is in one shark. Since a shark has three times as much blood as a whale, and a whale has 40 gallons of blood, we can calculate the amount of blood in a shark by multiplying the amount of blood in a whale by 3.\n\nSo, the amount of blood in one shark is 40 gallons * 3 = 120 gallons.\n\nNow that we know one shark has 120 gallons of blood, we can find the total amount of blood in ten sharks by multiplying the amount of blood in one shark by 10.\n\nThe total amount of blood in ten sharks is 120 gallons * 10 = 1200 gallons.\n\n#### 1200",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount of blood in ten sharks, we first need to determine how much blood is in one shark. Since a shark has three times as much blood as a whale, and a whale has 40 gallons of blood, we can calculate the amount of blood in a shark by multiplying the amount of blood in a whale by 3. So, the amount of blood in one shark is 40 gallons * 3 = 120 gallons.\n\nNow that we know one shark has 120 gallons of blood, we can find the total amount of blood in ten sharks by multiplying the amount of blood in one shark by 10. The total amount of blood in ten sharks is 120 gallons * 10 = 1200 gallons.\n\n#### 1200",
+			"retrievals": 1
+		}
+	]
+}

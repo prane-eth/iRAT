@@ -1,0 +1,19 @@
+{
+	"task_id": 24,
+	"prompt": "Write a python function to convert the given string to upper case.?assert is_upper(\"person\") ==\"PERSON\"",
+	"test_imports": [],
+	"test_list": [
+		"assert is_upper(\"person\") ==\"PERSON\"",
+		"assert is_upper(\"final\") == \"FINAL\"",
+		"assert is_upper(\"Valid\") == \"VALID\""
+	],
+	"mbpp_code": "def is_upper(string):\r\n  return (string.upper())",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to convert the string to upper case\nThe function should take a string as input and return the string in upper case.\n\n## Step 2: Use the upper() method in Python to convert the string\nThe upper() method in Python converts all lowercase characters in a string into uppercase characters and returns the result.\n\n## Step 3: Write the Python function\n```python\ndef is_upper(s):\n    return s.upper()\n```\n\n## Step 4: Test the function with the given assertion\n```python\nassert is_upper(\"person\") == \"PERSON\"\n```\n\nThe final answer is: $\\boxed{}$",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Introduction to the Problem\nTo solve this problem, we need to create a function that converts a given string to upper case. The function should take a string as input and return the upper case version of the string.\n\n## Solution\nWe can use the `upper()` method to achieve this. Here is a simple function that does the job:\n```python\ndef convert_to_upper_case(s):\n    return s.upper()\n```\nThis function takes a string `s` as input and returns the upper case version of `s` using the `upper()` method.\n\n## Testing the Function\nWe can test the function with the provided test case:\n```python\n# Test the function\nassert convert_to_upper_case(\"person\") == \"PERSON\"\nprint(\"All tests passed.\")\n```\nIf the function is working correctly, this line will print \"All tests passed.\". \n\n## Alternative Solution\nAlternatively, the function can also be named as per the test case:\n```python\ndef is_upper(s):\n    return s.upper()\n```\nThen the test case can be used as is:\n```python\n# Test the function\nassert is_upper(\"person\") == \"PERSON\"\nprint(\"All tests passed.\")\n```",
+			"retrievals": 2
+		}
+	]
+}

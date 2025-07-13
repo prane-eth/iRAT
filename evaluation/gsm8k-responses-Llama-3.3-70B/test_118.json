@@ -1,0 +1,13 @@
+{
+	"task_id": 118,
+	"prompt": "John buys 2 pairs of shoes for each of his 3 children.  They cost $60 each.  How much did he pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 3*2=<<3*2=6>>6 pairs of shoes\nSo he spent 60*6=$<<60*6=360>>360\n#### 360",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total amount John paid, we first need to calculate the total number of pairs of shoes he bought and then multiply that by the cost per pair.\n\n1. John buys 2 pairs of shoes for each of his 3 children, so the total number of pairs of shoes is 2 pairs/child * 3 children = 6 pairs.\n2. Each pair costs $60, so the total cost is 6 pairs * $60/pair = $360.\n\n#### $360\n\n#### $360",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much John paid for the shoes, we first need to determine the total number of pairs he bought. Since John has 3 children and he buys 2 pairs of shoes for each child, we multiply the number of pairs by the number of children: 2 pairs/child * 3 children = 6 pairs.\n\nNext, we calculate the total cost by multiplying the total number of pairs by the cost per pair: 6 pairs * $60/pair = $360.\n\nTherefore, John paid a total of $360 for the shoes.\n\n#### $360",
+			"retrievals": 1
+		}
+	]
+}

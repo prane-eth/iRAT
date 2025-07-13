@@ -1,0 +1,13 @@
+{
+	"task_id": 779,
+	"prompt": "At the local Pick Your Own fruit orchard, you could pick your own peaches for $2.00 per pound, plums were $1.00 per pound and apricots were $3.00 per pound.  If Winston picked 6 pounds of peaches, 8 pounds of plums and 6 pounds of apricots, how much did he spend on fruit?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 6 pounds of peaches that are $2.00 per pound so he spent 6*2 = $<<6*2=12.00>>12.00 on peaches\nHe bought 8 pounds of plums that are $1.00 per pound so he spent 8*1 = $<<8*1=8.00>>8.00 on plums\nHe bought 6 pounds of apricots that are $3.00 per pound so he spent 6*3 = $<<6*3=18.00>>18.00 on apricots\nThat day, he spent 12+8+18 = $<<12+8+18=38.00>>38.00 on fruit\n#### 38",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount Winston spent on fruit, we need to calculate the cost",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total amount Winston spent on fruit, we need to calculate the cost of each type of fruit separately and then add them together. \n\nThe cost of peaches is $2.00 per pound, and Winston picked 6 pounds, so the total cost of peaches is 6 * $2.00 = $12.00. \n\nThe cost of plums is $1.00 per pound, and Winston picked 8 pounds, so the total cost of plums is 8 * $1.00 = $8.00. \n\nThe cost of apricots is $3.00 per pound, and Winston picked 6 pounds, so the total cost of apricots is 6 * $3.00 = $18.00. \n\nNow, we need to add the costs of all three types of fruit together: $12.00 + $8.00 + $18.00 = $38.00.\n\n#### $38.00",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 833,
+	"prompt": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Anthony has saved $10.00 more than Eva who has $20.00 so he has 10+20 = $<<10+20=30.00>>30.00\nRoy has saved 40% more than his brother who has $30.00 so Roy has saved .40*30 = $12.00\nAll total, Roy has 12.00 more than his brother, so he has 12+30 = $<<12+30=42.00>>42.00\n#### 42",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Roy has, we first need to determine how much",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much money Roy has, we need to follow the information given step by step. \n\nFirst, we know that Eva has saved $20.00. \n\nSince Anthony has saved $10.00 more than Eva, we calculate Anthony's savings as follows: \nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we are told that Roy has saved 40% more than Anthony. To find out how much Roy has, we first calculate 40% of Anthony's savings and then add that amount to Anthony's savings.\n\n40% of Anthony's savings = 0.40 * $30.00\n40% of Anthony's savings = $12.00\n\nNow, we add this 40% to Anthony's savings to find Roy's savings:\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\n#### $42.00",
+			"retrievals": 1
+		}
+	]
+}

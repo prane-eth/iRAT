@@ -1,0 +1,13 @@
+{
+	"task_id": 663,
+	"prompt": "Gus spent $20.00 at the grocery store.  He bought 2 bag of chips for $2.00 each, a bucket of fried chicken for $8.00 and a bottle of soda for $1.00.  How much did the apple pie cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 2 bags of chips at $2.00 each so they cost 2*2 = $<<2*2=4.00>>4.00\nHe spent $4.00 on chips, $8.00 on fried chicken and $1.00 on soda so he spent 4+8+1 = $<<4+8+1=13.00>>13.00\nHe spent $20.00 and all of the groceries, except for the pie cost $13.00 so that means the apple pie cost 20-13 = $<<20-13=7.00>>7.00\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much the apple pie cost, we first need to add up the costs of all the items Gus bought, excluding the apple pie, and then subtract this total from the $20.00 he spent.\n\n1. 2 bags of chips for $2.00 each will be 2 * $2.00 = $4.00.\n2. A bucket of fried chicken for $8.00.\n3. A bottle of soda for $1.00.\n\nAdding these costs together: $4.00 (chips) + $8.00 (chicken) + $1.00 (soda) = $13.00.\n\nNow, subtract this total from the $20.00 Gus spent: $20.00 - $13.00 = $7.00.\n\nThis means the apple pie cost $7.00.\n\n#### $7.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the cost of the apple pie, we first need to calculate the total cost of the items Gus bought, excluding the apple pie. He purchased 2 bags of chips for $2.00 each, which totals $4.00. Additionally, he bought a bucket of fried chicken for $8.00 and a bottle of soda for $1.00. The total cost for these items is $4.00 + $8.00 + $1.00 = $13.00.\n\nGiven that Gus spent a total of $20.00 and the known items cost $13.00, we can find the cost of the apple pie by subtracting the total cost of the known items from the total amount spent. Therefore, the cost of the apple pie is $20.00 - $13.00 = $7.00.\n\n#### $7.00",
+			"retrievals": 1
+		}
+	]
+}

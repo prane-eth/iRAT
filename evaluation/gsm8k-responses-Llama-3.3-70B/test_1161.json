@@ -1,0 +1,13 @@
+{
+	"task_id": 1161,
+	"prompt": "Last week the IRS received 5168 tax reports. On Monday and Tuesday they received a total of 1907 reports. On Thursday and Friday they received a total of 2136 reports. How many reports did they receive on Wednesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mon/Tues = 1907\nThur/Fri = 2136\nMon, Tues, Thur, Fri = 1907 + 2136 = <<1907+2136=4043>>4043\n5168 - 4043 = <<5168-4043=1125>>1125 reports\nThe IRS received 1125 tax reports on Wednesday of last week.\n#### 1125",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many reports the IRS received on Wednesday, we first need to calculate the total number of reports received on Monday, Tuesday, Thursday, and Friday. \n\nWe know that on Monday and Tuesday, they received a total of 1907 reports. Additionally, on Thursday and Friday, they received 2136 reports. So, the total number of reports received on these four days is 1907 + 2136 = 4043 reports.\n\nThe IRS received a total of 5168 tax reports. To find out how many reports were received on Wednesday, we subtract the total number of reports received on Monday, Tuesday, Thursday, and Friday from the total number of reports.\n\nSo, the number of reports received on Wednesday is 5168 - 4043 = 1125 reports.\n\n#### 1125",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total number of reports received on Monday, Tuesday, Thursday, and Friday\nTo find out how many reports the IRS received on Wednesday, we first need to calculate the total number of reports received on Monday, Tuesday, Thursday, and Friday. We know that on Monday and Tuesday, they received a total of 1907 reports. Additionally, on Thursday and Friday, they received 2136 reports. So, the total number of reports received on these four days is 1907 + 2136 = 4043 reports.\n\n## Step 2: Calculate the number of reports received on Wednesday\nThe IRS received a total of 5168 tax reports. To find out how many reports were received on Wednesday, we subtract the total number of reports received on Monday, Tuesday, Thursday, and Friday from the total number of reports. So, the number of reports received on Wednesday is 5168 - 4043 = 1125 reports.\n\nThe final answer is: #### 1125",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1232,
+	"prompt": "Sally received the following scores on her math quizzes: 50, 80, 80, 60, 40, 90, 100, 70, and 60. Find her mean score.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Sally's total score is 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = <<50+80+80+60+40+90+100+70+60=630>>630.\nHer mean score is 630 / 9/quizzes = <<630/9=70>>70/quiz.\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Sally's mean score, we need to first add up all of her quiz scores. The scores are: 50, 80, 80, 60, 40, 90, 100, 70, and 60.\n\nWe will calculate the sum of these scores: 50 + 80 = 130, 130 + 80 = 210, 210 + 60 = 270, 270 + 40 = 310, 310 + 90 = 400, 400 + 100 = 500, 500 + 70 = 570, 570 + 60 = 630.\n\nThe sum of Sally's quiz scores is 630. Next, we need to count how many scores there are. There are 9 quiz scores.\n\nTo find the mean score, we will divide the sum of the scores by the number of scores: 630 / 9 = 70.\n\n#### 70",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Sally's mean score, we first need to calculate the sum of all her scores: 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60. \n\nPerforming the addition gives us: 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = 630.\n\nThere are 9 scores in total. To find the mean, we divide the total sum of scores by the number of scores: 630 / 9 = 70.\n\n#### 70",
+			"retrievals": 2
+		}
+	]
+}

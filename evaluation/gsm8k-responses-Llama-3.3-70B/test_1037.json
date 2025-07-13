@@ -1,0 +1,13 @@
+{
+	"task_id": 1037,
+	"prompt": "There are forty apples in one box. Uncle Franky ordered two boxes of apples. He is planning to pack the apples with eight apples in one pack. How many packs of apples can he make with the two boxes of apples?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 2 x 40 = <<2*40=80>>80 apples in two boxes.\nTherefore, Uncle Franky makes 80/8 = <<80/8=10>>10 packs of apples.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many packs of apples Uncle Franky can make, we first need to determine the total number of apples he has. He ordered two boxes of apples, and each box contains forty apples.\n\nSo, the total number of apples is calculated by multiplying the number of boxes by the number of apples in each box: 2 boxes * 40 apples/box = 80 apples.\n\nNow that we know Uncle Franky has 80 apples, we can find out how many packs he can make by dividing the total number of apples by the number of apples he wants to pack in each pack, which is eight.\n\nThe number of packs is calculated as follows: 80 apples / 8 apples/pack = 10 packs.\n\n#### 10 packs",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the total number of packs of apples Uncle Franky can make, we first calculate the total number of apples he has. Since each box contains forty apples and he ordered two boxes, the total number of apples is 2 boxes * 40 apples/box = 80 apples.\n\nNext, we divide the total number of apples by the number of apples he plans to pack in each pack, which is eight. This calculation gives us the total number of packs: 80 apples / 8 apples/pack = 10 packs.\n\nTherefore, Uncle Franky can make a total of 10 packs of apples with the two boxes of apples he ordered. #### 10 packs",
+			"retrievals": 2
+		}
+	]
+}

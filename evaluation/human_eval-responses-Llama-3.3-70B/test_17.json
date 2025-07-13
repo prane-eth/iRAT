@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/16",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef count_distinct_characters(string: str) -> int:\n    \"\"\" Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n    3\n    >>> count_distinct_characters('Jerry')\n    4\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "def count_distinct_characters(string: str) -> int:\n    \"\"\" Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n    3\n    >>> count_distinct_characters('Jerry')\n    5\n    \"\"\"\n    # Convert the string to lower case to ignore case sensitivity\n    lower_case_string = string.lower()\n    \n    # Convert the string into a set, which automatically removes duplicate characters\n    distinct_characters = set(lower_case_string)\n    \n    # Return the number of distinct characters\n    return len(distinct_characters)",
+			"old_rat_retrievals": 1,
+			"final_answer": "```python\ndef count_distinct_characters(string: str) -> int:\n    \"\"\"\n    Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n    3\n    >>> count_distinct_characters('Jerry')\n    4\n    \"\"\"\n    # Convert the string to lowercase to ignore case sensitivity\n    lower_case_string = string.lower()\n    \n    # Convert the string to a set to remove duplicate characters\n    distinct_characters = set(lower_case_string)\n    \n    # Return the number of distinct characters\n    return len(distinct_characters)\n```",
+			"retrievals": 2
+		}
+	]
+}

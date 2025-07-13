@@ -1,0 +1,13 @@
+{
+	"task_id": 781,
+	"prompt": "Ava and Emma want to know who is better at the new video game Ava got for her birthday. They are each going to play one level and whoever has the highest score wins. They receive 10 points for every enemy they jump on, 5 points for each berry they collect, and 30 points for every second left on the timer when they finish the level. If Ava jumps on 8 more enemies than Emma and collects 3 more berries, but finishes the level 4 seconds slower, what is the difference between their two scores?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "For jumping on enemies, Emma earns 8 * 10 = <<8*10=80>>80 fewer points than Ava.\nFor collecting berries, Emma earns 3 * 5 = <<3*5=15>>15 fewer points than Ava.\nFor finishing the level faster, Emma earns 4 * 30 = <<4*30=120>>120 more points than Ava.\nOverall, Emma has 120 \u2013 80 - 15 = <<120-80-15=25>>25 more points than Ava.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "To determine the difference between Ava and Emma's scores, we need to calculate their\n\nNow, let's calculate the scores for both Ava and Emma based on the given points system:\n- For every enemy jumped on, they receive 10 points.\n- For each berry collected, they receive 5 points.\n- For every second left on the timer, they receive 30 points.\n\nEmma's score can be calculated as 10E + 5B + 30T.\nAva's score can be calculated as 10(E + 8) + 5(B + 3) + 30(T - 4).\n\n``\n\nLet's expand Ava's score formula:\n10(E + 8) = 10E + 80\n5(B + 3) = 5B + 15\n30(T - 4) = 30T - 120\n\nSo, Ava's total score is 10E + 80 + 5B + 15 + 30T - 120, which simplifies to 10E + 5B + 30T - 25.\n\n``\n\nThe difference between Ava and Emma's scores is Ava's score minus Emma's score:\n(10E + 5B + 30T - 25) - (10E + 5B + 30T) = -25.\n\n#### -25",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the difference between Ava and Emma's scores, let's break down the",
+			"retrievals": 2
+		}
+	]
+}

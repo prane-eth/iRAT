@@ -1,0 +1,13 @@
+{
+	"task_id": 39,
+	"prompt": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how fast John runs, we first need to calculate the total distance he covers and the total time he spends running. We know John runs 60 miles a week and he runs 3 days a week.\n\nThe time John spends running each week can be calculated by adding up the hours he runs each day. He runs 3 hours on the first day. On the other two days, he runs half as much as the first day, which means he runs 3 / 2 = 1.5 hours each on the second and third days. So, the total time spent running is 3 + 1.5 + 1.5 = 6 hours.\n\nTo find out how fast John runs, we need to calculate his speed, which is the total distance divided by the total time. The formula for speed is Speed = Distance / Time. We know the distance (60 miles) and the time (6 hours).\n\nUsing the formula, we get Speed = 60 miles / 6 hours = 10 miles per hour.\n\n#### 10 miles per hour",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the Total Hours John Runs per Week\nTo find John's running speed, we first need to calculate the total hours he runs per week. We know he runs 3 hours on the first day and half as much on the other two days. Half of 3 hours is 1.5 hours. So, the total hours he runs per week is 3 + 1.5 + 1.5 = 6 hours.\n\n## Step 2: Calculate John's Running Speed\nNow that we know John runs a total of 6 hours per week and covers 60 miles, we can calculate his running speed. Running speed is calculated as the total distance covered divided by the total time taken. So, John's running speed is 60 miles / 6 hours = 10 miles per hour.\n\nThe final answer is: #### 10 miles per hour",
+			"retrievals": 6
+		}
+	]
+}

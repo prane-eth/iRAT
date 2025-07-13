@@ -1,0 +1,13 @@
+{
+	"task_id": 284,
+	"prompt": "Katerina makes designer jewelry.  Her specialty is topaz necklaces.  She uses 8 topaz gemstones per necklace, and fills the space between gemstones using sterling silver beads.  If each topaz gemstone is one inch long, each sterling silver bead is one-quarter of an inch long, and each necklace is made to a total length of 25 inches, how many sterling silver beads does Katerina use per necklace?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "8 topaz gemstones, at 1 inch per gemstone, contribute a total of 8*1=<<8*1=8>>8 inches to each necklace.\nSince each necklace is 25 inches in length, then there are 25-8=<<25-8=17>>17 inches of space between gemstones.\nSince Katerina uses one-quarter inch sterling silver beads to fill space between gemstones, then she will require 17*4=<<17*4=68>>68 sterling silver beads per necklace.\n#### 68",
+	"responses": [
+		{
+			"old_rat_answer": "To determine the number of sterling silver beads Katerina uses per necklace, we\n\n \nCalculating 17 / 0.25 gives us 68. Therefore, Katerina uses 68 sterling silver beads per necklace.\n\n#### 68",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many sterling silver beads Katerina uses per necklace, we first need to determine the total length taken up by the topaz gemstones. Since each necklace uses 8 topaz gemstones and each gemstone is one inch long, the total length of the topaz gemstones is 8 * 1 = 8 inches.\n\nThe total length of each necklace is 25 inches, and since 8 inches are taken up by the topaz gemstones, the remaining length for the sterling silver beads is 25 - 8 = 17 inches. Each sterling silver bead is one-quarter of an inch long, which can also be expressed as 0.25 inches.\n\nTo find out how many sterling silver beads fit into the 17 inches, we divide the total length available for the beads by the length of each bead: 17 / 0.25. This calculation gives us the number of sterling silver beads that can fit in the space allocated for them in the necklace. Calculating 17 / 0.25 gives us 68.\n\nTherefore, Katerina uses 68 sterling silver beads per necklace. \n\n#### 68",
+			"retrievals": 3
+		}
+	]
+}

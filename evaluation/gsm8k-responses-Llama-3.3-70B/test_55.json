@@ -1,0 +1,13 @@
+{
+	"task_id": 55,
+	"prompt": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Patchy has just had 3 * 7 = <<3*7=21>>21 kittens\nSince Trixie's kittens are 12, both cats have 21 +12 = <<21+12=33>>33 kittens.\nCombining the adopted kittens with those from the two cats, the Doubtfire family now has 7 + 33 = <<7+33=40>>40 kittens.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "The Doubtfire sisters have adopted 7 kittens. Their mother informs them that Patchy, one of the house cats, has had thrice the number of adopted kittens, which means Patchy has had 3 * 7 = 21 kittens. The other cat, Trixie, has had 12 kittens. \n\nTo find the total number of kittens the Doubtfire family now has, we add the adopted kittens to the kittens born to Patchy and Trixie: 7 (adopted) + 21 (Patchy's) + 12 (Trixie's) = 40.\n\n#### 40\n\n#### 40",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of kittens the Doubtfire family now has, we first need to calculate the number of kittens each of their house cats has had. We know that Patchy has had thrice the number of adopted kittens. Since they adopted 7 kittens, Patchy has had 3 * 7 = 21 kittens. The other cat, Trixie, has had 12 kittens. So, the total number of kittens from their house cats is 21 (from Patchy) + 12 (from Trixie) = 33 kittens.\n\nAdding the 7 adopted kittens to the kittens born to their house cats, the total number of kittens the Doubtfire family now has is 33 (from their house cats) + 7 (adopted) = 40 kittens. \n\n#### 40",
+			"retrievals": 2
+		}
+	]
+}

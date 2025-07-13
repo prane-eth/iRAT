@@ -1,0 +1,13 @@
+{
+	"task_id": 788,
+	"prompt": "Samwell owns an appliances store. For this week, one-fourth of their sales are smart TVs, one-eighth are analog TVs, and the rest are OLED TVs. If they were able to sell a total of 40 TVs, how many OLED TVs were they able to sell?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Samwell was able to sell 1/4 x 40 = <<1/4*40=10>>10 Smart TVs.\nHe was able to sell 1/8 x 40 = <<1/8*40=5>>5 analog TVs.\nSo, he was able to sell 10 + 5 = <<10+5=15>>15 Analog and Smart TVs.\nTherefore, the total number of OLED TVs that he was able to sell is 40 - 15 = <<40-15=25>>25.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "To find the number of OLED TVs sold, we first need to determine the fraction",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many OLED TVs were sold, we first need to calculate the number of smart TVs and analog TVs sold. \n\nOne-fourth of the sales are smart TVs, so the number of smart TVs sold is 1/4 * 40 = 10.\n\nOne-eighth of the sales are analog TVs, so the number of analog TVs sold is 1/8 * 40 = 5.\n\nThe total number of smart TVs and analog TVs sold is 10 + 5 = 15.\n\nSince the rest of the sales are OLED TVs, we subtract the total number of smart TVs and analog TVs sold from the total number of TVs sold to find the number of OLED TVs sold: 40 - 15 = 25.\n\n#### 25",
+			"retrievals": 1
+		}
+	]
+}

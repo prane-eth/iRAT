@@ -1,0 +1,13 @@
+{
+	"task_id": 343,
+	"prompt": "Laurel's friend gave her 24 baby outfits that her child no longer needed.  At her baby shower, Laurel received twice the amount of new baby outfits.  Then, Laurel's mom gifted her with another 15 baby outfits.  How many outfits does she have for her baby?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Her friend gave her 24 outfits and she received twice as many at the baby shower so she received 2*24 = 48 baby outfits\nHer friend gave her 24 outfits, she received 48 at the baby shower and her mom gave her another 15 for a total of 24+48+15 = <<24+48+15=87>>87 baby outfits\n#### 87",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nFirst, let's calculate the number of baby outfits Laurel received from her friend, which is 24.\n\nThen, Laurel received twice the amount of new baby outfits at her baby shower. This means she received 2 * 24 = 48 new baby outfits.\n\nNext, we need to add the number of outfits she received from her friend and the new outfits she received at the baby shower. So, 24 + 48 = 72 baby outfits.\n\nAfter that, Laurel's mom gifted her with another 15 baby outfits. To find the total number of outfits, we need to add these 15 outfits to the previous total. So, 72 + 15 = 87 baby outfits.\n\n#### 87",
+			"old_rat_retrievals": 5,
+			"final_answer": "Laurel's friend gave her 24 baby outfits that her child no longer needed. This initial gift provides a starting point for calculating the total number of outfits Laurel has for her baby.\n\nAt her baby shower, Laurel received twice the amount of new baby outfits compared to what her friend gave her. Since her friend gave her 24 outfits, she received 2 * 24 = 48 new baby outfits at the shower.\n\nThen, Laurel's mom gifted her with another 15 baby outfits. This adds to the total number of outfits Laurel has.\n\nTo find the total number of outfits Laurel has for her baby, we need to add the outfits from her friend, the baby shower, and the gift from her mom. Total = 24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87.\n\n#### 87",
+			"retrievals": 2
+		}
+	]
+}

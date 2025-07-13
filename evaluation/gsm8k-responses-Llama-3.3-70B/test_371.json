@@ -1,0 +1,13 @@
+{
+	"task_id": 371,
+	"prompt": "A hand-painted wallpaper costs $400 at the market. A DIY will saves 20% after considering the materials cost. If Ethan made his own hand-painted wallpaper, how much was the total cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A DIY will saves 20% after considering the materials cost, meaning you will save 20/100*$400=$<<20/100*400=80>>80 if you make your own hand-painted wallpaper.\nThe total cost of a hand-painted wallpaper made at home is $400-$80 = $<<400-80=320>>320\n#### 320",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the DIY hand-painted wallpaper made by Ethan, we first need to calculate the amount saved by making it himself. The original cost of the hand-painted wallpaper at the market is $400. \n\nSince Ethan saves 20% by making his own wallpaper, we calculate the savings as follows: 20% of $400 = 0.20 * $400 = $80.\n\nThis means Ethan saves $80 by making his own hand-painted wallpaper. \n\nTo find the total cost of the DIY wallpaper, we subtract the savings from the original market cost: $400 - $80 = $320.\n\n#### $320",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total cost of the DIY hand-painted wallpaper made by Ethan, we first need to calculate the amount saved by doing it himself. Since Ethan saves 20% of the cost by opting for the DIY approach, we calculate this savings as 20% of the original market cost of the hand-painted wallpaper. \n\nThe original cost of the hand-painted wallpaper at the market is $400. The savings from the DIY approach is 20% of $400, which is 0.20 * $400 = $80.\n\nThe total cost of the DIY hand-painted wallpaper can be found by subtracting the savings from the original market cost. Therefore, the total cost is $400 - $80 = $320.\n\n#### $320",
+			"retrievals": 2
+		}
+	]
+}

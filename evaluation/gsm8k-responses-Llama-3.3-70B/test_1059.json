@@ -1,0 +1,13 @@
+{
+	"task_id": 1059,
+	"prompt": "Leo collects stickers. Two years ago, he had 100 stickers in his collection. Last year, Leo collected 50 stickers. This year, he collected twice the number of stickers as the previous year. How many stickers does Leo have in his collection?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Last year, Leo had 100 +50 = <<100+50=150>>150.\nThis year, he collected 2 x 50 = <<2*50=100>>100.\nTherefore, Leo had 150 + 100 = <<150+100=250>>250 stickers in his collection.\n#### 250",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of stickers Leo has in his collection, we first start with the initial number of stickers he had two years ago, which is 100.\n\nLast year, Leo collected 50 stickers. So, to find the total number of stickers he had by the end of last year, we add the stickers collected last year to the initial number of stickers: 100 + 50 = 150.\n\nThis year, Leo collected twice the number of stickers as the previous year. Since he collected 50 stickers last year, this year he collected 2 * 50 = 100 stickers.\n\nNow, to find the total number of stickers Leo has in his collection, we add the stickers collected this year to the total number of stickers he had by the end of last year: 150 + 100 = 250.\n\n#### 250",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine the total number of stickers Leo has in his collection, let's break down the information provided. Two years ago, Leo had 100 stickers. Last year, he collected 50 stickers, bringing his total to 100 + 50 = 150 stickers. This year, he collected twice the number of stickers as the previous year, which means he collected 2 * 50 = 100 stickers. \n\nAdding the stickers collected this year to his total from last year, we get 150 + 100 = 250 stickers. Therefore, Leo has a total of 250 stickers in his collection.\n\n#### 250",
+			"retrievals": 1
+		}
+	]
+}

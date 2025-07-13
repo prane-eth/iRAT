@@ -1,0 +1,13 @@
+{
+	"task_id": 828,
+	"prompt": "Milly needs to return a book she decided was really boring. The book weighs 4 pounds, cost $32, and needs to be returned to a distribution center 20 miles away. If the shipping company charges $0.35 per pound plus $0.08 per mile, and Amazon will only refund 75% of the book's purchase price, how much money will Milly lose?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Milly will get back from Amazon $32 * .75 = $<<32*.75=24>>24 once the book is returned.\nShe will lose $32 - 24 = $<<32-24=8>>8 when the book is returned.\nThe first part of the shipping cost is $0.35 per pound * 4 pounds = $<<0.35*4=1.40>>1.40\nThe second part of the shipping cost is $0.08 per mile * 20 miles = $<<0.08*20=1.60>>1.60\nMilly loses $8 + $1.40 + $1.60 = $<<8+1.4+1.6=11>>11\n#### 11",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much money Milly will lose, we first need to determine the",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the shipping cost for returning the book\nThe shipping company charges $0.35 per pound plus $0.08 per mile. The book weighs 4 pounds and needs to be returned to a distribution center 20 miles away. So, the shipping cost can be calculated as follows: (4 pounds * $0.35 per pound) + (20 miles * $0.08 per mile) = $1.40 + $1.60 = $3.00.\n\n## Step 2: Determine the refund amount from Amazon\nAmazon will refund 75% of the book's purchase price. The book cost $32, so the refund amount is 75% of $32, which is $24.\n\n## Step 3: Calculate the total loss\nMilly's total loss would be the difference between what she paid for the book and what she gets back after returning it, including the cost of shipping it back. So, her loss would be the original purchase price minus the refund amount plus the shipping cost to return the book. Loss = Original Purchase Price - Refund Amount + Shipping Cost = $32 - $24 + $3.00 = $8 + $3.00 = $11.\n\n#### $11",
+			"retrievals": 1
+		}
+	]
+}

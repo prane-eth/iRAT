@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/47",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef median(l: list):\n    \"\"\"Return median of elements in the list l.\n    >>> median([3, 1, 2, 4, 5])\n    3\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    15.0\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Understand the Problem\nThe problem requires writing a Python function\n\n \nThis approach ensures that the function correctly calculates the median for both odd and even length lists, as demonstrated by the provided unit tests. Note that the second test case was corrected to reflect the actual median of the given list, which is 10.0, not 15.0.",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the median of a list of numbers in Python, we need to consider both cases where the list has an odd or even number of elements. Here is a functional code snippet that accomplishes this:\n\n```python\nimport math\n\ndef median(l: list):\n    \"\"\"\n    Return median of elements in the list l.\n    \n    >>> median([3, 1, 2, 4, 5])\n    3\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    8.0\n    \"\"\"\n    if not l:\n        raise ValueError(\"Input list is empty\")\n    sorted_list = sorted(l)\n    num_of_elements = len(sorted_list)\n    if num_of_elements % 2 == 0:\n        mid1 = sorted_list[num_of_elements // 2 - 1]\n        mid2 = sorted_list[num_of_elements // 2]\n        median = (mid1 + mid2) / 2\n    else:\n        median = sorted_list[math.floor(num_of_elements / 2)]\n    return median\n```\n\nThis function first checks if the input list is empty. If not, it sorts the list in ascending order. Then, it calculates the median based on whether the number of elements in the list is odd or even. For lists with an odd number of elements, the median is the middle value. For lists with an even number of elements, the median is the average of the two middle values.",
+			"retrievals": 3
+		}
+	]
+}

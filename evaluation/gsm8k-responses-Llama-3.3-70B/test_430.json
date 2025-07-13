@@ -1,0 +1,13 @@
+{
+	"task_id": 430,
+	"prompt": "Indras has 6 letters in her name. Her sister's name has 4 more letters than half of the letters in Indras' name. How many letters are in Indras and her sister's names?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "I = <<6=6>>6\nSister = 6/2 + 4 = <<6/2+4=7>>7\n6 + 7 = <<6+7=13>>13 letters\nTogether Indras and her sister have 13 letters in their names.\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of letters in Indras and her sister's names, we first need to calculate the number of letters in her sister's name. Indras has 6 letters in her name. \n\nHalf of the letters in Indras' name is 6 / 2 = 3. Since her sister's name has 4 more letters than half of the letters in Indras' name, the number of letters in her sister's name is 3 + 4 = 7.\n\nNow, we add the number of letters in Indras' name to the number of letters in her sister's name to get the total. So, 6 (Indras' name) + 7 (her sister's name) = 13.\n\n#### 13",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the number of letters in Indras' name\nIndras has 6 letters in her name.\n\n## Step 2: Calculate half of the letters in Indras' name\nHalf of the letters in Indras' name is 6 / 2 = 3.\n\n## Step 3: Calculate the number of letters in her sister's name\nHer sister's name has 4 more letters than half of the letters in Indras' name, which is 3 + 4 = 7.\n\n## Step 4: Calculate the total number of letters in both names\nThe total number of letters in both names is 6 (Indras' name) + 7 (her sister's name) = 13.\n\nThe final answer is: #### 13",
+			"retrievals": 2
+		}
+	]
+}

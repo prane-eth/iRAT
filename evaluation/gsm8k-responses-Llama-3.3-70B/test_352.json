@@ -1,0 +1,13 @@
+{
+	"task_id": 352,
+	"prompt": "April is donating plant pots to a local school for their new garden. They ask for 30 plant pots for the daisies, and twice as many for the roses. April had already bought 100 plant pots from the garden center before she knew how many she needed. How many plant pots does April have left over?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "For the roses, the school wants 30 * 2 = <<30*2=60>>60 plant pots.\nThis means she is giving the school 60 plant pots for roses + 30 plant pots for daisies = <<60+30=90>>90 plant pots.\nSo in total, Alice has 100 \u2013 90 = <<100-90=10>>10 plant pots left over.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many plant pots April has left over, we first need to determine the total number of plant pots the school is asking for. They need 30 plant pots for the daisies. For the roses, they need twice as many as for the daisies, which means they need 2 * 30 = 60 plant pots for the roses.\n\nThe total number of plant pots the school needs is the sum of the plant pots for the daisies and the roses, which is 30 + 60 = 90 plant pots. April had already bought 100 plant pots from the garden center. To find out how many plant pots April has left over after donating to the school, we subtract the total number of plant pots the school needs from the total number April bought.\n\nSo, the calculation will be 100 (total plant pots April bought) - 90 (total plant pots the school needs) = 10 plant pots left over.\n\n#### 10",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many plant pots April has left over after donating to the local school, we need to calculate the total number of plant pots required by the school and subtract that from the total number she bought.\n\nThe school needs 30 plant pots for the daisies and twice as many for the roses. So, the number of plant pots needed for the roses is 2 * 30 = 60. The total number of plant pots needed is 30 (for daisies) + 60 (for roses) = 90 plant pots.\n\nApril had already bought 100 plant pots from the garden center. To find out how many plant pots she has left over, we subtract the total number of plant pots needed from the total number she bought. So, 100 (total bought) - 90 (total needed) = 10 plant pots.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

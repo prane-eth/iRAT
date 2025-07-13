@@ -1,0 +1,13 @@
+{
+	"task_id": 631,
+	"prompt": "Tiffany is measuring how many surfers can ride a big wave without falling. She sees that when a wave over 30 feet arrives, only 25% of the riders can stay upright. Of these riders, 60% are women. If there are 100 riders, how many men can stay upright on the wave?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "25 riders stayed upright because 100 x .25 = <<100*.25=25>>25\nOf these riders 10 were men because 25 x .4 = <<25*.4=10>>10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many men can stay upright on the wave, we first need to calculate the total number of riders who can stay upright, and then determine how many of those are men.\n\n1. Calculate the total number of riders who can stay upright: \n   - Total riders = 100\n   - Percentage of riders who can stay upright = 25%\n   - Number of riders who can stay upright = Total riders * Percentage of riders who can stay upright\n   - Number of riders who can stay upright = 100 * 0.25 = 25\n\n2. Calculate the number of women who can stay upright:\n   - Percentage of women among those who can stay upright = 60%\n   - Number of women who can stay upright = Number of riders who can stay upright * Percentage of women\n   - Number of women who can stay upright = 25 * 0.60 = 15\n\n3. Calculate the number of men who can stay upright:\n   - Number of men who can stay upright = Number of riders who can stay upright - Number of women who can stay upright\n   - Number of men who can stay upright = 25 - 15 = 10\n\n#### 10",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we need to follow a step-by-step approach.\n\n## Step 1: Calculate the Number of Riders Who Can Stay Upright\nFirst, we calculate the total number of riders who can stay upright on a wave over 30 feet. Given that only 25% of the riders can stay upright and there are 100 riders, we find this number by multiplying 100 by 25% (or 0.25). So, 100 * 0.25 = 25 riders can stay upright.\n\n## Step 2: Calculate the Number of Women Who Can Stay Upright\nNext, we determine how many of these upright riders are women. Since 60% of the riders who can stay upright are women, we calculate this by multiplying the number of riders who can stay upright (25) by 60% (or 0.60). Thus, 25 * 0.60 = 15 women can stay upright.\n\n## Step 3: Calculate the Number of Men Who Can Stay Upright\nFinally, to find out how many men can stay upright, we subtract the number of women who can stay upright from the total number of riders who can stay upright. So, the number of men is 25 - 15 = 10.\n\n#### 10",
+			"retrievals": 2
+		}
+	]
+}

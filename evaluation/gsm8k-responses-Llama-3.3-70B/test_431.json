@@ -1,0 +1,13 @@
+{
+	"task_id": 431,
+	"prompt": "Charlotte went into the kitchen supply store knowing she wanted a set of pot and pans for $120.00, a set of mixing bowls for $20.00 and 5 separate utensils at $5.00 each.  At check out, the clerk told her everything was 20% off.  How much was her order?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She wants 5 utensils at $5.00 each so they cost 5*5 = $<<5*5=25.00>>25.00\nThe utensils are $25, the pots and pans are $120 and the mixing bowls are $20 for a total of 25+120+20 = $<<25+120+20=165>>165\nEverything is 20% off, and her total is $165 so 165*.20= $<<165*.20=33.00>>33.00\nThe total was $165 and she gets a $33.00 discount so 165-33 = $<<165-33=132.00>>132.00 is her total price\n#### 132",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of Charlotte's order before the discount, we need to calculate the cost of each item and add them together. The set of pot and pans costs $120.00, the set of mixing bowls costs $20.00, and 5 separate utensils at $5.00 each will be 5 * $5.00 = $25.00.\n\nThe total cost before the discount is $120.00 + $20.00 + $25.00 = $165.00. \n\nNext, we need to apply the 20% discount to the total cost. To find 20% of $165.00, we multiply $165.00 by 0.20, which gives us $165.00 * 0.20 = $33.00.\n\nNow, we subtract the discount from the total cost to find the final amount Charlotte has to pay: $165.00 - $33.00 = $132.00.\n\n#### $132.00",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total cost of the utensils\nThe cost of 5 separate utensils at $5.00 each is 5 * $5.00 = $25.00.\n\n## Step 2: Calculate the total cost before the discount\nThe total cost before the discount is the sum of the cost of the pot and pans, the mixing bowls, and the utensils. Total cost = $120.00 + $20.00 + $25.00 = $165.00.\n\n## Step 3: Calculate the discount amount\nThe discount amount is 20% of the total cost before the discount. Discount amount = 20% * $165.00 = 0.20 * $165.00 = $33.00.\n\n## Step 4: Calculate the total cost after the discount\nThe total cost after the discount is the total cost before the discount minus the discount amount. Total cost after discount = $165.00 - $33.00 = $132.00.\n\n#### $132.00",
+			"retrievals": 2
+		}
+	]
+}

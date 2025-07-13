@@ -1,0 +1,13 @@
+{
+	"task_id": 286,
+	"prompt": "If Ann is 9 years old and her brother is twice her age, how old will her brother be in 3 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ann's brother is 9 * 2 = <<9*2=18>>18 years old now.\nThis means, in 3 years, her brother will be 18 + 3 = <<18+3=21>>21 years old.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how old Ann's brother will be in 3 years, we first need to determine his current age. Since Ann is 9 years old and her brother is twice her age, we can calculate his age by multiplying Ann's age by 2.\n\nAnn's age = 9 years\nBrother's age = 2 * Ann's age = 2 * 9 = 18 years\n\nSo, Ann's brother is currently 18 years old.\n\nTo find out how old he will be in 3 years, we need to add 3 to his current age.\n\nBrother's age in 3 years = Brother's current age + 3 = 18 + 3 = 21 years\n\n#### 21",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Determine Ann's brother's current age\nAnn is 9 years old, and her brother is twice her age. So, her brother's current age is 9 * 2 = 18 years old.\n\n## Step 2: Calculate Ann's brother's age in 3 years\nTo find out how old Ann's brother will be in 3 years, we need to add 3 to his current age. This calculation will give us his age at that future point in time. So, in 3 years, Ann's brother will be 18 + 3 = 21 years old.\n\n## Step 3: Provide the final answer\nThe question asks for Ann's brother's age in 3 years, which we have calculated to be 21 years old.\n\n#### 21",
+			"retrievals": 1
+		}
+	]
+}

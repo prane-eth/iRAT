@@ -1,0 +1,13 @@
+{
+	"task_id": 1261,
+	"prompt": "Jade bought a new cell phone with an incredible camera, so she spent all week taking pictures of her daily life. At the end of the week, she had taken 210 photos. She wants to upload all her photos on her Instagram. If she uploads 7 photos in one batch and she uploads 6 batches each day, how many days will she need to upload all of her photos?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jade needs a total of 210 photos / 7 photos/batch = <<210/7=30>>30 batches to upload all her photos.\nEach day she uploads 6 batches, so she will need 30 \u00f7 6 = <<30/6=5>>5 days in total to upload all the photos.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many days Jade will need to upload all of her photos, we first need to determine how many photos she can upload in one day. Since she uploads 7 photos in one batch and she uploads 6 batches each day, we multiply the number of photos per batch by the number of batches per day.\n\nThe calculation for the number of photos uploaded per day is 7 photos/batch * 6 batches/day = 42 photos/day.\n\n`\nNow that we know Jade can upload 42 photos per day, we need to divide the total number of photos she has by the number of photos she can upload per day to find out how many days it will take her to upload all of her photos. The total number of photos Jade has is 210.\n\n`\nTo find the number of days, we divide the total number of photos by the number of photos uploaded per day: 210 photos / 42 photos/day.\n\n`\nPerforming the division gives us 210 / 42 = 5.\n\n#### 5",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the Total Number of Photos Uploaded Per Day\nTo determine how many days Jade will need to upload all her photos, we first calculate how many photos she can upload in a day. Since she uploads 7 photos in one batch and does this 6 times a day, the total number of photos she uploads per day is 7 * 6 = 42.\n\n## Step 2: Determine the Number of Days Needed to Upload All Photos\nNow, we divide the total number of photos Jade has, which is 210, by the number of photos she can upload per day, which is 42, to find out how many days it will take her to upload all of her photos.\n\n## Step 3: Perform the Division\nThe calculation to find the number of days is 210 photos / 42 photos/day. Performing this division gives us 210 / 42 = 5.\n\nThe final answer is: #### 5",
+			"retrievals": 2
+		}
+	]
+}

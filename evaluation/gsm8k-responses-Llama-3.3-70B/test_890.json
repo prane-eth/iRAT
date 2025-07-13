@@ -1,0 +1,13 @@
+{
+	"task_id": 890,
+	"prompt": "Joelle has 5 orchids and 4 African daisies on her balcony.  If the orchids have 5 petals and daisies have 10 petals, how many more petals do the daisies have compared to the orchids?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of petals on orchids is 5 x 5 = <<5*5=25>>25.\nThe number of petals on daisies is 4 x 10 = <<4*10=40>>40.\nDaisy petals outnumber orchid petals by 40 - 25 = <<40-25=15>>15.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of petals on the orchids, we first multiply the number of orchids by the number of petals on each orchid: 5 orchids * 5 petals/orchid = 25 petals.\n\nTo find the total number of petals on the daisies, we multiply the number of daisies by the number of petals on each daisy: 4 daisies * 10 petals/daisy = 40 petals.\n\nNow, we compare the total number of petals on the daisies to the total number of petals on the orchids to find the difference: 40 petals (daisies) - 25 petals (orchids) = 15 petals.\n\n#### 15",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many more petals the daisies have compared to the orchids, we first need to calculate the total number of petals on each type of flower. \n\nFor the orchids, we multiply the number of orchids by the number of petals on each orchid: 5 orchids * 5 petals/orchid = 25 petals.\n\nFor the daisies, we multiply the number of daisies by the number of petals on each daisy: 4 daisies * 10 petals/daisy = 40 petals.\n\nNow, to find out how many more petals the daisies have compared to the orchids, we subtract the total number of petals on the orchids from the total number of petals on the daisies: 40 petals (daisies) - 25 petals (orchids) = 15 petals.\n\n#### 15",
+			"retrievals": 0
+		}
+	]
+}

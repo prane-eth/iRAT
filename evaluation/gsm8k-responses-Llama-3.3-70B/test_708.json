@@ -1,0 +1,13 @@
+{
+	"task_id": 708,
+	"prompt": "Colorado City uses 40% of the water from the Colorado River. If 80% of that water is used for industrial purposes, what percent of the river's total water is used by the city for non-industrial purposes?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the percentage of water used for non-industrial purposes: 100% - 80% = 20%\nThen multiply that percentage by the percentage of water taken from the river: 20% * 40% = 8%\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percentage of the river's total water used by the city for non-industrial purposes, we first need to calculate the percentage of water used by the city for industrial purposes. The city uses 40% of the water from the Colorado River, and 80% of that water is used for industrial purposes.\n\nThis means that 80% of 40% is used for industrial purposes. To find this percentage, we multiply 40% by 80%, which gives us 0.4 * 0.8 = 0.32, or 32%. This is the percentage of the river's total water used by the city for industrial purposes.\n\nNow, to find the percentage of the river's total water used by the city for non-industrial purposes, we subtract the percentage used for industrial purposes from the total percentage used by the city. The city uses 40% of the river's water, and 32% is used for industrial purposes. So, 40% - 32% = 8%. \n\n#### 8%",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the percentage of water used for industrial purposes\nColorado City uses 40% of the water from the Colorado River, and 80% of that water is used for industrial purposes. To find the percentage of the river's total water used for industrial purposes, we multiply 40% by 80%, which gives 0.4 * 0.8 = 0.32 or 32%.\n\n## Step 2: Calculate the percentage of water used for non-industrial purposes\nSince 80% of the 40% used by the city is for industrial purposes, the remaining 20% of the 40% is used for non-industrial purposes. To find this percentage, we multiply 40% by 20%, which gives 0.4 * 0.2 = 0.08 or 8%.\n\n## Step 3: Determine the percentage of the river's total water used for non-industrial purposes\nThe 8% calculated in Step 2 is the percentage of the river's total water used by the city for non-industrial purposes, as it represents 20% of the 40% of the river's water that the city uses.\n\nThe final answer is: #### 8%",
+			"retrievals": 2
+		}
+	]
+}

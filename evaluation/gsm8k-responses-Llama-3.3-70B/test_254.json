@@ -1,0 +1,13 @@
+{
+	"task_id": 254,
+	"prompt": "Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First multiply Bill's starting floor number by 4: 3 * 4 = <<3*4=12>>12\nThen add six to find the ending floor Bill is on: 12 + 6 = <<12+6=18>>18\n#### 18",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out which floor Bill is on now, we first need to identify his starting floor. \nBill starts on the 3rd floor.\n\nWe are given that Bill rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. \nSo, we need to calculate 4 times his starting floor, which is 4 * 3 = 12.\n\nThen, we add 6 to this result to find the final floor Bill is on. \nSo, the calculation is 12 + 6 = 18.\n\nTherefore, Bill is now on the 18th floor.\n\n#### 18",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Identify Bill's starting floor\nBill starts on the 3rd floor.\n\n## Step 2: Calculate the floor Bill rides the elevator to\nThe floor Bill rides to is equal to 4 times his starting floor plus 6. So, we calculate 4 * 3 + 6.\n\n## Step 3: Perform the calculation\n4 * 3 = 12, then 12 + 6 = 18.\n\nThe final answer is: #### 18",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 795,
+	"prompt": "A zookeeper is counting how many lions are in their enclosure. She counts 12 female lions, half as many male lions, and 14 lion cubs. How many lions are in the enclosure?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 12/2 = <<12/2=6>>6 male lions in the enclosure.\nSo there is a total of 12 + 6 + 14 = <<12+6+14=32>>32 lions in the enclosure.\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of lions in the enclosure, we need to add the number of female lions, male lions, and lion cubs.\n\nFirst, we know there are 12 female lions. \nThe number of male lions is half the number of female lions, so there are 12 / 2 = 6 male lions.\nThere are also 14 lion cubs.\n\nAdding all these together: 12 (female lions) + 6 (male lions) + 14 (lion cubs) = 32 lions.\n\n#### 32",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of lions, we need to add the number of female lions, male lions, and lion cubs. There are 12 female lions and half as many male lions, which means there are 12 / 2 = 6 male lions. Adding these to the 14 lion cubs gives a total of 12 + 6 + 14 = 32 lions.\n\n#### 32",
+			"retrievals": 0
+		}
+	]
+}

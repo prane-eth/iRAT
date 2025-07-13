@@ -17,10 +17,11 @@ def _is_ip_address(url):
 	return False
 
 def preprocess_urls(urls=[]):
-	# remove URLs with protocols other than http and https
+	# Remove URLs with protocols other than http and https
 	http_urls = [url for url in urls if url.startswith(('http://', 'https://'))]
-	# # convert http to https
-	# http_urls = [url.replace('http://', 'https://') for url in http_urls]
+	# Convert http to https
+	# If some sites don't support https, loading fails and the next result will be used automatically.
+	http_urls = [url.replace('http://', 'https://') for url in http_urls]
 	
 	# if the page uses an IP address instead of a domain name, remove it
 	http_urls = [url for url in http_urls if not _is_ip_address(url)]
@@ -98,6 +99,7 @@ except Exception as e:
 import requests
 import os
 
+# Download and extract the Kaggle dataset if it does not exist
 dataset_filename = 'malicious_phish.csv'
 if not os.path.exists(dataset_filename):
 	# write in python
@@ -115,12 +117,12 @@ if not os.path.exists(dataset_filename):
 	os.remove(zip_filename)
 	log_debug(f'Extracted {zip_filename} to current directory.')
 
+# Extract the domain of all the URLs
 import csv
 with open(dataset_filename) as csvfile:
 	reader = csv.DictReader(csvfile)
 	unsafe_urls = [row['url'] for row in reader if row['type'] != 'benign']
 
-# get the domain of all the URLs
 malicious_domains = set()
 for url in unsafe_urls:
 	parsed_url = urlparse(url)
@@ -128,10 +130,10 @@ for url in unsafe_urls:
 	if domain:
 		malicious_domains.add(domain)
 
-# remove safe domains
+# Remove known safe domains
 safe_domains = {
 	'google.com', 'facebook.com', 'youtube.com', 'twitter.com', 'instagram.com',
-	'linkedin.com', 'wikipedia.org', 'reddit.com', 'pinterest.com', 'tumblr.com'
+	'linkedin.com', 'wikipedia.org', 'reddit.com', 'stackoverflow.com', 'github.com', 
 }
 malicious_domains = malicious_domains - safe_domains
 
@@ -159,7 +161,6 @@ def filter_urls(urls=[]):
 	malicious_domain_results, _ = check_malicious_domains(http_urls)
 	filtered_urls = [url for url in http_urls \
 		if not safe_browsing_results[url] and not malicious_domain_results[url]]
-	# removed_urls = set(urls) - set(filtered_urls)
 	removed_count = len(urls) - len(filtered_urls)
 	log_info(f'Removed {removed_count}/{len(urls)} URLs that were either spam or unsafe.')
 	return filtered_urls

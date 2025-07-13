@@ -18,7 +18,7 @@ def evaluator_pipeline(prompt, **kwargs):
 	if 'max_new_tokens' in kwargs:
 		kwargs['max_tokens'] = kwargs.pop('max_new_tokens')
 	unsupported_params = ('top_k', 'no_repeat_ngram_size', 'eos_token_id',
-						'clean_up_tokenization_spaces')
+							'clean_up_tokenization_spaces')
 	for param in unsupported_params:
 		if param in kwargs:
 			raise ValueError(f'{param} is not supported by OpenAI package. Set the value in the model server.')
@@ -77,98 +77,3 @@ def get_evaluator_feedback(query, previous_thoughts: str, new_thoughts: str) -> 
 		feedback = feedback[len(prompt):].lstrip()
 	return feedback.strip()
 
-
-# Approach 2: Deciding the sentiment of the feedback based on keywords.
-
-# contradiction_threshold: float = 0.50
-
-# positive_keywords = ('correct', 'sound', 'valid', 'consistent', 'accurate')
-# negative_keywords = set()
-# for positive_word in positive_keywords:
-# 	negative_keywords.add('not ' + positive_word) # 'not valid'
-# 	negative_keywords.add('no ' + positive_word)  # 'no valid answer'
-# 	negative_keywords.add('in' + positive_word)  # 'invalid'
-# 	negative_keywords.add('un' + positive_word)  # 'unsound'
-# 	negative_keywords.add('non-' + positive_word)  # 'non-valid'
-# for negative_word in ('incorrect', 'inconsistent', 'flaw', 'error', 'contradict', 
-# 	'unsound', 'invalid', 'needs to consider', 'need to consider', 'missing', 'inaccurate'):
-# 	negative_keywords.add(negative_word)
-# positive_keywords = set(positive_keywords)  # For a faster search
-
-
-# def needs_replan(query, previous_thoughts: str, new_thoughts: str) -> bool:
-# 	# Compare old vs new chain.  We simply feed the new_thoughts to the
-# 	# evaluator: if it flags > threshold negative keywords → re-plan.
-# 	feedback = get_evaluator_feedback(query, previous_thoughts, new_thoughts)
-# 	log_debug('Evaluator feedback:\n' + feedback)
-# 	print_separator()
-
-# 	feedback = feedback.lower().replace('n\'t ', ' in')  # 'isn't correct' -> 'is incorrect'
-# 	negatives = sum(kw in feedback for kw in negative_keywords)
-# 	positives = sum(kw in feedback for kw in positive_keywords)
-# 	log_debug('Positives:', positives)
-# 	log_debug('negatives:', negatives)
-# 	score = negatives / max(1, negatives + positives)
-
-# 	log_info(f'[Reflection] contradiction-score = {score:.2f}')
-# 	print_separator()
-# 	return score >= contradiction_threshold
-
-# def get_replanning_prompt(query, previous_draft: str, revised_draft: str) -> str:
-# 	# Return an augmented system prompt instructing the LM to rethink.
-# 	return (
-# 		'The previous reasoning appears inconsistent. '
-# 		'Analyse the following chain of thought, locate the errors, and '
-# 		'produce an improved chain that is logically sound.\n\n'
-# 		f'QUESTION:\n{query}\n\n'
-# 		f'Previous version:\n{previous_draft}\n-----\n'
-# 		f'Current version:\n{revised_draft}\n-----\n'
-# 		'Write the NEW CHAIN OF THOUGHT:'
-# 	)
-
-
-# ───────────────────────────── CLI test ────────────────────────────
-if __name__ == '__main__':
-	import sys
-	if 'google.colab' not in sys.modules:
-		import os
-		dir = 'MBPP-responses-v2'
-		if not os.path.exists(dir):
-			os.makedirs(dir)
-		os.chdir(dir)
-
-	import json
-	filename = 'test_1.json'
-	with open(filename) as file:
-		sample = json.load(file)
-
-	query = sample['query']
-	initial_draft = sample['initial_draft']
-	final_answer = sample['final_answer']
-
-	feedback = get_evaluator_feedback(query, initial_draft, final_answer)
-	# replan_required = needs_replan(query, initial_draft, final_answer)
-	# if replan_required:
-	# 	log_debug('Replanning...')
-	# 	feedback = get_replanning_prompt(query, initial_draft, final_answer)
-	# else:
-	# 	feedback = 'No replanning required.'
-
-	# Write the response to a file
-	output_file = filename.replace('.json', '_feedback.txt')
-	with open(output_file, 'w') as file:
-		file.write(feedback)
-
-	if feedback != 'No replanning required.':
-		new_prompt = feedback
-		print_separator()
-		new_response = get_response(
-			f'Query: {query}\n Reasoning: {final_answer}\n'
-   			f'Feedback: {feedback}\n'
-		)
-
-		revised_file = filename.replace('.json', '_revised_response.txt')
-		with open(revised_file, 'w') as file:
-			file.write(new_response)
-
-		log_debug('Revised response:\n', new_response)

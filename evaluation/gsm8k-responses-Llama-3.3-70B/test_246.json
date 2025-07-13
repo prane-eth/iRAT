@@ -1,0 +1,13 @@
+{
+	"task_id": 246,
+	"prompt": "There are 4 snails in one aquarium and 32 snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The difference between the number of snails is 32 - 4 = <<32-4=28>>28 snails.\nThere are 28/2 = <<28/2=14>>14 fish in both aquariums.\nThere are 14/2 = <<14/2=7>>7 fish in each aquarium.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "Let's denote the number of fish in each aquarium as \\(F\\). Since both aquariums have the same number of fish, the total number of fish in both aquariums is \\(2F\\).\n\nWe are given that there are 4 snails in one aquarium and 32 snails in the other. The difference in the number of snails between the two aquariums is \\(32 - 4 = 28\\).\n\nAccording to the problem, this difference (28) is twice the total number of fish in both aquariums. Therefore, we can set up the equation:\n\n\\[28 = 2 \\times (2F)\\]\n\nSimplifying this equation:\n\n\\[28 = 4F\\]\n\nDividing both sides by 4 to solve for \\(F\\):\n\n\\[F = \\frac{28}{4}\\]\n\n\\[F = 7\\]\n\nSo, there are 7 fish in each aquarium.\n\n#### 7",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the number of fish in each aquarium, let's start by calculating the difference in the number of snails between the two aquariums. The first aquarium has 4 snails, and the second has 32 snails. The difference is 32 - 4 = 28 snails.\n\nThe problem states that this difference (28 snails) is twice the total number of fish in both aquariums. Let's denote the total number of fish in both aquariums as F. Therefore, we have the equation 28 = 2F. To find F, we divide both sides of the equation by 2, which gives us F = 28 / 2 = 14.\n\nSince both aquariums have the same number of fish, to find out how many fish are in each aquarium, we divide the total number of fish (14) by 2. This gives us 14 / 2 = 7 fish in each aquarium.\n\n#### 7",
+			"retrievals": 3
+		}
+	]
+}

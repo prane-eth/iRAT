@@ -1,0 +1,13 @@
+{
+	"task_id": 374,
+	"prompt": "A company bought $400000 worth of equipment from a retailer business, but pieces of equipment worth 40% of the total number were faulty. If they returned the faulty pieces of equipment to the seller, calculate the total amount of money spent on functioning pieces of equipment.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If 40% worth of the pieces of equipment bought were faulty and were returned, the amount of money they were bought for is 40/100*$400000 = $<<40/100*400000=160000>>160000\nSince the faulty pieces of equipment were worth $400000, the functioning equipment was worth $400000-$160000 = $<<400000-160000=240000>>240000\n#### 240000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of money spent on functioning pieces of equipment, we first need to find out the total value of the faulty equipment. Given that 40% of the equipment was faulty, we calculate this value by finding 40% of the total cost of the equipment.\n\nThe total cost of the equipment is $400,000. To find 40% of $400,000, we multiply $400,000 by 0.4. So, 40% of $400,000 = $400,000 * 0.4 = $160,000. This means that $160,000 worth of equipment was faulty.\n\nTo find the amount spent on functioning pieces of equipment, we subtract the value of the faulty equipment from the total cost of the equipment. Therefore, we subtract $160,000 from $400,000.\n\n$400,000 - $160,000 = $240,000.\n\n#### $240,000",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total value of faulty equipment\nThe company bought $400,000 worth of equipment, and 40% of it was faulty. To find the value of the faulty equipment, we multiply the total cost by the percentage that is faulty: $400,000 * 0.4 = $160,000.\n\n## Step 2: Determine the cost of functioning equipment\nThe cost of functioning equipment is the total cost minus the cost of the faulty equipment: $400,000 - $160,000 = $240,000.\n\n## Step 3: Consider the impact of returning faulty equipment\nWhen the company returns the faulty equipment, they should receive a refund for its value, which is $160,000. This refund effectively reduces the amount they spent on faulty equipment to $0, since they get their money back.\n\n## Step 4: Calculate the final amount spent on functioning equipment\nAfter returning the faulty equipment and receiving a refund, the company has spent $240,000 on functioning equipment.\n\nThe final answer is: #### $240,000",
+			"retrievals": 2
+		}
+	]
+}

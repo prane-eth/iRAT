@@ -1,0 +1,13 @@
+{
+	"task_id": 1159,
+	"prompt": "The Hortex company produces bottled carrot juices. Every day it can produce 4200 bottles of these juices. Each juice can cover 20% of 1 person'ts daily energy demand. How many more bottles of juices would Hortex have to produce to be able to satisfy 100% of the daily energy needs of 2300 people?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each juice covers only 20% of the daily energy demand, so to cover 100%, one person would need 100 / 20 = <<100/20=5>>5 juices.\nSo 2300 people, need 5 * 2300 = <<2300*5=11500>>11500 juices for this purpose.\nTo cover 100% of the daily energy needs of 2300 people, Hortex would need to produce 11500 - 4200 = 7300 bottles of juices.\n#### 7300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more bottles of juices Hortex needs to produce to satisfy 100% of the daily energy needs of 2300 people, we first need to calculate the total energy demand of these people. Since each person's daily energy demand is 100%, we can consider this as a whole unit for simplification.\n\nEach bottle of juice can cover 20% of one person's daily energy demand. This means to cover 100% of one person's daily energy demand, Hortex would need to produce 100% / 20% = 5 bottles of juice per person per day.\n\nFor 2300 people, the total number of bottles needed to cover 100% of their daily energy demands would be 5 bottles/person * 2300 people = 11500 bottles.\n\nHortex currently produces 4200 bottles of juice per day. To find out how many more bottles they need to produce to meet the demand of 2300 people, we subtract the current production from the total needed: 11500 bottles - 4200 bottles = 7300 bottles.\n\n#### 7300",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the number of bottles needed to satisfy 100% of the daily energy needs of 2300 people, we first need to determine how many bottles are required for one person and then scale that up to 2300 people.\n\nEach juice bottle covers 20% of a person's daily energy demand. To cover 100% of one person's daily energy demand, we need 100% / 20% = 5 bottles per person.\n\nFor 2300 people, the total number of bottles needed would be 5 bottles/person * 2300 people = 11500 bottles.\n\nCurrently, Hortex can produce 4200 bottles per day. To find out how many more bottles they need to produce to meet the demand for 2300 people, we subtract the current production from the total needed: 11500 bottles - 4200 bottles = 7300 bottles.\n\nTherefore, Hortex would need to produce 7300 more bottles of juice to satisfy 100% of the daily energy needs of 2300 people.\n\n#### 7300",
+			"retrievals": 0
+		}
+	]
+}

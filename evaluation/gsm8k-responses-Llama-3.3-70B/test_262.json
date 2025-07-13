@@ -1,0 +1,13 @@
+{
+	"task_id": 262,
+	"prompt": "There are 9,300 pennies in a cup. What is the total dollar amount in a stack that contains two thirds of the pennies in the cup?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A third of the pennies in a cup is 9,300/3 = <<9300/3=3100>>3,100.\nNumber of pennies in the stack is 3,100*2 = <<3100*2=6200>>6,200.\nTotal dollar amount in the stack is 6,200/100 = <<6200/100=62>>62.\n#### 62",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total dollar amount in a stack that contains two thirds of the penn",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total dollar amount in a stack that contains two thirds of the pennies in the cup, we first need to calculate the number of pennies in two thirds of the stack. The total number of pennies is 9,300. Two thirds of 9,300 can be calculated as (2/3) * 9,300.\n\nPerforming the calculation for two thirds of 9,300 gives us (2/3) * 9,300 = 6,200 pennies.\n\nNext, we convert the number of pennies to dollars. Since 1 dollar is equal to 100 pennies, we divide the number of pennies by 100 to find the total dollar amount. So, 6,200 pennies is equal to 6,200 / 100 dollars.\n\nThe conversion calculation yields 6,200 / 100 = 62 dollars.\n\n#### 62",
+			"retrievals": 1
+		}
+	]
+}

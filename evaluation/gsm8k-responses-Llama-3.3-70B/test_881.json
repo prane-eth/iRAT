@@ -1,0 +1,13 @@
+{
+	"task_id": 881,
+	"prompt": "Sarah has a rope that is 20 meters long. Her friend wants to buy the rope for $2 a meter. Sarah plans to use the profit to buy a new rope, which at the store costs $1.5 a meter. How much money will she have left over after she buys the new rope?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Her friend pays her $40 for the rope because 20 x 2 = <<20*2=40>>40\nShe can buy the rope at the store for $30 because 20 x 1.5 = <<20*1.5=30>>30\nShe has $10 left over because 40 - 30 = <<40-30=10>>10\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Sarah will have left over after buying the new rope, we first need to calculate the total amount of money she will receive from selling her current rope. The rope is 20 meters long, and her friend wants to buy it for $2 a meter. \n\nSo, the total amount of money Sarah will get from selling the rope is 20 meters * $2/meter = $40.\n\n`\nNext, we need to calculate the cost of the new rope. Since we don't know the exact length of the new rope Sarah wants to buy, we will assume she wants to buy a rope of the same length, 20 meters, to replace the one she is selling. The new rope costs $1.5 a meter.\n\n`\nThe total cost of the new rope will be 20 meters * $1.5/meter = $30.\n\n`\nNow, to find out how much money Sarah will have left over after buying the new rope, we subtract the cost of the new rope from the amount of money she received from selling her old rope. So, $40 - $30 = $10.\n\n#### $10",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much money Sarah will have left over after buying the new rope, we first need to calculate the total amount of money she will receive from selling her current rope. The rope is 20 meters long, and her friend wants to buy it for $2 a meter. So, the total amount of money Sarah will get from selling the rope is 20 meters * $2/meter = $40.\n\nNext, we need to calculate the cost of the new rope. Since Sarah is replacing her old rope with a new one, it's reasonable to assume she wants to buy a rope of the same length, 20 meters. The new rope costs $1.5 a meter. The total cost of the new rope will be 20 meters * $1.5/meter = $30.\n\nNow, to find out how much money Sarah will have left over after buying the new rope, we subtract the cost of the new rope from the amount of money she received from selling her old rope. So, $40 - $30 = $10.\n\n#### $10",
+			"retrievals": 3
+		}
+	]
+}

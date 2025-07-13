@@ -1,0 +1,13 @@
+{
+	"task_id": 465,
+	"prompt": "Finley took part in a 100-meter race.  She started off in first, but then fell back 5 spots.  She then moved ahead 2 spots, before falling behind 3.  Lastly, she jumped ahead 1 spot to finish the race.  What place did she finish in?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Finley started off at 1st place but then lost 5 spots, which translates to 1+5= <<1+5=6>>6th place\nShe then moved ahead two spots, which is expressed as 6-2=<<6-2=4>>4th place\nShe then fell behind by 3 spots, which is expressed as 4+3=<<4+3=7>>7th place\nShe finished the race moving ahead 1 spot, which is expressed as 7-1=<<7-1=6>>6th place\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine Finley's final place in the 100-meter race, we need to track her position changes step by step. She started off in first place.\n\nShe then fell back 5 spots. Since she was in 1st place, moving back 5 spots would put her in 1 + 5 = 6th place. \n\nNext, she moved ahead 2 spots. Being in 6th place and moving ahead 2 spots would put her in 6 - 2 = 4th place.\n\nAfter that, she fell behind 3 spots. Since she was in 4th place, falling behind 3 spots would put her in 4 + 3 = 7th place.\n\nLastly, she jumped ahead 1 spot to finish the race. Being in 7th place and moving ahead 1 spot would put her in 7 - 1 = 6th place.\n\n#### 6th place",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine Finley's final place in the 100-meter race, we'll analyze her position changes step by step. Finley started off in first place. She then fell back 5 spots, which would put her in 1 + 5 = 6th place. Next, she moved ahead 2 spots, changing her position to 6 - 2 = 4th place. After that, she fell behind 3 spots, moving her to 4 + 3 = 7th place. Lastly, she jumped ahead 1 spot to finish the race, placing her in 7 - 1 = 6th place.\n\nGiven the sequence of position changes, Finley finished the race in 6th place. \n\n#### 6th place",
+			"retrievals": 2
+		}
+	]
+}

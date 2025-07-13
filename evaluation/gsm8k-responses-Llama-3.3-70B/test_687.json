@@ -1,0 +1,13 @@
+{
+	"task_id": 687,
+	"prompt": "Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the pair eat 10 of the cookies while they are cooling and put the rest in a box, how many cookies are there in the box?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Celinda bakes 30 cookies * 2 = <<30*2=60>>60 cookies.\nSo in total, Celinda and Greta bakes a total of 30 + 60 = <<30+60=90>>90 cookies.\nAfter eating some of the cookies, they have 90 baked cookies \u2013 10 eaten cookies = <<90-10=80>>80 cookies in the box.\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of cookies in the box, we first need to calculate the total number of cookies baked by both Greta and Celinda. Greta bakes 30 cookies. \n\nSince Celinda bakes twice as many cookies as Greta, we can calculate Celinda's cookies by multiplying Greta's cookies by 2. So, Celinda bakes 30 * 2 = 60 cookies.\n\nThe total number of cookies baked is the sum of Greta's and Celinda's cookies, which is 30 + 60 = 90 cookies.\n\nAfter baking, they eat 10 cookies while they are cooling. To find out how many cookies are left to put in the box, we subtract the number of cookies eaten from the total number of cookies baked. So, 90 - 10 = 80 cookies are left.\n\nThese 80 cookies are then put in the box. \n\n#### 80",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine the number of cookies in the box, we first need to calculate the total number of cookies baked by both Greta and Celinda. Greta bakes 30 cookies. Since Celinda bakes twice as many cookies as Greta, we calculate Celinda's cookies by multiplying Greta's cookies by 2. This calculation is necessary to understand how many cookies Celinda baked. So, Celinda bakes 30 * 2 = 60 cookies.\n\nThe total number of cookies baked is the sum of Greta's and Celinda's cookies, which is 30 + 60 = 90 cookies. This step is crucial as it gives us the overall number of cookies before any are eaten.\n\nAfter baking, they eat 10 cookies while they are cooling. To find out how many cookies are left to put in the box, we subtract the number of cookies eaten from the total number of cookies baked. So, 90 - 10 = 80 cookies are left. These 80 cookies are then put in the box.\n\n#### 80",
+			"retrievals": 0
+		}
+	]
+}

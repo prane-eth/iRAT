@@ -1,0 +1,13 @@
+{
+	"task_id": 763,
+	"prompt": "Jayden had $70 from selling pictures he took as a hobby.  His sister Ava gave him half of her $90 allowance to help him buy a new camera that costs $200. How much more does Jayden need to buy the camera?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ava gave $90/2 = $<<90/2=45>>45 to Jayden.\nJayden now has $70 + $45 = $<<70+45=115>>115\nSo, Jayden needs $200 - $115 = $<<200-115=85>>85 to buy the new camera\n#### 85",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more Jayden needs to buy the camera, we first need to calculate how much money he has in total after receiving help from his sister Ava. Jayden initially had $70.\n\nAva gave him half of her $90 allowance. To find out how much Ava gave Jayden, we calculate half of $90, which is $90 / 2 = $45.\n\n`\nNow, we add the amount Jayden had to the amount Ava gave him: $70 (Jayden's money) + $45 (Ava's contribution) = $115. This is the total amount of money Jayden has to buy the camera.\n\n`\nThe camera costs $200. To find out how much more Jayden needs, we subtract the total amount he has from the cost of the camera: $200 (camera cost) - $115 (Jayden's total money) = $85.\n\n#### $85",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the amount of money Ava gave to Jayden\nAva gave Jayden half of her $90 allowance. To find out how much she gave him, we need to calculate half of $90. Half of $90 is $90 / 2 = $45.\n\n## Step 2: Calculate the total amount of money Jayden has\nJayden had $70 from selling pictures, and Ava gave him $45. To find the total amount of money Jayden has, we add $70 and $45. $70 + $45 = $115.\n\n## Step 3: Determine how much more Jayden needs to buy the camera\nThe camera costs $200, and Jayden has $115. To find out how much more Jayden needs, we subtract the amount he has from the cost of the camera. $200 - $115 = $85.\n\n#### $85",
+			"retrievals": 2
+		}
+	]
+}

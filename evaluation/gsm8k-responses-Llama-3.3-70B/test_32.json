@@ -1,0 +1,13 @@
+{
+	"task_id": 32,
+	"prompt": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "To find the average guess, we first need to calculate each of the guesses made by Gunter's friends.\n\n1. The first friend guesses 80 jelly beans.\n2. The second friend guesses 20 more than half of the first friend's guess. Half of 80 is 40, and 20 more than that is 60.\n3. The third friend guesses 25% more than the first friend's guess. 25% of 80 is 20, so 25% more than 80 is 80 + 20 = 100.\n\nNow, we add up all the guesses: 80 (first friend) + 60 (second friend) + 100 (third friend) = 240.\n\nTo find the average, we divide the total by the number of guesses, which is 3. So, the average guess is 240 / 3 = 80.\n\n#### 80",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the average guess of Gunter's friends, we need to calculate each of their guesses and then find the average.\n\n## Step 1: Determine the first guess\nThe first friend guesses 80 jelly beans.\n\n## Step 2: Calculate the second guess\nThe second friend guesses 20 more than half of the first guess. Half of 80 is 40, and 20 more than that is 60.\n\n## Step 3: Calculate the third guess\nThe third friend guesses 25% more than the first guess. 25% of 80 is 20, so 25% more than 80 is 80 + 20 = 100.\n\n## Step 4: Calculate the average guess\nTo find the average guess, add the three guesses together and divide by 3. The sum is 80 + 60 + 100 = 240. Dividing by 3 gives an average of 80.\n\nThe final answer is: #### 80",
+			"retrievals": 2
+		}
+	]
+}

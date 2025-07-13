@@ -1,0 +1,13 @@
+{
+	"task_id": 291,
+	"prompt": "Ali is a superstar counter. He has won 22 medals for counting super fast. His friend Izzy is also a really good counter and has 5 less medals than Ali. Together they have 10 times less medals than have been given out for counting. How many medals have been given out for counting?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Izzy has 22-5=<<22-5=17>>17 medal\nMedals of Ali and Izzy 22+17=<<22+17=39>>39 medals\n10 times their medals is 39*10=<<10*39=390>>390 medals\n#### 390",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many medals have been given out for counting, we first need to determine how many medals Ali and Izzy have together. Ali has 22 medals, and Izzy has 5 less than Ali, which means Izzy has 22 - 5 = 17 medals.\n\n \nThe total number of medals Ali and Izzy have together is 22 (Ali's medals) + 17 (Izzy's medals) = 39 medals. We are told that together they have 10 times less medals than have been given out for counting. This can be represented as 39 = x / 10, where x is the total number of medals given out for counting.\n\n \nTo find x, we multiply both sides of the equation by 10, giving us x = 39 * 10 = 390. This means that the total number of medals given out for counting is 390.\n\n#### 390",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we need to understand the relationship between the number of medals Ali and his friend Izzy have, and the total number of medals given out for counting. \n\nAli has 22 medals, and Izzy has 5 less medals than Ali, which means Izzy has 22 - 5 = 17 medals. Together, they have 22 (Ali's medals) + 17 (Izzy's medals) = 39 medals.\n\nWe are told that together they have 10 times less medals than have been given out for counting. This can be represented as 39 = x / 10, where x is the total number of medals given out for counting. To find x, we multiply both sides of the equation by 10, giving us x = 39 * 10 = 390.\n\nThis means that the total number of medals given out for counting is 390.\n\n#### 390",
+			"retrievals": 2
+		}
+	]
+}

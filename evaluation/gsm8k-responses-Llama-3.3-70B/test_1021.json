@@ -1,0 +1,13 @@
+{
+	"task_id": 1021,
+	"prompt": "John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.\nOn Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.\nAltogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.\n#### 22",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many bananas John has, we need to calculate the total number of bananas he picked on each day and then add them together. \n\nFirst, we know John picked 4 bananas on Wednesday. Then, on Thursday, he picked 6 bananas. \n\nOn Friday, he picked triple the number of bananas he did on Wednesday. Since he picked 4 bananas on Wednesday, triple that amount is 4 * 3 = 12 bananas.\n\nNow, we add the bananas picked each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22 bananas.\n\n#### 22",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many bananas John has, we need to calculate the total number of bananas he picked on each day and then add them together. First, we know John picked 4 bananas on Wednesday. Then, on Thursday, he picked 6 bananas. On Friday, he picked triple the number of bananas he did on Wednesday. Since he picked 4 bananas on Wednesday, triple that amount is 4 * 3 = 12 bananas. Now, we add the bananas picked each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22 bananas. #### 22",
+			"retrievals": 1
+		}
+	]
+}

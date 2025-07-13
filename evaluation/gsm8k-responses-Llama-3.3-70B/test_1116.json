@@ -1,0 +1,13 @@
+{
+	"task_id": 1116,
+	"prompt": "Anna is trying to buy books for her local library. She had a budget of $16, and she has already spent $4. She also bought 2 books today, and both books cost her the same amount of money. If Anna has $2 left in her budget, how much did each of the books cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Anna had already spent some money, so she started the day with $16 \u2013 $4 = $<<16-4=12>>12.\nShe has money left in the budget, so she spent a total of $12 \u2013 $2 = $<<12-2=10>>10 on the books.\nTherefore each book cost her $10 / 2 = $<<10/2=5>>5.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much each book cost, we first need to determine the total amount Anna spent on the books. Anna started with a budget of $16 and had already spent $4 before buying the books. This means she had $16 - $4 = $12 left for the books and any other expenses.\n\nAfter buying the 2 books, Anna had $2 left in her budget. This implies that the total amount she spent on the books and any other expenses is $12 - $2 = $10. Since we are only considering the cost of the books, and there's no mention of any other expenses, we can assume the $10 was spent entirely on the books.\n\nGiven that both books cost the same amount of money, we can find the cost of each book by dividing the total amount spent on the books by the number of books. The total spent on the books is $10, and the number of books is 2.\n\nThe cost of each book is $10 / 2 = $5.\n\n#### $5",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much each book costs, we first need to determine how much Anna spent in total on the books. Anna started with a budget of $16 and had already spent $4 before buying the 2 books. This means she had $16 - $4 = $12 left when she bought the books. After buying the books, she had $2 left in her budget. \n\nSo, the amount she spent on the 2 books can be calculated by subtracting the remaining budget from the budget she had before buying the books: $12 - $2 = $10. Since both books cost the same amount of money, we can find the cost of each book by dividing the total amount spent on the books by the number of books. \n\nThe total spent on the books is $10, and the number of books is 2. Therefore, the cost per book is $10 / 2 = $5.\n\n#### $5",
+			"retrievals": 1
+		}
+	]
+}

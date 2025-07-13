@@ -1,0 +1,13 @@
+{
+	"task_id": 252,
+	"prompt": "Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. How many apps are on his tablet now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Travis had 61 - 9 = <<61-9=52>>52 apps after deleting the ones he didn't use.\nAfter downloading some more he now has 52 + 18 = <<52+18=70>>70 apps on his tablet.\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of apps on Travis's tablet now, we need to follow these steps:\n\n1. Start with the initial number of apps: 61\n2. Subtract the number of apps he deleted: 61 - 9 = 52\n3. Add the number of apps he downloaded: 52 + 18 = 70\n\nSo, after deleting 9 apps and downloading 18 more, Travis has 70 apps on his tablet.\n\n#### 70",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Identify the initial number of apps\nTravis initially had 61 apps on his tablet.\n\n## Step 2: Calculate the number of apps after deletion\nHe deleted 9 apps he didn't use anymore, so the number of apps left after deletion is 61 - 9 = 52.\n\n## Step 3: Calculate the total number of apps after downloading more\nThen, he downloaded 18 more apps, so the total number of apps now is 52 + 18 = 70.\n\n## Step 4: Determine the final number of apps\nAfter these transactions, Travis has a total of 70 apps on his tablet.\n\n#### 70",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/53",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef add(x: int, y: int):\n    \"\"\"Add two numbers x and y\n    >>> add(2, 3)\n    5\n    >>> add(5, 7)\n    12\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef add(x: int, y: int):\n    \"\"\"Add two numbers x and y\n    >>> add(2, 3)\n    5\n    >>> add(5, 7)\n    12\n    \"\"\"\n    return x + y\n\ndef subtract(x: int, y: int):\n    \"\"\"Subtract y from x\n    >>> subtract(10, 5)\n    5\n    >>> subtract(7, 3)\n    4\n    \"\"\"\n    return x - y\n\ndef multiply(x: int, y: int):\n    \"\"\"Multiply x and y\n    >>> multiply(4, 5)\n    20\n    >>> multiply(6, 7)\n    42\n    \"\"\"\n    return x * y\n\ndef divide(x: int, y: int):\n    \"\"\"Divide x by y\n    >>> divide(10, 2)\n    5.0\n    >>> divide(7, 3)\n    2.3333333333333335\n    \"\"\"\n    if y == 0:\n        raise ZeroDivisionError(\"Cannot divide by zero\")\n    return x / y\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "Here's a functional code in Python according to your description:\n\n```python\ndef add(x: int, y: int):\n    \"\"\"Add two numbers x and y\n    >>> add(2, 3)\n    5\n    >>> add(5, 7)\n    12\n    \"\"\"\n    try:\n        return x + y\n    except TypeError:\n        return \"Error: Both inputs must be numbers.\"\n\n# Example use cases:\nprint(add(2, 3))  # Output: 5\nprint(add(5, 7))  # Output: 12\n```\n\nThis Python function takes two integer arguments and returns their sum. If the inputs are not numbers, it catches the TypeError and returns an error message. You can use this function by calling it with two integer arguments, like `add(2, 3)` or `add(5, 7)`. The function will return the sum of the two numbers.",
+			"retrievals": 2
+		}
+	]
+}

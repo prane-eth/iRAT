@@ -1,0 +1,13 @@
+{
+	"task_id": 1165,
+	"prompt": "Cole hid 3 dozen eggs in the yard for the Easter egg hunt.  Lamar finds 5 eggs. Stacy finds twice as many as Lamar.  Charlie finds 2 less than Stacy.  And Mei finds half as many as Charlie.  How many eggs are still hidden in the yard?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cole hides 3 x 12 = <<3*12=36>>36 eggs.\nLamar finds 5 eggs.\nStacy finds 5 x 2 = <<5*2=10>>10 eggs.\nCharlie finds 10 - 2 = <<10-2=8>>8 eggs.\nMei finds 8 / 2 = <<8/2=4>>4 eggs.\nThe children find a total of 5 + 10 + 8 + 4 = <<5+10+8+4=27>>27 eggs.\nThe total number of hidden eggs still in the yard is 36 - 27 = <<36-27=9>>9 eggs.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to determine the total number of eggs hidden in the yard. Cole hid 3 dozen eggs, which is equivalent to 3 * 12 = 36 eggs.\n\nLamar finds 5 eggs. Stacy finds twice as many as Lamar, so Stacy finds 2 * 5 = 10 eggs. Charlie finds 2 less than Stacy, which means Charlie finds 10 - 2 = 8 eggs. Mei finds half as many as Charlie, so Mei finds 8 / 2 = 4 eggs.\n\nNow, we need to calculate the total number of eggs found by all the children. Lamar found 5 eggs, Stacy found 10 eggs, Charlie found 8 eggs, and Mei found 4 eggs. So, the total number of eggs found is 5 + 10 + 8 + 4 = 27 eggs.\n\nTo find out how many eggs are still hidden in the yard, we subtract the total number of eggs found from the total number of eggs hidden. The total number of eggs hidden was 36, and 27 eggs were found.\n\nThe number of eggs still hidden in the yard is 36 - 27 = 9 eggs.\n\n#### 9",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how many eggs are still hidden in the yard, we first need to calculate the total number of eggs hidden by Cole. Since Cole hid 3 dozen eggs, and 1 dozen equals 12 eggs, the total number of eggs hidden is 3 * 12 = 36 eggs.\n\nNext, we determine the number of eggs found by each participant. Lamar finds 5 eggs. Stacy finds twice as many eggs as Lamar, so Stacy finds 2 * 5 = 10 eggs. Charlie finds 2 less than Stacy, meaning Charlie finds 10 - 2 = 8 eggs. Lastly, Mei finds half as many eggs as Charlie, so Mei finds 8 / 2 = 4 eggs.\n\nNow, we calculate the total number of eggs found by all the participants. The total number of eggs found is 5 (Lamar) + 10 (Stacy) + 8 (Charlie) + 4 (Mei) = 27 eggs.\n\nTo find out how many eggs are still hidden in the yard, we subtract the total number of eggs found from the total number of eggs originally hidden. Therefore, 36 (total hidden) - 27 (total found) = 9 eggs.\n\n#### 9",
+			"retrievals": 2
+		}
+	]
+}

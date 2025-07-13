@@ -1,0 +1,13 @@
+{
+	"task_id": 875,
+	"prompt": "Ella earned $33 for 3 hours of dog walking. If she continues to walk dogs at the same rate, how much would she earn after 12 hours?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ella earned $33 / 3 hours of dog walking = $<<33/3=11>>11 per hour.\nSo for 12 hours of dog walking, Ella would earn $11 x 12 = $<<12*11=132>>132.\n#### 132",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Ella would earn after 12 hours of dog walking, we first need to determine her hourly rate. We know that she earned $33 for 3 hours of work. \n\nWe can calculate her hourly rate by dividing the total amount she earned ($33) by the number of hours she worked (3 hours). So, her hourly rate is $33 / 3 = $11 per hour.\n\nNow that we know Ella's hourly rate, we can calculate how much she would earn after 12 hours of dog walking. We multiply her hourly rate ($11) by the number of hours she works (12 hours). \n\nThe total amount she would earn after 12 hours is $11 * 12 = $132.\n\n#### $132",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, we first need to find Ella's hourly rate. We",
+			"retrievals": 2
+		}
+	]
+}

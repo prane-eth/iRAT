@@ -1,0 +1,13 @@
+{
+	"task_id": 1140,
+	"prompt": "Russell orders his favorite bagels online.  Each pack of bagels costs $10.00 and has 9 bagels in the pack.  If he orders 4 packs of bagels, he will receive a 10% discount.  After ordering 4 bags, how much will each single bagel cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He orders 4 packs of bagels and each pack costs $10.00 so that's 4*10 = $<<4*10=40.00>>40.00\nHe orders 4 packs at $40.00 and receives a 10% discount so his discount is 40*.10 = $4.00\nThe bagels cost $40.00 and he has a $4.00 discount making his total 40-4 = $<<40-4=36.00>>36.00\nEach pack of bagels has 9 bagels per pack and he orders 4 packs so that's 9*4 = <<9*4=36>>36 bagels\nHis order total was $36.00 and there are 36 bagels so each bagel costs 36/36 = $<<36/36=1.00>>1.00\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of each single bagel after ordering 4 packs with a 10% discount, we first need to calculate the total cost of the 4 packs before the discount. Each pack costs $10.00, so 4 packs will cost 4 * $10.00 = $40.00.\n\n \nThe 10% discount on $40.00 can be calculated as 0.10 * $40.00 = $4.00. Therefore, the total cost after applying the discount will be $40.00 - $4.00 = $36.00.\n\n \nSince each pack contains 9 bagels, ordering 4 packs means Russell will receive 4 * 9 = 36 bagels. To find the cost of each single bagel, we divide the total cost after the discount by the total number of bagels: $36.00 / 36 bagels = $1.00 per bagel.\n\n#### $1.00",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the cost of each single bagel after ordering 4 packs with a 10% discount, we first calculate the total cost of the 4 packs before the discount. Each pack costs $10.00, so 4 packs will cost 4 * $10.00 = $40.00. The 10% discount on $40.00 is 0.10 * $40.00 = $4.00. Therefore, the total cost after the discount is $40.00 - $4.00 = $36.00.\n\nSince each pack contains 9 bagels, ordering 4 packs means Russell will receive 4 * 9 = 36 bagels. To find the cost of each single bagel, we divide the total cost after the discount by the total number of bagels: $36.00 / 36 bagels = $1.00 per bagel.\n\n#### $1.00",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 113,
+	"prompt": "A classroom has a whiteboard which is shared between the 4 teachers who take turns using the classroom. Each teacher has 2 lessons per day and uses the whiteboard in each lesson. If the whiteboard is cleaned 3 times per lesson, how many times is the whiteboard cleaned in a day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In one day, there are a total of 4 teachers * 2 lessons each = <<4*2=8>>8 lessons.\nThe whiteboard is therefore cleaned 8 lessons * 3 cleans per lesson = <<8*3=24>>24 times.\n#### 24",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how many times the whiteboard is cleaned in a day, we first need to establish how many lessons are taught in the classroom by all teachers in a day and then calculate the cleaning frequency per lesson.\n\nGiven:\n- Each teacher has 2 lessons per day.\n- There are 4 teachers.\n- The whiteboard is cleaned 3 times per lesson.\n\nTotal lessons per day = 4 teachers * 2 lessons per teacher = 8 lessons per day.\n\nSince the whiteboard is cleaned 3 times per lesson, the total number of times the whiteboard is cleaned in a day is:\n8 lessons per day * 3 cleanings per lesson = 24 cleanings per day.\n\n#### 24\n\n#### 24",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how many times the whiteboard is cleaned in a day, we first need to calculate the total number of lessons taught in the classroom by all teachers in a day. Since there are 4 teachers and each teacher has 2 lessons per day, the total number of lessons per day is 4 teachers * 2 lessons = 8 lessons.\n\nGiven that the whiteboard is cleaned 3 times per lesson, we then multiply the total number of lessons in a day by the number of times the whiteboard is cleaned per lesson. So, 8 lessons * 3 cleanings per lesson = 24 cleanings.\n\n#### 24",
+			"retrievals": 2
+		}
+	]
+}

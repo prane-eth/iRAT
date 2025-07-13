@@ -1,0 +1,13 @@
+{
+	"task_id": 649,
+	"prompt": "Howie wants to buy cupcakes for everyone in his class as a special treat. He's not sure if people will want vanilla or chocolate cupcakes so he decides to get one of each for everyone. If he gets the same amount of 2 cupcakes for each himself, his teacher, and his 25 classmates, how many cupcakes should Howie buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Howie wants to get cupcakes for his 25 classmates + his 1 teacher + 1 himself = <<25+1+1=27>>27 people.\nHe wants to get 2 cupcakes for everyone, so 27 people x 2 cupcakes each = <<27*2=54>>54 cupcakes that Howie should buy.\n#### 54",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of cupcakes Howie should buy, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of cupcakes Howie should buy, we first need to determine the total number of people he is buying cupcakes for. This includes himself, his teacher, and his 25 classmates. So, the total number of people is 1 (Howie) + 1 (teacher) + 25 (classmates) = 27 people.\n\nSince Howie wants to get one vanilla and one chocolate cupcake for each person, he needs to buy 2 cupcakes for each of the 27 people. Therefore, the total number of cupcakes he should buy is 2 * 27 = 54 cupcakes.\n\n#### 54",
+			"retrievals": 0
+		}
+	]
+}

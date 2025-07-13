@@ -1,0 +1,13 @@
+{
+	"task_id": 679,
+	"prompt": "Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Karen earns $10 x 2 = $<<10*2=20>>20 per hour.\nSo she earns $20 x 3 = $<<20*3=60>>60 per day.\nThus, she earns $60 x 2 = $<<60*2=120>>120 in two days.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Karen earns in two days, we first need to determine her hourly wage. Since Karen earns twice what Lorie earns, and Lorie earns $10 per hour, we can calculate Karen's hourly wage by multiplying Lorie's hourly wage by 2.\n\nKaren's hourly wage = 2 * Lorie's hourly wage = 2 * $10 = $20 per hour.\n\nNext, we need to calculate how many hours Karen works in two days. We know she works 3 hours per day. So, in two days, she works 3 hours/day * 2 days = 6 hours.\n\nNow, we can calculate Karen's total earnings for two days by multiplying her hourly wage by the total number of hours she works in two days.\n\nTotal earnings = hourly wage * total hours worked = $20 * 6 = $120.\n\n#### $120",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how much Karen earns in two days, we first need to determine her hourly wage. Since Karen earns twice what Lorie earns, and Lorie earns $10 per hour, we can calculate Karen's hourly wage by multiplying Lorie's hourly wage by 2. Karen's hourly wage = 2 * Lorie's hourly wage = 2 * $10 = $20 per hour. \n\nNext, we need to calculate how many hours Karen works in two days. We know she works 3 hours per day. So, in two days, she works 3 hours/day * 2 days = 6 hours.\n\nNow, we can calculate Karen's total earnings for two days by multiplying her hourly wage by the total number of hours she works in two days. Total earnings = hourly wage * total hours worked = $20 * 6 = $120.\n\n#### $120",
+			"retrievals": 0
+		}
+	]
+}

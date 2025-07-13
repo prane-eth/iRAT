@@ -1,0 +1,13 @@
+{
+	"task_id": 1088,
+	"prompt": "A farmer is baling hay in their field. Each hour the farmer makes 5 bales. At the same time, a truck is picking the hay bales up. Each hour the truck picks up 3 bales of hay. If the farmer and the truck driver put in a 6 hour day, how many bales of hay are left in the field?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The farmer makes 5*6= <<5*6=30>>30 bales of hay.\nThe truck takes away 3*6= <<3*6=18>>18 bales of hay.\nThere are 30-18= <<30-18=12>>12 bales of hay left in the field.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many bales of hay are left in the field, we first need to calculate the total number of bales the farmer makes in a 6-hour day. The farmer makes 5 bales each hour. \n\nSo, the total number of bales made by the farmer in 6 hours = 5 bales/hour * 6 hours = 30 bales.\n\n`\n \nNext, we calculate the total number of bales picked up by the truck in a 6-hour day. The truck picks up 3 bales each hour. \n\nSo, the total number of bales picked up by the truck in 6 hours = 3 bales/hour * 6 hours = 18 bales.\n\n`\n \nTo find out how many bales of hay are left in the field, we subtract the total number of bales picked up by the truck from the total number made by the farmer. \n\nBales left = Total bales made - Total bales picked up = 30 bales - 18 bales = 12 bales.\n\n#### 12",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many bales of hay are left in the field, we first need to calculate the total number of bales the farmer makes in a 6-hour day. The farmer makes 5 bales each hour. So, the total number of bales made by the farmer in 6 hours = 5 bales/hour * 6 hours = 30 bales.\n\nNext, we calculate the total number of bales picked up by the truck in a 6-hour day. The truck picks up 3 bales each hour. So, the total number of bales picked up by the truck in 6 hours = 3 bales/hour * 6 hours = 18 bales.\n\nTo find out how many bales of hay are left in the field, we subtract the total number of bales picked up by the truck from the total number made by the farmer. Bales left = Total bales made - Total bales picked up = 30 bales - 18 bales = 12 bales.\n\n#### 12",
+			"retrievals": 2
+		}
+	]
+}

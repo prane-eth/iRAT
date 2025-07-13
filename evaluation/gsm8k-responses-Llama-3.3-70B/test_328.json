@@ -1,0 +1,13 @@
+{
+	"task_id": 328,
+	"prompt": "Oscar has 24 lollipops and eats 2 on his way to school.  He passes 14 out to his friends.  He buys twice as many lollipops on his way home as he gave to his friends.  He eats 3 more that night and 2 more in the morning.  How many lollipops does Oscar have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He has 24 lollipops, eats 2 and passes 14 out to his friends so that\u2019s 24-2-14 = <<24-2-14=8>>8 lollipops are left\nOn his way home he buys twice the amount of the 14 that he passed out so he bought 2*14 = <<2*14=28>>28 lollipops\nHe now has 8+28 = <<8+28=36>>36 lollipops\nHe has 36, eats 3 that night and 2 more in the morning leaving him with 36-3-2 = <<36-3-2=31>>31 lollipops\n#### 31",
+	"responses": [
+		{
+			"old_rat_answer": "Oscar starts with 24 lollipops. He eats 2 on his way to school, so he has 24 - 2 = 22 lollipops left. Then, he passes 14 out to his friends, leaving him with 22 - 14 = 8 lollipops. \n\nOn his way home, he buys twice as many lollipops as he gave to his friends. Since he gave 14 lollipops to his friends, he buys 2 * 14 = 28 lollipops. Now, he has 8 + 28 = 36 lollipops.\n\nThat night, he eats 3 more lollipops, leaving him with 36 - 3 = 33 lollipops. The next morning, he eats 2 more, so he has 33 - 2 = 31 lollipops left.\n\n#### 31",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the initial number of lollipops Oscar has after eating 2 on his way to school.\nOscar starts with 24 lollipops and eats 2 on his way to school, leaving him with 24 - 2 = 22 lollipops.\n\n## Step 2: Calculate the number of lollipops Oscar has after passing some out to his friends.\nHe passes 14 lollipops out to his friends, leaving him with 22 - 14 = 8 lollipops.\n\n## Step 3: Determine the number of lollipops Oscar buys on his way home.\nOscar buys twice as many lollipops as he gave to his friends, which is 2 * 14 = 28 lollipops.\n\n## Step 4: Calculate the total number of lollipops Oscar has after buying more.\nAfter buying 28 more lollipops, Oscar now has 8 + 28 = 36 lollipops.\n\n## Step 5: Calculate the number of lollipops Oscar has after eating 3 more that night and 2 more in the morning.\nOscar eats 3 more lollipops that night, leaving him with 36 - 3 = 33 lollipops. Then, he eats 2 more in the morning, leaving him with 33 - 2 = 31 lollipops.\n\n#### 31",
+			"retrievals": 1
+		}
+	]
+}

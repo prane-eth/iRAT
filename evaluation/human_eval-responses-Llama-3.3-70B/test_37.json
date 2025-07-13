@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/36",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef fizz_buzz(n: int):\n    \"\"\"Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.\n    >>> fizz_buzz(50)\n    0\n    >>> fizz_buzz(78)\n    2\n    >>> fizz_buzz(79)\n    3\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef fizz_buzz(n: int):\n    \"\"\"\n    Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.\n    \n    Parameters:\n    n (int): The upper limit for the range of integers.\n    \n    Returns:\n    int: The total count of the digit 7.\n    \"\"\"\n    count = 0  # Initialize a counter variable to keep track of the occurrences of the digit 7.\n    \n    # Iterate over all integers less than n.\n    for i in range(n):\n        # Check if the integer is divisible by 11 or 13.\n        if i % 11 == 0 or i % 13 == 0:\n            # Convert the integer to a string to easily count the occurrences of the digit '7'.\n            str_i = str(i)\n            # Count the occurrences of '7' in the string representation of the integer.\n            count += str_i.count('7')\n    \n    return count\n\n# Test cases\nprint(fizz_buzz(50))  # Expected output: 0\nprint(fizz_buzz(78))  # Expected output: 2\nprint(fizz_buzz(79))  # Expected output: 3\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef fizz_buzz(n: int):\n    \"\"\"Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.\n    >>> fizz_buzz(50)\n    0\n    >>> fizz_buzz(78)\n    2\n    >>> fizz_buzz(79)\n    3\n    \"\"\"\n    count = 0\n    for i in range(n):\n        if i % 11 == 0 or i % 13 == 0:\n            count += str(i).count('7')\n    return count\n```\n\nThis function works by iterating over all integers less than `n`. If an integer is divisible by 11 or 13, it converts the integer to a string and counts the number of times the digit '7' appears in the string. The total count of '7's is then returned.",
+			"retrievals": 3
+		}
+	]
+}

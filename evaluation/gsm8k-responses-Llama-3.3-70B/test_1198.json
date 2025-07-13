@@ -1,0 +1,13 @@
+{
+	"task_id": 1198,
+	"prompt": "John buys 10 bottles of scotch for a total cost of $600.  He also buys twice as many bottles of cognac that cost 50% more per bottle.  How much does he spend on everything?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The scotch cost $600/10=$<<600/10=60>>60 each\nHe bought 10*2=<<10*2=20>>20 bottles of cognac\nEach bottle cost .5*60=$<<.5*60=30>>30 more than the scotch\nSo they cost $60+$30=$<<60+30=90>>90\nThat means he spent $90*20=$<<90*20=1800>>1800 on the cognac\nSo he spent a total of $600+$1800=$<<600+1800=2400>>2400\n#### 2400",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much John spends on everything, we first need to calculate the cost of the scotch and then the cost of the cognac. John buys 10 bottles of scotch for a total cost of $600. \n\nThis means the cost per bottle of scotch is $600 / 10 = $60. Since the bottles of cognac cost 50% more per bottle than the scotch, the cost per bottle of cognac is $60 * 1.5 = $90.\n\nJohn buys twice as many bottles of cognac as scotch, so he buys 10 * 2 = 20 bottles of cognac. The total cost for the cognac is 20 * $90 = $1800.\n\nThe total amount John spends is the cost of the scotch plus the cost of the cognac, which is $600 + $1800 = $2400.\n\n#### $2400",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much John spends on everything, we first need to calculate the cost of the scotch. John buys 10 bottles of scotch for a total cost of $600. This means the cost per bottle of scotch is $600 / 10 = $60.\n\nNext, we calculate the cost per bottle of cognac. Since the bottles of cognac cost 50% more per bottle than the scotch, the cost per bottle of cognac is $60 * 1.5 = $90.\n\nThen, we determine the number of bottles of cognac John buys and calculate the total cost. John buys twice as many bottles of cognac as scotch, so he buys 10 * 2 = 20 bottles of cognac. The total cost for the cognac is 20 * $90 = $1800.\n\nFinally, we calculate the total amount John spends, which is the cost of the scotch plus the cost of the cognac, totaling $600 + $1800 = $2400.\n\n#### $2400",
+			"retrievals": 2
+		}
+	]
+}

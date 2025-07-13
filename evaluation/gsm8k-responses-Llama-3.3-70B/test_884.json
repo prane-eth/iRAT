@@ -1,0 +1,13 @@
+{
+	"task_id": 884,
+	"prompt": "Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The concert, minus the encore, lasted for 65-minute concert \u2013 15-minute encore = <<65-15=50>>50 minutes.\nThis is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the length of Elaina's usual concerts, we first need to determine the total length of the final concert without the encore. We know that the final concert, including the encore, is 65 minutes long. Since the encore is 15 minutes, we subtract this from the total length to find the length of the concert before the encore.\n\nThe length of the concert before the encore is 65 - 15 = 50 minutes. \n\nWe are told that this final concert is twice as long as her usual concerts. Let's denote the length of her usual concerts as x. Therefore, the equation to represent the length of the final concert before the encore is 2x = 50.\n\nTo find the length of her usual concerts (x), we divide both sides of the equation by 2. So, x = 50 / 2 = 25.\n\n#### 25",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the problem\nThe problem is asking us to find the length of Elaina's usual concerts. We are given that her final concert is twice as long as her usual concerts, and it includes a 15-minute encore. The total runtime of the final concert is 65 minutes.\n\n## Step 2: Set up the equation\nLet's denote the length of Elaina's usual concerts as x. Since the final concert is twice as long as her usual concerts, the length of the final concert without the encore is 2x. Adding the 15-minute encore, we get the equation: 2x + 15 = 65.\n\n## Step 3: Solve the equation\nTo find the value of x, we need to solve the equation 2x + 15 = 65. Subtracting 15 from both sides, we get 2x = 50. Dividing both sides by 2, we get x = 25.\n\n## Step 4: Conclusion\nThe length of Elaina's usual concerts is 25 minutes.\n\n#### 25",
+			"retrievals": 1
+		}
+	]
+}

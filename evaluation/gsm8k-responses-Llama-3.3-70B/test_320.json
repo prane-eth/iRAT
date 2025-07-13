@@ -1,0 +1,13 @@
+{
+	"task_id": 320,
+	"prompt": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 1:3. If the total number of electric wires needed to connect the electricity in the neighborhood is 45, calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total ratio representing the number of electric poles and wires is 1+3=<<1+3=4>>4\nThe fraction representing the number of wires required to connect the neighborhood's electricity is <<3/4=3/4>>3/4\nIf 3/4 represents 45, the number of wires required for the connections, then the total fraction which is 4/4, representing the poles and wires needed, represents 4/4*45*4/3=60\nSince the total number of wires and poles required is 60, and the number of electric wires to be used is 45, the number of poles required is 60-45=<<60-45=15>>15\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total number of electric poles required, we first need to understand the given ratio of electric poles to electric wires, which is 1:3. This means that for every 1 electric pole, 3 electric wires are needed.\n\nGiven that the total number of electric wires needed is 45, we can use the ratio to find the number of electric poles. Since the ratio of poles to wires is 1:3, we can divide the total number of wires by 3 to find the number of poles. \n\nSo, the total number of electric poles required is 45 / 3 = 15.\n\n#### 15",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of electric poles required, we first need to understand the given ratio of electric poles to electric wires, which is 1:3. This means for every 1 electric pole, there are 3 electric wires. Given that the total number of electric wires needed is 45, we can set up a proportion to find the number of electric poles.\n\nLet's denote the number of electric poles as P and the number of electric wires as W. According to the ratio, P:W = 1:3. We know W = 45. To find P, we can set up the equation based on the ratio:\n\nP/W = 1/3\nP/45 = 1/3\n\nTo solve for P, we multiply both sides of the equation by 45:\n\nP = 45 * (1/3)\nP = 15\n\nTherefore, the total number of electric poles required by the electric company to supply electricity in the neighborhood is 15.\n\n#### 15",
+			"retrievals": 2
+		}
+	]
+}

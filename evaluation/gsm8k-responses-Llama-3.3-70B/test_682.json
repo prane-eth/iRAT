@@ -1,0 +1,13 @@
+{
+	"task_id": 682,
+	"prompt": "Katarina has 5 less cookies than Max has. Max has 12 more cookies than the Cookie Monster, and Summer has 23 more cookies than Max. If Katarina has 68 cookies, how many cookies do they have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Max\u2019s has a total of 68+5 = <<68+5=73>>73 cookies.\nCookie Monster\u2019s total amount of cookies is 73-12 = <<73-12=61>>61.\nSummer\u2019s total cookie amount is 73+23 = <<73+23=96>>96.\nTotal amount of cookies 68+73+61+96 = <<68+73+61+96=298>>298.\n#### 298",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of cookies, we first need to determine the number of cookies each person has. We know that Katarina has 68 cookies. Since Katarina has 5 less cookies than Max, we can calculate the number of cookies Max has by adding 5 to Katarina's total. \n\nMax's cookies = Katarina's cookies + 5 = 68 + 5 = 73.\n\n`\nNow that we know Max has 73 cookies, we can find out how many cookies the Cookie Monster has. Since Max has 12 more cookies than the Cookie Monster, we subtract 12 from Max's total to find the Cookie Monster's total.\n\nCookie Monster's cookies = Max's cookies - 12 = 73 - 12 = 61.\n\n`\nNext, we calculate the number of cookies Summer has. Summer has 23 more cookies than Max, so we add 23 to Max's total.\n\nSummer's cookies = Max's cookies + 23 = 73 + 23 = 96.\n\n`\nFinally, to find the total number of cookies, we add up the cookies that Katarina, Max, the Cookie Monster, and Summer have.\n\nTotal cookies = Katarina's cookies + Max's cookies + Cookie Monster's cookies + Summer's cookies = 68 + 73 + 61 + 96 = 298.\n\n#### 298",
+			"old_rat_retrievals": 9,
+			"final_answer": "## Step 1: Determine the number of cookies Max has\nSince Katarina has 5 less cookies than Max, and Katarina has 68 cookies, we can find the number of cookies Max has by adding 5 to Katarina's total. So, Max has 68 + 5 = 73 cookies.\n\n## Step 2: Calculate the number of cookies the Cookie Monster has\nGiven that Max has 12 more cookies than the Cookie Monster, we subtract 12 from Max's total to find the Cookie Monster's total. Therefore, the Cookie Monster has 73 - 12 = 61 cookies.\n\n## Step 3: Find the number of cookies Summer has\nSummer has 23 more cookies than Max. Since Max has 73 cookies, Summer has 73 + 23 = 96 cookies.\n\n## Step 4: Calculate the total number of cookies they all have\nTo find the total number of cookies, we add the number of cookies each person has: Katarina's 68 cookies + Max's 73 cookies + the Cookie Monster's 61 cookies + Summer's 96 cookies. Total = 68 + 73 + 61 + 96 = 298 cookies.\n\n#### 298",
+			"retrievals": 2
+		}
+	]
+}

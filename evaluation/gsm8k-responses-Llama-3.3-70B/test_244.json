@@ -1,0 +1,13 @@
+{
+	"task_id": 244,
+	"prompt": "Jason has a phone plan of 1000 minutes per month. Every day he has a 15-minute call with his boss, and he's had 300 extra minutes of call this month to other people. How many minutes does Jason have left if this month has 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total time Jason spends calling his boss: 15 minutes/call * 30 calls/month = <<15*30=450>>450 minutes\nThen subtract the minutes Jason has already used to find how many he has left: 1000 minutes - 450 minutes - 300 minutes = <<1000-450-300=250>>250 minutes\n#### 250",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many minutes Jason has left, we first need to calculate the total minutes he has used.\n\n1. He has a 15-minute call with his boss every day. Since this month has 30 days, the total minutes used for these calls are 15 minutes * 30 days = 450 minutes.\n2. He also had 300 extra minutes of calls to other people.\n\nTotal minutes used = 450 minutes (calls with his boss) + 300 minutes (calls to other people) = 750 minutes.\n\nSince Jason's phone plan includes 1000 minutes per month, we subtract the total minutes used from the total minutes in his plan to find out how many minutes he has left.\n\nMinutes left = 1000 minutes (total plan) - 750 minutes (total used) = 250 minutes.\n\n#### 250",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many minutes Jason has left, we first need to calculate the total minutes he has used. The daily calls with his boss, which last 15 minutes and occur every day for 30 days, amount to 15 minutes * 30 days = 450 minutes. Furthermore, Jason has made 300 extra minutes of calls to other people. Therefore, the total minutes used for all calls would be 450 minutes (to his boss) + 300 minutes (to other people) = 750 minutes.\n\nGiven that Jason's phone plan includes 1000 minutes per month, we subtract the total minutes used from his monthly limit to find out how many minutes he has left: 1000 minutes - 750 minutes = 250 minutes.\n\nSo, Jason has 250 minutes left in his phone plan for the month.\n\n#### 250",
+			"retrievals": 2
+		}
+	]
+}

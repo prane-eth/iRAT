@@ -1,0 +1,13 @@
+{
+	"task_id": 201,
+	"prompt": "Baldur gets water from a well. He gets 5 pails of water every morning and 6 pails of water every afternoon. If each pail contains 5 liters of water, how many liters of water does he get every day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Baldur gets 5 x 5 = <<5*5=25>>25 liters of water in the morning.\nHe gets 6 x 5 = <<6*5=30>>30 liters of water in the afternoon.\nTherefore, the total liters of water he gets every day is 30 + 25 = <<30+25=55>>55.\n#### 55",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of water Baldur gets every day, we first need to calculate the total number of pails he gets in a day. \nHe gets 5 pails of water every morning and 6 pails of water every afternoon.\n\nSo, the total number of pails per day is 5 (morning) + 6 (afternoon) = 11 pails.\n\nEach pail contains 5 liters of water. \nTo find the total liters of water, we multiply the total number of pails by the liters each pail contains: 11 pails * 5 liters/pail = 55 liters.\n\n#### 55 liters",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount of water Baldur gets every day, we need to calculate the amount of water he gets in the morning and the afternoon, and then add these two amounts together. \n\nIn the morning, Baldur gets 5 pails of water, and each pail contains 5 liters of water. So, the total amount of water he gets in the morning is 5 pails * 5 liters/pail = 25 liters.\n\nIn the afternoon, Baldur gets 6 pails of water, and each pail also contains 5 liters of water. So, the total amount of water he gets in the afternoon is 6 pails * 5 liters/pail = 30 liters.\n\nNow, we add the amount of water he gets in the morning and the afternoon to find the total amount of water he gets every day: 25 liters + 30 liters = 55 liters.\n\n#### 55",
+			"retrievals": 2
+		}
+	]
+}

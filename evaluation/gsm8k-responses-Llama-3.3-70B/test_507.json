@@ -1,0 +1,13 @@
+{
+	"task_id": 507,
+	"prompt": "Mario needs to buy snowshoes for his 6 sled dogs.  Assuming his dogs each has four legs and each pair of snowshoes costs $12.00, how much will it cost him to buy snowshoes for all of his dogs?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Dogs have 4 legs and a pair is 2 legs so each dog has 4/2 = <<4/2=2>>2 pair of legs\nThere are 6 dogs and they each have 2 pair of legs so they have 6*2 = <<6*2=12>>12 pair of legs\nThe snowshoes cost $12 per pair and he needs to buy 12 pairs so he will spend 12*12 = $<<12*12=144>>144 on snowshoes\n#### 144",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of snowshoes for Mario's sled dogs, we need to determine the total number of snowshoes required. Each dog has four legs, and since snowshoes are sold in pairs, we need to calculate the number of pairs needed for each dog.\n\nEach dog has 4 legs, which means they need 2 pairs of snowshoes (one pair for the front legs and one pair for the back legs). Since Mario has 6 sled dogs, the total number of pairs of snowshoes needed is 6 dogs * 2 pairs/dog = 12 pairs.\n\nEach pair of snowshoes costs $12.00. To find the total cost, we multiply the number of pairs needed by the cost per pair: 12 pairs * $12.00/pair = $144.00.\n\n#### $144.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To calculate the total cost of snowshoes for Mario's sled dogs, we need to determine the total number of snowshoes required. Each dog has four legs, and since snowshoes are sold in pairs, we need to calculate the number of pairs needed for each dog. Each dog has 4 legs, which means they need 2 pairs of snowshoes (one pair for the front legs and one pair for the back legs). Since Mario has 6 sled dogs, the total number of pairs of snowshoes needed is 6 dogs * 2 pairs/dog = 12 pairs.\n\nEach pair of snowshoes costs $12.00. To find the total cost, we multiply the number of pairs needed by the cost per pair: 12 pairs * $12.00/pair = $144.00. \n#### $144.00",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 422,
+	"prompt": "There were 50 cats on a rock. Four boats came and carried away 5 cats each, and later, 3/5 of the remaining cats ran after a mouse they'd seen. How many cats were left on the rock?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "When four boats carried away 5 cats each, the total number of cats that left the rock is 4*5 = <<4*5=20>>20 cats.\nThe number of cats remaining on the rock became 50-20 = <<50-20=30>>30.\nLater 3/5 of the remaining cats left the rock and ran after a mouse, a total of 3/5*30 = <<3/5*30=18>>18 cats.\nThe number of cats that remained on the rock is 30-18 = <<30-18=12>>12 cats\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cats were left on the rock, we first need to calculate the number of cats carried away by the boats. Since four boats came and each carried away 5 cats, the total number of cats carried away is 4 boats * 5 cats/boat = 20 cats.\n\n \nThe initial number of cats on the rock was 50. After 20 cats were carried away, the remaining number of cats is 50 - 20 = 30 cats.\n\n \nThen, 3/5 of the remaining cats ran after a mouse. To find out how many cats ran after the mouse, we calculate 3/5 * 30 = 18 cats.\n\n \nFinally, to find out how many cats were left on the rock, we subtract the number of cats that ran after the mouse from the remaining cats after the boats left. So, 30 - 18 = 12 cats were left on the rock.\n\n#### 12",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many cats were left on the rock, we first need to calculate the number of cats that were carried away by the boats. Since each boat carried away 5 cats and there were 4 boats, the total number of cats carried away is 5 * 4 = 20 cats.\n\nNext, we subtract the number of cats carried away from the initial number of cats to find out how many cats remained on the rock. So, 50 - 20 = 30 cats remained on the rock after the boats left.\n\nThen, 3/5 of the remaining cats ran after a mouse. To find out how many cats ran after the mouse, we calculate 3/5 * 30 = 18 cats.\n\nFinally, to find out how many cats were left on the rock, we subtract the number of cats that ran after the mouse from the number of cats that remained after the boats left. So, 30 - 18 = 12 cats.\n\n#### 12",
+			"retrievals": 2
+		}
+	]
+}

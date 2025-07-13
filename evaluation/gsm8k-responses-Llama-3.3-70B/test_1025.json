@@ -1,0 +1,13 @@
+{
+	"task_id": 1025,
+	"prompt": "Suzanne sold 80 cookies for $1 each and 60 cupcakes for $4 each. She gave her two sisters $10 each for helping her. How much money does she have left from her earnings?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Suzzane's revenue from the cookies is 80 x $1 = $<<80*1=80>>80.\nHer revenue from the cupcakes is 60 x $4 = $<<60*4=240>>240.\nHer total revenue for the cupcakes and cookies is $240 + $80 = $<<240+80=320>>320.\nShe gave a total of 10 x 2 = $<<10*2=20>>20 to her sisters for helping her,\nSo, Suzzane has $32 - $20 = $300 left.\n#### 300",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Suzanne has left from her earnings, we first need to calculate the total amount of money she earned from selling cookies and cupcakes. \nShe sold 80 cookies for $1 each, so the total amount of money earned from cookies is 80 * $1 = $80.\nShe also sold 60 cupcakes for $4 each, so the total amount of money earned from cupcakes is 60 * $4 = $240.\n\nThe total amount of money Suzanne earned is the sum of the money earned from cookies and cupcakes, which is $80 + $240 = $320.\n\nSuzanne gave her two sisters $10 each for helping her, so the total amount of money she gave away is 2 * $10 = $20.\n\nTo find out how much money Suzanne has left, we subtract the amount of money she gave away from her total earnings, which is $320 - $20 = $300.\n\n#### $300",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much money Suzanne has left from her earnings, we need to calculate the total amount of money she earned from selling cookies and cupcakes, and then subtract the amount she gave to her sisters.\n\nSuzanne sold 80 cookies for $1 each, which gives her a total of 80 * $1 = $80 from cookies. She also sold 60 cupcakes for $4 each, resulting in 60 * $4 = $240 from cupcakes. Therefore, her total earnings from both cookies and cupcakes are $80 + $240 = $320.\n\nSuzanne gave her two sisters $10 each for helping her, meaning she gave away a total of 2 * $10 = $20. To find out how much money she has left, we subtract this amount from her total earnings: $320 - $20 = $300.\n\nAfter calculating Suzanne's total earnings from selling cookies and cupcakes and subtracting the amount she gave to her sisters, we can determine how much money she has left.\n\n#### $300",
+			"retrievals": 1
+		}
+	]
+}

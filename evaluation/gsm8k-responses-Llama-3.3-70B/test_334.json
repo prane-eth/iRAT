@@ -1,0 +1,13 @@
+{
+	"task_id": 334,
+	"prompt": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450\nCozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350\nThe difference is 3,450 \u2013 3,350 = $<<3450-3350=100>>100\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost difference between the two offers, we first need to calculate the total cost of each offer. \n\nThe total cost of Furniture United's offer can be calculated by adding the advance payment to the total of the monthly installments. The advance payment is $1,350, and the total of the monthly installments is 6 * $350 = $2,100. So, the total cost of Furniture United's offer is $1,350 + $2,100 = $3,450.\n\nThe total cost of Cozy Homes' offer can be calculated in the same way. The advance payment is $1,100, and the total of the monthly installments is 9 * $250 = $2,250. So, the total cost of Cozy Homes' offer is $1,100 + $2,250 = $3,350.\n\nTo find the cost difference, we subtract the total cost of Cozy Homes' offer from the total cost of Furniture United's offer: $3,450 - $3,350 = $100.\n\n#### $100",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the total cost of Cozy Homes' offer from the total cost of Furniture United's offer.\n\n## Step 1: Calculate the total cost of Furniture United's offer\nThe total cost of Furniture United's offer can be calculated by adding the advance payment and the total of the monthly installments. The advance payment is $1,350, and the total of the monthly installments is 6 * $350 = $2,100. So, the total cost of Furniture United's offer is $1,350 + $2,100 = $3,450.\n\n## Step 2: Calculate the total cost of Cozy Homes' offer\nThe total cost of Cozy Homes' offer can be calculated in the same way. The advance payment is $1,100, and the total of the monthly installments is 9 * $250 = $2,250. So, the total cost of Cozy Homes' offer is $1,100 + $2,250 = $3,350.\n\n## Step 3: Find the cost difference between the two offers\nTo find the cost difference, we subtract the total cost of Cozy Homes' offer from the total cost of Furniture United's offer: $3,450 - $3,350 = $100.\n\n#### $100",
+			"retrievals": 2
+		}
+	]
+}

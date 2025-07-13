@@ -1,0 +1,13 @@
+{
+	"task_id": 803,
+	"prompt": "Bubbles collects stuffed animals. She has three stuffed puppies, five stuffed koalas, two stuffed zebras and four stuffed frogs. If she wants to buy enough stuffed goats, such that the percentage of stuffed goats is 30% of all of her stuffed animals, how many stuffed goats should she buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x = the number of stuffed goats.\nThe current number of stuffed animals are (puppies + koalas + zebras + frogs) or 3 + 5 + 2 + 4 = <<3+5+2+4=14>>14 stuffed animals total.\nTake the total stuffed animals, add x and divide by the number of stuffed goats to get to 30% or x / (14 + x) = .3\nCross multiply to get x = 0.42 + .3x\nSubtract .3 x from each side, .7x = 0.42\nBubbles needs x = <<6=6>>6 goats added.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many stuffed goats Bubbles should buy, we first need to\n\nNow, let's solve the equation for G: \nG = 0.3(14 + G) \nG = 4.2 + 0.3G \nG - 0.3G = 4.2 \n0.7G = 4.2 \nG = 4.2 / 0.7 \nG = 6.\n\n#### 6",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many stuffed goats Bubbles should buy, we first need to calculate the total number of stuffed animals she currently has. She has three stuffed puppies, five stuffed koalas, two stuffed zebras, and four stuffed frogs. \n\nTotal stuffed animals = 3 (puppies) + 5 (koalas) + 2 (zebras) + 4 (frogs) = 14\n\nBubbles wants the stuffed goats to make up 30% of her total stuffed animals after purchasing them. If we let G represent the number of stuffed goats she needs to buy, the total number of stuffed animals after the purchase will be 14 + G.\n\nThe equation to represent the situation where stuffed goats make up 30% of all her stuffed animals is:\nG = 0.3(14 + G)\n\nNow, let's solve the equation for G:\nG = 0.3(14 + G)\nG = 4.2 + 0.3G\nG - 0.3G = 4.2\n0.7G = 4.2\nG = 4.2 / 0.7\nG = 6\n\nTherefore, Bubbles should buy 6 stuffed goats so that they make up 30% of all her stuffed animals.\n\n#### 6",
+			"retrievals": 1
+		}
+	]
+}

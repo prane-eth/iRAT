@@ -1,0 +1,13 @@
+{
+	"task_id": 74,
+	"prompt": "Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.\nSo, each cell phone costs $150 + $3 = $<<150+3=153>>153.\nThe total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.\nThus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.\n#### 255",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate how much Shiela will pay each month, we first need to determine the total cost of the cell phones and then apply the interest. After that, we'll divide the total amount by the number of months to find the monthly payment.\n\n1. Calculate the total cost of the cell phones:\n   - 5 cell phones * $150 each = $750\n\n2. Apply the 2% interest on the total cost:\n   - Interest = 2% of $750 = 0.02 * $750 = $15\n   - Total amount to be paid = $750 (cost of phones) + $15 (interest) = $765\n\n3. Divide the total amount by the number of months to find the monthly payment:\n   - Monthly payment = $765 / 3 months = $255 per month\n\n#### $255",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total amount Shiela will pay each month for 3 months, we first need to find the total cost of the five cell phones and the total interest charged. The total cost of the cell phones is 5 * $150 = $750. The interest charged is 2% of $150 for each unit, which equals 0.02 * $150 = $3 per unit. Since there are five units, the total interest is 5 * $3 = $15.\n\nThe total amount to be paid, including the cost of the cell phones plus the interest, is $750 + $15 = $765. To find the monthly payment, we divide the total amount by the number of months: $765 / 3 = $255.\n\nThis calculation directly provides the monthly payment amount without needing to apply complex interest rate formulas since the interest is not compounded over the payment period. Therefore, the monthly payment Shiela will make is $255.\n\n#### $255",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 625,
+	"prompt": "Two sports coaches went shopping together. The baseball coach bought 9 new baseballs for $3 each. The basketball coach bought 8 new basketballs for $14 each. How much more did the basketball coach spend than the baseball coach?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost of the baseballs is 9 \u00d7 $3 = $<<9*3=27>>27.\nThe cost of the basketballs is 8 \u00d7 $14 = $<<8*14=112>>112.\nBasketballs cost $112 \u2212 $27 = $85 more.\n#### 85",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more the basketball coach spent than the baseball coach, we first need to calculate the total amount each coach spent. \n\nThe baseball coach bought 9 new baseballs for $3 each. So, the total amount spent by the baseball coach is 9 * $3 = $27.\n\nThe basketball coach bought 8 new basketballs for $14 each. So, the total amount spent by the basketball coach is 8 * $14 = $112.\n\nNow, we compare the amounts spent by both coaches to find out how much more the basketball coach spent. \n\nThe difference in the amount spent is $112 - $27 = $85.\n\n#### $85",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how much more the basketball coach spent than the baseball coach, we need to calculate the total amount spent by each coach and then compare these amounts.\n\n## Step 1: Calculate the Total Amount Spent by the Baseball Coach\nThe baseball coach bought 9 new baseballs for $3 each. To find the total amount spent, we multiply the number of baseballs by the cost per baseball: 9 * $3 = $27.\n\n## Step 2: Calculate the Total Amount Spent by the Basketball Coach\nThe basketball coach bought 8 new basketballs for $14 each. To find the total amount spent, we multiply the number of basketballs by the cost per basketball: 8 * $14 = $112.\n\n## Step 3: Determine the Difference in Spending\nTo find out how much more the basketball coach spent than the baseball coach, we subtract the total amount spent by the baseball coach from the total amount spent by the basketball coach. This calculation directly addresses the question of the difference in their expenditures.\n\n## Step 4: Calculate the Difference\n$112 (basketball coach's spending) - $27 (baseball coach's spending) = $85.\n\nThe final calculation shows that the basketball coach spent $85 more than the baseball coach, which answers the question about the difference in their spending.\n\n#### $85",
+			"retrievals": 2
+		}
+	]
+}

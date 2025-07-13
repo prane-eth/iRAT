@@ -1,0 +1,13 @@
+{
+	"task_id": 136,
+	"prompt": "Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does.  If Brian has 20 video games but lost 5 right before the comparison was made, how many does Bobby have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Brian previously had 20 video games but lost 5, that means he now has 20-5=<<20-5=15>>15 video games\nBrian has 15 video games, so if Bobby has 5 fewer than 3 times as many as Brian does we must first perform 15*3=45\nWe then subtract 5 from the previous total for 45-5=40 games in total.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many video games Bobby has, we first need to determine how many video games Brian had before he lost 5. Brian originally had 20 video games but then lost 5, so before losing any, he had 20 + 5 = 25 video games.\n\nSince Bobby has 5 fewer than 3 times as many video games as Brian does, we calculate Bobby's video games based on Brian's original amount before the loss (because the comparison is made right before the loss, implying we consider Brian's pre-loss total for the calculation).\n\nSo, 3 times Brian's original amount is 3 * 25 = 75.\n\nThen, 5 fewer than this amount is 75 - 5 = 70.\n\nTherefore, Bobby has 70 video games.\n\n#### 70",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many video games Bobby has, we first need to determine the number of video games Brian had before he lost any, since the comparison is based on this original amount. Brian originally had 20 video games. The problem states that Bobby has 5 fewer than 3 times as many video games as Brian does. \n\nSo, we calculate Bobby's video games as follows: 3 times Brian's original video games (which is 3 * 20) minus 5. Therefore, 3 * 20 = 60, and then 60 - 5 = 55.\n\nThus, Bobby has 55 video games.\n\n#### 55",
+			"retrievals": 3
+		}
+	]
+}

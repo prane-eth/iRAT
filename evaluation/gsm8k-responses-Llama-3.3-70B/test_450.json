@@ -1,0 +1,13 @@
+{
+	"task_id": 450,
+	"prompt": "Beatrice bought ten packets of crayons for her Art class. Six of the packets had eight pieces of colors each, and the other four packets had sixteen pieces of colors each. How many colors of crayons did Beatrice buy in all?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Six packets had 6 x 8 = <<6*8=48>>48 colors of crayons.\nFour packets had 4 x 16 = <<4*16=64>>64 colors of crayons.\nTherefore, Beatrice bought 48 + 64 = <<48+64=112>>112 colors of crayons in all.\n#### 112",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of colors of crayons Beatrice bought, we first need to calculate the number of colors in the packets with eight pieces each and the packets with sixteen pieces each.\n\nThe six packets with eight pieces of colors each will have a total of 6 * 8 = 48 colors. The four packets with sixteen pieces of colors each will have a total of 4 * 16 = 64 colors.\n\nNow, we need to add the total number of colors from both types of packets to find the overall number of colors Beatrice bought. So, the total number of colors is 48 + 64 = 112.\n\n#### 112",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total number of colors from the packets with",
+			"retrievals": 2
+		}
+	]
+}

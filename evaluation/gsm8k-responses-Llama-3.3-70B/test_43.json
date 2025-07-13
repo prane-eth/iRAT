@@ -1,0 +1,13 @@
+{
+	"task_id": 43,
+	"prompt": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "To start the evening, there were 5 pies, each with 8 pieces, which is 5*8=<<5*8=40>>40 pieces of pie.\nIf only 14 remained, then 40-14=<<40-14=26>>26 pieces of pie had been taken by guests.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pieces of pie were taken by the guests, we first need to determine the total number of pieces of pie that were available at the beginning. Grandma Jones baked 5 apple pies and cut each into 8 pieces.\n\nThe total number of pieces can be calculated by multiplying the number of pies by the number of pieces per pie: 5 pies * 8 pieces/pie = 40 pieces. So, there were 40 pieces of pie available at the start.\n\nAt the end of the evening, there were 14 pieces of pie remaining. To find out how many pieces were taken by the guests, we subtract the number of remaining pieces from the total number of pieces: 40 pieces - 14 pieces = 26 pieces.\n\n#### 26",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many pieces of pie were taken by the guests, we first need to determine the total number of pieces of pie that were available at the beginning. Grandma Jones baked 5 apple pies and cut each into 8 pieces. The total number of pieces can be calculated by multiplying the number of pies by the number of pieces per pie: 5 pies * 8 pieces/pie = 40 pieces. So, there were 40 pieces of pie available at the start.\n\nAt the end of the evening, there were 14 pieces of pie remaining. To find out how many pieces were taken by the guests, we subtract the number of remaining pieces from the total number of pieces: 40 pieces - 14 pieces = 26 pieces. \n\n#### 26",
+			"retrievals": 2
+		}
+	]
+}

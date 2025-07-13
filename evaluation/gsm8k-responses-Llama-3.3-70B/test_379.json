@@ -1,0 +1,13 @@
+{
+	"task_id": 379,
+	"prompt": "Lindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Splitting the pairs shows there were 10 pairs of socks * 2 socks/pair = <<10*2=20>>20 socks paired together.\nThis means she has washed a total of 20 paired socks + 15 loose socks = <<20+15=35>>35 socks.\nShe has therefore missed 50 socks \u2013 35 socks = <<50-35=15>>15 socks.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many socks Lindsay has missed, we first need to calculate the total number of socks she has washed. This includes both the pairs of socks and the loose socks. \n\nSince each pair consists of 2 socks, washing 10 pairs of socks means she has washed 10 * 2 = 20 socks from the pairs.\n\nIn addition to the pairs, Lindsay also washed 15 loose socks. So, the total number of socks she has washed is the sum of the socks from the pairs and the loose socks: 20 (from pairs) + 15 (loose socks) = 35 socks.\n\nThere are 50 socks that need washing in total. To find out how many socks Lindsay has missed, we subtract the number of socks she has washed from the total number of socks.\n\nThe total number of socks that need washing is 50, and Lindsay has washed 35 socks. Therefore, the number of socks Lindsay has missed is 50 - 35 = 15.\n\n#### 15",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find out how many socks Lindsay has missed, let's first calculate the total number of socks she has washed. Since she washed 10 pairs of socks, and each pair consists of 2 socks, the total number of socks from the pairs is 10 * 2 = 20 socks. In addition to these, she also washed 15 loose socks. So, the total number of socks she has washed is 20 + 15 = 35 socks.\n\nGiven that there are 50 socks in total that need washing, we can find out how many socks Lindsay has missed by subtracting the number of socks she has washed from the total number of socks. Therefore, the number of socks she has missed is 50 - 35 = 15 socks.\n\n#### 15",
+			"retrievals": 3
+		}
+	]
+}

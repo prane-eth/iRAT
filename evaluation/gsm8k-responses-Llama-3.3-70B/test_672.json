@@ -1,0 +1,13 @@
+{
+	"task_id": 672,
+	"prompt": "Adam went to a store to buy some sweets. He bought 7 candies of type A and 10 candies of type B. One candy of type A costs $0.5, and one candy of type B costs $0.75. How much change did Adam get, if he paid the cashier $15?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "For type A candies Adam needed to pay 7 * 0.5 = $<<7*0.5=3.5>>3.5.\nFor the other type of candies, Adam needed to pay 10 * 0.75 = $<<10*0.75=7.5>>7.5.\nSo Adam had to pay 3.5 + 7.5 = $<<3.5+7.5=11>>11 in total for his shopping.\nIf Adam gave the cashier $15, that means he got 15 - 11 = $<<15-11=4>>4 of change.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change Adam got, we first need to calculate the total cost of the candies he bought. \n\nThe cost of 7 candies of type A is 7 * $0.5 = $3.5. \nThe cost of 10 candies of type B is 10 * $0.75 = $7.5. \nSo, the total cost of the candies is $3.5 + $7.5 = $11.\n\n`\nNow, we know that Adam paid $15 to the cashier. \n\nTo find out the change, we subtract the total cost of the candies from the amount Adam paid: $15 - $11 = $4.\n\n#### $4",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much change Adam got, we need to calculate the total cost of the candies he bought and subtract that from the amount he paid the cashier.\n\nFirst, let's calculate the total cost of the candies. Adam bought 7 candies of type A, which costs $0.5 each, so the total cost of type A candies is 7 * $0.5 = $3.5. He also bought 10 candies of type B, which costs $0.75 each, so the total cost of type B candies is 10 * $0.75 = $7.5.\n\nThe total cost of all the candies is $3.5 + $7.5 = $11. Adam paid the cashier $15, so to find out how much change he got, we subtract the total cost from the amount he paid: $15 - $11 = $4.\n\n#### $4",
+			"retrievals": 1
+		}
+	]
+}

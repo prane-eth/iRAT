@@ -1,0 +1,13 @@
+{
+	"task_id": 1291,
+	"prompt": "A small sunflower has 3 dozen seeds and a large sunflower has 50% more seeds than a small sunflower.  How many sunflower seeds are there altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The small sunflower has 3 x 12 = <<3*12=36>>36 seeds.\nThe large sunflower has 36 x 50% = <<36*50*.01=18>>18 more seeds than the small sunflower.\nThe large sunflower has 36 + 18 = <<36+18=54>>54 seeds.\nTogether, the two sunflowers have a total of 36 + 54 = <<36+54=90>>90 seeds.\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of sunflower seeds, we first need to calculate the number of seeds in a small sunflower and a large sunflower. A small sunflower has 3 dozen seeds. Since 1 dozen equals 12, a small sunflower has 3 * 12 = 36 seeds.\n\nA large sunflower has 50% more seeds than a small sunflower. To find the number of seeds in a large sunflower, we calculate 50% of 36 seeds and add it to 36. 50% of 36 is 0.5 * 36 = 18. So, a large sunflower has 36 + 18 = 54 seeds.\n\nNow, to find the total number of seeds altogether, we need to add the seeds from the small sunflower and the large sunflower. total_seeds = seeds in small sunflower + seeds in large sunflower = 36 + 54 = 90.\n\n#### 90",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total number of sunflower seeds, we first need to calculate the number of seeds in a small sunflower and a large sunflower. A small sunflower has 3 dozen seeds. Since 1 dozen equals 12, a small sunflower has 3 * 12 = 36 seeds. A large sunflower has 50% more seeds than a small sunflower. To find the number of seeds in a large sunflower, we calculate 50% of 36 seeds and add it to 36. 50% of 36 is 0.5 * 36 = 18. So, a large sunflower has 36 + 18 = 54 seeds.\n\nNow, to find the total number of seeds altogether, we need to add the seeds from the small sunflower and the large sunflower. total_seeds = seeds in small sunflower + seeds in large sunflower = 36 + 54 = 90. #### 90",
+			"retrievals": 1
+		}
+	]
+}

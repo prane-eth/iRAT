@@ -1,15 +1,16 @@
-from __future__ import annotations
-from typing import List
 from irat.uncertainty import Uncertainty
 from irat.utils.google_search import GoogleSearch
 from irat.utils.logger import log_info
+
+from __future__ import annotations
+from typing import List
 
 google_searcher = GoogleSearch()
 
 # ────────────────────── Budget controller ──────────────────────
 
 # Less budget, but the "used" count should be reset for every query.
-max_retrievals = 30
+max_retrievals = 15
 
 def get_used_retrievals() -> int:
 	# Read the budget from a file, if it exists.

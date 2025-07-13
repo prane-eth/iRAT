@@ -1,0 +1,19 @@
+{
+	"task_id": 97,
+	"prompt": "Write a function to find number of even elements in the given list using lambda function.?assert count_even([1, 2, 3, 5, 7, 8, 9, 10])==3",
+	"test_imports": [],
+	"test_list": [
+		"assert count_even([1, 2, 3, 5, 7, 8, 9, 10])==3",
+		"assert count_even([10,15,14,13,-18,12,-20])==5",
+		"assert count_even([1, 2, 4, 8, 9])==3"
+	],
+	"mbpp_code": "def count_even(array_nums):\r\n   count_even = len(list(filter(lambda x: (x%2 == 0) , array_nums)))\r\n   return count_even",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to define a function that takes a list of numbers as input and returns the count of even numbers in the list. We will use a lambda function in combination with other built-in functions to achieve this.\n\n \nThe lambda function will be used to define a small anonymous function that checks if a number is even. This function will be applied to each element in the list. We can use the `filter()` function to apply the lambda function to each element in the list and get an iterator that yields only the even numbers.\n\n \nWe will then use the `len()` function in combination with the `list()` function to count the number of even numbers yielded by the iterator. The `list()` function is necessary because `len()` does not work directly with iterators.\n\n \nHere is the code that implements the above steps:\n```python\ncount_even = lambda numbers: len(list(filter(lambda x: x % 2 == 0, numbers)))\n```",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of even elements in a given list using a lambda function, you can utilize the `filter()` function in combination with a lambda function. The lambda function will check if a number is even by using the modulus operator (`%`). If the remainder of the division of the number by 2 is 0, then the number is even.\n\nHere is a concise implementation:\n\n```python\ncount_even = lambda numbers: len(list(filter(lambda x: x % 2 == 0, numbers)))\n```\n\nThis function works by first applying the lambda function to each element in the input list. The lambda function checks if a number is even by using the condition `x % 2 == 0`. The `filter()` function then uses this lambda function to create an iterator that yields only the even numbers. Finally, the `len()` function is used to count the number of elements in this iterator.\n\nFor example, if you call `count_even([1, 2, 3, 5, 7, 8, 9, 10])`, the function will return `3`, which is the number of even elements in the list.\n\nThis approach has a time complexity of O(n), where n is the length of the input list, making it efficient for large lists.",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 417,
+	"prompt": "A herd consists of camels and dromedaries. There are 180 heads and 304 bumps. How many dromedaries are there if camels have two humps each and dromedaries have one hump each?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let x be the number of camels.\nSince each animal has one head, the number of dromedaries is 180 - x.\nEach camel has two humps and each dromedary has one hump so in total there are 2x + 180 \u2013 x = 304 humps.\nx = 304 \u2013 180\nx = <<124=124>>124\nSo, there are 124 camels and 180 \u2013 124 = 56 dromedaries.\n#### 56",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of camels as C and the number of drom",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Define the problem and the known variables\nWe are given a herd consisting of camels and dromedaries. The total number of heads (which equals the total number of animals since each animal has one head) is 180, and the total number of humps is 304. We know that camels have two humps each and dromedaries have one hump each.\n\n## Step 2: Set up the equations based on the given information\nLet's denote the number of camels as C and the number of dromedaries as D. From the problem, we have two equations. The first equation comes from the total number of heads: C + D = 180. The second equation comes from the total number of humps: 2C + D = 304.\n\n## Step 3: Solve the system of equations\nWe can solve this system of equations using either substitution or elimination method. Let's use the elimination method for simplicity. If we subtract the first equation from the second equation, we get: (2C + D) - (C + D) = 304 - 180, which simplifies to C = 124.\n\n## Step 4: Find the number of dromedaries\nNow that we know C = 124, we can substitute this value back into one of the original equations to find D. Using C + D = 180, we substitute C with 124: 124 + D = 180. Solving for D gives D = 180 - 124 = 56.\n\n## Step 5: Conclusion\nTherefore, the number of dromedaries in the herd is 56.\n\n#### 56",
+			"retrievals": 1
+		}
+	]
+}

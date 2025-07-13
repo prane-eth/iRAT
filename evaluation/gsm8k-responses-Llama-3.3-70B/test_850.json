@@ -1,0 +1,13 @@
+{
+	"task_id": 850,
+	"prompt": "A farmer has 900 eggs. He placed them on a tray, which holds 30 eggs each. How much will the farmer earn if he sells it for $2.5 per tray?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 900 / 30 = <<900/30=30>>30 trays that hold 900 eggs.\nSo, the farmer will earn 30 x $2.5 = $<<30*2.5=75>>75 if he sells it per tray.\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the farmer will earn, we first need to determine the total number of trays that can be filled with the 900 eggs. Each tray holds 30 eggs.\n\nThe total number of trays can be calculated by dividing the total number of eggs by the number of eggs each tray can hold: 900 eggs / 30 eggs per tray = 30 trays.\n\nNow that we know the farmer can fill 30 trays, we need to calculate the total earnings from selling these trays. The price per tray is $2.5.\n\nThe total earnings can be found by multiplying the number of trays by the price per tray: 30 trays * $2.5 per tray = $75.\n\n#### $75",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the total number of trays\nTo find out how much the farmer will earn, we first need to determine the total number of trays that can be filled with the 900 eggs. Each tray holds 30 eggs. The total number of trays can be calculated by dividing the total number of eggs by the number of eggs each tray can hold: 900 eggs / 30 eggs per tray = 30 trays.\n\n## Step 2: Calculate the total earnings\nNow that we know the farmer can fill 30 trays, we need to calculate the total earnings from selling these trays. The price per tray is $2.5. The total earnings can be found by multiplying the number of trays by the price per tray: 30 trays * $2.5 per tray = $75.\n\nThe final answer is: #### $75",
+			"retrievals": 2
+		}
+	]
+}

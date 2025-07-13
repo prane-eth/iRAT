@@ -1,0 +1,13 @@
+{
+	"task_id": 723,
+	"prompt": "Ron is fed up with the pothole in front of his house. If it doesn't get fixed, it's going to do $450 worth of damage to his car. Unfortunately, the city council refuses to fix it, and will fine Ron $120 for unauthorized road maintenance if he fixes it himself. Ron will also have to buy 3 buckets of asphalt that each cost $25. How much money does Ron save by fixing the pothole?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total cost of the asphalt by multiplying the number of buckets by the cost per bucket: 3 buckets * $25/bucket = $<<3*25=75>>75\nNow subtract the cost of the asphalt and the fine from the cost of the damage Ron avoids: $450 - $75 - $120 = $<<450-75-120=255>>255\n#### 255",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount of money Ron saves by fixing the pothole, we",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the amount of money Ron saves by fixing the pothole, we need to consider the costs and benefits of his actions. If Ron doesn't fix the pothole, he will incur $450 worth of damage to his car. On the other hand, if he fixes it, he will have to pay a fine of $120 to the city council for unauthorized road maintenance. Additionally, he will have to buy 3 buckets of asphalt, each costing $25, so the total cost of asphalt will be 3 * $25 = $75.\n\nThe total cost of fixing the pothole will be the fine plus the cost of the asphalt, which is $120 + $75 = $195. By fixing the pothole, Ron avoids the $450 damage to his car. Therefore, the amount of money Ron saves by fixing the pothole is $450 - $195 = $255.\n\n#### $255",
+			"retrievals": 0
+		}
+	]
+}

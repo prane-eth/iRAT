@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/26",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\nfrom typing import List\n\n\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\" From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the same as in the input.\n    >>> remove_duplicates([1, 2, 3, 2, 4])\n    [1, 3, 4]\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "from typing import List\n\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\" From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the same as in the input.\n    >>> remove_duplicates([1, 2, 3, 2, 4])\n    [1, 3, 4]\n    \"\"\"\n    seen = set()\n    seen_more_than_once = set()\n    result = []\n    \n    for num in numbers:\n        if num in seen_more_than_once:\n            continue\n        if num in seen:\n            seen_more_than_once.add(num)\n            result.remove(num)\n        else:\n            seen.add(num)\n            result.append(num)\n            \n    return result\n\n# Test the function\nprint(remove_duplicates([1, 2, 3, 2, 4]))  # Output: [1, 3, 4]",
+			"old_rat_retrievals": 6,
+			"final_answer": "from typing import List\n\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\" From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the same as in the input.\n    >>> remove_duplicates([1, 2, 3, 2, 4])\n    [1, 3, 4]\n    \"\"\"\n    count_dict = {}\n    for num in numbers:\n        if num in count_dict:\n            count_dict[num] += 1\n        else:\n            count_dict[num] = 1\n\n    result = [num for num in numbers if count_dict[num] == 1]\n    return result\n\n# Example usage\nnumbers = [1, 2, 3, 2, 4]\nprint(remove_duplicates(numbers))  # Output: [1, 3, 4]",
+			"retrievals": 2
+		}
+	]
+}

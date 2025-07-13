@@ -1,0 +1,13 @@
+{
+	"task_id": 943,
+	"prompt": "Patty's Plumbing charges $40 to visit a house to make a repair, plus $35 per hour, or part thereof, for labor, plus parts. One job took 2.25 hours and used $60 in parts. How much did Patty charge?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She charged for 3 hours.\nThe total cost from the hourly rate was 3*35=$<<3*35=105>>105.\nShe charged 40+105+60=<<40+105+60=205>>205.\n#### 205",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total charge by Patty's Plumbing, we first need to break down the costs into their components: the visit charge, labor charge, and parts charge.\n\nThe visit charge is $40. For labor, Patty's Plumbing charges $35 per hour or part thereof. The job took 2.25 hours, which means it will be charged as 3 hours because it includes a part of an hour. So, the labor charge is $35 * 3 = $105.\n\nThe parts used for the job cost $60. \n\nTo find the total charge, we add the visit charge, labor charge, and parts charge together: $40 (visit) + $105 (labor) + $60 (parts) = $205.\n\n#### $205",
+			"old_rat_retrievals": 4,
+			"final_answer": "To calculate the total charge by Patty's Plumbing, we first need to break down the costs into their components: the visit charge, labor charge, and parts charge. The visit charge is $40. For labor, Patty's Plumbing charges $35 per hour or part thereof. This means that for any fraction of an hour worked, the full hour is charged. The job took 2.25 hours, which includes 2 full hours and a fraction of an hour. According to the \"or part thereof\" policy, this fraction of an hour is charged as a full hour. Therefore, the 2.25 hours will be billed as 3 hours (2 full hours + 1 hour for the fraction of an hour). So, the labor charge is $35 * 3 = $105. The parts used for the job cost $60.\n\nTo find the total charge, we add the visit charge, labor charge, and parts charge together: $40 (visit) + $105 (labor) + $60 (parts) = $205.\n\n#### $205",
+			"retrievals": 2
+		}
+	]
+}

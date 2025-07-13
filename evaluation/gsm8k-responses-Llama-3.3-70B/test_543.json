@@ -1,0 +1,13 @@
+{
+	"task_id": 543,
+	"prompt": "Verna loves to eat fruit. She bought three apples at $1.50 each, five oranges at $0.80 each, and six peaches at $0.75 each.  If she gave $20, how much change did she receive?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three apples cost 3 x $1.50 = $<<3*1.5=4.50>>4.50.\nFive oranges cost 5 x $0.80 = $<<5*0.8=4>>4.\nFour peaches cost 6 x $0.75 = $<<6*0.75=4.50>>4.50.\nThus, Verna paid a total of $4.50 +$4+ $4.50 = $<<4.5+4+4.5=13>>13.\nTherefore, Verna received $20 - $13 = $<<20-13=7>>7.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the fruits, we need to find the cost of",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total cost of apples\nThe cost of 3 apples at $1.50 each is 3 * $1.50 = $4.50.\n\n## Step 2: Calculate the total cost of oranges\nThe cost of 5 oranges at $0.80 each is 5 * $0.80 = $4.00.\n\n## Step 3: Calculate the total cost of peaches\nThe cost of 6 peaches at $0.75 each is 6 * $0.75 = $4.50.\n\n## Step 4: Calculate the total cost of all fruits\nThe total cost of all fruits is $4.50 (apples) + $4.00 (oranges) + $4.50 (peaches) = $13.00.\n\n## Step 5: Calculate the change Verna received\nIf Verna gave $20, then the change she received is $20 - $13.00 = $7.00.\n\n#### $7.00",
+			"retrievals": 1
+		}
+	]
+}

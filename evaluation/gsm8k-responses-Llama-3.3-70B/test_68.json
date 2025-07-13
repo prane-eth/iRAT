@@ -1,0 +1,13 @@
+{
+	"task_id": 68,
+	"prompt": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer rubies than diamonds, and twice the number of emeralds than the rubies.   How many of the gems were there in the chest?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 175 - 35 = <<175-35=140>>140 rubies in the treasure chest.\nThere were 140 x 2 = <<140*2=280>>280 emeralds in the treasure chest.\nSo, the total number of gems in the treasure chest is 175 + 140 + 280 = <<175+140+280=595>>595.\n#### 595",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of gems in the chest, we first need to determine the number of each type of gem. We know there were 175 diamonds. \n\nThe number of rubies is 35 fewer than the number of diamonds. So, the number of rubies can be calculated by subtracting 35 from the number of diamonds: 175 - 35 = 140 rubies.\n\nThe number of emeralds is twice the number of rubies. Therefore, the number of emeralds is 2 * 140 = 280 emeralds.\n\nTo find the total number of gems, we need to add the number of diamonds, rubies, and emeralds together: 175 (diamonds) + 140 (rubies) + 280 (emeralds) = 595.\n\n#### 595",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of rubies\nThere are 35 fewer rubies than diamonds. Since there are 175 diamonds, we subtract 35 from this number to find the number of rubies. So, the number of rubies = 175 - 35 = 140.\n\n## Step 2: Calculate the number of emeralds\nThe number of emeralds is twice the number of rubies. We found that there are 140 rubies. Therefore, the number of emeralds = 2 * 140 = 280.\n\n## Step 3: Calculate the total number of gems\nTo find the total number of gems, we add the number of diamonds, rubies, and emeralds together. Total gems = 175 (diamonds) + 140 (rubies) + 280 (emeralds) = 595.\n\n#### 595",
+			"retrievals": 2
+		}
+	]
+}

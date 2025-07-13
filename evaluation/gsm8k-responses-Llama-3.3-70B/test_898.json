@@ -1,0 +1,13 @@
+{
+	"task_id": 898,
+	"prompt": "Joseph had 3 times as many notebooks as Martha. Martha decided she needed more notebooks and then bought 5 more for a total of 7 notebooks. How many more than Joseph does she now have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since she bought 5 more to have 7, she originally had 7-5 = <<7-5=2>>2 notebooks\nJoseph had 3 times Martha's number of notebooks which is 3*2 = <<3*2=6>>6 notebooks\nMartha has 7 notebooks now which is 7-6 = <<7-6=1>>1 more than Joseph\n#### 1",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we first need to establish the initial relationship between the number of notebooks Joseph and Martha had. We're told Joseph had 3 times as many notebooks as Martha. Let's denote the number of notebooks Martha initially had as M. Therefore, Joseph had 3M notebooks.\n\nMartha then bought 5 more notebooks, bringing her total to 7. This means that before buying the 5 additional notebooks, Martha had 7 - 5 = 2 notebooks. Since we denoted Martha's initial number of notebooks as M, M = 2.\n\nNow that we know Martha initially had 2 notebooks, we can calculate that Joseph had 3 * 2 = 6 notebooks.\n\nAfter Martha bought 5 more notebooks, she had a total of 7 notebooks. To find out how many more notebooks Martha now has than Joseph, we subtract the number of notebooks Joseph has from the number Martha has: 7 - 6 = 1.\n\n#### 1",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve this problem, let's break it down step by step. We know that Joseph had 3 times as many notebooks as Martha. Let's denote the number of notebooks Martha originally had as \"M\". Therefore, Joseph had 3M notebooks.\n\nWe are told that Martha bought 5 more notebooks and ended up with a total of 7 notebooks. This means that before buying the 5 additional notebooks, she had 7 - 5 = 2 notebooks.\n\nSince Martha originally had 2 notebooks, we can determine that Joseph had 3 times that amount, which is 3 * 2 = 6 notebooks.\n\nNow, to find out how many more notebooks Martha has than Joseph after she bought the additional 5, we compare their current totals. Martha now has 7 notebooks, and Joseph still has 6 notebooks.\n\nTo find out how many more notebooks Martha now has than Joseph, we subtract the number of notebooks Joseph has from the number Martha has: 7 - 6 = 1.\n\n#### 1",
+			"retrievals": 2
+		}
+	]
+}

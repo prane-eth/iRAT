@@ -1,0 +1,13 @@
+{
+	"task_id": 25,
+	"prompt": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let X be the original price of the book. The discounted price is X - X*25% = $19.50.\nCombining like terms, we get .75X = $19.50\nDividing both sides by .75, we get X = $26.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "To find the original price of the book, we need to use the formula for calculating the original price from the discounted price and discount percentage. The formula is:\n\nOriginal Price = Discounted Price / (1 - Discount Percentage)\n\nGiven:\nDiscounted Price = $19.50\nDiscount Percentage = 25% = 0.25\n\nOriginal Price = $19.50 / (1 - 0.25)\nOriginal Price = $19.50 / 0.75\nOriginal Price = $26\n\n#### $26",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understand the problem and the given information\nThe problem states that Kyle bought a book for $19.50, which is a 25% discount from the original price. We need to find the original price of the book. This is a classic problem of reverse percentage calculation, where we know the result of a percentage decrease and need to find the original value.\n\n## Step 2: Apply the discount formula to find the original price\nThe formula for the price after discount is: Price after discount = Original Price - (Original price \u00d7 Discount %). We can rearrange this formula to solve for the original price: Original Price = Price after discount / (1 - Discount %). In mathematical terms, if the discount is 25% (or 0.25 in decimal form), the formula becomes Original Price = Price after discount / (1 - 0.25).\n\n## Step 3: Plug in the given values into the formula\nWe know that the price after discount is $19.50 and the discount percentage is 25% (or 0.25 in decimal form). So, we can plug these values into the formula: Original Price = 19.50 / (1 - 0.25). This calculation will give us the original price of the book before the discount was applied.\n\n## Step 4: Calculate the original price\nFirst, we calculate the denominator: 1 - 0.25 = 0.75. Then, we divide the price after discount by this value: Original Price = 19.50 / 0.75. Performing this division will yield the original price of the book.\n\n## Step 5: Solve for the original price\nOriginal Price = 19.50 / 0.75 = 26. This calculation shows that the original price of the book, before the 25% discount was applied, was $26.\n\n#### 26",
+			"retrievals": 1
+		}
+	]
+}

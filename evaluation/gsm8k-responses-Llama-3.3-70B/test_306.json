@@ -1,0 +1,13 @@
+{
+	"task_id": 306,
+	"prompt": "John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He beats 20*.8=<<20*.8=16>>16 people\nSo he loses to 20-16=<<20-16=4>>4 people\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many people John lost to, we first need to determine how many people he beat. Since John arm wrestles 20 people and beats 80% of them, we calculate the number of people he beat as follows:\n\n80% of 20 people = 0.8 * 20 = 16 people\n\nThis means John beat 16 people out of the 20 he arm wrestled. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled:\n\n20 people (total) - 16 people (beaten) = 4 people\n\nTherefore, John lost to 4 people.\n\n#### 4\n\n#### 4",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many people John lost to, we need to calculate the number of people he beat first. Since John beats 80% of the 20 people he arm wrestles, we can find this by multiplying 20 by 0.8 (which represents 80%). So, 20 * 0.8 = 16. This means John beat 16 people. \n\nThe number of people John lost to can be found by subtracting the number of people he beat from the total number of people he arm wrestled. Therefore, 20 - 16 = 4.\n\nJohn lost to 4 people.\n\n#### 4",
+			"retrievals": 2
+		}
+	]
+}

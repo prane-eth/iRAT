@@ -1,0 +1,19 @@
+{
+	"task_id": 72,
+	"prompt": "Write a function to find maximum of three numbers.?assert max_of_three(10,20,30)==30",
+	"test_imports": [],
+	"test_list": [
+		"assert max_of_three(10,20,30)==30",
+		"assert max_of_three(55,47,39)==55",
+		"assert max_of_three(10,49,30)==49"
+	],
+	"mbpp_code": "def max_of_three(num1,num2,num3): \r\n    if (num1 >= num2) and (num1 >= num3):\r\n       lnum = num1\r\n    elif (num2 >= num1) and (num2 >= num3):\r\n       lnum = num2\r\n    else:\r\n       lnum = num3\r\n    return lnum",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to find the maximum of three numbers\n",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the maximum of three numbers, you can use a simple function that compares the numbers and returns the largest one. Here's a step-by-step approach:\n\n1. Define a function `max_of_three` that takes three arguments: `a`, `b`, and `c`.\n2. Inside the function, use conditional statements to compare the numbers.\n3. Return the largest number.\n\nHere's a Python function that implements this:\n\n```python\ndef max_of_three(a, b, c):\n    if a >= b and a >= c:\n        return a\n    elif b >= a and b >= c:\n        return b\n    else:\n        return c\n```\n\nYou can also use the built-in `max` function in Python to simplify the code:\n\n```python\ndef max_of_three(a, b, c):\n    return max(a, b, c)\n```\n\nBoth of these functions will return the maximum of the three input numbers. You can test them with your example:\n\n```python\nprint(max_of_three(10, 20, 30))  # Output: 30\n```",
+			"retrievals": 1
+		}
+	]
+}

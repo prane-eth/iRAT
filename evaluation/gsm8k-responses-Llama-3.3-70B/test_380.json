@@ -1,0 +1,13 @@
+{
+	"task_id": 380,
+	"prompt": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The number of Rachel's cookies is 23 + 42 = <<23+42=65>>65 cookies.\nAfter her brother\u2019s feast, she was left with 65 \u2013 44 = <<65-44=21>>21 cookies.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cookies are left for Rachel, we first need to determine the total number of cookies she had initially. Rachel bought 23 cookies and Janet gave her 42 cookies. \n\nSo, the total number of cookies Rachel had initially is 23 (bought cookies) + 42 (given cookies) = 65 cookies.\n\nThen, her brother ate 44 of those cookies. To find out how many cookies are left, we subtract the number of cookies eaten by her brother from the total number of cookies she had.\n\nThe number of cookies left is 65 (total cookies) - 44 (cookies eaten) = 21 cookies.\n\n#### 21",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many cookies are left for Rachel, we first need to calculate the total number of cookies she had. Rachel bought 23 cookies and Janet gave her 42 cookies. So, the total number of cookies is 23 + 42 = 65 cookies.\n\nThen, her brother ate 44 of those cookies. To find the number of cookies left, we subtract the number eaten by her brother from the total. However, since the brother ate 44 cookies and Rachel only had 65, the calculation is straightforward: 65 (total cookies) - 44 (cookies eaten) = 21 cookies.\n\nBut let's reconsider this with the correct perspective on the situation: If Rachel had 65 cookies and her brother ate 44, the calculation of 65 - 44 indeed yields 21. This means after her brother ate 44 cookies, Rachel is left with 21 cookies.\n\n#### 21",
+			"retrievals": 2
+		}
+	]
+}

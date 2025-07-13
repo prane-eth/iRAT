@@ -1,0 +1,13 @@
+{
+	"task_id": 830,
+	"prompt": "Boris owns a chocolate factory. He produces 50,000 bars of chocolate each month. Boris produces 8,000 bars of chocolate the first week. The second week, Boris only produces half as much as the first week. But, the third week, Boris produces three times as much as the first week. How much does he produce the fourth week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the second week, Boris produces 8,000/2 = <<8000/2=4000>>4,000 bars of chocolate.\nIn the third week, Boris produces 8,000*3 = <<8000*3=24000>>24,000 bars of chocolate.\nIn the first three weeks, Boris produces 8,000+4,000+24,000 = <<8000+4000+24000=36000>>36,000 bars of chocolate\nIn the fourth week, Boris produces 50,000-36,000 = <<50000-36000=14000>>14,000 bars of chocolate.\n#### 14,000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Boris produces in the fourth week, we first need to calculate the total production for the first three weeks. \nBoris produces 8,000 bars of chocolate the first week. \nThe second week, he produces half as much as the first week, which is 8,000 / 2 = 4,000 bars.\nThe third week, he produces three times as much as the first week, which is 8,000 * 3 = 24,000 bars.\n\n \nThe total production for the first three weeks is 8,000 + 4,000 + 24,000 = 36,000 bars.\nSince Boris produces 50,000 bars of chocolate each month, to find out how much he produces in the fourth week, we subtract the total production of the first three weeks from the monthly production.\nSo, the production in the fourth week is 50,000 - 36,000 = 14,000 bars.\n\n#### 14,000",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much Boris produces in the fourth week, we first need to",
+			"retrievals": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 746,
+	"prompt": "Mark decides to buy packs of old magic cards and open them to sell.  He buys 3 packs for $1800 each.  He gets 1 card that is worth $4000 and another card worth $1000.  There are 30 more cards worth an average of $50 each.  How much money profit did he make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cheaper cards are worth a total of 30*50=$<<30*50=1500>>1500\nSo all the cards together are worth 1500+4000+1000=$<<1500+4000+1000=6500>>6500\nThe cost for the cards was 1800*3=$<<1800*3=5400>>5400\nSo he made a profit of 6500-5400=$<<6500-5400=1100>>1100\n#### 1100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the profit Mark made, we first need to determine the total cost of the packs of magic cards he bought. He bought 3 packs for $1800 each. \n\nThe total cost can be calculated by multiplying the number of packs by the cost per pack: 3 packs * $1800/pack = $5400.\n\n`\nNext, we need to calculate the total value of the cards he received. He got 1 card worth $4000 and another card worth $1000. Additionally, there are 30 more cards worth an average of $50 each. \n\nThe total value of the 30 average cards is 30 cards * $50/card = $1500. \n\n`\nThe total value of all the cards can be found by adding the value of the two expensive cards to the total value of the 30 average cards: $4000 + $1000 + $1500 = $6500.\n\n`\nTo find the profit, we subtract the total cost from the total value of the cards: $6500 - $5400 = $1100.\n\n#### $1100",
+			"old_rat_retrievals": 7,
+			"final_answer": "To calculate the profit Mark made, we first need to determine the total cost of",
+			"retrievals": 2
+		}
+	]
+}

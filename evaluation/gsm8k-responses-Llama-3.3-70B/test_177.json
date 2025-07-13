@@ -1,0 +1,13 @@
+{
+	"task_id": 177,
+	"prompt": "In a race with 240 Asians, 80 were Japanese, and the rest were Chinese. If the number of boys on the Chinese team was 60, how many girls were on the Chinese team?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If there were 80 Japanese, the number of Chinese was 240-80=<<240-80=160>>160.\nSince there were 60 boys in the Chinese team, there were 160-60 = 100 girls in the Chinese team.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "To find the number of girls on the Chinese team, we first need to determine the total number of Chinese participants. Since there were 240 Asians in total and 80 of them were Japanese, we subtract the number of Japanese from the total to find the number of Chinese: 240 - 80 = 160. \n\nGiven that there are 160 Chinese participants and 60 of them are boys, we can find the number of girls by subtracting the number of boys from the total number of Chinese: 160 - 60 = 100.\n\nTherefore, there are 100 girls on the Chinese team.\n\n#### 100\n\nSince we are told the number of boys on the Chinese team was 60, we can find the number of girls by subtracting the number of boys from the total number of Chinese participants: 160 Chinese - 60 boys = 100 girls.\n\n#### 100",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of girls on the Chinese team, we first need to determine the total number of Chinese participants in the race. The total number of Asian participants is 240, out of which 80 are Japanese. This means the rest, which is 240 - 80 = 160, are Chinese.\n\nGiven that there are 60 boys on the Chinese team, to find the number of girls, we subtract the number of boys from the total number of Chinese participants: 160 Chinese - 60 boys = 100 girls.\n\nTherefore, the number of girls on the Chinese team is 100.\n\n#### 100",
+			"retrievals": 1
+		}
+	]
+}

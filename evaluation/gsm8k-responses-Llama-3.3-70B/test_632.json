@@ -1,0 +1,13 @@
+{
+	"task_id": 632,
+	"prompt": "In a jewelers store, the price of a gold Jewell is 4/5 times as much as the price of a diamond Jewell. The cost of a silver Jewell is $400 less than the price of gold. If a diamond Jewell is $2000, find the total price for all three jewels.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If a diamond Jewellcosts $2000, the price of a gold Jewell is 4/5*$2000 = $1600\nSilver costs $400 less than gold Jewell, which means a silver Jewell costs $1600-$400 = $1200\nThe price of the three jewels combined is $1200+$1600+$2000 = $<<1200+1600+2000=4800>>4800\n#### 4800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total price of all three jewels, we first need to determine the price of the gold Jewell and then the price of the silver Jewell, given that the price of the diamond Jewell is $2000.\n\nThe price of a gold Jewell is 4/5 times as much as the price of a diamond Jewell. Given the diamond Jewell costs $2000, we calculate the price of the gold Jewell as follows: 4/5 * $2000 = $1600.\n\nThe cost of a silver Jewell is $400 less than the price of a gold Jewell. Since the gold Jewell costs $1600, the silver Jewell costs $1600 - $400 = $1200.\n\nTo find the total price for all three jewels, we add the prices of the diamond, gold, and silver Jewells together: $2000 (diamond) + $1600 (gold) + $1200 (silver) = $4800.\n\n#### $4800",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total price of all three jewels, we first need to determine the price of the gold Jewell and then the price of the silver Jewell, given that the price of the diamond Jewell is $2000. The price of a gold Jewell is 4/5 times as much as the price of a diamond Jewell. Given the diamond Jewell costs $2000, we calculate the price of the gold Jewell as follows: 4/5 * $2000 = $1600.\n\nThe cost of a silver Jewell is $400 less than the price of a gold Jewell. Since the gold Jewell costs $1600, the silver Jewell costs $1600 - $400 = $1200. To find the total price for all three jewels, we add the prices of the diamond, gold, and silver Jewells together: $2000 (diamond) + $1600 (gold) + $1200 (silver) = $4800.\n\n#### $4800",
+			"retrievals": 2
+		}
+	]
+}

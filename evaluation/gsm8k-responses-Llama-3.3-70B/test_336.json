@@ -1,0 +1,13 @@
+{
+	"task_id": 336,
+	"prompt": "Mason needs 30 ounces of sugar to make a batch of suckers and 70 ounces of sugar to make a batch of fudge. How much sugar does he need to make 8 batches of suckers and 1 batch of fudge?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total sugar needed for the suckers: 30 ounces/batch * 8 batches = <<30*8=240>>240 ounces\nThen add the amount he needs to make the fudge to find the total amount of sugar needed: 240 ounces + 70 ounces = <<240+70=310>>310 ounces\n#### 310",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much sugar Mason needs to make 8 batches of suckers and 1 batch of fudge, we need to calculate the total amount of sugar required for each and then add them together.\n\nFor 8 batches of suckers, Mason needs 8 * 30 ounces of sugar = 240 ounces of sugar.\nFor 1 batch of fudge, Mason needs 1 * 70 ounces of sugar = 70 ounces of sugar.\n\nAdding these together, Mason needs 240 + 70 = 310 ounces of sugar to make 8 batches of suckers and 1 batch of fudge.\n\n#### 310\n\n#### 310",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the amount of sugar needed for 8 batches of suckers.\nMason needs 30 ounces of sugar to make one batch of suckers. Therefore, for 8 batches, he will need 8 * 30 = 240 ounces of sugar.\n\n## Step 2: Calculate the amount of sugar needed for 1 batch of fudge.\nMason needs 70 ounces of sugar to make one batch of fudge.\n\n## Step 3: Add the amounts of sugar needed for suckers and fudge to find the total.\nTotal sugar needed = sugar for suckers + sugar for fudge = 240 + 70 = 310 ounces.\n\nThe final answer is: #### 310",
+			"retrievals": 1
+		}
+	]
+}

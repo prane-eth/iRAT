@@ -1,0 +1,13 @@
+{
+	"task_id": 157,
+	"prompt": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every 2 months. If the monkeys need 200 bananas, the gorillas need 400 bananas, and the baboons need 100 bananas every month, how many bananas does he need to order to last for 2 months?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of bananas the prime apes need every month is 200+400+100= <<200+400+100=700>>700.\nTherefore in 2 months, the total number of bananas they need is 700x2= <<700*2=1400>>1400.\n#### 1400",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many bananas the zookeeper needs to order for 2 months, we need to calculate the total number of bananas required by all the apes (monkeys, gorillas, and baboons) for that period.\n\nFirst, let's calculate the total number of bananas needed per month:\n- Monkeys need 200 bananas/month\n- Gorillas need 400 bananas/month\n- Baboons need 100 bananas/month\n\nTotal bananas/month = 200 (monkeys) + 400 (gorillas) + 100 (baboons) = 700 bananas/month\n\nSince the zookeeper orders bananas every 2 months, we need to calculate the total bananas required for 2 months:\nTotal bananas/2 months = 700 bananas/month * 2 months = 1400 bananas\n\nTherefore, the zookeeper needs to order 1400 bananas to last for 2 months.\n\n#### 1400\n\n#### 1400",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine how many bananas the zookeeper needs to order for the apes, we first need to calculate the total monthly banana requirement. The monkeys need 200 bananas, the gorillas need 400 bananas, and the baboons need 100 bananas every month. \n\nSo, the total monthly requirement is: 200 (monkeys) + 400 (gorillas) + 100 (baboons) = 700 bananas per month.\n\nSince the zookeeper orders bananas every 2 months, we need to calculate the total banana requirement for this period. We multiply the monthly requirement by 2: 700 bananas/month * 2 months = 1400 bananas.\n\nTherefore, the zookeeper needs to order a total of 1400 bananas to meet the needs of all the apes for 2 months.\n\n#### 1400",
+			"retrievals": 2
+		}
+	]
+}

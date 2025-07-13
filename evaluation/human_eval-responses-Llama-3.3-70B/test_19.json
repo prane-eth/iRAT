@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/18",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef how_many_times(string: str, substring: str) -> int:\n    \"\"\" Find how many times a given substring can be found in the original string. Count overlaping cases.\n    >>> how_many_times('', 'a')\n    0\n    >>> how_many_times('aaa', 'a')\n    3\n    >>> how_many_times('aaaa', 'aa')\n    3\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef how_many_times(string: str, substring: str) -> int:\n    \"\"\"\n    Find how many times a given substring can be found in the original string.\n    Count overlapping cases.\n\n    Args:\n        string (str): The original string to search in.\n        substring (str): The substring to search for.\n\n    Returns:\n        int: The number of times the substring is found in the string.\n    \"\"\"\n    count = 0\n    start = 0\n    while start < len(string):\n        pos = string.find(substring, start)\n        if pos != -1:\n            count += 1\n            start = pos + 1\n        else:\n            break\n    return count\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "```python\ndef how_many_times(string: str, substring: str) -> int:\n    \"\"\" Find how many times a given substring can be found in the original string. Count overlaping cases.\n    >>> how_many_times('', 'a')\n    0\n    >>> how_many_times('aaa', 'a')\n    3\n    >>> how_many_times('aaaa', 'aa')\n    3\n    \"\"\"\n    count = 0\n    start = 0\n    while start < len(string):\n        pos = string.find(substring, start)\n        if pos != -1:\n            count += 1\n            start = pos + 1\n        else:\n            break\n    return count\n```",
+			"retrievals": 1
+		}
+	]
+}

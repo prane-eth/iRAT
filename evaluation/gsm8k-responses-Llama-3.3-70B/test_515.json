@@ -1,0 +1,13 @@
+{
+	"task_id": 515,
+	"prompt": "A house and a lot cost $120,000. If the house cost three times as much as the lot, how much did the house cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since the house costs 3 times as much as the lot, the ratio of lot price to the house price is 1 : 3. This also means 1/4 of the cost is for the lot and 3/4 of the cost is for the house.\nThe cost of the house is 3/4 of the total cost, which is $120,000. 3/4 * $120,000 = $<<3/4*120000=90000>>90,000.\n#### 90000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of the house, we first need to establish the relationship between",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the cost of the house, let's denote the cost of the lot as \\(L\\) and the cost of the house as \\(H\\). We know two key pieces of information: the total cost for both is $120,000, and the house costs three times as much as the lot. This gives us two equations: \\(H = 3L\\) and \\(H + L = 120,000\\).\n\nBy substituting \\(H = 3L\\) into the second equation, we get \\(3L + L = 120,000\\), which simplifies to \\(4L = 120,000\\). To find \\(L\\), we divide both sides by 4, giving \\(L = 120,000 / 4 = 30,000\\).\n\nSince \\(H = 3L\\), we substitute \\(L = 30,000\\) into this equation to find the cost of the house: \\(H = 3 \\times 30,000 = 90,000\\).\n\nTherefore, the house costs $90,000.\n\n#### $90,000",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1122,
+	"prompt": "In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.\nSince Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.\n#### 35",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of miles Brian will walk in seven days, we first need to calculate the total distance Sofie will walk in seven days. Since Sofie plans to walk 10 miles every day, we multiply the daily distance by the number of days.\n\nSofie's total distance in 7 days = 10 miles/day * 7 days = 70 miles.\n\n`\n \nGiven that in 7 days, Sofie will walk twice as far as Brian, we can set up a relationship between the distances walked by Sofie and Brian. If Sofie walks twice as far as Brian, then Brian walks half the distance that Sofie walks.\n\n`\n \nLet's calculate Brian's total distance by dividing Sofie's total distance by 2. Brian's total distance = Sofie's total distance / 2 = 70 miles / 2 = 35 miles.\n\n#### 35 miles",
+			"old_rat_retrievals": 5,
+			"final_answer": "To solve this problem, we first need to determine how far Sofie will walk in seven days. Since Sofie plans to walk 10 miles every day, we multiply her daily distance by 7. So, Sofie's total distance in seven days will be 10 miles * 7 days = 70 miles.\n\nWe are given that in 7 days, Sofie will walk twice as far as Brian. This means Brian's total distance will be half of Sofie's total distance. To find Brian's total distance, we divide Sofie's total distance by 2. Therefore, Brian will walk 70 miles / 2 = 35 miles in seven days.\n\n#### 35",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 951,
+	"prompt": "Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let B = the number of points Bahati scored\nAzibo = B - 20\nDinar = B - 10\nB + B -20 + B - 10 = 45\n3B - 30 = 45;\n3B = 75\nB = <<25=25>>25\nAzibo = 25 - 20 = <<25-20=5>>5 points\nAzibo scored 5 points.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the points scored by Bahati, Azibo, and Dinar as B, A, and D respectively. We know that B = A + 20 and B = D + 10. We also know that the total points scored by the team is 45, so B + A + D = 45.\n\nSince B = A + 20 and B = D + 10, we can express A and D in terms of B. From B = A + 20, we get A = B - 20. From B = D + 10, we get D = B - 10.\n\nNow, we substitute A and D in the equation B + A + D = 45. We get B + (B - 20) + (B - 10) = 45. This simplifies to 3B - 30 = 45.\n\nAdding 30 to both sides of the equation gives us 3B = 75. Dividing both sides by 3 gives us B = 25.\n\nNow that we know Bahati scored 25 points, we can find out how many points Azibo scored. Since B = A + 20, we substitute B = 25 into this equation and get 25 = A + 20.\n\nSubtracting 20 from both sides gives us A = 5.\n\n#### 5",
+			"old_rat_retrievals": 7,
+			"final_answer": "Let's denote the points scored by Bahati, Azibo, and Dinar as B, A, and D respectively. We know that B = A + 20 and B = D + 10. We also know that the total points scored by the team is 45, so B + A + D = 45. Since B = A + 20 and B = D + 10, we can express A and D in terms of B. From B = A + 20, we get A = B - 20. From B = D + 10, we get D = B - 10. Now, we substitute A and D in the equation B + A + D = 45. We get B + (B - 20) + (B - 10) = 45. This simplifies to 3B - 30 = 45.\n\nAdding 30 to both sides of the equation gives us 3B = 75. Dividing both sides by 3 gives us B = 25. Now that we know Bahati scored 25 points, we can find out how many points Azibo scored. Since B = A + 20, we substitute B = 25 into this equation and get 25 = A + 20. Subtracting 20 from both sides gives us A = 5. \n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

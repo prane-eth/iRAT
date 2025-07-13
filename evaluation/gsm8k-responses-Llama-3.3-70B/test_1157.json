@@ -1,0 +1,13 @@
+{
+	"task_id": 1157,
+	"prompt": "Linus works for a trading company. He buys a mobile device for $20 and sells it for twice the amount of the original price. If he bought 2 devices last Monday and 4 devices last Tuesday, how much profit was he able to earn after selling all the mobile devices he bought last Monday and Tuesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total cost for the devices he bought on Monday is 2*20= <<2*20=40>>40\nThe total cost for the devices he bought on Tuesday is 4*20 = <<4*20=80>>80\nThe total cost of these devices is 80+40= <<80+40=120>>120\nLinus sold each mobile device he bought for $20 x 2 = $<<20*2=40>>40.\nSo, he earned $40 x 2 = $<<40*2=80>>80 for the two devices he bought last Monday.\nAnd he earned $40 x 4 = $<<40*4=160>>160 for the 4 devices he bought last Tuesday.\nThe total amount of sales he made were worth 160+80 =<<160+80=240>>240\nLinus earned 240-120 =$<<240-120=120>>120\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the profit earned by Linus, we first need to determine the total cost of the mobile devices he bought and the total amount he received from selling them. Linus bought the devices for $20 each and sold them for twice the original price, which means he sold each device for $40.\n\nThe total number of devices bought last Monday and Tuesday is 2 + 4 = 6 devices. The total cost of these devices is 6 * $20 = $120. Since he sold each device for $40, the total amount he received from selling all the devices is 6 * $40 = $240.\n\nTo find the profit, we subtract the total cost from the total amount received: $240 - $120 = $120.\n\n#### $120",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the total cost of the devices bought on Monday and Tuesday\nLinus bought 2 devices on Monday and 4 devices on Tuesday, so in total, he bought 2 + 4 = 6 devices. Each device costs $20, so the total cost is 6 * $20 = $120.\n\n## Step 2: Calculate the total selling price of the devices\nLinus sells each device for twice the amount of the original price, which is 2 * $20 = $40 per device. Since he sold 6 devices, the total selling price is 6 * $40 = $240.\n\n## Step 3: Calculate the profit earned by Linus\nThe profit earned is the difference between the total selling price and the total cost. So, the profit is $240 - $120 = $120.\n\nThe final answer is: #### $120",
+			"retrievals": 2
+		}
+	]
+}

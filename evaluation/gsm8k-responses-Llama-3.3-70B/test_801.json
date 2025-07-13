@@ -1,0 +1,13 @@
+{
+	"task_id": 801,
+	"prompt": "Pierson scored 278 points in one game of bowling. Nikita scored 11 more than half as many as Pierson. How many points did Pierson and Nikita have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Pierson = <<278=278>>278 points\nNikita = (1/2) 278 + 11 = 150 points\n278 + 150 = <<278+150=428>>428 points\nTogether, Pierson and Nikita scored 428 points.\n#### 428",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total points scored by Pierson and Nikita, we first need to calculate Nikita's score. \nPierson scored 278 points. \nNikita scored 11 more than half as many as Pierson. \nSo, we need to find half of Pierson's score and add 11 to it.\n\nHalf of Pierson's score is 278 / 2 = 139. \nNikita scored 11 more than this, so Nikita's score is 139 + 11 = 150.\n\nNow, we need to find the total points scored by Pierson and Nikita. \nThis can be done by adding their individual scores. \nTotal score = Pierson's score + Nikita's score = 278 + 150 = 428.\n\n#### 428",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total points scored by Pierson and Nikita, we first need",
+			"retrievals": 2
+		}
+	]
+}

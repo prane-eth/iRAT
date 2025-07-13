@@ -1,0 +1,13 @@
+{
+	"task_id": 259,
+	"prompt": "Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First multiply the late fee per book by the number of books: $0.50/book * 8 books = $<<0.5*8=4.00>>4.00\nThen add the \"more than a week overdue\" fee to the answer from the previous step to find the total: $4.00 + $2.00 = $<<4+2=6.00>>6.00\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total amount Nancy has to pay, we first need to find out how much she owes for the overdue books and then add the flat fee for having at least one book overdue.\n\n1. Calculate the cost for the overdue books: $0.50 * 8 = $4.00\n2. Add the flat fee for having at least one book overdue: $4.00 + $2.00 = $6.00\n\nSo, Nancy has to pay a total of $6.00.\n\n#### $6.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To calculate the total amount Nancy has to pay, we first need to find out how much she owes for the overdue books. She has 8 books, and each book costs $0.50. The cost for the 8 overdue books can be calculated by multiplying the number of books by the cost per book: 8 books * $0.50/book = $4.00. In addition to the cost of the overdue books, there is a flat fee of $2.00 for having at least one book that is over a week overdue.\n\nTo find the total amount Nancy has to pay, we need to add the cost of the overdue books and the flat fee together: $4.00 (cost of the books) + $2.00 (flat fee) = $6.00. \n\n#### $6.00",
+			"retrievals": 4
+		}
+	]
+}

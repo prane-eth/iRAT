@@ -1,0 +1,13 @@
+{
+	"task_id": 630,
+	"prompt": "James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He sold the car for 25000*10=$<<25000*10=250000>>250,000\nEach car was bought for 25,000*.3=$<<25000*.3=7500>>7500\nSo they bought the cars for 7500*10=$<<7500*10=75000>>75,000\nThat means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000\nSo his commission was 175,000*.1=$<<175000*.1=17500>>17,500\n#### 17500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount James made, we first need to determine the cost at which",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the amount James made, we first need to determine the cost at which the company acquired the cars. Since the company paid 30% of the selling price to acquire each car, the acquisition cost per car is 30% of $25,000. \n\n30% of $25,000 = 0.30 * $25,000 = $7,500.\n\nSo, the company acquired each car for $7,500. James sold each car for $25,000. The profit per car is the selling price minus the acquisition cost:\n\nProfit per car = $25,000 - $7,500 = $17,500.\n\nSince James sold 10 cars, the total profit from selling all the cars is:\n\nTotal profit = $17,500 * 10 = $175,000.\n\nJames got a 10% commission on the profits. To find out how much he made, we calculate 10% of the total profit:\n\nCommission = 10% of $175,000 = 0.10 * $175,000 = $17,500.\n\nTherefore, James made $17,500 from selling the 10 cars.\n\n#### $17,500",
+			"retrievals": 1
+		}
+	]
+}

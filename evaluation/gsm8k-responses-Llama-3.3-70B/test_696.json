@@ -1,0 +1,13 @@
+{
+	"task_id": 696,
+	"prompt": "There are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Bucks:50(.50)=25\n8 Points:25(.20)=5 bucks\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of 8 point bucks, we first need to calculate the total number of bucks in the field. \nGiven that there are 50 deer and 50 percent of them are bucks, we can find the number of bucks by multiplying the total number of deer by the percentage that are bucks: 50 * 0.5 = 25 bucks.\n\n \nNext, we need to find 20 percent of the bucks, since 20 percent of the bucks are 8 points. \nWe can calculate this by multiplying the number of bucks by 0.2 (which represents 20 percent): 25 * 0.2 = 5.\n\n#### 5",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the total number of bucks in the field\nTo find the total number of bucks, we first need to calculate 50 percent of the total deer population. The total number of deer is 50, and 50 percent of them are bucks. So, the number of bucks is 50 * 0.5 = 25.\n\n## Step 2: Calculate the number of 8-point bucks\nNow that we know there are 25 bucks, we need to find 20 percent of this number to determine how many are 8-point bucks. 20 percent of 25 is 25 * 0.2 = 5.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

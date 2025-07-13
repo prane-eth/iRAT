@@ -1,0 +1,13 @@
+{
+	"task_id": 972,
+	"prompt": "Robert is building a 15 foot long, 10 foot wide, rectangular wooden fence around his garden.  He needs 2 wood slats for every foot of fencing he builds.  How many wooden slats will he need?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A rectangle has 2 long sides and Robert wants them to be 15 feet long so 2*15 = <<2*15=30>>30 feet long\nA rectangle has 2 short sides and Robert wants them to be 10 feet wide so 2*10= <<2*10=20>>20 feet wide\nTogether, he will need 30 feet and 20 feet of fencing so 30+20 = <<30+20=50>>50 feet of fencing\nHe needs 2 wooden slats per 1 foot of fencing and he is building 50 feet of fencing so he needs 50*2 = <<2*50=100>>100 wooden slats\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of wooden slats Robert will need, we first need to calculate the total length of the fence he is building. The fence is rectangular and is 15 feet long and 10 feet wide.\n\nThe perimeter of a rectangle, which is the total length of the fence, can be calculated by adding the lengths of all four sides. Since there are two sides of 15 feet and two sides of 10 feet, the perimeter is calculated as 2 * 15 + 2 * 10.\n\nPerforming the calculation: 2 * 15 = 30 feet and 2 * 10 = 20 feet. Adding these together gives us a total perimeter of 30 + 20 = 50 feet.\n\nSince Robert needs 2 wood slats for every foot of fencing, we multiply the total length of the fence by 2 to find the total number of slats needed. So, 50 feet * 2 slats/foot = 100 slats.\n\n#### 100",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of wooden slats Robert will need, we first need to calculate the total length of the fence he is building. The fence is rectangular and is 15 feet long and 10 feet wide. \n\nThe perimeter of a rectangle, which is the total length of the fence, can be calculated by adding the lengths of all four sides. Since there are two sides of 15 feet and two sides of 10 feet, the perimeter is calculated as 2 * 15 + 2 * 10. This can be simplified to 30 + 20, which equals 50 feet.\n\nGiven that Robert needs 2 wood slats for every foot of fencing he builds, we can calculate the total number of wooden slats needed by multiplying the total length of the fence by 2. So, 50 feet * 2 slats/foot = 100 slats.\n\nTherefore, Robert will need a total of 100 wooden slats to build the fence around his garden.\n\n#### 100",
+			"retrievals": 1
+		}
+	]
+}

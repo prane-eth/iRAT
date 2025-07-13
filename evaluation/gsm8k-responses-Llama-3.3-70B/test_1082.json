@@ -1,0 +1,13 @@
+{
+	"task_id": 1082,
+	"prompt": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Frankie's score, we first need to understand the relationship between Frankie's and Binkie's scores. We are told that Frankie's score is 15 better than twice as high as Binkie's score.\n\n`\nGiven Binkie's score is 90, we can calculate twice Binkie's score: 2 * 90 = 180.\n\n`\nThen, we add 15 to this result to find Frankie's score, as Frankie's score is 15 better than twice Binkie's score: 180 + 15 = 195.\n\n`\nSo, Frankie's score is 195.\n\n#### 195",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find Frankie's score, we first need to understand the relationship between Frankie's and Binkie's scores. We are told that Frankie's score is 15 better than twice as high as Binkie's score.\n\nGiven Binkie's score is 90, we can calculate twice Binkie's score: 2 * 90 = 180.\n\nThen, we add 15 to this result to find Frankie's score, as Frankie's score is 15 better than twice Binkie's score: 180 + 15 = 195.\n\nSo, Frankie's score is 195. #### 195",
+			"retrievals": 1
+		}
+	]
+}

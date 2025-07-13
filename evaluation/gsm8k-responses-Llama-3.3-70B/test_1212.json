@@ -1,0 +1,13 @@
+{
+	"task_id": 1212,
+	"prompt": "For one medical dosage, Saanvi had to combine 14 mL of one medicine with 3 times that amount of the second medicine. How many mL of medicine would be in 8 doses?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First medicine = <<14=14>>14 mL\nSecond medicine = 3 * 14 = <<3*14=42>>42 mL\nOne dose = 14 + 42 = <<14+42=56>>56 mL\nEight doses = 8 * 56 = <<8*56=448>>448 mL\nEight doses of Saanvi's medicine contained 448 mL of medicine.\n#### 448",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of medicine in one dose, first, we need to calculate the amount of the second medicine. Since the amount of the second medicine is 3 times the amount of the first medicine, we multiply the amount of the first medicine by 3. The amount of the first medicine is 14 mL.\n\nSo, the amount of the second medicine is 14 mL * 3 = 42 mL. \n\nNow, we add the amount of the first medicine and the amount of the second medicine to find the total amount in one dose. Total amount in one dose = 14 mL + 42 mL = 56 mL.\n\nTo find the total amount of medicine in 8 doses, we multiply the total amount in one dose by 8. Total amount in 8 doses = 56 mL * 8 = 448 mL.\n\n#### 448",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the amount of the second medicine\nTo find the amount of the second medicine, we need to multiply the amount of the first medicine by 3. The amount of the first medicine is 14 mL. So, the amount of the second medicine is 14 mL * 3 = 42 mL.\n\n## Step 2: Calculate the total amount of medicine in one dose\nThe total amount of medicine in one dose is the sum of the amounts of the two medicines. So, the total amount is 14 mL + 42 mL = 56 mL.\n\n## Step 3: Calculate the total amount of medicine in 8 doses\nTo find the total amount of medicine in 8 doses, we need to multiply the total amount of medicine in one dose by 8. So, the total amount is 56 mL * 8 = 448 mL.\n\n#### 448",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 894,
+	"prompt": "Mark works at his job for 8 hours a day for 5 days a week.  He used to make $10 an hour but they raised his pay by $2 per hour.  How much does he make a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He works 8*5=<<8*5=40>>40 hours a week\nHe gets paid 10+2=$<<10+2=12>>12 an hour\nSo he now gets 40*12=$<<40*12=480>>480 per week\n#### 480",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Mark makes in a week, we first need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine Mark's weekly earnings, we first need to calculate his new hourly wage",
+			"retrievals": 1
+		}
+	]
+}

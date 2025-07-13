@@ -1,0 +1,13 @@
+{
+	"task_id": 1065,
+	"prompt": "The Science Center hosted field trips Monday through Friday last week. On Monday, 32 classes visited. Twice as many visited on Tuesday and three times as many visited on Wednesday. Another 30 classes visited on Thursday and 25 visited on Friday. In all, how many classes visited the Science Center last week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Tuesday, 32 classes x 2 = <<32*2=64>>64 classes visited.\nOn Wednesday, 32 classes x 3 = <<32*3=96>>96 classes visited.\nIn all, last week 32 classes on Monday + 64 on Tuesday + 96 on Wednesday + 30 on Thursday + 25 on Friday = <<32+64+96+30+25=247>>247 classes visited the Science Center last week.\n#### 247",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of classes that visited the Science Center last week, we need to calculate the number of classes that visited each day and then add them up. \n\nOn Monday, 32 classes visited. On Tuesday, twice as many classes visited as on Monday, which means 2 * 32 = 64 classes visited. On Wednesday, three times as many classes visited as on Monday, so 3 * 32 = 96 classes visited.\n\nWe also know that 30 classes visited on Thursday and 25 classes visited on Friday. \n\nTo find the total number of classes that visited, we need to add up the number of classes that visited each day: 32 (Monday) + 64 (Tuesday) + 96 (Wednesday) + 30 (Thursday) + 25 (Friday).\n\nLet's do the math: 32 + 64 = 96, 96 + 96 = 192, 192 + 30 = 222, 222 + 25 = 247.\n\n#### 247",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of classes that visited the Science Center last week, we need to calculate the number of classes that visited each day and then add them up. On Monday, 32 classes visited. On Tuesday, twice as many classes visited as on Monday, which means 2 * 32 = 64 classes visited. On Wednesday, three times as many classes visited as on Monday, so 3 * 32 = 96 classes visited. We also know that 30 classes visited on Thursday and 25 classes visited on Friday.\n\nTo find the total number of classes that visited, we need to add up the number of classes that visited each day: 32 (Monday) + 64 (Tuesday) + 96 (Wednesday) + 30 (Thursday) + 25 (Friday). Let's do the math: 32 + 64 = 96, 96 + 96 = 192, 192 + 30 = 222, 222 + 25 = 247. \n\n#### 247",
+			"retrievals": 1
+		}
+	]
+}

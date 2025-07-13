@@ -1,0 +1,13 @@
+{
+	"task_id": 1263,
+	"prompt": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He can speak 150*2.5=<<150*2.5=375>>375 words per minute\nHe wants to say 450*10=<<450*10=4500>>4500 words\nSo he can speak them in 4500/375=<<4500/375=12>>12 minutes\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how long it would take John to speak 10 pages, first,\n\nHis new speed = 150 WPM * 2.5 = 375 WPM. This means John can now speak 375 words in one minute.\n\n``\n\nNow, we need to calculate the total number of words in 10 pages. Each page has 450 words, so the total number of words in 10 pages = 10 pages * 450 words/page = 4500 words.\n\n``\n\nTo find out how long it would take John to speak 4500 words at his new speed of 375 WPM, we divide the total number of words by his speaking speed. Time = Total words / Speed = 4500 words / 375 WPM.\n\nTime = 4500 / 375 = 12 minutes.\n\n#### 12 minutes",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine the Average Speaking Speed\nThe average speaking speed in English is 130 words per minute (wpm), but John's normally speaking speed is 150 WPM. After training, his speed is 2.5 times faster than his starting speed.\n\n## Step 2: Calculate the New Speaking Speed\nTo find out how long it would take John to speak 10 pages, we first need to calculate his new speaking speed after training. His new speed = 150 WPM * 2.5 = 375 WPM. This means John can now speak 375 words in one minute.\n\n## Step 3: Calculate the Total Number of Words in 10 Pages\nNow, we need to calculate the total number of words in 10 pages. Each page has 450 words, so the total number of words in 10 pages = 10 pages * 450 words/page = 4500 words.\n\n## Step 4: Calculate the Time it Takes to Speak 10 Pages\nTo find out how long it would take John to speak 10 pages, we need to divide the total number of words by his new speaking speed. Time = Total words / New speed = 4500 words / 375 WPM = 12 minutes.\n\n#### 12 minutes",
+			"retrievals": 2
+		}
+	]
+}

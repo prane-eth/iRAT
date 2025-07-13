@@ -1,0 +1,13 @@
+{
+	"task_id": 427,
+	"prompt": "Aleksandra went to a restaurant for dinner. She ordered some soup, a bagel, and a piece of cake. The bagel cost $4, and the soup 25% more. The cake is only half of the price of the bagel. How much did Aleksandra need to pay for the dinner she ordered?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The soup cost 4 * 25/100 = $<<4*25/100=1>>1 more than the bagel.\nSo the soup cost is 4 + 1 = $<<4+1=5>>5.\nThe cake is half the price of the bagel, so it is 4 * 0.5 = $<<4*0.5=2>>2.\nAleksandra needed to pay 4 + 5 + 2 = $<<4+5+2=11>>11 for dinner.\n#### 11",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of Aleksandra's dinner, we first need to find",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total cost of Aleksandra's dinner, we first need to find",
+			"retrievals": 1
+		}
+	]
+}

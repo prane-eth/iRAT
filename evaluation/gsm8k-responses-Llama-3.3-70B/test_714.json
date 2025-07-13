@@ -1,0 +1,13 @@
+{
+	"task_id": 714,
+	"prompt": "Mr Boarden is remodeling his bathroom. For every square foot, he needs 24 mosaic tiles. How many mosaic tiles would Mr Boarden need to cover two thirds of his 36 sq ft bathroom?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A third of Mr. Boarden's bathroom is 36/3 = <<36/3=12>>12 sqft\nTwo thirds of Mr. Boarden's bathroom is 12 x 2 = <<12*2=24>>24 sq ft\nMr. Boarden needs 24 x 24 = <<24*24=576>>576 mosaic tiles\n#### 576",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of mosaic tiles Mr. Boarden needs, we first need to calculate the area of the bathroom that he wants to cover. Since he wants to cover two thirds of his 36 sq ft bathroom, we calculate this area by multiplying 36 by 2/3.\n\nThe calculation for the area to be covered is: 36 * (2/3) = 24 sq ft. This means Mr. Boarden wants to cover 24 square feet of his bathroom.\n\nNow, we need to find out how many mosaic tiles are required for 24 square feet, given that 24 mosaic tiles are needed for every square foot. We multiply the area to be covered (24 sq ft) by the number of tiles per square foot (24 tiles/sq ft).\n\nThe calculation for the total number of tiles needed is: 24 sq ft * 24 tiles/sq ft = 576 tiles.\n\n#### 576",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine the number of mosaic tiles Mr. Boarden needs, we first need to calculate the area of the bathroom that he wants to cover. Since he wants to cover two thirds of his 36 sq ft bathroom, we calculate this area by multiplying 36 by 2/3. The calculation for the area to be covered is: 36 * (2/3) = 24 sq ft. This means Mr. Boarden wants to cover 24 square feet of his bathroom.\n\nNow, we need to find out how many mosaic tiles are required for 24 square feet, given that 24 mosaic tiles are needed for every square foot. We multiply the area to be covered (24 sq ft) by the number of tiles per square foot (24 tiles/sq ft). The calculation for the total number of tiles needed is: 24 sq ft * 24 tiles/sq ft = 576 tiles.\n\n#### 576",
+			"retrievals": 1
+		}
+	]
+}

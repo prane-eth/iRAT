@@ -1,0 +1,13 @@
+{
+	"task_id": 1003,
+	"prompt": "Lisa and Peter are selling chocolate bars door to door. Lisa sold three and a half boxes of chocolate bars, and Peter sold four and a half boxes. They sold 64 chocolate bars together. How many chocolate bars are in a box?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let B stand for the number of chocolate bars in a box.\nLisa sold 3 1/2 * B bars.\nPeter sold 4 1/2 * B bars.\nTogether, they sold 3 1/2 * B + 4 1/2 * B = 8B = 64 bars.\nTherefore, there are B = 64 / 8 = <<64/8=8>>8 chocolate bars in a box.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many chocolate bars are in a box, we first need to determine the total number of boxes sold by Lisa and Peter. Lisa sold 3.5 boxes, and Peter sold 4.5 boxes. \n\nThe total number of boxes sold is 3.5 + 4.5 = 8 boxes. We know that together they sold 64 chocolate bars.\n\nSince we are trying to find out how many chocolate bars are in a box, we can set up an equation where the total number of chocolate bars sold equals the total number of boxes sold multiplied by the number of chocolate bars per box. Let's denote the number of chocolate bars per box as x. \n\nSo, the equation would be 8x = 64, where 8 is the total number of boxes and 64 is the total number of chocolate bars sold.\n\nTo find x, which is the number of chocolate bars per box, we divide both sides of the equation by 8. \n\nx = 64 / 8 = 8.\n\n#### 8",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve this problem, we first need to determine the total number of boxes of chocolate bars that Lisa and Peter sold together. Lisa sold 3.5 boxes, and Peter sold 4.5 boxes. The total number of boxes they sold is 3.5 + 4.5 = 8 boxes.\n\nGiven that they sold a total of 64 chocolate bars, we can find out how many chocolate bars are in a box by dividing the total number of chocolate bars by the total number of boxes. This calculation can be represented as 64 chocolate bars / 8 boxes = 8 chocolate bars per box.\n\nTherefore, the number of chocolate bars in a box can be found by simply dividing the total number of chocolate bars sold by the total number of boxes sold, which gives us 8 chocolate bars per box.\n\n#### 8",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 901,
+	"prompt": "Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Denise read 13 + 5 = <<13+5=18>>18 pages today.\nShe was able to read 10 + 18 = <<10+18=28>>28 pages in all.\nSo, Denise read 28 - 13 = <<28-13=15>>15 more pages than Daniel.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more pages Denise read than Daniel, we first need to calculate the total number of pages each of them read. Yesterday, Denise read 10 pages, and Daniel read 13 pages.\n\nDenise read 5 more pages today than Daniel read yesterday. Since Daniel read 13 pages yesterday, Denise read 13 + 5 = 18 pages today. So, Denise's total pages read are 10 (yesterday) + 18 (today) = 28 pages.\n\nDaniel did not read any pages today, so his total remains 13 pages from yesterday.\n\nTo find out how many more pages Denise read than Daniel, we subtract Daniel's total pages from Denise's total pages: 28 (Denise's total) - 13 (Daniel's total) = 15.\n\n#### 15",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the number of pages Denise read yesterday\nDenise read 10 pages yesterday.\n\n## Step 2: Calculate the number of pages Daniel read yesterday\nDaniel read 13 pages yesterday.\n\n## Step 3: Calculate the number of pages Denise read today\nDenise read 5 more pages than Daniel read yesterday. Since Daniel read 13 pages yesterday, Denise read 13 + 5 = 18 pages today.\n\n## Step 4: Calculate the total number of pages Denise read\nTotal pages Denise read = pages read yesterday + pages read today = 10 + 18 = 28.\n\n## Step 5: Calculate the total number of pages Daniel read\nSince Daniel did not read any pages today, total pages Daniel read = pages read yesterday = 13.\n\n## Step 6: Calculate the difference in the number of pages Denise and Daniel read\nDifference = Total pages Denise read - Total pages Daniel read = 28 - 13 = 15.\n\n#### 15",
+			"retrievals": 2
+		}
+	]
+}

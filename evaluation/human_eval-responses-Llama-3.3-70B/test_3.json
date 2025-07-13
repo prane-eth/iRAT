@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/2",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncate_number(3.5)\n    0.5\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```def truncate_number(number: float) -> float:\n    \"\"\"\n    Given a\n\n    Return the decimal part of the number.\n    >>> truncate_number_alternative(3.5)\n    0.5\n    \"\"\"\n    return number % 1\n```",
+			"old_rat_retrievals": 4,
+			"final_answer": "def truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncate_number(3.5)\n    0.5\n    \"\"\"\n    return number - int(number) \n\n# Example usage:\nprint(truncate_number(3.5))  # Output: 0.5\nprint(truncate_number(10.7))  # Output: 0.7\nprint(truncate_number(5.2))   # Output: 0.2\n\n# This function works by subtracting the integer part of the number from the number itself, \n# effectively removing the integer part and leaving only the decimal part. \n# The int() function is used to get the integer part of the number.",
+			"retrievals": 4
+		}
+	]
+}

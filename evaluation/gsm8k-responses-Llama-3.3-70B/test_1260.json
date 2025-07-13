@@ -1,0 +1,13 @@
+{
+	"task_id": 1260,
+	"prompt": "Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.\nSince each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.\nIn June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200\n#### 7200",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the amount of money Derrick makes in June, we first need to determine how many doughnuts he sells in a day, then calculate the daily revenue, and finally multiply it by the number of days in June.\n\n1. Derrick's bakery makes 10 dozen doughnuts every day. Since 1 dozen equals 12, 10 dozen equals 10 * 12 = 120 doughnuts.\n\n2. Each doughnut is sold at $2. Therefore, the daily revenue from selling all the doughnuts is 120 * $2 = $240.\n\n3. June has 30 days. So, the total amount of money Derrick makes in June by selling all the doughnuts is $240 * 30 = $7200.\n\n#### $7200",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate how much money Derrick makes in June, we first need to determine how many doughnuts he sells in a day. Since Derrick's bakery makes 10 dozen doughnuts every day, and 1 dozen equals 12 doughnuts, Derrick makes 10 * 12 = 120 doughnuts per day. Derrick sells each doughnut for $2. Therefore, the amount of money he makes in a day from selling doughnuts is 120 doughnuts * $2/doughnut = $240 per day.\n\nNext, we need to calculate how many days are in June. June has 30 days. So, to find out how much money Derrick makes in June, we multiply the daily earnings by the number of days in June: $240/day * 30 days = $7200.\n\n#### $7200",
+			"retrievals": 0
+		}
+	]
+}

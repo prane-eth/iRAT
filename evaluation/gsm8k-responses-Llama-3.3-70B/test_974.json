@@ -1,0 +1,13 @@
+{
+	"task_id": 974,
+	"prompt": "India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since the number of states in the USA is 50, half that number is 1/2*50 = 25\nSince there are 4 more than half the number of states in the USA in India, there are 25+4 = <<4+25=29>>29 states in India.\nTogether, the two countries have 50+29 = <<50+29=79>>79 states.\n#### 79",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nThe USA has 50 states. To find the number of states in India, we first need to calculate half the number of states in the USA. Half of 50 is 25. \n\nSince India has 4 more than half the number of states in the USA, we add 4 to 25. So, the total number of states in India is 25 + 4 = 29.\n\nTo find the total number of states in both countries together, we need to add the number of states in the USA and the number of states in India. The total number of states is 50 (USA) + 29 (India) = 79.\n\n#### 79",
+			"old_rat_retrievals": 3,
+			"final_answer": "The USA has 50 states. To find the number of states in India, we first need to calculate half the number of states in the USA. Half of 50 is 25. Since India has 4 more than half the number of states in the USA, we add 4 to 25. So, the total number of states in India is 25 + 4 = 29. To find the total number of states in both countries together, we need to add the number of states in the USA and the number of states in India. The total number of states is 50 (USA) + 29 (India) = 79. #### 79",
+			"retrievals": 2
+		}
+	]
+}

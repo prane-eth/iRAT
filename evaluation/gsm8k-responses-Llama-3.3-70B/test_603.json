@@ -1,0 +1,13 @@
+{
+	"task_id": 603,
+	"prompt": "A plane travels 1200 miles in 3 hours. At the same rate, how many additional hours would it take to travel an additional 2000 miles?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The rate is 1200/3=<<1200/3=400>>400 mph.\nThen it would take 2000/400=<<2000/400=5>>5 hours more.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the additional hours it would take for the plane to travel 2000 miles, we first need to determine the rate at which the plane is traveling. This can be calculated by dividing the distance traveled by the time taken. \n\nThe distance traveled is 1200 miles, and the time taken is 3 hours. So, the rate of the plane is 1200 miles / 3 hours = 400 miles per hour.\n\nNow that we know the rate of the plane, we can calculate the time it would take to travel an additional 2000 miles. This can be done by dividing the additional distance by the rate of the plane. \n\nThe additional distance is 2000 miles, and the rate of the plane is 400 miles per hour. So, the additional time is 2000 miles / 400 miles per hour = 5 hours.\n\n#### 5",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the rate of the plane\nTo find the rate of the plane, we need to divide the distance it traveled by the time it took. The distance traveled is 1200 miles, and the time taken is 3 hours. So, the rate of the plane is 1200 miles / 3 hours = 400 miles per hour.\n\n## Step 2: Calculate the additional time\nNow that we know the rate of the plane, we can calculate the time it would take to travel an additional 2000 miles. This can be done by dividing the additional distance by the rate of the plane. The additional distance is 2000 miles, and the rate of the plane is 400 miles per hour. So, the additional time is 2000 miles / 400 miles per hour = 5 hours.\n\n## Step 3: Confirm the calculation\nTo confirm our calculation, we can use the formula: time = distance / speed. Plugging in the values, we get: time = 2000 miles / 400 miles per hour = 5 hours.\n\nThe final answer is: #### 5",
+			"retrievals": 2
+		}
+	]
+}

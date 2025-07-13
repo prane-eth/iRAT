@@ -1,0 +1,13 @@
+{
+	"task_id": 404,
+	"prompt": "Mel uses a 900-watt air conditioner for 8 hours a day. This means that each hour the AC uses 900 watts of energy. If he reduces the time he uses the air conditioner by 5 hours a day, how many kilowatts of electric energy will he save in 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "An air conditioner uses 900 x 8 = <<900*8=7200>>7200 watts for 8 hours a day.\nAn air conditioner uses 900 x 5 = <<900*5=4500>>4500 watts for 5 hours a day.\nSo, Mel saves 7200 - 4500 = <<7200-4500=2700>>2700 watts per day.\nThat is 2700/1000 = <<2700/1000=2.7>>2.7 kilowatts per day since 1 kilowatt is equal to 1000 watts.\nHence, in 30 days he will have 2.7 x 30 = <<2.7*30=81>>81 kilowatts of electric energy saved.\n#### 81",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many kilowatts of electric energy Mel will save in",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the daily energy consumption of the air conditioner\nFirst, we need to calculate the daily energy consumption of the air conditioner. The air conditioner uses 900 watts of energy per hour. Since Mel uses it for 8 hours a day, the daily energy consumption is 900 watts/hour * 8 hours = 7200 watt-hours (Wh) per day.\n\n## Step 2: Calculate the daily energy consumption after reducing the usage time\nIf Mel reduces the time he uses the air conditioner by 5 hours a day, he will use it for 8 - 5 = 3 hours a day. The daily energy consumption after reducing the usage time is 900 watts/hour * 3 hours = 2700 watt-hours (Wh) per day.\n\n## Step 3: Calculate the daily energy savings\nThe daily energy savings can be calculated by subtracting the daily energy consumption after reducing the usage time from the original daily energy consumption. Daily energy savings = 7200 Wh/day - 2700 Wh/day = 4500 Wh/day.\n\n## Step 4: Convert the daily energy savings to kilowatt-hours (kWh)\nSince 1 kilowatt-hour (kWh) is equal to 1000 watt-hours (Wh), we can convert the daily energy savings to kWh by dividing by 1000. Daily energy savings in kWh = 4500 Wh/day / 1000 = 4.5 kWh/day.\n\n## Step 5: Calculate the total energy savings in 30 days\nTo find the total energy savings in 30 days, we can multiply the daily energy savings in kWh by 30. Total energy savings in 30 days = 4.5 kWh/day * 30 days = 135 kWh.\n\n#### 135",
+			"retrievals": 1
+		}
+	]
+}

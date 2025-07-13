@@ -1,0 +1,13 @@
+{
+	"task_id": 590,
+	"prompt": "If Martin eats Cheerios every day for breakfast, he'll lose 1.25 pounds/week. If he eats donuts every day for breakfast, he'll gain 1.75 pounds/week. What will be the difference in his weight at the end of 5 weeks between the two breakfast options?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the difference in weight gain per week: 1.75 pounds/week - ( -1.25 pounds/week) = 1.75 pounds/week + 1.25 pounds/week = <<1.75-(-1.25)=3>>3 pounds/week\nThen multiply the weight gain per week by the number of weeks to find the total difference at the end of 5 weeks: 5 weeks * 3 pounds/week = <<5*3=15>>15 pounds\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the difference in Martin's weight at the end of 5 weeks between eating Cheerios and donuts for breakfast, we first need to calculate the weight change for each option over the 5-week period.\n\nIf Martin eats Cheerios every day, he loses 1.25 pounds per week. Over 5 weeks, the total weight loss would be 1.25 pounds/week * 5 weeks = 6.25 pounds.\n\nIf Martin eats donuts every day, he gains 1.75 pounds per week. Over 5 weeks, the total weight gain would be 1.75 pounds/week * 5 weeks = 8.75 pounds.\n\nThe difference in weight between the two options at the end of 5 weeks can be found by subtracting the weight loss from eating Cheerios from the weight gain from eating donuts: 8.75 pounds (gain from donuts) - (-6.25 pounds) (loss from Cheerios), which is the same as adding the loss to the gain since subtracting a negative is like adding a positive.\n\nSo, the calculation is 8.75 pounds + 6.25 pounds = 15 pounds.\n\n#### 15 pounds",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the difference in Martin's weight at the end of 5 weeks between eating Cheerios and donuts for breakfast, we first need to calculate the weight change for each option over the 5-week period. If Martin eats Cheerios every day, he loses 1.25 pounds per week. Over 5 weeks, the total weight loss would be 1.25 pounds/week * 5 weeks = 6.25 pounds. On the other hand, if he eats donuts every day, he gains 1.75 pounds per week. Over 5 weeks, the total weight gain would be 1.75 pounds/week * 5 weeks = 8.75 pounds.\n\nThe difference in weight change between the two breakfast options can be found by subtracting the total weight loss from eating Cheerios from the total weight gain from eating donuts. Therefore, the difference = total weight gain from donuts - total weight loss from Cheerios = 8.75 pounds - (-6.25 pounds) = 8.75 pounds + 6.25 pounds = 15 pounds.\n\n#### 15 pounds",
+			"retrievals": 3
+		}
+	]
+}

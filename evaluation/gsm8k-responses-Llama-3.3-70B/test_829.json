@@ -1,0 +1,13 @@
+{
+	"task_id": 829,
+	"prompt": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mulan has a total of $40 + $100 = $<<40+100=140>>140.\nTwo pairs of jeans cost 2 x $30 = $<<2*30=60>>60.\nThus, Mulan spends a total of $60 + $20 = $<<60+20=80>>80.\nTherefore, Mulan has $140 - $80 = $<<140-80=60>>60 left.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nMulan starts with $40. Her father gave her $100, so we need to add this amount to her initial money. \nThe total amount of money Mulan has now is $40 + $100 = $140.\n\nShe buys two pairs of jeans at $30 each, so the total cost for the jeans is 2 * $30 = $60. \nAdditionally, she buys a bag for $20. \nThe total cost for the items she bought is $60 + $20 = $80.\n\nTo find out how much money Mulan has left, we need to subtract the total cost of the items she bought from the total amount of money she had. \nSo, $140 - $80 = $60.\n\n#### $60",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much money Mulan has left, we first need to calculate the total amount of money she had initially. Mulan started with $40, and her father gave her $100, so the total amount of money she had initially is $40 + $100 = $140.\n\nNext, we calculate the total cost of the items she bought. She bought two pairs of jeans at $30 each, so the total cost of the jeans is 2 * $30 = $60. She also bought a bag for $20. Therefore, the total cost of the items she bought is $60 + $20 = $80.\n\nTo find out how much money Mulan has left, we subtract the total cost of the items she bought from the total amount of money she had initially: $140 - $80 = $60.\n\n#### $60",
+			"retrievals": 1
+		}
+	]
+}

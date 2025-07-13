@@ -1,0 +1,13 @@
+{
+	"task_id": 770,
+	"prompt": "Tanya is teaching at school. She earns $15 for every hour and an additional $5 per day if she teaches more than 3 classes. On Monday she teaches 4 classes for 5 hours, and on Wednesday 2 classes for 2 hours. How much did Tanya earn for these two days of teaching?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Tanya worked for 5 hours + 2 hours = <<5+2=7>>7 hours.\nShe earned therefore 7 hours * $15/hour = $<<7*15=105>>105.\nOn Monday she taught more than 3 classes, so she got a bonus and in total earned $105 + $5 = $110.\n#### 110",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate Tanya's earnings for the two days of teaching, we first need to break down her earnings into two parts: the earnings from the hours taught and the additional daily earnings for teaching more than 3 classes.\n\nFor Monday, Tanya teaches 4 classes for 5 hours. Her earnings from hours taught on Monday would be 5 hours * $15 per hour = $75. Since she teaches more than 3 classes, she also earns an additional $5 for the day. Therefore, her total earnings for Monday would be $75 (from hours) + $5 (additional for more than 3 classes) = $80.\n\nFor Wednesday, Tanya teaches 2 classes for 2 hours. Her earnings from hours taught on Wednesday would be 2 hours * $15 per hour = $30. Since she teaches less than 3 classes, she does not earn the additional $5 for the day. Therefore, her total earnings for Wednesday would be $30.\n\nTo find out how much Tanya earned for these two days of teaching, we need to add her earnings from Monday and Wednesday. So, $80 (Monday's earnings) + $30 (Wednesday's earnings) = $110.\n\n#### $110",
+			"old_rat_retrievals": 0,
+			"final_answer": "To calculate Tanya's earnings for the two days of teaching, we need to break down her earnings for each day and then sum them up.\n\nOn Monday, Tanya teaches 4 classes for 5 hours. Her earnings from the hours taught would be 5 hours * $15 per hour = $75. Since she taught more than 3 classes, she also earns an additional $5 for the day, making her total earnings for Monday $75 + $5 = $80.\n\nOn Wednesday, Tanya teaches 2 classes for 2 hours. Her earnings from the hours taught would be 2 hours * $15 per hour = $30. Since she did not teach more than 3 classes, she does not earn the additional $5 for the day, so her total earnings for Wednesday remain $30.\n\nTo find Tanya's total earnings for the two days, we add her earnings from Monday and Wednesday: $80 + $30 = $110.\n\n#### $110",
+			"retrievals": 1
+		}
+	]
+}

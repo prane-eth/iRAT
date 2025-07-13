@@ -1,0 +1,15 @@
+{
+	"task_id": 559,
+	"prompt": "Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Zack's locker is 24/2=<<24/2=12>>12 cubic inches.\nPeter's locker is 12/4=<<12/4=3>>3 cubic inches.\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the size of Peter's locker, we first need to determine the size of Zack's locker since Peter's locker size is compared to Zack's. Timothy's locker is 24 cubic inches. \n\nZack's locker is half as big as Timothy's locker. So, to find the size of Zack's locker, we divide Timothy's locker size by 2. Zack's locker size = 24 / 2 = 12 cubic inches.\n\nPeter's locker is 1/4 as big as Zack's locker. Now that we know Zack's locker is 12 cubic inches, we can find Peter's locker size by multiplying Zack's locker size by 1/4. Peter's locker size = 12 * 1/4 = 12 * 0.25 = 3 cubic inches.\n\n#### 3",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the size of Peter's locker, we first need to determine the size",
+			"retrievals": 2,
+			"unsafe_prompt": true
+		}
+	],
+	"unsafe_prompt": true
+}

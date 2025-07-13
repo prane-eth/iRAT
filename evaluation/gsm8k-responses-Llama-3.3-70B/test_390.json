@@ -1,0 +1,13 @@
+{
+	"task_id": 390,
+	"prompt": "David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each ride cost 2 x $2 = $<<2*2=4>>4.\nAll 9 rides cost $4 x 9 = $<<4*9=36>>36.\nBy bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much money David saves, we first need to determine the cost of the rides for both David and Dasha. David buys a ride bracelet for $30, which gives him access to all 9 rides.\n\n \nThe cost for Dasha, who buys tickets, is calculated as follows: each ride costs 2 tickets, and each ticket costs $2. Therefore, each ride costs Dasha 2 * $2 = $4. Since there are 9 rides, the total cost for Dasha is 9 * $4 = $36.\n\n \nNow, to find out how much money David saves by buying the ride bracelet instead of tickets, we subtract the cost of the ride bracelet from the cost of buying tickets for all rides. The savings are $36 - $30 = $6.\n\n#### $6",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understand the problem and identify the key elements.\nDavid and Dasha are going to a carnival with 9 rides. Each ride costs 2 tickets at $2 per ticket, or they can buy a ride bracelet for $30 that includes 9 rides. We need to calculate how much money David saves by buying the ride bracelet instead of tickets, assuming both ride all 9 rides.\n\n## Step 2: Calculate the cost of buying tickets for all 9 rides.\nSince each ride requires 2 tickets and each ticket costs $2, the cost for one ride is 2 * $2 = $4. For 9 rides, the total cost would be 9 * $4 = $36.\n\n## Step 3: Calculate the cost of the ride bracelet.\nThe ride bracelet costs $30 and includes all 9 rides.\n\n## Step 4: Compare the costs and calculate the savings.\nTo find out how much David saves by buying the ride bracelet instead of tickets, we subtract the cost of the ride bracelet from the cost of buying tickets for all 9 rides: $36 - $30 = $6.\n\nThe final answer is: #### $6",
+			"retrievals": 2
+		}
+	]
+}

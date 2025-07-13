@@ -1,0 +1,13 @@
+{
+	"task_id": 309,
+	"prompt": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at a discount of $0.5. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The discount for each tub of ice cream is $13 - $11 = $<<13-11=2>>2.\nSo the discount for 2 tubs of ice cream is $2 x 2 = $<<2*2=4>>4.\nThe total discount for 4 packets of milk is $0.5 x 4 = $<<0.5*4=2>>2.\nYou will save $4 + $2 = $6 for 2 tubs of ice cream and 4 packets of milk.\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "To calculate the total savings, we first need to calculate the savings from the ice cream and the milk separately, then add them together.\n\n1. **Savings from Ice Cream:**\n   - Original price of one tub of ice cream: $13\n   - Discounted price of one tub of ice cream: $11\n   - Savings per tub of ice cream: $13 - $11 = $2\n   - Savings from 2 tubs of ice cream: $2 * 2 = $4\n\n2. **Savings from Milk:**\n   - Discount per packet of milk: $0.5\n   - Savings from 4 packets of milk: $0.5 * 4 = $2\n\n3. **Total Savings:**\n   - Total savings = Savings from ice cream + Savings from milk\n   - Total savings = $4 + $2 = $6\n\n#### $6",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the total savings from buying 2 tubs of ice cream and 4 packets of milk, we first need to determine the savings on each item individually. The original price of a tub of ice cream is $13, and it is now sold at $11. This means there is a $2 discount on each tub of ice cream.\n\nGiven that the discount on each tub of ice cream is $2, buying 2 tubs would result in a total savings of 2 * $2 = $4.\n\nNext, we calculate the savings from the packets of milk. Each packet of milk is discounted by $0.5. Since we are buying 4 packets of milk, the total savings from the milk is 4 * $0.5 = $2.\n\nTo find the total savings, we add the savings from the ice cream and the savings from the milk: $4 (from ice cream) + $2 (from milk) = $6.\n\n#### $6",
+			"retrievals": 2
+		}
+	]
+}

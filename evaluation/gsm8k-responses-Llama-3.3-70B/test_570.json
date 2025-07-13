@@ -1,0 +1,13 @@
+{
+	"task_id": 570,
+	"prompt": "Liam and Mitchell own competing lemonade stands across the street from one another. When Liam bragged that he had made $63 one weekend, Mitchell laughed and told Liam he had sold 21 lemonades at $4 apiece the same weekend. How many more dollars did Mitchell make selling lemonade that weekend than Liam?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Mitchell made 21 * 4 = $<<21*4=84>>84 selling lemonade.\nThus, Mitchell made 84 - 63 = $<<84-63=21>>21 more selling lemonade that weekend than Liam.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many more dollars Mitchell made selling lemonade that weekend than Liam, we first need to calculate the total amount of money Mitchell made. Mitchell sold 21 lemonades at $4 apiece. \n\nThe total amount Mitchell made can be calculated by multiplying the number of lemonades he sold by the price per lemonade: 21 lemonades * $4/lemonade = $84.\n\nNext, we compare this to the amount Liam made, which is $63. \n\nTo find out how many more dollars Mitchell made than Liam, we subtract the amount Liam made from the amount Mitchell made: $84 - $63 = $21.\n\n#### $21",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many more dollars Mitchell made selling lemonade that weekend than Liam, we need to calculate Mitchell's total earnings and then compare them to Liam's earnings. \n\nLiam made $63 over the weekend. \n\nMitchell sold 21 lemonades at $4 apiece. To find Mitchell's total earnings, we multiply the number of lemonades he sold by the price per lemonade: 21 * $4 = $84.\n\nNow, we compare Mitchell's earnings to Liam's earnings to find out how much more Mitchell made: $84 (Mitchell's earnings) - $63 (Liam's earnings) = $21.\n\nTherefore, Mitchell made $21 more than Liam.\n\n#### $21",
+			"retrievals": 2
+		}
+	]
+}

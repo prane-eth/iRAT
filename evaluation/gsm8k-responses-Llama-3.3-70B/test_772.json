@@ -1,0 +1,13 @@
+{
+	"task_id": 772,
+	"prompt": "Bennet is a farmer. He sells 20 of his eggplants for $3 each. He has 25 ears of corn that he can sell as well. If Bennet wants to make a total of $135, how much should he sell each ear of corn for?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "From his eggplants, Bennet makes 20 * $3 = $<<20*3=60>>60\nBennet needs to make $135 - $60 = $<<135-60=75>>75 from the sale of his corn\nBennet should sell each ear of corn for $75 / 25 = $<<75/25=3>>3\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Bennet should sell each ear of corn for, we",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much Bennet should sell each ear of corn for, we first need to calculate the total amount of money he makes from selling the eggplants. He sells 20 eggplants for $3 each, so the total amount from eggplants is 20 * $3 = $60.\n\nSince Bennet wants to make a total of $135, we subtract the amount he made from eggplants from his total goal to find out how much he needs to make from corn: $135 - $60 = $75.\n\nBennet has 25 ears of corn to sell. To find out how much he should sell each ear for, we divide the total amount he needs to make from corn ($75) by the number of ears of corn (25): $75 / 25 = $3.\n\nSo, Bennet should sell each ear of corn for $3 to reach his total goal of $135.\n\n#### $3",
+			"retrievals": 0
+		}
+	]
+}

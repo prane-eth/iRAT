@@ -1,0 +1,13 @@
+{
+	"task_id": 758,
+	"prompt": "Krissa needs to order field trip shirts for her preschool students. 11 students need size extra-small.  Twice as many students need size small as extra small. Four less than the number of size small students need size medium.  Half as many students need size large as size medium.  Six more students need size extra-large than large.  Altogether, how many shirts did Krissa order?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Krissa ordered 11 x 2 = <<11*2=22>>22 size small.\nShe ordered 22 - 4 = <<22-4=18>>18 size medium.\nShe ordered 18 / 2 = <<18/2=9>>9 size large.\nShe ordered 9 + 6 = <<9+6=15>>15 size extra-large.\nAltogether, Krissa ordered 11 + 22 + 18 + 9 + 15 = <<11+22+18+9+15=75>>75 shirts.\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of shirts Krissa ordered, we first start with the number of students who need size extra-small, which is given as 11.\n\nThe number of students who need size small is twice as many as those who need extra-small. So, the number of students needing size small is 2 * 11 = 22.\n\nThe number of students who need size medium is four less than the number of students who need size small. Therefore, the number of students needing size medium is 22 - 4 = 18.\n\nHalf as many students need size large as size medium. Thus, the number of students needing size large is 18 / 2 = 9.\n\nSix more students need size extra-large than large. So, the number of students needing size extra-large is 9 + 6 = 15.\n\nNow, to find the total number of shirts ordered, we add the number of students needing each size: 11 (extra-small) + 22 (small) + 18 (medium) + 9 (large) + 15 (extra-large) = 75.\n\n#### 75",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the total number of shirts Krissa ordered, let's break down the information step by step. \n\nFirst, we know that 11 students need size extra-small. Twice as many students need size small as extra small, so the number of students needing size small is 11 * 2 = 22.\n\nFour less than the number of size small students need size medium. Since 22 students need size small, the number of students needing size medium is 22 - 4 = 18.\n\nHalf as many students need size large as size medium. Thus, the number of students needing size large is 18 / 2 = 9.\n\nSix more students need size extra-large than large. So, the number of students needing size extra-large is 9 + 6 = 15.\n\nNow, to find the total number of shirts ordered, we add the number of students needing each size: 11 (extra-small) + 22 (small) + 18 (medium) + 9 (large) + 15 (extra-large) = 75.\n\n#### 75",
+			"retrievals": 2
+		}
+	]
+}

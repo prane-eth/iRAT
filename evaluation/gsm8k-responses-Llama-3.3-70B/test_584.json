@@ -1,0 +1,13 @@
+{
+	"task_id": 584,
+	"prompt": "Judy bought a dozen cups and twice as many dishes as cups to take to the church's charity event. At the event, she found out that her friend had brought 40 cups and 20 more dishes than she had brought. What's the total number of utensils brought by the two?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Judy brought a dozen cups, which is <<12=12>>12.\nJudy's number of plates was twice as many as cups which totals 2*12 = <<2*12=24>>24\nAll the utensils brought by Judy is 24 dishes+12 cups = <<24+12=36>>36\nHer friend brought 24+ 20 = <<24+20=44>>44 dishes.\nThe total number of utensils brought by Judy's friend is 44 dishes+40 cups = <<44+40=84>>84\nWhen they combined their utensils, they brought together 84+36 = <<84+36=120>>120\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of utensils brought by Judy and her friend, we first need to calculate the number of cups and dishes each of them brought. Judy bought a dozen cups, which is 12 cups. She also bought twice as many dishes as cups, so she bought 2 * 12 = 24 dishes.\n\nJudy's friend brought 40 cups and 20 more dishes than Judy had brought. Since Judy brought 24 dishes, her friend brought 24 + 20 = 44 dishes. Now, we can calculate the total number of utensils brought by the two. The total number of cups is 12 (Judy's cups) + 40 (her friend's cups) = 52 cups. The total number of dishes is 24 (Judy's dishes) + 44 (her friend's dishes) = 68 dishes.\n\nTo find the total number of utensils, we add the total number of cups and dishes. Total utensils = 52 cups + 68 dishes = 120 utensils.\n\n#### 120",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the number of cups and dishes Judy bought\nJudy bought a dozen cups, which is 12 cups. She also bought twice as many dishes as cups, so she bought 2 * 12 = 24 dishes.\n\n## Step 2: Calculate the number of cups and dishes Judy's friend bought\nJudy's friend brought 40 cups and 20 more dishes than Judy had brought. Since Judy brought 24 dishes, her friend brought 24 + 20 = 44 dishes.\n\n## Step 3: Calculate the total number of utensils brought by the two\nThe total number of cups is 12 (Judy's cups) + 40 (her friend's cups) = 52 cups. The total number of dishes is 24 (Judy's dishes) + 44 (her friend's dishes) = 68 dishes. To find the total number of utensils, we add the total number of cups and dishes: 52 cups + 68 dishes = 120 utensils.\n\nThe final answer is: #### 120",
+			"retrievals": 3
+		}
+	]
+}

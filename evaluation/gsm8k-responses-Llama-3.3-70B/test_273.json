@@ -1,0 +1,13 @@
+{
+	"task_id": 273,
+	"prompt": "A mother goes shopping. She buys cocoa at $4.20, laundry at $9.45 and a package of pasta at $1.35. She pays $20. How much change does the cashier give back?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total shopping cost is $4.2 + $9.45 + $1.35 = $<<4.2+9.45+1.35=15>>15.\nThe cashier gives back $20 - 1$5 = $<<20-15=5>>5.\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change the cashier gives back, we first need to calculate the total cost of the items the mother bought. The items include cocoa at $4.20, laundry at $9.45, and a package of pasta at $1.35.\n\nThe total cost can be calculated by adding the costs of all the items together: $4.20 (cocoa) + $9.45 (laundry) + $1.35 (pasta) = $15.00.\n\nThe mother pays $20. To find out how much change she gets, we subtract the total cost of the items from the $20 she paid.\n\nThe change can be calculated as follows: $20 (payment) - $15.00 (total cost) = $5.00.\n\n#### $5.00",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the Total Cost of Items\nThe mother buys three items: cocoa at $4.20, laundry at $9.45, and a package of pasta at $1.35. To find the total cost, we need to add the prices of these items together. Total cost = $4.20 + $9.45 + $1.35.\n\n## Step 2: Perform the Addition to Find the Total Cost\nAdding the costs: $4.20 + $9.45 = $13.65, then $13.65 + $1.35 = $15.00. So, the total cost of the items is $15.00.\n\n## Step 3: Calculate the Change\nThe mother pays $20. To find out how much change she should get, we subtract the total cost of the items from the $20. Change = $20 - $15.00.\n\n## Step 4: Perform the Subtraction to Find the Change\nSubtracting the total cost from the payment: $20 - $15.00 = $5.00. Therefore, the change the cashier gives back is $5.00.\n\n#### $5.00",
+			"retrievals": 2
+		}
+	]
+}

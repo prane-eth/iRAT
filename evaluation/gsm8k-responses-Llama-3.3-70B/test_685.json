@@ -1,0 +1,13 @@
+{
+	"task_id": 685,
+	"prompt": "John and Jack have 30 minutes to walk to school together. It takes them 6 minutes to get to the corner where the library is. It takes them another 13 minutes to get to the fire station. How much longer do they have to get to school without being late?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "John and Jack arrive at the library with 30 - 6 = <<30-6=24>>24 minutes left to reach the fire station.\nThey then arrive at the fire station and have 24 - 13 = <<24-13=11>>11 minutes left to get to school without being late.\n#### 11",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much longer John and Jack have to get to school without being",
+			"old_rat_retrievals": 0,
+			"final_answer": "To determine how much longer John and Jack have to get to school without being late, we first need to calculate the total time they have spent walking so far. They took 6 minutes to get to the corner where the library is, and then another 13 minutes to get to the fire station.\n\nThe total time spent walking so far is the sum of the time to get to the library and the time to get to the fire station, which is 6 minutes + 13 minutes = 19 minutes.\n\nSince they have 30 minutes in total to walk to school, we need to subtract the time they have already spent walking from the total time available to find out how much longer they have. The remaining time is 30 minutes - 19 minutes = 11 minutes.\n\nTherefore, John and Jack have 11 minutes left to get to school without being late.\n\n#### 11",
+			"retrievals": 1
+		}
+	]
+}

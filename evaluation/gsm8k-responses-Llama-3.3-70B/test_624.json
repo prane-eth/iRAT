@@ -1,0 +1,13 @@
+{
+	"task_id": 624,
+	"prompt": "Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Charmaine's present age is 16 - 12 = <<16-12=4>>4 years old.\nSo she will be 4 + 4 = <<4+4=8>>8 years old 4 years from now.\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how old Charmaine will be 4 years from now, we",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate Charmaine's current age\nTo find Charmaine's current age, we subtract 12 from 16 because she will be 16 years old in 12 years. So, her current age is 16 - 12 = 4 years old.\n\n## Step 2: Determine Charmaine's age 4 years from now\nNow that we know Charmaine is currently 4 years old, to find out how old she will be 4 years from now, we simply add 4 to her current age. So, 4 + 4 = 8 years old.\n\n## Step 3: Conclusion\nTherefore, Charmaine will be 8 years old 4 years from now.\n\n#### 8",
+			"retrievals": 1
+		}
+	]
+}

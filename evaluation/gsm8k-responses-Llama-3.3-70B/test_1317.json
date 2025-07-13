@@ -1,0 +1,13 @@
+{
+	"task_id": 1317,
+	"prompt": "Mark's car breaks down and he needs to get a new radiator.  The cost for a new radiator is $400 but he goes to get it at a junk shop and gets it for 80% off.  He then hires a mechanic to install it and it takes 3 hours at $50 an hour.  How much did he pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The discount on the radiator was 400*.8=$<<400*.8=320>>320\nSo he paid 400-320=$<<400-320=80>>80\nThe mechanic charges 3*50=$<<3*50=150>>150\nSo in total he paid 80+150=$<<80+150=230>>230\n#### 230",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Mark paid, we first need to calculate the cost of the radiator after the discount. The original price of the radiator is $400, and he gets it for 80% off. \n\nThe discount amount is 80% of $400, which is calculated as 0.8 * $400 = $320. So, the discount amount is $320.\n\nThe cost of the radiator after the discount is the original price minus the discount amount, which is $400 - $320 = $80.\n\nNext, we need to calculate the cost of hiring the mechanic to install the radiator. The mechanic works for 3 hours at $50 an hour.\n\nThe total cost for the mechanic's labor is 3 hours * $50/hour = $150.\n\nNow, we need to add the cost of the radiator and the cost of the mechanic's labor to find the total amount Mark paid.\n\nThe total cost is $80 (radiator) + $150 (labor) = $230.\n\n#### $230",
+			"old_rat_retrievals": 7,
+			"final_answer": "To determine how much Mark paid, we first need to calculate the cost of the new radiator after the discount. The original price of the radiator is $400, and Mark gets it for 80% off at a junk shop. \n\nThe discount amount is 80% of $400, which is 0.8 * $400 = $320. So, the cost of the radiator after the discount is $400 - $320 = $80.\n\nNext, we calculate the cost of hiring the mechanic to install the radiator. The mechanic works for 3 hours at $50 an hour. The total cost for the mechanic's labor is 3 hours * $50/hour = $150.\n\nNow, we need to add the cost of the radiator and the cost of the mechanic's labor to find the total amount Mark paid. The total cost is $80 (radiator) + $150 (labor) = $230.\n\n#### $230",
+			"retrievals": 2
+		}
+	]
+}

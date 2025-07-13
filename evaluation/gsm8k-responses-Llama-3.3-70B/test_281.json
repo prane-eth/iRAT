@@ -1,0 +1,13 @@
+{
+	"task_id": 281,
+	"prompt": "Peter purchased 20 popsicles at $0.25 each. He also purchased 4 ice cream bars at $0.50 each. How much did he pay in total in dollars?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The popsicles cost 0.25*20=<<0.25*20=5>>5 dollars.\nThe ice cream bars cost 0.5*4=<<0.5*4=2>>2 dollars.\nHe paid 5+2=<<5+2=7>>7 dollars.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total amount Peter paid, we need to calculate the cost of the popsicles and the ice cream bars separately and then add them together.\n\nThe cost of the popsicles is 20 * $0.25 = $5.\nThe cost of the ice cream bars is 4 * $0.50 = $2.\n\nThe total amount Peter paid is $5 + $2 = $7.\n\n#### $7",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate the cost of popsicles\nTo find the total cost of the popsicles, we multiply the number of popsicles by the cost of each popsicle. The number of popsicles purchased is 20, and each popsicle costs $0.25. So, the total cost of popsicles is 20 * $0.25 = $5.\n\n## Step 2: Calculate the cost of ice cream bars\nNext, we calculate the total cost of the ice cream bars. Peter purchased 4 ice cream bars at $0.50 each. The total cost of ice cream bars is 4 * $0.50 = $2.\n\n## Step 3: Find the total amount paid\nNow, we add the cost of the popsicles and the cost of the ice cream bars to find the total amount paid: $5 + $2 = $7.\n\n#### $7",
+			"retrievals": 2
+		}
+	]
+}

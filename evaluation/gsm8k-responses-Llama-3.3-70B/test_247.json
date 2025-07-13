@@ -1,0 +1,13 @@
+{
+	"task_id": 247,
+	"prompt": "Jeans makeup artist charges her $250 an hour.  She requires very expensive makeup for a movie she is in and it takes 6 hours to do each day and she needs it done 4 times a week.  The movie takes 5 weeks to finish.  After the movie is done the makeup artist gives Jean a 10% discount because of the amount of work done.  How much did Jean pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jean pays 250*6=$<<250*6=1500>>1500 a day\nSo he pays 1500*4=$<<1500*4=6000>>6000 a week\nSo the work cost 6000*5=$<<6000*5=30000>>30,000\nThey give a discount of 30,000*.1=$<<30000*.1=3000>>3000\nSo the total cost paid is 30,000-3000=$<<30000-3000=27000>>27,000\n#### 27000",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Jean paid, we first need to calculate the total cost before the discount.\n\n1. The makeup artist charges $250 an hour.\n2. It takes 6 hours to do the makeup each day.\n3. So, the daily cost is $250 * 6 = $1,500.\n4. Jean needs the makeup done 4 times a week.\n5. The weekly cost is $1,500 * 4 = $6,000.\n6. The movie takes 5 weeks to finish.\n7. The total cost before the discount is $6,000 * 5 = $30,000.\n\nNow, we apply the 10% discount:\n\n1. The discount amount is 10% of $30,000, which is 0.10 * $30,000 = $3,000.\n2. The total cost after the discount is $30,000 - $3,000 = $27,000.\n\nTherefore, Jean paid $27,000.\n\n#### $27,000",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much Jean paid, we first need to calculate the total hours the makeup artist worked. The movie takes 5 weeks to finish, and the makeup artist works 4 times a week. So, the total number of days the makeup artist worked is 5 weeks * 4 days/week = 20 days. Since it takes 6 hours to do the makeup each day, the total hours worked is 20 days * 6 hours/day = 120 hours.\n\nThe makeup artist charges $250 an hour, so the total cost before the discount is 120 hours * $250/hour = $30,000.\n\nAfter the movie is done, the makeup artist gives Jean a 10% discount. The discount amount is 10% of $30,000, which is 0.1 * $30,000 = $3,000.\n\nSo, the total amount Jean paid is $30,000 - $3,000 = $27,000.\n\n#### $27,000",
+			"retrievals": 6
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 81,
+	"prompt": "Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters of water were left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each of the girls got 24 x 1/6 = <<24*1/6=4>>4 liters of water.\nSo the two girls got a total of 4 x 2 = <<4*2=8>>8 liters.\nThus, a total of 8 + 6 = <<8+6=14>>14 liters of water were gotten by the two girls and the boy.\nTherefore, 24 - 14 = <<24-14=10>>10 liters of water were left.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many liters of water were left, let's first calculate how",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the amount of water each girl got\nTwo girls each got 1/6 of the 24 liters of water. So, each girl got (1/6) * 24 = 4 liters of water.\n\n## Step 2: Calculate the total amount of water the girls got\nSince there are two girls, the total amount of water they got is 2 * 4 = 8 liters.\n\n## Step 3: Calculate the amount of water left after the girls got their share\nThe total amount of water initially was 24 liters. After the girls got their share, 24 - 8 = 16 liters of water were left.\n\n## Step 4: Calculate the amount of water left after the boy got his share\nA boy got 6 liters of water from the remaining 16 liters. So, the amount of water left after the boy got his share is 16 - 6 = 10 liters.\n\n## Step 5: Determine the final amount of water left\nAfter all the shares were taken, 10 liters of water were left.\n\n#### 10",
+			"retrievals": 1
+		}
+	]
+}

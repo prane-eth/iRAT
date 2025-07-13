@@ -1,0 +1,13 @@
+{
+	"task_id": 869,
+	"prompt": "A three-ounce box of flavored jello makes 10 small jello cups.  Greg wants to make small jello cups for his son's outdoor birthday party.  There will be 30 kids and he wants to have enough so that each kid can have 4 jello cups.  Jello is currently on sale for $1.25.  How much will he spend on jello?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There will be 30 kids and he wants each kid to have 4 servings so that's 30*4 = <<30*4=120>>120 jello cups\n1 box of jello makes 10 jello cups and he needs to make 120 jello cups so he needs 120/10 = <<120/10=12>>12 boxes of jello\nEach box of jello is $1.25 and he needs 12 boxes so he will spend 1.25*12 = $<<1.25*12=15.00>>15.00 on jello\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Greg will spend on jello, we first need to calculate the total number of jello cups he wants to make. There will be 30 kids at the party, and each kid should have 4 jello cups. \n\nSo, the total number of jello cups needed is 30 kids * 4 jello cups/kid = 120 jello cups.\n\n`\nNext, we need to figure out how many boxes of jello Greg needs to buy to make 120 jello cups. Since one box of flavored jello makes 10 small jello cups, we divide the total number of jello cups needed by the number of cups one box can make.\n\nThe number of boxes needed is 120 jello cups / 10 jello cups/box = 12 boxes.\n\n`\nNow that we know Greg needs 12 boxes of jello, we can calculate the total cost. Each box of jello is on sale for $1.25. \n\nThe total cost will be 12 boxes * $1.25/box = $15.\n\n#### $15",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the Total Number of Jello Cups Needed\nTo determine how much Greg will spend on jello, we first need to calculate the total number of jello cups he wants to make. There will be 30 kids at the party, and each kid should have 4 jello cups. So, the total number of jello cups needed is 30 kids * 4 jello cups/kid = 120 jello cups.\n\n## Step 2: Determine the Number of Boxes of Jello Needed\nNext, we need to figure out how many boxes of jello Greg needs to buy to make 120 jello cups. Since one box of flavored jello makes 10 small jello cups, we divide the total number of jello cups needed by the number of cups one box can make. The number of boxes needed is 120 jello cups / 10 jello cups/box = 12 boxes.\n\n## Step 3: Calculate the Total Cost of Jello\nNow that we know Greg needs 12 boxes of jello, we can calculate the total cost. Each box of jello is on sale for $1.25. The total cost will be 12 boxes * $1.25/box = $15.\n\n#### $15",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1043,
+	"prompt": "Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11\nOn the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15\nHe lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20\n\nHe lost $9 that day because 11 - 20 = <<11-20=-9>>-9\nHe lost an average of $3 per race because 9 / 3 = <<9/3=3>>3\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average amount Johnny's dad lost that day, we first need to calculate the total amount he lost or won in each race. \n\nOn the first race, he lost $5. \n\nOn the second race, he won $1 more than twice the amount he previously lost. Twice the amount he lost is 2 * $5 = $10. So, he won $10 + $1 = $11 on the second race.\n\nOn the third race, he lost 1.5 times as much as he won in the second race. He won $11 on the second race, so he lost 1.5 * $11 = $16.50 on the third race.\n\nNow, let's calculate the total amount he lost or won: -$5 (first race) + $11 (second race) - $16.50 (third race) = -$10.50.\n\nTo find the average amount he lost, we divide the total amount by the number of races: -$10.50 / 3 = -$3.50.\n\n#### -$3.50",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the average amount Johnny's dad lost that day, we first need to calculate the total amount he lost or won in each race. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. Twice the amount he lost is 2 * $5 = $10. So, he won $10 + $1 = $11 on the second race. On the third race, he lost 1.5 times as much as he won in the second race. He won $11 on the second race, so he lost 1.5 * $11 = $16.50 on the third race.\n\nNow, let's calculate the total amount he lost or won: -$5 (first race) + $11 (second race) - $16.50 (third race) = -$10.50. To find the average amount he lost, we divide the total amount by the number of races: -$10.50 / 3 = -$3.50. \n\n#### -$3.50",
+			"retrievals": 0
+		}
+	]
+}

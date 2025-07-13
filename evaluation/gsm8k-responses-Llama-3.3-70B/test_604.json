@@ -1,0 +1,13 @@
+{
+	"task_id": 604,
+	"prompt": "Ruiz can make 120 pounds of chocolates in two hours. Marissa makes 3/4 times as many pounds of chocolates in an hour as Ruiz makes in the two hours. If they worked for 12 hours in a day, calculate the total amount of chocolate pounds they made together.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Merissa makes 3/4 * 120 pounds = <<3/4*120=90>>90 pounds of chocolate in an hour.\nRuiz makes 120 pounds of chocolate in two hours; this means she makes 120 pounds / 2 hours = <<120/2=60>>60 pounds of chocolate in an hour.\nIf they worked for 12 hours, Ruiz made 12 hours * 60 pounds/hour = <<12*60=720>>720 pounds of chocolate while\nMarissa made 90 pounds/hour * 12 hours = <<90*12=1080>>1080 pounds of chocolate\nThe combined amount of pounds of chocolate they both ate is 1080 pounds + 720 pounds = <<1080+720=1800>>1800 pounds of chocolate\n#### 1800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount of chocolate pounds Ruiz and Marissa made together, we",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate Ruiz's production rate\nRuiz can make 120 pounds of chocolates in two hours. To find out how many pounds of chocolates Ruiz makes in one hour, we divide the total pounds by the number of hours: 120 pounds / 2 hours = 60 pounds per hour.\n\n## Step 2: Calculate Marissa's production rate\nMarissa makes 3/4 times as many pounds of chocolates in an hour as Ruiz makes in two hours. Since Ruiz makes 120 pounds in 2 hours, Marissa makes (3/4) * 120 pounds = 90 pounds in one hour.\n\n## Step 3: Calculate the total production for Ruiz and Marissa in 12 hours\nRuiz makes 60 pounds per hour. In 12 hours, Ruiz will make 60 pounds/hour * 12 hours = 720 pounds. Marissa makes 90 pounds per hour. In 12 hours, Marissa will make 90 pounds/hour * 12 hours = 1080 pounds.\n\n## Step 4: Calculate the combined total production\nThe total amount of chocolate pounds they made together is the sum of their individual productions: 720 pounds (Ruiz) + 1080 pounds (Marissa) = 1800 pounds.\n\n#### 1800",
+			"retrievals": 1
+		}
+	]
+}

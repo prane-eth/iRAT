@@ -1,0 +1,13 @@
+{
+	"task_id": 856,
+	"prompt": "I am three years younger than my brother, and I am 2 years older than my sister. My mom's age is one less than three times my brother's age. When you add all our ages, you get 87. How old am I?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Let X be my age. My brother is X + 3 years old. My sister is X - 2 years old.\nMy mom is (X + 3) * 3 - 1 years old.\nThe sum of our ages is X + (X+3) + (X-2) + [(X+3)*3 - 1] = 87 years old.\nMultiplying through the parentheses and combining like terms, you get X*6 + 9 = 87 years old.\nSubtracting nine from both sides and dividing both sides by 6, you get X = 13 years old.\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote my age as A, my brother's age as B, and",
+			"old_rat_retrievals": 0,
+			"final_answer": "Let's denote my age as A, my brother's age as B, my sister's age as C, and my mom's age as M.\n\nSince I am three years younger than my brother, we can express this relationship as:\nA = B - 3\n\nGiven that I am 2 years older than my sister, we have:\nA = C + 2\n\nWe also know that my mom's age is one less than three times my brother's age, which can be written as:\nM = 3B - 1\n\nWhen we add all our ages, the sum is 87, so we can write the equation:\nA + B + C + M = 87\n\nSubstituting the expressions for A, C, and M from the earlier equations into the sum equation gives us:\n(B - 3) + B + (B - 3 - 2) + (3B - 1) = 87\n\nSimplifying the equation by combining like terms:\nB - 3 + B + B - 5 + 3B - 1 = 87\n6B - 9 = 87\n\nAdding 9 to both sides of the equation:\n6B = 96\n\nDividing both sides by 6:\nB = 16\n\nNow that we know my brother's age, we can find my age using the equation A = B - 3:\nA = 16 - 3\nA = 13\n\n#### 13",
+			"retrievals": 1
+		}
+	]
+}

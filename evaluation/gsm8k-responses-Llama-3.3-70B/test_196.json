@@ -1,0 +1,13 @@
+{
+	"task_id": 196,
+	"prompt": "A pen costs as much as a pencil and eraser combined. A pencil costs $1.20 and an eraser costs $0.30. How much will 8 pens cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "A pen costs $1.20 + $0.30 = $<<1.20+0.30=1.50>>1.50.\nSo, 8 pens cost $1.50 x 8 = $<<8*1.5=12>>12.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the cost of 8 pens, we first need to determine the cost of one pen. We know that a pen costs as much as a pencil and an eraser combined. \n\nThe cost of a pencil is $1.20, and the cost of an eraser is $0.30. To find the cost of a pen, we add the cost of a pencil and an eraser: $1.20 + $0.30 = $1.50. So, one pen costs $1.50.\n\nNow that we know the cost of one pen, we can calculate the cost of 8 pens by multiplying the cost of one pen by 8: $1.50 * 8 = $12.00.\n\n#### $12.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the cost of 8 pens, we need to first calculate the cost of one pen. Given that a pen costs as much as a pencil and an eraser combined, we add the cost of a pencil and an eraser: $1.20 (pencil) + $0.30 (eraser) = $1.50. This means one pen costs $1.50.\n\nNext, we calculate the cost of 8 pens by multiplying the cost of one pen by 8: $1.50 * 8 = $12.00.\n\nTherefore, the cost of 8 pens is $12.00.\n\n#### $12.00",
+			"retrievals": 1
+		}
+	]
+}

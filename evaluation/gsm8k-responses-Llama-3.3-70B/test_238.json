@@ -1,0 +1,13 @@
+{
+	"task_id": 238,
+	"prompt": "Johnny took his allowance of $20 and added an extra $10 to it.  He then invested this sum of money, which tripled in a year.  How much money did he have after a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Johnny invested twenty and ten dollars for a total of 20+10=<<20+10=30>>30 dollars invested\nJohnny tripled this amount of money over the year, for a total of 30*=90 dollars\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much money Johnny had after a year, we first need to calculate the total amount of money he initially invested. Johnny started with his allowance of $20 and then added an extra $10 to it.\n\nThe initial investment can be calculated as follows: $20 (allowance) + $10 (extra money) = $30. So, Johnny initially invested $30.\n\nThis sum of money tripled in a year. To find out how much money Johnny had after a year, we need to multiply the initial investment by 3. The calculation is as follows: $30 * 3 = $90.\n\n#### $90",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much money Johnny had after a year, we first need to calculate the total amount of money he initially invested. Johnny started with his allowance of $20 and added an extra $10 to it. So, the initial investment can be calculated as $20 (allowance) + $10 (extra money) = $30.\n\nSince the investment tripled in a year, we need to multiply the initial investment by 3 to find the total amount of money Johnny had after a year. The calculation is $30 * 3 = $90.\n\nTherefore, after a year, Johnny had $90.\n\n#### $90",
+			"retrievals": 2
+		}
+	]
+}

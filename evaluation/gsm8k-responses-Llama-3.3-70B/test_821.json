@@ -1,0 +1,13 @@
+{
+	"task_id": 821,
+	"prompt": "Sandy walked from Holloway Shores to Sun Valley Shores for 8 hours on a particular day. She also walked half as many hours on the second day as she walked on the first day, to Hollock valley shores. Calculate the total time Sandy took to walk in the two days in minutes.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If she walked half as many hours on the second day as the first day, she walked for 1/2*8 = <<8*1/2=4>>4 hours on the second day.\nThe total time Sandy walked in the two days is 8+4 =<<8+4=12>>12 hours.\nSince 1 hour has 60 minutes, Sandy walked for 12*60 = <<12*60=720>>720 minutes in the two days.\n#### 720",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total time Sandy took to walk in the two days, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total time Sandy took to walk in the two days, we first need to find out how many hours she walked on each day. On the first day, Sandy walked for 8 hours. On the second day, she walked half as many hours as she did on the first day, which is 8 / 2 = 4 hours.\n\nNow, we add the hours from both days to get the total hours: 8 hours + 4 hours = 12 hours.\n\nSince we are asked to calculate the total time in minutes, we need to convert the total hours into minutes. There are 60 minutes in an hour, so we multiply the total hours by 60: 12 hours * 60 minutes/hour = 720 minutes.\n\n#### 720",
+			"retrievals": 0
+		}
+	]
+}

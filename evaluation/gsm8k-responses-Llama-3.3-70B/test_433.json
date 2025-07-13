@@ -1,0 +1,13 @@
+{
+	"task_id": 433,
+	"prompt": "Prince Thaddeus slew 100 dragons with his mighty sword, while Prince Arthur, using a spear, slew three quarters as many dragons as Prince Thaddeus.  Using a rusty iron axe, Prince Walter slew twice as many dragons as Prince Arthur.  But Prince Bruce, having forgot his sword at home, slew one-fifth as many dragons as Prince Walter using a nail file.  How many Dragons has Prince Bruce slain?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Prince Arthur slew three-quarters as many dragons as Prince Thaddeus, or 100*(3/4)=<<100*(3/4)=75>>75 dragons.\nPrince Walter slew twice as many dragons as Prince Arthur, or 2*75=<<2*75=150>>150 dragons.\nPrince Bruce slew one-fifth as many dragons as Prince Walter, or 150/5=<<150/5=30>>30 dragons.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of dragons Prince Bruce slew, we first need to determine the",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the number of dragons Prince Thaddeus slew\nPrince Thaddeus slew 100 dragons with his mighty sword. This is the starting point for calculating the number of dragons slain by the other princes.\n\n## Step 2: Calculate the number of dragons Prince Arthur slew\nPrince Arthur slew three quarters as many dragons as Prince Thaddeus. To find the number of dragons Prince Arthur slew, we multiply the number of dragons Prince Thaddeus slew by 3/4. So, Prince Arthur slew (3/4) * 100 = 75 dragons.\n\n## Step 3: Calculate the number of dragons Prince Walter slew\nPrince Walter slew twice as many dragons as Prince Arthur. Since Prince Arthur slew 75 dragons, Prince Walter slew 2 * 75 = 150 dragons.\n\n## Step 4: Calculate the number of dragons Prince Bruce slew\nPrince Bruce slew one-fifth as many dragons as Prince Walter. To find the number of dragons Prince Bruce slew, we multiply the number of dragons Prince Walter slew by 1/5. So, Prince Bruce slew (1/5) * 150 = 30 dragons.\n\n#### 30",
+			"retrievals": 1
+		}
+	]
+}

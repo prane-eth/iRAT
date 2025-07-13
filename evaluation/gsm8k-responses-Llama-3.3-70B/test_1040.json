@@ -1,0 +1,13 @@
+{
+	"task_id": 1040,
+	"prompt": "Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet\nThen find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet\nThen find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet\nThen double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the amount of fabric Jim needs, we first need to calculate the dimensions of the fabric required. The bed measures 6 feet long by 8 feet wide, and Jim needs fabric that is 2 feet longer and 2 feet wider than the bed.\n\nThe length of the fabric needed will be the length of the bed plus 2 feet, which is 6 + 2 = 8 feet. The width of the fabric needed will be the width of the bed plus 2 feet, which is 8 + 2 = 10 feet. \n\nTo find the total area of fabric needed for one piece, we multiply the length by the width: 8 * 10 = 80 square feet. Since Jim needs two pieces of fabric, we multiply the area of one piece by 2: 80 * 2 = 160 square feet.\n\n#### 160",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine the amount of fabric Jim needs, we first need to calculate the dimensions of the fabric required. The bed measures 6 feet long by 8 feet wide, and Jim needs fabric that is 2 feet longer and 2 feet wider than the bed.\n\nThe length of the fabric needed will be the length of the bed plus 2 feet, which is 6 + 2 = 8 feet. The width of the fabric needed will be the width of the bed plus 2 feet, which is 8 + 2 = 10 feet.\n\nSince Jim needs two pieces of fabric of the same size, we need to calculate the area of one piece and then multiply it by 2. The area of one piece of fabric is the length times the width, which is 8 * 10 = 80 square feet.\n\nTo find the total amount of fabric Jim needs to buy, we multiply the area of one piece by 2, since he needs two pieces. So, the total area is 80 * 2 = 160 square feet.\n\n#### 160",
+			"retrievals": 2
+		}
+	]
+}

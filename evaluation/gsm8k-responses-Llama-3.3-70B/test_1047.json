@@ -1,0 +1,13 @@
+{
+	"task_id": 1047,
+	"prompt": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 24 hours in a day so 3/8ths of a day is (3/8)*24 = <<3/8*24=9>>9 hours\nOne week has 7 days so 3 weeks have 7*3 = <<7*3=21>>21 days\nEach painter put in 9*21 = <<9*21=189>>189 hours of work\n#### 189",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total hours of work each painter put in, first, we need to calculate the total hours worked in a day. Since they worked for 3/8ths of a day, we convert this fraction into hours. There are 24 hours in a day, so 3/8ths of a day is (3/8) * 24 = 9 hours.\n\n \nGiven that the painters worked for 9 hours every day, the next step is to determine how many days they worked in total. They worked for 3 weeks, and since there are 7 days in a week, the total number of days worked is 3 * 7 = 21 days.\n\n \nNow, to find the total hours worked by each painter over the 3 weeks, we multiply the hours worked per day by the number of days worked: 9 hours/day * 21 days = 189 hours. Since there are 4 painters, and assuming they all worked the same amount of time, we divide the total hours worked by the number of painters to find the hours each put in: 189 hours / 4 painters = 47.25 hours per painter.\n\n#### 47.25",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total hours of work each painter put in, we first need to calculate the total hours worked by the team. \n\nSince there are 7 days in a week, 3 weeks would have 3 * 7 = 21 days.\n\nGiven that the team worked for 3/8ths of a day every day, we need to convert this fraction into hours. There are 24 hours in a day, so 3/8ths of a day is (3/8) * 24 = 9 hours.\n\nNow, since the team worked for 9 hours every day for 21 days, the total hours worked by the team is 9 * 21 = 189 hours.\n\nHowever, the question asks for the hours worked by each painter, and there are 4 painters on the team. To find the hours worked by each painter, we divide the total hours worked by the team by the number of painters: 189 / 4 = 47.25 hours.\n\n#### 47.25",
+			"retrievals": 2
+		}
+	]
+}

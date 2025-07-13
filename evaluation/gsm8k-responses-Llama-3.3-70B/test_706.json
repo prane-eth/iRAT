@@ -1,0 +1,13 @@
+{
+	"task_id": 706,
+	"prompt": "Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many feet Martha's turtle can crawl in 40 seconds, we first need to determine the speed of the turtle. We know that the cat is 5 times faster than the turtle and that the cat can run 15 feet/second.\n\nGiven the cat's speed is 15 feet/second and it is 5 times faster than the turtle, we can calculate the turtle's speed by dividing the cat's speed by 5. So, the turtle's speed = 15 feet/second / 5 = 3 feet/second.\n\nNow that we know the turtle's speed is 3 feet/second, we can calculate how many feet it can crawl in 40 seconds by multiplying its speed by the time. Distance = speed * time = 3 feet/second * 40 seconds = 120 feet.\n\n#### 120 feet",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many feet Martha's turtle can crawl in 40 seconds, we first need to determine the speed of the turtle. We know that the cat is 5 times faster than the turtle and that the cat can run 15 feet/second. Given the cat's speed is 15 feet/second and it is 5 times faster than the turtle, we can calculate the turtle's speed by dividing the cat's speed by 5. So, the turtle's speed = 15 feet/second / 5 = 3 feet/second.\n\nNow that we know the turtle's speed is 3 feet/second, we can calculate how many feet it can crawl in 40 seconds by multiplying its speed by the time. Distance = speed * time = 3 feet/second * 40 seconds = 120 feet.\n\n#### 120 feet",
+			"retrievals": 0
+		}
+	]
+}

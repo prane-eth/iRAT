@@ -1,0 +1,13 @@
+{
+	"task_id": 438,
+	"prompt": "Sitti and Juris bought 34 and 22 oranges, respectively. If both of them decide to share them equally with their 6 other friends, how many oranges will everyone get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are a total of 34 + 22 = <<34+22=56>>56 oranges.\nSitti, Juris, and 6 other friends will divide them equally which means there are 2 + 6 = <<2+6=8>>8 of them sharing.\nSo, each one will get 56 oranges / 8 people = <<56/8=7>>7 oranges/person\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the total number of oranges, we first need to add the oranges bought by Sitti and Juris. Sitti bought 34 oranges, and Juris bought 22 oranges. \n\nThe total number of oranges is 34 + 22 = 56 oranges.\n\n``\n\nNow, we need to find out how many people will be sharing these oranges in total. Sitti and Juris will be sharing the oranges with their 6 other friends. This means the total number of people, including Sitti and Juris, is 6 friends + 2 (Sitti and Juris) = 8 people.\n\n``\n\nTo find out how many oranges each person will get, we divide the total number of oranges by the total number of people. So, we divide 56 oranges by 8 people.\n\n56 oranges / 8 people = 7 oranges per person.\n\n#### 7",
+			"old_rat_retrievals": 8,
+			"final_answer": "To find out how many oranges everyone will get, we first need to calculate the total number of oranges Sitti and Juris have. Sitti bought 34 oranges, and Juris bought 22 oranges. So, the total number of oranges is 34 + 22 = 56 oranges.\n\nNext, we need to determine how many people will be sharing the oranges. Sitti and Juris will be sharing them with their 6 other friends. This means the oranges will be divided among 8 people in total (Sitti, Juris, and their 6 friends).\n\nNow, we divide the total number of oranges by the total number of people: 56 oranges / 8 people = 7 oranges per person.\n\n#### 7",
+			"retrievals": 2
+		}
+	]
+}

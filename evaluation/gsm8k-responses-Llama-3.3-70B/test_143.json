@@ -1,0 +1,13 @@
+{
+	"task_id": 143,
+	"prompt": "Jordan plays video games for 2 hours every day. He also has a part-time job where he earns $10 an hour. How much money would Jordan earn in one week if he spent his video game time working instead?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jordan plays video games for 2 hours every day x 7 days in a week = <<2*7=14>>14 hours a week.\nIf Jordan spent his 14 hours working instead, he would make 14 hours x $10 = $<<14*10=140>>140.\n#### 140",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate how much money Jordan would earn in one week if he spent his video game time working instead, we first need to determine how many hours he spends playing video games in a week. Since Jordan plays video games for 2 hours every day, we multiply this by the number of days in a week, which is 7.\n\nSo, the total hours spent playing video games in a week is 2 hours/day * 7 days/week = 14 hours/week. If Jordan were to work these hours instead at his part-time job, where he earns $10 an hour, we can calculate his weekly earnings by multiplying the hours worked by his hourly wage.\n\nThe calculation would be 14 hours/week * $10/hour = $140/week. This means that if Jordan spent his video game time working instead, he would earn $140 in one week.\n\n#### $140",
+			"old_rat_retrievals": 4,
+			"final_answer": "To calculate how much money Jordan would earn in one week if he spent his video game time working instead, we need to first determine how many hours he spends playing video games in a week and then multiply that by his hourly wage.\n\nJordan plays video games for 2 hours every day. Since there are 7 days in a week, we can calculate his total weekly video game time as 2 hours/day * 7 days/week = 14 hours/week.\n\nJordan earns $10 an hour at his part-time job. If he were to work instead of playing video games, his potential weekly earnings from working those 14 hours would be 14 hours/week * $10/hour = $140/week.\n\nTherefore, by working instead of playing video games, Jordan could earn an additional $140 per week. This directly answers the question of how much he would earn in one week if he spent his video game time working instead.\n\n#### $140",
+			"retrievals": 2
+		}
+	]
+}

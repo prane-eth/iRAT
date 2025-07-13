@@ -1,0 +1,13 @@
+{
+	"task_id": 1056,
+	"prompt": "James has to buy insurance.  Since he had an accident it was 60% more than normal.  The normal cost is $120 a month.  How much does he pay a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The insurance is 120*.6=$<<120*.6=72>>72 per month more expensive than normal\nSo he paid 120+72=$<<120+72=192>>192 a month\nThat means he pays 12*192=$<<12*192=2304>>2304\n#### 2304",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount James pays a year for his insurance, we first need to determine the monthly cost after the increase due to the accident. The normal cost is $120 a month, but because James had an accident, his insurance cost is 60% more than normal.\n\nThe increase in cost is 60% of $120. To find 60% of $120, we multiply $120 by 0.60. So, 60% of $120 = $120 * 0.60 = $72. This means James' monthly insurance cost is $120 (normal cost) + $72 (increase) = $192.\n\nNow that we know James pays $192 a month for his insurance, we can calculate how much he pays in a year. There are 12 months in a year, so we multiply the monthly cost by 12. The yearly cost = $192 * 12 = $2304.\n\n#### $2304",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how much James pays a year for his insurance, we first need to calculate the monthly cost considering the 60% increase due to the accident. \n\n1. The normal monthly cost is $120.\n2. The increase due to the accident is 60% of $120, which is $120 * 0.60 = $72.\n3. So, James' monthly cost is the normal cost plus the increase, which is $120 + $72 = $192.\n4. To find the yearly cost, we multiply the monthly cost by 12 (the number of months in a year), which gives us $192 * 12 = $2304.\n\nTherefore, James pays $2304 a year for his insurance.\n\n#### $2304",
+			"retrievals": 2
+		}
+	]
+}

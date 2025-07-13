@@ -1,0 +1,13 @@
+{
+	"task_id": 458,
+	"prompt": "While playing with her friends in their school playground, Katelyn saw 50 fairies flying above the nearby forest. After about twenty minutes, one of her friends saw half as many fairies as Katelyn saw come from the east and join the fairies that were there. Ten minutes later, 30 fairies flew away. How many fairies are remaining?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Katelyn's friend saw 1/2*50 = <<1/2*50=25>>25, half as many fairies as Katelyn initially saw\nThe total number of fairies flying above the forest now is 50 + 25 = <<50+25=75>>75\nIf thirty fairies then flew away, there were 75 - 30 = <<75-30=45>>45 fairies that remained.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of fairies remaining, we start with the initial number of fairies Katelyn saw, which is 50. \n\nAfter twenty minutes, one of her friends saw half as many fairies as Katelyn saw come from the east and join the fairies that were there. Since Katelyn saw 50 fairies, half of that number is 50 / 2 = 25 fairies. These 25 fairies joined the initial 50 fairies.\n\nSo, the total number of fairies after the 25 fairies joined is 50 (initial fairies) + 25 (fairies that joined) = 75 fairies.\n\nTen minutes later, 30 fairies flew away. To find the number of fairies remaining, we subtract the number of fairies that flew away from the total number of fairies after the 25 fairies joined. Therefore, the number of fairies remaining is 75 - 30 = 45.\n\n#### 45",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Understand the initial condition\nKatelyn initially saw 50 fairies flying above the nearby forest.\n\n## Step 2: Calculate the number of fairies after the first addition\nAfter twenty minutes, half as many fairies as Katelyn saw (which is 50 / 2 = 25 fairies) came from the east and joined the initial fairies. So, the total number of fairies now is 50 + 25 = 75 fairies.\n\n## Step 3: Calculate the number of fairies after some flew away\nTen minutes later, 30 fairies flew away. To find the number of fairies remaining, we subtract the number that flew away from the total after the first addition. So, 75 - 30 = 45 fairies.\n\n## Step 4: Determine the final number of fairies\nAfter calculating the number of fairies remaining after some flew away, we have determined that there are 45 fairies left.\n\n#### 45",
+			"retrievals": 2
+		}
+	]
+}

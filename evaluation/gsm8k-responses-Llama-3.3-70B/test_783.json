@@ -1,0 +1,13 @@
+{
+	"task_id": 783,
+	"prompt": "Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.\nTogether, they ride 15+15 = <<15+15=30>>30 times for five days.\nEach person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.\nThis means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.\nThe total for the other two days is 12+12 = <<12+12=24>>24\nFor the whole week the together ride 24+30 = <<24+30=54>>54 times\n#### 54",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many times Chase and Rider ride their bikes a week, we first need to calculate the total number of rides on the usual days and the special days separately.\n\nOn the usual days, they ride their bikes thrice a day for 5 days. So, the total number of rides on these days is 3 rides/day * 5 days = 15 rides.\n\nOn the two special days, they ride twice the number of times they do on usual days. This means they ride 2 * 3 = 6 times a day on these special days. So, for the two special days, the total number of rides is 6 rides/day * 2 days = 12 rides.\n\nNow, we need to add the total number of rides from the usual days and the special days to get the total number of rides in a week. Total rides = 15 rides (from usual days) + 12 rides (from special days) = 27 rides.\n\n#### 27",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many times Chase and Rider ride their bikes a week, we first need to calculate the total number of rides on the usual days and the special days separately. On the usual days, they ride their bikes thrice a day for 5 days. So, the total number of rides on these days is 3 rides/day * 5 days = 15 rides.\n\nOn the two special days, they ride twice the number of times they do on usual days. This means they ride 2 * 3 = 6 times a day on these special days. So, for the two special days, the total number of rides is 6 rides/day * 2 days = 12 rides. Now, we need to add the total number of rides from the usual days and the special days to get the total number of rides in a week. Total rides = 15 rides (from usual days) + 12 rides (from special days) = 27 rides. \n\n#### 27",
+			"retrievals": 1
+		}
+	]
+}

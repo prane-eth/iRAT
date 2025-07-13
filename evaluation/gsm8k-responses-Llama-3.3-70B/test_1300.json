@@ -1,0 +1,13 @@
+{
+	"task_id": 1300,
+	"prompt": "Janet goes to the mall and spends $3.50 on ice cream, $7.50 each for movie tickets for herself and her younger sister, and $8.50 on a bracelet. If her parents gave her $40, how many dollars does she have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First calculate the cost of the movie tickets by multiplying the price per ticket by 2: $7.50 * 2 = $<<7.5*2=15.00>>15.00\nThen add up all the money Janet spent: $3.50 + $15.00 + $8.50 = $<<3.5+15+8.5=27.00>>27.00\nNow subtract Janet's spending from the initial amount of money she had: $40.00 - $27.00 = $<<40-27=13.00>>13.00\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dollars Janet has left, we first need to calculate the total amount she spent. She spent $3.50 on ice cream. \n\nShe also spent $7.50 each for movie tickets for herself and her younger sister. This means she spent 2 * $7.50 = $15 on movie tickets.\n\nAdditionally, she spent $8.50 on a bracelet.\n\nSo, the total amount she spent is $3.50 (ice cream) + $15 (movie tickets) + $8.50 (bracelet) = $3.50 + $15 + $8.50 = $27.\n\nHer parents gave her $40. \n\nTo find out how many dollars she has left, we subtract the total amount she spent from the amount her parents gave her: $40 - $27 = $13.\n\n#### $13",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many dollars Janet has left, we need to calculate the total amount she spent and subtract it from the initial amount her parents gave her. The initial amount is $40.\n\nJanet spent $3.50 on ice cream, $7.50 each for movie tickets for herself and her younger sister, which totals to $7.50 * 2 = $15, and $8.50 on a bracelet. So, the total expenses can be calculated as $3.50 (ice cream) + $15 (movie tickets) + $8.50 (bracelet) = $3.50 + $15 + $8.50 = $27.\n\nTo determine how many dollars Janet has left, we subtract the total expenses from the initial amount given by her parents. So, $40 (initial amount) - $27 (total expenses) = $13.\n\n#### $13",
+			"retrievals": 2
+		}
+	]
+}

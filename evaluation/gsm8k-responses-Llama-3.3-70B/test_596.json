@@ -1,0 +1,13 @@
+{
+	"task_id": 596,
+	"prompt": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "We know that Jerry's Age/2 = Jerry's Age - 5\nTherefore Jerry's Age = 2 Jerry's age - 10\nTherefore -Jerry's Age = - 10\nTherefore Jerry's Age = <<10=10>>10\nIn three years Jerry will be 13 because 10 + 3 = <<10+3=13>>13\n#### 13",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how old Jerry will be in 3 years, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "Let's solve the problem. Jerry is twice as old as he was 5 years ago. This means if Jerry's current age is x, then x = 2(x - 5). Solving for x, we get x = 2x - 10, which simplifies to x = 10. So Jerry is currently 10 years old. To find out how old Jerry will be in 3 years, we add 3 to his current age: 10 + 3 = 13.\n\n#### 13",
+			"retrievals": 1
+		}
+	]
+}

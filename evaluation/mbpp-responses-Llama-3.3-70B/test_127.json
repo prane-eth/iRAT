@@ -1,0 +1,21 @@
+{
+	"task_id": 137,
+	"prompt": "Write a function to check whether the given string is starting with a vowel or not using regex.?import re\n\nassert check_str(\"annie\") == 'Valid'",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert check_str(\"annie\") == 'Valid'",
+		"assert check_str(\"dawood\") == 'Invalid'",
+		"assert check_str(\"Else\") == 'Valid'"
+	],
+	"mbpp_code": "import re \r\nregex = '^[aeiouAEIOU][A-Za-z0-9_]*'\r\ndef check_str(string): \r\n\tif(re.search(regex, string)): \r\n\t\treturn (\"Valid\") \r\n\telse: \r\n\t\treturn (\"Invalid\")",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to check if a string starts with a vowel\nThe function `check_str` will take a string as input and return 'Valid' if the string starts with a vowel, and 'Invalid' otherwise.\n\n## Step 2: Use regex to match the string\nWe will use the `re` module in Python to use regular expressions. The pattern to match a string that starts with a vowel is `^[aeiouAEIOU]`.\n\n## Step 3: Implement the function\n```python\nimport re\n\ndef check_str(s):\n    \"\"\"\n    Checks if the given string starts with a vowel.\n    \n    Args:\n        s (str): The input string.\n    \n    Returns:\n        str: 'Valid' if the string starts with a vowel, 'Invalid' otherwise.\n    \"\"\"\n    # Use regex to match the string\n    if re.match('^[aeiouAEIOU]', s):\n        return 'Valid'\n    else:\n        return 'Invalid'\n```\n\n## Step 4: Test the function\nWe can test the function with the given assertion:\n```python\nassert check_str(\"annie\") == 'Valid'\n```\nThis should pass if the function is implemented correctly.\n\nThe final answer is: $\\boxed{}$ \n```python\nimport re\n\ndef check_str(s):\n    \"\"\"\n    Checks if the given string starts with a vowel.\n    \n    Args:\n        s (str): The input string.\n    \n    Returns:\n        str: 'Valid' if the string starts with a vowel, 'Invalid' otherwise.\n    \"\"\"\n    # Use regex to match the string\n    if re.match('^[aeiouAEIOU]', s):\n        return 'Valid'\n    else:\n        return 'Invalid'\n```\n\nTo test the function, we can use the provided unit test: `assert check_str(\"annie\") == 'Valid'`. If the function is working correctly, this assertion should pass without raising an AssertionError.",
+			"old_rat_retrievals": 6,
+			"final_answer": "To solve this problem, we can use the `re` module in Python, which provides support for regular expressions. The function `check_str` will check if the given string starts with a vowel.\n\nHere's how you can implement it:\n\n```python\nimport re\n\ndef check_str(s):\n    pattern = re.compile(r'^[aeiouAEIOU].*')\n    if pattern.match(s):\n        return 'Valid'\n    else:\n        return 'Invalid'\n\nassert check_str(\"annie\") == 'Valid'\n```\n\nIn this code:\n\n- We import the `re` module to use regular expressions.\n- The `check_str` function takes a string `s` as input.\n- We compile a regular expression pattern `r'^[aeiouAEIOU].*'` that matches any string starting with a vowel (both lowercase and uppercase).\n  - `^` asserts the start of the line.\n  - `[aeiouAEIOU]` matches any vowel (both lowercase and uppercase).\n  - `.*` matches any character (except a newline) 0 or more times.\n- The `pattern.match(s)` function attempts to match the pattern at the beginning of the string. If it matches, the function returns 'Valid'; otherwise, it returns 'Invalid'.",
+			"retrievals": 4
+		}
+	]
+}

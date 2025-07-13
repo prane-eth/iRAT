@@ -1,0 +1,13 @@
+{
+	"task_id": 930,
+	"prompt": "A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for 8 hours. How much farther did the bus go than the car, in miles?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The bus traveled 60 miles per hour * 5 hours = <<60*5=300>>300 miles.\nThe car traveled 30 miles per hour * 8 hours = <<30*8=240>>240 miles.\nSo, the bus went 300 - 240 = <<300-240=60>>60 miles farther than the car.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled. The distance traveled by a vehicle can be calculated by multiplying its speed by the time it traveled.\n\nThe bus travels at 60 miles per hour for 5 hours. So, the distance the bus traveled is 60 miles/hour * 5 hours = 300 miles. \n\nThe car travels at 30 miles per hour for 8 hours. So, the distance the car traveled is 30 miles/hour * 8 hours = 240 miles.\n\nTo find out how much farther the bus went than the car, we subtract the distance the car traveled from the distance the bus traveled. Therefore, the difference in distance is 300 miles - 240 miles = 60 miles.\n\n#### 60 miles",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled. The distance traveled by an object can be calculated using the formula: distance = speed \u00d7 time.\n\nFor the bus: speed = 60 miles per hour, time = 5 hours. So, the distance traveled by the bus = 60 miles/hour \u00d7 5 hours = 300 miles.\n\nFor the car: speed = 30 miles per hour, time = 8 hours. So, the distance traveled by the car = 30 miles/hour \u00d7 8 hours = 240 miles.\n\nNow, to find out how much farther the bus went than the car, we subtract the distance traveled by the car from the distance traveled by the bus: 300 miles - 240 miles = 60 miles.\n\n#### 60",
+			"retrievals": 4
+		}
+	]
+}

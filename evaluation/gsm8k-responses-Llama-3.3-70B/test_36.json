@@ -1,0 +1,13 @@
+{
+	"task_id": 36,
+	"prompt": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total points Mike scored, we need to calculate the points he scored in the first 20 minutes and the points he scored in the second 20 minutes, then add them together.\n\nIn the first 20 minutes, Mike scored 4 points.\n\nIn the second 20 minutes, Mike scored 25% more points than in the first 20 minutes. To find 25% of 4 points, we multiply 4 by 0.25, which equals 1. So, he scored 4 + 1 = 5 points in the second 20 minutes.\n\nThe total points Mike scored is the sum of the points scored in the first 20 minutes and the points scored in the second 20 minutes, which is 4 + 5 = 9 points.\n\n#### 9",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total points Mike scored, we need to calculate the points scored in the first 20 minutes and the points scored in the second 20 minutes, then add them together. \n\nIn the first 20 minutes, Mike scores 4 points. \n\nFor the second 20 minutes, Mike scores 25% more points than in the first 20 minutes. To find 25% of 4 points, we multiply 4 by 0.25, which equals 1 point. Therefore, in the second 20 minutes, Mike scores 4 + 1 = 5 points.\n\nTo find the total points, we add the points from the first and second 20 minutes: 4 + 5 = 9 points.\n\n#### 9",
+			"retrievals": 2
+		}
+	]
+}

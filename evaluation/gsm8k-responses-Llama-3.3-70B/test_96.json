@@ -1,0 +1,13 @@
+{
+	"task_id": 96,
+	"prompt": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 200 x 2/5 = <<200*2/5=80>>80 boys in Grade 5.\nSo, 200 - 80 = <<200-80=120>>120 are girls.\nOut of the 120 girls, 120 x 2/3 = <<120*2/3=80>>80 are in the girl scout.\nTherefore, 120 - 80 = <<120-80=40>>40 girls are not in the girl scout.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many girls are not in the girl scout, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the number of girls not in the girl scout, we first need to determine the total number of girls in the class. Given that 2/5 of the 200 students are boys, we can calculate the number of boys as (2/5) * 200 = 80. Therefore, the number of girls is 200 - 80 = 120.\n\nNext, we calculate the number of girls who are in the girl scout. Since 2/3 of the girls are in the girl scout, we find this number by (2/3) * 120 = 80.\n\nFinally, to find the number of girls who are not in the girl scout, we subtract the number of girls in the girl scout from the total number of girls: 120 - 80 = 40.\n\n#### 40",
+			"retrievals": 1
+		}
+	]
+}

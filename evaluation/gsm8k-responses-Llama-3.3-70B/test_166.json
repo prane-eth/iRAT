@@ -1,0 +1,13 @@
+{
+	"task_id": 166,
+	"prompt": "For his 30th birthday, Elvira chose a new computer with many accessories as a gift. She has a budget of \u20ac1500 donated by her whole family and thinks that she will be able to keep a little money to afford a garment. She goes to a computer store and chooses a machine that costs \u20ac1090 with a screen, keyboard and mouse. She also takes a scanner for \u20ac157, a CD burner worth \u20ac74 and a printer for \u20ac102. How much money will she have left for her clothing?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First, let\u2019s look at the total cost of computer equipment: 1090 + 157 + 74 + 102 = <<1090+157+74+102=1423>>1423 euros\nLet us now calculate what is left for the garment: 1500 - 1423 = <<1500-1423=77>>77 euros\n#### 77",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much money Elvira will have left for clothing, we need to calculate the total cost of the computer and accessories she chose, and then subtract this total from her budget of \u20ac1500.\n\n1. The cost of the computer with a screen, keyboard, and mouse is \u20ac1090.\n2. The cost of the scanner is \u20ac157.\n3. The cost of the CD burner is \u20ac74.\n4. The cost of the printer is \u20ac102.\n\nNow, let's add up the costs of all these items:\n\u20ac1090 (computer) + \u20ac157 (scanner) + \u20ac74 (CD burner) + \u20ac102 (printer) = \u20ac1090 + \u20ac157 + \u20ac74 + \u20ac102 = \u20ac1423.\n\nNext, we subtract the total cost of the computer and accessories from Elvira's budget:\n\u20ac1500 (budget) - \u20ac1423 (total cost) = \u20ac77.\n\nSo, Elvira will have \u20ac77 left for clothing.\n\n#### \u20ac77",
+			"old_rat_retrievals": 1,
+			"final_answer": "To determine how much money Elvira will have left for clothing, we first need to calculate the total cost of the computer and accessories she chose. The computer costs \u20ac1090 and comes with a screen, keyboard, and mouse. In addition to the computer, she also selects a scanner for \u20ac157, a CD burner worth \u20ac74, and a printer for \u20ac102. \n\nThe total cost of these items is: \u20ac1090 (computer) + \u20ac157 (scanner) + \u20ac74 (CD burner) + \u20ac102 (printer) = \u20ac1423.\n\nNext, we subtract the total cost from her budget to find out how much money she will have left for clothing: \u20ac1500 (budget) - \u20ac1423 (total cost) = \u20ac77.\n\nTherefore, Elvira will have \u20ac77 left for her clothing.\n\n#### \u20ac77",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 353,
+	"prompt": "After Andrea saved some money, she then spent the rest of her money on an $11 sweater and gave her brother $4. If she had $36 in the beginning, how much did Andrea save?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Andrea spent and gave her brother a total of $11 + $4 = $<<11+4=15>>15.\nSo, she saved $36 - $15 = $<<36-15=21>>21.\n#### 21",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Andrea saved, we first need to calculate the total amount of money she spent. This includes the money spent on the sweater and the money given to her brother. The cost of the sweater is $11, and she gave her brother $4.\n\nSo, the total amount spent is $11 (sweater) + $4 (given to her brother) = $15. This means that out of her initial $36, she spent a total of $15 on the sweater and giving money to her brother.\n\nTo find out how much she saved, we subtract the total amount spent from her initial amount of money. Initial money = $36, total spent = $15. Saved amount = Initial money - Total spent = $36 - $15 = $21.\n\n#### $21",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find out how much Andrea saved, we need to calculate the total amount she spent and gave away, and then subtract this from her initial amount of money. \n\nAndrea spent $11 on a sweater and gave her brother $4. So, the total amount spent and given away is $11 + $4 = $15.\n\nSince Andrea's initial amount of money was $36, and she spent and gave away a total of $15, we subtract the total spent and given away from her initial amount to find the amount saved: $36 - $15 = $21.\n\nThis means that Andrea saved $21.\n\n#### $21",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 853,
+	"prompt": "A basket of green food costs $25 and a basket of red food costs $18. If you buy 3 baskets of green food and red food, how much will you have to pay in total if you get $2 off for each basket of red food?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The 3 baskets of green food will cost $25 x 3 = $<<25*3=75>>75.\nThe 3 baskets of red food will cost $18 x 3 = $<<18*3=54>>54.\nThere will be $2 x 3 = $<<2*3=6>>6 off for the baskets of red food.\nSo, the 3 baskets of red food will now cost $54 - $6 = $<<54-6=48>>48.\nYou will have to pay $75 + $48 = $<<75+48=123>>123 for all the baskets of food.\n#### 123",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost, we first need to determine the cost of the green food baskets and the cost of the red food baskets after the discount. \nThe cost of 3 baskets of green food is 3 * $25 = $75.\nThe original cost of 3 baskets of red food is 3 * $18 = $54.\n\n`\nNext, we apply the discount to the red food baskets. The discount is $2 off for each basket of red food. So, the total discount for 3 baskets of red food is 3 * $2 = $6.\n\n`\nAfter applying the discount, the cost of the 3 baskets of red food is $54 - $6 = $48.\nNow, we add the cost of the green food baskets and the discounted cost of the red food baskets to find the total cost. \nTotal cost = $75 (green food) + $48 (red food) = $123.\n\n#### $123",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total cost, we first need to determine the cost of the green food baskets and the cost of the red food baskets after the discount. \nThe cost of 3 baskets of green food is 3 * $25 = $75.\nThe original cost of 3 baskets of red food is 3 * $18 = $54.\nNext, we apply the discount to the red food baskets. The discount is $2 off for each basket of red food. So, the total discount for 3 baskets of red food is 3 * $2 = $6.\nAfter applying the discount, the cost of the 3 baskets of red food is $54 - $6 = $48.\nNow, we add the cost of the green food baskets and the discounted cost of the red food baskets to find the total cost. \nTotal cost = $75 (green food) + $48 (red food) = $123.\n#### $123",
+			"retrievals": 1
+		}
+	]
+}

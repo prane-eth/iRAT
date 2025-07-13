@@ -1,0 +1,13 @@
+{
+	"task_id": 628,
+	"prompt": "On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On the first three days, towing ten cars a day, the tow truck pulled 3*10 = <<3*10=30>>30 cars.\nIt pulled four fewer cars each day, which is 10-4 = <<10-4=6>>6 cars on the remaining days.\nIf it pulled ten cars for three days and four less on the remaining days, then it pulled for 7-3 = 4 days, four cars less each day.\nFor the four days, the car pulled 6*4= <<6*4=24>>24 cars.\nThe total number of cars it pulled that week is 24+30 = <<24+30=54>>54 cars.\n#### 54",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of cars towed that week, we first calculate the number of cars towed in the first three days and then the number of cars towed in the remaining days.\n\n1. For the first three days, the tow truck pulled 10 cars each day. So, the total number of cars pulled in the first three days is 10 * 3 = 30 cars.\n\n2. For the remaining days of the week (4 days, since there are 7 days in a week and we've already accounted for 3), the tow truck pulled 4 fewer cars than it did on each of the first three days. So, it pulled 10 - 4 = 6 cars each day for the remaining 4 days. The total number of cars pulled in these 4 days is 6 * 4 = 24 cars.\n\n3. To find the total number of cars towed that week, we add the number of cars towed in the first three days to the number of cars towed in the remaining days: 30 + 24 = 54 cars.\n\n#### 54",
+			"old_rat_retrievals": 6,
+			"final_answer": "To calculate the total number of cars the tow truck pulled that week, we first need to determine how many cars it pulled in the first three days and then how many it pulled in the remaining days. \n\nThe truck pulled 10 cars each day for the first three days. So, the total number of cars pulled in these three days is 10 * 3 = 30 cars.\n\nFor the remaining days of the week, which are 4 days (since there are 7 days in a week and the first 3 days have already been accounted for), the tow truck pulled four fewer cars than it did on each of the first three days. This means it pulled 10 - 4 = 6 cars on each of these days. The total number of cars towed on the remaining 4 days is 6 * 4 = 24 cars.\n\nTo find the total number of cars pulled in the week, we need to add the number of cars pulled in the first three days to the number of cars pulled in the remaining days. So, the total is 30 + 24 = 54 cars.\n\n#### 54",
+			"retrievals": 3
+		}
+	]
+}

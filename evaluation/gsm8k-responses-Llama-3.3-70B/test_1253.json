@@ -1,0 +1,13 @@
+{
+	"task_id": 1253,
+	"prompt": "Dominick went to his team's changing room and saw half as many robots as helmets and half as many helmets as footballs kept there. If there were 20 helmets, calculate the total number of items Dominick saw.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the number of helmets was 20, there were 2 footballs/helmet * 20 helmets = <<20*2=40>>40 footballs\nThere were half as many robots as helmets, so in total, there were 1 robot/2 helmets * 20 helmets = <<1/2*20=10>>10 robots.\nThe total number of items in the changing room is 10 robots + 40 footballs + 20 helmets = <<10+40+20=70>>70 items\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of items Dominick saw, we first need to establish the number of helmets, robots, and footballs. We're given that there were 20 helmets.\n\nSince there are half as many helmets as footballs, we can calculate the number of footballs by doubling the number of helmets. So, the number of footballs = 2 * number of helmets = 2 * 20 = 40.\n\nNext, we're told there are half as many robots as helmets. Therefore, the number of robots = 0.5 * number of helmets = 0.5 * 20 = 10.\n\nNow, to find the total number of items, we add the number of robots, helmets, and footballs together: total items = number of robots + number of helmets + number of footballs = 10 + 20 + 40 = 70.\n\n#### 70",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total number of items Dominick saw, we first need to establish the number of helmets, robots, and footballs. We're given that there were 20 helmets. Since there are half as many helmets as footballs, we can calculate the number of footballs by doubling the number of helmets. So, the number of footballs = 2 * number of helmets = 2 * 20 = 40.\n\nNext, we're told there are half as many robots as helmets. Therefore, the number of robots = 0.5 * number of helmets = 0.5 * 20 = 10.\n\nNow, to find the total number of items, we add the number of robots, helmets, and footballs together: total items = number of robots + number of helmets + number of footballs = 10 + 20 + 40 = 70.\n\n#### 70",
+			"retrievals": 1
+		}
+	]
+}

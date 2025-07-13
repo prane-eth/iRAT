@@ -1,0 +1,13 @@
+{
+	"task_id": 378,
+	"prompt": "Lucy sells apples from her orchard at $4 per piece. On Monday, she sold all the apples picked. On Tuesday, she picked 12 apples. Come Wednesday, Lucy picked double the number of apples she did the previous day. If Lucy got $56 from selling the apples picked on Monday, how many apples did she pick over the three days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since each apple costs $4, it means that on Monday, Lucy picked 56/4 = <<56/4=14>>14 apples\nCombining Monday and Tuesday, Lucy picked 14 + 12 = <<14+12=26>>26 apples\nOn Wednesday, she picked 2 * 12 = <<2*12=24>>24 apples\nAll together, Lucy picked 26 + 24 = <<26+24=50>>50 apples.\n#### 50",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many apples Lucy picked over the three days, we first need to determine how many apples she picked on Monday. We know that she sold all the apples picked on Monday and got $56 from the sale, with each apple selling at $4.\n\nSince each apple sells for $4, the number of apples she sold on Monday can be calculated by dividing the total amount of money she got ($56) by the price per apple ($4). This gives us $56 / $4 = 14 apples picked on Monday.\n\nOn Tuesday, Lucy picked 12 apples. Then, on Wednesday, she picked double the number of apples she picked on Tuesday, which means she picked 2 * 12 = 24 apples on Wednesday.\n\nTo find the total number of apples picked over the three days, we add the apples picked on Monday (14), Tuesday (12), and Wednesday (24). So, the total number of apples picked is 14 + 12 + 24 = 50 apples.\n\n#### 50",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Determine the number of apples picked on Monday\nTo find the number of apples picked on Monday, we need to use the information that Lucy got $56 from selling the apples picked on Monday. Since each apple is sold for $4, we divide the total amount of money by the price per apple to find the number of apples. So, the number of apples picked on Monday is $56 / $4 = 14 apples.\n\n## Step 2: Calculate the number of apples picked on Tuesday and Wednesday\nOn Tuesday, Lucy picked 12 apples. Then, on Wednesday, she picked double the number of apples she picked on Tuesday, which means she picked 2 * 12 = 24 apples on Wednesday.\n\n## Step 3: Find the total number of apples picked over the three days\nTo find the total number of apples picked over the three days, we add the apples picked on Monday (14), Tuesday (12), and Wednesday (24). So, the total number of apples picked is 14 + 12 + 24 = 50 apples.\n\n#### 50",
+			"retrievals": 4
+		}
+	]
+}

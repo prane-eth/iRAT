@@ -1,0 +1,13 @@
+{
+	"task_id": 986,
+	"prompt": "Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His brother eats 9 pretzels a day because 18 / 2 = <<18/2=9>>9\nHis brother eats 63 in a week because 9 x 7 = <<9*7=63>>63\n#### 63",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pretzels Edgar's brother eats in a week, we first need to determine how many pretzels he eats in a day. Since Edgar eats 18 pretzels a day and his brother eats 1/2 as many, we calculate the brother's daily pretzel consumption by multiplying Edgar's daily consumption by 1/2.\n\nSo, the brother's daily pretzel consumption is 18 * 1/2 = 9 pretzels per day.\n\nTo find out how many pretzels the brother eats in a week, we need to multiply his daily consumption by the number of days in a week. There are 7 days in a week.\n\nThe brother's weekly pretzel consumption is 9 * 7 = 63 pretzels per week.\n\n#### 63",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many pretzels Edgar's brother eats in a week, we first need to determine how many pretzels he eats in a day. Since Edgar eats 18 pretzels a day and his brother eats 1/2 as many, we calculate the brother's daily pretzel consumption as 18 * 1/2 = 9 pretzels per day.\n\nNext, to find the brother's weekly pretzel consumption, we multiply his daily consumption by the number of days in a week. There are 7 days in a week, so the brother's weekly pretzel consumption is 9 * 7 = 63 pretzels per week.\n\nTherefore, Edgar's brother eats 63 pretzels in a week.\n#### 63",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 287,
+	"prompt": "Kelly has 5 quarters and 2 dimes. If she buys a can of pop for 55 cents, how many cents will she have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Her quarters are worth 5 * 25 = <<5*25=125>>125 cents.\nThe dimes are worth 2 * 10 = <<2*10=20>>20 cents\nKelly has a total of 125 + 20 = <<125+20=145>>145 cents\nAfter buying the can of pop, Kelly will have 145 - 55 = <<145-55=90>>90 cents left.\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many cents Kelly will have left, we first need to calculate the total amount of money she has. She has 5 quarters, and each quarter is worth 25 cents. So, the total value of her quarters is 5 * 25 = 125 cents.\n\nShe also has 2 dimes, and each dime is worth 10 cents. So, the total value of her dimes is 2 * 10 = 20 cents. \n\nThe total amount of money Kelly has is the sum of the value of her quarters and dimes, which is 125 + 20 = 145 cents.\n\nIf she buys a can of pop for 55 cents, we need to subtract the cost of the pop from the total amount of money she has to find out how many cents she will have left. So, 145 - 55 = 90 cents.\n\n#### 90",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the total amount of money Kelly has\nKelly has 5 quarters, which is 5 * 25 = 125 cents, and 2 dimes, which is 2 * 10 = 20 cents. So, the total amount of money Kelly has is 125 + 20 = 145 cents.\n\n## Step 2: Calculate the amount of money Kelly will have left after buying the can of pop\nKelly buys a can of pop for 55 cents. To find out how many cents she will have left, we need to subtract the cost of the pop from the total amount of money she has. So, 145 - 55 = 90 cents.\n\n## Step 3: Determine the final answer\nBased on the calculation, Kelly will have 90 cents left after buying the can of pop.\n\n#### 90",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1272,
+	"prompt": "A large bag of Starbursts candy has 232 pieces of individually wrapped candies.  If this bag has 54 red candies, twice that amount of orange candies and half as many yellow candies as red candies, how many candies are pink?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 54 red candies and twice that amount of orange candies for a total of 54*2 = <<54*2=108>>108 candies\nThe yellow candies are half the amount of the 54 red candies so there are 54/2 = <<54/2=27>>27 candies\nAll total there are 54 red candies, 108 orange candies and 27 yellow candies so 54+108+27 = <<54+108+27=189>>189 candies\nThe bag has 232 candies and the red, orange and yellow candies total 189 pieces so there are 232-189 = <<232-189=43>>43 pink candies\n#### 43",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pink candies are in the bag, we first need to determine the total number of red, orange, and yellow candies. We are given that there are 54 red candies.\n\nThe number of orange candies is twice the amount of red candies, so orange candies = 2 * red candies = 2 * 54 = 108.\n\nThe number of yellow candies is half the amount of red candies, so yellow candies = red candies / 2 = 54 / 2 = 27.\n\n`\nNow, let's calculate the total number of red, orange, and yellow candies. total_red_orange_yellow = red candies + orange candies + yellow candies = 54 + 108 + 27 = 189.\n\n`\nThe total number of candies in the bag is 232, and we have found that there are 189 red, orange, and yellow candies. To find the number of pink candies, we subtract the total number of red, orange, and yellow candies from the total number of candies. pink_candies = total_candies - total_red_orange_yellow = 232 - 189 = 43.\n\n#### 43",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many pink candies are in the bag, we need to calculate the total number of red, orange, and yellow candies first. \n\nThe bag has 54 red candies. It has twice that amount of orange candies, which means it has 2 * 54 = 108 orange candies. \n\nFor yellow candies, it has half as many as red candies, so it has 54 / 2 = 27 yellow candies.\n\nNow, we add up the number of red, orange, and yellow candies: 54 (red) + 108 (orange) + 27 (yellow) = 189 candies.\n\nSince the bag has 232 pieces of candies in total, and we've accounted for 189 candies, the number of pink candies can be found by subtracting the total number of other candies from the total number of candies: 232 - 189 = 43.\n\n#### 43",
+			"retrievals": 6
+		}
+	]
+}

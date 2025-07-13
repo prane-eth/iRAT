@@ -1,0 +1,13 @@
+{
+	"task_id": 639,
+	"prompt": "In a grocery store, four apples cost $5.20, and three oranges cost $3.30. How much will Clyde pay for 5 apples and 5 oranges?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each apple costs $5.20/4 = $<<5.20/4=1.30>>1.30.\nEach orange cost $3.30/3 = $<<3.30/3=1.10>>1.10.\nSo 5 apples cost $1.30 x 5 = $<<5*1.30=6.50>>6.50.\nAnd 5 oranges cost $1.10 x 5 = $<<5*1.1=5.50>>5.50.\nThus, Clyde will pay $6.50 + $5.50 = $<<6.5+5.5=12>>12 for 5 apples and 5 oranges.\n#### 12",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Clyde will pay for 5 apples and 5 oranges",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much Clyde will pay for 5 apples and 5 oranges, we first need to determine the cost of one apple and one orange.\n\nThe cost of four apples is $5.20, so the cost of one apple is $5.20 / 4 = $1.30.\n\nThe cost of three oranges is $3.30, so the cost of one orange is $3.30 / 3 = $1.10.\n\nNow, we can calculate the total cost for 5 apples and 5 oranges. \n- The cost of 5 apples is 5 * $1.30 = $6.50.\n- The cost of 5 oranges is 5 * $1.10 = $5.50.\n\nTherefore, the total cost for 5 apples and 5 oranges is $6.50 + $5.50 = $12.00.\n\n#### $12.00",
+			"retrievals": 1
+		}
+	]
+}

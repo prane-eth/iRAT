@@ -1,0 +1,13 @@
+{
+	"task_id": 1207,
+	"prompt": "John decides to get a loan by mortgaging his home.  His house is worth $250,000.  He gets a loan worth 40% of that.  He uses 60% of that to pay off his debts.  How much money did he have leftover after paying debt?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His loan is worth 250,000*.4=$<<250000*.4=100000>>100,000\nThat means he uses 100,000*.6=$<<100000*.6=60000>>60,000 to pay off debts\nSo he has 100,000-60,000=$<<100000-60000=40000>>40,000 leftover\n#### 40,000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money John had leftover after paying his debt, we first need to calculate the value of the loan he received. His house is worth $250,000, and he gets a loan worth 40% of that value. \n\nSo, the loan amount is 40% of $250,000. To find 40% of $250,000, we multiply $250,000 by 0.4. \nLoan amount = $250,000 * 0.4 = $100,000.\n\nHe uses 60% of the loan amount to pay off his debts. \nAmount used to pay debts = 60% of $100,000 = $100,000 * 0.6 = $60,000.\n\nTo find out how much money he had leftover after paying his debt, we subtract the amount used to pay debts from the loan amount. \nAmount leftover = Loan amount - Amount used to pay debts = $100,000 - $60,000 = $40,000.\n\n#### $40,000",
+			"old_rat_retrievals": 4,
+			"final_answer": "ToTo find out how much money John had leftover after paying his debts, we first need to calculate the amount of the loan he received and then determine how much of that loan was used to pay off his debts.\n\nThe house is worth $250,000, and he gets a loan worth 40% of that. To find 40% of $250,000, we multiply $250,000 by 0.4. So, the loan amount is $250,000 * 0.4 = $100,000.\n\nJohn uses 60% of the loan amount to pay off his debts. To find 60% of $100,000, we multiply $100,000 by 0.6. So, the amount used to pay off debts is $100,000 * 0.6 = $60,000.\n\nTo find out how much money John had leftover after paying his debts, we subtract the amount used to pay off debts from the total loan amount. So, the amount leftover is $100,000 - $60,000 = $40,000.\n\n#### $40,000",
+			"retrievals": 1
+		}
+	]
+}

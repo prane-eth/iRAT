@@ -1,0 +1,13 @@
+{
+	"task_id": 1271,
+	"prompt": "Gary bought a boat for $9000.  Over the first year it depreciated 30%.  The second year it depreciated another 30%.  The third year it depreciated 20%.  How much is the boat worth after the three years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "After first year:9000(.30)=2700\n9000-2700=<<9000-2700=6300>>6300\nAfter second year:6300(.30)=1890\n6300-1890=<<6300-1890=4410>>4410\nAfter third year:4410(.20)=882\n4410-882=<<4410-882=3528>>3528$\n#### 3528",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much the boat is worth after three years, we first need to calculate the depreciation after each year. The boat was initially bought for $9000. In the first year, it depreciated by 30%. \n\nThe depreciation in the first year is 30% of $9000, which is calculated as 0.30 * $9000 = $2700. So, after the first year, the boat's worth is $9000 - $2700 = $6300.\n\nIn the second year, the boat again depreciated by 30%. This time, the depreciation is 30% of $6300, which is 0.30 * $6300 = $1890. So, after the second year, the boat's worth is $6300 - $1890 = $4410.\n\nIn the third year, the boat depreciated by 20%. The depreciation this year is 20% of $4410, which is 0.20 * $4410 = $882. So, after the third year, the boat's worth is $4410 - $882 = $3528.\n\n#### $3528",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much the boat is worth after three years, we first need to calculate the depreciation after each year. The boat was initially bought for $9000. In the first year, it depreciated by 30%. The depreciation in the first year is 30% of $9000, which is calculated as 0.30 * $9000 = $2700. So, after the first year, the boat's worth is $9000 - $2700 = $6300.\n\nIn the second year, the boat again depreciated by 30%. This time, the depreciation is 30% of $6300, which is 0.30 * $6300 = $1890. So, after the second year, the boat's worth is $6300 - $1890 = $4410. In the third year, the boat depreciated by 20%. The depreciation this year is 20% of $4410, which is 0.20 * $4410 = $882. So, after the third year, the boat's worth is $4410 - $882 = $3528. \n\n#### $3528",
+			"retrievals": 1
+		}
+	]
+}

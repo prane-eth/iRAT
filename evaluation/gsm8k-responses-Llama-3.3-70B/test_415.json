@@ -1,0 +1,13 @@
+{
+	"task_id": 415,
+	"prompt": "Misha picks out 4 blouses from the 30% off rack.  The regular price for each blouse is $20.  How much is the total cost of the discounted blouses?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Total regular price for the blouses is $20 x 4 = $<<20*4=80>>80.\nTotal discount on the blouses is $80 x 30% = $<<80*30*.01=24>>24.\nMisha paid $80 - $24 = $<<80-24=56>>56 for the discounted blouses.\n#### 56",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total cost of the discounted blouses, we first need to calculate the discount on each blouse. The regular price for each blouse is $20, and they are on the 30% off rack.\n\nThe discount on each blouse can be calculated by finding 30% of the regular price. 30% of $20 is 0.3 * $20 = $6. This means each blouse is discounted by $6.\n\nSince the discount on each blouse is $6, the price of each discounted blouse is the regular price minus the discount. So, the discounted price of each blouse is $20 - $6 = $14.\n\nMisha picks out 4 blouses from the 30% off rack. To find the total cost of the discounted blouses, we multiply the number of blouses by the discounted price of each blouse. The total cost is 4 * $14 = $56.\n\n#### $56",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the Discount Amount for One Blouse\nTo find the discount amount for one blouse, we first need to calculate 30% of the regular price of a blouse. The regular price for each blouse is $20. So, the discount amount for one blouse is 30% of $20, which is 0.3 * $20 = $6.\n\n## Step 2: Calculate the Discounted Price for One Blouse\nNow, we subtract the discount amount from the regular price to get the discounted price for one blouse. The discounted price for one blouse is $20 - $6 = $14.\n\n## Step 3: Calculate the Total Cost for All Blouses\nMisha picks out 4 blouses. To find the total cost of the discounted blouses, we multiply the discounted price of one blouse by the number of blouses. So, the total cost is 4 * $14 = $56.\n\n#### $56",
+			"retrievals": 2
+		}
+	]
+}

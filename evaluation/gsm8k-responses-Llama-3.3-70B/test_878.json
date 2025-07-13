@@ -1,0 +1,13 @@
+{
+	"task_id": 878,
+	"prompt": "To make a profit of $2000, Isaias has to sell the chickens he planned to take to the market from his farm at $50 per chicken. If Isaias has 300 chickens on his farm and plans to sell 3/5 of them, for how much money did Isaias buy the chicken he took to the market for sale?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Isaias plans to sell 3/5*300 = <<3/5*300=180>>180 chickens from his farm.\nTo make his profit, Isaias sells all the chicken he took to the market for $50*180 = $<<50*180=9000>>9000\nThe price at which Isaias bought the chicken is $9000-$2000 = $<<9000-2000=7000>>7000.\n#### 7000",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how much Isaias bought the chickens for, we first need to",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how much Isaias bought the chickens for, we need to calculate the total revenue from selling the chickens and then subtract the profit to find the cost. \n\nIsaias plans to sell 3/5 of his 300 chickens, which is (3/5) * 300 = 180 chickens. He sells each chicken for $50, so the total revenue from selling the chickens is 180 * $50 = $9000.\n\nSince Isaias wants to make a profit of $2000 from selling the chickens, we subtract this profit from the total revenue to find the cost: $9000 - $2000 = $7000.\n\n#### $7000",
+			"retrievals": 0
+		}
+	]
+}

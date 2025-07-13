@@ -7,8 +7,10 @@ Aryan Singh ([@ekk012](https://github.com/ekk012)) \<aryansingh729@gmail.com\> \
 Zeeshan Ali ([@zeeshan5k](https://github.com/zeeshan5k)) \
 Alvaro Arteaga ([@LagrangianPoint](https://github.com/LagrangianPoint))
 
-## Demo
-Screenshots are available in the [Demo](Demo) folder.
+## Architecture:
+
+Full architecture: (Credits: Zeeshan Ali)
+![](assets/iRAT-Full-architecture.jpeg)
 
 
 ## Setup steps
@@ -31,25 +33,19 @@ python host_models.py
 ```
 6. To test the pipeline, run the following command in the terminal in "irat" folder:
 ```bash
-python irat/pipeline.py
-```
-7. To host the server and use the web page, run the following command in the terminal in "irat" folder:
-```bash
-python irat/server.py
+python pipeline.py
 ```
 
 
 ## Evaluation steps:
 1. Create response data using [evaluation/create_responses.py](evaluation/create_responses.py).
-2. Evaluate the responses using [evaluation/process_responses.ipynb](evaluation/process_responses.ipynb).
+2. Evaluate the responses using [evaluation/evaluate_responses.ipynb](evaluation/evaluate_responses.ipynb).
+
+## Demo
+Screenshots are available in the [Demo](Demo) folder.
 
 ## Sample:
 ![](Demo/Sample_4.png)
-
-## Architecture:
-
-Full architecture: (Credits: Zeeshan Ali)
-![](assets/iRAT-Full-architecture.jpeg)
 
 ---
 

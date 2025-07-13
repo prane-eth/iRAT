@@ -1,0 +1,13 @@
+{
+	"task_id": 413,
+	"prompt": "Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "She eats 2 cookies a night so for 30 nights she needs 2*30 = <<2*30=60>>60 cookies\nHer recipe makes 12 cookies and she needs to make 60 cookies so that's 60/12 = <<60/12=5>>5 dozen\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many dozens of cookies Shannon needs to make, we first need to calculate the total number of cookies she will eat in 30 days. Since she eats 2 cookies a night, we multiply the number of cookies she eats per night by the number of nights.\n\nShe eats 2 cookies per night for 30 nights, so the total number of cookies she will eat is 2 * 30 = 60 cookies.\n\n`\n \nNow, we know that her recipe makes 1 dozen madeleine cookies, which is equivalent to 12 cookies. To find out how many dozens of cookies she needs to make, we divide the total number of cookies she needs by the number of cookies her recipe yields.\n\n`\n \nWe divide the total number of cookies needed, which is 60, by the number of cookies per recipe, which is 12. So, 60 / 12 = 5.\n\n#### 5",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the total number of cookies Shannon needs for 30 days\nShannon eats 2 madeleine cookies per night as a treat, and she wants to have enough cookies to last her for 30 days. To calculate the total number of cookies she needs, we multiply the number of cookies she eats per night by the number of nights: 2 cookies/night * 30 nights = 60 cookies.\n\n## Step 2: Calculate how many dozens of cookies Shannon needs to make\nSince Shannon's recipe makes 1 dozen (12) madeleine cookies, we need to determine how many dozens she needs to make to have at least 60 cookies. To find this out, we divide the total number of cookies she needs by the number of cookies per dozen: 60 cookies / 12 cookies/dozen = 5 dozen.\n\n## Step 3: Verify the calculation\nTo ensure the calculation is correct, let's verify that making 5 dozen cookies will indeed provide Shannon with enough cookies for 30 days. Since 1 dozen equals 12 cookies, 5 dozen cookies would be 5 * 12 = 60 cookies, which matches our initial calculation.\n\n## Step 4: Conclusion\nBased on the calculations, Shannon needs to make 5 dozen madeleine cookies to have enough for 30 days, given her consumption rate of 2 cookies per night.\n\n#### 5",
+			"retrievals": 2
+		}
+	]
+}

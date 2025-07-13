@@ -1,0 +1,13 @@
+{
+	"task_id": 950,
+	"prompt": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is 26. How old is Leo?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Marcus is 26 - 5 = <<26-5=21>>21 years old.\nThus, Leo is 21 * 2 = <<21*2=42>>42 years old.\n#### 42",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Leo's age, we first need to establish the ages of Marcus and Deanna based on the information given. We know that Deanna is 26 years old.\n\nDeanna's age is given as 26, and Marcus is five years younger than Deanna. So, to find Marcus's age, we subtract 5 from Deanna's age: 26 - 5 = 21. This means Marcus is 21 years old.\n\nSince Marcus is half of Leo's age, we can find Leo's age by doubling Marcus's age. Therefore, Leo's age is 21 * 2 = 42.\n\n#### 42",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find Leo's age, we first need to establish the ages of Marcus and Deanna based on the information given. We know that Deanna is 26 years old. Since Marcus is five years younger than Deanna, we subtract 5 from Deanna's age to find Marcus's age: 26 - 5 = 21. This means Marcus is 21 years old. Given that Marcus is half of Leo's age, we can find Leo's age by doubling Marcus's age. Therefore, Leo's age is 21 * 2 = 42. #### 42",
+			"retrievals": 1
+		}
+	]
+}

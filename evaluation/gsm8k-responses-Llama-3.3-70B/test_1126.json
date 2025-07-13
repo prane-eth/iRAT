@@ -1,0 +1,13 @@
+{
+	"task_id": 1126,
+	"prompt": "John packs M&M in small bags to eat.  He buys 3 large bags weighing 10 ounces each.  If an ounce of M&M has 30 M&M in it how many small bags can he make if he puts 10 in each small bag?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He bought 3*10=<<3*10=30>>30 ounces of M&M\nThat means he got 30*30=<<30*30=900>>900 M&Ms\nSo he can make 900/10=<<900/10=90>>90 bags\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many small bags John can make, we first need to calculate the total number of M&M's he has. He buys 3 large bags weighing 10 ounces each. So, the total weight of M&M's is 3 * 10 = 30 ounces.\n\nSince an ounce of M&M has 30 M&M in it, the total number of M&M's John has is 30 ounces * 30 M&M/ounce = 900 M&M's.\n\nNow, we need to find out how many small bags he can make with 900 M&M's if he puts 10 in each small bag. To do this, we divide the total number of M&M's by the number of M&M's per small bag: 900 M&M's / 10 M&M's/small bag = 90 small bags.\n\n#### 90",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Calculate the total weight of M&M's\nJohn buys 3 large bags weighing 10 ounces each, so the total weight of M&M's is 3 * 10 = 30 ounces.\n\n## Step 2: Calculate the total number of M&M's\nSince an ounce of M&M has 30 M&M in it, the total number of M&M's is 30 ounces * 30 M&M/ounce = 900 M&M's.\n\n## Step 3: Calculate the number of small bags\nIf John puts 10 M&M's in each small bag, the number of small bags he can make is 900 M&M's / 10 M&M's/bag = 90 bags.\n\n#### 90",
+			"retrievals": 4
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 499,
+	"prompt": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought 20 more oranges than Ashley. If one greek orange pie needs three oranges, how many greek orange pies can they make?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ashley brought 5 x 10 = <<5*10=50>>50 oranges.\nBrianne brought 50 + 20 = <<50+20=70>>70 oranges.\nThus, they have 50 + 70 = <<50+70=120>>120 oranges altogether.\nTherefore, they can make 120 /3 = <<120/3=40>>40 greek orange pie.\n#### 40",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many Greek orange pies Brianne and Ashley can make, we first need to calculate the total number of oranges they have. Ashley brought five boxes with ten oranges in each box. So, the total number of oranges Ashley brought is 5 * 10 = 50 oranges.\n\nBrianne brought 20 more oranges than Ashley. Since Ashley brought 50 oranges, Brianne brought 50 + 20 = 70 oranges. Now, we add the oranges from both Ashley and Brianne to get the total number of oranges. Total oranges = 50 (from Ashley) + 70 (from Brianne) = 120 oranges.\n\nEach Greek orange pie needs three oranges. To find out how many pies they can make, we divide the total number of oranges by the number of oranges needed for one pie. Total pies = Total oranges / Oranges per pie = 120 / 3 = 40.\n\n#### 40",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many Greek orange pies Brianne and Ashley can make, we first need to calculate the total number of oranges they have. Ashley brought five boxes with ten oranges in each box. So, the total number of oranges Ashley brought is 5 * 10 = 50 oranges.\n\nBrianne brought 20 more oranges than Ashley. Since Ashley brought 50 oranges, Brianne brought 50 + 20 = 70 oranges. Now, we add the oranges from both Ashley and Brianne to get the total number of oranges. Total oranges = 50 (from Ashley) + 70 (from Brianne) = 120 oranges. Each Greek orange pie needs three oranges. To find out how many pies they can make, we divide the total number of oranges by the number of oranges needed for one pie. Total pies = Total oranges / Oranges per pie = 120 / 3 = 40.\n\n#### 40",
+			"retrievals": 1
+		}
+	]
+}

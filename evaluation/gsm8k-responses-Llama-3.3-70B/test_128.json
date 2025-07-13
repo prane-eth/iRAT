@@ -1,0 +1,14 @@
+{
+	"task_id": 128,
+	"prompt": "After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Lily made 50 friends, Amy made 50+20 =<<50+20=70>>70 friends.\nTogether, they made 70+50 = <<70+50=120>>120 friends at the new school.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of friends Lily and Amy have together, we first need to determine how many friends Amy made. Since Amy made 20 more friends than Lily, and Lily made 50 friends, Amy made 50 + 20 = 70 friends. \n\nThe total number of friends they have together is the sum of their individual friends, which is 50 (Lily's friends) + 70 (Amy's friends) = 120 friends.\n\n#### 120",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total number of friends that Lily and Amy have together, we first need to determine how many friends Amy made. Since Amy made 20 more friends than Lily, and Lily made 50 friends, we can calculate Amy's friends by adding 20 to Lily's total. So, Amy made 50 + 20 = 70 friends.\n\nNow, to find the total number of friends they both have, we add the number of friends Lily made to the number of friends Amy made. Therefore, the total number of friends is 50 (Lily's friends) + 70 (Amy's friends) = 120.\n\n#### 120",
+			"retrievals": 2
+		}
+	],
+	"unsafe_prompt": true
+}

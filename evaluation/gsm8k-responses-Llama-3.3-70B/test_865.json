@@ -1,0 +1,13 @@
+{
+	"task_id": 865,
+	"prompt": "George, a grade six teacher, ordered 600 burritos for the sixth-grade class picnic. If there were 50 students at the picnic, and each student was given ten burritos, with Mr. George eating 20 of them, calculate the total number of leftover burritos from the picnic?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of burritos eaten by the students is 50*10 = <<50*10=500>>500\nIf Mr George also ate 20, the total number of burritos eaten at the picnic is 500+20 = <<500+20=520>>520\nThere were 600-520 = <<600-520=80>>80 leftover burritos.\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of leftover burritos from the picnic, we first need to calculate the total number of burritos given to the students. There were 50 students at the picnic, and each student was given 10 burritos. So, the total number of burritos given to the students is 50 * 10 = 500 burritos.\n\n \nNext, we need to account for the burritos eaten by Mr. George. He ate 20 burritos. Therefore, the total number of burritos consumed (by both students and Mr. George) is 500 (given to students) + 20 (eaten by Mr. George) = 520 burritos.\n\n \nNow, to find the total number of leftover burritos, we subtract the total number of burritos consumed from the total number of burritos ordered. Mr. George ordered 600 burritos, and 520 were consumed. So, the total number of leftover burritos is 600 - 520 = 80 burritos.\n\n#### 80",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total number of leftover burritos from the picnic, we first need to calculate the total number of burritos given to the students. There were 50 students at the picnic, and each student was given 10 burritos. So, the total number of burritos given to the students is 50 * 10 = 500 burritos.\n\nNext, we need to account for the burritos eaten by Mr. George. He ate 20 burritos. Therefore, the total number of burritos consumed (by both students and Mr. George) is 500 (given to students) + 20 (eaten by Mr. George) = 520 burritos.\n\nNow, to find the total number of leftover burritos, we subtract the total number of burritos consumed from the total number of burritos ordered. Mr. George ordered 600 burritos, and 520 were consumed. So, the total number of leftover burritos is 600 - 520 = 80 burritos.\n\n#### 80",
+			"retrievals": 2
+		}
+	]
+}

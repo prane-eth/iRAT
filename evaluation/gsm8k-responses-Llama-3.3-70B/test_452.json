@@ -1,0 +1,13 @@
+{
+	"task_id": 452,
+	"prompt": "On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45\nTwo days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65\nIf Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.\n#### 11050",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much Bentley paid to fill 170 balloons after the price increase, we first need to determine the original cost of filling one balloon before the price increase. \n\nThe total cost of filling up 20 helium balloons was $900. Therefore, the cost of filling one balloon can be calculated by dividing the total cost by the number of balloons: $900 / 20 balloons = $45 per balloon.\n\n`\n \nAfter the price increase, the cost of filling each balloon was increased by $20. So, the new cost per balloon is $45 (original cost) + $20 (increase) = $65 per balloon.\n\n`\n \nNow, to find out how much Bentley paid to fill 170 balloons at the new price, we multiply the number of balloons by the new cost per balloon: 170 balloons * $65 per balloon = $11,050.\n\n#### $11,050",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the original cost per balloon\nTo find the original cost per balloon, we divide the total cost by the number of balloons. original_cost_per_balloon = total_cost / number_of_balloons = $900 / 20 = $45.\n\n## Step 2: Calculate the new cost per balloon after the price increase\nThe cost per balloon increases by $20, so the new cost per balloon is $45 + $20 = $65.\n\n## Step 3: Calculate the total cost for 170 balloons at the new price\nTo find the total cost for 170 balloons at the new price, we multiply the number of balloons by the new cost per balloon. total_cost = number_of_balloons * new_cost_per_balloon = 170 * $65.\n\n## Step 4: Perform the final calculation\ntotal_cost = 170 * $65 = $11,050.\n\nThe final answer is: #### $11,050",
+			"retrievals": 2
+		}
+	]
+}

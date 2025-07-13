@@ -1,0 +1,13 @@
+{
+	"task_id": 92,
+	"prompt": "Jan has three times the number of pets as Marcia. Marcia has two more pets than Cindy. If Cindy has four pets, how many total pets do the three have?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Marcia has 4 + 2 = <<4+2=6>>6 pets.\nJan has 3 * 6 = <<3*6=18>>18 pets\nIn total, the three have 4 + 6 + 18 = <<4+6+18=28>>28 pets.\n#### 28",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of pets the three have, we first need to determine",
+			"old_rat_retrievals": 9,
+			"final_answer": "To find the total number of pets Jan, Marcia, and Cindy have, we first establish the number of pets each individual owns based on the given information. We're told Cindy has four pets. Since Marcia has two more pets than Cindy, Marcia's total pets would be 4 (Cindy's pets) + 2 = 6 pets.\n\nGiven that Jan has three times the number of pets as Marcia, and knowing Marcia has 6 pets, we calculate Jan's pets as 3 * 6 = 18 pets.\n\nNow, to find the total number of pets the three have, we add the pets of Cindy, Marcia, and Jan together: 4 (Cindy's pets) + 6 (Marcia's pets) + 18 (Jan's pets) = 28 pets.\n\n#### 28",
+			"retrievals": 2
+		}
+	]
+}

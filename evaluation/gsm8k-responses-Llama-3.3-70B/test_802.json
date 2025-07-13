@@ -1,0 +1,13 @@
+{
+	"task_id": 802,
+	"prompt": "At Ashley's school, they start a reforestation campaign where each child plants a tree and each teacher plants 2 trees. The school has 40 classes with an average of 25 students and 3 teachers per class. How many trees will they have planted at the end of the campaign?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "40 classes participate in the campaign, representing a total of 40 * 25 = <<40*25=1000>>1000 students.\nWith 3 teachers per class, 40 * 3 = <<40*3=120>>120 teachers participate.\nWith one tree planted per student, 1000 * 1 = <<1000*1=1000>>1000 trees are planted per student.\nWith 2 trees planted per teacher, 120 * 2 = <<120*2=240>>240 trees are planted per teacher.\nAdding the trees planted by teachers and students, 1000 + 240 = <<1000+240=1240>>1240 trees will have been planted at the end of the campaign.\n#### 1240",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total number of trees planted, we need to calculate the number of",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total number of trees planted, we first need to determine the total number of students and teachers in the school. Since there are 40 classes with an average of 25 students per class, the total number of students is 40 classes * 25 students/class = 1000 students. \n\nEach student plants one tree, so the total number of trees planted by students is 1000 students * 1 tree/student = 1000 trees.\n\nFor the teachers, since there are 40 classes with 3 teachers per class, the total number of teachers is 40 classes * 3 teachers/class = 120 teachers. \n\nEach teacher plants 2 trees, so the total number of trees planted by teachers is 120 teachers * 2 trees/teacher = 240 trees.\n\nTo find the total number of trees planted, we add the number of trees planted by students and teachers: 1000 trees (from students) + 240 trees (from teachers) = 1240 trees.\n\n#### 1240",
+			"retrievals": 0
+		}
+	]
+}

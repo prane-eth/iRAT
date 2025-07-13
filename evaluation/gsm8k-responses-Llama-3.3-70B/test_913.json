@@ -1,0 +1,13 @@
+{
+	"task_id": 913,
+	"prompt": "John drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He drinks a bottle of water every 60/2=<<60/2=30>>30 minutes\nIt takes him 45*4=<<45*4=180>>180 minutes to solve an extreme sudoku\nSo he drinks 180/30=<<180/30=6>>6 bottles in that time\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many bottles of water John drinks during the time it takes him to complete an extreme sudoku puzzle, we first need to determine the duration of an extreme sudoku puzzle. \n\nAn extreme sudoku takes 4 times as long as a normal sudoku puzzle. Since a normal sudoku puzzle takes John 45 minutes, an extreme sudoku puzzle will take 4 * 45 minutes = 180 minutes.\n\nNow, we need to figure out how many bottles of water John drinks in 180 minutes, given that he drinks a bottle every half hour (30 minutes). \n\nTo calculate the number of bottles John drinks in 180 minutes, we divide the total minutes by 30 (since he drinks one bottle every 30 minutes). So, 180 minutes / 30 minutes per bottle = 6 bottles.\n\n#### 6",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many bottles of water John drinks during the time it takes him to complete an extreme sudoku puzzle, we first need to determine the duration of an extreme sudoku puzzle. An extreme sudoku takes 4 times as long as a normal sudoku puzzle. Since a normal sudoku puzzle takes John 45 minutes, an extreme sudoku puzzle will take 4 * 45 minutes = 180 minutes.\n\nNow, we need to figure out how many bottles of water John drinks in 180 minutes, given that he drinks a bottle every half hour (30 minutes). To calculate the number of bottles John drinks in 180 minutes, we divide the total minutes by 30 (since he drinks one bottle every 30 minutes). So, 180 minutes / 30 minutes per bottle = 6 bottles.\n\n#### 6",
+			"retrievals": 4
+		}
+	]
+}

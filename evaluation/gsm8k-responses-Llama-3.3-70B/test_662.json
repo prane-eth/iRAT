@@ -1,0 +1,13 @@
+{
+	"task_id": 662,
+	"prompt": "Roger goes to the store to buy some coffee.  The normal brand of coffee he buys cost $5 per pound.  He had to buy a more expensive brand that cost 20% more since his favorite brand was sold out.  He decides to buy a week's worth of coffee and he uses 1 pound of coffee per day.  He also decided to buy himself a donut for $2.  How much did everything cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The coffee he bought was 5*.2=$<<5*.2=1>>1 more expensive per pound than what he normally buys\nSo it cost 5+1=$<<5+1=6>>6 per pound\nHe goes through 1*7=<<1*7=7>>7 pounds of coffee a week\nSo he paid 6*7=$<<6*7=42>>42 on coffee\nThat means his total bill was 42+2=$<<42+2=44>>44\n#### 44",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we need to calculate the total cost of the coffee and the donut. \n\nFirst, let's find the cost of the more expensive brand of coffee. Since it costs 20% more than the normal brand, we need to calculate 20% of $5 and add it to $5.\n20% of $5 is 0.2 * $5 = $1.\nSo, the more expensive brand costs $5 + $1 = $6 per pound.\n\nSince Roger buys a week's worth of coffee and he uses 1 pound of coffee per day, he needs 7 pounds of coffee.\nThe cost of 7 pounds of coffee is 7 * $6 = $42.\n\nHe also buys a donut for $2, so the total cost is $42 + $2 = $44.\n\n#### $44",
+			"old_rat_retrievals": 6,
+			"final_answer": "To calculate the total cost, we first need to find the cost of the more expensive brand of coffee. Since it costs 20% more than the normal brand, which is $5 per pound, the cost of the more expensive brand is $5 + (20% of $5). \n\n20% of $5 is 0.20 * $5 = $1. So, the more expensive brand costs $5 + $1 = $6 per pound.\n\nRoger buys a week's worth of coffee, and he uses 1 pound of coffee per day. There are 7 days in a week, so he buys 7 pounds of coffee. The cost of 7 pounds of coffee at $6 per pound is 7 * $6 = $42.\n\nHe also buys a donut for $2. So, the total cost is $42 (coffee) + $2 (donut) = $44.\n\n#### $44",
+			"retrievals": 2
+		}
+	]
+}

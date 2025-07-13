@@ -1,0 +1,13 @@
+{
+	"task_id": 562,
+	"prompt": "If Mark weighs 150 pounds and Susan weighs 20 pounds less than Mark.  And their friend Bob weighs twice as much as Susan.  What is the average weight of the 3 friends?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Susan weighs 150 pounds - 20 pounds = <<150-20=130>>130 pounds.\nBob weighs 2 * 130 pounds = <<2*130=260>>260 pounds.\nThe friends total weight is 150 + 130 + 260 pounds = <<150+130+260=540>>540 pounds.\nThe friends' average weight is 540 pounds / 3 = <<540/3=180>>180 pounds.\n#### 180",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average weight of the 3 friends, we first need to determine the weight of each friend. Mark weighs 150 pounds. Susan weighs 20 pounds less than Mark, so we subtract 20 from Mark's weight to find Susan's weight. \n\nSusan's weight = Mark's weight - 20 pounds\nSusan's weight = 150 pounds - 20 pounds\nSusan's weight = 130 pounds\n\nNow that we know Susan's weight, we can find Bob's weight. Bob weighs twice as much as Susan, so we multiply Susan's weight by 2 to find Bob's weight.\n\nBob's weight = 2 * Susan's weight\nBob's weight = 2 * 130 pounds\nBob's weight = 260 pounds\n\nNow we have the weights of all three friends: Mark weighs 150 pounds, Susan weighs 130 pounds, and Bob weighs 260 pounds. \n\nTo find the average weight, we add the weights of all three friends and divide by the number of friends. \n\nAverage weight = (Mark's weight + Susan's weight + Bob's weight) / 3\nAverage weight = (150 pounds + 130 pounds + 260 pounds) / 3\nAverage weight = 540 pounds / 3\nAverage weight = 180 pounds\n\n#### 180 pounds",
+			"old_rat_retrievals": 8,
+			"final_answer": "## Step 1: Determine Mark's Weight\nMark weighs 150 pounds.\n\n## Step 2: Calculate Susan's Weight\nSusan weighs 20 pounds less than Mark, so Susan's weight is 150 - 20 = 130 pounds.\n\n## Step 3: Calculate Bob's Weight\nBob weighs twice as much as Susan, so Bob's weight is 2 * 130 = 260 pounds.\n\n## Step 4: Calculate the Total Weight of the 3 Friends\nThe total weight of the 3 friends is Mark's weight + Susan's weight + Bob's weight = 150 + 130 + 260 = 540 pounds.\n\n## Step 5: Calculate the Average Weight of the 3 Friends\nThe average weight of the 3 friends is the total weight / 3 = 540 / 3 = 180 pounds.\n\n#### 180",
+			"retrievals": 3
+		}
+	]
+}

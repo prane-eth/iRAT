@@ -1,0 +1,13 @@
+{
+	"task_id": 457,
+	"prompt": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 60/100 * 15 = <<60/100*15=9>>9 more green cards than red cards.\nWhich means there are 15 + 9 = <<15+9=24>>24 green cards.\nYellow cards make up to 15 + 24 = <<15+24=39>>39 cards.\nSo in total, there are 39 + 39 = <<39+39=78>>78 cards of different colors.\n#### 78",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of cards of all mentioned colors, we first need to calculate the number of green cards, since we know there are 15 red cards and that there are 60% more green cards than red cards.\n\nThe number of green cards can be calculated by finding 60% of the number of red cards and then adding that to the number of red cards. 60% of 15 red cards is 0.6 * 15 = 9. So, the number of green cards is 15 + 9 = 24.\n\nNext, we need to find the number of yellow cards, which is equal to the sum of the red and green cards. The sum of red and green cards is 15 (red) + 24 (green) = 39. Therefore, there are 39 yellow cards.\n\nTo find the total number of cards of all mentioned colors, we add the number of red, green, and yellow cards together: 15 (red) + 24 (green) + 39 (yellow) = 78.\n\n#### 78",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of green cards\nFirst, we calculate 60% of the number of red cards to find out how many more green cards there are. 60% of 15 is 0.6 * 15 = 9. So, there are 9 more green cards than red cards.\n\n## Step 2: Determine the total number of green cards\nTo find the total number of green cards, we add the 60% more (9 cards) to the number of red cards (15). Therefore, the total number of green cards is 15 + 9 = 24.\n\n## Step 3: Calculate the number of yellow cards\nThe number of yellow cards is equal to the sum of the red and green cards. So, we add the number of red cards (15) to the number of green cards (24) to get the number of yellow cards: 15 + 24 = 39.\n\n## Step 4: Calculate the total number of cards of all mentioned colors\nTo find the total number of cards, we add the number of red cards (15), the number of green cards (24), and the number of yellow cards (39) together: 15 + 24 + 39 = 78.\n\nThe final answer is: #### 78",
+			"retrievals": 2
+		}
+	]
+}

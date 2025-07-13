@@ -1,0 +1,13 @@
+{
+	"task_id": 642,
+	"prompt": "Tim gets a promotion that offers him a 5% raise on his $20000 a month salary.  It also gives him a bonus worth half a month's salary. How much money will he make in a year?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The promotion increased his monthly salary by 20000*.05=$<<20000*0.05=1000>>1000\nSo his new salary is 20000+1000=$<<20000+1000=21000>>21000 a month\nSo he makes 21000*12=$<<21000*12=252000>>252,000 a year\nThe bonus is worth 21000*.5=$<<21000*.5=10500>>10500\nSo he makes 252,000+10,500=$<<252000+10500=262500>>262,500 for the year\n#### 262500",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate Tim's new monthly salary after the 5% raise, we first find 5% of his current monthly salary and then add it to his current salary. 5% of $20000 is calculated as $20000 * 0.05 = $1000. So, his new monthly salary will be $20000 + $1000 = $21000.\n\n \nHis bonus is worth half a month's salary, which is $21000 / 2 = $10500. This bonus is in addition to his monthly salary, but it is not specified how often he receives the bonus. Assuming the bonus is annual, we calculate his total annual salary by first multiplying his new monthly salary by 12 to get his annual salary before the bonus: $21000 * 12 = $252000. Then, we add the annual bonus to this amount: $252000 + $10500 = $262500.\n\n#### $262500",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate how much money Tim will make in a year after his promotion, we first need to determine his new monthly salary and then add the bonus he receives.\n\n1. **Calculate the 5% raise on his $20,000 a month salary:**\n   - The raise amount is 5% of $20,000, which is $20,000 * 0.05 = $1,000.\n   - Therefore, his new monthly salary is $20,000 + $1,000 = $21,000.\n\n2. **Calculate the bonus:**\n   - The bonus is worth half a month's salary of his original salary, which is $20,000 / 2 = $10,000.\n\n3. **Calculate his total yearly salary including the bonus:**\n   - His new monthly salary is $21,000, so in a year (12 months), he will make $21,000 * 12 = $252,000.\n   - Adding the bonus to this, his total yearly income will be $252,000 + $10,000 = $262,000.\n\n#### $262,000",
+			"retrievals": 2
+		}
+	]
+}

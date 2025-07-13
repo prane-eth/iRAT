@@ -1,0 +1,13 @@
+{
+	"task_id": 724,
+	"prompt": "The restaurant has 170 normal chairs and 23 chairs for babies. If 20 of the normal chairs and 13 of the baby chairs were sent to the carpenter for repair, how many chairs does the restaurant have left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Before sending the chairs and baby chairs to the carpenter the restaurant had 170 + 23 = <<170+23=193>>193 chairs.\nThey sent 20 + 13 = <<20+13=33>>33 chairs to the carpenter.\nNow, they have 193 - 33 = <<193-33=160>>160 chairs left.\n#### 160",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many chairs the restaurant has left, we first need to calculate the number of normal chairs and baby chairs that were not sent for repair. \n\nThe restaurant started with 170 normal chairs and sent 20 to the carpenter. So, the number of normal chairs left is 170 - 20 = 150.\n\nThe restaurant also had 23 chairs for babies and sent 13 of those for repair. Thus, the number of baby chairs left is 23 - 13 = 10.\n\nTo find the total number of chairs the restaurant has left, we need to add the remaining normal chairs and baby chairs together. So, 150 (normal chairs) + 10 (baby chairs) = 160.\n\n#### 160",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine the total number of chairs the restaurant has left, we need to calculate the remaining chairs after some were sent for repair. Initially, the restaurant had 170 normal chairs and 23 chairs for babies. \n\nFor the normal chairs, 20 were sent to the carpenter, leaving 170 - 20 = 150 normal chairs. \n\nFor the baby chairs, 13 were sent for repair, leaving 23 - 13 = 10 baby chairs.\n\nTo find the total number of chairs the restaurant has left, we add the remaining normal and baby chairs together: 150 (normal chairs) + 10 (baby chairs) = 160.\n\nTherefore, the restaurant has a total of 160 chairs left after sending some for repair. #### 160",
+			"retrievals": 2
+		}
+	]
+}

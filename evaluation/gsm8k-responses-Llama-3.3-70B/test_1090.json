@@ -1,0 +1,13 @@
+{
+	"task_id": 1090,
+	"prompt": "Nathan has a bouncy ball that bounces to 2/3rds of its starting height with each bounce. If he drops it from the third-floor balcony in the mall, where each story is 24 feet high, how high does the ball go on its second bounce?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total height from which Nathan drops the ball: 24 feet/story * 3 stories = <<24*3=72>>72 feet\nThen multiply that number by 2/3rds to find the height of the ball after one bounce: 72 feet * 2/3 = <<72*2/3=48>>48 feet\nThen multiply that number by 2/3rds to find the height of the ball after two bounces: 48 feet * 2/3 = <<48*2/3=32>>32 feet\n#### 32",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the height the ball goes on its second bounce, we first need to calculate the initial height from which the ball is dropped. Since Nathan drops it from the third-floor balcony and each story is 24 feet high, the initial height is 3 stories * 24 feet/story = 72 feet.\n\nThe ball bounces to 2/3rds of its starting height with each bounce. On the first bounce, it will go up to 2/3 * 72 feet = 48 feet. \n\nOn the second bounce, it will bounce up to 2/3 of the height it reached after the first bounce, which is 2/3 * 48 feet = 32 feet.\n\n#### 32 feet",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the initial height from which the ball is dropped\nThe ball is dropped from the third-floor balcony in the mall, and each story is 24 feet high. So, the initial height is 3 * 24 = 72 feet.\n\n## Step 2: Calculate the height of the first bounce\nThe ball bounces to 2/3rds of its starting height. Therefore, the height of the first bounce is 2/3 * 72 = 48 feet.\n\n## Step 3: Calculate the height of the second bounce\nFor the second bounce, the ball again bounces to 2/3rds of the height from which it was dropped, which is the height of the first bounce. So, the height of the second bounce is 2/3 * 48 = 32 feet.\n\n#### 32",
+			"retrievals": 1
+		}
+	]
+}

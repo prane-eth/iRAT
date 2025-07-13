@@ -1,0 +1,13 @@
+{
+	"task_id": 703,
+	"prompt": "Gissela, Gordy, and Gary are truck drivers.  Gissela has a truck large enough to haul 4,000 pounds of gravel. Gordy's truck can haul 800 pounds more than Gissela's truck.  And when Gary brings his truck and joins Gissela and Gordy, the three trucks combined can haul a total of 11,600 pounds of gravel. How many pounds of gravel can Gary's truck carry?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Gordy's truck can carry 4000+800=<<4000+800=4800>>4800 pounds of gravel.\nThus, Gary's truck can carry 11,600-4000-4800=<<11600-4000-4800=2800>>2800 pounds of gravel.\n#### 2800",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pounds of gravel Gary's truck can carry, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many pounds of gravel Gary's truck can carry, we first need to determine the hauling capacity of Gordy's truck. Since Gordy's truck can haul 800 pounds more than Gissela's truck, and Gissela's truck can haul 4,000 pounds, Gordy's truck can haul 4,000 + 800 = 4,800 pounds.\n\nNext, we calculate the combined hauling capacity of Gissela's and Gordy's trucks, which is 4,000 + 4,800 = 8,800 pounds.\n\nGiven that the three trucks combined can haul a total of 11,600 pounds of gravel, we subtract the combined capacity of Gissela's and Gordy's trucks from this total to find Gary's truck capacity: 11,600 - 8,800 = 2,800 pounds.\n\n#### 2,800",
+			"retrievals": 1
+		}
+	]
+}

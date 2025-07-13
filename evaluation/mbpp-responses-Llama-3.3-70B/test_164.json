@@ -1,0 +1,21 @@
+{
+	"task_id": 174,
+	"prompt": "Write a function to check if the string is a valid email address or not using regex.?import re\n\nassert check_email(\"ankitrai326@gmail.com\") == 'Valid Email'",
+	"test_imports": [
+		"import re"
+	],
+	"test_list": [
+		"assert check_email(\"ankitrai326@gmail.com\") == 'Valid Email'",
+		"assert check_email(\"my.ownsite@ourearth.org\") == 'Valid Email'",
+		"assert check_email(\"ankitaoie326.com\") == 'Invalid Email'"
+	],
+	"mbpp_code": "import re \r\nregex = '^[a-z0-9]+[\\._]?[a-z0-9]+[@]\\w+[.]\\w{2,3}$'\r\ndef check_email(email): \r\n\tif(re.search(regex,email)): \r\n\t\treturn (\"Valid Email\") \r\n\telse: \r\n\t\treturn (\"Invalid Email\")",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo create a function that checks if a string is a valid email address, we first need to understand the basic structure of an email address. An email address typically consists of a local part, followed by the '@' symbol, and then the domain. The local part can contain letters, numbers, and special characters, while the domain can contain letters, numbers, and '.'.\n\nThe function will utilize Python's built-in `re` module, which provides support for regular expressions. We will define a pattern that matches the general structure of an email address. The pattern will include the local part, the '@' symbol, and the domain. We will use the following pattern: `r\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\"`. This pattern breaks down into three main parts: the local part `^[a-zA-Z0-9_.+-]+`, the '@' symbol `@`, and the domain `[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$`.\n\nThe `check_email` function will take an email address as input and return 'Valid Email' if the email address matches the pattern, and 'Invalid Email' otherwise. Here is the implementation:\n```python\nimport re\n\ndef check_email(email):\n    pattern = r\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\"\n    if re.match(pattern, email):\n        return 'Valid Email'\n    else:\n        return 'Invalid Email'\n```\n\nThe `re.match` function attempts to match the pattern at the beginning of the string. If a match is found, it returns a match object which is truthy; otherwise, it returns `None` which is falsy. We use this return value to determine whether the email address is valid or not. The function can be used to check any email address by passing it as an argument to the `check_email` function.",
+			"old_rat_retrievals": 5,
+			"final_answer": "To check if a string is a valid email address or not using regex, you can use the following function:\n\n```python\nimport re\n\ndef check_email(email):\n    pattern = r\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\"\n    if re.match(pattern, email):\n        return 'Valid Email'\n    else:\n        return 'Invalid Email'\n\nassert check_email(\"ankitrai326@gmail.com\") == 'Valid Email'\n```\n\nThis function uses a regex pattern to match the general format of an email address. The pattern `^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$` breaks down as follows:\n\n- `^` asserts the start of the line\n- `[a-zA-Z0-9_.+-]+` matches one or more alphanumeric characters, dots, underscores, pluses, or hyphens (for the local part of the email)\n- `@` matches the @ symbol\n- `[a-zA-Z0-9-]+` matches one or more alphanumeric characters or hyphens (for the domain name)\n- `\\.` matches the dot before the top-level domain\n- `[a-zA-Z0-9-.]+` matches one or more alphanumeric characters, dots, or hyphens (for the top-level domain)\n- `$` asserts the end of the line\n\nThe `re.match` function attempts to match this pattern at the beginning of the string. If a match is found, it returns a match object which is truthy; otherwise, it returns `None` which is falsy. We use this return value to determine whether the email address is valid or not.",
+			"retrievals": 4
+		}
+	]
+}

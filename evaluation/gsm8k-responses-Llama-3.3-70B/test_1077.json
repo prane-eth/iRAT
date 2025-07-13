@@ -1,0 +1,13 @@
+{
+	"task_id": 1077,
+	"prompt": "Terry sells 6 milkshakes for $5.50 each, nine burger platters for $11 each, and 20 sodas for $1.50 each. How much money does he make in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33\nThen find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99\nThen find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30\nThen add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162\n#### 162",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount of money Terry makes, we first need to calculate the",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total amount of money Terry makes, we need to calculate the earnings from each item he sells and then add them together.\n\nFirst, let's calculate the total amount of money made from selling milkshakes. Terry sells 6 milkshakes for $5.50 each. So, the total amount of money made from selling milkshakes is 6 * $5.50 = $33.\n\nNext, we calculate the total amount of money made from selling burger platters. Terry sells 9 burger platters for $11 each. So, the total amount of money made from selling burger platters is 9 * $11 = $99.\n\nThen, we calculate the total amount of money made from selling sodas. Terry sells 20 sodas for $1.50 each. So, the total amount of money made from selling sodas is 20 * $1.50 = $30.\n\nFinally, we add up the total amount of money made from selling milkshakes, burger platters, and sodas to find the total amount of money Terry makes. The total amount of money made is $33 + $99 + $30 = $162.\n\n#### $162",
+			"retrievals": 1
+		}
+	]
+}

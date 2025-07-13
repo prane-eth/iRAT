@@ -1,0 +1,13 @@
+{
+	"task_id": 644,
+	"prompt": "A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In February, with 28 days, the political and weather publishing news website produced a total of 28*20=<<28*20=560>>560 articles.\nThe sister company publishing business news had 10*28=<<10*28=280>>280 articles in February.\nIn total, the two companies published 280+560=<<280+560=840>>840 articles.\n#### 840",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of articles published by both websites in February, we first",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total number of articles published by both websites in February, we need to determine the daily total and then multiply by the number of days in the month. \n\nThe news website publishes 20 articles per day, and its sister company publishes 10 articles per day. So, together, they publish 20 + 10 = 30 articles per day. \n\nSince February has 28 days, the total number of articles published in the month is 30 articles/day * 28 days = 840 articles.\n\n#### 840",
+			"retrievals": 1
+		}
+	]
+}

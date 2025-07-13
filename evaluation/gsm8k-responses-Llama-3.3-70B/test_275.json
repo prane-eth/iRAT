@@ -1,0 +1,13 @@
+{
+	"task_id": 275,
+	"prompt": "It's April, and Mrs. Rylan has been busy on her farm planting different types of vegetables for the season. She has bought 20 packets of tomato seeds and 80 packets of celery seeds to plant. If a packet of tomato seeds costs $40 and a packet of celery seeds costs $30, how much money did she use to buy the seeds?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total amount of money she used to buy the tomato seeds is 20 packets * $40/packet = $<<20*40=800>>800\nThe celery seeds cost her 80 packets * $30/packet = $<<80*30=2400>>2400\nFor the seeds, Mrs. Rylan paid $2400 + $800 = $<<2400+800=3200>>3200\n#### 3200",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Mrs. Rylan used to buy the seeds, we first need to calculate the total cost of the tomato seeds and the total cost of the celery seeds. \n\nThe cost of the tomato seeds can be calculated by multiplying the number of packets of tomato seeds by the cost per packet. Since Mrs. Rylan bought 20 packets of tomato seeds and each packet costs $40, the total cost for the tomato seeds is 20 * $40.\n\nThe cost of the celery seeds can be calculated in a similar manner. Mrs. Rylan bought 80 packets of celery seeds, and each packet costs $30. Therefore, the total cost for the celery seeds is 80 * $30.\n\nNext, we'll calculate these costs: \n- The total cost for the tomato seeds is 20 * $40 = $800.\n- The total cost for the celery seeds is 80 * $30 = $2400.\n\nFinally, to find the total amount of money Mrs. Rylan used to buy the seeds, we add the total cost of the tomato seeds to the total cost of the celery seeds: $800 + $2400 = $3200.\n\n#### $3200",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the total amount of money Mrs. Rylan spent on buying seeds for her farm, we need to calculate the cost of the tomato seeds and the celery seeds separately and then add them together. \n\nThe cost of the tomato seeds can be found by multiplying the number of packets by the cost per packet, which is 20 * $40 = $800. \n\nThe cost of the celery seeds is calculated by multiplying the number of packets by the cost per packet, which is 80 * $30 = $2400.\n\nTo find the total amount spent, we add the cost of the tomato seeds and the celery seeds together: $800 + $2400 = $3200.\n\nTherefore, Mrs. Rylan spent a total of $3200 on seeds for her farm.\n\n#### $3200",
+			"retrievals": 3
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 70,
+	"prompt": "Bailey starts with a certain amount of money. Then she receives a weekly allowance of $5 for 8 weeks. At the end of the 8 weeks, if she has a total of $100, how much money did Bailey start with?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In 8 weeks, Bailey receives $5 * 8 = $<<5*8=40>>40 in allowance\nBailey started with $100 - $40 = $<<100-40=60>>60\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Bailey started with, we first need to calculate the total amount of money she received from her weekly allowance. \n\nShe received $5 per week for 8 weeks. So, the total amount from her allowance is $5 * 8 = $40.\n\n`\nThis amount is added to the initial amount of money she had, and at the end of 8 weeks, she has a total of $100.\n\n`\nTo find the initial amount of money, we subtract the total allowance she received from the total amount she had at the end of 8 weeks. So, the initial amount = Total amount at the end - Total allowance received = $100 - $40 = $60.\n\n#### $60",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much money Bailey started with, we need to calculate the total amount she received from her weekly allowance and subtract that from the total amount she had at the end of the 8 weeks.\n\nBailey received a weekly allowance of $5 for 8 weeks. So, the total amount she received is $5 * 8 = $40.\n\nAt the end of the 8 weeks, she had a total of $100. To find out how much she started with, we subtract the total allowance she received from the total amount she had at the end: $100 - $40 = $60.\n\n#### $60",
+			"retrievals": 2
+		}
+	]
+}

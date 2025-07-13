@@ -1,0 +1,13 @@
+{
+	"task_id": 837,
+	"prompt": "Jada, Rory, and Kora make clay dishes to present as art for their school project. Jada makes twice as many clay dishes as Rory, while Rory makes 20 more clay dishes than Kora. If Kora made 20 dishes, how many clay dishes they all make together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If Kora made 20 clay dishes, Rory made 20 clay dishes + 20 clay dishes = <<20+20=40>>40 clay dishes.\nJada made twice as many clay dishes as Rory, which totals 2 * 40 clay dishes = <<2*40=80>>80 clay dishes.\nThe total number of clay dishes made by the three is 80 from Jada + 40 from Rory + 20 from Kora = <<80+40+20=140>>140 clay dishes\n#### 140",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of clay dishes made by Jada, Rory, and Kora, we first need to determine how many dishes each of them made. We know that Kora made 20 dishes.\n\nRory makes 20 more clay dishes than Kora. Since Kora made 20 dishes, Rory made 20 + 20 = 40 dishes.\n\nJada makes twice as many clay dishes as Rory. Given that Rory made 40 dishes, Jada made 2 * 40 = 80 dishes.\n\nNow, we add up the number of dishes made by each of them to find the total: Kora's 20 dishes + Rory's 40 dishes + Jada's 80 dishes = 20 + 40 + 80 = 140 dishes.\n\n#### 140",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the total number of clay dishes made by Jada, Rory, and Kora, we first need to determine how many dishes each of them made. We know that Kora made 20 dishes. Rory makes 20 more clay dishes than Kora. Since Kora made 20 dishes, Rory made 20 + 20 = 40 dishes. Jada makes twice as many clay dishes as Rory. Given that Rory made 40 dishes, Jada made 2 * 40 = 80 dishes.\n\nNow, we add up the number of dishes made by each of them to find the total: Kora's 20 dishes + Rory's 40 dishes + Jada's 80 dishes = 20 + 40 + 80 = 140 dishes. \n#### 140",
+			"retrievals": 1
+		}
+	]
+}

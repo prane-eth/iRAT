@@ -1,0 +1,13 @@
+{
+	"task_id": 595,
+	"prompt": "A cup of mushrooms weighs 100 grams and has 3 grams of protein.  If John eats 200 grams of mushrooms every day how many grams of protein does he get per week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He eats 200/100=<<200/100=2>>2 cups per day\nSo that means he gets 2*3=<<6=6>>6 grams of protein per day\nSo he gets 6*7=<<6*7=42>>42 grams of protein per week\n#### 42",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many grams of protein John gets per week from eating mushrooms, we first need to determine how much protein he gets per day. \n\nGiven that a cup of mushrooms weighs 100 grams and contains 3 grams of protein, we can calculate the amount of protein per gram of mushrooms. This is done by dividing the amount of protein by the weight of the mushrooms: 3 grams of protein / 100 grams of mushrooms = 0.03 grams of protein per gram of mushrooms.\n\nSince John eats 200 grams of mushrooms every day, we multiply the weight of mushrooms he eats by the protein per gram of mushrooms to find out how much protein he gets per day: 200 grams * 0.03 grams of protein per gram = 6 grams of protein per day.\n\nTo calculate the amount of protein John gets per week, we multiply the daily amount of protein by 7 (the number of days in a week): 6 grams of protein per day * 7 days per week = 42 grams of protein per week.\n\n#### 42",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how many grams of protein John gets from eating mushrooms, we first need to understand the protein content in the mushrooms he consumes. Given that a cup of mushrooms weighs 100 grams and has 3 grams of protein, we can calculate the protein content per gram of mushrooms.\n\nThe protein content per gram of mushrooms can be found by dividing the total protein in a 100-gram serving by the weight of that serving. So, 3 grams of protein divided by 100 grams of mushrooms gives us 0.03 grams of protein per gram of mushrooms.\n\nJohn eats 200 grams of mushrooms every day. To find out how many grams of protein he gets from this daily serving, we multiply the weight of the mushrooms he eats (200 grams) by the protein content per gram of mushrooms (0.03 grams). This calculation is 200 grams * 0.03 grams/protein per gram = 6 grams of protein per day.\n\nTo calculate the total amount of protein John gets from mushrooms per week, we need to multiply his daily protein intake from mushrooms by 7 (the number of days in a week). So, 6 grams of protein per day * 7 days per week = 42 grams of protein per week.\n\n#### 42",
+			"retrievals": 2
+		}
+	]
+}

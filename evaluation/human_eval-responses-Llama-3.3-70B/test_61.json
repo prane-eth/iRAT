@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/60",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\n\ndef sum_to_n(n: int):\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef sum_to_n(n: int):\n    \"\"\"\n    sum_to_n is a function that sums numbers from 1 to n.\n    \n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n    return n * (n + 1) // 2\n\n# Test the function\nprint(sum_to_n(30))  # Output: 465\nprint(sum_to_n(100))  # Output: 5050\nprint(sum_to_n(5))  # Output: 15\nprint(sum_to_n(10))  # Output: 55\nprint(sum_to_n(1))  # Output: 1\n```",
+			"old_rat_retrievals": 5,
+			"final_answer": "def sum_to_n(n: int):\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n    return n * (n + 1) // 2\n\n\n# Test cases\nprint(sum_to_n(30))  # Expected output: 465\nprint(sum_to_n(100))  # Expected output: 5050\nprint(sum_to_n(5))  # Expected output: 15\nprint(sum_to_n(10))  # Expected output: 55\nprint(sum_to_n(1))  # Expected output: 1",
+			"retrievals": 4
+		}
+	]
+}

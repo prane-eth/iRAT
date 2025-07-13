@@ -1,0 +1,13 @@
+{
+	"task_id": 775,
+	"prompt": "Jack decides to visit a museum 150 miles from home.  He drives 75 mph there and back.  He spends 6 hours at the museum.  How long is he gone from home?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He drove a total of 150+150=<<150+150=300>>300 miles\nSo he drove for 300/75=<<300/75=4>>4 hours\nThat means he was gone from home for 4+6=<<4+6=10>>10 hours\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how long Jack is gone from home, we need to calculate the total time he spends on the trip, including driving to the museum, spending time at the museum, and driving back home.\n\n1. Calculate the driving time to the museum:\nDistance to the museum = 150 miles\nSpeed = 75 mph\nDriving time to the museum = Distance / Speed = 150 miles / 75 mph = 2 hours\n\n2. Calculate the driving time back home:\nSince the distance and speed are the same, the driving time back home is also 2 hours.\n\n3. Add the time spent at the museum:\nTime spent at the museum = 6 hours\n\n4. Calculate the total time Jack is gone from home:\nTotal time = Driving time to the museum + Time spent at the museum + Driving time back home\nTotal time = 2 hours + 6 hours + 2 hours = 10 hours\n\n#### 10 hours",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find the total time Jack is gone from home, we need to calculate the time spent driving to the museum, the time spent at the museum, and the time spent driving back home.\n\nFirst, let's calculate the driving time. The distance to the museum is 150 miles, and Jack drives at a speed of 75 mph. To find the driving time, we can use the formula: time = distance / speed. So, the driving time to the museum is 150 miles / 75 mph = 2 hours. Since Jack also drives back home, the total driving time is 2 hours * 2 = 4 hours.\n\nNext, we add the time Jack spends at the museum, which is given as 6 hours. To find the total time Jack is gone from home, we need to add the driving time and the time spent at the museum. So, the total time is 4 hours (driving) + 6 hours (at the museum) = 10 hours.\n\nTherefore, the total time Jack is gone from home is the sum of the driving time and the time spent at the museum.\n\n#### 10",
+			"retrievals": 2
+		}
+	]
+}

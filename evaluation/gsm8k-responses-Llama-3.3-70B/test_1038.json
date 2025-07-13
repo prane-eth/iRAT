@@ -1,0 +1,13 @@
+{
+	"task_id": 1038,
+	"prompt": "The price of Parmesan cheese is $11 per pound. Mozzarella cheese is $6 per pound.  Amor buys 2 pounds of Parmesan and 3 pounds of mozzarella cheese.  Is she starts with $50 cash, how much money, in dollars, will she have left to buy meat?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The cost for buying 2 pounds of parmesan cheese is $11 x 2 = $<<11*2=22>>22.\nThe cost for buying 3 pounds of mozzarella cheese is $6 x 3 = $<<6*3=18>>18.\nThe total amount spent for the 2 kinds of cheese is $22 + $18 = $<<22+18=40>>40.\nSo, Amor still has $50 - $40 = $<<50-40=10>>10 left to buy for meat.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Amor will have left to buy meat, we first need to calculate the total cost of the cheese she bought. The price of Parmesan cheese is $11 per pound, and she bought 2 pounds of it. So, the total cost for Parmesan cheese is 2 * $11 = $22.\n\nThe price of Mozzarella cheese is $6 per pound, and she bought 3 pounds of it. So, the total cost for Mozzarella cheese is 3 * $6 = $18. \n\nTo find the total cost of the cheese, we add the cost of Parmesan and Mozzarella cheese: $22 + $18 = $40.\n\nAmor starts with $50 cash. To find out how much money she will have left after buying the cheese, we subtract the total cost of the cheese from her initial cash: $50 - $40 = $10.\n\n#### $10",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Calculate the cost of Parmesan cheese\nTo find the total cost of Parmesan cheese, we multiply the price per pound by the number of pounds purchased. The price of Parmesan cheese is $11 per pound, and Amor buys 2 pounds. So, the total cost for Parmesan cheese is $11 * 2 = $22.\n\n## Step 2: Calculate the cost of Mozzarella cheese\nNext, we calculate the total cost of Mozzarella cheese by multiplying its price per pound by the number of pounds purchased. Mozzarella cheese costs $6 per pound, and Amor buys 3 pounds. Therefore, the total cost for Mozzarella cheese is $6 * 3 = $18.\n\n## Step 3: Calculate the total cost of cheese\nTo find the total cost of the cheese, we add the cost of Parmesan cheese to the cost of Mozzarella cheese. The total cost is $22 (Parmesan) + $18 (Mozzarella) = $40.\n\n## Step 4: Calculate the remaining balance\nAmor starts with $50 cash. After spending $40 on cheese, we subtract the total cost of cheese from her initial cash to find out how much money she has left. So, $50 - $40 = $10.\n\n#### $10",
+			"retrievals": 1
+		}
+	]
+}

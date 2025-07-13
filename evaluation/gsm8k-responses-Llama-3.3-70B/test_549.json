@@ -1,0 +1,13 @@
+{
+	"task_id": 549,
+	"prompt": "Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.\nAdding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.\nMark's initial weight was 100 pounds.\n#### 100",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Mark's initial weight, we first need to determine how much weight he lost in total during the 3 months he was unwell. \n\nSince Mark lost 10 pounds per month and he was unwell for 3 months, the total weight lost can be calculated by multiplying the weight lost per month by the number of months. So, the total weight lost is 10 pounds/month * 3 months = 30 pounds.\n\nNow, to find Mark's initial weight, we need to add the weight he lost to his final weight. His final weight was 70 pounds, and he lost 30 pounds in total.\n\nTherefore, Mark's initial weight can be calculated as his final weight plus the total weight lost, which is 70 pounds + 30 pounds = 100 pounds.\n\n#### 100 pounds",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the total weight lost by Mark during the 3 months\nTo find the total weight lost, we multiply the weight lost per month by the number of months: 10 pounds/month * 3 months = 30 pounds.\n\n## Step 2: Determine Mark's initial weight by adding the total weight lost to his final weight\nSince Mark lost a total of 30 pounds and his final weight is 70 pounds, we can calculate his initial weight by adding the weight lost to his final weight: initial weight = final weight + total weight lost.\n\n## Step 3: Perform the calculation for Mark's initial weight\ninitial weight = 70 pounds + 30 pounds = 100 pounds.\n\nThe final answer is: #### 100 pounds",
+			"retrievals": 2
+		}
+	]
+}

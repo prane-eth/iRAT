@@ -1,0 +1,13 @@
+{
+	"task_id": 483,
+	"prompt": "Keegan was running a car wash with his friend Tashay to raise money for a baseball camp. They needed to raise $200 for the two of them. By 3 pm, Keegan had earned $83 and Tasha had earned $91. How much more did they need to earn to reach their goal?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "They have raised $174 because 83 plus 91 equals <<83+91=174>>174.\nThey need to raise $26 more because 200 minus 174 equals 26.\n#### 26",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much more Keegan and Tashay needed to earn to reach their goal, we first need to determine the total amount they had earned by 3 pm. \n\nKeegan had earned $83 and Tashay had earned $91. The total amount earned is the sum of their earnings, which is $83 + $91 = $174.\n\nTheir goal was to raise $200 for the baseball camp. \n\nTo find out how much more they needed to earn, we subtract the total amount they had earned from their goal. So, $200 - $174 = $26.\n\n#### $26",
+			"old_rat_retrievals": 4,
+			"final_answer": "To determine how much more Keegan and Tashay need to earn to reach their goal, we first need to calculate the total amount they had earned by 3 pm. This is done by adding Keegan's earnings to Tashay's earnings, which gives us $83 + $91 = $174.\n\nTheir goal is to raise $200 for the baseball camp. To find out how much more they need to earn, we subtract the total amount they had earned from their goal. So, $200 - $174 = $26. This calculation shows that they need to earn $26 more to reach their goal.\n\n#### $26",
+			"retrievals": 1
+		}
+	]
+}

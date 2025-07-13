@@ -1,0 +1,13 @@
+{
+	"task_id": 387,
+	"prompt": "To have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He received 65, 94, 81, 86 and a 74 on his 5 math tests so that's 65+94+81+86+74 = <<400=400>>400\nHis math grade is calculated by the average test grade on his 5 tests so his math grade is 400/5 = <<400/5=80>>80\n#### 80",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate Wilson's current math grade, we need to find the average of his 5 test scores. \n\nThe formula to calculate the average is: (sum of all scores) / (number of scores). We will add up all of Wilson's test scores and then divide by the number of tests, which is 5.\n\nWilson's test scores are: 65, 94, 81, 86, and 74. \n\nWe will add these scores together: 65 + 94 = 159, 159 + 81 = 240, 240 + 86 = 326, 326 + 74 = 400.\n\nNow, we will divide the sum of the scores by the number of tests: 400 / 5 = 80.\n\n#### 80",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Calculate the sum of all test scores\nTo find Wilson's current math grade, we first need to calculate the sum of all his test scores. The scores given are 65, 94, 81, 86, and 74.\n\n## Step 2: Add the test scores together\n65 + 94 = 159, 159 + 81 = 240, 240 + 86 = 326, 326 + 74 = 400. So, the sum of all test scores is 400.\n\n## Step 3: Calculate the average of the test scores\nThe average is calculated by dividing the sum of the test scores by the total number of tests. Since there are 5 tests, we divide the sum of the scores, 400, by 5.\n\n## Step 4: Determine Wilson's current math grade\nBy performing the division, 400 / 5 = 80, we find that Wilson's current math grade is 80.\n\n#### 80",
+			"retrievals": 1
+		}
+	]
+}

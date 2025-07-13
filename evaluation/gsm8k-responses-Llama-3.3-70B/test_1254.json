@@ -1,0 +1,13 @@
+{
+	"task_id": 1254,
+	"prompt": "Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spends 6*60=<<6*60=360>>360 minutes dealing with calls\nSo he deals with 360/15=<<360/15=24>>24 calls a day\nSo he deals with 5*24=<<5*24=120>>120 calls a week\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the number of calls Tim deals with during his 5-day work week, we first need to calculate the total number of hours he works in a week. Since he works 6 hours a day, we multiply the hours worked per day by the number of days worked in a week: 6 hours/day * 5 days/week = 30 hours/week.\n\nNext, we convert the total hours worked in a week into minutes because it takes him 15 minutes to deal with a call. Since there are 60 minutes in an hour, we multiply the total hours worked in a week by 60: 30 hours/week * 60 minutes/hour = 1800 minutes/week.\n\nNow that we know Tim works 1800 minutes in a week and it takes him 15 minutes to deal with a call, we divide the total minutes worked in a week by the time it takes to deal with one call: 1800 minutes/week / 15 minutes/call = 120 calls/week.\n\n#### 120",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how many calls Tim deals with during his 5-day work week, we first need to calculate the total number of minutes he spends at work in a day. Since Tim spends 6 hours each day at work, and there are 60 minutes in an hour, the total number of minutes he spends at work in a day is 6 * 60 = 360 minutes.\n\nNext, we calculate the total number of minutes Tim spends at work in a 5-day work week. This can be found by multiplying the total number of minutes he spends at work in a day by the number of days in his work week. So, 360 minutes/day * 5 days = 1800 minutes.\n\nSince it takes Tim 15 minutes to deal with a call, we can find out how many calls he deals with during his 5-day work week by dividing the total number of minutes he spends at work in a 5-day work week by the time it takes to deal with one call. Therefore, the number of calls = 1800 minutes / 15 minutes/call = 120 calls.\n\n#### 120",
+			"retrievals": 2
+		}
+	]
+}

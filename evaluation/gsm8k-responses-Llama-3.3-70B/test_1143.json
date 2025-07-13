@@ -1,0 +1,13 @@
+{
+	"task_id": 1143,
+	"prompt": "Jess is trying to guess the number of blue jellybeans in a jar. She can see that there are 17 green jelly beans and twice as many red jelly beans. The rest of the jellybeans are blue jelly beans. If there are a total of 60 jelly beans in total, how many blue jellybeans are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 17 green jelly beans * 2 = <<17*2=34>>34 red jelly beans.\nSo in the green and red jelly beans, there are a total of 17 + 34 = <<17+34=51>>51 jellybeans.\nAs the rest are blue, there must be 60 total jellybeans \u2013 51 red and green jelly beans = <<60-51=9>>9 blue jelly beans.\n#### 9",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of blue jellybeans, we first need to determine the total number of green and red jellybeans. We know that there are 17 green jellybeans. \n\nSince there are twice as many red jellybeans as green jellybeans, we can calculate the number of red jellybeans by multiplying the number of green jellybeans by 2. So, the number of red jellybeans = 17 * 2 = 34.\n\n`\nNow that we know the number of green and red jellybeans, we can find the total number of non-blue jellybeans by adding the number of green and red jellybeans. Total non-blue jellybeans = 17 (green) + 34 (red) = 51.\n\n`\nWe are given that there are a total of 60 jellybeans in the jar. To find the number of blue jellybeans, we subtract the total number of non-blue jellybeans from the total number of jellybeans. Number of blue jellybeans = Total jellybeans - Total non-blue jellybeans = 60 - 51 = 9.\n\n#### 9",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the number of blue jellybeans, we need to follow a few steps. \n\n## Step 1: Identify the total number of jelly beans and the number of green jelly beans.\nThe total number of jelly beans is 60, and there are 17 green jelly beans.\n\n## Step 2: Determine the number of red jelly beans.\nIt is given that there are twice as many red jelly beans as green jelly beans. So, the number of red jelly beans is 2 * 17 = 34.\n\n## Step 3: Calculate the number of blue jelly beans.\nThe number of blue jelly beans can be found by subtracting the total number of green and red jelly beans from the total number of jelly beans. So, the number of blue jelly beans is 60 - (17 + 34) = 60 - 51 = 9.\n\n## Step 4: Verify the calculation.\nThe calculation seems correct, as we have accounted for all the jelly beans. The total number of green and red jelly beans is 17 + 34 = 51, and subtracting this from the total number of jelly beans gives us the number of blue jelly beans.\n\n#### 9",
+			"retrievals": 3
+		}
+	]
+}

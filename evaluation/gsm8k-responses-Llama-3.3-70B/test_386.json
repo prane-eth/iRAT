@@ -1,0 +1,13 @@
+{
+	"task_id": 386,
+	"prompt": "Lisa is part of a choir that has 52 members, 50% of which are boys and 50% of which are girls.  The choir decides to perform with just its female members.  On the day of the performance, however, half the people performing can't make it to the show because their bus breaks down.  The choir's 3 teachers then decide to sing with them. How many people sang in the performance?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The 50 person choir is 50% female, so if the performance is just women there will be 52/2=26 people performing.\nIf half of those people can't make it to the performance, then there will be 26/2= <<26/2=13>>13 people performing.\nWhen the 3 teachers decide to participate, the performance now has 13+3=<<13+3=16>>16 people singing.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nFirst, we need to calculate the number of female members in the choir. Since there are 52 members and 50% of them are girls, we can calculate the number of girls as follows: 52 * 0.5 = 26.\n\nNext, we consider the situation where half of the female members cannot make it to the show due to the bus breakdown. This means that only half of the 26 female members will be able to perform. So, the number of female members performing is: 26 * 0.5 = 13.\n\nThen, the choir's 3 teachers decide to sing with the female members. To find the total number of people singing in the performance, we add the number of female members performing to the number of teachers: 13 + 3 = 16.\n\n#### 16",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of people who sang in the performance, we need to follow these steps:\n\nFirst, calculate the number of female members in the choir. Since there are 52 members and 50% of them are girls, we multiply 52 by 0.5 to get 26 female members.\n\nNext, consider the situation where half of the female members cannot make it to the show due to the bus breakdown. We calculate the number of female members performing as follows: 26 * 0.5 = 13.\n\nThen, the choir's 3 teachers decide to sing with the female members. To find the total number of people singing in the performance, we add the number of female members performing to the number of teachers: 13 + 3 = 16.\n\nTherefore, the total number of people who sang in the performance is 16.\n\n#### 16",
+			"retrievals": 2
+		}
+	]
+}

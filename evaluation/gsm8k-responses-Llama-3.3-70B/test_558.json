@@ -1,0 +1,13 @@
+{
+	"task_id": 558,
+	"prompt": "A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There were 21 - 7 = <<21-7=14>>14 buttons with four holes.\nThe four-holed buttons had 14 * 4 = <<14*4=56>>56 holes.\nThe two-holed buttons had 7 * 2 = <<7*2=14>>14 holes.\nThus, there were 56 + 14 = <<56+14=70>>70 holes in all the buttons in the bag.\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of holes in the buttons, we first need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total number of holes in all the buttons, we first need to calculate the number of buttons with two holes and the number of buttons with four holes. We are given that there are 21 buttons in total and that 7 of them have two holes. This means the rest, which is 21 - 7 = 14 buttons, have four holes.\n\nNext, we calculate the total number of holes in the buttons with two holes by multiplying the number of buttons with two holes by the number of holes in each button. So, 7 buttons * 2 holes = 14 holes.\n\nThen, we calculate the total number of holes in the buttons with four holes by multiplying the number of buttons with four holes by the number of holes in each button. Thus, 14 buttons * 4 holes = 56 holes.\n\nFinally, we add the total number of holes from the buttons with two holes and the buttons with four holes to find the total number of holes in all the buttons. So, 14 holes + 56 holes = 70 holes.\n\n#### 70",
+			"retrievals": 1
+		}
+	]
+}

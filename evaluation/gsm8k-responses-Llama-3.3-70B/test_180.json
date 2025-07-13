@@ -1,0 +1,13 @@
+{
+	"task_id": 180,
+	"prompt": "Lloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Lloyd tutored 5 + 8 = <<5+8=13>>13 hours for the first two weeks.\nTherefore, he earned 13 x $10 = $<<13*10=130>>130 for the first two weeks.\n#### 130",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much Lloyd earned for the first two weeks, we need to calculate the total hours he tutored and then multiply that by his hourly wage.\n\nIn the first week, Lloyd tutored for 5 hours. In the second week, he tutored for 8 hours. So, the total hours he tutored in the first two weeks is 5 + 8 = 13 hours.\n\nSince Lloyd earns $10 an hour, we multiply the total hours tutored by his hourly wage: 13 hours * $10/hour = $130.\n\nTherefore, Lloyd earned $130 for the first two weeks.\n\n#### $130",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much Lloyd earned for the first two weeks, we need to calculate his earnings for each week and then add them together. \n\nLloyd earns $10 an hour. For the first week, he tutored for 5 hours. So, his earnings for the first week are $10 * 5 = $50.\n\nFor the second week, he tutored for 8 hours. So, his earnings for the second week are $10 * 8 = $80.\n\nTo find his total earnings for the first two weeks, we add his earnings from the first week to his earnings from the second week: $50 + $80 = $130.\n\n#### $130",
+			"retrievals": 1
+		}
+	]
+}

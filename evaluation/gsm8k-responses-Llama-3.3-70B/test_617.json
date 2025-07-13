@@ -1,0 +1,13 @@
+{
+	"task_id": 617,
+	"prompt": "Jane planted a beanstalk in her backyard. After the first week, it was 3 inches tall. It doubled in height the second week. It grew another 4 inches in the third week. How tall was the beanstalk after 3 weeks?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "It was 3 inches tall after the first week.\nAfter the second week, it was 2 * 3 inches = <<2*3=6>>6 inches tall.\nAfter the third week, it was 6 inches + 4 inches = <<6+4=10>>10 inches tall.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the height of the beanstalk after 3 weeks, we need to calculate its height at the end of each week. \nThe beanstalk was 3 inches tall after the first week.\n\n`\nIt doubled in height during the second week, so we need to multiply the initial height by 2 to find the height at the end of the second week. \nHeight after the second week = 3 * 2 = 6 inches.\n\n`\nIn the third week, it grew another 4 inches. \nTo find the total height after the third week, we add the growth in the third week to the height at the end of the second week. \nHeight after the third week = 6 + 4 = 10 inches.\n\n#### 10 inches",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the height of the beanstalk after 3 weeks, we need to calculate its height at the end of each week. \nThe beanstalk was 3 inches tall after the first week. \nIt doubled in height during the second week, so we need to multiply the initial height by 2 to find the height at the end of the second week. \nHeight after the second week = 3 * 2 = 6 inches.\n\nIn the third week, it grew another 4 inches. \nTo find the total height after the third week, we add the growth in the third week to the height at the end of the second week. \nHeight after the third week = 6 + 4 = 10 inches. \n#### 10 inches",
+			"retrievals": 1
+		}
+	]
+}

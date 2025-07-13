@@ -1,0 +1,19 @@
+{
+	"task_id": 160,
+	"prompt": "Write a python function to check whether an array contains only one distinct element or not.?assert unique_Element([1,1,1],3) == 'YES'",
+	"test_imports": [],
+	"test_list": [
+		"assert unique_Element([1,1,1],3) == 'YES'",
+		"assert unique_Element([1,2,1,2],4) == 'NO'",
+		"assert unique_Element([1,2,3,4,5],5) == 'NO'"
+	],
+	"mbpp_code": "def unique_Element(arr,n):\r\n    s = set(arr)\r\n    if (len(s) == 1):\r\n        return ('YES')\r\n    else:\r\n        return ('NO')",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef unique_Element(arr, n):\n    if len(set(arr)) == 1:\n        return 'YES'\n    else:\n        return 'NO'\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Solution Approach\nTo solve this problem, we can create a Python function that takes an array and its length as input, and checks if all elements in the array are the same.\n\n## Implementation\nWe will use a simple iterative approach to compare each element in the array. If we find any element that is different from the first element, we immediately return 'NO'. If we finish checking all elements without finding any differences, we return 'YES'.\n\n## Code\n```python\ndef unique_Element(arr, n):\n    \"\"\"\n    Checks whether an array contains only one distinct element or not.\n\n    Args:\n        arr (list): The input array.\n        n (int): The length of the array.\n\n    Returns:\n        str: 'YES' if the array contains only one distinct element, 'NO' otherwise.\n    \"\"\"\n    # Check if all elements in the array are the same\n    if len(set(arr)) == 1:\n        return 'YES'\n    else:\n        return 'NO'\n\n# Example usage:\nprint(unique_Element([1,1,1], 3))  # Output: 'YES'\nprint(unique_Element([1,2,1], 3))  # Output: 'NO'\n\n# Test the function\nassert unique_Element([1,1,1], 3) == 'YES'\n```\n\n## Explanation\nThis function works by converting the input array to a set, which automatically removes any duplicate elements. If the length of the set is 1, it means all elements in the array were the same, so the function returns 'YES'. Otherwise, it returns 'NO'. The time complexity of this function is O(n), where n is the length of the array, because creating a set from a list takes linear time. The space complexity is also O(n), because in the worst case, the set will contain all elements from the array.",
+			"retrievals": 1
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 339,
+	"prompt": "A class of 200 students is split into 3 groups such that 2 of them are equal in number and the last one (which is the smallest) is 10 less than each of the other groups. How many students are in this (smallest) group?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "If 10 is added to the smallest group (hence to the total number of students), it would make all 3 groups equal to give (200+10)/3 = <<(200+10)/3=70>>70 in each group.\nNow taking the 10 away from one group gives the number of the smallest group as 70-10 = <<70-10=60>>60 students.\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nLet's denote the number of students in the two equal groups as x. Since the smallest group is 10 less than each of the other groups, the number of students in the smallest group is x - 10.\n\nThe total number of students in the class is 200. Since the class is split into 3 groups, the sum of the number of students in each group is equal to 200. We can write the equation: x + x + (x - 10) = 200.\n\nCombining like terms, we get: 3x - 10 = 200. Adding 10 to both sides of the equation, we get: 3x = 210. Dividing both sides by 3, we get: x = 70.\n\nNow that we know x, we can find the number of students in the smallest group. The smallest group has x - 10 students, which is 70 - 10 = 60.\n\n#### 60",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the number of students in the smallest group, let's denote the number of students in the two equal groups as x. Since the smallest group is 10 less than each of the other groups, the number of students in the smallest group is x - 10. The total number of students in the class is 200. Since the class is split into 3 groups, the sum of the number of students in each group is equal to 200. We can write the equation: x + x + (x - 10) = 200.\n\nCombining like terms, we get: 3x - 10 = 200. Adding 10 to both sides of the equation, we get: 3x = 210. Dividing both sides by 3, we get: x = 70. Now that we know x, we can find the number of students in the smallest group. The smallest group has x - 10 students, which is 70 - 10 = 60.\n\n#### 60",
+			"retrievals": 4
+		}
+	]
+}

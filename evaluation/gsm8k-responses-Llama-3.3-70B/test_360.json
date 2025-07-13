@@ -1,0 +1,13 @@
+{
+	"task_id": 360,
+	"prompt": "Billy is buying some candy with $10 his father gave him. The candy costs $1.5 a pound. After buying candy, he takes half his change and spends it on gumballs, which cost $.05 each. If he bought 40 gumballs, how many pounds of candy did he buy?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He spent $2 on gumballs because 40 x .05 = <<40*.05=2>>2\nHe had $4 in change because 2 / .5 = <<2/.5=4>>4\nHe spent $6 on candy because 10 - 4 = <<10-4=6>>6\nHe bought 4 pounds of candy because 6 / 1.5 = <<6/1.5=4>>4\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many pounds of candy Billy bought, we first need to determine how much money he spent on gumballs. Since each gumball costs $0.05 and he bought 40 gumballs, the total amount spent on gumballs can be calculated as 40 gumballs * $0.05/gumball = $2.\n\nThis $2 is half of his change after buying the candy. Therefore, his total change after buying candy must be $2 * 2 = $4. \n\nSince Billy started with $10 and had $4 left after buying candy, the amount he spent on candy is $10 - $4 = $6.\n\nGiven that the candy costs $1.5 per pound, we can find out how many pounds of candy he bought by dividing the total amount spent on candy by the cost per pound: $6 / $1.5 per pound.\n\n#### 4",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the amount spent on gumballs\nFirst, we need to find out how much Billy spent on gumballs. Since each gumball costs $0.05 and he bought 40 gumballs, the total amount spent on gumballs can be calculated as 40 * $0.05 = $2.\n\n## Step 2: Determine the total change after buying candy\nSince Billy spent half of his change on gumballs, and he spent $2 on gumballs, this means half of his change was $2. Therefore, his total change after buying candy must have been $2 * 2 = $4.\n\n## Step 3: Calculate the amount spent on candy\nTo find out how much he spent on candy, we subtract the change from the initial $10. So, $10 - $4 = $6 was spent on candy.\n\n## Step 4: Calculate the pounds of candy bought\nGiven that the candy costs $1.5 per pound, we can calculate the number of pounds of candy Billy bought by dividing the amount spent on candy by the cost per pound. Therefore, $6 / $1.5 = 4 pounds of candy.\n\n#### 4",
+			"retrievals": 2
+		}
+	]
+}

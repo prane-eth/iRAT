@@ -1,0 +1,13 @@
+{
+	"task_id": 505,
+	"prompt": "Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.\nThus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.\nTherefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many dollars each pack of strawberry gum cost, we first need to calculate the total amount Suzie spent on the grape and green apple gum. \n\nShe paid $2 for a pack of grape gum. For the green apple gum, she paid half as much as the grape gum, which is $2 / 2 = $1.\n\n`\nThe total amount spent on grape and green apple gum is $2 (grape) + $1 (green apple) = $3.\n\n`\nNow, we subtract this amount from the total amount she paid, which is $7, to find out how much she spent on the strawberry gum. $7 (total) - $3 (grape and green apple) = $4. Since she bought two packs of strawberry gum, we divide the $4 by 2 to find the cost of each pack.\n\n`\n$4 / 2 = $2. \n\n#### $2",
+			"old_rat_retrievals": 6,
+			"final_answer": "To find the cost of each pack of strawberry gum, we first need to determine the total amount spent on the grape and green apple gum. Suzie paid $2 for the pack of grape gum. The green apple gum cost half as much as the grape gum, so it was $2 / 2 = $1.\n\nThe total spent on the non-strawberry gum (grape and green apple) is $2 (for the grape gum) + $1 (for the green apple gum) = $3. Since Suzie paid $7 in total for all four packs of gum, the amount spent on the strawberry gum is $7 (total) - $3 (non-strawberry gum) = $4.\n\nGiven that Suzie bought two packs of strawberry gum, to find the cost of each pack, we divide the total cost of the strawberry gum by the number of packs: $4 / 2 = $2.\n\n#### $2",
+			"retrievals": 2
+		}
+	]
+}

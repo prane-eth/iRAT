@@ -1,0 +1,13 @@
+{
+	"task_id": 945,
+	"prompt": "Jen is planning to sell her root crops. She has 6 yams which can be sold at $1.5 each, 10 sweet potatoes that cost $2 each, and 4 carrots which cost $1.25 each. If she sells everything, how much will she earn?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jen can earn $1.5 x 6 = $<<1.5*6=9>>9 for the yams.\nShe can earn $2 x 10 = $<<2*10=20>>20 for the sweet potatoes.\nAnd she can earn $1.25 x 4 = $<<1.25*4=5>>5 for the carrots.\nTherefore, she will earn $9 + $20 + $5 = $<<9+20+5=34>>34 if she sells everything.\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total earnings from selling the root crops, we first need to find out how much Jen will earn from each type of crop. \n\nShe has 6 yams that can be sold at $1.5 each. So, the total earnings from yams will be 6 * $1.5 = $9.\n\nShe also has 10 sweet potatoes that cost $2 each. Therefore, the total earnings from sweet potatoes will be 10 * $2 = $20.\n\nAdditionally, Jen has 4 carrots which cost $1.25 each. The total earnings from carrots will be 4 * $1.25 = $5.\n\nNow, we need to add up the earnings from all the crops to find the total amount Jen will earn. \n\nThe total earnings will be $9 (from yams) + $20 (from sweet potatoes) + $5 (from carrots) = $9 + $20 + $5 = $34.\n\n#### $34",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the total earnings from selling the root crops, we need to calculate the earnings from each type of crop and then add them together.\n\nFirst, let's calculate the earnings from the yams. Jen has 6 yams and each yam can be sold for $1.5. So, the total earnings from yams will be 6 * $1.5 = $9.\n\nNext, let's calculate the earnings from the sweet potatoes. Jen has 10 sweet potatoes and each sweet potato can be sold for $2. So, the total earnings from sweet potatoes will be 10 * $2 = $20.\n\nFinally, let's calculate the earnings from the carrots. Jen has 4 carrots and each carrot can be sold for $1.25. So, the total earnings from carrots will be 4 * $1.25 = $5.\n\nNow, let's add the earnings from each type of crop to get the total earnings. Total earnings = $9 (yams) + $20 (sweet potatoes) + $5 (carrots) = $34.\n\n#### $34",
+			"retrievals": 2
+		}
+	]
+}

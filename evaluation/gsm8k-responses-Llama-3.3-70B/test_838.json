@@ -1,0 +1,13 @@
+{
+	"task_id": 838,
+	"prompt": "Erika is saving for a new laptop. The laptop she wants costs $600. The sales assistant told her that if she traded in her old laptop, the price of the new one would be reduced by $200. She thinks this is a good deal and agrees to do it. She already has some savings in her purse, and has also been paid $150 this week for her part-time job. Her mom agrees to give her $80 to help her. If Erika now only needs an extra $50 to buy the laptop, how much money does she have in her purse?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Selling the old laptop reduced the cost of the new laptop to $600 \u2013 $200 = $<<600-200=400>>400 dollars.\nWe know she doesn't have all the money yet, so she actually has $400 \u2013 $50 = $<<400-50=350>>350 dollars.\nSome of this money came from her mom, so the money she had herself was $350 \u2013 $80 = $<<350-80=270>>270.\nSubtracting her part-time wages shows that she had $270 \u2013 $150 = $<<270-150=120>>120 in her purse.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Erika has in her purse, we first need to calculate the total amount of money she needs to buy the laptop after the trade-in. The laptop originally costs $600, but with the trade-in, the price is reduced by $200. So, the price Erika needs to pay is $600 - $200 = $400.\n\nAfter determining the price Erika needs to pay, we then calculate how much money she has from other sources. She has been paid $150 for her part-time job and her mom is giving her $80. So, from these sources, she has $150 + $80 = $230.\n\nWe are told that Erika now only needs an extra $50 to buy the laptop, which means she already has $400 - $50 = $350. This $350 includes the money she has in her purse, the $150 she was paid, and the $80 her mom is giving her. \n\nTo find out how much money Erika has in her purse, we subtract the money she got from her job and her mom from the $350. So, $350 - $230 = $120.\n\n#### $120",
+			"old_rat_retrievals": 2,
+			"final_answer": "To solve this problem, let's break it down into steps.\n\n## Step",
+			"retrievals": 1
+		}
+	]
+}

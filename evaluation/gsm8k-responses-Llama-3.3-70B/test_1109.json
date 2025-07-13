@@ -1,0 +1,13 @@
+{
+	"task_id": 1109,
+	"prompt": "My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total cost of the pots and a sack of garden soil is $19 + $26 = $<<19+26=45>>45.\nSo, my mom spent $45 - $7 = $<<45-7=38>>38 at the gardening store.\n#### 38",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money my mom spent at the gardening shop, we first need to calculate the total cost of the items she bought. The set of pots cost $19 and the sack of garden soil cost $26.\n\nThe total cost of these items can be found by adding their prices together: $19 (pots) + $26 (garden soil) = $45. \n\nNext, we need to account for the coupon she used. The coupon was for $7 off, so we subtract this amount from the total cost of the items: $45 (total cost) - $7 (coupon) = $38.\n\n#### $38",
+			"old_rat_retrievals": 2,
+			"final_answer": "## Step 1: Calculate the Total Cost Before Discount\nTo find the total amount spent, first, we need to calculate the total cost of the items before applying the discount. The set of pots costs $19, and the sack of garden soil costs $26.\n\n## Step 2: Add the Costs of the Items\nAdding these two costs together gives us $19 + $26 = $45.\n\n## Step 3: Apply the Discount\nThen, we apply the $7 discount to this total. So, $45 - $7 = $38.\n\n## Step 4: Determine the Final Amount Spent\nThis calculation gives us the total amount spent at the gardening shop after applying the discount.\n\n#### $38",
+			"retrievals": 1
+		}
+	]
+}

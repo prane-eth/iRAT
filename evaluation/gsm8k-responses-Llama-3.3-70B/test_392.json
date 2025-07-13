@@ -1,0 +1,13 @@
+{
+	"task_id": 392,
+	"prompt": "The ratio of popsicles that Betty and Sam have is 5:6. If the total number of popsicles they have together is 165, how many more popsicles does Sam have more than Betty?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total ratio representing the number of popsicles that Betty and sam have is 5+6 = <<5+6=11>>11.\nSince Betty has 5/11 of the total number of popsicles they have together, she has 5/11*165 = <<5/11*165=75>>75 popsicles.\nSam has 165-75 = <<165-75=90>>90 popsicles.\nSam has 90-75 = <<90-75=15>>15 more popsicles than Betty.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many more popsicles Sam has than Betty, we first need",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem describes the ratio of popsicles that Betty and Sam have as 5:6. This means that for every 5 popsicles Betty has, Sam has 6 popsicles.\n\n## Step 2: Setting Up the Equation\nLet's denote the number of popsicles Betty has as 5x and the number of popsicles Sam has as 6x, where x is a common multiplier for the ratio. The total number of popsicles they have together is given as 165. So, we can set up the equation 5x + 6x = 165 to find the value of x.\n\n## Step 3: Solving the Equation\nCombining like terms in the equation 5x + 6x = 165 gives us 11x = 165. To solve for x, we divide both sides of the equation by 11, resulting in x = 165 / 11 = 15.\n\n## Step 4: Finding the Number of Popsicles Each Person Has\nNow that we know x = 15, we can find the number of popsicles Betty and Sam each have. Betty has 5x = 5 * 15 = 75 popsicles, and Sam has 6x = 6 * 15 = 90 popsicles.\n\n## Step 5: Calculating the Difference\nTo find out how many more popsicles Sam has than Betty, we subtract the number of popsicles Betty has from the number Sam has: 90 - 75 = 15.\n\nThe final answer is: #### 15",
+			"retrievals": 1
+		}
+	]
+}

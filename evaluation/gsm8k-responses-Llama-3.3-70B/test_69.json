@@ -1,0 +1,13 @@
+{
+	"task_id": 69,
+	"prompt": "There are twice as many boys as girls at Dr. Wertz's school. If there are 60 girls and 5 students to every teacher, how many teachers are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are twice as many boys as girls, so if there are 60 girls, there are 2*60 = <<2*60=120>>120 boys\nThere are 120 + 60 = <<120+60=180>>180 students in total\nIf there are 5 students to each teacher, then 180 students would need 180/5 = <<180/5=36>>36 teachers\n#### 36",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many teachers are there, we first need to determine the total number of students at Dr. Wertz's school. We know that there are twice as many boys as girls. Given that there are 60 girls, we can calculate the number of boys by multiplying the number of girls by 2.\n\nThe number of boys = 2 * number of girls = 2 * 60 = 120 boys.\n\nNow, we can find the total number of students by adding the number of boys and girls together. total_students = number of boys + number of girls = 120 + 60 = 180 students.\n\nSince there are 5 students to every teacher, we can find the number of teachers by dividing the total number of students by 5.\n\nNumber of teachers = total_students / 5 = 180 / 5 = 36.\n\n#### 36",
+			"old_rat_retrievals": 6,
+			"final_answer": "## Step 1: Determine the Number of Boys\nTo find out how many teachers are there, we first need to determine the total number of students at Dr. Wertz's school. We know that there are twice as many boys as girls. Given that there are 60 girls, we can calculate the number of boys by multiplying the number of girls by 2. The number of boys = 2 * number of girls = 2 * 60 = 120 boys.\n\n## Step 2: Calculate the Total Number of Students\nNow, we can find the total number of students by adding the number of boys and girls together. total_students = number of boys + number of girls = 120 + 60 = 180 students.\n\n## Step 3: Find the Number of Teachers\nSince there are 5 students to every teacher, we can find the number of teachers by dividing the total number of students by 5. Number of teachers = total_students / 5 = 180 / 5 = 36.\n\n#### 36",
+			"retrievals": 2
+		}
+	]
+}

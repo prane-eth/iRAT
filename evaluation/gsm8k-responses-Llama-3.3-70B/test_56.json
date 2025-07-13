@@ -1,0 +1,13 @@
+{
+	"task_id": 56,
+	"prompt": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jean has 30 - 2 = <<30-2=28>>28 lollipops\nJean can fill up 28 / 2 = <<28/2=14>>14 bags with lollipops\n#### 14",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many bags Jean can fill, we first need to determine how many lollipops Jean has left after eating 2 of them. \n\n1. Jean starts with 30 lollipops.\n2. Jean eats 2 lollipops, leaving 30 - 2 = 28 lollipops.\n3. Jean wants to put 2 lollipops in each bag.\n\nTo find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag: 28 / 2 = 14.\n\n#### 14",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Calculate the remaining lollipops after Jean eats 2\nJean starts with 30 lollipops and eats 2, so we subtract 2 from 30. The calculation for the remaining lollipops after Jean eats 2 is: 30 - 2 = 28 lollipops.\n\n## Step 2: Determine the number of bags Jean can fill with the remaining lollipops\nSince Jean wants to package 2 lollipops in one bag, we need to divide the total number of remaining lollipops by 2 to find out how many bags Jean can fill. The calculation is: 28 / 2 = 14 bags.\n\n## Step 3: Verify the answer\nBased on the calculation, Jean can fill 14 bags with the remaining lollipops.\n\n#### 14",
+			"retrievals": 2
+		}
+	]
+}

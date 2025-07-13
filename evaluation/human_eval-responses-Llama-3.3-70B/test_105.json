@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/104",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef unique_digits(x):\n    \"\"\"Given a list of positive integers x. return a sorted list of all \n    elements that hasn't any even digit.\n\n    Note: Returned list should be sorted in increasing order.\n    \n    For example:\n    >>> unique_digits([15, 33, 1422, 1])\n    [1, 15, 33]\n    >>> unique_digits([152, 323, 1422, 10])\n    []\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef unique_digits(x):\n    \"\"\"\n    Given a list of positive integers x. return a sorted list of all \n    elements that hasn't any even digit.\n\n    Note: Returned list should be sorted in increasing order.\n    \n    For example:\n    >>> unique_digits([15, 33, 1422, 1])\n    [1, 15, 33]\n    >>> unique_digits([152, 323, 1422, 10])\n    []\n    \"\"\"\n    def has_even_digit(n):\n        \"\"\"Check if a number has any even digit.\"\"\"\n        return any(int(digit) % 2 == 0 for digit in str(n))\n\n    # Filter out numbers with even digits and sort the result\n    result = [num for num in x if not has_even_digit(num)]\n    return sorted(result)\n\n# Test cases\nprint(unique_digits([15, 33, 1422, 1]))  # [1, 15, 33]\nprint(unique_digits([152, 323, 1422, 10]))  # []\n```",
+			"old_rat_retrievals": 7,
+			"final_answer": "```python\ndef unique_digits(x):\n    \"\"\"Given a list of positive integers x. return a sorted list of all \n    elements that hasn't any even digit.\n\n    Note: Returned list should be sorted in increasing order.\n    \n    For example:\n    >>> unique_digits([15, 33, 1422, 1])\n    [1, 15, 33]\n    >>> unique_digits([152, 323, 1422, 10])\n    []\n    \"\"\"\n    result = []\n    for num in x:\n        has_even_digit = False\n        for digit in str(num):\n            if int(digit) % 2 == 0:\n                has_even_digit = True\n                break\n        if not has_even_digit:\n            result.append(num)\n    return sorted(result)\n\n# Test the function\nprint(unique_digits([15, 33, 1422, 1]))  # [1, 15, 33]\nprint(unique_digits([152, 323, 1422, 10]))  # []\n```",
+			"retrievals": 7
+		}
+	]
+}

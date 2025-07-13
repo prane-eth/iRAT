@@ -1,0 +1,19 @@
+{
+	"task_id": 28,
+	"prompt": "Write a function to replace all spaces in the given string with character * list item * list item * list item * list item '%20'.?assert replace_spaces(\"My Name is Dawood\") == 'My%20Name%20is%20Dawood'",
+	"test_imports": [],
+	"test_list": [
+		"assert replace_spaces(\"My Name is Dawood\") == 'My%20Name%20is%20Dawood'",
+		"assert replace_spaces(\"I am a Programmer\") == 'I%20am%20a%20Programmer'",
+		"assert replace_spaces(\"I love Coding\") == 'I%20love%20Coding'"
+	],
+	"mbpp_code": "MAX=1000;\r\ndef replace_spaces(string):\r\n  string=string.strip()\r\n  i=len(string)\r\n  space_count=string.count(' ')\r\n  new_length = i + space_count*2\r\n  if new_length > MAX:\r\n    return -1\r\n  index = new_length-1\r\n  string=list(string)\r\n  for f in range(i-2, new_length-2):\r\n    string.append('0')\r\n  for j in range(i-1, 0, -1):\r\n    if string[j] == ' ':\r\n      string[index] = '0'\r\n      string[index-1] = '2'\r\n      string[index-2] = '%'\r\n      index=index-3\r\n    else:\r\n      string[index] = string[j]\r\n      index -= 1\r\n  return ''.join(string)",
+	"responses": [
+		{
+			"old_rat_answer": "## Step 1: Define the function to replace spaces with '%20'\nThe function should take a string as input and return the modified string with all spaces replaced.\n\n## Step 2: Use the replace method of the string class\nThe replace method in Python replaces all occurrences of a substring with another substring. In this case, we want to replace all spaces (' ') with '%20'.\n\n## Step 3: Implement the function\n```python\ndef replace_spaces(s):\n    \"\"\"\n    Replaces all spaces in the given string with '%20'.\n    \n    Args:\n        s (str): The input string.\n    \n    Returns:\n        str: The modified string with all spaces replaced.\n    \"\"\"\n    return s.replace(' ', '%20')\n```\n\n## Step 4: Test the function\nWe can test the function with the provided assertion to ensure it works correctly.\n```python\nassert replace_spaces(\"My Name is Dawood\") == 'My%20Name%20is%20Dawood'\n```\n\nThe final answer is: $\\boxed{\\text{def replace_spaces(s): return s.replace(' ', '%20')}}$",
+			"old_rat_retrievals": 8,
+			"final_answer": "## Replacing Spaces with '%20'\nTo replace all spaces in a given string with '%20', you can use Python's built-in string replacement methods.\n\n## Example Code\nHere is an example of how to use the `replace()` method to replace spaces with '%20':\n```python\ndef replace_spaces(s):\n    return s.replace(' ', '%20')\n\n# Test the function\nprint(replace_spaces(\"My Name is Dawood\"))  # Output: My%20Name%20is%20Dawood\n```\nThis function takes a string `s` as input and returns the string with all spaces replaced with '%20'. \n\nYou can use this function like this: \n```python\nresult = replace_spaces(\"My Name is Dawood\")\nassert result == 'My%20Name%20is%20Dawood'\n```",
+			"retrievals": 4
+		}
+	]
+}

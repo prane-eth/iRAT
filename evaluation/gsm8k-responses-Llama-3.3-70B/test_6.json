@@ -1,0 +1,13 @@
+{
+	"task_id": 6,
+	"prompt": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total cost of the glasses, we first need to determine the number of glasses that cost $5 and the number of glasses that cost 60% of $5. Since every second glass costs 60% of the price, we can consider the glasses in pairs: one glass at full price and the next at the discounted price.\n\nThe total number of glasses Kylar wants to buy is 16. This means there will be 8 pairs of glasses. In each pair, one glass costs $5, and the next costs 60% of $5. The cost of the discounted glass is $5 * 0.60 = $3.\n\nFor each pair, the total cost is $5 (for the first glass) + $3 (for the second glass) = $8. Since there are 8 pairs, the total cost for all the glasses is 8 pairs * $8 per pair = $64.\n\n#### $64",
+			"old_rat_retrievals": 3,
+			"final_answer": "To calculate the total cost of the glasses Kylar wants to buy, we first need to understand the pricing pattern. The first glass costs $5, and every second glass costs 60% of $5, which is $5 * 0.60 = $3.\n\nSince Kylar is buying 16 glasses, we can pair them up to simplify the calculation: the first glass at $5, the second at $3, the third at $5, and so on. This means for every pair of glasses, the total cost is $5 + $3 = $8.\n\nGiven that Kylar wants 16 glasses, we divide 16 by 2 to find the number of pairs, which equals 8 pairs. Each pair costs $8, so the total cost for all 16 glasses is 8 pairs * $8 per pair = $64.\n\n#### $64",
+			"retrievals": 2
+		}
+	]
+}

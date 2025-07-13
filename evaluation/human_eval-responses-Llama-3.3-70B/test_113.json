@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/112",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef reverse_delete(s,c):\n    \"\"\"Task\n    We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c\n    then check if the result string is palindrome.\n    A string is called palindrome if it reads the same backward as forward.\n    You should return a tuple containing the result string and True/False for the check.\n    Example\n    For s = \"abcde\", c = \"ae\", the result should be ('bcd',False)\n    For s = \"abcdef\", c = \"b\"  the result should be ('acdef',False)\n    For s = \"abcdedcba\", c = \"ab\", the result should be ('cdedc',True)\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef reverse_delete(s, c):\n    \"\"\"\n    This function deletes\n\n \n```python\n# Test cases\nprint(reverse_delete(\"abcde\", \"ae\"))  # ('bcd', False)\nprint(reverse_delete(\"abcdef\", \"b\"))  # ('acdef', False)\nprint(reverse_delete(\"abcdedcba\", \"ab\"))  # ('cdedc', True)\n```",
+			"old_rat_retrievals": 1,
+			"final_answer": "```python\ndef reverse_delete(s, c):\n    \"\"\"\n    This function deletes all characters in string `s` that match any character in string `c`, \n    then checks if the resulting string is a palindrome.\n\n    Args:\n        s (str): The original string.\n        c (str): The string containing characters to be deleted from `s`.\n\n    Returns:\n        tuple: A tuple containing the resulting string and a boolean indicating whether it's a palindrome.\n    \"\"\"\n    # Delete characters in s that match any character in c\n    result_string = ''.join([char for char in s if char not in c])\n    \n    # Check if the resulting string is a palindrome\n    is_palindrome = result_string == result_string[::-1]\n    \n    return result_string, is_palindrome\n\n# Test cases\nprint(reverse_delete(\"abcde\", \"ae\"))  # ('bcd', False)\nprint(reverse_delete(\"abcdef\", \"b\"))  # ('acdef', False)\nprint(reverse_delete(\"abcdedcba\", \"ab\"))  # ('cdedc', True)\n```",
+			"retrievals": 2
+		}
+	]
+}

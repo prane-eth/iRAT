@@ -1,0 +1,13 @@
+{
+	"task_id": 218,
+	"prompt": "There are 4 roses in the vase. There are 7 more dahlias than roses in the vase. How many flowers are there in the vase in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 4 + 7 = <<4+7=11>>11 dahlias in the vase.\nIn total there are 4 + 11 = <<4+11=15>>15 flowers in the vase.\n#### 15",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of flowers in the vase, we first need to determine the number of dahlias. We know there are 4 roses and that there are 7 more dahlias than roses.\n\nThe number of dahlias can be calculated by adding 7 to the number of roses. So, the number of dahlias = 4 (number of roses) + 7 = 11.\n\nNow, to find the total number of flowers in the vase, we need to add the number of roses to the number of dahlias. Total flowers = 4 (roses) + 11 (dahlias) = 15.\n\n#### 15",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of flowers in the vase, we first note that there are 4 roses. We are also told that there are 7 more dahlias than roses. This means the number of dahlias is 4 (the number of roses) + 7 = 11 dahlias.\n\nNow, to find the total number of flowers, we add the number of roses to the number of dahlias: 4 (roses) + 11 (dahlias) = 15 flowers.\n\nTherefore, the total number of flowers in the vase is 15.\n\n#### 15",
+			"retrievals": 1
+		}
+	]
+}

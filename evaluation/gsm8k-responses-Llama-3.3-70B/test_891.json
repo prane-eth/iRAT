@@ -1,0 +1,13 @@
+{
+	"task_id": 891,
+	"prompt": "There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.\nSo, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.\nThere are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.\nAnd 75 - 50 = <<75-50=25>>25 flowering plants.\nThus, 25/100 x 100% = 25% of the plants are flowering plants.\n#### 25",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the percentage of flowering plants in Mrs. Smith's garden, we first",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find the percentage of flowering plants in Mrs. Smith's garden, we first need to determine the total number of each type of plant. One-fourth of the 100 plants are indoor plants, which means there are 100 * (1/4) = 25 indoor plants. The remaining plants are 100 - 25 = 75. Two-thirds of these remaining plants are outdoor plants, so there are 75 * (2/3) = 50 outdoor plants. The rest of the plants are flowering plants, which means there are 75 - 50 = 25 flowering plants. To find the percentage of flowering plants, we take the number of flowering plants (25) and divide by the total number of plants (100), then multiply by 100 to get the percentage: (25 / 100) * 100 = 25%.\n\n#### 25%",
+			"retrievals": 0
+		}
+	]
+}

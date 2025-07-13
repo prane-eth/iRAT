@@ -1,0 +1,13 @@
+{
+	"task_id": 561,
+	"prompt": "A pet shop had 6 cages of rodents. 3 of the cages have 10 hamsters and the other 3 have 5 guinea pigs. How many rodents did the pet shop have in total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 3 cages x 10 hamsters/cage = <<3*10=30>>30 hamsters in the pet shop.\nThere are 3 cages x 5 guinea pigs/cage = <<3*5=15>>15 guinea pigs in the pet shop.\nThe pet shop has a total of 30 hamsters + 15 guinea pigs = <<30+15=45>>45 rodents.\n#### 45",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of rodents in the pet shop, we first need to calculate the number of hamsters and guinea pigs separately. \n\nThe pet shop has 3 cages with 10 hamsters in each cage. So, the total number of hamsters is 3 * 10 = 30.\n\nThe pet shop also has 3 cages with 5 guinea pigs in each cage. So, the total number of guinea pigs is 3 * 5 = 15.\n\nNow, to find the total number of rodents, we need to add the number of hamsters and guinea pigs together. total_rodents = 30 (hamsters) + 15 (guinea pigs) = 45.\n\n#### 45",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find the total number of rodents in the pet shop, we first calculate the number of hamsters and guinea pigs separately. The pet shop has 3 cages with 10 hamsters each, so the total number of hamsters is 3 * 10 = 30. The other 3 cages have 5 guinea pigs each, making the total number of guinea pigs 3 * 5 = 15. Adding these two totals together gives us the overall number of rodents: 30 (hamsters) + 15 (guinea pigs) = 45.\n\n#### 45",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 397,
+	"prompt": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find how many slices 1/3 of the pizza is by multiplying 1/3 by the total number of slices: 12 slices * 1/3 = <<12*1/3=4>>4 slices\nDo the same thing to find how many slices 1/4 of the pizza is: 12 slices * 1/4 = <<12*1/4=3>>3 slices\nThen subtract the slices each of the three people ate to find the remaining number of slices: 12 slices - 4 slices - 3 slices - 2 slices = <<12-4-3-2=3>>3 slices\n#### 3",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many slices are left, we first need to determine how many slices Jenny gives to Bill and Mark. Jenny gives 1/3 of the pizza to Bill. Since the pizza has 12 slices, we calculate 1/3 of 12 as (1/3) * 12 = 4 slices given to Bill.\n\nWe then calculate how many slices Jenny gives to Mark, which is 1/4 of the pizza. So, (1/4) * 12 = 3 slices given to Mark.\n\nNow, we add up the slices given to Bill and Mark, and the slices Jenny eats to find the total number of slices taken. Bill gets 4 slices, Mark gets 3 slices, and Jenny eats 2 slices. So, the total slices taken are 4 + 3 + 2 = 9 slices.\n\nThe pizza originally had 12 slices. After 9 slices are taken, we subtract to find out how many are left: 12 - 9 = 3 slices.\n\n#### 3",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of slices given to Bill\nTo find the number of slices given to Bill, we need to calculate 1/3 of the total number of slices. The total number of slices is 12. So, 1/3 of 12 is 12 * (1/3) = 4 slices.\n\n## Step 2: Calculate the number of slices given to Mark\nTo find the number of slices given to Mark, we need to calculate 1/4 of the total number of slices. The total number of slices is 12. So, 1/4 of 12 is 12 * (1/4) = 3 slices.\n\n## Step 3: Calculate the total number of slices given away\nThe total number of slices given away is the sum of the slices given to Bill and Mark. So, 4 slices (given to Bill) + 3 slices (given to Mark) = 7 slices.\n\n## Step 4: Calculate the number of slices left after giving away\nThe number of slices left after giving away is the total number of slices minus the slices given away. So, 12 slices (total) - 7 slices (given away) = 5 slices.\n\n## Step 5: Calculate the number of slices left after Jenny eats 2 slices\nAfter giving away 7 slices, Jenny has 5 slices left. She then eats 2 of these slices. So, the number of slices left after Jenny eats 2 slices is 5 - 2 = 3 slices.\n\n#### 3",
+			"retrievals": 2
+		}
+	]
+}

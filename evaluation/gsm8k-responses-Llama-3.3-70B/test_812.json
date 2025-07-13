@@ -1,0 +1,13 @@
+{
+	"task_id": 812,
+	"prompt": "Felix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made $105. On average, how many branches did he climb per day?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He climbed 420 branches in total because 105 / .25 = <<105/.25=420>>420\nHe climbed on average 60 branches a day because 420 / 7 = <<420/7=60>>60\n#### 60",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the average number of branches Felix climbed per day, we first need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many branches Felix climbed per day on average, we first need to determine the total number of branches he climbed during the week. Since Felix charges $0.25 per branch and he made $105, we can calculate the total number of branches by dividing the total amount earned by the cost per branch.\n\n## Step 1: Calculate the total number of branches climbed\nTotal amount earned = $105\nCost per branch = $0.25\nTotal number of branches = Total amount earned / Cost per branch = $105 / $0.25 = 420 branches\n\n## Step 2: Calculate the average number of branches climbed per day\nSince there are 7 days in a week, we divide the total number of branches climbed by the number of days to find the average number of branches climbed per day.\nAverage branches per day = Total number of branches / Number of days = 420 / 7 = 60\n\n#### 60",
+			"retrievals": 1
+		}
+	]
+}

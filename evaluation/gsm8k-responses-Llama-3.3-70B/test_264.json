@@ -1,0 +1,13 @@
+{
+	"task_id": 264,
+	"prompt": "There are 6 trees in Chris's yard.  Ferdinand has half the number of trees that Chris has.  Harry has 5 more than twice the number of trees that Ferdinand has.  How many more trees are in Harry's yard than Ferdinand's yard?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ferdinand:6/2=<<6/2=3>>3 trees\nHarry:5+2(3)=5+6=11 trees\n11-3=<<11-3=8>>8 trees\n#### 8",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many more trees are in Harry's yard than Ferdinand's yard\n\n`\nThe next step is to calculate the number of trees Harry has. Harry has 5 more than twice the number of trees that Ferdinand has. Since Ferdinand has 3 trees, twice that number is 3 * 2 = 6. Adding 5 more to this gives Harry 6 + 5 = 11 trees.\n\n`\nNow that we know Ferdinand has 3 trees and Harry has 11 trees, we can find out how many more trees Harry has than Ferdinand by subtracting Ferdinand's number of trees from Harry's: 11 - 3 = 8.\n\n#### 8",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine the number of trees Chris has\nChris has 6 trees in his yard.\n\n## Step 2: Calculate the number of trees Ferdinand has\nFerdinand has half the number of trees that Chris has, which means Ferdinand has 6 / 2 = 3 trees.\n\n## Step 3: Calculate the number of trees Harry has\nHarry has 5 more than twice the number of trees that Ferdinand has. Since Ferdinand has 3 trees, twice that number is 3 * 2 = 6. Then, 5 more than that is 6 + 5 = 11 trees.\n\n## Step 4: Find the difference in the number of trees between Harry's and Ferdinand's yards\nTo find how many more trees are in Harry's yard than Ferdinand's yard, we subtract the number of trees Ferdinand has from the number of trees Harry has: 11 - 3 = 8.\n\n#### 8",
+			"retrievals": 2
+		}
+	]
+}

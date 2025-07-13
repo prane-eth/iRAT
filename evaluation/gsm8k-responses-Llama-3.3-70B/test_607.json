@@ -1,0 +1,13 @@
+{
+	"task_id": 607,
+	"prompt": "Every 2 miles a car drives the tires rotate 725 times.  Jeremy drives 400 miles a month.  If each tire can undergo 10,440,000 rotations how many years before the tire needs to be replaced?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Jeremy drives 400/2=<<400/2=200>>200 segments of 2 miles\nThat means each month the car undergoes 200*725=<<200*725=145000>>145,000 rotations\nSo the tire can last for 10,440,000/145,000=<<10440000/145000=72>>72 months\nThat means the tires will last 72/12=<<72/12=6>>6 years\n#### 6",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine how many years before the tire needs to be replaced, we first need to calculate how many rotations the tire undergoes in a month. Given that every 2 miles a car drives, the tires rotate 725 times, and Jeremy drives 400 miles a month, we can calculate the total rotations per month.\n\nFirst, calculate the number of rotations per mile: 725 rotations / 2 miles = 362.5 rotations per mile. Then, for 400 miles, the total rotations would be 400 miles * 362.5 rotations/mile = 145,000 rotations per month.\n\nNext, we need to find out how many months the tire can last before it needs to be replaced, given that each tire can undergo 10,440,000 rotations. We divide the total number of rotations the tire can undergo by the number of rotations per month: 10,440,000 rotations / 145,000 rotations/month = 72 months.\n\nSince there are 12 months in a year, we then calculate how many years this corresponds to: 72 months / 12 months/year = 6 years.\n\n#### 6 years",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Calculate the number of rotations per mile\nTo find out",
+			"retrievals": 3
+		}
+	]
+}

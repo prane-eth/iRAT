@@ -1,0 +1,13 @@
+{
+	"task_id": 389,
+	"prompt": "James is in charge of running messages from the office to each teacher's classroom. If he delivers 66 messages to Ms. Thompson and 1/3 as many messages to Mr. Yu, how many messages does he deliver total?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "First find the number of messages Mr. Yu gets: 66 messages / 3 = <<66/3=22>>22 messages\nThen add that to the number of messages Ms. Thompson gets to find the total: 66 messages + 22 messages = <<66+22=88>>88 messages\n#### 88",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of messages James delivers, we first need to calculate how many messages he delivers to Mr. Yu. Since he delivers 1/3 as many messages to Mr. Yu as he does to Ms. Thompson, we can find this by multiplying the number of messages delivered to Ms. Thompson by 1/3.\n\nThe number of messages delivered to Ms. Thompson is 66. So, the number of messages delivered to Mr. Yu is 66 * (1/3) = 22.\n\nNow that we know James delivers 66 messages to Ms. Thompson and 22 messages to Mr. Yu, we can find the total number of messages delivered by adding these two numbers together: 66 + 22 = 88.\n\n#### 88",
+			"old_rat_retrievals": 4,
+			"final_answer": "## Step 1: Understanding the Problem\nThe problem asks us to find the total number of messages James delivers to teachers. He delivers 66 messages to Ms. Thompson and 1/3 as many messages to Mr. Yu.\n\n## Step 2: Calculating Messages Delivered to Mr. Yu\nTo find out how many messages James delivers to Mr. Yu, we need to calculate 1/3 of the messages delivered to Ms. Thompson. Since James delivers 66 messages to Ms. Thompson, the number of messages delivered to Mr. Yu is 66 * (1/3) = 22.\n\n## Step 3: Finding the Total Number of Messages Delivered\nNow that we know James delivers 66 messages to Ms. Thompson and 22 messages to Mr. Yu, we can find the total number of messages delivered by adding these two numbers together: 66 + 22 = 88.\n\n#### 88",
+			"retrievals": 2
+		}
+	]
+}

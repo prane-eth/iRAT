@@ -1,0 +1,13 @@
+{
+	"task_id": 1042,
+	"prompt": "Molly is catering a birthday party for her sister and invited 16 people. 10 people want the chicken salad which is $6.50 per person and 6 people want the pasta salad at $6 per person. What is the total amount Molly will pay for the catering?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Multiply the number of people who want chicken salad by the cost per person, so the cost is 10 x $6.50 = $<<10*6.5=65>>65.\nMultiply the amount of people who want pasta salad by the cost per person, so the cost is 6 x $6.00 = $<<6*6=36>>36.\nThe total cost of chicken salad and pasta salad is $65 + $36 = $<<65+36=101>>101.\n#### 101",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount Molly will pay for the catering, we need to calculate the cost of the chicken salad and the pasta salad separately and then add them together.\n\nFirst, let's calculate the cost of the chicken salad. 10 people want the chicken salad, and it costs $6.50 per person. So, the total cost of the chicken salad is 10 * $6.50 = $65.\n\nNext, let's calculate the cost of the pasta salad. 6 people want the pasta salad, and it costs $6 per person. So, the total cost of the pasta salad is 6 * $6 = $36.\n\nNow, we add the cost of the chicken salad and the pasta salad together to get the total amount Molly will pay. The total amount is $65 + $36 = $101.\n\n#### $101",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total amount Molly will pay for the catering, we need to calculate the cost of the chicken salad and the pasta salad separately and then add them together.\n\nThe cost of the chicken salad is $6.50 per person, and 10 people want it. So, the total cost of the chicken salad is 10 * $6.50 = $65.\n\nThe cost of the pasta salad is $6 per person, and 6 people want it. So, the total cost of the pasta salad is 6 * $6 = $36.\n\nTo find the total amount Molly will pay, we add the cost of the chicken salad and the pasta salad together. Total cost = $65 + $36 = $101.\n\n#### $101",
+			"retrievals": 2
+		}
+	]
+}

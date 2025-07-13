@@ -1,0 +1,13 @@
+{
+	"task_id": 784,
+	"prompt": "Bob had 7 fish in his ornamental fish pond. 3 were orange, and 4 were white. He decided he wanted to get some more, so he went to the pet store. He had a sales assistant at the pet shop dip out 17 fish out of a mixed tank of both white and orange fish. When he got them home and added them to his pond, he found that he now had twice as many orange fish as white fish. How many white fish did Bob buy at the store?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Bob started with 7 fish and bought seventeen, so he had 7 + 17 = <<7+17=24>>24 fish.\nLet x = the number of white fish.\nBob has twice as many orange fish as white fish, so 2*x + x = 24 fish\n3*x = 24\nx = 24/3 = <<24/3=8>>8 white fish.\nBob started with 4 white fish, so he bought 8 - 4 = 4 white fish at the store.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many white fish Bob bought, we first need to understand the",
+			"old_rat_retrievals": 0,
+			"final_answer": "To find out how many white fish Bob bought, we first need to understand the initial and final composition of his fish pond. Initially, Bob had 7 fish in his pond, with 3 being orange and 4 being white. He then added 17 more fish to his pond. After adding these fish, he found that he had twice as many orange fish as white fish.\n\nLet's denote the number of white fish Bob bought as W and the number of orange fish he bought as O. We know that O + W = 17, since he bought 17 fish in total.\n\nInitially, Bob had 3 orange fish and 4 white fish. After buying more, he had (3 + O) orange fish and (4 + W) white fish. We are told that after adding the new fish, he had twice as many orange fish as white fish. This can be represented as:\n\n3 + O = 2 * (4 + W)\n\nWe also know that O + W = 17. We can use these two equations to solve for W, the number of white fish Bob bought.\n\nFirst, let's express O in terms of W from the second equation:\nO = 17 - W\n\nNow, substitute O in the first equation:\n3 + (17 - W) = 2 * (4 + W)\n\nSimplifying this equation:\n20 - W = 8 + 2W\n\nMoving terms related to W to one side and constants to the other:\n20 - 8 = 2W + W\n12 = 3W\n\nDividing both sides by 3:\nW = 4\n\nSo, Bob bought 4 white fish at the store.\n\n#### 4",
+			"retrievals": 1
+		}
+	]
+}

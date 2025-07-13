@@ -1,0 +1,14 @@
+{
+	"task_id": 106,
+	"prompt": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies,\u00a0how many cookies do both of them eat together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Cody eats 5*3 = <<5*3=15>>15 cookies.\nCody and Amir eat 15+5 = <<15+5=20>>20 cookies together.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how many cookies both Cody and Amir eat together, we first need to determine how many cookies Cody eats. Since Cody eats three times as many cookies as Amir, and Amir eats 5 cookies, we can calculate Cody's cookie consumption as follows:\n\nCody's cookies = 3 * Amir's cookies\nCody's cookies = 3 * 5\nCody's cookies = 15\n\nNow, to find the total number of cookies they both eat, we add Amir's cookies to Cody's cookies:\n\nTotal cookies = Cody's cookies + Amir's cookies\nTotal cookies = 15 + 5\nTotal cookies = 20\n\n#### 20",
+			"old_rat_retrievals": 1,
+			"final_answer": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies, we can find out how many cookies Cody eats by multiplying the number of cookies Amir eats by 3. So, Cody eats 5 * 3 = 15 cookies. To find the total number of cookies they both eat together, we add the number of cookies Amir eats to the number of cookies Cody eats: 5 + 15 = 20.\n\n#### 20",
+			"retrievals": 0
+		}
+	],
+	"unsafe_prompt": true
+}

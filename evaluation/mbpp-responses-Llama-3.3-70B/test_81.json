@@ -1,0 +1,19 @@
+{
+	"task_id": 91,
+	"prompt": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list.?assert group_element([(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]) == {5: [6, 2], 7: [2, 8, 3], 8: [9]}",
+	"test_imports": [],
+	"test_list": [
+		"assert group_element([(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]) == {5: [6, 2], 7: [2, 8, 3], 8: [9]}",
+		"assert group_element([(7, 6), (3, 8), (3, 6), (9, 8), (10, 9), (4, 8)]) == {6: [7, 3], 8: [3, 9, 4], 9: [10]}",
+		"assert group_element([(8, 7), (4, 9), (4, 7), (10, 9), (11, 10), (5, 9)]) == {7: [8, 4], 9: [4, 10, 5], 10: [11]}"
+	],
+	"mbpp_code": "from itertools import groupby \r\ndef group_element(test_list):\r\n  res = dict()\r\n  for key, val in groupby(sorted(test_list, key = lambda ele: ele[1]), key = lambda ele: ele[1]):\r\n    res[key] = [ele[0] for ele in val] \r\n  return (res)",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo solve this problem, we need to create a function that takes a list of tuples as input and returns a dictionary where the keys are the 2nd elements of the tuples and the values are lists of the 1st elements.\nWe will initialize an empty dictionary to store the grouped elements. Then, we will iterate over each tuple in the input list.\n\n \nWe will check if the 2nd element of the tuple is already a key in the dictionary. If it is, we will append the 1st element to the corresponding list. If not, we will add the 2nd element as a new key and create a new list with the 1st element.\n\n \nHere is the code to accomplish this:\n```python\ndef group_element(tuple_list):\n    result = {}\n    for tup in tuple_list:\n        if tup[1] in result:\n            result[tup[1]].append(tup[0])\n        else:\n            result[tup[1]] = [tup[0]]\n    return result\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "To solve this problem, we need to create a function that takes a list of tuples as input and returns a dictionary where the keys are the 2nd elements of the tuples and the values are lists of the 1st elements.\n\nHere's a step-by-step breakdown of the solution:\n\n1. Initialize an empty dictionary to store the grouped elements.\n2. Iterate over each tuple in the input list.\n3. Check if the 2nd element of the tuple is already a key in the dictionary. If it is, append the 1st element to the corresponding list. If not, add the 2nd element as a new key and create a new list with the 1st element.\n\nHere is the code to accomplish this:\n\n```python\ndef group_element(tuple_list):\n    result = {}\n    for tup in tuple_list:\n        if tup[1] in result:\n            result[tup[1]].append(tup[0])\n        else:\n            result[tup[1]] = [tup[0]]\n    return result\n\n# Example usage:\nprint(group_element([(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]))\n```\n\nWhen you run this function with the provided example, it will output: `{5: [6, 2], 7: [2, 8, 3], 8: [9]}`. This solution effectively groups the 1st elements of the tuples based on the 2nd elements, as required.",
+			"retrievals": 3
+		}
+	]
+}

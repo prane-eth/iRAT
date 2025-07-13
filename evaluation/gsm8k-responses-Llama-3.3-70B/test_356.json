@@ -1,0 +1,13 @@
+{
+	"task_id": 356,
+	"prompt": "There are three trees in Eddy's backyard. The shortest tree has a height of 6 feet, and the second tree has a height of 5 feet more than the shortest tree. The height of the tallest tree is twice the height of the two trees combined. How tall is the tallest tree?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The height of the second tree is 6 + 5 = <<6+5=11>>11 feet.\nThus, the combined height of the two trees is 6 + 11 = <<6+11=17>>17 feet.\nTherefore the height of the tallest tree is 2 x 17 = <<2*17=34>>34 feet.\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the height of the tallest tree, we first need to determine the heights of the shortest and the second tree. The shortest tree is 6 feet tall. The second tree is 5 feet taller than the shortest tree, so its height is 6 + 5 = 11 feet.\n\nThe combined height of the shortest and the second tree is 6 + 11 = 17 feet. Since the height of the tallest tree is twice the height of the two trees combined, we calculate the tallest tree's height as 2 * 17 = 34 feet.\n\n#### 34",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Determine the height of the shortest tree\nThe shortest tree has a height of 6 feet.\n\n## Step 2: Calculate the height of the second tree\nThe second tree is 5 feet taller than the shortest tree, so its height is 6 + 5 = 11 feet.\n\n## Step 3: Calculate the combined height of the shortest and second trees\nThe combined height of the shortest and the second tree is 6 + 11 = 17 feet.\n\n## Step 4: Calculate the height of the tallest tree\nThe height of the tallest tree is twice the combined height of the shortest and the second tree, which is 2 * 17 = 34 feet.\n\nThe final answer is: #### 34",
+			"retrievals": 1
+		}
+	]
+}

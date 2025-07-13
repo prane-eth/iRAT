@@ -1,0 +1,13 @@
+{
+	"task_id": 491,
+	"prompt": "An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The boy still needs $12 - $4 = $<<12-4=8>>8.\nIf he saves $2 per day then it will take him $8 / $2/day = <<8/2=4>>4 days to save the remaining amount.\n#### 4",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many days it will take for the child to save the remaining amount of money, first, we need to determine the remaining amount needed. The toy car costs $12, and the child already has $4. \n\nThe remaining amount needed can be calculated by subtracting the child's savings from the cost of the toy car: $12 - $4 = $8.\n\nNext, we need to figure out how many days it will take for the child to save $8 if he saves $2 daily from his allowance. \n\nThis can be calculated by dividing the remaining amount needed by the daily savings: $8 / $2 = 4 days.\n\n#### 4 days",
+			"old_rat_retrievals": 5,
+			"final_answer": "To determine how many days it will take for the 8-year-old child to save enough money to buy the toy car, we first need to calculate the remaining amount he needs to save. The toy car costs $12, and he already has $4 in savings. So, the remaining amount he needs to save is $12 - $4 = $8.\n\nSince he plans to save $2 daily from his allowance, we divide the total amount he needs to save ($8) by his daily savings amount ($2) to find out how many days it will take. This calculation is $8 / $2 = 4 days.\n\nTherefore, it will take him 4 days to save the remaining amount needed to buy the toy car, assuming he consistently saves $2 daily from his allowance.\n\n#### 4",
+			"retrievals": 2
+		}
+	]
+}

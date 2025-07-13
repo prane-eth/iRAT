@@ -1,0 +1,13 @@
+{
+	"task_id": 236,
+	"prompt": "John orders some pizzas to share with his friends.  There are 20 friends in total, and John wants to make sure each can have 4 slices.  Pizzas are only sold sliced into 8 portions.  How many Pizzas does John need to order?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "John's 20 friends each need 4 slices, so that means 4*20= <<4*20=80>>80 slices are needed\nEach pizza has 8 slices, so to get 80 slices in total 80/8= <<80/8=10>>10 pizzas are needed\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how many pizzas John needs to order, we first need to calculate the total number of slices required for his friends and himself. Since there are 20 friends in total and we include John, that makes 21 people. Each person is supposed to get 4 slices.\n\nTotal slices needed = Number of people * Slices per person\nTotal slices needed = 21 * 4\nTotal slices needed = 84 slices\n\nPizzas are sold sliced into 8 portions. To find out how many pizzas are needed, we divide the total number of slices needed by the number of slices per pizza.\n\nNumber of pizzas = Total slices needed / Slices per pizza\nNumber of pizzas = 84 / 8\nNumber of pizzas = 10.5\n\nSince you cannot order half a pizza, John needs to order enough whole pizzas to meet or exceed the total slices needed. Therefore, he needs to round up the number of pizzas.\n\nNumber of pizzas to order = 11\n\n#### 11\n\n \nGiven that pizzas are sold sliced into 8 portions, we then need to find out how many pizzas are required to have at least 80 slices. To do this, we divide the total number of slices needed by the number of slices per pizza. Therefore, the calculation is 80 slices / 8 slices/pizza = 10 pizzas.\n\n#### 10",
+			"old_rat_retrievals": 3,
+			"final_answer": "## Step 1: Calculate Total Slices Needed\nTo determine the total number of slices needed, we multiply the number of friends by the number of slices each friend should get. So, 20 friends * 4 slices per friend = 80 slices.\n\n## Step 2: Understanding Pizza Sizing\nEach pizza provides 8 slices since they are sold sliced into 8 portions.\n\n## Step 3: Determine Number of Pizzas Needed\nTo find out how many pizzas are needed, we divide the total number of slices needed by the number of slices per pizza. So, 80 slices needed / 8 slices per pizza = 10 pizzas.\n\nThe final answer is: #### 10",
+			"retrievals": 2
+		}
+	]
+}

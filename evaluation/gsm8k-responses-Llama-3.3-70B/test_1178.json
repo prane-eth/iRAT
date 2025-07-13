@@ -1,0 +1,13 @@
+{
+	"task_id": 1178,
+	"prompt": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.\n12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.\n12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.\nA total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.\nTherefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.\n#### 17",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many students are not on varsity, we first need to calculate the number of students who are on varsity. \n\nThe class is composed of 12 boys and 12 girls. One-third of the girls are on varsity, which means (1/3) * 12 = 4 girls are on varsity. One-fourth of the boys are on varsity, which means (1/4) * 12 = 3 boys are on varsity.\n\nSo, the total number of students on varsity is 4 girls + 3 boys = 7 students.\n\nThe total number of students in the class is 12 boys + 12 girls = 24 students. \n\nTo find out how many students are not on varsity, we subtract the number of students on varsity from the total number of students. Therefore, 24 - 7 = 17 students are not on varsity.\n\n#### 17",
+			"old_rat_retrievals": 6,
+			"final_answer": "To determine the number of students who are not on varsity, we need to follow a series of steps.\n\nFirst, we calculate the number of girls and boys who are on varsity. Since one-third of the girls are on varsity, we multiply the total number of girls by one-third: 12 * (1/3) = 4. Similarly, since one-fourth of the boys are on varsity, we multiply the total number of boys by one-fourth: 12 * (1/4) = 3.\n\nNext, we find the total number of students on varsity by adding the number of girls and boys on varsity: 4 + 3 = 7.\n\nThen, we calculate the total number of students in the class by adding the number of boys and girls: 12 + 12 = 24.\n\nFinally, to find the number of students who are not on varsity, we subtract the total number of students on varsity from the total number of students in the class: 24 - 7 = 17.\n\n#### 17",
+			"retrievals": 1
+		}
+	]
+}

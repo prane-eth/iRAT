@@ -1,0 +1,13 @@
+{
+	"task_id": 198,
+	"prompt": "In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The total number of adults is 8417 + 9092 = <<8417+9092=17509>>17509\nThus the number of children is 23786 - 17509 = <<23786-17509=6277>>6277\n#### 6277",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of kids in Soda, we first need to determine the total number of adults, which includes both men and women. We know there are 8417 men and 9092 women.\n\nThe total number of adults can be calculated by adding the number of men and women: 8417 (men) + 9092 (women) = 17509 adults.\n\nNow, to find the number of kids, we subtract the total number of adults from the total population of Soda: 23786 (total inhabitants) - 17509 (adults) = 6277 kids.\n\n#### 6277",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the number of kids in Soda, we first need to calculate the total number of adults. The number of men is given as 8417, and the number of women is given as 9092.\n\nThe total number of adults is the sum of the number of men and women. Total number of adults = number of men + number of women = 8417 + 9092 = 17509.\n\nNow, to find the number of kids, we subtract the total number of adults from the total population. Total population = 23786, total number of adults = 17509. Number of kids = total population - total number of adults = 23786 - 17509 = 6277.\n\n#### 6277",
+			"retrievals": 2
+		}
+	]
+}

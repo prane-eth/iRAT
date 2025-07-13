@@ -1,0 +1,13 @@
+{
+	"task_id": 509,
+	"prompt": "The farm has 30 cows and the zoo has 20 sheep.  The zoo has twice as many cows as the farm does.  The farm has half as many sheep as the zoo does.  How many animals do the farm and zoo have combined?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The zoo has 2 * 30 cows = <<2*30=60>>60 cows.\nThe farm has 1/2 * 20 sheep = <<1/2*20=10>>10 sheep.\nCombined the zoo and farm have 30 cows + 10 sheep + 60 cows + 20 sheep = <<30+10+60+20=120>>120 animals.\n#### 120",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of animals at the farm and the zoo, we need to calculate the number of cows and sheep at each location. The farm has 30 cows and the zoo has 20 sheep.\n\nThe zoo has twice as many cows as the farm does, so the zoo has 2 * 30 = 60 cows. The farm has half as many sheep as the zoo does, so the farm has 20 / 2 = 10 sheep.\n\nNow, we can calculate the total number of animals at the farm and the zoo. The farm has 30 cows and 10 sheep, for a total of 30 + 10 = 40 animals. The zoo has 60 cows and 20 sheep, for a total of 60 + 20 = 80 animals.\n\nThe total number of animals at the farm and the zoo is 40 + 80 = 120 animals. \n\n#### 120",
+			"old_rat_retrievals": 4,
+			"final_answer": "To solve this problem, let's first identify the number of cows and sheep at both the farm and the zoo. The farm has 30 cows, and the zoo has 20 sheep. Additionally, we know that the zoo has twice as many cows as the farm, which means the zoo has 2 * 30 = 60 cows. We also know that the farm has half as many sheep as the zoo, so the farm has 20 / 2 = 10 sheep.\n\nNow, let's calculate the total number of animals at each location. The farm has 30 cows and 10 sheep, for a total of 30 + 10 = 40 animals. The zoo has 60 cows and 20 sheep, for a total of 60 + 20 = 80 animals.\n\nTo find the combined total of animals at the farm and the zoo, we simply add the total number of animals at each location. So, 40 (farm) + 80 (zoo) = 120 animals.\n\n#### 120",
+			"retrievals": 2
+		}
+	]
+}

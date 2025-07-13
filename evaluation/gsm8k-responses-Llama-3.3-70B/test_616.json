@@ -1,0 +1,13 @@
+{
+	"task_id": 616,
+	"prompt": "Scarlett found an aquarium for $10.00 at a yard sale.  At the pet store, she bought 2 bags of rocks for $2.50 each and 3 pieces of coral at $2.00 apiece.  She bought 20 fish at $0.50 each and she needed fish food that cost $2.00.  How much did she spend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "a bag of rocks cost $2.50 and she bought 2 bags so 2*2.50 = $<<2*2.5=5.00>>5.00\nShe bought 3 pieces of coral for $2.00 each so she spent 3*2 = $<<3*2=6.00>>6.00\nShe bought 20 fish that costs $0.50 each so 20*.50 = $<<20*.50=10.00>>10.00\nAll total she spent $10 on the aquarium, $5 on the rocks, $6 on coral, $10 on fish and $2 on food so 10+5+6+10+2 = $<<10+5+6+10+2=33.00>>33.00\n#### 33",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total amount Scarlett spent, we first need to calculate the cost of each item and then add them together. She started with an aquarium for $10.00.\n\n \nThe cost of the rocks can be calculated by multiplying the number of bags by the price per bag: 2 bags * $2.50 = $5.00. The cost of the coral is found by multiplying the number of pieces by the price per piece: 3 pieces * $2.00 = $6.00.\n\n \nThe cost of the fish is calculated by multiplying the number of fish by the price per fish: 20 fish * $0.50 = $10.00. Additionally, she spent $2.00 on fish food.\n\n \nNow, we add all these costs together: $10.00 (aquarium) + $5.00 (rocks) + $6.00 (coral) + $10.00 (fish) + $2.00 (fish food) = $33.00.\n\n#### $33.00",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total amount Scarlett spent, we first need to calculate the cost of each item she purchased and then add them together. The items include an aquarium, rocks, coral, fish, and fish food.\n\nThe aquarium cost $10.00. For the rocks, she bought 2 bags at $2.50 each, so the total cost for rocks is 2 * $2.50 = $5.00. The coral cost $2.00 apiece, and she bought 3 pieces, so the total cost for coral is 3 * $2.00 = $6.00. The fish cost $0.50 each, and she bought 20 fish, so the total cost for the fish is 20 * $0.50 = $10.00. Lastly, the fish food cost $2.00.\n\nTo find the total amount spent, we add the costs of all the items together: $10.00 (aquarium) + $5.00 (rocks) + $6.00 (coral) + $10.00 (fish) + $2.00 (fish food) = $33.00.\n\nThe total amount Scarlett spent is the sum of all the individual costs.\n#### $33.00",
+			"retrievals": 2
+		}
+	]
+}

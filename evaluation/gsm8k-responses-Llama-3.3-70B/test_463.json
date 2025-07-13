@@ -1,0 +1,13 @@
+{
+	"task_id": 463,
+	"prompt": "Ali had $21. Leila gave him half of her $100. How much does Ali have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Leila gave 100/2 = $<<100/2=50>>50 to Ali.\nAli now has $21+ $50 = $<<21+50=71>>71.\n#### 71",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Ali has now, first, we need to determine",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much Ali has now, we need to calculate the amount Leila gave him and add it to his initial amount. \n\n## Step 1: Calculate the amount Leila gave to Ali\nLeila gave Ali half of her $100, which is $100 / 2 = $50.\n\n## Step 2: Add the amount Leila gave to Ali's initial amount\nAli initially had $21. After receiving $50 from Leila, he now has $21 + $50 = $71.\n\n## Step 3: Determine the final amount Ali has\nThe final amount Ali has is $71.\n\n#### $71",
+			"retrievals": 1
+		}
+	]
+}

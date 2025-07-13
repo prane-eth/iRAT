@@ -1,0 +1,13 @@
+{
+	"task_id": 1084,
+	"prompt": "The bananas at the supermarket cost $0.80 each, or a bunch for $3.00.  Jenny buys 10 bunches that average 4 bananas per bunch. How much money, in dollars, did she save by buying the bananas in bunches instead of individually?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Ten bunches makes 10*3=$<<10*3=30>>30.\nThere are 10*4=<<10*4=40>>40 bananas.\n40 bananas would cost 40*0.80=$<<40*0.80=32>>32 individually.\nShe saved 32-30=<<32-30=2>>2 dollars\n#### 2",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much money Jenny saved by buying the bananas in bunches instead of individually, we first need to calculate the total number of bananas she bought. Since she bought 10 bunches that average 4 bananas per bunch, the total number of bananas is 10 * 4 = 40 bananas.\n\nIf Jenny had bought the bananas individually at $0.80 each, the total cost would have been 40 * $0.80 = $32.00. \n\nSince she bought the bananas in bunches for $3.00 per bunch, and she bought 10 bunches, the total cost for the bunches is 10 * $3.00 = $30.00.\n\nThe amount of money Jenny saved by buying the bananas in bunches instead of individually is the difference between the cost of buying them individually and the cost of buying them in bunches, which is $32.00 - $30.00 = $2.00.\n\n#### $2.00",
+			"old_rat_retrievals": 5,
+			"final_answer": "To find out how much money Jenny saved by buying the bananas in bunches instead of individually, we first need to calculate the cost of buying the bananas individually and then the cost of buying them in bunches.\n\nThe cost of buying bananas individually is $0.80 per banana. Since Jenny bought 10 bunches with an average of 4 bananas per bunch, she bought a total of 10 * 4 = 40 bananas. The total cost of buying these bananas individually would be 40 * $0.80 = $32.\n\nOn the other hand, the cost of buying a bunch of bananas is $3.00, regardless of the number of bananas in the bunch. Since Jenny bought 10 bunches, the total cost of buying the bananas in bunches is 10 * $3.00 = $30.\n\nTo determine the amount of money saved, we subtract the cost of buying in bunches from the cost of buying individually. So, $32 - $30 = $2.\n\nTherefore, Jenny saved $2 by buying the bananas in bunches instead of individually.\n\n#### $2",
+			"retrievals": 1
+		}
+	]
+}

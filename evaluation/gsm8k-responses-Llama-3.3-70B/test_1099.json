@@ -1,0 +1,13 @@
+{
+	"task_id": 1099,
+	"prompt": "Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Martha is 24 - 4 = <<24-4=20>>20 years old.\nJeff is 20 + 10 =<<20+10=30>>30 years old.\n#### 30",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find Jeff's age, we first need to establish Martha's age based on the information given about Mike's age and the age difference between Martha and Mike. Since Mike is 24 years old and Martha is 4 years younger than Mike, we subtract 4 from Mike's age to find Martha's age.\n\nMartha's age = Mike's age - 4 = 24 - 4 = 20\n\nNow that we know Martha is 20 years old, we can find Jeff's age. The problem states that Jeff is 10 years older than Martha. So, we add 10 to Martha's age to find Jeff's age.\n\nJeff's age = Martha's age + 10 = 20 + 10 = 30\n\n#### 30",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find Jeff's age, we first need to determine Martha's age. Since Martha is 4 years younger than Mike, and Mike is 24 years old, Martha's age can be calculated as follows: Martha's age = Mike's age - 4 = 24 - 4 = 20.\n\nGiven that Jeff is 10 years older than Martha, we can calculate Jeff's age as follows: Jeff's age = Martha's age + 10 = 20 + 10 = 30.\n\n#### 30",
+			"retrievals": 2
+		}
+	]
+}

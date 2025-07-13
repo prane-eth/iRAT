@@ -1,0 +1,13 @@
+{
+	"task_id": 161,
+	"prompt": "A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank\u2019s water depth on Wednesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Tuesday there was 17+7 = <<17+7=24>>24 feet of water in the tank.\n24/3 = 8. On Wednesday there was 2*8 = 16 feet of water in the tank.\n#### 16",
+	"responses": [
+		{
+			"old_rat_answer": "To find the tank's water depth on Wednesday, we first need to calculate the depth on Tuesday and then find two thirds of that depth.\n\n1. The tank had a depth of 17 feet on Monday.\n2. On Tuesday, it had 7 feet more water, so the depth on Tuesday was 17 + 7 = 24 feet.\n3. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. Two thirds of 24 feet is (2/3) * 24 = 16 feet.\n\nTherefore, the tank's water depth on Wednesday is 16 feet.\n\n#### 16",
+			"old_rat_retrievals": 1,
+			"final_answer": "## Step 1: Determine the water depth on Tuesday\nThe tank had a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. So, the water depth on Tuesday is 17 + 7 = 24 feet.\n\n## Step 2: Calculate the water depth on Wednesday\nOn Wednesday, the depth of the water is two thirds of what it was on Tuesday. To find the depth on Wednesday, we need to multiply the depth on Tuesday by 2/3. So, the depth on Wednesday is (2/3) * 24 = 16 feet.\n\n## Step 3: Verify the calculation\nTo ensure the calculation is correct, we can recheck the multiplication: (2/3) * 24 = (2 * 24) / 3 = 48 / 3 = 16. This confirms that the calculation is accurate.\n\n#### 16",
+			"retrievals": 1
+		}
+	]
+}

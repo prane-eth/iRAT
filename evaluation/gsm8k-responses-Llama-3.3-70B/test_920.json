@@ -1,0 +1,13 @@
+{
+	"task_id": 920,
+	"prompt": "To raise money for their class fund, each of the 30 students from one class sold lollipops that cost $0.8 per lollypop. On average, each student sold 10 lollipops. If they bought the lollipops for $0.5 each, how much money was the class able to raise from the profit of selling lollipops?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The class got $0.8 - $0.5 = $<<0.8-0.5=0.3>>0.3 profit from each lollipop.\nSo each student raised $0.3 x 10 = $<<0.3*10=3>>3 from selling 10 lollipops.\nTherefore, they were able to raise a total of $3 x 30 = $<<3*30=90>>90.\n#### 90",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo determine the amount of money the class was able to raise from selling lollipops, we first need to calculate the total number of lollipops sold. Since there are 30 students and each student sold 10 lollipops on average, the total number of lollipops sold is 30 * 10 = 300 lollipops.\n\nThe total revenue from selling the lollipops can be calculated by multiplying the number of lollipops sold by the selling price of each lollipop. The selling price per lollipop is $0.8, so the total revenue is 300 * $0.8 = $240.\n\nNext, we calculate the total cost of the lollipops. Since the students bought the lollipops for $0.5 each and they bought 300 lollipops, the total cost is 300 * $0.5 = $150.\n\nThe profit made from selling the lollipops is the difference between the total revenue and the total cost. So, the profit is $240 - $150 = $90.\n\n#### $90",
+			"old_rat_retrievals": 3,
+			"final_answer": "To determine the amount of money the class was able to raise from selling lollipops, we first need to calculate the total number of lollipops sold. Since there are 30 students and each student sold 10 lollipops on average, the total number of lollipops sold is 30 * 10 = 300 lollipops.\n\nThe total revenue from selling the lollipops can be calculated by multiplying the number of lollipops sold by the selling price of each lollipop. The selling price per lollipop is $0.8, so the total revenue is 300 * $0.8 = $240.\n\nNext, we calculate the total cost of the lollipops. Since the students bought the lollipops for $0.5 each and they bought 300 lollipops, the total cost is 300 * $0.5 = $150.\n\nThe profit made from selling the lollipops is the difference between the total revenue and the total cost. So, the profit is $240 - $150 = $90.\n\n#### $90",
+			"retrievals": 2
+		}
+	]
+}

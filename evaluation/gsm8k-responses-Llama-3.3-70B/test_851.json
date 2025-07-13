@@ -1,0 +1,13 @@
+{
+	"task_id": 851,
+	"prompt": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 55 - 10 = <<55-10=45>>45 goats left in Farm X.\nMr. Smith sold 10 x 2 = <<10*2=20>>20 goats from Farm Y.\nThus, 45 - 20 = <<45-20=25>>25 goats are left in Farm Y.\nTherefore, there are a total of 45 + 25 = <<45+25=70>>70 goats left in the two farms altogether.\n#### 70",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many goats are left in the two farms, we first need to calculate the number of goats sold from each farm. Mr. Smith sold 10 goats from Farm X. He sold twice as many goats from Farm Y as from Farm X, which means he sold 2 * 10 = 20 goats from Farm Y.\n\nThe initial number of goats in Farm X was 55, and in Farm Y was 45. After selling the goats, Farm X has 55 - 10 = 45 goats left, and Farm Y has 45 - 20 = 25 goats left.\n\nTo find the total number of goats left in both farms, we add the number of goats left in Farm X to the number of goats left in Farm Y: 45 (from Farm X) + 25 (from Farm Y) = 70.\n\n#### 70",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how many goats are left in the two farms, we first need to calculate the number of goats sold from each farm. Mr. Smith sold 10 goats from Farm X. He sold twice as many goats from Farm Y as from Farm X, which means he sold 2 * 10 = 20 goats from Farm Y.\n\nThe initial number of goats in Farm X was 55, and in Farm Y was 45. After selling the goats, Farm X has 55 - 10 = 45 goats left, and Farm Y has 45 - 20 = 25 goats left. \n\nTo find the total number of goats left in both farms, we add the number of goats left in Farm X to the number of goats left in Farm Y: 45 (from Farm X) + 25 (from Farm Y) = 70.\n\n#### 70",
+			"retrievals": 1
+		}
+	]
+}

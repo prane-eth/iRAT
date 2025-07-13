@@ -1,0 +1,13 @@
+{
+	"task_id": 283,
+	"prompt": "Maddy is buying pizza for her cousin's soccer game. There are 12 team members and 3 coaches. Each team member brings 2 guests. A pizza will serve 3 people. If each pizza costs $15, how many dollars will Maddy spend?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Maddy is buying pizza for 12 + 3 + (12*2) = <<12+3+12*2=39>>39 people.\nThus, she needs to buy 39/3=<<39/3=13>>13 pizzas.\nThus, she will spend $15*13=$<<15*13=195>>195.\n#### 195",
+	"responses": [
+		{
+			"old_rat_answer": "To determine how many dollars Maddy will spend on pizzas, we first need to calculate the total number of people attending the soccer game, then figure out how many pizzas are needed, and finally multiply the number of pizzas by the cost per pizza.\n\n1. Calculate the total number of people:\n- Team members: 12\n- Coaches: 3\n- Guests per team member: 2\n- Total guests: 12 team members * 2 guests = 24 guests\n- Total people: 12 team members + 3 coaches + 24 guests = 39 people\n\n2. Determine how many pizzas are needed:\n- Each pizza serves 3 people.\n- Total people: 39\n- Pizzas needed: 39 people / 3 people per pizza = 13 pizzas\n\n3. Calculate the total cost:\n- Cost per pizza: $15\n- Total pizzas: 13\n- Total cost: 13 pizzas * $15/pizza = $195\n\n#### $195",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find out how much Maddy will spend, we need to calculate the total number of people and then determine how many pizzas are needed. \n\nFirst, calculate the total number of people: 12 team members + 3 coaches = 15, and each of the 12 team members brings 2 guests, so 12 * 2 = 24 guests. The total number of people is 15 + 24 = 39.\n\nSince each pizza serves 3 people, we divide the total number of people by 3 to find out how many pizzas are needed: 39 / 3 = 13 pizzas.\n\nEach pizza costs $15, so the total cost will be 13 * $15 = $195.\n\n#### $195",
+			"retrievals": 1
+		}
+	]
+}

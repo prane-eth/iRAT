@@ -1,0 +1,13 @@
+{
+	"task_id": 293,
+	"prompt": "Susan earns $5 every 10 minutes for an online task she does. If she works between 8 a.m. and 11 a.m. and pauses in between for half an hour, how much money does she earn for the online task?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Because she rests for half an hour, the time she works is 11 - 8 - 0.5 = <<11-8-0.5=2.5>>2.5 hours.\nSo she works 2.5 * 60 = <<2.5*60=150>>150 minutes\nShe earns $5 per 10 minutes, so for the online task she earns in total 150 * 5/10=$<<150*5/10=75>>75.\n#### 75",
+	"responses": [
+		{
+			"old_rat_answer": "To find out how much money Susan earns, we first need to calculate the total time she spends working. Susan works from 8 a.m. to 11 a.m., which is 3 hours, or 180 minutes. However, she pauses for half an hour, which is 30 minutes. So, the actual time she works is 180 minutes - 30 minutes = 150 minutes.\n\nSince Susan earns $5 every 10 minutes, we divide the total working time by 10 to find out how many $5 increments she earns. 150 minutes / 10 minutes = 15 increments.\n\nEach increment is worth $5, so we multiply the number of increments by $5 to find the total amount earned. 15 increments * $5 = $75.\n\n#### $75",
+			"old_rat_retrievals": 5,
+			"final_answer": "## Step 1: Determine the total time Susan works\nSusan works from 8 a.m. to 11 a.m., which is a total of 3 hours. However, she takes a half-hour pause, so we subtract this pause from the total time: 3 hours - 0.5 hours = 2.5 hours.\n\n## Step 2: Convert the total working time into minutes\nConverting 2.5 hours into minutes gives us 2.5 hours * 60 minutes/hour = 150 minutes.\n\n## Step 3: Calculate the number of 10-minute intervals Susan works\nSince Susan earns $5 for every 10 minutes of work, we divide the total working time in minutes by 10 to find the number of intervals: 150 minutes / 10 minutes per interval = 15 intervals.\n\n## Step 4: Calculate Susan's total earnings\nWe multiply the number of intervals by her earnings per interval: 15 intervals * $5 per interval = $75.\n\nThe final answer is: #### $75",
+			"retrievals": 3
+		}
+	]
+}

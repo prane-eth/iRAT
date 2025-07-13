@@ -1,0 +1,13 @@
+{
+	"task_id": 195,
+	"prompt": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared $20 for this purchase. One crayon costs $2. How much change will she get?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Violetta is going to pay 5 * 2 = $<<5*2=10>>10 for the crayons she wants.\nIf she pays $20, she will get 20 - 10 = $<<20-10=10>>10 of change.\n#### 10",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how much change Violetta will get, we first need to calculate the total cost of the crayons she needs. She wants 5 different colors, and each crayon costs $2.\n\nThe total cost of the crayons can be calculated by multiplying the number of crayons by the cost of one crayon: 5 crayons * $2/crayon = $10.\n\nNext, we subtract the total cost of the crayons from the amount Violetta prepared for the purchase to find out how much change she will get: $20 (prepared amount) - $10 (total cost of crayons) = $10.\n\n#### $10",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find out how much change Violetta will get, we first need to calculate the total cost of the crayons she wants to buy. She needs 5 different colors, and one crayon costs $2.\n\nThe total cost of the crayons can be found by multiplying the number of crayons she needs by the cost of one crayon. So, 5 crayons * $2/crayon = $10.\n\nVioletta prepared $20 for this purchase. To find out how much change she will get, we subtract the total cost of the crayons from the amount she prepared. So, $20 - $10 = $10.\n\n#### $10",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 52,
+	"prompt": "Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He then travels back at a rate of 6 mph.  How long does it take him to get back?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "He was travelling at full speed for 4-1=<<4-1=3>>3 hours\nSo he went 3*10=<<3*10=30>>30 miles\nThat means it takes 30/6=<<30/6=5>>5 hours to get back\n#### 5",
+	"responses": [
+		{
+			"old_rat_answer": "To solve this problem, we first need to calculate the distance Tom travels from \n\n`\nPerforming the division gives us the time it takes for Tom to get back.\n\nTime = 30 miles / 6 mph = 5 hours.\n\n#### 5 hours",
+			"old_rat_retrievals": 7,
+			"final_answer": "## Step 1: Calculate the time Tom spent sailing from 1 to 4 PM\nTom sailed from 1 to 4 PM, which is a total of 3 hours.\n\n## Step 2: Calculate the distance Tom traveled from 1 to 4 PM\nSince Tom's ship can travel at 10 miles per hour, the distance traveled is given by Distance = Speed * Time = 10 miles/hour * 3 hours = 30 miles.\n\n## Step 3: Calculate the time it takes for Tom to travel back at a rate of 6 mph\nUsing the formula Time = Distance / Speed, we can find the time it takes for Tom to travel back. Time = 30 miles / 6 mph = 5 hours.\n\nThe final answer is: #### 5 hours",
+			"retrievals": 2
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"task_id": 1279,
+	"prompt": "Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Together they found 214 + 432 + 86 = <<214+432+86=732>>732 seashells before cleaning.\nAfter cleaning, their final seashell is 732 - 67 = <<732-67=665>>665.\n#### 665",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of good seashells, we first need to calculate the total number of seashells Tom, Nancy, and Benny found together. Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells.\n\nThe total number of seashells found is the sum of the seashells each of them found: 214 (Tom) + 432 (Nancy) + 86 (Benny) = 732 seashells.\n\nOut of these 732 seashells, 67 were discovered to be cracked. To find the number of good seashells, we subtract the number of cracked seashells from the total number of seashells: 732 - 67 = 665.\n\n#### 665",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of good seashells Tom, Nancy, and Benny found together, we first need to calculate the total number of seashells they found. Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells. \n\n## Step 1: Calculate the total number of seashells found\nTotal seashells = 214 (Tom) + 432 (Nancy) + 86 (Benny) = 732 seashells.\n\n## Step 2: Subtract the number of cracked seashells\nSince 67 seashells were cracked, we subtract this number from the total to find the number of good seashells. Good seashells = Total seashells - Cracked seashells = 732 - 67 = 665.\n\nThe final answer is #### 665",
+			"retrievals": 1
+		}
+	]
+}

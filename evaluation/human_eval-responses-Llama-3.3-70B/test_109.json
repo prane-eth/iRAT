@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/108",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef count_nums(arr):\n    \"\"\"\n    Write a function count_nums which takes an array of integers and returns\n    the number of elements which has a sum of digits > 0.\n    If a number is negative, then its first signed digit will be negative:\n    e.g. -123 has signed digits -1, 2, and 3.\n    >>> count_nums([]) == 0\n    >>> count_nums([-1, 11, -11]) == 1\n    >>> count_nums([1, 1, 2]) == 3\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef count_nums(arr):\n    \"\"\"\n    Write a function count_nums which takes an array of integers and returns\n    the number of elements which has a sum of digits > 0.\n    If a number is negative, then its first signed digit will be negative:\n    e.g. -123 has signed digits -1, 2, and 3.\n    >>> count_nums([]) == 0\n    >>> count_nums([-1, 11, -11]) == 1\n    >>> count_nums([1, 1, 2]) == 3\n    \"\"\"\n    def sum_of_digits(n):\n        return sum(int(digit) for digit in str(abs(n)))\n\n    count = 0\n    for num in arr:\n        if sum_of_digits(num) > 0:\n            count += 1\n    return count\n```\n\n```python\ndef count_nums(arr):\n    count = 0\n    for num in arr:\n        if num < 0:\n            sum_of_digits = -int(str(abs(num))[0]) + sum(int(digit) for digit in str(abs(num))[1:])\n        else:\n            sum_of_digits = sum(int(digit) for digit in str(num))\n        if sum_of_digits > 0:\n            count += 1\n    return count\n```",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef count_nums(arr):\n    \"\"\"\n    Write a function count_nums which takes an array of integers and returns\n    the number of elements which has a sum of digits > 0.\n    If a number is negative, then its first signed digit will be negative:\n    e.g. -123 has signed digits -1, 2, and 3.\n    >>> count_nums([]) == 0\n    >>> count_nums([-1, 11, -11]) == 1\n    >>> count_nums([1, 1, 2]) == 3\n    \"\"\"\n    count = 0\n    for num in arr:\n        digit_sum = 0\n        num_str = str(abs(num))\n        for digit in num_str:\n            digit_sum += int(digit)\n        if num < 0:\n            digit_sum = -digit_sum\n        if digit_sum > 0:\n            count += 1\n    return count\n```",
+			"retrievals": 3
+		}
+	]
+}

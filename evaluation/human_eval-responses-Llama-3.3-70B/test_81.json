@@ -1,0 +1,12 @@
+{
+	"task_id": "HumanEval/80",
+	"prompt": "Write functional code in Python according to the description.Start your code with:\n\ndef is_happy(s):\n    \"\"\"You are given a string s.\n    Your task is to check if the string is happy or not.\n    A string is happy if its length is at least 3 and every 3 consecutive letters are distinct\n    For example:\n    is_happy(a) => False\n    is_happy(aa) => False\n    is_happy(abcd) => True\n    is_happy(aabb) => False\n    is_happy(adb) => True\n    is_happy(xyy) => False\n    \"\"\"\n",
+	"responses": [
+		{
+			"old_rat_answer": "```python\ndef is_happy(s):\n    \"\"\"\n    This function checks if a given string is happy or not.\n    A string is happy if its length is at least 3 and every 3 consecutive letters are distinct.\n\n    Parameters:\n    s (str): The input string to check.\n\n    Returns:\n    bool: True if the string is happy, False otherwise.\n    \"\"\"\n    # Check if the length of the string is less than 3\n    if len(s) < 3:\n        return False\n    \n    # Iterate over the string with a sliding window of size 3\n    for i in range(len(s) - 2):\n        # Get the current 3 consecutive letters\n        window = s[i:i+3]\n        \n        # Check if all letters in the window are distinct\n        if len(set(window)) != 3:\n            return False\n    \n    # If we've checked all windows and haven't returned False, the string is happy\n    return True\n```\n\n### Example Use Cases:\n\n* `is_happy(\"a\")` => `False`\n* `is_happy(\"aa\")` => `False`\n* `is_happy(\"abcd\")` => `True`\n* `is_happy(\"aabb\")` => `False`\n* `is_happy(\"adb\")` => `True`\n* `is_happy(\"xyy\")` => `False`\n\n### Explanation:\n\n1. The function first checks if the length of the input string is less than 3. If it is, the function immediately returns `False`, because a string of length less than 3 cannot be happy.\n2. The function then iterates over the string with a sliding window of size 3. For each window, it checks if all 3 letters are distinct by converting the window to a set (which removes duplicates) and checking if the length of the set is 3. If it finds a window where not all letters are distinct, it immediately returns `False`.\n3. If the function checks all windows and doesn't find any with duplicate letters, it returns `True`, indicating that the string is happy.",
+			"old_rat_retrievals": 3,
+			"final_answer": "```python\ndef is_happy(s):\n    \"\"\"You are given a string",
+			"retrievals": 3
+		}
+	]
+}

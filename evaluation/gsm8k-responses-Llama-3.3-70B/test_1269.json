@@ -1,0 +1,13 @@
+{
+	"task_id": 1269,
+	"prompt": "A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "There are 4*2 = <<4*2=8>>8 yellow blocks in the tower.\nThere are 32-4-8 = <<32-4-8=20>>20 red blocks in the tower.\n#### 20",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the number of red blocks in the tower, we first need to determine the total number of blue and yellow blocks. We know that there are 4 blue blocks. Since there are twice as many yellow blocks as blue blocks, the number of yellow blocks is 2 * 4 = 8.\n\nThe total number of blue and yellow blocks is 4 (blue) + 8 (yellow) = 12 blocks. \n\nWe are told that the total number of blocks in the tower is 32. To find the number of red blocks, we subtract the total number of blue and yellow blocks from the total number of blocks. So, the number of red blocks is 32 (total blocks) - 12 (blue and yellow blocks) = 20.\n\n#### 20",
+			"old_rat_retrievals": 0,
+			"final_answer": "## Step 1: Determine the total number of blue blocks\nThe problem states that the tower is made out of 4 blue blocks.\n\n## Step 2: Calculate the total number of yellow blocks\nIt is given that there are twice as many yellow blocks as blue blocks. Therefore, the total number of yellow blocks is 2 * 4 = 8.\n\n## Step 3: Calculate the total number of blue and yellow blocks\nThe total number of blue and yellow blocks is 4 + 8 = 12.\n\n## Step 4: Determine the total number of blocks in the tower\nThe problem states that there are 32 blocks in the tower in total.\n\n## Step 5: Calculate the number of red blocks\nTo find the number of red blocks, subtract the total number of blue and yellow blocks from the total number of blocks in the tower. Therefore, the number of red blocks is 32 - 12 = 20.\n\n#### 20",
+			"retrievals": 4
+		}
+	]
+}

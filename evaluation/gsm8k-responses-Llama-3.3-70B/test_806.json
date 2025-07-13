@@ -1,0 +1,13 @@
+{
+	"task_id": 806,
+	"prompt": "James buys a ring for his bride-to-be.  The diamond cost $600 and the gold cost $300.  He pays a 30% premium for it to be made.  How much did he pay?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "The material cost 600+300=$<<600+300=900>>900\nThe premium came out to 900*.3=$<<900*.3=270>>270\nSo the total cost was 900+270=$<<900+270=1170>>1170\n#### 1170",
+	"responses": [
+		{
+			"old_rat_answer": "To find the total amount James paid, we first need to calculate the cost of the ring before the premium and then add the premium.\n\n1. Calculate the total cost of the ring before the premium:\n   - Diamond cost: $600\n   - Gold cost: $300\n   - Total cost before premium: $600 + $300 = $900\n\n2. Calculate the premium:\n   - Premium rate: 30%\n   - Premium amount: 30% of $900 = 0.30 * $900 = $270\n\n3. Calculate the total amount paid by James:\n   - Total cost before premium: $900\n   - Premium amount: $270\n   - Total amount paid: $900 + $270 = $1170\n\n#### $1170",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total amount James paid for the ring, we first need to find the total cost of the materials, which includes the diamond and the gold. The diamond cost $600 and the gold cost $300, so the total material cost is $600 + $300 = $900.\n\nNext, we need to calculate the premium James paid for the ring to be made. The premium is 30% of the total material cost. To find 30% of $900, we multiply $900 by 0.30, which gives us $270.\n\nFinally, we add the total material cost and the premium to find the total amount James paid. So, $900 (total material cost) + $270 (premium) = $1170.\n\n#### $1170",
+			"retrievals": 0
+		}
+	]
+}

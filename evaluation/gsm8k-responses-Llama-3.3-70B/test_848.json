@@ -1,0 +1,13 @@
+{
+	"task_id": 848,
+	"prompt": "Brenda invested $300 into a scheme that accumulates simple interest at the rate of three-quarters of the original amount per year. How much in total will she have after 3 years?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Three-quarters of $300 is (3/4)*$300 = $<<(3/4)*300=225>>225\nAfter 3 years, interest of $225*3 = $<<225*3=675>>675 has been accumulated\nShe now has a total of $300+$675 = $<<300+675=975>>975\n#### 975",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the total amount Brenda will have after 3 years, we need to",
+			"old_rat_retrievals": 1,
+			"final_answer": "To calculate the total amount Brenda will have after 3 years, we first need to understand the formula for simple interest, which is I = P * r * t, where I is the interest, P is the principal amount (initial investment), r is the annual interest rate, and t is the time in years.\n\nGiven that Brenda invested $300 and the interest rate is three-quarters of the original amount per year, we can express the interest rate as 3/4 or 0.75. The principal amount (P) is $300, the annual interest rate (r) is 0.75, and the time (t) is 3 years.\n\nFirst, calculate the interest earned per year: $300 * 0.75 = $225.\n\nSince this is simple interest, the interest earned each year will be the same: $225 per year.\n\nOver 3 years, the total interest earned will be $225 * 3 = $675.\n\nTo find the total amount Brenda will have after 3 years, add the initial investment to the total interest earned: $300 (initial investment) + $675 (total interest) = $975.\n\n#### $975",
+			"retrievals": 1
+		}
+	]
+}

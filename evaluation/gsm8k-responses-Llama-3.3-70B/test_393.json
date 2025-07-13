@@ -1,0 +1,13 @@
+{
+	"task_id": 393,
+	"prompt": "Tim decides to cancel his cable subscription and get streaming services.  He gets Netflix for $10 a month.  Hulu and Disney Plus normally cost $10 a month each but he saves 20% for bundling.  How much money does he save by cancelling his $60 cable package?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Hulu and Disney Plus normally cost 10+10=$<<10+10=20>>20\nBy bundling he saves 20*.2=$<<20*.2=4>>4\nSo in total it cost 20-4=$<<20-4=16>>16\nSo he pays 16+10=$<<16+10=26>>26 for streaming\nThat means he saves 60-26=$<<60-26=34>>34 a month\n#### 34",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the amount of money Tim saves by cancelling his cable subscription, we first need to determine how much he pays for the streaming services. He gets Netflix for $10 a month. \n\nHulu and Disney Plus normally cost $10 a month each, but he saves 20% for bundling. The total cost for Hulu and Disney Plus without the bundle would be $10 + $10 = $20. With a 20% discount for bundling, the savings would be 20% of $20, which is 0.20 * $20 = $4.\n\nSo, the cost for Hulu and Disney Plus with the bundle would be $20 - $4 = $16. Adding this to the cost of Netflix, Tim's total monthly cost for streaming services would be $10 (Netflix) + $16 (Hulu and Disney Plus with the bundle) = $26.\n\nNow, to find out how much he saves by cancelling his $60 cable package, we subtract the cost of the streaming services from the cost of the cable package: $60 - $26 = $34.\n\n#### $34",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the amount of money Tim saves by cancelling his cable subscription and switching to streaming services, we need to determine the total cost of the streaming services he subscribes to and then compare it to the cost of his cable package.\n\nTim gets Netflix for $10 a month. Hulu and Disney Plus normally cost $10 a month each, but he saves 20% for bundling. The total cost of Hulu and Disney Plus without the bundle would be $10 + $10 = $20. With a 20% discount for bundling, the savings would be 20% of $20, which is 0.20 * $20 = $4. Therefore, the cost of the bundled Hulu and Disney Plus would be $20 - $4 = $16. Adding the cost of Netflix, the total monthly cost for Tim's streaming services would be $10 (Netflix) + $16 (Hulu and Disney Plus) = $26.\n\nTo find out how much money Tim saves by cancelling his $60 cable package and switching to the streaming services, we subtract the total cost of the streaming services from the cost of the cable package. The savings would be $60 (cable) - $26 (streaming) = $34.\n\n#### $34",
+			"retrievals": 2
+		}
+	]
+}

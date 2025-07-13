@@ -1,0 +1,13 @@
+{
+	"task_id": 1187,
+	"prompt": "Sam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "On Monday, Wednesday and Friday, Mike ran 3 * 3 = <<3*3=9>>9 miles\nOn Tuesday and Thursday, he ran 5 * 2 = <<5*2=10>>10 miles\nDuring the 5 days together, he ran a total of 10 + 9 = <<10+9=19>>19 miles\n#### 19",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total miles Sam ran this week, we need to first calculate the miles run on each set of days and then add them together. \nOn Monday, Wednesday, and Friday, Sam ran 3 miles each day. Since there are 3 days, the total miles run on these days can be calculated by multiplying the miles run per day by the number of days: 3 miles/day * 3 days = 9 miles.\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. Since there are 2 days, the total miles run on these days can be calculated by multiplying the miles run per day by the number of days: 5 miles/day * 2 days = 10 miles.\n\nNow, we add the miles run on both sets of days to find the total miles run in the week: 9 miles + 10 miles = 19 miles.\n\n#### 19",
+			"old_rat_retrievals": 1,
+			"final_answer": "To find the total miles Sam ran this week, we need to first calculate the miles run on each set of days and then add them together. \n\nOn Monday, Wednesday, and Friday, Sam ran 3 miles each day. Since there are 3 days, the total miles run on these days can be calculated by multiplying the miles run per day by the number of days: 3 miles/day * 3 days = 9 miles.\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. Since there are 2 days, the total miles run on these days can be calculated by multiplying the miles run per day by the number of days: 5 miles/day * 2 days = 10 miles. \n\nNow, we add the miles run on both sets of days to find the total miles run in the week: 9 miles + 10 miles = 19 miles. \n\n#### 19",
+			"retrievals": 1
+		}
+	]
+}

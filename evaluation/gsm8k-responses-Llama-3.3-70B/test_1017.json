@@ -1,0 +1,13 @@
+{
+	"task_id": 1017,
+	"prompt": "Mrs. Tatiana owns a grocery store that sells different fruits and vegetables, which includes carrots. The price of carrots in the grocery store increases by 5% of the original price every year. What would be the price of carrots after three years if it was $120 initially? (Round to the nearest integer)\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "In the first year, the price of carrots increases by 5/100*120 = $<<5/100*120=6>>6\nAfter 3 years, the price of carrots will increase by $6*3 = $<<6*3=18>>18\nThe total price of carrots after three years will be 120+18 = $<<120+18=138>>138\n#### 138",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo calculate the price of carrots after three years, we need to find the price increase each year and add it to the original price. The price increase is 5% of the original price. \n\nThe original price of carrots is $120. The price increase after the first year will be 5% of $120, which is 0.05 * $120 = $6. So, the price after the first year will be $120 + $6 = $126.\n\nAfter the first year, the price becomes $126. The price increase after the second year will be 5% of $126, which is 0.05 * $126 = $6.30. So, the price after the second year will be $126 + $6.30 = $132.30.\n\nAfter the second year, the price becomes $132.30. The price increase after the third year will be 5% of $132.30, which is 0.05 * $132.30 = $6.615. So, the price after the third year will be $132.30 + $6.615 = $138.915.\n\nRounding $138.915 to the nearest integer, we get $139.\n\n#### $139",
+			"old_rat_retrievals": 5,
+			"final_answer": "To calculate the price of carrots after three years, we first need to understand the formula for calculating the future value of an item with an annual increase in price. The formula is FV = PV \u00d7 (1 + r)^n, where FV is the future value, PV is the present value (initial price), r is the annual rate of increase, and n is the number of years.\n\nGiven that the initial price of carrots is $120, the annual rate of increase is 5% or 0.05, and the number of years is 3, we can plug these values into the formula:\n\nFV = $120 \u00d7 (1 + 0.05)^3\nFV = $120 \u00d7 (1.05)^3\nFV = $120 \u00d7 1.157625\nFV = $138.9175\n\nRounding $138.9175 to the nearest integer, we get $139.\n\n#### $139",
+			"retrievals": 2
+		}
+	]
+}

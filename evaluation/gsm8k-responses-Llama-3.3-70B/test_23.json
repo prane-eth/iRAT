@@ -1,0 +1,13 @@
+{
+	"task_id": 23,
+	"prompt": "Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.\nHis next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.\nHe sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.\n#### 7",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of DVDs Billy sold on Tuesday, we first need to calculate the number of DVDs bought by each group of customers. \n\nHis first 3 customers buy one DVD each, so the total number of DVDs bought by these customers is 3 * 1 = 3 DVDs.\n\nHis next 2 customers buy 2 DVDs each, so the total number of DVDs bought by these customers is 2 * 2 = 4 DVDs.\n\nHis last 3 customers don't buy any DVDs, which means they bought 0 DVDs in total.\n\nNow, we add up the total number of DVDs bought by all customers to find out how many DVDs Billy sold. Total DVDs = 3 (from the first 3 customers) + 4 (from the next 2 customers) + 0 (from the last 3 customers) = 3 + 4 + 0 = 7 DVDs.\n\n#### 7",
+			"old_rat_retrievals": 2,
+			"final_answer": "To find out how many DVDs Billy sold on Tuesday, we need to calculate the total number of DVDs bought by his customers. Billy had 8 customers, and they can be divided into three groups based on their purchases.\n\nThe first group consists of his first 3 customers, who bought one DVD each. So, the total number of DVDs bought by these customers is 3 * 1 = 3 DVDs.\n\nThe second group consists of his next 2 customers, who bought 2 DVDs each. So, the total number of DVDs bought by these customers is 2 * 2 = 4 DVDs.\n\nThe last group consists of his last 3 customers, who didn't buy any DVDs. Therefore, they bought 0 DVDs in total.\n\nNow, we add up the total number of DVDs bought by all customers to find out how many DVDs Billy sold. Total DVDs = 3 (from the first 3 customers) + 4 (from the next 2 customers) + 0 (from the last 3 customers) = 3 + 4 + 0 = 7 DVDs.\n\n#### 7",
+			"retrievals": 2
+		}
+	]
+}

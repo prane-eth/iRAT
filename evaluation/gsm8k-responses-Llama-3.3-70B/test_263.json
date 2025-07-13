@@ -1,0 +1,13 @@
+{
+	"task_id": 263,
+	"prompt": "Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from her friend. How many marbles does she have now?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Maddison has 5 x 50 = <<5*50=250>>250 marbles from her boxes.\nSo she has a total of 250 + 20 = <<250+20=270>>270 marbles now.\n#### 270",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find out how many marbles Maddison has now, we first need to calculate the total number of marbles she had in the boxes. She has 5 boxes with 50 marbles in each box. So, the total number of marbles in the boxes is 5 * 50 = 250 marbles.\n\nThen, she gets 20 marbles from her friend. To find the total number of marbles she has now, we need to add the marbles she got from her friend to the marbles she already had in the boxes. So, the total number of marbles she has now is 250 + 20 = 270 marbles.\n\n#### 270",
+			"old_rat_retrievals": 3,
+			"final_answer": "To find the total number of marbles Maddison has, we first calculate the total number of marbles in the boxes. Since she has 5 boxes with 50 marbles in each box, we multiply the number of boxes by the number of marbles in each box: 5 * 50 = 250.\n\nThen, she gets 20 marbles from her friend. To find the total number of marbles she now has, we add the marbles she received to the initial total: 250 + 20 = 270.\n\n#### 270",
+			"retrievals": 2
+		}
+	]
+}

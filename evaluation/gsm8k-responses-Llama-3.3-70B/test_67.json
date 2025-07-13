@@ -1,0 +1,13 @@
+{
+	"task_id": 67,
+	"prompt": "There are four schools competing at a basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?\n\n At the end, write the final answer after \"####\" at last.\n For example, if the answer is ABC, write \"#### ABC\"",
+	"correct_answer": "Each school has sent 1 girls\u2019 basketball team + 1 boys\u2019 basketball team = <<1+1=2>>2 teams.\nSo each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.\nThey have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.\nIn total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.\nTherefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.\n#### 48",
+	"responses": [
+		{
+			"old_rat_answer": "\n\nTo find the total number of people sent by all the schools, we first need to calculate the number of people sent by each school. Each school has a girls' basketball team and a boys' basketball team, each with 5 players. So, the total number of players from each school is 5 (girls) + 5 (boys) = 10 players.\n\nEach school also sends a coach for each team, meaning there are 2 coaches per school. Adding these to the total number of players from each school, we get 10 players + 2 coaches = 12 people per school.\n\nSince there are four schools competing, we multiply the number of people sent by each school by the total number of schools. So, 12 people per school * 4 schools = 48 people in total.\n\n#### 48",
+			"old_rat_retrievals": 4,
+			"final_answer": "To find the total number of people sent by all schools, we first calculate the number of people sent by each school. Each school has 2 teams (girls' and boys' basketball teams), with 5 players on each team, making a total of 10 players per school. Additionally, each school sends 2 coaches, one for each team. So, the total number of people sent by each school is 10 players + 2 coaches = 12 people.\n\nSince there are 4 schools competing, we multiply the total number of people sent by one school by the total number of schools: 12 people/school * 4 schools = 48 people.\n\n#### 48",
+			"retrievals": 2
+		}
+	]
+}
