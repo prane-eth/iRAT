@@ -40,8 +40,8 @@ python irat/server.py
 
 
 ## Evaluation steps:
-1. Create response data using [evaluation/create_responses.ipynb](evaluation/create_responses.ipynb) notebook.
-2. Evaluate the responses using [evaluation/process_responses.ipynb](evaluation/process_responses.ipynb) notebook.
+1. Create response data using [evaluation/create_responses.py](evaluation/create_responses.py).
+2. Evaluate the responses using [evaluation/process_responses.ipynb](evaluation/process_responses.ipynb).
 
 ## Sample:
 ![](Demo/Sample_4.png)
