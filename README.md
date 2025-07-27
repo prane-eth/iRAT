@@ -2,9 +2,10 @@
 
 # _iRAT_: Replanning and Controlled Retrieval for Robust LLM Reasoning
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-yellow.svg?style=for-the-badge)](./LICENSE.md)
 [![Preprint](https://img.shields.io/badge/Preprint-202507.1289-fcd400?style=for-the-badge)](https://www.preprints.org/manuscript/202507.1289)
+[![Model](https://img.shields.io/badge/HuggingFace-iRATReasoningChainEvaluatorv2-orange?style=for-the-badge&logo=huggingface)](https://huggingface.co/prane-eth/iRATReasoningChainEvaluatorv2)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-darkgreen.svg?style=for-the-badge)](./LICENSE.md)
 <!-- [![DOI](https://img.shields.io/badge/DOI-10.XXXXX/XXXXX-darkgreen?style=for-the-badge)](https://doi.org/10.XXXXX/XXXXX) -->
 <!-- [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@praneeth.v/<link here>) -->
 
