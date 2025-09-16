@@ -4,10 +4,13 @@
 
 [![Preprint](https://img.shields.io/badge/Preprint-202507.1289-fcd400?style=for-the-badge)](https://www.preprints.org/manuscript/202507.1289)
 [![Model](https://img.shields.io/badge/HuggingFace-iRATReasoningChainEvaluatorv2-orange?style=for-the-badge&logo=huggingface)](https://huggingface.co/prane-eth/iRATReasoningChainEvaluatorv2)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@praneeth.v/introducing-irat-smarter-reasoning-for-large-language-models-37c8741c3b80)
+
+[![AI](https://img.shields.io/badge/AI-C21B00?style=for-the-badge&logo=openaigym&logoColor=white)]()
+[![LLMs](https://img.shields.io/badge/LLMs-1A535C?style=for-the-badge&logo=openai&logoColor=white)]()
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-darkgreen.svg?style=for-the-badge)](./LICENSE.md)
 <!-- [![DOI](https://img.shields.io/badge/DOI-10.XXXXX/XXXXX-darkgreen?style=for-the-badge)](https://doi.org/10.XXXXX/XXXXX) -->
-<!-- [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@praneeth.v/<link here>) -->
 
 <br>
 
@@ -46,17 +49,6 @@ python server.py
 ## Demo
 Screenshots are available in the [Demo](Demo) folder.
 
-## :identification_card: License
-Copyright © 2025 Praneeth Vadlapati and team <br>
-Please refer to the [LICENSE](./LICENSE.md) file for more information. <br>
-To request a permission to use my work, please contact me using the link below.
-
-## :warning: Disclaimer
-The code is not intended for use in production environments.
-This code is for educational and research purposes only.
-No author is responsible for any misuse or damage caused by this code.
-Use it at your own risk. The code is provided as is without any guarantees or warranty.
-
 
 ## Team members:
 Praneeth Vadlapati ([@prane-eth](https://github.com/prane-eth)) \<praneeth.vad@gmail.com\> \
@@ -71,7 +63,18 @@ Alvaro Arteaga ([@LagrangianPoint](https://github.com/LagrangianPoint))
 - **Alvaro Arteaga**: User input scanning, and the idea of spam website filter.
 
 ## :email: Contact
-For personal queries, please find Praneeth's contact details here: [linktr.ee/prane.eth](https://linktr.ee/prane.eth)
+For personal queries, please find Praneeth's contact details here: https://prane-eth.github.io/
+
+## :identification_card: License
+Copyright © 2025 Praneeth Vadlapati and team <br>
+Please refer to the [LICENSE](./LICENSE.md) file for more information. <br>
+To request a permission to use my work, please contact me using the link below.
+
+## :warning: Disclaimer
+The code is not intended for use in production environments.
+This code is for educational and research purposes only.
+No author is responsible for any misuse or damage caused by this code.
+Use it at your own risk. The code is provided as is without any guarantees or warranty.
 
 ---
 
